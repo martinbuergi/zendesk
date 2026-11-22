@@ -1,0 +1,17 @@
+[live-session] waiting to pace live navigations to www.zendesk.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 1440px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 42 text nodes — 7 headings, 0 eyebrows, 27 CTAs, 8 body; 52 img
+  build: 42 text nodes — 7 headings, 0 eyebrows, 27 CTAs, 8 body; 52 img
+  editable texts (outermost h*/p/ul/ol): source 35 / build 35
+  attributes (placeholder/aria-label/title): source 27 / build 27; icons: source 4 / build 4
+root "header": absent on both sides (no <header> / [role="banner"] outside the main root(s)) — not compared
+root "footer"
+  source: 143 text nodes — 14 headings, 0 eyebrows, 129 CTAs, 0 body; 0 img
+  build: 143 text nodes — 14 headings, 0 eyebrows, 129 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 20 / build 20
+  attributes (placeholder/aria-label/title): source 35 / build 35; icons: source 40 / build 40
+
+Findings: none — content + roles match
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 0

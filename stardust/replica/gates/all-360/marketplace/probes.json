@@ -1,0 +1,83 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-21T13:48:27.287Z",
+ "content": {
+  "totals": {
+   "missingHeadings": 0,
+   "hiddenHeadings": 0,
+   "extraHeadings": 0,
+   "missingLinks": 0,
+   "hiddenLinks": 0,
+   "movedLinks": 0,
+   "extraLinks": 17,
+   "missingButtons": 0,
+   "hiddenButtons": 0,
+   "controlState": 0,
+   "countDeltas": 2,
+   "findings": 20,
+   "structural": 0,
+   "missing": 0,
+   "hidden": 0
+  },
+  "variable": [
+   "section.sc-a45d110c-1=.bl-group.grid:not(.no-head):not(.features)"
+  ],
+  "reason": "listing hub (cluster-listing): the featured-apps, experimental, themes and partners rails are client-rendered from the live marketplace catalogue and reshuffle per visit (D3 interim: authored cards as captured); compared as counts, not by link text.",
+  "tier": "chrome"
+ },
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 4,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 1,
+   "textNodes": 182,
+   "controls": 97,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "TEXT CLAMPED",
+    "advisory": true,
+    "n": 4,
+    "clipper": "p",
+    "path": "div.bl-tile > a.bl-tile-body > div.bl-tile-text.bl-tile-text-2 > p",
+    "text": "the kilted consultant is your trusted zendesk premier partne",
+    "cutMin": null,
+    "cutMax": null
+   }
+  ],
+  "origin": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 3,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 0,
+   "textNodes": 180,
+   "controls": 97,
+   "total": 0
+  },
+  "source": "content-presence"
+ },
+ "units": {
+  "verdict": {
+   "units": 0,
+   "within": 0,
+   "off": 0,
+   "hidden": 0,
+   "missing": 0,
+   "errors": 2,
+   "requiredOff": 0
+  },
+  "required": false
+ }
+}

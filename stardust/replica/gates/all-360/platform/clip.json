@@ -1,0 +1,57 @@
+{
+ "url": "https://main--3055ed88--aemcoder.aem.page/platform",
+ "at": "2026-11-21T13:56:20.484Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 7,
+  "textNodes": 107,
+  "controls": 74,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.sv-carousel.block",
+   "path": "div.sv-res-list > div.sv-res-track > div.sv-res-slide > a.sv-res-card",
+   "text": "guidevisit the zendesk developer help center",
+   "cutMin": 139,
+   "cutMax": 139
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "a.sv-res-card",
+   "path": "a.sv-res-card > div.sv-res-content > div.sv-res-title > p",
+   "text": "visit the zendesk developer help center",
+   "cutMin": 78,
+   "cutMax": 78
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 6,
+   "textNodes": 106,
+   "controls": 76,
+   "total": 0
+  }
+ }
+}

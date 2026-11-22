@@ -1,0 +1,473 @@
+{
+  "url": "https://www.zendesk.com/company/",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": "[aria-label=Next]",
+      "frames": [
+        {
+          "t": 25574.599999999627,
+          "trackTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 25786,
+          "trackTransform": "matrix(1, 0, 0, 1, -188.363, 0)",
+          "trackTransition": "-webkit-transform 0.5s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 25990.400000000373,
+          "trackTransform": "matrix(1, 0, 0, 1, -269.265, 0)",
+          "trackTransition": "-webkit-transform 0.5s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 26194.599999999627,
+          "trackTransform": "matrix(1, 0, 0, 1, -276, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": "#button-db7fd2da4a",
+      "changed": [
+        "self.color",
+        "self.background",
+        "img..color",
+        "img..color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgb(245, 245, 242)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.3s cubic-bezier(0.7, 0, 0.3, 1)"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(17, 17, 13)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.3s cubic-bezier(0.7, 0, 0.3, 1)"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(17, 17, 13)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.3s cubic-bezier(0.7, 0, 0.3, 1)"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgba(17, 17, 13, 0.7)",
+          "background": "rgba(17, 17, 13, 0.05)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.3s cubic-bezier(0.7, 0, 0.3, 1)"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgba(17, 17, 13, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.3s cubic-bezier(0.7, 0, 0.3, 1)"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgba(17, 17, 13, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.3s cubic-bezier(0.7, 0, 0.3, 1)"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "#button-4b18a127d0",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgb(209, 244, 112)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.6s cubic-bezier(0.7, 0, 0.3, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgba(17, 17, 13, 0.93)",
+          "background": "rgb(209, 244, 112)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.6s cubic-bezier(0.7, 0, 0.3, 1)"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "nav.sc-93bde466-2.bFWlPl > div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw.sc-93bde466-3 > div.sc-38089e16-0.uNkWE > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > svg.sc-fd8482e9-0.hCbPuQ",
+        "y": 82,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw.sc-93bde466-3 > div.sc-38089e16-0.uNkWE > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > svg.sc-fd8482e9-0.hCbPuQ > path",
+        "y": 384,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw.sc-93bde466-3 > div.sc-38089e16-0.uNkWE > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > svg.sc-fd8482e9-0.hCbPuQ > path",
+        "y": 384,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw.sc-93bde466-3 > div.sc-38089e16-0.uNkWE > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > svg.sc-fd8482e9-0.hCbPuQ > path",
+        "y": 384,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw.sc-93bde466-3 > div.sc-38089e16-0.uNkWE > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > svg.sc-fd8482e9-0.hCbPuQ > path",
+        "y": 384,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.sc-93bde466-2.bFWlPl > div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw.sc-93bde466-3 > div.sc-38089e16-0.uNkWE > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > svg.sc-fd8482e9-0.hCbPuQ",
+        "y": 30,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw.sc-93bde466-3 > div.sc-38089e16-0.uNkWE > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > svg.sc-fd8482e9-0.hCbPuQ > path",
+        "y": 30,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw.sc-93bde466-3 > div.sc-38089e16-0.uNkWE > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > svg.sc-fd8482e9-0.hCbPuQ > path",
+        "y": 30,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw.sc-93bde466-3 > div.sc-38089e16-0.uNkWE > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > svg.sc-fd8482e9-0.hCbPuQ > path",
+        "y": 30,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw.sc-93bde466-3 > div.sc-38089e16-0.uNkWE > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > svg.sc-fd8482e9-0.hCbPuQ > path",
+        "y": 30,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.sc-93bde466-2.bFWlPl > div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw.sc-93bde466-3 > div.sc-38089e16-0.uNkWE > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > svg.sc-fd8482e9-0.hCbPuQ",
+        "y": 75,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw.sc-93bde466-3 > div.sc-38089e16-0.uNkWE > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > svg.sc-fd8482e9-0.hCbPuQ > path",
+        "y": 1250,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw.sc-93bde466-3 > div.sc-38089e16-0.uNkWE > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > svg.sc-fd8482e9-0.hCbPuQ > path",
+        "y": 1250,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw.sc-93bde466-3 > div.sc-38089e16-0.uNkWE > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > svg.sc-fd8482e9-0.hCbPuQ > path",
+        "y": 1250,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw.sc-93bde466-3 > div.sc-38089e16-0.uNkWE > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > svg.sc-fd8482e9-0.hCbPuQ > path",
+        "y": 1250,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.StyledGrid-sc-oxgg5i-0.dMGWVP.Gridstyle__GridRoot-sc-1aci9ft-0 > div > div.slick-slider.Carouselstyle__CarouselSlider-sc-1mnw5o8-3.gffFwE > div.slick-list > div.slick-track",
+        "y": 2168,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.slick-slide > div > div > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > div.LinkCardstyle__LinkCardContent-sc-1nxo9pt-2.ihgjRr",
+        "y": 1961,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.slick-slide > div > div > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > div.LinkCardstyle__LinkCardContent-sc-1nxo9pt-2.ihgjRr",
+        "y": 1961,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > span.sc-fdfb305c-0.frWMUj > span > img",
+        "y": 1961,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "filter",
+        "el": "div > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > span.sc-fdfb305c-0.frWMUj > span > img",
+        "y": 1961,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.slick-track > div.slick-slide > div > div > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud",
+        "y": 1961,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.slick-track > div.slick-slide > div > div > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud",
+        "y": 1961,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > span.sc-fdfb305c-0.frWMUj > span > span > img",
+        "y": 1961,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "filter",
+        "el": "a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > span.sc-fdfb305c-0.frWMUj > span > span > img",
+        "y": 1961,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.slick-slide > div > div > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > div.LinkCardstyle__LinkCardContent-sc-1nxo9pt-2.ihgjRr",
+        "y": 1961,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.slick-slide > div > div > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > div.LinkCardstyle__LinkCardContent-sc-1nxo9pt-2.ihgjRr",
+        "y": 1961,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > span.sc-fdfb305c-0.frWMUj > span > img",
+        "y": 1961,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "filter",
+        "el": "div > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > span.sc-fdfb305c-0.frWMUj > span > img",
+        "y": 1961,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.slick-track > div.slick-slide > div > div > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud",
+        "y": 1961,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.slick-track > div.slick-slide > div > div > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud",
+        "y": 1961,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > span.sc-fdfb305c-0.frWMUj > span > span > img",
+        "y": 1961,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "filter",
+        "el": "a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > span.sc-fdfb305c-0.frWMUj > span > span > img",
+        "y": 1961,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.StyledGrid-sc-oxgg5i-0.dMGWVP.Gridstyle__GridRoot-sc-1aci9ft-0 > div.StyledRow-sc-xjsdg1-0.cNrHVc.Gridstyle__Row-sc-1aci9ft-1 > div.StyledCol-sc-inuw62-0.ciRKqy.Gridstyle__Col-sc-1aci9ft-2 > div.LinkGroupstyle__LinkGroupRoot-sc-e6je4r-0.eCTgYG > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud",
+        "y": 721,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "background-position-x",
+        "el": "div.StyledRow-sc-xjsdg1-0.cNrHVc.Gridstyle__Row-sc-1aci9ft-1 > div.StyledCol-sc-inuw62-0.ciRKqy.Gridstyle__Col-sc-1aci9ft-2 > div.LinkGroupstyle__LinkGroupRoot-sc-e6je4r-0.eCTgYG > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > span.Linkstyle__LinkText-sc-1n8u9ej-3.faVsWJ",
+        "y": 721,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.StyledGrid-sc-oxgg5i-0.dMGWVP.Gridstyle__GridRoot-sc-1aci9ft-0 > div.StyledRow-sc-xjsdg1-0.cNrHVc.Gridstyle__Row-sc-1aci9ft-1 > div.StyledCol-sc-inuw62-0.ciRKqy.Gridstyle__Col-sc-1aci9ft-2 > div.LinkGroupstyle__LinkGroupRoot-sc-e6je4r-0.eCTgYG > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud",
+        "y": 721,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "color",
+        "el": "div.StyledGrid-sc-oxgg5i-0.dMGWVP.Gridstyle__GridRoot-sc-1aci9ft-0 > div.StyledRow-sc-xjsdg1-0.cNrHVc.Gridstyle__Row-sc-1aci9ft-1 > div.StyledCol-sc-inuw62-0.ciRKqy.Gridstyle__Col-sc-1aci9ft-2 > div.LinkGroupstyle__LinkGroupRoot-sc-e6je4r-0.eCTgYG > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud",
+        "y": 638,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "background-position-x",
+        "el": "div.StyledRow-sc-xjsdg1-0.cNrHVc.Gridstyle__Row-sc-1aci9ft-1 > div.StyledCol-sc-inuw62-0.ciRKqy.Gridstyle__Col-sc-1aci9ft-2 > div.LinkGroupstyle__LinkGroupRoot-sc-e6je4r-0.eCTgYG > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud > span.Linkstyle__LinkText-sc-1n8u9ej-3.faVsWJ",
+        "y": 638,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.StyledGrid-sc-oxgg5i-0.dMGWVP.Gridstyle__GridRoot-sc-1aci9ft-0 > div.StyledRow-sc-xjsdg1-0.cNrHVc.Gridstyle__Row-sc-1aci9ft-1 > div.StyledCol-sc-inuw62-0.ciRKqy.Gridstyle__Col-sc-1aci9ft-2 > div.LinkGroupstyle__LinkGroupRoot-sc-e6je4r-0.eCTgYG > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud",
+        "y": 638,
+        "dur": "0.6s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "kOPZoh"
+        ],
+        "el": "div.sc-93bde466-5.cxxcjL > nav.sc-93bde466-2.bFWlPl > div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw.sc-93bde466-3 > div.sc-38089e16-0.uNkWE > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud",
+        "y": 34
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div > div > main.sc-8ed9cb52-0.leKPtf > div.sc-f9eaaf5f-0.cwMKbe > section.sc-f23d7fd5-11.eKGAwU.active",
+        "y": 482
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div > div > main.sc-8ed9cb52-0.leKPtf > div.sc-f9eaaf5f-0.cwMKbe > section.sc-f23d7fd5-11.jpVCTe.active",
+        "y": 1074
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div > div > main.sc-8ed9cb52-0.leKPtf > div.sc-f9eaaf5f-0.cwMKbe > section.sc-f23d7fd5-11.gGODWX.active",
+        "y": 1904
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div > div > main.sc-8ed9cb52-0.leKPtf > div.sc-f9eaaf5f-0.cwMKbe > section.sc-f23d7fd5-11.ihWeaZ.active",
+        "y": 2082
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div > div > main.sc-8ed9cb52-0.leKPtf > div.sc-f9eaaf5f-0.cwMKbe > section.sc-f23d7fd5-11.gWxblo.active",
+        "y": 2704
+      },
+      {
+        "added": [
+          "hIDnGq"
+        ],
+        "el": "div.sc-93bde466-5.cxxcjL > nav.sc-93bde466-2.bFWlPl > div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw.sc-93bde466-3 > div.sc-38089e16-0.uNkWE > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud",
+        "y": 30
+      },
+      {
+        "added": [
+          "kOPZoh"
+        ],
+        "el": "div.sc-93bde466-5.cxxcjL > nav.sc-93bde466-2.bFWlPl > div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw.sc-93bde466-3 > div.sc-38089e16-0.uNkWE > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0.cbIMud",
+        "y": 44
+      },
+      {
+        "added": [
+          "slick-current"
+        ],
+        "el": "div > div.slick-slider.Carouselstyle__CarouselSlider-sc-1mnw5o8-3.gffFwE > div.slick-list > div.slick-track > div.slick-slide.slick-active.slick-current",
+        "y": 2168
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div > div.slick-slider.Carouselstyle__CarouselSlider-sc-1mnw5o8-3.gffFwE > div.slick-list > div.slick-track > div.slick-slide.slick-active",
+        "y": 2168
+      }
+    ]
+  }
+}

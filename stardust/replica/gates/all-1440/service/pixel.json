@@ -1,0 +1,239 @@
+{
+  "a": "stardust/replica/gates/all-1440/service/origin.png",
+  "b": "stardust/replica/gates/all-1440/service/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 7964,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 44087,
+  "pct": 0.38,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/service/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 2.24,
+  "textBoxes": 224,
+  "textPixels": 1052204,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 0
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 0
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 0.7
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 1.3
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 0.1
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 2.1
+    },
+    {
+      "y0": 7500,
+      "y1": 7964,
+      "pct": 0.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.26,
+    "differingPixels": 29470,
+    "compared": {
+      "width": 1440,
+      "height": 7965,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 6971,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 7839,
+        "shift": -1,
+        "cumulative": 0
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 2,
+    "insertedRows": 1,
+    "deletedRows": 1,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 1.3,
+        "unaligned": 1.3
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0.2,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0.1,
+        "unaligned": 2.1
+      },
+      {
+        "y0": 7500,
+        "y1": 7964,
+        "pct": 0.3,
+        "unaligned": 0.5
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/service/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 80,
+    "totalShift": 2,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/service"
+  }
+}

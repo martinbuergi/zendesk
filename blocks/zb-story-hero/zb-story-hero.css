@@ -1,0 +1,233 @@
+/* zb-story-hero — gen-B customer-story hero (canon customer-canva.css + canon-b back link / logo row / link group) */
+.zb-story-hero {
+  padding: 174px 0 32px;
+  background: var(--zb-white);
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.zb-story-hero .zb-story-hero-back {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 8px;
+  text-align: center;
+}
+
+.zb-story-hero .zb-story-hero-back a {
+  color: var(--zb-teal-800);
+  font-family: var(--zb-font-head);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  transition: color 0.25s ease-in-out;
+}
+
+.zb-story-hero .zb-story-hero-back a:hover { color: var(--zb-hover); }
+
+.zb-story-hero .zb-story-hero-back svg {
+  display: inline;
+  width: 16px;
+  height: 16px;
+  margin: 0 7px -1px 0;
+  fill: currentcolor;
+}
+
+.zb-story-hero .zb-story-hero-main { margin-top: 32px; }
+
+.zb-story-hero .zb-story-hero-text {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 8px;
+  text-align: center;
+}
+
+.zb-story-hero .zb-story-hero-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin: 0 0 16px;
+}
+
+.zb-story-hero .zb-story-hero-logos picture { display: block; }
+
+.zb-story-hero .zb-story-hero-logos img {
+  width: auto;
+  height: 38px;
+}
+
+.zb-story-hero .zb-story-hero-headline :is(h1, h2, h3) {
+  margin: 0 0 24px;
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.zb-story-hero .zb-story-hero-deck p {
+  margin: 16px 0;
+  color: var(--zb-teal-800);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.zb-story-hero .zb-story-hero-share { margin: 24px 0; }
+.zb-story-hero .zb-story-hero-share ul { justify-content: center; }
+
+.zb-story-hero .zb-story-hero-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.zb-story-hero .zb-story-hero-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.zb-story-hero .zb-story-hero-video {
+  display: block;
+  height: 32px;
+}
+
+.zb-story-hero .zb-story-hero-video svg {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin: 0 8px 0 0;
+  vertical-align: middle;
+  color: var(--zb-teal-800);
+  fill: var(--zb-teal-800);
+}
+
+.zb-story-hero .zb-story-hero-video :is(p, a) {
+  display: inline-block;
+  padding: 0;
+  border-bottom: 2px solid currentcolor;
+  border-radius: 0;
+  color: var(--zb-teal-800);
+  font-family: var(--zb-font-head);
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: color 0.25s ease-in-out;
+}
+
+.zb-story-hero .zb-story-hero-video :is(p, a):hover { color: var(--zb-hover); }
+
+.zb-story-hero .zb-story-hero-media {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 8px;
+  text-align: center;
+}
+
+.zb-story-hero .zb-story-hero-media :is(p, picture) { display: inline; }
+
+.zb-story-hero .zb-story-hero-media img {
+  display: inline;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* video popover (Wistia popover equivalent: same media id, modal player) */
+.zb-story-hero-popover {
+  width: min(960px, 100vw - 32px);
+  max-width: none;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  overflow: visible;
+}
+
+.zb-story-hero-popover::backdrop { background: rgb(0 0 0 / 70%); }
+
+.zb-story-hero-popover .zb-story-hero-popover-frame {
+  position: relative;
+  padding-top: 56.25%;
+  background: #000;
+}
+
+.zb-story-hero-popover iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.zb-story-hero-popover .zb-story-hero-popover-close {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.zb-story-hero-popover .zb-story-hero-popover-close::before,
+.zb-story-hero-popover .zb-story-hero-popover-close::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 4px;
+  width: 24px;
+  height: 2px;
+  background: var(--zb-white);
+  transform: rotate(45deg);
+}
+
+.zb-story-hero-popover .zb-story-hero-popover-close::after { transform: rotate(-45deg); }
+
+@media (width >= 768px) {
+  .zb-story-hero { padding: 174px 0 64px; }
+  .zb-story-hero .zb-story-hero-back { text-align: left; }
+
+  .zb-story-hero .zb-story-hero-main {
+    margin-top: 64px;
+    align-items: center;
+  }
+
+  .zb-story-hero .zb-story-hero-text {
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: left;
+  }
+
+  .zb-story-hero .zb-story-hero-headline :is(h1, h2, h3) {
+    font-size: 56px;
+    line-height: 64px;
+  }
+
+  .zb-story-hero .zb-story-hero-share ul { justify-content: flex-start; }
+
+  .zb-story-hero .zb-story-hero-links {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .zb-story-hero .zb-story-hero-media {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+    margin-left: 8.3333%;
+    text-align: left;
+  }
+}
+
+@media (width >= 1200px) {
+  .zb-story-hero .zb-story-hero-headline :is(h1, h2, h3) {
+    font-size: 72px;
+    line-height: 80px;
+  }
+}

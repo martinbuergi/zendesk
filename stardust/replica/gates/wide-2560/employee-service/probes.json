@@ -1,0 +1,44 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-21T16:31:06.936Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 3,
+   "offPage": 13,
+   "textNodes": 219,
+   "controls": 141,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 2,
+    "clipper": "a.sv-res-card",
+    "path": "a.sv-res-card > div.sv-res-content > div.sv-res-kind > p",
+    "text": "report",
+    "cutMin": 2,
+    "cutMax": 195
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.sv-carousel.block",
+    "path": "div.sv-res-list > div.sv-res-track > div.sv-res-slide > a.sv-res-card",
+    "text": "reportthree ways ai will reshape hr by 2028",
+    "cutMin": 241,
+    "cutMax": 241
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ }
+}

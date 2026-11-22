@@ -1,0 +1,733 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-20T15:34:15.081Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.zendesk.com",
+    "eds": "https://main--3055ed88--aemcoder.aem.page",
+    "edsHostOverride": "https://main--3055ed88--aemcoder.aem.page",
+    "only": [
+      "customer-madeiramadeira",
+      "customer-serasa-experian",
+      "customer-nortek",
+      "customer-resurs-bank",
+      "customer-mimecast",
+      "customer-dfin",
+      "customer-koho",
+      "customer-bgl"
+    ]
+  },
+  "totals": {
+    "pages": 8,
+    "pass": 0,
+    "pixelOnlyPass": 8,
+    "overridePass": 1,
+    "fail": 8,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 8,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 2,
+    "failOffsets": 0,
+    "referenceUnstable": 0,
+    "passWithOverrides": 1
+  },
+  "rows": [
+    {
+      "slug": "customer-bgl",
+      "path": "/customer/bgl/",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 0.31,
+      "textPct": 0.44,
+      "heightDelta": 0,
+      "originH": 9317,
+      "edsH": 9317,
+      "alignedPct": 0.31,
+      "alignedUsed": false,
+      "totalShift": 0,
+      "steps": [],
+      "offsetBound": null,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "units"
+      ],
+      "unwaived": [
+        "units"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "units off 8 hidden 0 missing 0"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 5,
+        "variable": []
+      },
+      "units": {
+        "units": 10,
+        "within": 14,
+        "off": 8,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 8
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/customer-bgl",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "customer-dfin",
+      "path": "/customer/dfin/",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 0.28,
+      "textPct": 0.44,
+      "heightDelta": 0,
+      "originH": 11315,
+      "edsH": 11315,
+      "alignedPct": 0.28,
+      "alignedUsed": false,
+      "totalShift": 0,
+      "steps": [],
+      "offsetBound": null,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "units"
+      ],
+      "unwaived": [
+        "units"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "units off 14 hidden 0 missing 0"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 9,
+        "variable": []
+      },
+      "units": {
+        "units": 9,
+        "within": 6,
+        "off": 14,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 14
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/customer-dfin",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [],
+      "error": null
+    },
+    {
+      "slug": "customer-koho",
+      "path": "/customer/koho/",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 7.24,
+      "textPct": 14.59,
+      "heightDelta": -22,
+      "originH": 7283,
+      "edsH": 7305,
+      "alignedPct": 0.65,
+      "alignedUsed": true,
+      "totalShift": 22,
+      "steps": [
+        {
+          "y": 2246,
+          "shift": 22,
+          "cumulative": 22
+        }
+      ],
+      "offsetBound": 73,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "units"
+      ],
+      "unwaived": [
+        "units"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "units off 10 hidden 0 missing 0"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 4,
+        "variable": []
+      },
+      "units": {
+        "units": 9,
+        "within": 10,
+        "off": 10,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 10
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/customer-koho",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "3500-4000:24.5%",
+        "7000-7283:20.6%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "customer-madeiramadeira",
+      "path": "/customer/madeiramadeira/",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 10.26,
+      "textPct": 15.7,
+      "heightDelta": -44,
+      "originH": 13588,
+      "edsH": 13632,
+      "alignedPct": 0.57,
+      "alignedUsed": true,
+      "totalShift": 44,
+      "steps": [
+        {
+          "y": 2710,
+          "shift": 43,
+          "cumulative": 43
+        },
+        {
+          "y": 8333,
+          "shift": 1,
+          "cumulative": 44
+        }
+      ],
+      "offsetBound": 136,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "units"
+      ],
+      "unwaived": [
+        "units"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "units off 6 hidden 0 missing 0"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 5,
+        "variable": []
+      },
+      "units": {
+        "units": 9,
+        "within": 14,
+        "off": 6,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 6
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/customer-madeiramadeira",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "4000-4500:29.5%",
+        "6000-6500:30.4%",
+        "8000-8500:29.4%",
+        "10000-10500:20.6%",
+        "10500-11000:17%",
+        "13000-13500:20.7%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "customer-mimecast",
+      "path": "/customer/mimecast/",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 9.16,
+      "textPct": 13.87,
+      "heightDelta": -28,
+      "originH": 9881,
+      "edsH": 9909,
+      "alignedPct": 0.46,
+      "alignedUsed": true,
+      "totalShift": 28,
+      "steps": [
+        {
+          "y": 2621,
+          "shift": 28,
+          "cumulative": 28
+        }
+      ],
+      "offsetBound": 99,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "units"
+      ],
+      "unwaived": [
+        "units"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "units off 6 hidden 0 missing 0"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 4,
+        "variable": []
+      },
+      "units": {
+        "units": 9,
+        "within": 14,
+        "off": 6,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 6
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/customer-mimecast",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "3500-4000:23.1%",
+        "6000-6500:23.9%",
+        "7500-8000:15.2%",
+        "8000-8500:15.3%",
+        "8500-9000:17%",
+        "9500-9881:19.2%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "customer-nortek",
+      "path": "/customer/nortek/",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 9.33,
+      "textPct": 13.47,
+      "heightDelta": -24,
+      "originH": 7919,
+      "edsH": 7943,
+      "alignedPct": 0.55,
+      "alignedUsed": true,
+      "totalShift": 24,
+      "steps": [
+        {
+          "y": 1902,
+          "shift": 24,
+          "cumulative": 24
+        }
+      ],
+      "offsetBound": 79,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "units"
+      ],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "units off 2 hidden 0 missing 0"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 5,
+        "variable": []
+      },
+      "units": {
+        "units": 5,
+        "within": 10,
+        "off": 2,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 1,
+        "requiredOff": 2
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS",
+        "reason": "cluster-article-1: legacy-fact-card is a required article family but customer-nortek carries no fact cards on the live origin (0 origin / 0 EDS DOM matches, render variant 'zb-quotes no-facts'); the units error is the absent family, not a defect. Pixel, height, clip, content all pass on their own.",
+        "waives": [
+          "units"
+        ]
+      },
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/customer-nortek",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "3500-4000:17.6%",
+        "5000-5500:24.2%",
+        "6000-6500:23.9%",
+        "7500-7919:15.9%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "customer-resurs-bank",
+      "path": "/customer/resurs-bank/",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 10.32,
+      "textPct": 16.08,
+      "heightDelta": -70,
+      "originH": 8318,
+      "edsH": 8388,
+      "alignedPct": 1.13,
+      "alignedUsed": true,
+      "totalShift": 70,
+      "steps": [
+        {
+          "y": 2279,
+          "shift": 70,
+          "cumulative": 70
+        }
+      ],
+      "offsetBound": 83,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "units"
+      ],
+      "unwaived": [
+        "units"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "units off 8 hidden 0 missing 0"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 4,
+        "variable": []
+      },
+      "units": {
+        "units": 8,
+        "within": 10,
+        "off": 8,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 8
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/customer-resurs-bank",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "3500-4000:19.7%",
+        "5500-6000:26.9%",
+        "7000-7500:25.7%",
+        "8000-8318:30.2%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "customer-serasa-experian",
+      "path": "/customer/serasa-experian/",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 9.17,
+      "textPct": 14.13,
+      "heightDelta": -65,
+      "originH": 8053,
+      "edsH": 8118,
+      "alignedPct": 1.21,
+      "alignedUsed": true,
+      "totalShift": 71,
+      "steps": [
+        {
+          "y": 2170,
+          "shift": 68,
+          "cumulative": 68
+        },
+        {
+          "y": 2759,
+          "shift": -3,
+          "cumulative": 65
+        }
+      ],
+      "offsetBound": 81,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "units"
+      ],
+      "unwaived": [
+        "units"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "units off 6 hidden 0 missing 0"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 5,
+        "variable": []
+      },
+      "units": {
+        "units": 9,
+        "within": 14,
+        "off": 6,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 6
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/customer-serasa-experian",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "4000-4500:28.4%",
+        "5500-6000:30.5%",
+        "7500-8000:21.5%"
+      ],
+      "error": null
+    }
+  ]
+}

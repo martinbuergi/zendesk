@@ -1,0 +1,439 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-20T08:15:44.204Z",
+  "url": "https://www.zendesk.com/customer/canva/",
+  "width": 1440,
+  "main": "main",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://www.zendesk.com/customer/canva/",
+  "width": 1440,
+  "viewport": 1440,
+  "docHeight": 5638,
+  "scrollWidth": 1440,
+  "root": "main",
+  "rootFallback": false,
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "\"Proxima Nova\", Arial, sans-serif",
+    "n": 106
+   },
+   {
+    "stack": "\"Sharp Sans\", Arial, sans-serif",
+    "n": 33
+   }
+  ],
+  "loadedFaces": [
+   "Proxima Nova 400 normal",
+   "Sharp Sans 600 normal",
+   "Sharp Sans 700 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "12/18 400 Proxima Nova",
+    "fontSize": 12,
+    "lineHeight": 18,
+    "fontWeight": "400",
+    "fontFamily": "Proxima Nova",
+    "textTransform": "none",
+    "n": 55,
+    "roles": {
+     "link": 55
+    },
+    "sample": "Zendesk for customer service"
+   },
+   {
+    "key": "18/24 400 Proxima Nova",
+    "fontSize": 18,
+    "lineHeight": 24,
+    "fontWeight": "400",
+    "fontFamily": "Proxima Nova",
+    "textTransform": "none",
+    "n": 29,
+    "roles": {
+     "p": 29
+    },
+    "sample": "Canva was founded with a simple but ambitious mission: make design accessible t…"
+   },
+   {
+    "key": "16/24 400 Proxima Nova",
+    "fontSize": 16,
+    "lineHeight": 24,
+    "fontWeight": "400",
+    "fontFamily": "Proxima Nova",
+    "textTransform": "none",
+    "n": 9,
+    "roles": {
+     "p": 8,
+     "field": 1
+    },
+    "sample": "Canva uses Zendesk to scale customer service while turning customer conversatio…"
+   },
+   {
+    "key": "14/22 700 Sharp Sans uppercase",
+    "fontSize": 14,
+    "lineHeight": 22,
+    "fontWeight": "700",
+    "fontFamily": "Sharp Sans",
+    "textTransform": "uppercase",
+    "n": 9,
+    "roles": {
+     "h2": 9
+    },
+    "sample": "Company founded"
+   },
+   {
+    "key": "24/32 700 Sharp Sans",
+    "fontSize": 24,
+    "lineHeight": 32,
+    "fontWeight": "700",
+    "fontFamily": "Sharp Sans",
+    "textTransform": "none",
+    "n": 8,
+    "roles": {
+     "h4": 7,
+     "h2": 1
+    },
+    "sample": "Scaling support without losing the customer voice"
+   },
+   {
+    "key": "12/normal 400 Proxima Nova",
+    "fontSize": 12,
+    "lineHeight": "normal",
+    "fontWeight": "400",
+    "fontFamily": "Proxima Nova",
+    "textTransform": "none",
+    "n": 6,
+    "roles": {
+     "link": 6
+    },
+    "sample": "Terms of Use"
+   },
+   {
+    "key": "16/16 600 Sharp Sans",
+    "fontSize": 16,
+    "lineHeight": 16,
+    "fontWeight": "600",
+    "fontFamily": "Sharp Sans",
+    "textTransform": "none",
+    "n": 5,
+    "roles": {
+     "span": 4,
+     "link": 1
+    },
+    "sample": "Products"
+   },
+   {
+    "key": "12/28 400 Proxima Nova",
+    "fontSize": 12,
+    "lineHeight": 28,
+    "fontWeight": "400",
+    "fontFamily": "Proxima Nova",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "link": 4
+    },
+    "sample": "Sign in"
+   },
+   {
+    "key": "18/28 600 Sharp Sans",
+    "fontSize": 18,
+    "lineHeight": 28,
+    "fontWeight": "600",
+    "fontFamily": "Sharp Sans",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "link": 1,
+     "button": 2
+    },
+    "sample": "Find my solution"
+   },
+   {
+    "key": "16/24 600 Sharp Sans",
+    "fontSize": 16,
+    "lineHeight": 24,
+    "fontWeight": "600",
+    "fontFamily": "Sharp Sans",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "link": 3
+    },
+    "sample": "Free trial"
+   },
+   {
+    "key": "48/56 700 Sharp Sans",
+    "fontSize": 48,
+    "lineHeight": 56,
+    "fontWeight": "700",
+    "fontFamily": "Sharp Sans",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "p": 2
+    },
+    "sample": "69%"
+   },
+   {
+    "key": "22/30 400 Proxima Nova",
+    "fontSize": 22,
+    "lineHeight": 30,
+    "fontWeight": "400",
+    "fontFamily": "Proxima Nova",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "blockquote": 2
+    },
+    "sample": "“What I love about partnering with Zendesk is that Zendesk has the same passion…"
+   },
+   {
+    "key": "20/28 600 Sharp Sans",
+    "fontSize": 20,
+    "lineHeight": 28,
+    "fontWeight": "600",
+    "fontFamily": "Sharp Sans",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "p": 2
+    },
+    "sample": "Mark Capps"
+   },
+   {
+    "key": "14/18 400 Proxima Nova",
+    "fontSize": 14,
+    "lineHeight": 18,
+    "fontWeight": "400",
+    "fontFamily": "Proxima Nova",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "p": 2
+    },
+    "sample": "Head of User Voice at Canva"
+   },
+   {
+    "key": "72/80 700 Sharp Sans",
+    "fontSize": 72,
+    "lineHeight": 80,
+    "fontWeight": "700",
+    "fontFamily": "Sharp Sans",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h1": 1
+    },
+    "sample": "Canva turns customer insights into action with Zendesk"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(104, 115, 125)",
+    "n": 61
+   },
+   {
+    "color": "rgb(23, 73, 77)",
+    "n": 49
+   },
+   {
+    "color": "rgb(3, 54, 61)",
+    "n": 25
+   },
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 3
+   },
+   {
+    "color": "rgb(61, 141, 174)",
+    "n": 2
+   }
+  ],
+  "container": {
+   "left": 176,
+   "right": 176,
+   "content": 1088,
+   "leftCommon": {
+    "x": 314,
+    "n": 35
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"header","y":0,"h":110,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"header.sc-b03eb99a-5.kufEWs","firstText":"Sign in"},
+  {"i":1,"region":"main","y":-18,"h":1076,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"div.sc-8ed9cb52-1.gnbqpT","firstText":"Back to customer stories"},
+  {"i":2,"region":"main","y":1058,"h":652,"background":"rgb(248, 249, 249)","paddingTop":64,"paddingBottom":64,"selectorHint":"section.Basestyle__BaseRoot-sc-3zktjg-1.iEPMHG","firstText":"“What I love about partnering with Zendesk is that Zendesk …"},
+  {"i":3,"region":"main","y":1710,"h":148,"background":"rgb(255, 255, 255)","paddingTop":64,"paddingBottom":0,"selectorHint":"section.Basestyle__BaseRoot-sc-3zktjg-1.dvTsIe","firstText":"69%"},
+  {"i":4,"region":"main","y":1858,"h":2996,"background":"rgb(255, 255, 255)","paddingTop":64,"paddingBottom":64,"selectorHint":"section.Basestyle__BaseRoot-sc-3zktjg-1.dvTsIe","firstText":"Canva was founded with a simple but ambitious mission: make…"},
+  {"i":5,"region":"footer","y":4854,"h":784,"background":"rgb(248, 249, 249)","paddingTop":0,"paddingBottom":32,"selectorHint":"footer.sc-589b3f08-0.kiqZIv","firstText":"Champions of customer service"}
+ ],
+ "nodes": [
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Sign in","x":963,"y":6,"w":36,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":28,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":1,"href":"/login/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Zendesk Help center","x":1015,"y":6,"w":110,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":28,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":1,"href":"https://support.zendesk.com/hc/en-us/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Company","x":1141,"y":6,"w":50,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":28,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":1,"href":"#"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Contact us","x":1208,"y":6,"w":56,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":28,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":1,"href":"/contact/"},
+  {"section":0,"region":"header","kind":"image","tag":"svg","role":"link","text":"Zendesk","x":184,"y":58,"w":100,"h":20,"fit":"fill","href":"/"},
+  {"section":0,"region":"header","kind":"text","tag":"span","role":null,"text":"Products","x":422,"y":44,"w":66,"h":50,"fontFamily":"Sharp Sans","fontSize":16,"lineHeight":16,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(3, 54, 61)","lines":1},
+  {"section":0,"region":"header","kind":"text","tag":"span","role":null,"text":"Pricing","x":549,"y":44,"w":50,"h":50,"fontFamily":"Sharp Sans","fontSize":16,"lineHeight":16,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(3, 54, 61)","lines":1},
+  {"section":0,"region":"header","kind":"text","tag":"span","role":null,"text":"Solutions","x":661,"y":44,"w":66,"h":50,"fontFamily":"Sharp Sans","fontSize":16,"lineHeight":16,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(3, 54, 61)","lines":1},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Demo","x":791,"y":44,"w":44,"h":50,"fontFamily":"Sharp Sans","fontSize":16,"lineHeight":16,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(3, 54, 61)","lines":1,"href":"/demo/"},
+  {"section":0,"region":"header","kind":"text","tag":"span","role":null,"text":"Resources","x":894,"y":44,"w":76,"h":50,"fontFamily":"Sharp Sans","fontSize":16,"lineHeight":16,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(3, 54, 61)","lines":1},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Free trial","x":992,"y":46,"w":128,"h":46,"fontFamily":"Sharp Sans","fontSize":16,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"/register/"},
+  {"section":0,"region":"header","kind":"control","tag":"a","role":"link","text":"Demo","x":1136,"y":46,"w":128,"h":46,"fontFamily":"Sharp Sans","fontSize":16,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(23, 73, 77)","lines":1,"href":"/demo/"},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":176,"y":157,"w":16,"h":16,"fit":"fill","href":"/customer/"},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"Back to customer stories","x":176,"y":160,"w":204,"h":18,"fontFamily":"Sharp Sans","fontSize":16,"lineHeight":24,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(23, 73, 77)","lines":1,"href":"/customer/"},
+  {"section":1,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":176,"y":244,"w":119,"h":38,"fit":"fill","natural":[1920,615],"src":"https://d1eipm3vz40hy0.cloudfront.net/images/Customer+Stories+/Canva/Canva_Logo2.png"},
+  {"section":1,"region":"main","kind":"text","tag":"h1","role":"h1","text":"Canva turns customer insights into action with Zendesk","x":176,"y":298,"w":536,"h":400,"fontFamily":"Sharp Sans","fontSize":72,"lineHeight":80,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(3, 54, 61)","lines":5},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Canva uses Zendesk to scale customer service while turning customer conversatio…","x":176,"y":722,"w":536,"h":144,"fontFamily":"Proxima Nova","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(23, 73, 77)","lines":6},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":176,"y":890,"w":32,"h":32,"fit":"fill","href":"https://twitter.com/intent/tweet?url=https://bit.ly/4aYou78&text=Canva%20turns%20customer%20insights%20into%20action%20with%20Zendesk"},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":224,"y":890,"w":32,"h":32,"fit":"fill","href":"https://www.facebook.com/sharer/sharer.php?u=https://bit.ly/4fhFYN3"},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":272,"y":890,"w":32,"h":32,"fit":"fill","href":"https://www.linkedin.com/shareArticle?mini=true&url=https://bit.ly/4vGUhkD"},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":320,"y":890,"w":32,"h":32,"fit":"fill","href":"https://www.zendesk.com/public/assets/sitemaps/en/feed.xml"},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"Find my solution","x":176,"y":946,"w":183,"h":48,"fontFamily":"Sharp Sans","fontSize":18,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.zendesk.com/demo/"},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":375,"y":954,"w":32,"h":32,"fit":"fill"},
+  {"section":1,"region":"main","kind":"control","tag":"button","role":"button","text":"Watch the video","x":415,"y":956,"w":135,"h":30,"fontFamily":"Sharp Sans","fontSize":18,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(23, 73, 77)","lines":1},
+  {"section":1,"region":"main","kind":"image","tag":"img","role":null,"text":"Canva","x":820,"y":340,"w":444,"h":556,"fit":"fill","natural":[818,1024],"src":"https://d1eipm3vz40hy0.cloudfront.net/images/Customer+Stories+/Canva/Canva2.jpg"},
+  {"section":2,"region":"main","kind":"text","tag":"blockquote","role":null,"text":"“What I love about partnering with Zendesk is that Zendesk has the same passion…","x":208,"y":1154,"w":472,"h":120,"fontFamily":"Proxima Nova","fontSize":22,"lineHeight":30,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(23, 73, 77)","lines":4},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Mark Capps","x":356,"y":1314,"w":177,"h":28,"fontFamily":"Sharp Sans","fontSize":20,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(3, 54, 61)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Head of User Voice at Canva","x":356,"y":1356,"w":177,"h":18,"fontFamily":"Proxima Nova","fontSize":14,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(23, 73, 77)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"blockquote","role":null,"text":"“When a new use case comes up, App Builder enables us to build it right into th…","x":760,"y":1154,"w":472,"h":150,"fontFamily":"Proxima Nova","fontSize":22,"lineHeight":30,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(23, 73, 77)","lines":5},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Mos Siddiqui","x":912,"y":1344,"w":167,"h":28,"fontFamily":"Sharp Sans","fontSize":20,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(3, 54, 61)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Systems Engineer at Canva","x":912,"y":1386,"w":167,"h":18,"fontFamily":"Proxima Nova","fontSize":14,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(23, 73, 77)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Company founded","x":226,"y":1538,"w":161,"h":22,"fontFamily":"Sharp Sans","fontSize":14,"lineHeight":22,"fontWeight":"700","letterSpacing":2,"textTransform":"uppercase","textAlign":"center","color":"rgb(3, 54, 61)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"2013","x":289,"y":1576,"w":34,"h":46,"fontFamily":"Proxima Nova","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(23, 73, 77)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Zendesk customer since","x":476,"y":1538,"w":212,"h":44,"fontFamily":"Sharp Sans","fontSize":14,"lineHeight":22,"fontWeight":"700","letterSpacing":2,"textTransform":"uppercase","textAlign":"center","color":"rgb(3, 54, 61)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"2019","x":565,"y":1598,"w":34,"h":24,"fontFamily":"Proxima Nova","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(23, 73, 77)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Users worldwide","x":781,"y":1538,"w":154,"h":22,"fontFamily":"Sharp Sans","fontSize":14,"lineHeight":22,"fontWeight":"700","letterSpacing":2,"textTransform":"uppercase","textAlign":"center","color":"rgb(3, 54, 61)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"265M","x":837,"y":1576,"w":41,"h":46,"fontFamily":"Proxima Nova","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(23, 73, 77)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Designs created","x":1061,"y":1538,"w":146,"h":22,"fontFamily":"Sharp Sans","fontSize":14,"lineHeight":22,"fontWeight":"700","letterSpacing":2,"textTransform":"uppercase","textAlign":"center","color":"rgb(3, 54, 61)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"50B+","x":1115,"y":1576,"w":37,"h":46,"fontFamily":"Proxima Nova","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(23, 73, 77)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"69%","x":176,"y":1774,"w":536,"h":56,"fontFamily":"Sharp Sans","fontSize":48,"lineHeight":56,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(61, 141, 174)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"Less time spent manually reviewing tickets","x":176,"y":1834,"w":536,"h":24,"fontFamily":"Proxima Nova","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(23, 73, 77)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"1M+","x":728,"y":1774,"w":536,"h":56,"fontFamily":"Sharp Sans","fontSize":48,"lineHeight":56,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(61, 141, 174)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"Annual support tickets","x":728,"y":1834,"w":536,"h":24,"fontFamily":"Proxima Nova","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(23, 73, 77)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Canva was founded with a simple but ambitious mission: make design accessible t…","x":314,"y":1940,"w":812,"h":96,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":4},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"As Canva expands across the globe, every customer conversation becomes an oppor…","x":314,"y":2054,"w":812,"h":48,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":2},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"“One of our biggest challenges before partnering with Zendesk was pure scale,” …","x":314,"y":2120,"w":812,"h":72,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":3},
+  {"section":4,"region":"main","kind":"text","tag":"h4","role":"h4","text":"Scaling support without losing the customer voice","x":314,"y":2210,"w":812,"h":32,"fontFamily":"Sharp Sans","fontSize":24,"lineHeight":32,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(3, 54, 61)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Today, Zendesk serves as Canva’s centralized customer service platform, giving …","x":314,"y":2266,"w":812,"h":72,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":3},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"“A great customer experience for Canva results in incredible customer loyalty,”…","x":314,"y":2356,"w":812,"h":72,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":3},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"The company routes conversations via Omnichannel Routing (OCR), channeling cust…","x":314,"y":2446,"w":812,"h":48,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":2},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"“A majority of our traffic is routed through OCR,” says Mos Siddiqui, Systems E…","x":314,"y":2512,"w":812,"h":48,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":2},
+  {"section":4,"region":"main","kind":"text","tag":"h4","role":"h4","text":"Building a customer feedback engine","x":314,"y":2578,"w":812,"h":32,"fontFamily":"Sharp Sans","fontSize":24,"lineHeight":32,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(3, 54, 61)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Canva gathers customer feedback across multiple channels, analyzes recurring th…","x":314,"y":2634,"w":812,"h":72,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":3},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Once improvements are made, Canva communicates those updates back to customers,…","x":314,"y":2724,"w":812,"h":48,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":2},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"“Our entire organization understands that at the heart of solving customer chal…","x":314,"y":2790,"w":812,"h":72,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":3},
+  {"section":4,"region":"main","kind":"text","tag":"h4","role":"h4","text":"Optimizing support with Zendesk","x":314,"y":2880,"w":812,"h":32,"fontFamily":"Sharp Sans","fontSize":24,"lineHeight":32,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(3, 54, 61)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Canva has grown from 60 million users in 2021 to over a quarter of a billion mi…","x":314,"y":2936,"w":812,"h":120,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":5},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"“Our TAM and Assist resources feel like an extension of our team,” Siddiqui say…","x":314,"y":3074,"w":812,"h":72,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":3},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Combined with Canva’s focus on automating routine interactions, this partnershi…","x":314,"y":3164,"w":812,"h":72,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":3},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Using Zendesk App Builder, Canva has developed internal tools like a Routing At…","x":314,"y":3254,"w":812,"h":96,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":4},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"“When a new use case comes up, App Builder enables us to build it right into th…","x":314,"y":3368,"w":812,"h":72,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":3},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"By bringing these workflows into a single platform, Canva reduces context switc…","x":314,"y":3458,"w":812,"h":72,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":3},
+  {"section":4,"region":"main","kind":"text","tag":"h4","role":"h4","text":"Protecting customer data at scale","x":314,"y":3548,"w":812,"h":32,"fontFamily":"Sharp Sans","fontSize":24,"lineHeight":32,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(3, 54, 61)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Canva takes privacy seriously. As the company scaled, so did the challenge of p…","x":314,"y":3604,"w":812,"h":72,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":3},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"With Zendesk’s Advanced Data Privacy and Protection (ADPP), Canva automatically…","x":314,"y":3694,"w":812,"h":72,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":3},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"“ADPP does the first pass now, catching personally identifiable information aut…","x":314,"y":3784,"w":812,"h":96,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":4},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Before implementing ADPP, Canva’s agents spent time manually reviewing each tic…","x":314,"y":3898,"w":812,"h":48,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":2},
+  {"section":4,"region":"main","kind":"text","tag":"h4","role":"h4","text":"Turning operational data into action","x":314,"y":3964,"w":812,"h":32,"fontFamily":"Sharp Sans","fontSize":24,"lineHeight":32,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(3, 54, 61)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Using Real-Time Monitoring dashboards and analytics, Canva’s teams can monitor …","x":314,"y":4020,"w":812,"h":96,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":4},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"“One of the great things about having Zendesk is it’s a system with a lot of da…","x":314,"y":4134,"w":812,"h":72,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":3},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"That operational intelligence also helps inform product development.","x":314,"y":4224,"w":812,"h":24,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"“Through the use of Zendesk and other tools, we’re able to keep track of inboun…","x":314,"y":4266,"w":812,"h":72,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":3},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Canva uses Zendesk real-time monitoring dashboards (Explore) for day-to-day que…","x":314,"y":4356,"w":812,"h":72,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":3},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"“Real-time visibility means our coaches manage queues in the moment,” says Sidd…","x":314,"y":4446,"w":812,"h":48,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":2},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Real-time monitoring has helped the team at Canva tighten their queue routing a…","x":314,"y":4512,"w":812,"h":72,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":3},
+  {"section":4,"region":"main","kind":"text","tag":"h4","role":"h4","text":"A partnership built for long-term growth","x":314,"y":4602,"w":812,"h":32,"fontFamily":"Sharp Sans","fontSize":24,"lineHeight":32,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(3, 54, 61)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Canva views Zendesk as more than a software provider. It’s a strategic service …","x":314,"y":4658,"w":812,"h":48,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":2},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"“What I love about partnering with Zendesk is that Zendesk has the same passion…","x":314,"y":4724,"w":812,"h":48,"fontFamily":"Proxima Nova","fontSize":18,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":2},
+  {"section":5,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":176,"y":4918,"w":32,"h":32,"fit":"fill","href":"/"},
+  {"section":5,"region":"footer","kind":"text","tag":"h4","role":"h4","text":"Champions of customer service","x":176,"y":4973,"w":168,"h":96,"fontFamily":"Sharp Sans","fontSize":24,"lineHeight":32,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(3, 54, 61)","lines":3},
+  {"section":5,"region":"footer","kind":"text","tag":"h2","role":"h2","text":"Our Products","x":360,"y":4973,"w":168,"h":22,"fontFamily":"Sharp Sans","fontSize":14,"lineHeight":22,"fontWeight":"700","letterSpacing":2,"textTransform":"uppercase","textAlign":"start","color":"rgb(3, 54, 61)","lines":1},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Zendesk for customer service","x":360,"y":5013,"w":156,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/service/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Zendesk for employee service","x":360,"y":5040,"w":159,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/employee-service/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Zendesk for contact center","x":360,"y":5067,"w":142,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/service/contact-center/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Sunshine Platform","x":360,"y":5094,"w":95,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/platform/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Marketplace","x":360,"y":5121,"w":65,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/marketplace/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Product updates","x":360,"y":5148,"w":87,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"https://support.zendesk.com/hc/en-us/sections/4405298877338-What-s-New-in-Zendesk/"},
+  {"section":5,"region":"footer","kind":"text","tag":"h2","role":"h2","text":"Top Features","x":544,"y":4973,"w":168,"h":22,"fontFamily":"Sharp Sans","fontSize":14,"lineHeight":22,"fontWeight":"700","letterSpacing":2,"textTransform":"uppercase","textAlign":"start","color":"rgb(3, 54, 61)","lines":1},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Ticketing system","x":544,"y":5013,"w":88,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/service/ticketing-system/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Messaging & live chat","x":544,"y":5040,"w":114,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/service/messaging/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Help center","x":544,"y":5067,"w":62,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/service/knowledge/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Voice","x":544,"y":5094,"w":29,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/service/voice/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Community forums","x":544,"y":5121,"w":99,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/service/community-forum/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Reporting & analytics","x":544,"y":5148,"w":111,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/service/analytics/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Answer Bot","x":544,"y":5175,"w":61,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/service/ai/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Customer service software","x":544,"y":5202,"w":140,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/service/ticketing-system/customer-service-management-software/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Help desk ticketing software","x":544,"y":5229,"w":150,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/service/help-desk-software/ticketing-system/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Live chat software","x":544,"y":5256,"w":95,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/service/messaging/live-chat-software/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Knowledge base","x":544,"y":5283,"w":88,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/service/knowledge/knowledge-base-software/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Forum software","x":544,"y":5310,"w":82,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/service/knowledge/online-community-software/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Help desk software","x":544,"y":5337,"w":102,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/service/help-desk-software/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Quality assurance","x":544,"y":5364,"w":94,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/service/quality-assurance/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Workforce management","x":544,"y":5391,"w":126,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/service/workforce-management/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Advanced Data Privacy and Protection","x":544,"y":5418,"w":145,"h":34,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":2,"href":"/service/customer-data-privacy-protection/"},
+  {"section":5,"region":"footer","kind":"text","tag":"h2","role":"h2","text":"Resources","x":728,"y":4973,"w":168,"h":22,"fontFamily":"Sharp Sans","fontSize":14,"lineHeight":22,"fontWeight":"700","letterSpacing":2,"textTransform":"uppercase","textAlign":"start","color":"rgb(3, 54, 61)","lines":1},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Security","x":728,"y":5013,"w":42,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/trust-center/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Product support","x":728,"y":5040,"w":84,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"https://support.zendesk.com/hc/en-us/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Request a demo","x":728,"y":5067,"w":86,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/demo/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Blog","x":728,"y":5094,"w":24,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/blog/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Academy","x":728,"y":5121,"w":49,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"https://academy.zendesk.com/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Partners","x":728,"y":5148,"w":44,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/partner/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Webinars","x":728,"y":5175,"w":49,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/company/events/#webinars"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Customer Stories","x":728,"y":5202,"w":90,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/customer/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Services","x":728,"y":5229,"w":45,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/customer-experience/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Zendesk Help center","x":728,"y":5256,"w":110,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"https://support.zendesk.com/hc/en-us/"},
+  {"section":5,"region":"footer","kind":"text","tag":"h2","role":"h2","text":"Company","x":912,"y":4973,"w":168,"h":22,"fontFamily":"Sharp Sans","fontSize":14,"lineHeight":22,"fontWeight":"700","letterSpacing":2,"textTransform":"uppercase","textAlign":"start","color":"rgb(3, 54, 61)","lines":1},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"About us","x":912,"y":5013,"w":47,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/company/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Newsroom","x":912,"y":5040,"w":57,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/newsroom/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Events","x":912,"y":5067,"w":35,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/company/events/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Careers","x":912,"y":5094,"w":41,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"https://www.zendesk.com/company/careers/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Inclusion & Belonging","x":912,"y":5121,"w":114,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/company/belonging/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Accessibility Plan","x":912,"y":5148,"w":91,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"https://support.zendesk.com/hc/en-us/articles/10831381898650-Zendesk-Accessibility-Plan"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Accessibility Plan - 2025 Progress Report","x":912,"y":5175,"w":129,"h":34,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":2,"href":"https://support.zendesk.com/hc/en-us/articles/9827868644378"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Accessibility Plan - 2024 Progress Report","x":912,"y":5221,"w":129,"h":34,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":2,"href":"https://support.zendesk.com/hc/en-us/articles/9827830827802"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Sustainability","x":912,"y":5267,"w":69,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/company/sustainability/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Contact us","x":912,"y":5294,"w":56,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/contact/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Sitemap","x":912,"y":5321,"w":43,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/sitemap/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"System status","x":912,"y":5348,"w":73,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"https://status.zendesk.com"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Zendesk Foundation","x":912,"y":5375,"w":109,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"https://www.zendesk.org"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Zendesk Ventures","x":912,"y":5402,"w":96,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/company/ventures/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Legal","x":912,"y":5429,"w":29,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/company/legal/"},
+  {"section":5,"region":"footer","kind":"text","tag":"h2","role":"h2","text":"Favorite Things","x":1096,"y":4973,"w":168,"h":22,"fontFamily":"Sharp Sans","fontSize":14,"lineHeight":22,"fontWeight":"700","letterSpacing":2,"textTransform":"uppercase","textAlign":"start","color":"rgb(3, 54, 61)","lines":1},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"What is Zendesk","x":1096,"y":5013,"w":87,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/what-is-zendesk/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Zendesk for Enterprise","x":1096,"y":5040,"w":120,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/business/enterprise/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Zendesk for Small Business","x":1096,"y":5067,"w":145,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/business/smb/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Zendesk for Startups","x":1096,"y":5094,"w":109,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/business/startups/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Customer Experience Trends","x":1096,"y":5121,"w":152,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"https://cxtrends.zendesk.com/?utm_medium=webpromo&utm_source=footer&utm_campaign=Other_Channel_Organic_other_AMER_2024_CXT-2025_webpromo_footer"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"What is CRM?","x":1096,"y":5148,"w":72,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/sell/crm/what-is-crm/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"CRM software guide","x":1096,"y":5175,"w":106,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/sell/crm/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Join our research panel","x":1096,"y":5202,"w":124,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":18,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/programs/experience-research-panel/"},
+  {"section":5,"region":"footer","kind":"text","tag":"h2","role":"h2","text":"Enter the fold","x":176,"y":5511,"w":260,"h":32,"fontFamily":"Sharp Sans","fontSize":24,"lineHeight":32,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(3, 54, 61)","lines":1},
+  {"section":5,"region":"footer","kind":"text","tag":"p","role":null,"text":"Subscribe to our newsletter.","x":176,"y":5543,"w":260,"h":24,"fontFamily":"Proxima Nova","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(23, 73, 77)","lines":1},
+  {"section":5,"region":"footer","kind":"control","tag":"input","role":"field","text":"Work email","x":452,"y":5511,"w":310,"h":48,"fontFamily":"Proxima Nova","fontSize":16,"lineHeight":24,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(23, 73, 77)","lines":1},
+  {"section":5,"region":"footer","kind":"control","tag":"button","role":"button","text":"Subscribe","x":762,"y":5511,"w":134,"h":48,"fontFamily":"Sharp Sans","fontSize":18,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":5,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":1032,"y":5511,"w":32,"h":32,"fit":"fill","href":"https://www.twitter.com/zendesk"},
+  {"section":5,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":1080,"y":5511,"w":32,"h":32,"fit":"fill","href":"https://www.facebook.com/zendesk"},
+  {"section":5,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":1128,"y":5511,"w":32,"h":32,"fit":"fill","href":"https://www.linkedin.com/company/zendesk"},
+  {"section":5,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":1176,"y":5511,"w":40,"h":32,"fit":"fill","href":"https://www.youtube.com/zendesk"},
+  {"section":5,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":1232,"y":5511,"w":32,"h":32,"fit":"fill","href":"https://www.instagram.com/zendesk"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Terms of Use","x":176,"y":5591,"w":69,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/company/agreements-and-terms/terms-of-use/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Privacy Notice","x":257,"y":5591,"w":75,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/company/agreements-and-terms/privacy-notice/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Cookie Notice","x":344,"y":5591,"w":75,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/company/agreements-and-terms/cookie-notice/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Do Not Sell or Share My Personal Information","x":431,"y":5591,"w":237,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"#onetrust-show-cookie-settings"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"Trust Center","x":680,"y":5591,"w":64,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/trust-center/"},
+  {"section":5,"region":"footer","kind":"control","tag":"a","role":"link","text":"© 2026 Zendesk, Inc.","x":756,"y":5591,"w":114,"h":15,"fontFamily":"Proxima Nova","fontSize":12,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(104, 115, 125)","lines":1,"href":"/company/legal/"}
+ ]
+}

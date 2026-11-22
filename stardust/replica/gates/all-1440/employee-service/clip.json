@@ -1,0 +1,57 @@
+{
+ "url": "https://main--3055ed88--aemcoder.aem.page/employee-service",
+ "at": "2026-11-21T13:25:41.296Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 16,
+  "textNodes": 219,
+  "controls": 141,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.sv-carousel.block",
+   "path": "div.sv-res-list > div.sv-res-track > div.sv-res-slide > a.sv-res-card",
+   "text": "articlethe ai advantage: how smart automation gives it teams",
+   "cutMin": 106,
+   "cutMax": 106
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "a.sv-res-card",
+   "path": "a.sv-res-card > div.sv-res-content > div.sv-res-title > p",
+   "text": "the ai advantage: how smart automation gives it teams their ",
+   "cutMin": 71,
+   "cutMax": 71
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 15,
+   "textNodes": 218,
+   "controls": 142,
+   "total": 0
+  }
+ }
+}

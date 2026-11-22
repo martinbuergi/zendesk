@@ -1,0 +1,85 @@
+{
+  "a": "stardust/replica/gates/all-360/instapage-form-trial-teaser-suite-inline/origin.png",
+  "b": "stardust/replica/gates/all-360/instapage-form-trial-teaser-suite-inline/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 900,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 6792,
+  "pct": 2.1,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/instapage-form-trial-teaser-suite-inline/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 21.7,
+  "textBoxes": 4,
+  "textPixels": 7162,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 3.8
+    },
+    {
+      "y0": 500,
+      "y1": 900,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.45,
+    "differingPixels": 4705,
+    "compared": {
+      "width": 360,
+      "height": 903,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 50,
+        "shift": 3,
+        "cumulative": 3
+      },
+      {
+        "y": 897,
+        "shift": -3,
+        "cumulative": 0
+      }
+    ],
+    "maxOffset": 3,
+    "totalShift": 6,
+    "insertedRows": 3,
+    "deletedRows": 3,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 2,
+        "unaligned": 3.8
+      },
+      {
+        "y0": 500,
+        "y1": 900,
+        "pct": 0.8,
+        "unaligned": 0
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/instapage-form-trial-teaser-suite-inline/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 9,
+    "totalShift": 6,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/instapage-form-trial-teaser-suite-inline"
+  }
+}

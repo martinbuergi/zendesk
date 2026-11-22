@@ -1,0 +1,368 @@
+/* sv-links — capabilities link grid (live .jxjGLI + .fPdbCw) */
+.sv-links.za-section { background-color: transparent; }
+
+.sv-links .za-eyebrow { font-stretch: condensed; }
+
+.sv-links .za-eyebrow p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.sv-links .sv-lead { display: flow-root; }
+
+.sv-links .sv-caps {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.sv-links .sv-cap { width: 100%; }
+
+.sv-links .sv-cap p { margin: 0; }
+
+.sv-links .sv-cap a:any-link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+  padding: 16px;
+  border-radius: 8px;
+  color: var(--za-ink);
+  font-size: 16px;
+  line-height: calc(1em + 6px);
+  transition: 100ms linear;
+}
+
+.sv-links .sv-cap a:hover,
+.sv-links .sv-cap a:focus-visible { background: rgb(17 17 13 / 5%); }
+
+.sv-links .sv-cap a:active { background: rgb(17 17 13 / 11%); }
+
+.sv-links .sv-cap-more p {
+  margin: 0;
+  padding: 0 16px 16px 56px;
+  font-size: 16px;
+}
+
+.sv-links .sv-cap-icon {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  margin: 0 8px 0 0;
+}
+
+.sv-links .sv-cap-icon p {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 0;
+}
+
+.sv-links .sv-cap-icon .icon,
+.sv-links .sv-cap-icon img,
+.sv-links .sv-cap-icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.sv-links .sv-cap-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sv-links .sv-cap-title strong { font: inherit; }
+
+.sv-links .sv-cap-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: calc(1em + 6px);
+  font-stretch: expanded;
+}
+
+.sv-links .sv-cap-title,
+.sv-links .sv-cap-sub { display: block; }
+
+.sv-links .sv-cap-sub {
+  margin-top: 4px;
+  font-weight: 400;
+}
+
+@media (width >= 768px) {
+  .sv-links .sv-caps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: baseline;
+    width: auto;
+  }
+}
+
+/* subnav — landing / microsite sticky header bar (live /web-widget/ .cPJLpn, /cxtrends/ .llLKNZ) */
+.sv-links.subnav {
+  position: sticky;
+  top: -1px;
+  z-index: 10;
+  background: transparent;
+}
+
+.sv-links.subnav.no-nav { background: rgb(255 255 255 / 90%); }
+
+.sv-links.subnav .sv-subnav-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 56px;
+  padding: 0 16px;
+}
+
+.sv-links.subnav.no-nav .sv-subnav-bar { height: 60px; }
+
+.sv-links.subnav p { margin: 0; }
+
+.sv-links.subnav .sv-subnav-brand {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  min-width: 0;
+}
+
+.sv-links.subnav .sv-subnav-brand a:any-link {
+  display: block;
+  line-height: 0;
+}
+
+.sv-links.subnav .sv-subnav-brand .icon,
+.sv-links.subnav .sv-subnav-brand img {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+/* no-nav: the Zendesk lockup; below 970 only its wordmark shows (live clips the mark) */
+.sv-links.subnav.no-nav .sv-subnav-logo {
+  width: 90px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.sv-links.subnav.no-nav .sv-subnav-logo img {
+  width: 90px;
+  height: 59px;
+  margin-top: -24px;
+}
+
+/* nav: the stacked lockup below 1150, the horizontal one above */
+.sv-links.subnav .sv-subnav-logo-alt { display: none; }
+
+.sv-links.subnav:not(.no-nav) .sv-subnav-logo img {
+  width: 150px;
+  height: 30px;
+  margin-left: 1px;
+}
+
+.sv-links.subnav .sv-subnav-menu {
+  display: none;
+  align-items: center;
+}
+
+.sv-links.subnav .sv-subnav-list {
+  display: flex;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sv-links.subnav .sv-subnav-list a:any-link {
+  display: flex;
+  align-items: center;
+  padding: 12px 8px 11px;
+  border-radius: 8px;
+  color: var(--za-ink);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-decoration: none;
+}
+
+.sv-links.subnav .sv-subnav-list a:hover { background: rgb(17 17 13 / 5%); }
+
+.sv-links.subnav .sv-subnav-ctas {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sv-links.subnav .sv-subnav-ctas a.button:any-link {
+  padding: 10px 16px;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+/* no-nav below 970: primary CTA stays in the bar, the rest opens from the toggle */
+.sv-links.subnav.no-nav .sv-subnav-menu { display: flex; }
+
+.sv-links.subnav.no-nav .sv-subnav-ctas p:has(em) { display: none; }
+
+.sv-links.subnav .sv-subnav-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  margin: 0 -8px 0 6px;
+  padding: 6px;
+  border: 0;
+  background: transparent;
+  color: var(--za-ink);
+  cursor: pointer;
+}
+
+.sv-links.subnav:not(.no-nav) .sv-subnav-toggle { margin-left: auto; }
+
+.sv-links.subnav.is-open:not(.no-nav) .sv-subnav-menu,
+.sv-links.subnav.no-nav.is-open .sv-subnav-ctas p:has(em) { display: flex; }
+
+.sv-links.subnav.is-open:not(.no-nav) .sv-subnav-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+  padding: 16px;
+  background: var(--za-white);
+  box-shadow: rgb(0 0 0 / 15%) 0 10px 20px;
+}
+
+.sv-links.subnav.is-open:not(.no-nav) .sv-subnav-list { flex-direction: column; gap: 0; }
+
+.sv-links.subnav.is-open:not(.no-nav) .sv-subnav-ctas { flex-direction: column; align-items: stretch; }
+
+@media (width >= 768px) {
+  .sv-links.subnav .sv-subnav-bar { padding: 0 24px; }
+
+  .sv-links.subnav.no-nav .sv-subnav-bar { height: 72px; }
+
+  .sv-links.subnav.no-nav .sv-subnav-logo {
+    width: 100px;
+    height: 72px;
+  }
+
+  .sv-links.subnav.no-nav .sv-subnav-logo img {
+    width: 100px;
+    height: 71px;
+    margin-top: -29px;
+  }
+
+  /* nav: the primary CTA joins the bar */
+  .sv-links.subnav:not(.no-nav) .sv-subnav-menu { display: flex; margin-left: auto; }
+
+  .sv-links.subnav:not(.no-nav) .sv-subnav-menu .sv-subnav-list,
+  .sv-links.subnav:not(.no-nav) .sv-subnav-ctas p:has(em) { display: none; }
+
+  .sv-links.subnav:not(.no-nav) .sv-subnav-toggle { margin-left: 18px; }
+}
+
+@media (width >= 970px) {
+  .sv-links.subnav.no-nav .sv-subnav-bar { height: 91px; }
+
+  .sv-links.subnav.no-nav .sv-subnav-logo {
+    width: 100px;
+    height: 71px;
+    padding-top: 6px;
+  }
+
+  .sv-links.subnav.no-nav .sv-subnav-logo img {
+    width: 84px;
+    height: 60px;
+    margin-top: 0;
+  }
+
+  .sv-links.subnav.no-nav .sv-subnav-ctas p:has(em) { display: block; }
+
+  .sv-links.subnav.no-nav .sv-subnav-toggle { display: none; }
+}
+
+@media (width >= 1150px) {
+  .sv-links.subnav:not(.no-nav) .sv-subnav-logo { display: none; }
+
+  .sv-links.subnav:not(.no-nav) .sv-subnav-logo-alt { display: block; }
+
+  .sv-links.subnav:not(.no-nav) .sv-subnav-logo-alt img {
+    width: 200px;
+    height: 20px;
+  }
+
+  .sv-links.subnav:not(.no-nav) .sv-subnav-menu .sv-subnav-list { display: flex; }
+
+  .sv-links.subnav:not(.no-nav) .sv-subnav-ctas { margin-left: 10px; }
+
+  .sv-links.subnav:not(.no-nav) .sv-subnav-toggle { display: none; }
+}
+
+/* `subnav blog` (gen B blog sub-bar, live /repeatcustomer/ v1-global-header-blog): a white bar under
+   the global header, text brand + section links; desktop only (live mobile replaces the header) */
+.sv-links.subnav.blog { display: none; }
+
+@media (width >= 1150px) {
+  .sv-links.subnav.blog {
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin-top: 128px;
+    background: var(--za-white);
+  }
+
+  .sv-links.subnav.blog .sv-subnav-bar {
+    max-width: var(--zb-container);
+    height: 67px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+  .sv-links.subnav.blog .sv-subnav-brand {
+    flex: 0 0 auto;
+    margin-right: 15px;
+    padding: 0 8px;
+  }
+
+  .sv-links.subnav.blog .sv-subnav-brand a.sv-subnav-logo:any-link {
+    display: block;
+    color: var(--zb-teal-800);
+    font-family: var(--zb-font-head);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+  }
+
+  .sv-links.subnav.blog:not(.no-nav) .sv-subnav-menu {
+    display: flex;
+    margin-left: 0;
+  }
+
+  .sv-links.subnav.blog .sv-subnav-list { gap: 0; }
+
+  .sv-links.subnav.blog .sv-subnav-list a:any-link {
+    padding: 17px 8px;
+    border-radius: 4px;
+    color: var(--zb-teal-900);
+    font-family: var(--zb-font-head);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+  }
+
+  .sv-links.subnav.blog .sv-subnav-list li { padding: 0 8px; }
+
+  .sv-links.subnav.blog .sv-subnav-ctas:empty { display: none; }
+}

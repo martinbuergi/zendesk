@@ -1,0 +1,1038 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-21T12:22:37.040Z",
+  "tol": 4,
+  "n": 4,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/customer/coco-republic/",
+  "at": "2026-11-20T19:05:59.164Z",
+  "docH": 5948
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/customer/coco-republic",
+  "at": "2026-11-21T12:22:36.923Z",
+  "docH": 5948
+ },
+ "results": [
+  {
+   "sel": ".Cardstyle__CardRoot-sc-1g3sojj-1=.zb-fact",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:year founded",
+       "role": "heading",
+       "text": "year founded",
+       "edsText": "year founded",
+       "byPosition": false,
+       "origin": {
+        "x": 115,
+        "y": 24,
+        "w": 121,
+        "h": 22
+       },
+       "eds": {
+        "x": 115,
+        "y": 24,
+        "w": 121,
+        "h": 22,
+        "sel": "h2#year-founded",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:1984",
+       "role": "text",
+       "text": "1984",
+       "edsText": "1984",
+       "byPosition": false,
+       "origin": {
+        "x": 159,
+        "y": 62,
+        "w": 33,
+        "h": 24
+       },
+       "eds": {
+        "x": 159,
+        "y": 62,
+        "w": 33,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 176,
+       "y": 1404,
+       "w": 352,
+       "h": 110
+      },
+      "eds": {
+       "x": 176,
+       "y": 1404,
+       "w": 352,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:showrooms",
+       "role": "heading",
+       "text": "showrooms",
+       "edsText": "showrooms",
+       "byPosition": false,
+       "origin": {
+        "x": 122,
+        "y": 24,
+        "w": 109,
+        "h": 22
+       },
+       "eds": {
+        "x": 122,
+        "y": 24,
+        "w": 109,
+        "h": 22,
+        "sel": "h2#showrooms",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:15",
+       "role": "text",
+       "text": "15",
+       "edsText": "15",
+       "byPosition": false,
+       "origin": {
+        "x": 169,
+        "y": 62,
+        "w": 15,
+        "h": 24
+       },
+       "eds": {
+        "x": 169,
+        "y": 62,
+        "w": 15,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 544,
+       "y": 1404,
+       "w": 352,
+       "h": 110
+      },
+      "eds": {
+       "x": 544,
+       "y": 1404,
+       "w": 352,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:qualified interior designers",
+       "role": "heading",
+       "text": "qualified interior designers",
+       "edsText": "qualified interior designers",
+       "byPosition": false,
+       "origin": {
+        "x": 48,
+        "y": 24,
+        "w": 255,
+        "h": 22
+       },
+       "eds": {
+        "x": 48,
+        "y": 24,
+        "w": 255,
+        "h": 22,
+        "sel": "h2#qualified-interior-designers",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:40",
+       "role": "text",
+       "text": "40",
+       "edsText": "40",
+       "byPosition": false,
+       "origin": {
+        "x": 167,
+        "y": 62,
+        "w": 19,
+        "h": 24
+       },
+       "eds": {
+        "x": 167,
+        "y": 62,
+        "w": 19,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 912,
+       "y": 1404,
+       "w": 352,
+       "h": 110
+      },
+      "eds": {
+       "x": 912,
+       "y": 1404,
+       "w": 352,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Quotestyle__QuoteRoot-sc-rczw5k-0=.zb-quote",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.khrxgA > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:“the biggest change has been simplicity ",
+       "role": "text",
+       "text": "“the biggest change has been simplicity and visibility. zend",
+       "edsText": "“the biggest change has been simplicity and visibility. zend",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 472,
+        "h": 120
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 472,
+        "h": 120,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:michael pagano",
+       "role": "text",
+       "text": "michael pagano",
+       "edsText": "michael pagano",
+       "byPosition": false,
+       "origin": {
+        "x": 119,
+        "y": 192,
+        "w": 298,
+        "h": 28
+       },
+       "eds": {
+        "x": 119,
+        "y": 192,
+        "w": 298,
+        "h": 28,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/600",
+        "eds": "20/28/600"
+       }
+      },
+      {
+       "key": "text:customer experience manager at coco repu",
+       "role": "text",
+       "text": "customer experience manager at coco republic",
+       "edsText": "customer experience manager at coco republic",
+       "byPosition": false,
+       "origin": {
+        "x": 119,
+        "y": 234,
+        "w": 298,
+        "h": 18
+       },
+       "eds": {
+        "x": 119,
+        "y": 234,
+        "w": 298,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/18/400",
+        "eds": "14/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 176,
+       "y": 1042,
+       "w": 536,
+       "h": 298
+      },
+      "eds": {
+       "x": 176,
+       "y": 1042,
+       "w": 536,
+       "h": 298
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.khrxgA > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:“zendesk has really opened our eyes and ",
+       "role": "text",
+       "text": "“zendesk has really opened our eyes and our ears to the cust",
+       "edsText": "“zendesk has really opened our eyes and our ears to the cust",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 472,
+        "h": 90
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 472,
+        "h": 90,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:christine polson",
+       "role": "text",
+       "text": "christine polson",
+       "edsText": "christine polson",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 162,
+        "w": 250,
+        "h": 28
+       },
+       "eds": {
+        "x": 143,
+        "y": 162,
+        "w": 250,
+        "h": 28,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/600",
+        "eds": "20/28/600"
+       }
+      },
+      {
+       "key": "text:chief operating officer at coco republic",
+       "role": "text",
+       "text": "chief operating officer at coco republic",
+       "edsText": "chief operating officer at coco republic",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 204,
+        "w": 250,
+        "h": 18
+       },
+       "eds": {
+        "x": 143,
+        "y": 204,
+        "w": 250,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/18/400",
+        "eds": "14/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 728,
+       "y": 1042,
+       "w": 536,
+       "h": 298
+      },
+      "eds": {
+       "x": 728,
+       "y": 1042,
+       "w": 536,
+       "h": 298
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Statstyle__StatRoot-sc-17s8ggd-0=.zb-stat",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:60%",
+       "role": "text",
+       "text": "60%",
+       "edsText": "60%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:reduction in average handling time",
+       "role": "text",
+       "text": "reduction in average handling time",
+       "edsText": "reduction in average handling time",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 176,
+       "y": 1642,
+       "w": 260,
+       "h": 84
+      },
+      "eds": {
+       "x": 176,
+       "y": 1642,
+       "w": 260,
+       "h": 84
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:92%",
+       "role": "text",
+       "text": "92%",
+       "edsText": "92%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:reduction in phone wait time",
+       "role": "text",
+       "text": "reduction in phone wait time",
+       "edsText": "reduction in phone wait time",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 452,
+       "y": 1642,
+       "w": 260,
+       "h": 84
+      },
+      "eds": {
+       "x": 452,
+       "y": 1642,
+       "w": 260,
+       "h": 84
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:88%",
+       "role": "text",
+       "text": "88%",
+       "edsText": "88%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:reduction in call abandonment rate",
+       "role": "text",
+       "text": "reduction in call abandonment rate",
+       "edsText": "reduction in call abandonment rate",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 728,
+       "y": 1642,
+       "w": 260,
+       "h": 84
+      },
+      "eds": {
+       "x": 728,
+       "y": 1642,
+       "w": 260,
+       "h": 84
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:70%",
+       "role": "text",
+       "text": "70%",
+       "edsText": "70%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:nps improvement",
+       "role": "text",
+       "text": "nps improvement",
+       "edsText": "nps improvement",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1004,
+       "y": 1642,
+       "w": 260,
+       "h": 84
+      },
+      "eds": {
+       "x": 1004,
+       "y": 1642,
+       "w": 260,
+       "h": 84
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 9,
+  "within": 20,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

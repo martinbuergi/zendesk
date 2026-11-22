@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "stages": {
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-21T01-05-11-445Z",
+          "at": "2026-11-21T01:05:11.446Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-21T01-24-34-370Z",
+          "at": "2026-11-21T01:24:34.371Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T01-36-55-922Z",
+          "at": "2026-11-21T01:36:55.923Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T08-10-02-335Z",
+          "at": "2026-11-21T08:10:02.338Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T08-28-52-155Z",
+          "at": "2026-11-21T08:28:52.155Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T14-06-53-907Z",
+          "at": "2026-11-21T14:06:53.909Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "cluster-listing 360 cap: pixel 14.59% from the live-randomized catalogue rails (featured apps / theme screenshots / partner cards re-shuffle per visit) and the resources photo band — stardust/replica/gates/all-360/marketplace/pixel.json",
+          "at": "2026-11-21T01:37:09.348Z",
+          "counted": 3
+        }
+      ]
+    }
+  }
+}

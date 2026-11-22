@@ -1,0 +1,170 @@
+{
+  "legacy-fact-card": {
+    "origin": ".Cardstyle__CardRoot-sc-1g3sojj-1",
+    "build": ".zb-fact",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "customer-canva"
+    ],
+    "templates": [
+      "article"
+    ]
+  },
+  "legacy-pull-quote": {
+    "origin": ".Quotestyle__QuoteRoot-sc-rczw5k-0",
+    "build": ".zb-quote",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "customer-canva"
+    ],
+    "templates": [
+      "article"
+    ]
+  },
+  "legacy-stat": {
+    "origin": ".Statstyle__StatRoot-sc-17s8ggd-0",
+    "build": ".zb-stat",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "customer-canva"
+    ],
+    "templates": [
+      "article"
+    ]
+  },
+  "gen-a-icon-card": {
+    "origin": "#grid-1214588886 [class*=Cardstyle__CardRoot]",
+    "build": ".sv-why__card",
+    "eds": ".sv-cards .sv-why-card",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "service"
+    ],
+    "templates": [],
+    "note": "origin selectors are /service/ ids (page-scoped): not applied template-wide to program siblings (cluster-program-1)"
+  },
+  "gen-a-capability-link": {
+    "origin": "#linkgroup-910799028 a",
+    "build": ".sv-cap",
+    "eds": ".sv-links .sv-cap a",
+    "n": 12,
+    "required": true,
+    "pages": [
+      "service"
+    ],
+    "templates": [],
+    "note": "origin selectors are /service/ ids (page-scoped): not applied template-wide to program siblings (cluster-program-1)"
+  },
+  "gen-a-resource-card": {
+    "origin": "#teaser-fc7e164e83 .slick-current a",
+    "build": ".sv-res__slide:first-child .sv-res__card",
+    "eds": ".sv-carousel .sv-res-slide:first-child .sv-res-card",
+    "n": 1,
+    "required": true,
+    "pages": [
+      "service"
+    ],
+    "templates": [],
+    "note": "origin selectors are /service/ ids (page-scoped): not applied template-wide to program siblings (cluster-program-1)"
+  },
+  "gen-a-accordion-row": {
+    "origin": "#benefits [class*=AccordionHeader]",
+    "build": ".sv-acc__head",
+    "eds": ".sv-accordion .sv-acc-head",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "service"
+    ],
+    "templates": [],
+    "note": "origin selectors are /service/ ids (page-scoped): not applied template-wide to program siblings (cluster-program-1)"
+  },
+  "gen-a-office-cell": {
+    "origin": "#grid-16572934 [data-garden-id=\"grid.col\"]",
+    "build": ".ct-office",
+    "n": 28,
+    "required": true,
+    "pages": [
+      "contact"
+    ],
+    "templates": [],
+    "eds": ".fm-offices .fm-office",
+    "note": "origin selector is the /contact/ offices grid id (page-scoped): not applied template-wide to form siblings (cluster-form-1)"
+  },
+  "gen-a-location-card": {
+    "origin": "#teaser-f67eba53a7 .slick-current [role=group] > a",
+    "build": ".co-car__slide:first-child .co-card",
+    "eds": ".co-carousel .co-car-slide:first-child .co-card",
+    "n": 1,
+    "required": true,
+    "pages": [
+      "company"
+    ],
+    "templates": [],
+    "note": "origin selectors are /company/ ids (page-scoped): not applied template-wide to static siblings (cluster-static)"
+  },
+  "blog-story-card": {
+    "origin": "#blog-story-category-listing-1995158695 .iZDyCR",
+    "build": "#blog-story-category-listing-1995158695 .bl-card",
+    "n": 4,
+    "required": false,
+    "pages": [
+      "blog"
+    ],
+    "templates": [
+      "listing"
+    ]
+  },
+  "blog-latest-card": {
+    "origin": "main section:not([id]):not(section section) .iZDyCR",
+    "build": ".bl-latest__grid .bl-card",
+    "n": 4,
+    "required": false,
+    "pages": [
+      "blog"
+    ],
+    "templates": [
+      "listing"
+    ]
+  },
+  "gen-a-plan-card": {
+    "origin": "#plans .Cardstyle__CardRoot-sc-12jokda-2",
+    "build": ".pr-plans .pr-card",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "pricing"
+    ],
+    "templates": [],
+    "eds": ".pr-plans:not(.addons) .pr-card",
+    "note": "Scoped to /pricing/ by page (cluster-unique): `unique` siblings are one-of-a-kind and carry no plan/add-on/FAQ units."
+  },
+  "gen-a-addon-card": {
+    "origin": "#addons .Cardstyle__CardRoot-sc-12jokda-2",
+    "build": ".pr-addons .pr-card",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "pricing"
+    ],
+    "templates": [],
+    "eds": ".pr-plans.addons .pr-card",
+    "note": "Scoped to /pricing/ by page (cluster-unique): `unique` siblings are one-of-a-kind and carry no plan/add-on/FAQ units."
+  },
+  "gen-a-pricing-faq-row": {
+    "origin": "#faqs .Accordionstyle__AccordionSection-sc-1baakjb-5",
+    "build": ".pr-acc__item",
+    "n": 12,
+    "required": true,
+    "pages": [
+      "pricing"
+    ],
+    "templates": [],
+    "eds": ".pr-faq .pr-faq-item",
+    "note": "Scoped to /pricing/ by page (cluster-unique): `unique` siblings are one-of-a-kind and carry no plan/add-on/FAQ units."
+  }
+}

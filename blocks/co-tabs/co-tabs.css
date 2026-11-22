@@ -1,0 +1,81 @@
+/* co-tabs — trust-center sidebar navigation (live Sidebar sticky at 135 px, 4/12 | 7/12 offset 1) */
+.co-tabs .co-tabs-side {
+  display: none;
+}
+
+.co-tabs .co-tabs-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.co-tabs .co-tab p {
+  margin: 0;
+}
+
+.co-tabs .co-tab a:any-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  border-radius: 8px;
+  color: var(--za-ink);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  transition: background-color 300ms var(--za-ease);
+}
+
+.co-tabs .co-tab.is-active a:any-link,
+.co-tabs .co-tab a:any-link:hover {
+  background-color: rgb(17 17 13 / 11%);
+}
+
+.co-tabs .co-tab-icon {
+  display: flex;
+  flex: 0 0 24px;
+  margin-right: 8px;
+}
+
+.co-tabs .co-tab-icon .icon,
+.co-tabs .co-tab-icon img {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+/* adopted tab-group sections: the content column carries the gutters */
+.co-tabs .co-tabs-main > .section .za-container {
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.co-tabs .co-tabs-main > .section:first-child .co-accordion.lead {
+  margin-top: 0;
+}
+
+@media (width >= 768px) {
+  .co-tabs .co-tabs-side {
+    display: block;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .co-tabs .co-tabs-nav {
+    position: sticky;
+    top: 85px;
+  }
+
+  .co-tabs .co-tabs-main {
+    flex: 0 0 58.3333%;
+    max-width: 58.3333%;
+    margin-left: calc(100% / 12);
+  }
+}
+
+@media (width >= 1150px) {
+  .co-tabs .co-tabs-nav {
+    top: 135px;
+  }
+}

@@ -1,0 +1,175 @@
+/* pr-split — media/text split rows (forethought dark, startups, ROI reverse) */
+.pr-split.dark {
+  background-color: var(--za-ink);
+}
+
+.pr-split .pr-split-row {
+  align-items: center;
+  row-gap: 32px;
+}
+
+.pr-split .pr-split-text,
+.pr-split .pr-split-media {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.pr-split .pr-split-eyebrow {
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+.pr-split .pr-split-eyebrow p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+}
+
+.pr-split .pr-split-eyebrow em {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  padding: 0.35em 0.6em 0.3em;
+  border-radius: 4px;
+  background: var(--za-lime);
+  color: var(--za-ink);
+  font-size: inherit;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.75px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pr-split .pr-split-h h2 {
+  margin: 0 0 24px;
+}
+
+.pr-split .pr-split-body {
+  display: flow-root;
+  margin-bottom: 16px;
+}
+
+.pr-split .pr-split-body p {
+  margin: 0 0 16px;
+}
+
+.pr-split .pr-split-btns {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  padding-top: 8px;
+}
+
+.pr-split .pr-split-btns p {
+  width: 100%;
+  margin: 0;
+}
+
+.pr-split .pr-split-btns a.button {
+  width: 100%;
+}
+
+.pr-split .pr-media {
+  position: relative;
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+.pr-split .pr-media p {
+  margin: 0;
+}
+
+.pr-split .pr-media :is(p, picture) {
+  display: block;
+}
+
+/* the picture's own ratio (4:3 photos, 1:1 graphic), as the prototype's fixed-ratio frames */
+.pr-split .pr-media img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.pr-split.dark .pr-split-h h2,
+.pr-split.dark .pr-split-eyebrow {
+  color: var(--za-cream);
+}
+
+.pr-split.dark .pr-split-body,
+.pr-split.dark .pr-split-body p {
+  color: var(--za-white);
+}
+
+.pr-split.dark a.button.secondary {
+  color: var(--za-white);
+}
+
+.pr-split.dark a.button.secondary::before {
+  border-color: rgb(255 255 255 / 32%);
+}
+
+.pr-split.dark a.button.secondary:hover::before {
+  background-color: rgb(255 255 255 / 7%);
+}
+
+@media (width >= 768px) {
+  .pr-split .pr-split-text {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 36px;
+  }
+
+  .pr-split .pr-split-media {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+    margin-left: 8.3333%;
+  }
+
+  .pr-split.reverse .pr-split-row {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  .pr-split.reverse .pr-split-text {
+    padding-right: 12px;
+    padding-left: 36px;
+  }
+
+  .pr-split.reverse .pr-split-media {
+    margin-right: 8.3333%;
+    margin-left: 0;
+  }
+
+  .pr-split .pr-split-eyebrow {
+    font-size: 13px;
+  }
+
+  .pr-split .pr-split-btns {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+    width: auto;
+  }
+
+  .pr-split .pr-split-btns p,
+  .pr-split .pr-split-btns a.button {
+    width: auto;
+  }
+}
+
+@media (width >= 1150px) {
+  .pr-split .pr-split-eyebrow {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "a": "stardust/replica/gates/all-360/blog-ads-api-output/origin.png",
+  "b": "stardust/replica/gates/all-360/blog-ads-api-output/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 988,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 0,
+  "pct": 0,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/blog-ads-api-output/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 0,
+  "textBoxes": 54,
+  "textPixels": 244987,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 988,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0,
+    "differingPixels": 0,
+    "compared": {
+      "width": 360,
+      "height": 988,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 500,
+        "y1": 988,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": null,
+    "reason": "aligned number not lower than the unaligned one",
+    "candidate": {
+      "pct": 0.1,
+      "steps": 1,
+      "totalShift": 1
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/blog-ads-api-output"
+  }
+}

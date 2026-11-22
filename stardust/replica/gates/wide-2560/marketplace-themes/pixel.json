@@ -1,0 +1,152 @@
+{
+  "a": "stardust/replica/gates/wide-2560/marketplace-themes/origin.png",
+  "b": "stardust/replica/gates/wide-2560/marketplace-themes/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 4408,
+    "mode": "overlap"
+  },
+  "heightDelta": 704,
+  "differingPixels": 2879058,
+  "pct": 25.51,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/wide-2560/marketplace-themes/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.8
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 15.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 19.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 17.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 13.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 19.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 45.4
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 91.7
+    },
+    {
+      "y0": 4000,
+      "y1": 4408,
+      "pct": 2.2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 25.51,
+    "differingPixels": 2879058,
+    "compared": {
+      "width": 2560,
+      "height": 4408,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 15.3,
+        "unaligned": 15.3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 19.4,
+        "unaligned": 19.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 17.7,
+        "unaligned": 17.7
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 13.4,
+        "unaligned": 13.4
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 19.4,
+        "unaligned": 19.4
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 45.4,
+        "unaligned": 45.4
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 91.7,
+        "unaligned": 91.7
+      },
+      {
+        "y0": 4000,
+        "y1": 4408,
+        "pct": 2.2,
+        "unaligned": 2.2
+      }
+    ],
+    "diff": null,
+    "reason": "aligned number not lower than the unaligned one",
+    "candidate": {
+      "pct": 35.77,
+      "steps": 1,
+      "totalShift": 704
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": "pixel 25.51% > 10%"
+}

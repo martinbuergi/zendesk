@@ -1,0 +1,1140 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-21T13:01:46.629Z",
+  "tol": 4,
+  "n": 4,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/customer/quickmd/",
+  "at": "2026-11-20T21:50:42.276Z",
+  "docH": 6423
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/customer/quickmd",
+  "at": "2026-11-21T13:01:46.529Z",
+  "docH": 6423
+ },
+ "results": [
+  {
+   "sel": ".Cardstyle__CardRoot-sc-1g3sojj-1=.zb-fact",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:company headquarters",
+       "role": "heading",
+       "text": "company headquarters",
+       "edsText": "company headquarters",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 24,
+        "w": 212,
+        "h": 22
+       },
+       "eds": {
+        "x": 24,
+        "y": 24,
+        "w": 212,
+        "h": 22,
+        "sel": "h2#company-headquarters",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:los angeles, california",
+       "role": "text",
+       "text": "los angeles, california",
+       "edsText": "los angeles, california",
+       "byPosition": false,
+       "origin": {
+        "x": 50,
+        "y": 62,
+        "w": 160,
+        "h": 24
+       },
+       "eds": {
+        "x": 50,
+        "y": 62,
+        "w": 160,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 176,
+       "y": 1440,
+       "w": 260,
+       "h": 110
+      },
+      "eds": {
+       "x": 176,
+       "y": 1440,
+       "w": 260,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:company founded",
+       "role": "heading",
+       "text": "company founded",
+       "edsText": "company founded",
+       "byPosition": false,
+       "origin": {
+        "x": 50,
+        "y": 24,
+        "w": 161,
+        "h": 22
+       },
+       "eds": {
+        "x": 50,
+        "y": 24,
+        "w": 161,
+        "h": 22,
+        "sel": "h2#company-founded",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:2019",
+       "role": "text",
+       "text": "2019",
+       "edsText": "2019",
+       "byPosition": false,
+       "origin": {
+        "x": 113,
+        "y": 62,
+        "w": 34,
+        "h": 24
+       },
+       "eds": {
+        "x": 113,
+        "y": 62,
+        "w": 34,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 452,
+       "y": 1440,
+       "w": 260,
+       "h": 110
+      },
+      "eds": {
+       "x": 452,
+       "y": 1440,
+       "w": 260,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:total patient visits",
+       "role": "heading",
+       "text": "total patient visits",
+       "edsText": "total patient visits",
+       "byPosition": false,
+       "origin": {
+        "x": 42,
+        "y": 24,
+        "w": 175,
+        "h": 22
+       },
+       "eds": {
+        "x": 42,
+        "y": 24,
+        "w": 175,
+        "h": 22,
+        "sel": "h2#total-patient-visits",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:1.5m+",
+       "role": "text",
+       "text": "1.5m+",
+       "edsText": "1.5m+",
+       "byPosition": false,
+       "origin": {
+        "x": 110,
+        "y": 62,
+        "w": 39,
+        "h": 24
+       },
+       "eds": {
+        "x": 110,
+        "y": 62,
+        "w": 39,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 728,
+       "y": 1440,
+       "w": 260,
+       "h": 110
+      },
+      "eds": {
+       "x": 728,
+       "y": 1440,
+       "w": 260,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:employees",
+       "role": "heading",
+       "text": "employees",
+       "edsText": "employees",
+       "byPosition": false,
+       "origin": {
+        "x": 85,
+        "y": 24,
+        "w": 91,
+        "h": 22
+       },
+       "eds": {
+        "x": 85,
+        "y": 24,
+        "w": 91,
+        "h": 22,
+        "sel": "h2#employees",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:100-200",
+       "role": "text",
+       "text": "100-200",
+       "edsText": "100-200",
+       "byPosition": false,
+       "origin": {
+        "x": 101,
+        "y": 62,
+        "w": 59,
+        "h": 24
+       },
+       "eds": {
+        "x": 101,
+        "y": 62,
+        "w": 59,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1004,
+       "y": 1440,
+       "w": 260,
+       "h": 110
+      },
+      "eds": {
+       "x": 1004,
+       "y": 1440,
+       "w": 260,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Quotestyle__QuoteRoot-sc-rczw5k-0=.zb-quote",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.khrxgA > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:“if we didn’t have zendesk, we’d be runn",
+       "role": "text",
+       "text": "“if we didn’t have zendesk, we’d be running five or six sepa",
+       "edsText": "“if we didn’t have zendesk, we’d be running five or six sepa",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 472,
+        "h": 180
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 472,
+        "h": 180,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:colin crowley",
+       "role": "text",
+       "text": "colin crowley",
+       "edsText": "colin crowley",
+       "byPosition": false,
+       "origin": {
+        "x": 163,
+        "y": 252,
+        "w": 210,
+        "h": 28
+       },
+       "eds": {
+        "x": 163,
+        "y": 252,
+        "w": 210,
+        "h": 28,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/600",
+        "eds": "20/28/600"
+       }
+      },
+      {
+       "key": "text:vp of patient services at quickmd",
+       "role": "text",
+       "text": "vp of patient services at quickmd",
+       "edsText": "vp of patient services at quickmd",
+       "byPosition": false,
+       "origin": {
+        "x": 163,
+        "y": 294,
+        "w": 210,
+        "h": 18
+       },
+       "eds": {
+        "x": 163,
+        "y": 294,
+        "w": 210,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/18/400",
+        "eds": "14/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 176,
+       "y": 1018,
+       "w": 536,
+       "h": 358
+      },
+      "eds": {
+       "x": 176,
+       "y": 1018,
+       "w": 536,
+       "h": 358
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.khrxgA > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:“this unified foundation ensures we can ",
+       "role": "text",
+       "text": "“this unified foundation ensures we can adopt ai thoughtfull",
+       "edsText": "“this unified foundation ensures we can adopt ai thoughtfull",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 472,
+        "h": 120
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 472,
+        "h": 120,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:colin crowley",
+       "role": "text",
+       "text": "colin crowley",
+       "edsText": "colin crowley",
+       "byPosition": false,
+       "origin": {
+        "x": 163,
+        "y": 192,
+        "w": 210,
+        "h": 28
+       },
+       "eds": {
+        "x": 163,
+        "y": 192,
+        "w": 210,
+        "h": 28,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/600",
+        "eds": "20/28/600"
+       }
+      },
+      {
+       "key": "text:vp of patient services at quickmd",
+       "role": "text",
+       "text": "vp of patient services at quickmd",
+       "edsText": "vp of patient services at quickmd",
+       "byPosition": false,
+       "origin": {
+        "x": 163,
+        "y": 234,
+        "w": 210,
+        "h": 18
+       },
+       "eds": {
+        "x": 163,
+        "y": 234,
+        "w": 210,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/18/400",
+        "eds": "14/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 728,
+       "y": 1018,
+       "w": 536,
+       "h": 358
+      },
+      "eds": {
+       "x": 728,
+       "y": 1018,
+       "w": 536,
+       "h": 358
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Statstyle__StatRoot-sc-17s8ggd-0=.zb-stat",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:86%+",
+       "role": "text",
+       "text": "86%+",
+       "edsText": "86%+",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:reduction in abandoned calls",
+       "role": "text",
+       "text": "reduction in abandoned calls",
+       "edsText": "reduction in abandoned calls",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 176,
+       "y": 1678,
+       "w": 260,
+       "h": 84
+      },
+      "eds": {
+       "x": 176,
+       "y": 1678,
+       "w": 260,
+       "h": 84
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:40%",
+       "role": "text",
+       "text": "40%",
+       "edsText": "40%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:reduction in average resolution time (tr",
+       "role": "text",
+       "text": "reduction in average resolution time (triage)",
+       "edsText": "reduction in average resolution time (triage)",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 452,
+       "y": 1678,
+       "w": 260,
+       "h": 108
+      },
+      "eds": {
+       "x": 452,
+       "y": 1678,
+       "w": 260,
+       "h": 108
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:34%+",
+       "role": "text",
+       "text": "34%+",
+       "edsText": "34%+",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:reduction in chat first response time",
+       "role": "text",
+       "text": "reduction in chat first response time",
+       "edsText": "reduction in chat first response time",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 728,
+       "y": 1678,
+       "w": 260,
+       "h": 84
+      },
+      "eds": {
+       "x": 728,
+       "y": 1678,
+       "w": 260,
+       "h": 84
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:21%+",
+       "role": "text",
+       "text": "21%+",
+       "edsText": "21%+",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:reduction in average handle time (chat)",
+       "role": "text",
+       "text": "reduction in average handle time (chat)",
+       "edsText": "reduction in average handle time (chat)",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1004,
+       "y": 1678,
+       "w": 260,
+       "h": 108
+      },
+      "eds": {
+       "x": 1004,
+       "y": 1678,
+       "w": 260,
+       "h": 108
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 22,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

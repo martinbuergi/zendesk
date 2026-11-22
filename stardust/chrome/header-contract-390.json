@@ -1,0 +1,608 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.zendesk.com/",
+ "at": "2026-11-20T08:03:20.237Z",
+ "shots": "stardust/.work/chrome/header-contract-390",
+ "widths": {
+  "390": {
+   "root": "body>div:nth-of-type(1)>div>div:nth-of-type(2)",
+   "controls": [
+    {
+     "name": "Zendesk home",
+     "key": "zendesk home",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(2)>nav>div>a",
+     "href": "https://www.zendesk.com/",
+     "expanded": null,
+     "rect": [
+      16,
+      110,
+      90,
+      60
+     ],
+     "actions": {}
+    },
+    {
+     "name": "View demo",
+     "key": "view demo",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(2)>nav>div>div>div:nth-of-type(2)>a",
+     "href": "https://www.zendesk.com/demo/",
+     "expanded": null,
+     "rect": [
+      217,
+      118,
+      115,
+      43
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Toggle Mobile Menu",
+     "key": "toggle mobile menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(2)>nav>div>button:nth-of-type(2)",
+     "expanded": null,
+     "rect": [
+      338,
+      118,
+      44,
+      44
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "Pricing",
+          "href": "https://www.zendesk.com/pricing/"
+         },
+         {
+          "text": "Sign in",
+          "href": "https://www.zendesk.com/login/"
+         },
+         {
+          "text": "View demo",
+          "href": "https://www.zendesk.com/demo/"
+         },
+         {
+          "text": "Contact us",
+          "href": "https://www.zendesk.com/contact/"
+         }
+        ],
+        "headings": [
+         "Platform",
+         "Products",
+         "Solutions",
+         "Resources",
+         "Pricing",
+         "Sign in",
+         "Language"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Platform",
+         "Products",
+         "Solutions",
+         "Resources",
+         "Language"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         171,
+         390,
+         673
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "iTVnrm",
+         "ms": 400,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.sc-d3ef341b-7"
+        },
+        {
+         "kind": "animation",
+         "prop": "eEAsaf",
+         "ms": 400,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.LinkGroupstyle__LinkGroupRoot-sc-e6je4r-0"
+        },
+        {
+         "kind": "animation",
+         "prop": "kkbEPd",
+         "ms": 400,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.sc-e254d12-13"
+        }
+       ],
+       "shot": "390-001-Toggle-Mobile-Menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "Pricing",
+          "href": "https://www.zendesk.com/pricing/"
+         },
+         {
+          "text": "Sign in",
+          "href": "https://www.zendesk.com/login/"
+         },
+         {
+          "text": "View demo",
+          "href": "https://www.zendesk.com/demo/"
+         },
+         {
+          "text": "Contact us",
+          "href": "https://www.zendesk.com/contact/"
+         }
+        ],
+        "headings": [
+         "Platform",
+         "Products",
+         "Solutions",
+         "Resources",
+         "Pricing",
+         "Sign in",
+         "Language"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Platform",
+         "Products",
+         "Solutions",
+         "Resources",
+         "Language"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         171,
+         390,
+         673
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "iTVnrm",
+         "ms": 400,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.sc-d3ef341b-7"
+        },
+        {
+         "kind": "animation",
+         "prop": "eEAsaf",
+         "ms": 400,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.LinkGroupstyle__LinkGroupRoot-sc-e6je4r-0"
+        },
+        {
+         "kind": "animation",
+         "prop": "kkbEPd",
+         "ms": 400,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.sc-e254d12-13"
+        }
+       ],
+       "shot": "390-002-Toggle-Mobile-Menu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Platform",
+       "key": "platform",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(2)>div:nth-of-type(2)>div>div:nth-of-type(1)>button:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        16,
+        187,
+        358,
+        50
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 15,
+         "panel": {
+          "links": [
+           {
+            "text": "Zendesk Resolution Platform Deliver faster, higher quality resolutions with the only AI-first service platform",
+            "href": "https://www.zendesk.com/platform/"
+           },
+           {
+            "text": "Zendesk AI Power your service with AI that continuously improves every resolution",
+            "href": "https://www.zendesk.com/service/ai/"
+           },
+           {
+            "text": "Zendesk Bridge Deliver better outcomes with any AI agent, app, or experience",
+            "href": "https://www.zendesk.com/service/ai/ai-agents/zendesk-bridge/"
+           },
+           {
+            "text": "Reporting and analytics Turn service insights into better outcomes",
+            "href": "https://www.zendesk.com/service/analytics/"
+           },
+           {
+            "text": "Marketplace Find 1,800+ apps, partners, and integrations to serve customers and employees",
+            "href": "https://www.zendesk.com/marketplace/"
+           }
+          ],
+          "headings": [
+           "Platform"
+          ],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           110,
+           390,
+           562
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "span.Linkstyle__LinkIcon-sc-1n8u9ej-1"
+          },
+          {
+           "kind": "animation",
+           "prop": "fkmKfb",
+           "ms": 400,
+           "delay": 0,
+           "easing": "linear",
+           "target": "button.sc-d3ef341b-16"
+          },
+          {
+           "kind": "animation",
+           "prop": "jAYiMU",
+           "ms": 400,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.sc-d3ef341b-13"
+          }
+         ],
+         "shot": "390-003-Platform-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 15,
+         "panel": {
+          "links": [
+           {
+            "text": "Zendesk Resolution Platform Deliver faster, higher quality resolutions with the only AI-first service platform",
+            "href": "https://www.zendesk.com/platform/"
+           },
+           {
+            "text": "Zendesk AI Power your service with AI that continuously improves every resolution",
+            "href": "https://www.zendesk.com/service/ai/"
+           },
+           {
+            "text": "Zendesk Bridge Deliver better outcomes with any AI agent, app, or experience",
+            "href": "https://www.zendesk.com/service/ai/ai-agents/zendesk-bridge/"
+           },
+           {
+            "text": "Reporting and analytics Turn service insights into better outcomes",
+            "href": "https://www.zendesk.com/service/analytics/"
+           },
+           {
+            "text": "Marketplace Find 1,800+ apps, partners, and integrations to serve customers and employees",
+            "href": "https://www.zendesk.com/marketplace/"
+           }
+          ],
+          "headings": [
+           "Platform"
+          ],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           110,
+           390,
+           562
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "animation",
+           "prop": "fkmKfb",
+           "ms": 400,
+           "delay": 0,
+           "easing": "linear",
+           "target": "button.sc-d3ef341b-16"
+          },
+          {
+           "kind": "animation",
+           "prop": "jAYiMU",
+           "ms": 400,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.sc-d3ef341b-13"
+          }
+         ],
+         "shot": "390-004-Platform-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "",
+         "key": "",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(2)>nav>div>button:nth-of-type(1)",
+         "expanded": null,
+         "rect": [
+          10,
+          120,
+          44,
+          44
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 7,
+           "panel": {
+            "links": [
+             {
+              "text": "Zendesk home",
+              "href": "https://www.zendesk.com/"
+             },
+             {
+              "text": "Pricing",
+              "href": "https://www.zendesk.com/pricing/"
+             },
+             {
+              "text": "Sign in",
+              "href": "https://www.zendesk.com/login/"
+             }
+            ],
+            "headings": [
+             "Platform",
+             "Products",
+             "Solutions",
+             "Resources",
+             "Pricing",
+             "Sign in",
+             "Language"
+            ],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Platform",
+             "Products",
+             "Solutions",
+             "Resources",
+             "Language",
+             "Open chat"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             110,
+             358,
+             718
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": false,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "opacity",
+             "ms": null,
+             "delay": null,
+             "easing": null,
+             "target": "span.Linkstyle__LinkIcon-sc-1n8u9ej-1"
+            },
+            {
+             "kind": "animation",
+             "prop": "gJZWFA",
+             "ms": 400,
+             "delay": 0,
+             "easing": "linear",
+             "target": "a.StyledButton-sc-qe3ace-0"
+            },
+            {
+             "kind": "animation",
+             "prop": "kezRlp",
+             "ms": 100,
+             "delay": 0,
+             "easing": "linear",
+             "target": "div.sc-d3ef341b-13"
+            },
+            {
+             "kind": "animation",
+             "prop": "jBcSpD",
+             "ms": 200,
+             "delay": 0,
+             "easing": "linear",
+             "target": "button.sc-f75820d7-0"
+            }
+           ],
+           "shot": "390-005-toggle-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 7,
+           "panel": {
+            "links": [
+             {
+              "text": "Zendesk home",
+              "href": "https://www.zendesk.com/"
+             },
+             {
+              "text": "Pricing",
+              "href": "https://www.zendesk.com/pricing/"
+             },
+             {
+              "text": "Sign in",
+              "href": "https://www.zendesk.com/login/"
+             }
+            ],
+            "headings": [
+             "Platform",
+             "Products",
+             "Solutions",
+             "Resources",
+             "Pricing",
+             "Sign in",
+             "Language"
+            ],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Platform",
+             "Products",
+             "Solutions",
+             "Resources",
+             "Language"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             110,
+             390,
+             428
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": false,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "opacity",
+             "ms": null,
+             "delay": null,
+             "easing": null,
+             "target": "span.Linkstyle__LinkIcon-sc-1n8u9ej-1"
+            },
+            {
+             "kind": "animation",
+             "prop": "kezRlp",
+             "ms": 100,
+             "delay": 0,
+             "easing": "linear",
+             "target": "div.sc-d3ef341b-13"
+            },
+            {
+             "kind": "animation",
+             "prop": "gJZWFA",
+             "ms": 400,
+             "delay": 0,
+             "easing": "linear",
+             "target": "a.StyledButton-sc-qe3ace-0"
+            }
+           ],
+           "shot": "390-006-toggle-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 110,
+     "height": 60,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1,
+     "height": 60,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -1,
+     "height": 60,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 110,
+     "height": 60,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 6,
+   "truncated": "request-budget",
+   "loads": 16,
+   "requests": 2202,
+   "maxRequests": 2000,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": null
+}

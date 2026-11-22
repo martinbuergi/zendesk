@@ -1,0 +1,32 @@
+/* customer-canva.css — customer-story (article) template layer on top of canon-b.css.
+   Story hero composition: back link, logo + h1 + deck + share + CTA (6/12),
+   portrait image (5/12, offset 1). Shared by the 59 customer stories. */
+@import url("canon-b.css");
+
+.zb-story-hero { padding: 174px 0 32px; background: var(--zb-white); }
+.zb-story-hero__back { text-align: center; }
+.zb-story-hero__main { margin-top: 32px; }
+.zb-story-hero__text { flex: 0 0 100%; max-width: 100%; padding: 0 8px; text-align: center; }
+.zb-story-hero__text h1 {
+  margin: 0 0 24px;
+  font-family: var(--zb-font-head); font-size: 40px; line-height: 48px; font-weight: 700;
+  color: var(--zb-teal-900);
+}
+.zb-story-hero__text > p { margin: 16px 0; font-size: 16px; line-height: 24px; color: var(--zb-teal-800); }
+.zb-story-hero__text .zb-social { margin: 24px 0; }
+.zb-story-hero__text .zb-social ul { justify-content: center; }
+.zb-story-hero__media { flex: 0 0 100%; max-width: 100%; padding: 0 8px; text-align: center; }
+.zb-story-hero__media img { display: inline; width: auto; max-width: 100%; height: auto; }
+
+@media (min-width: 768px) {
+  .zb-story-hero { padding: 174px 0 64px; }
+  .zb-story-hero__back { text-align: left; }
+  .zb-story-hero__main { margin-top: 64px; align-items: center; }
+  .zb-story-hero__text { flex: 0 0 50%; max-width: 50%; text-align: left; }
+  .zb-story-hero__text h1 { font-size: 56px; line-height: 64px; }
+  .zb-story-hero__text .zb-social ul { justify-content: flex-start; }
+  .zb-story-hero__media { flex: 0 0 41.6667%; max-width: 41.6667%; margin-left: 8.33333%; text-align: left; }
+}
+@media (min-width: 1200px) {
+  .zb-story-hero__text h1 { font-size: 72px; line-height: 80px; }
+}

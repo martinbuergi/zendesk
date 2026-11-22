@@ -1,0 +1,461 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-20T10:36:02.005Z",
+  "url": "https://www.zendesk.com/pricing/",
+  "width": 360,
+  "main": "main",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://www.zendesk.com/pricing/",
+  "width": 360,
+  "viewport": 360,
+  "docHeight": 9191,
+  "scrollWidth": 360,
+  "root": "main",
+  "rootFallback": false,
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "\"Vanilla Sans\", Arial, sans-serif",
+    "n": 134
+   }
+  ],
+  "loadedFaces": [
+   "Vanilla Sans 400 normal",
+   "Vanilla Sans 500 normal",
+   "Vanilla Sans 600 normal",
+   "Vanilla Sans 700 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "13/18.2 400 Vanilla Sans",
+    "fontSize": 13,
+    "lineHeight": 18.2,
+    "fontWeight": "400",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 31,
+    "roles": {
+     "p": 7,
+     "button": 24
+    },
+    "sample": "For teams that have outgrown a shared inbox and need core support essentials."
+   },
+   {
+    "key": "15/21.75 600 Vanilla Sans",
+    "fontSize": 15,
+    "lineHeight": 21.75,
+    "fontWeight": "600",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 20,
+    "roles": {
+     "p": 1,
+     "h4": 1,
+     "h5": 18
+    },
+    "sample": "View pricing for:"
+   },
+   {
+    "key": "12/12 700 Vanilla Sans uppercase",
+    "fontSize": 12,
+    "lineHeight": 12,
+    "fontWeight": "700",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "uppercase",
+    "n": 12,
+    "roles": {
+     "span": 12
+    },
+    "sample": "AI"
+   },
+   {
+    "key": "14/17.5 400 Vanilla Sans",
+    "fontSize": 14,
+    "lineHeight": 17.5,
+    "fontWeight": "400",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 11,
+    "roles": {
+     "link": 11
+    },
+    "sample": "Pricing"
+   },
+   {
+    "key": "30/34.5 500 Vanilla Sans",
+    "fontSize": 30,
+    "lineHeight": 34.5,
+    "fontWeight": "500",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 9,
+    "roles": {
+     "h1": 1,
+     "h2": 7,
+     "h3": 1
+    },
+    "sample": "Pricing for the #1 AI customer service solution"
+   },
+   {
+    "key": "15/21.75 400 Vanilla Sans",
+    "fontSize": 15,
+    "lineHeight": 21.75,
+    "fontWeight": "400",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 9,
+    "roles": {
+     "p": 9
+    },
+    "sample": "Deploy AI agents that learn and improve in real-time. No migration required. Fo…"
+   },
+   {
+    "key": "24/30 500 Vanilla Sans",
+    "fontSize": 24,
+    "lineHeight": 30,
+    "fontWeight": "500",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 7,
+    "roles": {
+     "h3": 7
+    },
+    "sample": "Support Team"
+   },
+   {
+    "key": "16/23 600 Vanilla Sans",
+    "fontSize": 16,
+    "lineHeight": 23,
+    "fontWeight": "600",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 7,
+    "roles": {
+     "link": 7
+    },
+    "sample": "Start free trial"
+   },
+   {
+    "key": "20/28 600 Vanilla Sans",
+    "fontSize": 20,
+    "lineHeight": 28,
+    "fontWeight": "600",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 6,
+    "roles": {
+     "p": 6
+    },
+    "sample": "$19agent/month paid yearly"
+   },
+   {
+    "key": "18/28 600 Vanilla Sans",
+    "fontSize": 18,
+    "lineHeight": 28,
+    "fontWeight": "600",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 6,
+    "roles": {
+     "link": 6
+    },
+    "sample": "Contact Sales"
+   },
+   {
+    "key": "14/normal 400 Vanilla Sans",
+    "fontSize": 14,
+    "lineHeight": "normal",
+    "fontWeight": "400",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 6,
+    "roles": {
+     "link": 6
+    },
+    "sample": "Terms of Use"
+   },
+   {
+    "key": "13/18.2 600 Vanilla Sans",
+    "fontSize": 13,
+    "lineHeight": 18.2,
+    "fontWeight": "600",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "p": 4
+    },
+    "sample": "Starting with the basics"
+   },
+   {
+    "key": "16/26 600 Vanilla Sans",
+    "fontSize": 16,
+    "lineHeight": 26,
+    "fontWeight": "600",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 3,
+    "roles": {
+     "link": 3
+    },
+    "sample": "Learn more"
+   },
+   {
+    "key": "15/19.95 600 Vanilla Sans",
+    "fontSize": 15,
+    "lineHeight": 19.95,
+    "fontWeight": "600",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "link": 2
+    },
+    "sample": "Customer Service"
+   },
+   {
+    "key": "12/15.6 700 Vanilla Sans uppercase",
+    "fontSize": 12,
+    "lineHeight": 15.6,
+    "fontWeight": "700",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "uppercase",
+    "n": 1,
+    "roles": {
+     "p": 1
+    },
+    "sample": "Zendesk + Forethought"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(17, 17, 13)",
+    "n": 103
+   },
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 21
+   },
+   {
+    "color": "rgb(245, 245, 242)",
+    "n": 10
+   }
+  ],
+  "container": {
+   "left": 16,
+   "right": 16,
+   "content": 328,
+   "leftCommon": {
+    "x": 44,
+    "n": 46
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"main","y":-5,"h":245,"background":"rgb(255, 255, 255)","paddingTop":48,"paddingBottom":48,"selectorHint":"section.sc-f23d7fd5-11.kLnTED","firstText":"View pricing for:"},
+  {"i":1,"region":"main","y":240,"h":128,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"section#teaser-076fcac4d7.sc-f23d7fd5-11.jlZBiC","firstText":"Pricing for the #1 AI customer service solution"},
+  {"i":2,"region":"main","y":402,"h":2398,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"section#plans.sc-f23d7fd5-11.gGODWX","firstText":"Support Team"},
+  {"i":3,"region":"main","y":2800,"h":1066,"background":"rgb(255, 255, 255)","paddingTop":48,"paddingBottom":48,"selectorHint":"section#addons.sc-f23d7fd5-11.kLnTED","firstText":"Featured add-ons"},
+  {"i":4,"region":"main","y":3866,"h":752,"background":"rgb(17, 17, 13)","paddingTop":48,"paddingBottom":48,"selectorHint":"section#forethought.sc-f23d7fd5-11.cXWhYC","firstText":"Zendesk + Forethought"},
+  {"i":5,"region":"main","y":4617,"h":586,"background":"rgb(255, 255, 255)","paddingTop":48,"paddingBottom":48,"selectorHint":"section#zendesk_for_startups.sc-f23d7fd5-11.eKGAwU","firstText":"Zendesk for Startups"},
+  {"i":6,"region":"main","y":5203,"h":245,"background":"rgb(255, 255, 255)","paddingTop":48,"paddingBottom":48,"selectorHint":"section#teaser-893101fae7.sc-f23d7fd5-11.jpVCTe","firstText":"Trusted by teams everywhere."},
+  {"i":7,"region":"main","y":5448,"h":746,"background":"rgb(255, 255, 255)","paddingTop":48,"paddingBottom":48,"selectorHint":"section#roi-calculator.sc-f23d7fd5-11.eKGAwU","firstText":"See how much you can save"},
+  {"i":8,"region":"main","y":6194,"h":1648,"background":"rgb(255, 255, 255)","paddingTop":48,"paddingBottom":48,"selectorHint":"section#faqs.sc-f23d7fd5-11.kLnTED","firstText":"Frequently asked questions, answered."},
+  {"i":9,"region":"main","y":7841,"h":340,"background":"rgb(17, 17, 13)","paddingTop":48,"paddingBottom":48,"selectorHint":"section#final-callout.sc-f23d7fd5-11.gWxblo","firstText":"Still not sure? Explore on your own or with our team."},
+  {"i":10,"region":"footer","y":8221,"h":931,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"footer#footer-1719023883.sc-70d743a6-4.eqsTBx","firstText":"Products"}
+ ],
+ "nodes": [
+  {"section":0,"region":"main","kind":"text","tag":"p","role":null,"text":"View pricing for:","x":16,"y":108,"w":328,"h":22,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":0,"region":"main","kind":"control","tag":"a","role":"link","text":"Customer Service","x":16,"y":146,"w":160,"h":46,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":19.95,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1,"href":"/pricing/"},
+  {"section":0,"region":"main","kind":"control","tag":"a","role":"link","text":"Employee Service","x":180,"y":146,"w":160,"h":46,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":19.95,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1,"href":"/pricing/employee-service-pricing/"},
+  {"section":0,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":315,"y":161,"w":16,"h":16,"fit":"fill"},
+  {"section":1,"region":"main","kind":"text","tag":"h1","role":"h1","text":"Pricing for the #1 AI customer service solution","x":16,"y":240,"w":328,"h":104,"fontFamily":"Vanilla Sans","fontSize":30,"lineHeight":34.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(17, 17, 13)","lines":3},
+  {"section":2,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Support Team","x":44,"y":434,"w":272,"h":30,"fontFamily":"Vanilla Sans","fontSize":24,"lineHeight":30,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"For teams that have outgrown a shared inbox and need core support essentials.","x":44,"y":484,"w":272,"h":36,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"$19agent/month paid yearly","x":44,"y":541,"w":272,"h":28,"fontFamily":"Vanilla Sans","fontSize":20,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Start free trial","x":44,"y":589,"w":272,"h":44,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/register/"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Buy now","x":44,"y":645,"w":272,"h":44,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(17, 17, 13)","lines":1,"href":"/register/?source=zendesk_support&buy_now=true&plan=team"},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Starting with the basics","x":44,"y":738,"w":272,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Email and ticketing system","x":44,"y":772,"w":158,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Ticket routing","x":44,"y":802,"w":81,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Prebuilt analytics dashboards","x":44,"y":832,"w":175,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Pre-written responses","x":44,"y":862,"w":131,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Customer context","x":44,"y":893,"w":106,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Automations and triggers","x":44,"y":923,"w":151,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Suite Team","x":44,"y":1025,"w":272,"h":30,"fontFamily":"Vanilla Sans","fontSize":24,"lineHeight":30,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"For teams ready to unify support channels and automate resolutions with AI Agen…","x":44,"y":1075,"w":272,"h":36,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"$55agent/month paid yearly","x":44,"y":1131,"w":272,"h":28,"fontFamily":"Vanilla Sans","fontSize":20,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Start free trial","x":44,"y":1179,"w":272,"h":44,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/register/"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Buy now","x":44,"y":1235,"w":272,"h":44,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(17, 17, 13)","lines":1,"href":"/register/?source=zendesk_suite&buy_now=true&plan=team"},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Support Team features, plus:","x":44,"y":1328,"w":272,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":null,"text":"AI","x":44,"y":1362,"w":35,"h":20,"fontFamily":"Vanilla Sans","fontSize":12,"lineHeight":12,"fontWeight":"700","letterSpacing":0.75,"textTransform":"uppercase","textAlign":"center","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":48,"y":1366,"w":12,"h":12,"fit":"fill"},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"AI Agents","x":87,"y":1362,"w":56,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":null,"text":"AI","x":44,"y":1394,"w":35,"h":20,"fontFamily":"Vanilla Sans","fontSize":12,"lineHeight":12,"fontWeight":"700","letterSpacing":0.75,"textTransform":"uppercase","textAlign":"center","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":48,"y":1398,"w":12,"h":12,"fit":"fill"},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Knowledge Base","x":87,"y":1394,"w":97,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":null,"text":"AI","x":44,"y":1426,"w":35,"h":20,"fontFamily":"Vanilla Sans","fontSize":12,"lineHeight":12,"fontWeight":"700","letterSpacing":0.75,"textTransform":"uppercase","textAlign":"center","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":48,"y":1430,"w":12,"h":12,"fit":"fill"},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Action Builder","x":87,"y":1426,"w":82,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Omnichannel routing","x":44,"y":1458,"w":125,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Messaging and live chat","x":44,"y":1489,"w":142,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Telephony","x":44,"y":1519,"w":61,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":null,"text":"Most Popular","x":118,"y":1577,"w":125,"h":28,"fontFamily":"Vanilla Sans","fontSize":12,"lineHeight":12,"fontWeight":"700","letterSpacing":0.75,"textTransform":"uppercase","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Suite Professional","x":46,"y":1623,"w":268,"h":30,"fontFamily":"Vanilla Sans","fontSize":24,"lineHeight":30,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"For teams optimizing support operations with advanced automation and AI-driven …","x":46,"y":1673,"w":268,"h":55,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"$115agent/month paid yearly","x":46,"y":1748,"w":268,"h":28,"fontFamily":"Vanilla Sans","fontSize":20,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Start free trial","x":46,"y":1796,"w":268,"h":44,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/register/"},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Buy now","x":46,"y":1852,"w":268,"h":44,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(17, 17, 13)","lines":1,"href":"/register/?source=zendesk_suite&buy_now=true&plan=professional"},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Suite Team features, plus:","x":46,"y":1945,"w":268,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":null,"text":"AI","x":46,"y":1979,"w":35,"h":20,"fontFamily":"Vanilla Sans","fontSize":12,"lineHeight":12,"fontWeight":"700","letterSpacing":0.75,"textTransform":"uppercase","textAlign":"center","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":50,"y":1983,"w":12,"h":12,"fit":"fill"},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Admin Copilot","x":89,"y":1979,"w":83,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":null,"text":"AI","x":46,"y":2011,"w":35,"h":20,"fontFamily":"Vanilla Sans","fontSize":12,"lineHeight":12,"fontWeight":"700","letterSpacing":0.75,"textTransform":"uppercase","textAlign":"center","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":50,"y":2015,"w":12,"h":12,"fit":"fill"},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"App Builder","x":89,"y":2011,"w":68,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":null,"text":"AI","x":46,"y":2043,"w":35,"h":20,"fontFamily":"Vanilla Sans","fontSize":12,"lineHeight":12,"fontWeight":"700","letterSpacing":0.75,"textTransform":"uppercase","textAlign":"center","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":50,"y":2047,"w":12,"h":12,"fit":"fill"},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Writing Tools","x":89,"y":2043,"w":78,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":null,"text":"AI","x":46,"y":2075,"w":35,"h":20,"fontFamily":"Vanilla Sans","fontSize":12,"lineHeight":12,"fontWeight":"700","letterSpacing":0.75,"textTransform":"uppercase","textAlign":"center","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":50,"y":2079,"w":12,"h":12,"fit":"fill"},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Quick Reports","x":89,"y":2075,"w":83,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Skills-based routing","x":46,"y":2107,"w":117,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"IVR phone tree","x":46,"y":2137,"w":86,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Suite Enterprise + Copilot","x":44,"y":2241,"w":272,"h":60,"fontFamily":"Vanilla Sans","fontSize":24,"lineHeight":30,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"For teams needing advanced security, governance and the most proactive AI assis…","x":44,"y":2321,"w":272,"h":55,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3},
+  {"section":2,"region":"main","kind":"control","tag":"a","role":"link","text":"Contact us","x":44,"y":2416,"w":272,"h":43,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(17, 17, 13)","lines":1,"href":"https://www.zendesk.com/contact/"},
+  {"section":2,"region":"main","kind":"text","tag":"p","role":null,"text":"Suite Professional features, plus:","x":44,"y":2500,"w":272,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":null,"text":"AI","x":44,"y":2534,"w":35,"h":20,"fontFamily":"Vanilla Sans","fontSize":12,"lineHeight":12,"fontWeight":"700","letterSpacing":0.75,"textTransform":"uppercase","textAlign":"center","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":48,"y":2538,"w":12,"h":12,"fit":"fill"},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Intelligent Triage","x":87,"y":2534,"w":99,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":null,"text":"AI","x":44,"y":2566,"w":35,"h":20,"fontFamily":"Vanilla Sans","fontSize":12,"lineHeight":12,"fontWeight":"700","letterSpacing":0.75,"textTransform":"uppercase","textAlign":"center","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":48,"y":2570,"w":12,"h":12,"fit":"fill"},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Auto Assist","x":87,"y":2566,"w":66,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":null,"text":"AI","x":44,"y":2598,"w":35,"h":20,"fontFamily":"Vanilla Sans","fontSize":12,"lineHeight":12,"fontWeight":"700","letterSpacing":0.75,"textTransform":"uppercase","textAlign":"center","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":48,"y":2602,"w":12,"h":12,"fit":"fill"},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Generative AI for Voice","x":87,"y":2598,"w":132,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Approval workflows","x":44,"y":2630,"w":115,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Sandbox environment","x":44,"y":2660,"w":131,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"control","tag":"button","role":"button","text":"Custom agent roles","x":44,"y":2690,"w":116,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":2,"region":"main","kind":"text","tag":"h4","role":"h4","text":"Still need help deciding? Compare all plan features, or start a trial","x":16,"y":2740,"w":328,"h":44,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(17, 17, 13)","lines":2},
+  {"section":3,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Featured add-ons","x":57,"y":2848,"w":246,"h":35,"fontFamily":"Vanilla Sans","fontSize":30,"lineHeight":34.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(17, 17, 13)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Copilot","x":44,"y":2986,"w":272,"h":30,"fontFamily":"Vanilla Sans","fontSize":24,"lineHeight":30,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"AI assistance that empowers your entire team.","x":44,"y":3036,"w":272,"h":36,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"$50agent/month paid yearly","x":44,"y":3093,"w":272,"h":28,"fontFamily":"Vanilla Sans","fontSize":20,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Learn more","x":44,"y":3163,"w":85,"h":24,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":26,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/service/ai/copilot/"},
+  {"section":3,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Workforce Engagement Bundle","x":44,"y":3271,"w":272,"h":60,"fontFamily":"Vanilla Sans","fontSize":24,"lineHeight":30,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"Elevate customer service quality and optimize agent performance.","x":44,"y":3351,"w":272,"h":36,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"$50agent/month paid yearly","x":44,"y":3407,"w":272,"h":28,"fontFamily":"Vanilla Sans","fontSize":20,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Learn more","x":44,"y":3477,"w":85,"h":24,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":26,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/service/workforce-management/"},
+  {"section":3,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Contact Center","x":44,"y":3585,"w":272,"h":30,"fontFamily":"Vanilla Sans","fontSize":24,"lineHeight":30,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"Power complex contact centers with ease of use and flexibility.","x":44,"y":3635,"w":272,"h":36,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"$83agent/month paid yearly","x":44,"y":3692,"w":272,"h":28,"fontFamily":"Vanilla Sans","fontSize":20,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"link","text":"Learn more","x":44,"y":3762,"w":85,"h":24,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":26,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/service/contact-center/"},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Zendesk + Forethought","x":16,"y":3914,"w":328,"h":20,"fontFamily":"Vanilla Sans","fontSize":12,"lineHeight":15.6,"fontWeight":"700","letterSpacing":0.75,"textTransform":"uppercase","textAlign":"left","color":"rgb(245, 245, 242)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"span","role":null,"text":"NEW","x":202,"y":3914,"w":44,"h":20,"fontFamily":"Vanilla Sans","fontSize":12,"lineHeight":12,"fontWeight":"700","letterSpacing":0.75,"textTransform":"uppercase","textAlign":"center","color":"rgb(17, 17, 13)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Self-learning AI for any stack","x":16,"y":3941,"w":328,"h":69,"fontFamily":"Vanilla Sans","fontSize":30,"lineHeight":34.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(245, 245, 242)","lines":2},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":null,"text":"Deploy AI agents that learn and improve in real-time. No migration required. Fo…","x":16,"y":4034,"w":328,"h":109,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(255, 255, 255)","lines":5},
+  {"section":4,"region":"main","kind":"control","tag":"a","role":"link","text":"Contact Sales","x":16,"y":4183,"w":328,"h":48,"fontFamily":"Vanilla Sans","fontSize":18,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(17, 17, 13)","lines":1,"href":"/contact/"},
+  {"section":4,"region":"main","kind":"control","tag":"a","role":"link","text":"Request Forethought demo","x":16,"y":4243,"w":328,"h":48,"fontFamily":"Vanilla Sans","fontSize":18,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"https://forethought.ai/forethought-demo?utm_source=ZDwebpromo"},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":16,"y":4323,"w":328,"h":246,"fit":"fill","natural":[1226,920],"src":"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271226%27%20height=%27920%27/%3e"},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":null,"text":"Zendesk + Forethought","x":16,"y":4323,"w":328,"h":246,"fit":"cover","natural":[1226,920],"src":"https://web-assets.zendesk.com/is/image/zendesk/Photo_ZendeskForethought?fmt=avif-alpha&qlt=65"},
+  {"section":5,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Zendesk for Startups","x":16,"y":4665,"w":328,"h":35,"fontFamily":"Vanilla Sans","fontSize":30,"lineHeight":34.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":5,"region":"main","kind":"text","tag":"p","role":null,"text":"The startups program provides early stage startups a 6-month trial of the Zende…","x":16,"y":4724,"w":328,"h":65,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":3},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Apply now","x":16,"y":4829,"w":328,"h":48,"fontFamily":"Vanilla Sans","fontSize":18,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(17, 17, 13)","lines":1,"href":"/business/startups/"},
+  {"section":5,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":16,"y":4909,"w":328,"h":246,"fit":"fill","natural":[1920,1440],"src":"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271920%27%20height=%271440%27/%3e"},
+  {"section":5,"region":"main","kind":"image","tag":"img","role":null,"text":"Two employees collaborating on product selections","x":16,"y":4909,"w":328,"h":246,"fit":"cover","natural":[1600,1200],"src":"https://web-assets.zendesk.com/is/image/zendesk/Photos_People_Relate_2025_Retail_4x3_01?fmt=avif-alpha&qlt=65"},
+  {"section":6,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Trusted by teams everywhere.","x":16,"y":5251,"w":328,"h":69,"fontFamily":"Vanilla Sans","fontSize":30,"lineHeight":34.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(17, 17, 13)","lines":2},
+  {"section":6,"region":"main","kind":"image","tag":"img","role":null,"text":"Squarespace logo","x":-149,"y":5344,"w":204,"h":56,"fit":"contain","natural":[408,112],"src":"https://web-assets.zendesk.com/is/image/zendesk/Squarespace_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2"},
+  {"section":6,"region":"main","kind":"image","tag":"img","role":null,"text":"Airbnb_Default","x":79,"y":5344,"w":133,"h":56,"fit":"contain","natural":[266,112],"src":"https://web-assets.zendesk.com/is/image/zendesk/Airbnb_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2"},
+  {"section":6,"region":"main","kind":"image","tag":"img","role":null,"text":"Slack_Default","x":236,"y":5344,"w":106,"h":56,"fit":"contain","natural":[212,112],"src":"https://web-assets.zendesk.com/is/image/zendesk/Slack_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2"},
+  {"section":7,"region":"main","kind":"text","tag":"h2","role":"h2","text":"See how much you can save","x":16,"y":5496,"w":328,"h":69,"fontFamily":"Vanilla Sans","fontSize":30,"lineHeight":34.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":2},
+  {"section":7,"region":"main","kind":"text","tag":"p","role":null,"text":"Use this calculator to explore potential savings from automating customer inter…","x":16,"y":5589,"w":328,"h":109,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":5},
+  {"section":7,"region":"main","kind":"control","tag":"a","role":"link","text":"Calculate savings","x":16,"y":5738,"w":328,"h":48,"fontFamily":"Vanilla Sans","fontSize":18,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(17, 17, 13)","lines":1,"href":"/service/ai/ai-agents/#ai-roi-calculator"},
+  {"section":7,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":16,"y":5818,"w":328,"h":328,"fit":"fill","natural":[613,613],"src":"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27613%27%20height=%27613%27/%3e"},
+  {"section":7,"region":"main","kind":"image","tag":"img","role":null,"text":"An infographic showing a positive return on investment.","x":16,"y":5818,"w":328,"h":328,"fit":"cover","natural":[613,613],"src":"https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/pricing/BlockFrame_ROI_Calculator__en_us.png"},
+  {"section":8,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Frequently asked questions, answered.","x":16,"y":6242,"w":328,"h":69,"fontFamily":"Vanilla Sans","fontSize":30,"lineHeight":34.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"h5","text":"How is Zendesk pricing structured?","x":32,"y":6336,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":6355,"w":21,"h":24,"fit":"fill"},
+  {"section":8,"region":"main","kind":"text","tag":"p","role":null,"text":"Zendesk pricing is primarily seat-based (per agent, per month) with plan tiers …","x":32,"y":6397,"w":296,"h":87,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":32,"y":6502,"w":16,"h":16,"fit":"fill"},
+  {"section":8,"region":"main","kind":"text","tag":"p","role":null,"text":"Base subscription: Pricing is determined by your selected plan tier and the num…","x":64,"y":6500,"w":264,"h":87,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":32,"y":6601,"w":16,"h":16,"fit":"fill"},
+  {"section":8,"region":"main","kind":"text","tag":"p","role":null,"text":"Usage-based features: Certain features like App Builder, Action Builder and Voi…","x":64,"y":6599,"w":264,"h":109,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":5},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":32,"y":6722,"w":16,"h":16,"fit":"fill"},
+  {"section":8,"region":"main","kind":"text","tag":"p","role":null,"text":"Add-ons: Optional products and advanced capabilities are billed in addition to …","x":64,"y":6720,"w":264,"h":65,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":32,"y":6799,"w":16,"h":16,"fit":"fill"},
+  {"section":8,"region":"main","kind":"text","tag":"p","role":null,"text":"Annual vs. monthly billing: Annual subscriptions often include a discount compa…","x":64,"y":6797,"w":264,"h":87,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4},
+  {"section":8,"region":"main","kind":"text","tag":"p","role":null,"text":"Contact Sales to learn more.","x":32,"y":6916,"w":296,"h":22,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"h5","text":"What is the difference between Support and Suite Service Plans?","x":32,"y":6995,"w":263,"h":84,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":2},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":7025,"w":21,"h":24,"fit":"fill"},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"h5","text":"How does pricing for AI agents work?","x":32,"y":7080,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":7099,"w":21,"h":24,"fit":"fill"},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"h5","text":"What are Forethought AI agents?","x":32,"y":7142,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":7161,"w":21,"h":24,"fit":"fill"},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"h5","text":"What add-ons are available and how are they priced?","x":32,"y":7205,"w":263,"h":84,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":2},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":7235,"w":21,"h":24,"fit":"fill"},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"h5","text":"How can I purchase Zendesk?","x":32,"y":7290,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":7309,"w":21,"h":24,"fit":"fill"},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"h5","text":"Can I purchase enterprise plans online?","x":32,"y":7352,"w":263,"h":84,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":2},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":7382,"w":21,"h":24,"fit":"fill"},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"h5","text":"How long are your contracts? Can I upgrade or downgrade?","x":32,"y":7437,"w":263,"h":84,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":2},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":7467,"w":21,"h":24,"fit":"fill"},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"h5","text":"How does the free trial work?","x":32,"y":7521,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":7540,"w":21,"h":24,"fit":"fill"},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"h5","text":"How do I estimate my total cost?","x":32,"y":7584,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":7603,"w":21,"h":24,"fit":"fill"},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"h5","text":"Does Zendesk integrate with other applications and systems?","x":32,"y":7647,"w":263,"h":84,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":2},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":7677,"w":21,"h":24,"fit":"fill"},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"h5","text":"How do you protect customer data?","x":32,"y":7731,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":7750,"w":21,"h":24,"fit":"fill"},
+  {"section":9,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Still not sure? Explore on your own or with our team.","x":16,"y":7889,"w":328,"h":104,"fontFamily":"Vanilla Sans","fontSize":30,"lineHeight":34.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(245, 245, 242)","lines":3},
+  {"section":9,"region":"main","kind":"control","tag":"a","role":"link","text":"Try for free","x":16,"y":8025,"w":328,"h":48,"fontFamily":"Vanilla Sans","fontSize":18,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(17, 17, 13)","lines":1,"href":"/register/"},
+  {"section":9,"region":"main","kind":"control","tag":"a","role":"link","text":"Contact Sales","x":16,"y":8085,"w":328,"h":48,"fontFamily":"Vanilla Sans","fontSize":18,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"/contact/"},
+  {"section":10,"region":"footer","kind":"control","tag":"button","role":"h5","text":"Products","x":32,"y":8398,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(245, 245, 242)","lines":1},
+  {"section":10,"region":"footer","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":8417,"w":21,"h":24,"fit":"fill"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Pricing","x":32,"y":8460,"w":45,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/pricing/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Zendesk for customer service","x":186,"y":8460,"w":139,"h":38,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2,"href":"/service/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Zendesk for employee service","x":32,"y":8512,"w":140,"h":38,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2,"href":"/employee-service/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Zendesk for contact center","x":186,"y":8512,"w":127,"h":38,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2,"href":"/service/contact-center/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Integrations","x":32,"y":8564,"w":77,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/marketplace/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"System status","x":186,"y":8564,"w":91,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://status.zendesk.com/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Sign in","x":32,"y":8596,"w":43,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/login/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Demo","x":186,"y":8596,"w":39,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/demo/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Zendesk for Enterprise","x":32,"y":8628,"w":75,"h":38,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2,"href":"/business/enterprise/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Zendesk for Small Business","x":186,"y":8628,"w":114,"h":38,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2,"href":"/business/smb/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Zendesk for Startups","x":32,"y":8680,"w":133,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/business/startups/"},
+  {"section":10,"region":"footer","kind":"control","tag":"button","role":"h5","text":"Features","x":32,"y":8724,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(245, 245, 242)","lines":1},
+  {"section":10,"region":"footer","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":8743,"w":21,"h":24,"fit":"fill"},
+  {"section":10,"region":"footer","kind":"control","tag":"button","role":"h5","text":"Resources","x":32,"y":8787,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(245, 245, 242)","lines":1},
+  {"section":10,"region":"footer","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":8806,"w":21,"h":24,"fit":"fill"},
+  {"section":10,"region":"footer","kind":"control","tag":"button","role":"h5","text":"Company","x":32,"y":8850,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(245, 245, 242)","lines":1},
+  {"section":10,"region":"footer","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":8869,"w":21,"h":24,"fit":"fill"},
+  {"section":10,"region":"footer","kind":"control","tag":"button","role":"h5","text":"Compare","x":32,"y":8913,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(245, 245, 242)","lines":1},
+  {"section":10,"region":"footer","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":8932,"w":21,"h":24,"fit":"fill"},
+  {"section":10,"region":"footer","kind":"control","tag":"button","role":"h5","text":"Popular topics","x":32,"y":8975,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(245, 245, 242)","lines":1},
+  {"section":10,"region":"footer","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":8994,"w":21,"h":24,"fit":"fill"},
+  {"section":10,"region":"footer","kind":"text","tag":"h3","role":"h3","text":"How can we help? Contact us.","x":16,"y":8221,"w":328,"h":78,"fontFamily":"Vanilla Sans","fontSize":30,"lineHeight":34.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(245, 245, 242)","lines":2},
+  {"section":10,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":40,"y":8329,"w":32,"h":32,"fit":"fill","href":"https://www.twitter.com/zendesk"},
+  {"section":10,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":88,"y":8329,"w":32,"h":32,"fit":"fill","href":"https://www.facebook.com/zendesk"},
+  {"section":10,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":136,"y":8329,"w":32,"h":32,"fit":"fill","href":"https://www.linkedin.com/company/zendesk"},
+  {"section":10,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":184,"y":8329,"w":40,"h":32,"fit":"fill","href":"https://www.youtube.com/zendesk"},
+  {"section":10,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":240,"y":8329,"w":32,"h":32,"fit":"fill","href":"https://www.instagram.com/zendesk"},
+  {"section":10,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":288,"y":8329,"w":32,"h":32,"fit":"fill","href":"https://www.tiktok.com/@zendesk"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Terms of Use","x":38,"y":9073,"w":83,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/company/agreements-and-terms/terms-of-use/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Privacy Notice","x":133,"y":9073,"w":90,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/company/agreements-and-terms/privacy-notice/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Cookie Notice","x":235,"y":9073,"w":87,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/company/agreements-and-terms/cookie-notice/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Do Not Sell or Share My Personal Information","x":38,"y":9103,"w":283,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"#onetrust-show-cookie-settings"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"Trust Center","x":68,"y":9133,"w":79,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/trust-center/"},
+  {"section":10,"region":"footer","kind":"control","tag":"a","role":"link","text":"© 2026 Zendesk, Inc.","x":160,"y":9133,"w":132,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/company/legal/"}
+ ]
+}

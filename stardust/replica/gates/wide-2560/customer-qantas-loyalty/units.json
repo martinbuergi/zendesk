@@ -1,0 +1,1007 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-21T16:22:12.064Z",
+  "tol": 4,
+  "n": 4,
+  "width": 2560,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/customer/qantas-loyalty/",
+  "at": "2026-11-21T14:58:18.726Z",
+  "docH": 5770
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/customer/qantas-loyalty",
+  "at": "2026-11-21T16:22:11.961Z",
+  "docH": 5770
+ },
+ "results": [
+  {
+   "sel": ".Cardstyle__CardRoot-sc-1g3sojj-1=.zb-fact",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:company headquarters",
+       "role": "heading",
+       "text": "company headquarters",
+       "edsText": "company headquarters",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 24,
+        "w": 212,
+        "h": 22
+       },
+       "eds": {
+        "x": 24,
+        "y": 24,
+        "w": 212,
+        "h": 22,
+        "sel": "h2#company-headquarters",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:sydney, australia",
+       "role": "text",
+       "text": "sydney, australia",
+       "edsText": "sydney, australia",
+       "byPosition": false,
+       "origin": {
+        "x": 70,
+        "y": 62,
+        "w": 120,
+        "h": 46
+       },
+       "eds": {
+        "x": 70,
+        "y": 62,
+        "w": 120,
+        "h": 46,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 736,
+       "y": 1588,
+       "w": 260,
+       "h": 132
+      },
+      "eds": {
+       "x": 736,
+       "y": 1588,
+       "w": 260,
+       "h": 132
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:company founded",
+       "role": "heading",
+       "text": "company founded",
+       "edsText": "company founded",
+       "byPosition": false,
+       "origin": {
+        "x": 50,
+        "y": 24,
+        "w": 161,
+        "h": 22
+       },
+       "eds": {
+        "x": 50,
+        "y": 24,
+        "w": 161,
+        "h": 22,
+        "sel": "h2#company-founded",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:1920",
+       "role": "text",
+       "text": "1920",
+       "edsText": "1920",
+       "byPosition": false,
+       "origin": {
+        "x": 113,
+        "y": 62,
+        "w": 34,
+        "h": 46
+       },
+       "eds": {
+        "x": 113,
+        "y": 62,
+        "w": 34,
+        "h": 46,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1012,
+       "y": 1588,
+       "w": 260,
+       "h": 132
+      },
+      "eds": {
+       "x": 1012,
+       "y": 1588,
+       "w": 260,
+       "h": 132
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:frequent flyer members",
+       "role": "heading",
+       "text": "frequent flyer members",
+       "edsText": "frequent flyer members",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 24,
+        "w": 211,
+        "h": 22
+       },
+       "eds": {
+        "x": 24,
+        "y": 24,
+        "w": 211,
+        "h": 22,
+        "sel": "h2#frequent-flyer-members",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:17m",
+       "role": "text",
+       "text": "17m",
+       "edsText": "17m",
+       "byPosition": false,
+       "origin": {
+        "x": 117,
+        "y": 62,
+        "w": 27,
+        "h": 46
+       },
+       "eds": {
+        "x": 117,
+        "y": 62,
+        "w": 27,
+        "h": 46,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1288,
+       "y": 1588,
+       "w": 260,
+       "h": 132
+      },
+      "eds": {
+       "x": 1288,
+       "y": 1588,
+       "w": 260,
+       "h": 132
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:zendesk customer since",
+       "role": "heading",
+       "text": "zendesk customer since",
+       "edsText": "zendesk customer since",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 24,
+        "w": 212,
+        "h": 44
+       },
+       "eds": {
+        "x": 24,
+        "y": 24,
+        "w": 212,
+        "h": 44,
+        "sel": "h2#zendesk-customer-since",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:2022",
+       "role": "text",
+       "text": "2022",
+       "edsText": "2022",
+       "byPosition": false,
+       "origin": {
+        "x": 111,
+        "y": 84,
+        "w": 38,
+        "h": 24
+       },
+       "eds": {
+        "x": 111,
+        "y": 84,
+        "w": 38,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1564,
+       "y": 1588,
+       "w": 260,
+       "h": 132
+      },
+      "eds": {
+       "x": 1564,
+       "y": 1588,
+       "w": 260,
+       "h": 132
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Quotestyle__QuoteRoot-sc-rczw5k-0=.zb-quote",
+   "family": null,
+   "required": true,
+   "originMatches": 1,
+   "edsMatches": 1,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.iSVgEk > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:“we had an initial goal of about 30 to 3",
+       "role": "text",
+       "text": "“we had an initial goal of about 30 to 35 percent automated ",
+       "edsText": "“we had an initial goal of about 30 to 35 percent automated ",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 656,
+        "h": 120
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 656,
+        "h": 120,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:luca giaccardi",
+       "role": "text",
+       "text": "luca giaccardi",
+       "edsText": "luca giaccardi",
+       "byPosition": false,
+       "origin": {
+        "x": 172,
+        "y": 192,
+        "w": 376,
+        "h": 28
+       },
+       "eds": {
+        "x": 172,
+        "y": 192,
+        "w": 376,
+        "h": 28,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/600",
+        "eds": "20/28/600"
+       }
+      },
+      {
+       "key": "text:senior operations excellence, e-commerce",
+       "role": "text",
+       "text": "senior operations excellence, e-commerce at qantas loyalty",
+       "edsText": "senior operations excellence, e-commerce at qantas loyalty",
+       "byPosition": false,
+       "origin": {
+        "x": 172,
+        "y": 234,
+        "w": 376,
+        "h": 18
+       },
+       "eds": {
+        "x": 172,
+        "y": 234,
+        "w": 376,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/18/400",
+        "eds": "14/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 920,
+       "y": 1226,
+       "w": 720,
+       "h": 298
+      },
+      "eds": {
+       "x": 920,
+       "y": 1226,
+       "w": 720,
+       "h": 298
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Statstyle__StatRoot-sc-17s8ggd-0=.zb-stat",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:85%+",
+       "role": "text",
+       "text": "85%+",
+       "edsText": "85%+",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:peak automated resolution",
+       "role": "text",
+       "text": "peak automated resolution",
+       "edsText": "peak automated resolution",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 736,
+       "y": 1848,
+       "w": 260,
+       "h": 84
+      },
+      "eds": {
+       "x": 736,
+       "y": 1848,
+       "w": 260,
+       "h": 84
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:60%+",
+       "role": "text",
+       "text": "60%+",
+       "edsText": "60%+",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:automated resolution within two weeks of",
+       "role": "text",
+       "text": "automated resolution within two weeks of launch",
+       "edsText": "automated resolution within two weeks of launch",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1012,
+       "y": 1848,
+       "w": 260,
+       "h": 108
+      },
+      "eds": {
+       "x": 1012,
+       "y": 1848,
+       "w": 260,
+       "h": 108
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:95%+",
+       "role": "text",
+       "text": "95%+",
+       "edsText": "95%+",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:resolution rate on general knowledge inq",
+       "role": "text",
+       "text": "resolution rate on general knowledge inquiries",
+       "edsText": "resolution rate on general knowledge inquiries",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1288,
+       "y": 1848,
+       "w": 260,
+       "h": 108
+      },
+      "eds": {
+       "x": 1288,
+       "y": 1848,
+       "w": 260,
+       "h": 108
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:3,000+",
+       "role": "text",
+       "text": "3,000+",
+       "edsText": "3,000+",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:inquiries triaged per month",
+       "role": "text",
+       "text": "inquiries triaged per month",
+       "edsText": "inquiries triaged per month",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1564,
+       "y": 1848,
+       "w": 260,
+       "h": 84
+      },
+      "eds": {
+       "x": 1564,
+       "y": 1848,
+       "w": 260,
+       "h": 84
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 9,
+  "within": 19,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

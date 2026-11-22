@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-20T09:40:15.733Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-20T09:42:34.497Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-20T09:50:09.044Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-20T12-48-57-567Z",
+          "at": "2026-11-20T12:48:57.567Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-20T12-53-43-025Z",
+          "at": "2026-11-20T12:53:43.025Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-20T12-59-03-107Z",
+          "at": "2026-11-20T12:59:03.107Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-20T13-03-04-819Z",
+          "at": "2026-11-20T13:03:04.820Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-20T13-06-29-633Z",
+          "at": "2026-11-20T13:06:29.633Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T03-33-44-505Z",
+          "at": "2026-11-21T03:33:44.510Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T03-45-18-405Z",
+          "at": "2026-11-21T03:45:18.409Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T04-09-29-639Z",
+          "at": "2026-11-21T04:09:29.642Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T07-37-22-378Z",
+          "at": "2026-11-21T07:37:22.384Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T18-40-52-023Z",
+          "at": "2026-11-21T18:40:52.024Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

@@ -1,0 +1,1038 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-21T13:06:30.007Z",
+  "tol": 4,
+  "n": 4,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/customer/serasa-experian/",
+  "at": "2026-11-20T14:41:03.907Z",
+  "docH": 5713
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/customer/serasa-experian",
+  "at": "2026-11-21T13:06:29.889Z",
+  "docH": 5712
+ },
+ "results": [
+  {
+   "sel": ".Cardstyle__CardRoot-sc-1g3sojj-1=.zb-fact",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:serves",
+       "role": "heading",
+       "text": "serves",
+       "edsText": "serves",
+       "byPosition": false,
+       "origin": {
+        "x": 147,
+        "y": 24,
+        "w": 59,
+        "h": 22
+       },
+       "eds": {
+        "x": 147,
+        "y": 24,
+        "w": 59,
+        "h": 22,
+        "sel": "h2#serves",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:consumers (b2c) and businesses (b2b)",
+       "role": "text",
+       "text": "consumers (b2c) and businesses (b2b)",
+       "edsText": "consumers (b2c) and businesses (b2b)",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 62,
+        "w": 277,
+        "h": 24
+       },
+       "eds": {
+        "x": 38,
+        "y": 62,
+        "w": 277,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 176,
+       "y": 1400,
+       "w": 352,
+       "h": 110
+      },
+      "eds": {
+       "x": 176,
+       "y": 1400,
+       "w": 352,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:omnichannel support",
+       "role": "heading",
+       "text": "omnichannel support",
+       "edsText": "omnichannel support",
+       "byPosition": false,
+       "origin": {
+        "x": 78,
+        "y": 24,
+        "w": 197,
+        "h": 22
+       },
+       "eds": {
+        "x": 78,
+        "y": 24,
+        "w": 197,
+        "h": 22,
+        "sel": "h2#omnichannel-support",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:phone, email, and digital channels",
+       "role": "text",
+       "text": "phone, email, and digital channels",
+       "edsText": "phone, email, and digital channels",
+       "byPosition": false,
+       "origin": {
+        "x": 57,
+        "y": 62,
+        "w": 238,
+        "h": 24
+       },
+       "eds": {
+        "x": 57,
+        "y": 62,
+        "w": 238,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 544,
+       "y": 1400,
+       "w": 352,
+       "h": 110
+      },
+      "eds": {
+       "x": 544,
+       "y": 1400,
+       "w": 352,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:zendesk products used",
+       "role": "heading",
+       "text": "zendesk products used",
+       "edsText": "zendesk products used",
+       "byPosition": false,
+       "origin": {
+        "x": 72,
+        "y": 24,
+        "w": 207,
+        "h": 22
+       },
+       "eds": {
+        "x": 72,
+        "y": 24,
+        "w": 207,
+        "h": 22,
+        "sel": "h2#zendesk-products-used",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:zendesk suite, copilot, wfm, and adpp",
+       "role": "text",
+       "text": "zendesk suite, copilot, wfm, and adpp",
+       "edsText": "zendesk suite, copilot, wfm, and adpp",
+       "byPosition": false,
+       "origin": {
+        "x": 35,
+        "y": 62,
+        "w": 281,
+        "h": 24
+       },
+       "eds": {
+        "x": 35,
+        "y": 62,
+        "w": 281,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 912,
+       "y": 1400,
+       "w": 352,
+       "h": 110
+      },
+      "eds": {
+       "x": 912,
+       "y": 1400,
+       "w": 352,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Quotestyle__QuoteRoot-sc-rczw5k-0=.zb-quote",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.khrxgA > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:“ai can help us accelerate not only prod",
+       "role": "text",
+       "text": "“ai can help us accelerate not only productivity, but also h",
+       "edsText": "“ai can help us accelerate not only productivity, but also h",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 472,
+        "h": 60
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 472,
+        "h": 60,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:renato ciccarelli",
+       "role": "text",
+       "text": "renato ciccarelli",
+       "edsText": "renato ciccarelli",
+       "byPosition": false,
+       "origin": {
+        "x": 136,
+        "y": 132,
+        "w": 263,
+        "h": 28
+       },
+       "eds": {
+        "x": 136,
+        "y": 132,
+        "w": 263,
+        "h": 28,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/600",
+        "eds": "20/28/600"
+       }
+      },
+      {
+       "key": "text:customer care director at serasa experia",
+       "role": "text",
+       "text": "customer care director at serasa experian",
+       "edsText": "customer care director at serasa experian",
+       "byPosition": false,
+       "origin": {
+        "x": 136,
+        "y": 174,
+        "w": 263,
+        "h": 18
+       },
+       "eds": {
+        "x": 136,
+        "y": 174,
+        "w": 263,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/18/400",
+        "eds": "14/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 176,
+       "y": 1098,
+       "w": 536,
+       "h": 238
+      },
+      "eds": {
+       "x": 176,
+       "y": 1098,
+       "w": 536,
+       "h": 238
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.khrxgA > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:“when we can use ai to increase scale, w",
+       "role": "text",
+       "text": "“when we can use ai to increase scale, we can deliver the fu",
+       "edsText": "“when we can use ai to increase scale, we can deliver the fu",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 472,
+        "h": 60
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 472,
+        "h": 60,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:diego bueno",
+       "role": "text",
+       "text": "diego bueno",
+       "edsText": "diego bueno",
+       "byPosition": false,
+       "origin": {
+        "x": 83,
+        "y": 132,
+        "w": 370,
+        "h": 28
+       },
+       "eds": {
+        "x": 83,
+        "y": 132,
+        "w": 370,
+        "h": 28,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/600",
+        "eds": "20/28/600"
+       }
+      },
+      {
+       "key": "text:executive customer experience manager at",
+       "role": "text",
+       "text": "executive customer experience manager at serasa experian",
+       "edsText": "executive customer experience manager at serasa experian",
+       "byPosition": false,
+       "origin": {
+        "x": 83,
+        "y": 174,
+        "w": 370,
+        "h": 18
+       },
+       "eds": {
+        "x": 83,
+        "y": 174,
+        "w": 370,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/18/400",
+        "eds": "14/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 728,
+       "y": 1098,
+       "w": 536,
+       "h": 238
+      },
+      "eds": {
+       "x": 728,
+       "y": 1098,
+       "w": 536,
+       "h": 238
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Statstyle__StatRoot-sc-17s8ggd-0=.zb-stat",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:70%",
+       "role": "text",
+       "text": "70%",
+       "edsText": "70%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:b2b support interactions resolved throug",
+       "role": "text",
+       "text": "b2b support interactions resolved through digital channels",
+       "edsText": "b2b support interactions resolved through digital channels",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 176,
+       "y": 1638,
+       "w": 260,
+       "h": 108
+      },
+      "eds": {
+       "x": 176,
+       "y": 1638,
+       "w": 260,
+       "h": 108
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:500,000+",
+       "role": "text",
+       "text": "500,000+",
+       "edsText": "500,000+",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:tickets handled annually by ai in the b2",
+       "role": "text",
+       "text": "tickets handled annually by ai in the b2c operation",
+       "edsText": "tickets handled annually by ai in the b2c operation",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 452,
+       "y": 1638,
+       "w": 260,
+       "h": 108
+      },
+      "eds": {
+       "x": 452,
+       "y": 1638,
+       "w": 260,
+       "h": 108
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:18%+",
+       "role": "text",
+       "text": "18%+",
+       "edsText": "18%+",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:reduction in repeat contact rate",
+       "role": "text",
+       "text": "reduction in repeat contact rate",
+       "edsText": "reduction in repeat contact rate",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 728,
+       "y": 1638,
+       "w": 260,
+       "h": 84
+      },
+      "eds": {
+       "x": 728,
+       "y": 1638,
+       "w": 260,
+       "h": 84
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:85%",
+       "role": "text",
+       "text": "85%",
+       "edsText": "85%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:small and medium-sized business contacts",
+       "role": "text",
+       "text": "small and medium-sized business contacts resolved digitally",
+       "edsText": "small and medium-sized business contacts resolved digitally",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1004,
+       "y": 1638,
+       "w": 260,
+       "h": 108
+      },
+      "eds": {
+       "x": 1004,
+       "y": 1638,
+       "w": 260,
+       "h": 108
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 9,
+  "within": 20,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

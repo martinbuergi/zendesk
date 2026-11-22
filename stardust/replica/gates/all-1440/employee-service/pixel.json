@@ -1,0 +1,348 @@
+{
+  "a": "stardust/replica/gates/all-1440/employee-service/origin.png",
+  "b": "stardust/replica/gates/all-1440/employee-service/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 10976,
+    "mode": "overlap"
+  },
+  "heightDelta": 88,
+  "differingPixels": 2022763,
+  "pct": 12.91,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/employee-service/diff.png",
+  "masks": [
+    {
+      "yA": 5392,
+      "h": 36,
+      "yB": 5392
+    },
+    {
+      "yA": 9792,
+      "h": 56,
+      "yB": 9792
+    }
+  ],
+  "maskedRows": 92,
+  "textPct": 14.53,
+  "textBoxes": 289,
+  "textPixels": 1542659,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 5.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 13.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 19
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 7.6
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 4.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 5.6
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 10.3
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 11.2
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 47.5
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 12.6
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 2.7
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 4.9
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 12.9
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 35.6
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 12
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 3.6
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 33.8
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 29.8
+    },
+    {
+      "y0": 10000,
+      "y1": 10500,
+      "pct": 3.6
+    },
+    {
+      "y0": 10500,
+      "y1": 10976,
+      "pct": 3.1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 5.09,
+    "differingPixels": 797433,
+    "compared": {
+      "width": 1440,
+      "height": 10881,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1379,
+        "shift": -16,
+        "cumulative": -16
+      },
+      {
+        "y": 1836,
+        "shift": -16,
+        "cumulative": -32
+      },
+      {
+        "y": 2116,
+        "shift": -16,
+        "cumulative": -48
+      },
+      {
+        "y": 2546,
+        "shift": -16,
+        "cumulative": -64
+      },
+      {
+        "y": 5904,
+        "shift": -1,
+        "cumulative": -65
+      },
+      {
+        "y": 8204,
+        "shift": -24,
+        "cumulative": -89
+      },
+      {
+        "y": 9936,
+        "shift": 1,
+        "cumulative": -88
+      }
+    ],
+    "maxOffset": 89,
+    "totalShift": 90,
+    "insertedRows": 1,
+    "deletedRows": 89,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1,
+        "unaligned": 1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 5,
+        "unaligned": 5.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 6,
+        "unaligned": 13.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 7,
+        "unaligned": 19
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 3.5,
+        "unaligned": 7.6
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 4.7
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 2.6,
+        "unaligned": 5.6
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.5,
+        "unaligned": 10.3
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.1,
+        "unaligned": 11.2
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 55.4,
+        "unaligned": 47.5
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0.5,
+        "unaligned": 12.6
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0.3,
+        "unaligned": 2.7
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0,
+        "unaligned": 4.9
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0.2,
+        "unaligned": 12.9
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 8.5,
+        "unaligned": 35.6
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 9.8,
+        "unaligned": 12
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 2.6,
+        "unaligned": 3.6
+      },
+      {
+        "y0": 9000,
+        "y1": 9500,
+        "pct": 6.4,
+        "unaligned": 33.8
+      },
+      {
+        "y0": 9500,
+        "y1": 10000,
+        "pct": 11,
+        "unaligned": 29.8
+      },
+      {
+        "y0": 10000,
+        "y1": 10500,
+        "pct": 0,
+        "unaligned": 3.6
+      },
+      {
+        "y0": 10500,
+        "y1": 11000,
+        "pct": 0.2,
+        "unaligned": null
+      },
+      {
+        "y0": 11000,
+        "y1": 11064,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/employee-service/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 111,
+    "totalShift": 90,
+    "pass": true
+  },
+  "reason": null,
+  "maskReason": "self-varying rows of the frozen reference (noise floor 0.05%)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/employee-service"
+  }
+}

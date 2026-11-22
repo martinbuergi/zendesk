@@ -1,0 +1,55 @@
+{
+  "runtime": "vanilla-eds",
+  "probedFrom": ["scripts/scripts.js", "scripts/aem.js"],
+  "probedAt": "2026-11-20",
+  "blockWrapperClass": "block",
+  "blockDom": "div.<name>-wrapper > div.<name>.block[data-block-name] ; the section gains .<name>-container",
+  "buttonClasses": "a.button.primary (<strong><a>) / a.button.secondary (<em><a>) / a.button.accent (<em><strong><a>), in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "buttonPaint": "styles.css maps a.button.primary to the gen-A lime StyledButton (za-btn za-btn-primary), a.button.secondary to the outlined za-btn-secondary; under body.legacy both take the gen-B teal square zb-btn look. Blocks that need a canon variant (za-btn-sm, za-btn-on-dark) put the class on their own wrapper and style the authored anchor through it; never manufacture anchors.",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "sectionMetadata": "rendered server-side: Section Metadata style -> class on the section div (one style value per section)",
+  "classNaming": "kebab-case only (stylelint selector-class-pattern): the canon BEM names are flattened, za-hdr__bar -> za-hdr-bar, za-btn--primary -> za-btn-primary, zb-footer__col -> zb-footer-col",
+  "mediaQueries": "mobile-first only (breakpoint-lint in npm run lint); gen A steps 481/768/970/1150/1600, gen B 768/1200",
+  "foundationPrimitives": {
+    "genA": ".za-container (1150/1600 cap + 16/24/40 gutter), .za-section (+ .za-section-forest, .za-section-rounded), .za-row/.za-col, .za-text, .za-eyebrow, .za-tag, .za-btn (+ -primary/-secondary/-on-dark/-sm/-block-sm), .za-link/.za-linkroot, .za-sr, svg.za-ext/svg.za-rot hidden",
+    "genB": ".zb-container (1120 cap), .zb-row/.zb-col, .zb-eyebrow, .zb-h4, .zb-text, .zb-btn (+ -primary/-md/-lg/-sm), .zb-social, .zb-ext hidden",
+    "sectionStyles": "forest (dark forest ground), cream",
+    "defaultContent": "main > .section > .default-content-wrapper is a za-container; its p/li take the za-text type"
+  },
+  "tokens": "styles.css :root: --za-ink, --za-white, --za-cream, --za-lime, --za-forest, --za-moss, --za-matcha, --za-graphite, --za-hairline, --za-font, --za-ease, --za-content, --za-gutter, --za-section-pad, --za-row-gap, --za-radius; --zb-teal-900/800, --zb-grey-600/300/100, --zb-blue-600, --zb-white, --zb-hover, --zb-font-body, --zb-font-head, --zb-container, --zb-gutter",
+  "fonts": {
+    "faces": 10,
+    "families": ["Vanilla Sans 400/500/600/700 (gen A)", "Sharp Sans 400/600/700 (gen B headings)", "Proxima Nova 400/600/700 (gen B body)"],
+    "loading": "styles/fonts.css via loadFonts(); metric-matched vanilla-sans-fallback / sharp-sans-fallback / proxima-nova-fallback in styles.css; nothing in head.html",
+    "licensing": "proprietary, see fonts/LICENSING.md"
+  },
+  "chrome": {
+    "header": "blocks/header reads getMetadata('nav') (default /nav); sections of the nav doc are typed by Section Metadata style: promo | brand | utility | menu | menu-feature | tools | mobile-bar | drawer",
+    "footer": "blocks/footer reads getMetadata('footer') (default /footer); styles: columns | help | social | legal | brand | newsletter",
+    "stickyBars": "after load body > header, .header-wrapper and .header.block are display: contents, so #za-hdr-m / #za-hdr-d (gen A) and .zb-header (gen B) stick to the page; keep those ids/classes for chrome-parity regions",
+    "navHeightReservation": "--nav-height per breakpoint in styles.css: promo + bar 170/182/220/168 (0/481/970/1150); promo off 60/72/110; nav-slim 60/72/91; legacy 68/110 with header margin-bottom -128px (the legacy header overlays the story hero)",
+    "documents": {
+      "/nav": "gen A full header with promo strip (default)",
+      "/nav-pricing": "gen A full header, CTAs Try for free + Contact Sales, mobile Try for free (pricing page)",
+      "/nav-slim": "gen A reduced header: logo + CTAs, no promo/secondary row/menus (contact, form and landing pages)",
+      "/nav-legacy": "gen B legacy header (customer stories)",
+      "/footer": "gen A footer (default)",
+      "/footer-legal": "gen A slim legal footer: logo + legal links (contact, form pages)",
+      "/footer-legacy": "gen B legacy footer (customer stories)"
+    },
+    "pageMetadata": {
+      "genB": "customer stories (/customer/<name>/): Metadata rows  nav | /nav-legacy ;  footer | /footer-legacy ;  theme | legacy  (theme -> body.legacy before first paint: gen-B fonts, ground, buttons and the 68/110 header reservation)",
+      "slim": "contact / form pages: nav | /nav-slim ; footer | /footer-legal",
+      "pricing": "nav | /nav-pricing ; promo | off",
+      "promoOff": "promo | off  drops the CX Trends strip (pages whose live header has no promo: company, pricing, contact, …); styles.css reads the meta tag with :has() so the reservation matches before the header loads"
+    },
+    "pageLevelChromeDeltas": "left to the archetype units (template class on body via Metadata template): blog's relative (non-sticky) global header under its sticky sub-nav, blog's footer inside main",
+    "behaviour": "gen A: desktop mega menus open on hover/focus-within (Escape closes), language menu likewise; locale links take the current path; mobile drawer (< 970) with per-menu sub-panels (back/close), pinned View demo + Contact us; .is-stuck only on bars whose computed position is sticky. gen B: hover/focus dropdowns, Resources-style active underline from the current path, accordion drawer mounted on first toggle, sticky after the secondary row (top -1 / -29)",
+    "icons": "/icons/za-*.svg and zb-*.svg, inlined by scripts/chrome.js (currentColor); authored in the chrome docs as :za-name: tokens"
+  },
+  "links": "in-scope pages (stardust/.labs/site-plan.json) root-relative with the source trailing slash; out-of-scope and D5 (/login/, /register/) absolute https://www.zendesk.com/…; localize-links.mjs normalizes as pages arrive",
+  "martech": "scripts/martech.js loadConsent() in loadEager, consent-check.js -> consented.js -> loadTags() in loadDelayed; every contract part disabled (unchanged)",
+  "lint": "npm run lint = eslint (stardust/ ignored: tooling, captured tags, prototypes) + stylelint + breakpoint-lint"
+}

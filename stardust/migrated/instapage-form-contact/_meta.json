@@ -1,0 +1,102 @@
+{
+  "slug": "instapage-form-contact",
+  "type": "form",
+  "renderBranch": "A'",
+  "template": "contact",
+  "modules": [
+    "fm-form",
+    "fm-hero"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "ct-wrap"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": null,
+    "css": "6522953e4893"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "encoder-gap",
+      "encoder": "stardust/rollout/encoders/archetype-form/encode.py",
+      "scratch": "stardust/.work/render/form/enc/instapage-form-contact.html",
+      "exit": 0,
+      "blocks": [
+        "fm-form",
+        "fm-hero"
+      ],
+      "wordsNotCarried": 1,
+      "wordsTotal": 66,
+      "gap": "Select",
+      "iframesDropped": 0,
+      "imgsDropped": 0
+    },
+    {
+      "kind": "metadata",
+      "robots": "noindex,follow",
+      "note": "source head meta robots noindex,follow carried in the render head; archetype-form encode.py emits no robots row — delivery: --meta-row robots=noindex,follow"
+    }
+  ],
+  "metadata": {
+    "title": "Instapage Form: Contact",
+    "description": "Contact form",
+    "canonical": "https://www.zendesk.com/instapage-form-contact/",
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Instapage Form: Contact",
+    "description": "Contact form",
+    "url": "https://www.zendesk.com/instapage-form-contact/"
+  },
+  "migratedAt": "2026-11-20T16:47:35Z",
+  "designMdSha": "84a4a03d7364",
+  "designJsonSha": "28069f8740fe",
+  "sourceCurrentSha": "5a29929bdf58",
+  "sourceProposedSha": "24d46eeaca0b",
+  "fidelityTier": "sibling",
+  "archetypeSource": "contact",
+  "archetypeSha": "616e2bf4d511",
+  "variants": [
+    "ct-instapage ct-form--full ct-hero--stack ct-bare"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "media-reconcile"
+  ],
+  "gateEvidence": {
+    "variance-probe": "stardust/.work/render/form/variance.json (12 siblings vs /contact/, exit 2): \"main section:first-of-type\" matches 1 on the archetype, 0 on the sibling; rect{w 539 → 1430, h 556 → 597}; padding 0px 0px 0px 0px → 0px 0px 3px 0px; font vanilla sans 16px/16px 400 → proxima nova 16px/16px 400; 2 → 1 distinct style families among matches (a second visual family = a variant class); rect{w 539 → 1430}; backgroundColor rgba(17, 17, 13, 0.05) → rgb(248, 249, 249); color rgb(17, 17, 13) → rgb(23, 73, 77); font vanilla sans 15px/21px 400 → proxima nova 16px/24px 400; borderRadius 12px → 0px; \"h1\" matches 1 on the archetype, 0 on the sibling -> variants ct-instapage, ct-form--full, ct-hero--stack, ct-bare",
+    "content-count": "count.py: source {'headings': 0, 'body': 3, 'ctas': 2, 'hrefs': 1, 'images': 0, 'words': 66} vs render {'headings': 0, 'body': 3, 'ctas': 2, 'hrefs': 1, 'images': 0, 'words': 66}; drops none; words missing 0 (stardust/.work/render/form/counts.jsonl)",
+    "content-fidelity": "sibling-form/build.py: headings, text (block-level boundaries), CTA labels+hrefs, form schema (names/types/labels/options/placeholders/tooltips/validation text) verbatim from the hydrated capture; word multiset diff 0; deviations declared",
+    "pixel-gate-1440": "gate-all published origin main--3055ed88--aemcoder.aem.page @1440: pixel 0.01 [1.19]%, Δh 0px, clipped 0, MISSING 0 / HIDDEN 0 → PASS (cf1-g3.log; 2026-11-21T01-04-30-357Z-login.json)",
+    "pixel-gate-360": "gate-all published origin main--3055ed88--aemcoder.aem.page @360: pixel 0.05 [1.14]%, Δh 0px, clipped 0, MISSING 0 / HIDDEN 0 → PASS (cf1-g360.log; 2026-11-21T00-51-05-161Z-contact.json)",
+    "media-reconcile": "media-reconcile content/instapage-form-contact.html --deploy-host main--3055ed88--aemcoder.aem.live: 0 media (no editorial images)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "chrome",
+      "source": "live page has no site header/footer (bare form page)",
+      "target": "render without canon header/footer",
+      "reason": "verbatim: the source carries no chrome (delivery: nav/footer metadata off or an empty fragment)"
+    }
+  ],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/company/agreements-and-terms/privacy-notice/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "instapage-form-contact/index.html",
+  "outputPathDefault": null,
+  "sidecar": "instapage-form-contact/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-20T08:32:22.781Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-20T08:37:35.095Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-20T08:43:21.832Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "iter4",
+          "at": "2026-11-20T08:46:20.072Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-20T12-34-57-253Z",
+          "at": "2026-11-20T12:34:57.254Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-20T12-37-46-094Z",
+          "at": "2026-11-20T12:37:46.095Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-20T12-39-48-593Z",
+          "at": "2026-11-20T12:39:48.593Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-20T12-43-11-683Z",
+          "at": "2026-11-20T12:43:11.683Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-20T12-46-32-510Z",
+          "at": "2026-11-20T12:46:32.510Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-20T16-17-40-793Z",
+          "at": "2026-11-20T16:17:40.796Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-20T17-02-48-411Z",
+          "at": "2026-11-20T17:02:48.411Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-20T19-26-14-167Z",
+          "at": "2026-11-20T19:26:14.167Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-20T19-30-29-646Z",
+          "at": "2026-11-20T19:30:29.646Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-20T20-59-09-011Z",
+          "at": "2026-11-20T20:59:09.011Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-20T21-04-31-294Z",
+          "at": "2026-11-20T21:04:31.294Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-20T22-50-17-371Z",
+          "at": "2026-11-20T22:50:17.372Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T03-21-27-122Z",
+          "at": "2026-11-21T03:21:27.124Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T03-54-46-643Z",
+          "at": "2026-11-21T03:54:46.645Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

@@ -1,0 +1,2320 @@
+[live-session] waiting to pace live navigations to www.zendesk.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 727 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/blog-1440/vdiff-iter1/
+
+build red flags (advisory): 
+  • SURFACE/GROUND MISMATCH: heading "Footer" is rgb(17, 17, 13) in build vs rgb(245, 245, 242) in source (luminance 17 vs 245). A matched heading renders on a different ground (dark vs light) — check the section background.
+  • IMAGE DID NOT LOAD: Photos_People_EmployeesInOffice_3.avif rendered 258x193 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Photos_People_ContactCenterAgents_5-2_3d343830.avif rendered 258x193 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: chatbot_automation_hero-1_3d343830.avif rendered 258x193 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: heroimageofthreepeoplewearingheadsets-1_3d343830.avif rendered 258x193 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: what-is-itam-hero.avif rendered 258x193 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: heroimageforchangemanagementmodelsshowsatransparentcube_3d343830.avif rendered 258x193 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Photos_People_ContactCenterAgent-1_3d343830.avif rendered 258x193 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: what-is-a-call-center-hero-26.avif rendered 258x193 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: cloud_call_center_hero-1_3d343830.avif rendered 258x193 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Call_center_customer_satisfaction_3d343830.avif rendered 258x193 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: feedback_forms_hero_optimized_3d343830.avif rendered 258x193 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: Photos_Still_HandWithPhone_3-1_3d343830.avif rendered 258x193 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: customerservicevscustomerexperience.avif rendered 258x193 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: itsm_trends_hero_optimized.avif rendered 258x193 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 7872,
+  "textLen": 9940,
+  "images": [
+   {
+    "src": "%3e",
+    "natural": "440x331",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "440x331",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Header-final2?fmt=avif-alpha&qlt=65&wid=800",
+    "natural": "800x333",
+    "rendered": "421x316",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Bridge-Header?fmt=avif-alpha&qlt=65&wid=200",
+    "natural": "200x84",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Specialized-agents-banner.png",
+    "natural": "1600x658",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Bridge_BG_MOF_Flower_1x1_02?fmt=avif-alpha&qlt=65&wid=200",
+    "natural": "200x200",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "custom-agents-new-header.png",
+    "natural": "1500x625",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Industry-agents-new-header.png",
+    "natural": "1500x625",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "chief-people-officer-future-of-employee-service.png",
+    "natural": "1500x625",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Bridge-Header?fmt=avif-alpha&qlt=65&wid=200",
+    "natural": "200x84",
+    "rendered": "84x84",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Specialized-agents-banner.png",
+    "natural": "1600x658",
+    "rendered": "84x84",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Bridge_BG_MOF_Flower_1x1_02?fmt=avif-alpha&qlt=65&wid=200",
+    "natural": "200x200",
+    "rendered": "84x84",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "custom-agents-new-header.png",
+    "natural": "1500x625",
+    "rendered": "84x84",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Industry-agents-new-header.png",
+    "natural": "1500x625",
+    "rendered": "84x84",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "chief-people-officer-future-of-employee-service.png",
+    "natural": "1500x625",
+    "rendered": "84x84",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "headless-software-raises-the-build-bar-header?fmt=avif-alpha&qlt=65&wid=480",
+    "natural": "480x200",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rebuilding-zendesk-data-platform-header2.png",
+    "natural": "1500x625",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bringing-zendesk-to-the-ai-interfaces-where-work-happens-header.png",
+    "natural": "1500x625",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ai-pricing-evolution-header?fmt=avif-alpha&qlt=65&wid=480",
+    "natural": "480x200",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Outcomes-header.png",
+    "natural": "1500x625",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Photos_People_EmployeesAtOffice_6.jpg",
+    "natural": "1600x900",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Generic_Post_Thumbnail",
+    "natural": "1000x750",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Outcomes-header.png",
+    "natural": "1500x625",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "258x194",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "144x144",
+    "rendered": "144x144",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "144x144",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "252x189",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "252x189",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "252x189",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "252x189",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "252x189",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "252x189",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "252x189",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "252x189",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "zendesk-logo.png",
+    "natural": "660x127",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=5217919&tm=gtm002&Ver=2&mid=d5fc578e-57a1-4539-9c82-b94a054fcd70&bo=2&sid=5eefa640e4c911f1bd9fcd7660c987e7&vid=5eefcac0e4c911f1adc4a3b478b8324d&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=Customer%20experience,%20support%20and%20sales%20blog%20%7C%20Zendesk&p=https%3A%2F%2Fwww.zendesk.com%2Fblog%2F&r=&lt=2156&evt=pageLoad&sv=2&asc=G&cdb=AQET&rn=40434",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "1795169339293",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "1x1.gif?action=ct-init&hash=4c523741&advertiserId=3594&errorName=&errorCause=&errorMessage=&url=https%3A%2F%2Fwww.zendesk.com%2Fblog%2F",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "cs?pid=d177d942cb8207b52f57818feb9bb79a7b77ce6e0ed688e3af36875661b9be1d&r=https%3A%2F%2Fs.dpmsrv.com%2Fblank.png&puid=dpmpixc%5B1478%5Da%5BNA%5Ds%5B01a1f86e-46d2-786b-a391-3788726e2fe4%5D",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "seg?member=827&consent=1&add=35557257,35557258",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "img?mt_id=2373595&mt_adid=431650",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "img?mt_id=2373594&mt_adid=431650",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "?adv=f6ba480&ct=0:vkv8rin&fmt=3",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "?adv=f6ba480&ct=0:lnrijku&fmt=3",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "img?mt_id=2770488&mt_adid=434212&mt_exem=&mt_excl=&v1=eng&v2=Engagement&v3=&s1=1&s2=&s3=",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "?adv=zlzb4gk&ct=0:dci0ww7&fmt=3&td1=eng&td2=1&td3=Engagement",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "AI Summit 2026 now available to ",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "18px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "AI Summit 2026 now available to ",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "18px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Introducing Zendesk Outcome AI™:",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Zendesk Blog",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "14px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Editor’s picks",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "55px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Zendesk Bridge brings trusted se",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "New product alert: Specialized A",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Employee Service AI Agents now p",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Custom Agents close the gap on b",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "The biggest mistake companies ma",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Watch Employee Service AI Agents",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Zendesk Bridge brings trusted se",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "New product alert: Specialized A",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Employee Service AI Agents now p",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Custom Agents close the gap on b",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "The biggest mistake companies ma",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Watch Employee Service AI Agents",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Zendesk Insights",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How headless software raises the",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How we’re rebuilding the Zendesk",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Bringing Zendesk to the AI inter",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "We changed AI pricing three time",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Product news",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Why Zendesk built a unified retr",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Zendesk brings trusted service t",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Zendesk acquires Ariglad team an",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Introducing Zendesk Outcome AI P",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "AI and automation",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Autonomous AI agents",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Self-improving AI agents",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Outcome-based pricing",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How Zendesk Custom Agents built ",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Customer service",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Zendesk Named a Leader in the 20",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Customer success plan",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What is a ticketing system?",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Customer success playbook",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Employee service",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What is ITIL? The ultimate guide",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Employee onboarding",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IT asset management",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Change management models",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "CCaaS",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Call center tips",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What is a call center?",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Cloud call center",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Call center customer satisfactio",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Tools and templates",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Free and customizable feedback f",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Customer service email templates",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Customer service philosophy",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "7 insights driving IT Service tr",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Popular guides",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The new CX Trends 2027 report is",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Latest stories",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How headless software raises the",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How we’re rebuilding the Zendesk",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Bringing Zendesk to the AI inter",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Why Zendesk built a unified retr",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "We changed AI pricing three time",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What you need to know about the ",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Zendesk brings trusted service t",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Accelerate capital projects with",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Footer",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Products",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Features",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Resources",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Company",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Compare",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Popular topics",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How can we help? Contact us.",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Common use cases",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "By business type",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Learn",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Support",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Company",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Latest News",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Common use cases",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "By business type",
+    "color": "rgb(17, 17, 13)"
+   }
+  ],
+  "flushText": [
+   {
+    "tag": "h2",
+    "text": "Footer",
+    "left": -1
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "sc-c5fa0909-7",
+    "width": 1344,
+    "left": 48
+   },
+   {
+    "sel": "sc-38089e16-6",
+    "width": 1052,
+    "left": 124
+   },
+   {
+    "sel": "StyledRow-sc-xjsdg1-0",
+    "width": 1126,
+    "left": 157
+   },
+   {
+    "sel": "sc-72730426-2",
+    "width": 1102,
+    "left": 169
+   },
+   {
+    "sel": "slick-track",
+    "width": 1104,
+    "left": 169
+   },
+   {
+    "sel": "sc-72730426-2",
+    "width": 1102,
+    "left": 169
+   },
+   {
+    "sel": "slick-track",
+    "width": 1104,
+    "left": 169
+   },
+   {
+    "sel": "sc-72730426-2",
+    "width": 1102,
+    "left": 169
+   },
+   {
+    "sel": "slick-track",
+    "width": 1104,
+    "left": 169
+   },
+   {
+    "sel": "sc-72730426-2",
+    "width": 1102,
+    "left": 169
+   },
+   {
+    "sel": "slick-track",
+    "width": 1104,
+    "left": 169
+   },
+   {
+    "sel": "sc-72730426-2",
+    "width": 1102,
+    "left": 169
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 7872,
+  "textLen": 10016,
+  "images": [
+   {
+    "src": "AI_Summit_26_lockup_center.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Header-final2_3d383030.avif",
+    "natural": "800x333",
+    "rendered": "421x316",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Bridge-Header_3d323030.avif",
+    "natural": "200x84",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Specialized-agents-banner.avif",
+    "natural": "1600x658",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Bridge_BG_MOF_Flower_1x1_02_3d323030.avif",
+    "natural": "200x200",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "custom-agents-new-header.avif",
+    "natural": "1500x625",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Industry-agents-new-header.avif",
+    "natural": "1500x625",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "chief-people-officer-future-of-employee-service.avif",
+    "natural": "1500x625",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Bridge-Header_3d323030.avif",
+    "natural": "200x84",
+    "rendered": "84x84",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Specialized-agents-banner.avif",
+    "natural": "1600x658",
+    "rendered": "84x84",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Bridge_BG_MOF_Flower_1x1_02_3d323030.avif",
+    "natural": "200x200",
+    "rendered": "84x84",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "custom-agents-new-header.avif",
+    "natural": "1500x625",
+    "rendered": "84x84",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Industry-agents-new-header.avif",
+    "natural": "1500x625",
+    "rendered": "84x84",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "chief-people-officer-future-of-employee-service.avif",
+    "natural": "1500x625",
+    "rendered": "84x84",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "headless-software-raises-the-build-bar-header_3d343830.avif",
+    "natural": "480x200",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rebuilding-zendesk-data-platform-header2.avif",
+    "natural": "1500x625",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bringing-zendesk-to-the-ai-interfaces-where-work-happens-header.avif",
+    "natural": "1500x625",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ai-pricing-evolution-header_3d343830.avif",
+    "natural": "480x200",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Outcomes-header.avif",
+    "natural": "1500x625",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Photos_People_EmployeesAtOffice_6.avif",
+    "natural": "1600x900",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Generic_Post_Thumbnail.jpg",
+    "natural": "1000x750",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Outcomes-header.avif",
+    "natural": "1500x625",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Photos_People_EmployeesOnIpad_3.avif",
+    "natural": "1600x900",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "self-improving-hero_3d343830.avif",
+    "natural": "480x270",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "outcome_based_pricing_hero_3d343830.avif",
+    "natural": "480x270",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "claude-hero.avif",
+    "natural": "1600x900",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Generic_Post_Thumbnail.jpg",
+    "natural": "1000x750",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Photos_People_EmployeesInOffice_3.avif",
+    "natural": "0x0",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Photos_People_ContactCenterAgents_5-2_3d343830.avif",
+    "natural": "0x0",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Photos_People_EmployeesOnIpad_3.avif",
+    "natural": "1600x900",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "chatbot_automation_hero-1_3d343830.avif",
+    "natural": "0x0",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "heroimageofthreepeoplewearingheadsets-1_3d343830.avif",
+    "natural": "0x0",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "what-is-itam-hero.avif",
+    "natural": "0x0",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "heroimageforchangemanagementmodelsshowsatransparentcube_3d343830.avif",
+    "natural": "0x0",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Photos_People_ContactCenterAgent-1_3d343830.avif",
+    "natural": "0x0",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "what-is-a-call-center-hero-26.avif",
+    "natural": "0x0",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "cloud_call_center_hero-1_3d343830.avif",
+    "natural": "0x0",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Call_center_customer_satisfaction_3d343830.avif",
+    "natural": "0x0",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "feedback_forms_hero_optimized_3d343830.avif",
+    "natural": "0x0",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Photos_Still_HandWithPhone_3-1_3d343830.avif",
+    "natural": "0x0",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "customerservicevscustomerexperience.avif",
+    "natural": "0x0",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "itsm_trends_hero_optimized.avif",
+    "natural": "0x0",
+    "rendered": "258x193",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "CX_Trends_2026.avif",
+    "natural": "256x256",
+    "rendered": "144x144",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "headless-software-raises-the-build-bar-header_3d343830.avif",
+    "natural": "480x200",
+    "rendered": "252x189",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rebuilding-zendesk-data-platform-header2.avif",
+    "natural": "1500x625",
+    "rendered": "252x189",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bringing-zendesk-to-the-ai-interfaces-where-work-happens-header.avif",
+    "natural": "1500x625",
+    "rendered": "252x189",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Outcomes-header.avif",
+    "natural": "1500x625",
+    "rendered": "252x189",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ai-pricing-evolution-header_3d343830.avif",
+    "natural": "480x200",
+    "rendered": "252x189",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ai-pricing-evolution-header_3d343830.avif",
+    "natural": "480x200",
+    "rendered": "252x189",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Photos_People_EmployeesAtOffice_6.avif",
+    "natural": "1600x900",
+    "rendered": "252x189",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "custom-agents-new-header.avif",
+    "natural": "1500x625",
+    "rendered": "252x189",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "AI Summit 2026 now available to ",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "18px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Introducing Zendesk Outcome AI™:",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Zendesk Blog",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "14px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Editor’s picks",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "55px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Zendesk Bridge brings trusted se",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "New product alert: Specialized A",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Employee Service AI Agents now p",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Custom Agents close the gap on b",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "The biggest mistake companies ma",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Watch Employee Service AI Agents",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Zendesk Bridge brings trusted se",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "New product alert: Specialized A",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Employee Service AI Agents now p",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Custom Agents close the gap on b",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "The biggest mistake companies ma",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Watch Employee Service AI Agents",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Zendesk Insights",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How headless software raises the",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How we’re rebuilding the Zendesk",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Bringing Zendesk to the AI inter",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "We changed AI pricing three time",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Product news",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Why Zendesk built a unified retr",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Zendesk brings trusted service t",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Zendesk acquires Ariglad team an",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Introducing Zendesk Outcome AI P",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "AI and automation",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Autonomous AI agents",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Self-improving AI agents",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Outcome-based pricing",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How Zendesk Custom Agents built ",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Customer service",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Zendesk Named a Leader in the 20",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Customer success plan",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What is a ticketing system?",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Customer success playbook",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Employee service",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What is ITIL? The ultimate guide",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Employee onboarding",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "IT asset management",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Change management models",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "CCaaS",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Call center tips",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What is a call center?",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Cloud call center",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Call center customer satisfactio",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Tools and templates",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Free and customizable feedback f",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Customer service email templates",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Customer service philosophy",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "7 insights driving IT Service tr",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Popular guides",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The new CX Trends 2027 report is",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Latest stories",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How headless software raises the",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How we’re rebuilding the Zendesk",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Bringing Zendesk to the AI inter",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Why Zendesk built a unified retr",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "We changed AI pricing three time",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "What you need to know about the ",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Zendesk brings trusted service t",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Accelerate capital projects with",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Footer",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Products",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Features",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Resources",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Company",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Compare",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Popular topics",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "16px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How can we help? Contact us.",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Common use cases",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "By business type",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Learn",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Support",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Company",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Latest News",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Zendesk Blog",
+    "color": "rgb(17, 17, 13)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "za-promo__inner",
+    "width": 1344,
+    "left": 48
+   },
+   {
+    "sel": "za-menus",
+    "width": 1052,
+    "left": 124
+   },
+   {
+    "sel": "za-row",
+    "width": 1126,
+    "left": 157
+   },
+   {
+    "sel": "bl-group__head",
+    "width": 1102,
+    "left": 169
+   },
+   {
+    "sel": "bl-track",
+    "width": 1102,
+    "left": 169
+   },
+   {
+    "sel": "bl-group__head",
+    "width": 1102,
+    "left": 169
+   },
+   {
+    "sel": "bl-track",
+    "width": 1102,
+    "left": 169
+   },
+   {
+    "sel": "bl-group__head",
+    "width": 1102,
+    "left": 169
+   },
+   {
+    "sel": "bl-track",
+    "width": 1102,
+    "left": 169
+   },
+   {
+    "sel": "bl-group__head",
+    "width": 1102,
+    "left": 169
+   },
+   {
+    "sel": "bl-track",
+    "width": 1102,
+    "left": 169
+   },
+   {
+    "sel": "bl-group__head",
+    "width": 1102,
+    "left": 169
+   }
+  ]
+ }
+}

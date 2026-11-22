@@ -1,0 +1,54 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-20T19:40:04.664Z",
+  "url": "https://www.zendesk.com/customer/furnished-finder/",
+  "width": 360,
+  "vh": 900,
+  "height": 12909,
+  "settle": true,
+  "chunks": 15,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 4,
+    "late": 1
+  },
+  "primed": true,
+  "prime": {
+    "height": 12909,
+    "pct": 0,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    12909,
+    12909
+  ],
+  "noiseFloor": 0,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [],
+  "variableShare": 0,
+  "maskArg": "",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-20T19:40:49.061Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "a": "stardust/replica/gates/all-360/register/origin.png",
+  "b": "stardust/replica/gates/all-360/register/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 900,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 4184,
+  "pct": 1.29,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/register/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 1.24,
+  "textBoxes": 11,
+  "textPixels": 35071,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.8
+    },
+    {
+      "y0": 500,
+      "y1": 900,
+      "pct": 0.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 1.29,
+    "differingPixels": 4184,
+    "compared": {
+      "width": 360,
+      "height": 900,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1.8,
+        "unaligned": 1.8
+      },
+      {
+        "y0": 500,
+        "y1": 900,
+        "pct": 0.6,
+        "unaligned": 0.6
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 1.29,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/register"
+  }
+}

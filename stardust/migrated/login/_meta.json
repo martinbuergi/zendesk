@@ -1,0 +1,109 @@
+{
+  "slug": "login",
+  "type": "form",
+  "renderBranch": "A'",
+  "template": "contact",
+  "modules": [
+    "fm-form",
+    "fm-hero"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "ct-wrap"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": "eb12288bdf84",
+    "css": "6522953e4893"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "encoder-gap",
+      "encoder": "stardust/rollout/encoders/archetype-form/encode.py",
+      "scratch": "stardust/.work/render/form/enc/login.html",
+      "exit": 0,
+      "blocks": [
+        "fm-form",
+        "fm-hero"
+      ],
+      "wordsNotCarried": 1,
+      "wordsTotal": 64,
+      "gap": ".zendesk.com",
+      "iframesDropped": 0,
+      "imgsDropped": 0
+    }
+  ],
+  "metadata": {
+    "title": "Login | Zendesk",
+    "description": "Sign into your Zendesk account",
+    "canonical": "https://www.zendesk.com/login/",
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Login | Zendesk",
+    "description": "Sign into your Zendesk account",
+    "url": "https://www.zendesk.com/login/"
+  },
+  "migratedAt": "2026-11-20T16:47:35Z",
+  "designMdSha": "84a4a03d7364",
+  "designJsonSha": "28069f8740fe",
+  "sourceCurrentSha": "d492cb25f9af",
+  "sourceProposedSha": "8df312054504",
+  "fidelityTier": "sibling",
+  "archetypeSource": "contact",
+  "archetypeSha": "616e2bf4d511",
+  "variants": [
+    "ct-form--narrow ct-field--suffix ct-promo ct-siderow--links"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "media-reconcile"
+  ],
+  "gateEvidence": {
+    "variance-probe": "stardust/.work/render/form/variance.json (12 siblings vs /contact/, exit 2): rect{h 1024 → 785}; rect{w 539 → 445, h 556 → 191}; 5 → 1 matches; 2 → 1 distinct style families among matches (a second visual family = a variant class); rect{w 539 → 445}; padding 12px 12px 12px 12px → 12px 120px 12px 12px; rect{w 539 → 445} -> variants ct-form--narrow, ct-field--suffix, ct-promo, ct-siderow--links",
+    "content-count": "count.py: source {'headings': 1, 'body': 3, 'ctas': 6, 'hrefs': 5, 'images': 0, 'words': 64} vs render {'headings': 1, 'body': 10, 'ctas': 6, 'hrefs': 5, 'images': 0, 'words': 64}; drops none; words missing 0 (stardust/.work/render/form/counts.jsonl)",
+    "content-fidelity": "sibling-form/build.py: headings, text (block-level boundaries), CTA labels+hrefs, form schema (names/types/labels/options/placeholders/tooltips/validation text) verbatim from the hydrated capture; word multiset diff 0; deviations declared",
+    "pixel-gate-1440": "gate-all published origin main--3055ed88--aemcoder.aem.page @1440: pixel 0.8 [5.83]%, Δh 0px, clipped 0, MISSING 0 / HIDDEN 0 → PASS (cf1-g3.log; 2026-11-21T01-04-30-357Z-login.json)",
+    "pixel-gate-360": "gate-all published origin main--3055ed88--aemcoder.aem.page @360: pixel 1.51 (3.03) [7.01]%, offsets 1 step(s), 1px (bound 9), Δh 1px, clipped 0, MISSING 0 / HIDDEN 0 → PASS (cf1-g3.log; 2026-11-21T00-59-13-924Z-login.json)",
+    "media-reconcile": "media-reconcile content/login.html --deploy-host main--3055ed88--aemcoder.aem.live: 0 media (no editorial images)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "module",
+      "source": "promo strip [role=complementary] (AI Masterclass 2026: On-demand workshops to assess AI readiness and build a prac)",
+      "target": "section.ct-promo (default content, first section)",
+      "reason": "live site-chrome promo above the header; no archetype (contact) analogue — carried verbatim, delivery decides promo nav section vs default content"
+    }
+  ],
+  "assetsBundled": 16,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/company/agreements-and-terms/terms-of-use/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/cookie-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "login/index.html",
+  "outputPathDefault": null,
+  "sidecar": "login/_meta.json",
+  "driverVersion": "1"
+}

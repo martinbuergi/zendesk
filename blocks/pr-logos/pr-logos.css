@@ -1,0 +1,58 @@
+/* pr-logos — logo marquee (linear 40 s loop over authored logos + one presentational copy) */
+.pr-logos .pr-logos-head {
+  display: flow-root;
+  text-align: center;
+}
+
+.pr-logos .pr-logos-head h2 {
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto 24px;
+}
+
+.pr-logos .pr-logos-marquee {
+  position: relative;
+  height: 56px;
+  overflow: hidden;
+}
+
+.pr-logos .pr-logos-track {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+  padding-right: 24px;
+  animation: pr-logos-marquee 40s linear infinite;
+}
+
+.pr-logos .pr-logos-item {
+  flex: 0 0 auto;
+}
+
+.pr-logos .pr-logos-item :is(p, picture) {
+  display: block;
+  margin: 0;
+}
+
+.pr-logos .pr-logos-item img {
+  width: auto;
+  height: 56px;
+  object-fit: contain;
+}
+
+@keyframes pr-logos-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pr-logos .pr-logos-track {
+    animation: none;
+  }
+}
+
+@media (width >= 768px) {
+  .pr-logos .pr-logos-track {
+    gap: 40px;
+    padding-right: 40px;
+  }
+}

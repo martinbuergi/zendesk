@@ -1,0 +1,4836 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 100,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://d1eipm3vz40hy0.cloudfront.net/images/logos/favicons/zendesk-favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": [],
+    "degraded": [],
+    "pageTimeoutMs": 90000
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 100,
+    "pagesWithSameSiteData": 94,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 98,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "alb.reddit.com",
+        "path": "/rp",
+        "query": [
+          "event",
+          "id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://alb.reddit.com/rp",
+        "pages": 99,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "o1025743.ingest.sentry.io",
+        "path": "/api/{n}/envelope/",
+        "query": [
+          "sentry_client",
+          "sentry_key",
+          "sentry_version"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://o1025743.ingest.sentry.io/api/6184663/envelope/",
+        "pages": 98,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobetarget.com",
+        "path": "/pre-hide-rules/zendesk/production/v1/zendesk.com/rules.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://assets.adobetarget.com/pre-hide-rules/zendesk/production/v1/zendesk.com/rules.json",
+        "pages": 95,
+        "examples": [
+          "trust-center",
+          "pricing",
+          "blog"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "edge.adobedc.net",
+        "path": "/ee/or2/v1/interact",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://edge.adobedc.net/ee/or2/v1/interact",
+        "pages": 95,
+        "examples": [
+          "trust-center",
+          "pricing",
+          "blog"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.zendesk.com",
+        "path": "/app/geo.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.zendesk.com/app/geo.json",
+        "pages": 94,
+        "examples": [
+          "customer",
+          "index",
+          "trust-center"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fv",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dp",
+          "dr",
+          "dt",
+          "en",
+          "ep.cookie_consent",
+          "ep.gtm_container_id",
+          "ep.gtm_container_version",
+          "ep.gtm_tag_name",
+          "ep.last_referrer_c",
+          "ep.onetrust_consent",
+          "ep.page_domain",
+          "ep.page_url",
+          "ep.referrer",
+          "ep.timestamp",
+          "ep.top_level_domain",
+          "ep.user_agent_string",
+          "ep.utm_campaign_c",
+          "ep.utm_medium_c",
+          "frm",
+          "gaf",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "ir",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "up.client_id_2",
+          "up.do_not_track",
+          "up.last_referrer_c",
+          "up.onetrust_consent",
+          "up.utm_campaign_c",
+          "up.utm_medium_c",
+          "upn.timezone_offset",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.google-analytics.com/g/collect",
+        "pages": 92,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/c84f307d-a465-4571-bbcb-8adbdf57a7ae/c84f307d-a465-4571-bbcb-8adbdf57a7ae.json",
+        "pages": 91,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "pages": 91,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/c84f307d-a465-4571-bbcb-8adbdf57a7ae/019e1cd3-6ac1-736b-990e-3bc232b29039/en.json",
+        "pages": 91,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202604.2.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202604.2.0/assets/v2/otPcCenter.json",
+        "pages": 91,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202604.2.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202604.2.0/assets/otCommonStyles.css",
+        "pages": 91,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202604.2.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202604.2.0/assets/otFlat.json",
+        "pages": 91,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "pages": 91,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/ccm/collect",
+        "query": [
+          "ae",
+          "apvc",
+          "dl",
+          "dma",
+          "dma_cps",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://pagead2.googlesyndication.com/ccm/collect",
+        "pages": 91,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/pagead/conversion/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "bg",
+          "bttype",
+          "category",
+          "cv",
+          "did",
+          "dma",
+          "dma_cps",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "guid",
+          "hn",
+          "label",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "rdp",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://pagead2.googlesyndication.com/pagead/conversion/972607400/",
+        "pages": 91,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "pipedream.wistia.com",
+        "path": "/mput",
+        "query": [
+          "topic"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://pipedream.wistia.com/mput",
+        "pages": 28,
+        "examples": [
+          "customer",
+          "employee-experience",
+          "service"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "distillery.wistia.com",
+        "path": "/x",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://distillery.wistia.com/x",
+        "pages": 28,
+        "examples": [
+          "customer",
+          "employee-experience",
+          "service"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "unpkg.com",
+        "path": "/@rive-app/webgl2@2.37.2/rive.wasm",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/wasm",
+        "sameSite": false,
+        "example": "https://unpkg.com/@rive-app/webgl2@2.37.2/rive.wasm",
+        "pages": 14,
+        "examples": [
+          "index",
+          "trust-center",
+          "pricing"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "web-assets.zendesk.com",
+        "path": "/images/navigation/header/navigation_platform_animation.riv",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-www-form-urlencoded",
+        "sameSite": true,
+        "example": "https://web-assets.zendesk.com/images/navigation/header/navigation_platform_animation.riv",
+        "pages": 14,
+        "examples": [
+          "index",
+          "trust-center",
+          "pricing"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "web-assets.zendesk.com",
+        "path": "/images/navigation/header/navigation_customer_animation.riv",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-www-form-urlencoded",
+        "sameSite": true,
+        "example": "https://web-assets.zendesk.com/images/navigation/header/navigation_customer_animation.riv",
+        "pages": 14,
+        "examples": [
+          "index",
+          "trust-center",
+          "pricing"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "web-assets.zendesk.com",
+        "path": "/images/navigation/header/navigation_contact_animation.riv",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-www-form-urlencoded",
+        "sameSite": true,
+        "example": "https://web-assets.zendesk.com/images/navigation/header/navigation_contact_animation.riv",
+        "pages": 14,
+        "examples": [
+          "index",
+          "trust-center",
+          "pricing"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "web-assets.zendesk.com",
+        "path": "/images/navigation/header/navigation_ai_animation.riv",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-www-form-urlencoded",
+        "sameSite": true,
+        "example": "https://web-assets.zendesk.com/images/navigation/header/navigation_ai_animation.riv",
+        "pages": 14,
+        "examples": [
+          "index",
+          "trust-center",
+          "pricing"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "web-assets.zendesk.com",
+        "path": "/images/navigation/header/navigation_employee_animation.riv",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-www-form-urlencoded",
+        "sameSite": true,
+        "example": "https://web-assets.zendesk.com/images/navigation/header/navigation_employee_animation.riv",
+        "pages": 14,
+        "examples": [
+          "index",
+          "trust-center",
+          "pricing"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 8,
+        "examples": [
+          "instapage-form-demo",
+          "instapage-form-contact",
+          "instapage-form-trial-teaser-sell"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "dma",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "rdp",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/rmkt/collect/972607400/",
+        "pages": 8,
+        "examples": [
+          "instapage-form-demo",
+          "instapage-form-contact",
+          "instapage-form-trial-teaser-sell"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.googleadservices.com",
+        "path": "/ccm/conversion/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "bttype",
+          "category",
+          "cv",
+          "dma",
+          "ec_mode",
+          "ecsid2",
+          "em",
+          "emd",
+          "en",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcl_ctr",
+          "gtm",
+          "guid",
+          "hn",
+          "label",
+          "npa",
+          "oid",
+          "oidsrc",
+          "pscdl",
+          "random",
+          "rcb",
+          "rdp",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.googleadservices.com/ccm/conversion/972607400/",
+        "pages": 8,
+        "examples": [
+          "instapage-form-demo",
+          "instapage-form-contact",
+          "instapage-form-trial-teaser-sell"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.googleadservices.com",
+        "path": "/pagead/conversion/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "bttype",
+          "category",
+          "cv",
+          "dma",
+          "ec_mode",
+          "ecsid2",
+          "em",
+          "emd",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcl_ctr",
+          "gtm",
+          "guid",
+          "hn",
+          "label",
+          "npa",
+          "oid",
+          "oidsrc",
+          "pscdl",
+          "random",
+          "rcb",
+          "rdp",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.googleadservices.com/pagead/conversion/972607400/",
+        "pages": 8,
+        "examples": [
+          "instapage-form-demo",
+          "instapage-form-contact",
+          "instapage-form-trial-teaser-sell"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "adobedc.demdex.net",
+        "path": "/ee/v1/interact",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://adobedc.demdex.net/ee/v1/interact",
+        "pages": 3,
+        "examples": [
+          "trust-center",
+          "pricing",
+          "blog"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api.storylane.io",
+        "path": "/api/v1/shared/projects/{uuid}/events",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://api.storylane.io/api/v1/shared/projects/c00794fa-174a-443f-8708-2f4428454853/events",
+        "pages": 3,
+        "examples": [
+          "service",
+          "demo",
+          "employee-service"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "pages": 3,
+        "examples": [
+          "instapage-form-demo",
+          "instapage-form-contact",
+          "instapage-form-trial-teaser-sell"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "googleads.g.doubleclick.net",
+        "path": "/pagead/viewthroughconversion/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "category",
+          "cerd",
+          "crd",
+          "ct_cookie_present",
+          "cv",
+          "dma",
+          "ec_mode",
+          "ecsid2",
+          "eitems",
+          "em",
+          "emd",
+          "en",
+          "eoid",
+          "ept",
+          "fmt",
+          "frm",
+          "fsk",
+          "fst",
+          "gap.last_label",
+          "gap.last_random",
+          "gcd",
+          "gcl_ctr",
+          "gtm",
+          "guid",
+          "hn",
+          "label",
+          "npa",
+          "oidsrc",
+          "pscdl",
+          "pscrd",
+          "random",
+          "rcb",
+          "rdp",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972607400/",
+        "pages": 3,
+        "examples": [
+          "instapage-form-trial-teaser-sell",
+          "instapage-form-webinar",
+          "instapage-form-newsletter"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/g0pd58adknj2j8u1baqul997b6bc.json",
+        "query": [],
+        "resourceType": "other",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_c00794fa-174a-443f-8708-2f4428454853/page/g0pd58adknj2j8u1baqul997b6bc.json",
+        "pages": 2,
+        "examples": [
+          "service",
+          "demo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/3q7vdq5eua4g5rfx93ctr2q2c1yz.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_c00794fa-174a-443f-8708-2f4428454853/page/3q7vdq5eua4g5rfx93ctr2q2c1yz.json",
+        "pages": 2,
+        "examples": [
+          "service",
+          "demo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/c5u3jqggfec99ouevhro6nu2yygb.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_c00794fa-174a-443f-8708-2f4428454853/page/c5u3jqggfec99ouevhro6nu2yygb.json",
+        "pages": 2,
+        "examples": [
+          "service",
+          "demo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/7zn3euzfrv7q79a4hkhnfd69xy2l.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_c00794fa-174a-443f-8708-2f4428454853/page/7zn3euzfrv7q79a4hkhnfd69xy2l.json",
+        "pages": 2,
+        "examples": [
+          "service",
+          "demo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/tsjsmq20j96ci5oa19103ggw968t.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_c00794fa-174a-443f-8708-2f4428454853/page/tsjsmq20j96ci5oa19103ggw968t.json",
+        "pages": 2,
+        "examples": [
+          "service",
+          "demo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/23pz5b6y1ge0dcawopdsclppe5ia.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_c00794fa-174a-443f-8708-2f4428454853/page/23pz5b6y1ge0dcawopdsclppe5ia.json",
+        "pages": 2,
+        "examples": [
+          "service",
+          "demo"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api.storylane.io",
+        "path": "/api/v1/shared/projects/{uuid}/tracking",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://api.storylane.io/api/v1/shared/projects/c00794fa-174a-443f-8708-2f4428454853/tracking",
+        "pages": 2,
+        "examples": [
+          "service",
+          "employee-service"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/3umjjh46q45qkqfb04533lggbnd3.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_c00794fa-174a-443f-8708-2f4428454853/page/3umjjh46q45qkqfb04533lggbnd3.json",
+        "pages": 2,
+        "examples": [
+          "service",
+          "demo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/brb8fk0r31dga5otflp2oijhp1vd.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_c00794fa-174a-443f-8708-2f4428454853/page/brb8fk0r31dga5otflp2oijhp1vd.json",
+        "pages": 2,
+        "examples": [
+          "service",
+          "demo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/a19fjx8yavufo2rpkd5egljybgcz.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_c00794fa-174a-443f-8708-2f4428454853/page/a19fjx8yavufo2rpkd5egljybgcz.json",
+        "pages": 2,
+        "examples": [
+          "service",
+          "demo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/o8t1cjn9usdkdvqcqggwjfrfj4wv.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_c00794fa-174a-443f-8708-2f4428454853/page/o8t1cjn9usdkdvqcqggwjfrfj4wv.json",
+        "pages": 2,
+        "examples": [
+          "service",
+          "demo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/iv80qmuz1k280eb8jr0ugfk56r9k.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_c00794fa-174a-443f-8708-2f4428454853/page/iv80qmuz1k280eb8jr0ugfk56r9k.json",
+        "pages": 2,
+        "examples": [
+          "service",
+          "demo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/f9jh0cpive6uqx942cqtojdihpvt.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_c00794fa-174a-443f-8708-2f4428454853/page/f9jh0cpive6uqx942cqtojdihpvt.json",
+        "pages": 2,
+        "examples": [
+          "service",
+          "demo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/4gi0rah66kk7ebczbihzwsfhtsn7.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_c00794fa-174a-443f-8708-2f4428454853/page/4gi0rah66kk7ebczbihzwsfhtsn7.json",
+        "pages": 2,
+        "examples": [
+          "service",
+          "demo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/xx1atu31teashm55y50qgy5akgr2.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_c00794fa-174a-443f-8708-2f4428454853/page/xx1atu31teashm55y50qgy5akgr2.json",
+        "pages": 2,
+        "examples": [
+          "service",
+          "demo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/hrsmip8uph.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/hrsmip8uph.json",
+        "pages": 2,
+        "examples": [
+          "platform",
+          "what-is-zendesk"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/hrsmip8uph.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/hrsmip8uph.m3u8",
+        "pages": 2,
+        "examples": [
+          "platform",
+          "what-is-zendesk"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/9aa7cbb953f3ae6c92d104e2d8581873c75c1a94.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.apple.mpegurl",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/9aa7cbb953f3ae6c92d104e2d8581873c75c1a94.m3u8",
+        "pages": 2,
+        "examples": [
+          "platform",
+          "what-is-zendesk"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/9aa7cbb953f3ae6c92d104e2d8581873c75c1a94.m3u8/seg-1-v1-a1.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/9aa7cbb953f3ae6c92d104e2d8581873c75c1a94.m3u8/seg-1-v1-a1.ts",
+        "pages": 2,
+        "examples": [
+          "platform",
+          "what-is-zendesk"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fv",
+          "_gaz",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dp",
+          "dr",
+          "dt",
+          "en",
+          "ep.cookie_consent",
+          "ep.event_category",
+          "ep.gtm_container_id",
+          "ep.gtm_container_version",
+          "ep.last_referrer_c",
+          "ep.metric_id",
+          "ep.metric_navigationtype",
+          "ep.metric_rating",
+          "ep.onetrust_consent",
+          "ep.page_domain",
+          "ep.page_url",
+          "ep.referrer",
+          "ep.timestamp",
+          "ep.top_level_domain",
+          "ep.user_agent_string",
+          "ep.utm_campaign_c",
+          "ep.utm_medium_c",
+          "epn.metric_delta",
+          "epn.metric_value",
+          "epn.value",
+          "frm",
+          "gaf",
+          "gcd",
+          "gtm",
+          "ir",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "up.client_id_2",
+          "up.do_not_track",
+          "up.last_referrer_c",
+          "up.onetrust_consent",
+          "up.utm_campaign_c",
+          "up.utm_medium_c",
+          "upn.timezone_offset",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://analytics.google.com/g/collect",
+        "pages": 2,
+        "examples": [
+          "instapage-form-contact",
+          "instapage-form-trial-teaser-sell"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/k3jutqaf48.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/k3jutqaf48.json",
+        "pages": 1,
+        "examples": [
+          "customer"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/muoqjmuksw.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/muoqjmuksw.json",
+        "pages": 1,
+        "examples": [
+          "customer"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/k3jutqaf48.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/k3jutqaf48.json",
+        "pages": 1,
+        "examples": [
+          "customer"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/muoqjmuksw.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/muoqjmuksw.json",
+        "pages": 1,
+        "examples": [
+          "customer"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/k3jutqaf48.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/k3jutqaf48.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/muoqjmuksw.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/muoqjmuksw.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "web-assets.zendesk.com",
+        "path": "/zendesk/pages/home/rive/Hero-20260520__en_us.riv",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/octet-stream",
+        "sameSite": true,
+        "example": "https://web-assets.zendesk.com/zendesk/pages/home/rive/Hero-20260520__en_us.riv",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "web-assets.zendesk.com",
+        "path": "/zendesk/pages/home/rive/RLL_Section-01-20260520__en_us.riv",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/octet-stream",
+        "sameSite": true,
+        "example": "https://web-assets.zendesk.com/zendesk/pages/home/rive/RLL_Section-01-20260520__en_us.riv",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "web-assets.zendesk.com",
+        "path": "/zendesk/pages/home/rive/RLL_Section-02-20260520__en_us.riv",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/octet-stream",
+        "sameSite": true,
+        "example": "https://web-assets.zendesk.com/zendesk/pages/home/rive/RLL_Section-02-20260520__en_us.riv",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "web-assets.zendesk.com",
+        "path": "/zendesk/pages/home/rive/RLL_Section-03-20260520__en_us.riv",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/octet-stream",
+        "sameSite": true,
+        "example": "https://web-assets.zendesk.com/zendesk/pages/home/rive/RLL_Section-03-20260520__en_us.riv",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/3gd3yd1f9d.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/3gd3yd1f9d.json",
+        "pages": 1,
+        "examples": [
+          "employee-experience"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/3gd3yd1f9d.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/3gd3yd1f9d.m3u8",
+        "pages": 1,
+        "examples": [
+          "employee-experience"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/izivwbhm2u.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/izivwbhm2u.json",
+        "pages": 1,
+        "examples": [
+          "service"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/izivwbhm2u.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/izivwbhm2u.json",
+        "pages": 1,
+        "examples": [
+          "service"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/izivwbhm2u.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/izivwbhm2u.m3u8",
+        "pages": 1,
+        "examples": [
+          "service"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api.storylane.io",
+        "path": "/api/v1/shared/hubs/{uuid}/events",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://api.storylane.io/api/v1/shared/hubs/66fd6fc3-1568-4496-aebd-a60ff1b74918/events",
+        "pages": 1,
+        "examples": [
+          "demo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/undefined/undefined.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/undefined/undefined.json",
+        "pages": 1,
+        "examples": [
+          "demo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/ijbieosc2d.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/ijbieosc2d.json",
+        "pages": 1,
+        "examples": [
+          "employee-service"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/ijbieosc2d.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/ijbieosc2d.json",
+        "pages": 1,
+        "examples": [
+          "employee-service"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/ijbieosc2d.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/ijbieosc2d.m3u8",
+        "pages": 1,
+        "examples": [
+          "employee-service"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/hh2md5erhkh4xzoqs90qqxv8lfxq.json",
+        "query": [],
+        "resourceType": "other",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_52ed0404-4e4c-4e58-94ed-54aac18c49cc/page/hh2md5erhkh4xzoqs90qqxv8lfxq.json",
+        "pages": 1,
+        "examples": [
+          "employee-service"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/hzzu4hdl2bzexfyldovlcwtny6u7.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_52ed0404-4e4c-4e58-94ed-54aac18c49cc/page/hzzu4hdl2bzexfyldovlcwtny6u7.json",
+        "pages": 1,
+        "examples": [
+          "employee-service"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/sy7kg8i96x0z29odbw5um00mqmm4.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_52ed0404-4e4c-4e58-94ed-54aac18c49cc/page/sy7kg8i96x0z29odbw5um00mqmm4.json",
+        "pages": 1,
+        "examples": [
+          "employee-service"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/4ijyqsz0wpfjudsz6jnebxj0sx5r.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_52ed0404-4e4c-4e58-94ed-54aac18c49cc/page/4ijyqsz0wpfjudsz6jnebxj0sx5r.html",
+        "pages": 1,
+        "examples": [
+          "employee-service"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/097r6pnbs3pbyapeugtdskc3ninj.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_52ed0404-4e4c-4e58-94ed-54aac18c49cc/page/097r6pnbs3pbyapeugtdskc3ninj.json",
+        "pages": 1,
+        "examples": [
+          "employee-service"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app-pages.storylane.io",
+        "path": "/company/company_{uuid}/project/project_{uuid}/page/y1m62eqgwu7x5syeoynsj6nxomhx.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app-pages.storylane.io/company/company_761e576a-08c7-428b-bc0c-7c693e960c89/project/project_52ed0404-4e4c-4e58-94ed-54aac18c49cc/page/y1m62eqgwu7x5syeoynsj6nxomhx.json",
+        "pages": 1,
+        "examples": [
+          "employee-service"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/ijsnge8os8.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/ijsnge8os8.json",
+        "pages": 1,
+        "examples": [
+          "sell"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/ijsnge8os8/ger.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/ijsnge8os8/ger.json",
+        "pages": 1,
+        "examples": [
+          "sell"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/ijsnge8os8/eng.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/ijsnge8os8/eng.json",
+        "pages": 1,
+        "examples": [
+          "sell"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/ijsnge8os8/dut.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/ijsnge8os8/dut.json",
+        "pages": 1,
+        "examples": [
+          "sell"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/ijsnge8os8/ita.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/ijsnge8os8/ita.json",
+        "pages": 1,
+        "examples": [
+          "sell"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/ijsnge8os8/spa.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/ijsnge8os8/spa.json",
+        "pages": 1,
+        "examples": [
+          "sell"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/ijsnge8os8/rus.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/ijsnge8os8/rus.json",
+        "pages": 1,
+        "examples": [
+          "sell"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/ijsnge8os8/kor.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/ijsnge8os8/kor.json",
+        "pages": 1,
+        "examples": [
+          "sell"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/ijsnge8os8/zh-Hant.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/ijsnge8os8/zh-Hant.json",
+        "pages": 1,
+        "examples": [
+          "sell"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/ijsnge8os8/jpn.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/ijsnge8os8/jpn.json",
+        "pages": 1,
+        "examples": [
+          "sell"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/ijsnge8os8/por.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/ijsnge8os8/por.json",
+        "pages": 1,
+        "examples": [
+          "sell"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/ijsnge8os8/tha.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/ijsnge8os8/tha.json",
+        "pages": 1,
+        "examples": [
+          "sell"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/ijsnge8os8/fre.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/ijsnge8os8/fre.json",
+        "pages": 1,
+        "examples": [
+          "sell"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/ijsnge8os8.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/ijsnge8os8.m3u8",
+        "pages": 1,
+        "examples": [
+          "sell"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.segment.com",
+        "path": "/v1/projects/qbUubtShzPR7jpBCsJDHFRx2LsvwOtx1/settings",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.segment.com/v1/projects/qbUubtShzPR7jpBCsJDHFRx2LsvwOtx1/settings",
+        "pages": 1,
+        "examples": [
+          "intro-tour"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.zendesk.com",
+        "path": "/app/identify",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://www.zendesk.com/app/identify",
+        "pages": 1,
+        "examples": [
+          "intro-tour"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api.segment.io",
+        "path": "/v1/p",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.segment.io/v1/p",
+        "pages": 1,
+        "examples": [
+          "intro-tour"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api.segment.io",
+        "path": "/v1/i",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.segment.io/v1/i",
+        "pages": 1,
+        "examples": [
+          "intro-tour"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "logx.optimizely.com",
+        "path": "/v1/events",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://logx.optimizely.com/v1/events",
+        "pages": 1,
+        "examples": [
+          "intro-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "web-assets.zendesk.com",
+        "path": "/json/crometrics/data-min.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://web-assets.zendesk.com/json/crometrics/data-min.json",
+        "pages": 1,
+        "examples": [
+          "intro-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.zendesk.com",
+        "path": "/proactive-chat-widget/",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.zendesk.com/proactive-chat-widget/",
+        "pages": 1,
+        "examples": [
+          "intro-tour"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/mm8uj1lwl4.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/mm8uj1lwl4.json",
+        "pages": 1,
+        "examples": [
+          "cxtrends"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/mm8uj1lwl4/eng.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/mm8uj1lwl4/eng.json",
+        "pages": 1,
+        "examples": [
+          "cxtrends"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/mm8uj1lwl4/ger.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/mm8uj1lwl4/ger.json",
+        "pages": 1,
+        "examples": [
+          "cxtrends"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/mm8uj1lwl4/spa.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/mm8uj1lwl4/spa.json",
+        "pages": 1,
+        "examples": [
+          "cxtrends"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/mm8uj1lwl4/es-419.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/mm8uj1lwl4/es-419.json",
+        "pages": 1,
+        "examples": [
+          "cxtrends"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/mm8uj1lwl4/ita.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/mm8uj1lwl4/ita.json",
+        "pages": 1,
+        "examples": [
+          "cxtrends"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/mm8uj1lwl4/por.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/mm8uj1lwl4/por.json",
+        "pages": 1,
+        "examples": [
+          "cxtrends"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/mm8uj1lwl4/dut.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/mm8uj1lwl4/dut.json",
+        "pages": 1,
+        "examples": [
+          "cxtrends"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/mm8uj1lwl4/mar.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/mm8uj1lwl4/mar.json",
+        "pages": 1,
+        "examples": [
+          "cxtrends"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/mm8uj1lwl4/hin.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/mm8uj1lwl4/hin.json",
+        "pages": 1,
+        "examples": [
+          "cxtrends"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/mm8uj1lwl4/fre.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/mm8uj1lwl4/fre.json",
+        "pages": 1,
+        "examples": [
+          "cxtrends"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/mm8uj1lwl4/chi.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/mm8uj1lwl4/chi.json",
+        "pages": 1,
+        "examples": [
+          "cxtrends"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/mm8uj1lwl4/zh-Hant.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/mm8uj1lwl4/zh-Hant.json",
+        "pages": 1,
+        "examples": [
+          "cxtrends"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/mm8uj1lwl4/kor.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/mm8uj1lwl4/kor.json",
+        "pages": 1,
+        "examples": [
+          "cxtrends"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/mm8uj1lwl4/jpn.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/mm8uj1lwl4/jpn.json",
+        "pages": 1,
+        "examples": [
+          "cxtrends"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/mm8uj1lwl4.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/mm8uj1lwl4.m3u8",
+        "pages": 1,
+        "examples": [
+          "cxtrends"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/wn29dc24z8.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/wn29dc24z8.json",
+        "pages": 1,
+        "examples": [
+          "customer-mimecast"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/wn29dc24z8.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/wn29dc24z8.json",
+        "pages": 1,
+        "examples": [
+          "customer-mimecast"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/wn29dc24z8.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/wn29dc24z8.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-mimecast"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/35da4b4d6c2525c73bdd39438cff63b607174535.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.apple.mpegurl",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/35da4b4d6c2525c73bdd39438cff63b607174535.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-mimecast"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/35da4b4d6c2525c73bdd39438cff63b607174535.m3u8/seg-1-v1-a1.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/35da4b4d6c2525c73bdd39438cff63b607174535.m3u8/seg-1-v1-a1.ts",
+        "pages": 1,
+        "examples": [
+          "customer-mimecast"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/z5pqgubflf.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/z5pqgubflf.json",
+        "pages": 1,
+        "examples": [
+          "customer-canva"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/z5pqgubflf.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/z5pqgubflf.json",
+        "pages": 1,
+        "examples": [
+          "customer-canva"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/z5pqgubflf.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/z5pqgubflf.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-canva"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/l65jrkiffr.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/l65jrkiffr.json",
+        "pages": 1,
+        "examples": [
+          "customer-qantas-loyalty"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/l65jrkiffr.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/l65jrkiffr.json",
+        "pages": 1,
+        "examples": [
+          "customer-qantas-loyalty"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/l65jrkiffr.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/l65jrkiffr.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-qantas-loyalty"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/ki1yy5ghka.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/ki1yy5ghka.json",
+        "pages": 1,
+        "examples": [
+          "customer-perk-es"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/ki1yy5ghka.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/ki1yy5ghka.json",
+        "pages": 1,
+        "examples": [
+          "customer-perk-es"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/ki1yy5ghka.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/ki1yy5ghka.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-perk-es"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/231d938e439226d443d4aa8de457481c6794b248.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.apple.mpegurl",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/231d938e439226d443d4aa8de457481c6794b248.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-perk-es"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/231d938e439226d443d4aa8de457481c6794b248.m3u8/seg-1-v1-a1.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/231d938e439226d443d4aa8de457481c6794b248.m3u8/seg-1-v1-a1.ts",
+        "pages": 1,
+        "examples": [
+          "customer-perk-es"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/u8m6gnufac.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/u8m6gnufac.json",
+        "pages": 1,
+        "examples": [
+          "customer-thoughtworks"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/u8m6gnufac.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/u8m6gnufac.json",
+        "pages": 1,
+        "examples": [
+          "customer-thoughtworks"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/u8m6gnufac.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/u8m6gnufac.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-thoughtworks"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/bada31a85fc4a683b772b804892d06c8ea9bd27a.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.apple.mpegurl",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/bada31a85fc4a683b772b804892d06c8ea9bd27a.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-thoughtworks"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/bada31a85fc4a683b772b804892d06c8ea9bd27a.m3u8/seg-1-v1-a1.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/bada31a85fc4a683b772b804892d06c8ea9bd27a.m3u8/seg-1-v1-a1.ts",
+        "pages": 1,
+        "examples": [
+          "customer-thoughtworks"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/c783wrl5iv.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/c783wrl5iv.json",
+        "pages": 1,
+        "examples": [
+          "customer-solo-by-myob"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/c783wrl5iv.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/c783wrl5iv.json",
+        "pages": 1,
+        "examples": [
+          "customer-solo-by-myob"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/c783wrl5iv.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/c783wrl5iv.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-solo-by-myob"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/60d5a5d220625c3b6b78a553930a22a3c8a18f2d.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.apple.mpegurl",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/60d5a5d220625c3b6b78a553930a22a3c8a18f2d.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-solo-by-myob"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/60d5a5d220625c3b6b78a553930a22a3c8a18f2d.m3u8/seg-1-v1-a1.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/60d5a5d220625c3b6b78a553930a22a3c8a18f2d.m3u8/seg-1-v1-a1.ts",
+        "pages": 1,
+        "examples": [
+          "customer-solo-by-myob"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/3s9r8312h4.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/3s9r8312h4.json",
+        "pages": 1,
+        "examples": [
+          "customer-catapult"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/3s9r8312h4.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/3s9r8312h4.json",
+        "pages": 1,
+        "examples": [
+          "customer-catapult"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/3s9r8312h4.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/3s9r8312h4.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-catapult"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/fd1134abfda99fb9a1a9b138f1804dc04e2de224.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.apple.mpegurl",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/fd1134abfda99fb9a1a9b138f1804dc04e2de224.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-catapult"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/fd1134abfda99fb9a1a9b138f1804dc04e2de224.m3u8/seg-1-v1-a1.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/fd1134abfda99fb9a1a9b138f1804dc04e2de224.m3u8/seg-1-v1-a1.ts",
+        "pages": 1,
+        "examples": [
+          "customer-catapult"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/aocm1h221s.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/aocm1h221s.json",
+        "pages": 1,
+        "examples": [
+          "customer-lucid-software-es"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/aocm1h221s.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/aocm1h221s.json",
+        "pages": 1,
+        "examples": [
+          "customer-lucid-software-es"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/aocm1h221s.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/aocm1h221s.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-lucid-software-es"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/0cda6c22daa73e0ab73f374658761ac122044fde.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.apple.mpegurl",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/0cda6c22daa73e0ab73f374658761ac122044fde.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-lucid-software-es"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/0cda6c22daa73e0ab73f374658761ac122044fde.m3u8/seg-1-v1-a1.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/0cda6c22daa73e0ab73f374658761ac122044fde.m3u8/seg-1-v1-a1.ts",
+        "pages": 1,
+        "examples": [
+          "customer-lucid-software-es"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/xvwau1cvka.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/xvwau1cvka.json",
+        "pages": 1,
+        "examples": [
+          "customer-coco-republic"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/xvwau1cvka.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/xvwau1cvka.json",
+        "pages": 1,
+        "examples": [
+          "customer-coco-republic"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/xvwau1cvka.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/xvwau1cvka.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-coco-republic"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/q5wjtvxt75.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/q5wjtvxt75.json",
+        "pages": 1,
+        "examples": [
+          "customer-envato"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/q5wjtvxt75.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/q5wjtvxt75.json",
+        "pages": 1,
+        "examples": [
+          "customer-envato"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/q5wjtvxt75.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/q5wjtvxt75.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-envato"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/n1q7i0o4l8.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/n1q7i0o4l8.json",
+        "pages": 1,
+        "examples": [
+          "customer-docebo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/n1q7i0o4l8.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/n1q7i0o4l8.json",
+        "pages": 1,
+        "examples": [
+          "customer-docebo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/n1q7i0o4l8.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/n1q7i0o4l8.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-docebo"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/tlhhurgotj.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/tlhhurgotj.json",
+        "pages": 1,
+        "examples": [
+          "customer-furnished-finder"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/tlhhurgotj.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/tlhhurgotj.json",
+        "pages": 1,
+        "examples": [
+          "customer-furnished-finder"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/tlhhurgotj.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/tlhhurgotj.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-furnished-finder"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/cf5b564152ba34fc60f91f40ac4304cdcb730fa2.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.apple.mpegurl",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/cf5b564152ba34fc60f91f40ac4304cdcb730fa2.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-furnished-finder"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/cf5b564152ba34fc60f91f40ac4304cdcb730fa2.m3u8/seg-1-v1-a1.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/cf5b564152ba34fc60f91f40ac4304cdcb730fa2.m3u8/seg-1-v1-a1.ts",
+        "pages": 1,
+        "examples": [
+          "customer-furnished-finder"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/gxhv05kuc8.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/gxhv05kuc8.json",
+        "pages": 1,
+        "examples": [
+          "customer-lucid-software-ai"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/gxhv05kuc8.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/gxhv05kuc8.json",
+        "pages": 1,
+        "examples": [
+          "customer-lucid-software-ai"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/gxhv05kuc8.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/gxhv05kuc8.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-lucid-software-ai"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/x0yvohxt2t.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/x0yvohxt2t.json",
+        "pages": 1,
+        "examples": [
+          "customer-five-iron-golf"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/x0yvohxt2t.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/x0yvohxt2t.json",
+        "pages": 1,
+        "examples": [
+          "customer-five-iron-golf"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/x0yvohxt2t.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/x0yvohxt2t.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-five-iron-golf"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/31f7e5085818ab4eb2f758fe1658779815cecce2.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.apple.mpegurl",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/31f7e5085818ab4eb2f758fe1658779815cecce2.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-five-iron-golf"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/31f7e5085818ab4eb2f758fe1658779815cecce2.m3u8/seg-1-v1-a1.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/31f7e5085818ab4eb2f758fe1658779815cecce2.m3u8/seg-1-v1-a1.ts",
+        "pages": 1,
+        "examples": [
+          "customer-five-iron-golf"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/oof3fo8n5o.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/oof3fo8n5o.json",
+        "pages": 1,
+        "examples": [
+          "customer-github-es"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/oof3fo8n5o.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/oof3fo8n5o.json",
+        "pages": 1,
+        "examples": [
+          "customer-github-es"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/oof3fo8n5o.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/oof3fo8n5o.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-github-es"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/fcae2jwdxh.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/fcae2jwdxh.json",
+        "pages": 1,
+        "examples": [
+          "customer-tesu"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/fcae2jwdxh.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/fcae2jwdxh.json",
+        "pages": 1,
+        "examples": [
+          "customer-tesu"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/fcae2jwdxh.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/fcae2jwdxh.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-tesu"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/c36fadeca5e213e8152236a4cc3678c4f3a25fad.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.apple.mpegurl",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/c36fadeca5e213e8152236a4cc3678c4f3a25fad.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-tesu"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/c36fadeca5e213e8152236a4cc3678c4f3a25fad.m3u8/seg-1-v1-a1.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/c36fadeca5e213e8152236a4cc3678c4f3a25fad.m3u8/seg-1-v1-a1.ts",
+        "pages": 1,
+        "examples": [
+          "customer-tesu"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/3ei0st73a2.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/3ei0st73a2.json",
+        "pages": 1,
+        "examples": [
+          "customer-britbox"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/3ei0st73a2.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/3ei0st73a2.json",
+        "pages": 1,
+        "examples": [
+          "customer-britbox"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/3ei0st73a2.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/3ei0st73a2.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-britbox"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/bdaaabae9738ec2dc407acef7e4058fda1c62b67.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.apple.mpegurl",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/bdaaabae9738ec2dc407acef7e4058fda1c62b67.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-britbox"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/bdaaabae9738ec2dc407acef7e4058fda1c62b67.m3u8/seg-1-v1-a1.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/bdaaabae9738ec2dc407acef7e4058fda1c62b67.m3u8/seg-1-v1-a1.ts",
+        "pages": 1,
+        "examples": [
+          "customer-britbox"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/4n8ch80i52.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/4n8ch80i52.json",
+        "pages": 1,
+        "examples": [
+          "customer-sinch-engage"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/4n8ch80i52.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/4n8ch80i52.json",
+        "pages": 1,
+        "examples": [
+          "customer-sinch-engage"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/4n8ch80i52.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/4n8ch80i52.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-sinch-engage"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/f2ab070693a74eb90c2b1aaccfb8918955a82578.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.apple.mpegurl",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/f2ab070693a74eb90c2b1aaccfb8918955a82578.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-sinch-engage"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/f2ab070693a74eb90c2b1aaccfb8918955a82578.m3u8/seg-1-v1-a1.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/f2ab070693a74eb90c2b1aaccfb8918955a82578.m3u8/seg-1-v1-a1.ts",
+        "pages": 1,
+        "examples": [
+          "customer-sinch-engage"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/xd9ux5gztv.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/xd9ux5gztv.json",
+        "pages": 1,
+        "examples": [
+          "customer-irc-video"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/xd9ux5gztv.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/xd9ux5gztv.json",
+        "pages": 1,
+        "examples": [
+          "customer-irc-video"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/xd9ux5gztv.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/xd9ux5gztv.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-irc-video"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/8a277745701f3d9878b0b29f8d8bb911f4ca546f.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.apple.mpegurl",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/8a277745701f3d9878b0b29f8d8bb911f4ca546f.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-irc-video"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "embed-cloudfront.wistia.com",
+        "path": "/deliveries/8a277745701f3d9878b0b29f8d8bb911f4ca546f.m3u8/seg-1-v1-a1.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://embed-cloudfront.wistia.com/deliveries/8a277745701f3d9878b0b29f8d8bb911f4ca546f.m3u8/seg-1-v1-a1.ts",
+        "pages": 1,
+        "examples": [
+          "customer-irc-video"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/f5effw8fgb.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/f5effw8fgb.json",
+        "pages": 1,
+        "examples": [
+          "customer-dupage-county"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/captions/f5effw8fgb.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/captions/f5effw8fgb.json",
+        "pages": 1,
+        "examples": [
+          "customer-dupage-county"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fast.wistia.com",
+        "path": "/embed/medias/f5effw8fgb.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://fast.wistia.com/embed/medias/f5effw8fgb.m3u8",
+        "pages": 1,
+        "examples": [
+          "customer-dupage-county"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 99,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      },
+      {
+        "host": "www.zndsk.com",
+        "pages": 99,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      },
+      {
+        "host": "www.redditstatic.com",
+        "pages": 99,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      },
+      {
+        "host": "unpkg.com",
+        "pages": 98,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "pages": 95,
+        "examples": [
+          "trust-center",
+          "pricing",
+          "blog"
+        ]
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "pages": 91,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      },
+      {
+        "host": "fast.wistia.com",
+        "pages": 28,
+        "examples": [
+          "customer",
+          "employee-experience",
+          "service"
+        ]
+      },
+      {
+        "host": "browser.sentry-cdn.com",
+        "pages": 28,
+        "examples": [
+          "customer",
+          "employee-experience",
+          "service"
+        ]
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "pages": 8,
+        "examples": [
+          "instapage-form-demo",
+          "instapage-form-contact",
+          "instapage-form-trial-teaser-sell"
+        ]
+      },
+      {
+        "host": "assets.storylane.io",
+        "pages": 3,
+        "examples": [
+          "service",
+          "demo",
+          "employee-service"
+        ]
+      },
+      {
+        "host": "js.storylane.io",
+        "pages": 2,
+        "examples": [
+          "service",
+          "employee-service"
+        ]
+      },
+      {
+        "host": "cdn.segment.com",
+        "pages": 1,
+        "examples": [
+          "intro-tour"
+        ]
+      },
+      {
+        "host": "reveal.clearbit.com",
+        "pages": 1,
+        "examples": [
+          "intro-tour"
+        ]
+      },
+      {
+        "host": "static.zdassets.com",
+        "pages": 1,
+        "examples": [
+          "intro-tour"
+        ]
+      },
+      {
+        "host": "img03.en25.com",
+        "pages": 1,
+        "examples": [
+          "intro-tour"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "next",
+        "pages": 98,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 99,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      },
+      {
+        "name": "__NEXT_DATA__",
+        "pages": 98,
+        "examples": [
+          "customer",
+          "marketplace",
+          "index"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://www.zendesk.com/customer/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/marketplace/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "marketplace-search"
+        ],
+        "pages": 1,
+        "examples": [
+          "marketplace"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/blog/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "blog"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/login/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "account.subdomain"
+        ],
+        "pages": 1,
+        "examples": [
+          "login"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/register/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FauxUsername",
+          "FauxPassword",
+          "owner.email",
+          "FirstName",
+          "LastName",
+          "address.phone",
+          "account.name",
+          "account.help_desk_size",
+          "account.subdomain",
+          "trial_extras.trial_use_case"
+        ],
+        "pages": 1,
+        "examples": [
+          "register"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/newsroom/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "newsroom"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/employee-experience/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "employee-experience"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/service/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "service"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/demo/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "account.use_case",
+          "owner.email",
+          "selectedCountry",
+          "FirstName",
+          "LastName",
+          "address.phone",
+          "account.name",
+          "account.help_desk_size"
+        ],
+        "pages": 1,
+        "examples": [
+          "demo"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/employee-service/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "employee-service"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/sitemap/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "sitemap"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/sell/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "sell"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/instapage-form-demo/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "account.use_case",
+          "owner.email",
+          "selectedCountry",
+          "FirstName",
+          "LastName",
+          "address.phone",
+          "account.name",
+          "account.help_desk_size"
+        ],
+        "pages": 1,
+        "examples": [
+          "instapage-form-demo"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/instapage-form-contact/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "owner.email",
+          "address.phone",
+          "question",
+          "account.name",
+          "account.help_desk_size",
+          "optinToMarketing"
+        ],
+        "pages": 1,
+        "examples": [
+          "instapage-form-contact"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/repeatcustomer/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "repeatcustomer"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/instapage-form-trial-teaser-sell/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "instapage-form-trial-teaser-sell"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/instapage-form-webinar/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "owner.email",
+          "address.phone",
+          "account.name",
+          "account.help_desk_size",
+          "industry",
+          "department",
+          "job",
+          "selectedCountry"
+        ],
+        "pages": 1,
+        "examples": [
+          "instapage-form-webinar"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/instapage-form-trial-teaser-suite/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "instapage-form-trial-teaser-suite"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/instapage-form-trial-teaser-suite-inline/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "instapage-form-trial-teaser-suite-inline"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/instapage-form-newsletter/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email",
+          "optinToMarketing"
+        ],
+        "pages": 1,
+        "examples": [
+          "instapage-form-newsletter"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/instapage-form-content/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "owner.email",
+          "address.phone",
+          "account.name",
+          "account.help_desk_size"
+        ],
+        "pages": 1,
+        "examples": [
+          "instapage-form-content"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/why-zendesk/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "why-zendesk"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/web-widget/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "web-widget"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/free-trial/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "free-trial"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/marketplace/themes/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "fromValue",
+          "toValue"
+        ],
+        "pages": 1,
+        "examples": [
+          "marketplace-themes"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/madeiramadeira/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-madeiramadeira"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/serasa-experian/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-serasa-experian"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/nortek/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-nortek"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/resurs-bank/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-resurs-bank"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/mimecast/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-mimecast"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/dfin/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-dfin"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/canva/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-canva"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/koho/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-koho"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/bgl/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-bgl"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/deputy/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-deputy"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/qantas-loyalty/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-qantas-loyalty"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/perk-es/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-perk-es"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/asaas/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-asaas"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/recargapay/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-recargapay"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/liberty-tax/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-liberty-tax"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/star21/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-star21"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/motiva/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-motiva"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/petstock/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-petstock"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/thoughtworks/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-thoughtworks"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/solo-by-myob/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-solo-by-myob"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/givedirectly/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-givedirectly"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/uneo/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-uneo"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/sealy-of-australia/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-sealy-of-australia"
+        ]
+      },
+      {
+        "action": "https://www.zendesk.com/customer/trodo/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "owner.email"
+        ],
+        "pages": 1,
+        "examples": [
+          "customer-trodo"
+        ]
+      }
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "visible hero headline \"Build for better outcomes\" (second h1); recorded first h1 \"AI-powered customer service platform\" is a visually-hidden SEO h1; photo hero captured in cssBackgrounds",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "marketplace",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "trust-center",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "pricing",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "blog",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "contact",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "login",
+      "verdict": "ok",
+      "notes": "viewport-only capture (900px), main content complete",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "register",
+      "verdict": "ok",
+      "notes": "modal over product-UI backdrop; backdrop possibly a CSS background not recorded; finalUrl ?variant=magic_link",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "newsroom",
+      "verdict": "ok",
+      "notes": "own sub-header; headline is featured article, h1 null",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "employee-experience",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "service",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "demo",
+      "verdict": "ok",
+      "notes": "form modal over dimmed product shell",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "industries",
+      "verdict": "ok",
+      "notes": "minimal page by design (hero + link list + CTA band)",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "partner",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "employee-service",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "sitemap",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "sell",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "instapage-form-demo",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "platform",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "instapage-form-contact",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "repeatcustomer",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "instapage-form-trial-teaser-sell",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "what-is-zendesk",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "intro-tour",
+      "verdict": "ok",
+      "notes": "Reprise embed shows \"This Account's Published Demos are Deactivated\" on the live source; faithful render, embed-dominated",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "instapage-form-webinar",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "instapage-form-trial-teaser-suite",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "instapage-form-trial-teaser-suite-inline",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "instapage-form-newsletter",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "instapage-form-content",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "help-center-closed",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "company",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "why-zendesk",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "web-widget",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "blog-ads-api-output",
+      "verdict": "ok",
+      "notes": "source serves raw JSON (blog ads API feed), no chrome; faithful render of what the origin serves, not a capture failure — viewport-only 900px",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "professional-services",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "free-trial",
+      "verdict": "ok",
+      "notes": "h1 recorded null; visible headline \"Resolve tickets faster with a Zendesk free trial\" (heading not an h1)",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "cxtrends",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "marketplace-apps",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "marketplace-partners",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "marketplace-themes",
+      "verdict": "ok",
+      "notes": "hero matches",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-madeiramadeira",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-serasa-experian",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-nortek",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-resurs-bank",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-mimecast",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-dfin",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-canva",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-koho",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-bgl",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-deputy",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-qantas-loyalty",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-perk-es",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-asaas",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-recargapay",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-liberty-tax",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-motiva",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-star21",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-petstock",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-thoughtworks",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-solo-by-myob",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-givedirectly",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-uneo",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-trodo",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-sealy-of-australia",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-betmgm-brasil",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-the-smith-family",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-catapult",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-lucid-software-es",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-coco-republic",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-envato",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-docebo",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-tbauctions",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-furnished-finder",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-lucid-software-ai",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-pure-insurance",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-five-iron-golf",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-github-es",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-tesu",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-inshur",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-odeon-cinemas",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-britbox",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-sinch-engage",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-zendesk-for-employee-service",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-irc-video",
+      "verdict": "ok",
+      "notes": "visible page is hero + video + footer; 25k chars of text are a hidden transcript",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-motel-rocks",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-privy",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-liberty-qa",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-qualia",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-miko",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-ballys",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-dupage-county",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-yape",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-babbel",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-starshipit",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-action-property-management",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-easyfundraising",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-shearcomfort",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-benevity",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    },
+    {
+      "slug": "customer-quickmd",
+      "verdict": "ok",
+      "notes": "hero matches; legacy header/footer B",
+      "consentStrip": "cookie strip overlays bottom of first viewport (consent auto-dismiss did not clear it); content not blocked"
+    }
+  ],
+  "visionCheckMethod": "subagent read thumb.mjs thumbnails (480px, offset parts for cropped pages; customer-* lower parts sampled 8/59); no recapture needed — no consent wall, bot challenge or blank shell found",
+  "siblingCandidates": [
+    {
+      "origin": "https://www.zendesk.co.uk",
+      "confidence": "high",
+      "evidence": "hreflang alternate in <head> of index",
+      "decision": "excluded — replica scope is locked to the 100-page plan (stardust/.labs/site-plan.pages); localized copies of the same design add no brand evidence"
+    },
+    {
+      "origin": "https://www.zendesk.de",
+      "confidence": "high",
+      "evidence": "hreflang alternate in <head> of index",
+      "decision": "excluded — replica scope is locked to the 100-page plan (stardust/.labs/site-plan.pages); localized copies of the same design add no brand evidence"
+    },
+    {
+      "origin": "https://www.zendesk.fr",
+      "confidence": "high",
+      "evidence": "hreflang alternate in <head> of index",
+      "decision": "excluded — replica scope is locked to the 100-page plan (stardust/.labs/site-plan.pages); localized copies of the same design add no brand evidence"
+    },
+    {
+      "origin": "https://www.zendesk.com.br",
+      "confidence": "high",
+      "evidence": "hreflang alternate in <head> of index",
+      "decision": "excluded — replica scope is locked to the 100-page plan (stardust/.labs/site-plan.pages); localized copies of the same design add no brand evidence"
+    },
+    {
+      "origin": "https://www.zendesk.es",
+      "confidence": "high",
+      "evidence": "hreflang alternate in <head> of index",
+      "decision": "excluded — replica scope is locked to the 100-page plan (stardust/.labs/site-plan.pages); localized copies of the same design add no brand evidence"
+    },
+    {
+      "origin": "https://www.zendesk.co.jp",
+      "confidence": "high",
+      "evidence": "hreflang alternate in <head> of index",
+      "decision": "excluded — replica scope is locked to the 100-page plan (stardust/.labs/site-plan.pages); localized copies of the same design add no brand evidence"
+    },
+    {
+      "origin": "https://www.zendesk.kr",
+      "confidence": "high",
+      "evidence": "hreflang alternate in <head> of index",
+      "decision": "excluded — replica scope is locked to the 100-page plan (stardust/.labs/site-plan.pages); localized copies of the same design add no brand evidence"
+    },
+    {
+      "origin": "https://www.zendesk.com.mx",
+      "confidence": "high",
+      "evidence": "hreflang alternate in <head> of index",
+      "decision": "excluded — replica scope is locked to the 100-page plan (stardust/.labs/site-plan.pages); localized copies of the same design add no brand evidence"
+    },
+    {
+      "origin": "https://www.zendesk.nl",
+      "confidence": "high",
+      "evidence": "hreflang alternate in <head> of index",
+      "decision": "excluded — replica scope is locked to the 100-page plan (stardust/.labs/site-plan.pages); localized copies of the same design add no brand evidence"
+    },
+    {
+      "origin": "https://www.zendesk.hk",
+      "confidence": "high",
+      "evidence": "hreflang alternate in <head> of index",
+      "decision": "excluded — replica scope is locked to the 100-page plan (stardust/.labs/site-plan.pages); localized copies of the same design add no brand evidence"
+    },
+    {
+      "origin": "https://www.zendesk.tw",
+      "confidence": "high",
+      "evidence": "hreflang alternate in <head> of index",
+      "decision": "excluded — replica scope is locked to the 100-page plan (stardust/.labs/site-plan.pages); localized copies of the same design add no brand evidence"
+    },
+    {
+      "origin": "https://www.zendesk.com/{au,dk,it,in,se,sg,th}/",
+      "confidence": "high",
+      "evidence": "hreflang same-origin locale paths",
+      "decision": "excluded — out of planned scope"
+    },
+    {
+      "origin": "https://support.zendesk.com",
+      "confidence": "medium",
+      "evidence": "header/footer \"Zendesk Help center\" link on most pages",
+      "decision": "excluded — help-center product surface, different design"
+    }
+  ]
+}

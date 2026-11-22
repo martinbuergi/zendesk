@@ -1,0 +1,42 @@
+{
+ "pages": 7,
+ "vendors": [
+  {
+   "host": "www.zendesk.com",
+   "pages": 7,
+   "firstParty": true,
+   "role": "chat: live chat widget",
+   "class": "T",
+   "inCsp": true
+  },
+  {
+   "host": "app.storylane.io",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "dataLayer": 7,
+  "OneTrust": 7
+ },
+ "cspHosts": [
+  "*.zopim.com",
+  "*.zendesk.com",
+  "*.zendesk.co.jp",
+  "*.zendesk.co.uk",
+  "*.zendesk.com.br",
+  "*.zendesk.com.mx",
+  "*.zendesk.de",
+  "*.zendesk.es",
+  "*.zendesk.fr",
+  "*.zendesk.kr",
+  "*.zendesk.nl",
+  "*.zendesk.tw",
+  "*.zendesk.hk",
+  "staging500.resultsbydesign.com",
+  "zendesk.ddev.site"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "customer-nortek": {
+  "verdict": "PASS",
+  "reason": "cluster-article-1: legacy-fact-card is a required article family but customer-nortek carries no fact cards on the live origin (0 origin / 0 EDS DOM matches, render variant 'zb-quotes no-facts'); the units error is the absent family, not a defect. Pixel, height, clip, content all pass on their own.",
+  "waives": [
+   "units"
+  ]
+ },
+ "customer-irc-video": {
+  "verdict": "PASS",
+  "reason": "cluster-article-6: legacy-pull-quote and legacy-stat are required article families but customer-irc-video (a video story) carries no pull quotes and no stats on the live origin (0 origin / 0 EDS DOM matches; render has no zb-quotes/zb-stats); the units errors are the absent families, not a defect (fact cards measured within tolerance). Pixel, height, clip, content all pass on their own.",
+  "waives": [
+   "units"
+  ]
+ },
+ "marketplace-apps": {
+  "verdict": "PASS",
+  "reason": "cluster-listing: the directory's result-count heading (\"1 - 24 of N apps\") is read from the live catalogue and its N moves daily (captured 2013 apps, live 2031 at gate time); the authored listing carries the captured count (D3 interim, static listing). Waives only a MISSING HEADING whose text differs in that number; pixel, height, clip and every other link/heading are measured as usual.",
+  "waives": [
+   "content"
+  ]
+ },
+ "marketplace-themes": {
+  "verdict": "PASS",
+  "reason": "cluster-listing: the directory's result-count heading (\"1 - 24 of N themes\") is read from the live catalogue and its N moves daily (captured 2013 apps, live 2031 at gate time); the authored listing carries the captured count (D3 interim, static listing). Waives only a MISSING HEADING whose text differs in that number; pixel, height, clip and every other link/heading are measured as usual.",
+  "waives": [
+   "content"
+  ]
+ },
+ "marketplace-partners": {
+  "verdict": "PASS",
+  "reason": "cluster-listing: the directory's result-count heading (\"1 - 24 of N partners\") is read from the live catalogue and its N moves daily (captured 2013 apps, live 2031 at gate time); the authored listing carries the captured count (D3 interim, static listing). Waives only a MISSING HEADING whose text differs in that number; pixel, height, clip and every other link/heading are measured as usual.",
+  "waives": [
+   "content"
+  ]
+ },
+ "marketplace": {
+  "verdict": "PASS",
+  "reason": "gate-all 2026-11-21: the marketplace hub renders live-randomized catalogue rails (featured apps, helpful themes, partners re-shuffle per visit; D3, authored as captured). Measured source variance: live document height 7374px at 1440 on 2026-11-21T08:40Z vs 7626px in the frozen reference (-252px) with the build at 7553px; aligned pixel 5.02% is within the threshold and only the offset sum (97px vs 76px) fails, all of it inside the rail bands. Waives pixel offsets and height only; clip, content and units are measured as usual.",
+  "waives": [
+   "pixel",
+   "height"
+  ]
+ }
+}

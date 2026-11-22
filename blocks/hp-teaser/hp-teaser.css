@@ -1,0 +1,118 @@
+/* hp-teaser — CX Trends promo card (body-promo) */
+.hp-teaser .hp-teaser-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 2rem 1.5rem;
+  border-radius: 40px;
+  background-color: var(--za-forest);
+  text-align: center;
+}
+
+.hp-teaser .hp-teaser-img {
+  flex: 0 1 400px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.hp-teaser .hp-img {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.hp-teaser .hp-img :is(p, picture) {
+  margin: 0;
+}
+
+/* fixed 144px rendition, centred in the wrapped flex line */
+.hp-teaser .hp-img img {
+  display: block;
+  width: 144px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.hp-teaser .hp-teaser-copy {
+  flex: 1 1 100%;
+}
+
+.hp-teaser .hp-teaser-copy :is(h2, h3) {
+  margin: 0 0 8px;
+  color: var(--za-cream);
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+.hp-teaser .hp-teaser-copy p {
+  margin: 0;
+  color: var(--za-white);
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.hp-teaser .hp-teaser-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.hp-teaser .hp-teaser-cta p,
+.hp-teaser .hp-teaser-cta a.button {
+  width: 100%;
+  margin: 0;
+}
+
+@media (width >= 768px) {
+  .hp-teaser .hp-teaser-card {
+    flex-wrap: nowrap;
+    padding: 64px;
+    text-align: inherit;
+  }
+
+  .hp-teaser .hp-teaser-img {
+    max-width: 144px;
+  }
+
+  .hp-teaser .hp-teaser-copy :is(h2, h3) {
+    font-size: 23px;
+  }
+
+  .hp-teaser .hp-teaser-cta {
+    flex-direction: row;
+    align-items: baseline;
+    width: auto;
+  }
+
+  .hp-teaser .hp-teaser-cta p,
+  .hp-teaser .hp-teaser-cta a.button {
+    width: auto;
+  }
+}
+
+@media (width >= 1150px) {
+  .hp-teaser .hp-teaser-card {
+    padding: 64px 96px;
+  }
+
+  .hp-teaser .hp-teaser-copy :is(h2, h3) {
+    font-size: 26px;
+  }
+
+  .hp-teaser .hp-teaser-copy p {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1600px) {
+  .hp-teaser .hp-teaser-copy :is(h2, h3) {
+    font-size: 33px;
+  }
+}

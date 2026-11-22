@@ -1,0 +1,1140 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-21T16:13:53.184Z",
+  "tol": 4,
+  "n": 4,
+  "width": 2560,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/customer/github-es/",
+  "at": "2026-11-21T09:54:33.480Z",
+  "docH": 7559
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/customer/github-es",
+  "at": "2026-11-21T16:13:53.056Z",
+  "docH": 7559
+ },
+ "results": [
+  {
+   "sel": ".Cardstyle__CardRoot-sc-1g3sojj-1=.zb-fact",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:company headquarters",
+       "role": "heading",
+       "text": "company headquarters",
+       "edsText": "company headquarters",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 24,
+        "w": 212,
+        "h": 22
+       },
+       "eds": {
+        "x": 24,
+        "y": 24,
+        "w": 212,
+        "h": 22,
+        "sel": "h2#company-headquarters",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:san francisco, california",
+       "role": "text",
+       "text": "san francisco, california",
+       "edsText": "san francisco, california",
+       "byPosition": false,
+       "origin": {
+        "x": 44,
+        "y": 62,
+        "w": 172,
+        "h": 24
+       },
+       "eds": {
+        "x": 44,
+        "y": 62,
+        "w": 172,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 736,
+       "y": 1600,
+       "w": 260,
+       "h": 110
+      },
+      "eds": {
+       "x": 736,
+       "y": 1600,
+       "w": 260,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:developers served",
+       "role": "heading",
+       "text": "developers served",
+       "edsText": "developers served",
+       "byPosition": false,
+       "origin": {
+        "x": 47,
+        "y": 24,
+        "w": 165,
+        "h": 22
+       },
+       "eds": {
+        "x": 47,
+        "y": 24,
+        "w": 165,
+        "h": 22,
+        "sel": "h2#developers-served",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:150 million",
+       "role": "text",
+       "text": "150 million",
+       "edsText": "150 million",
+       "byPosition": false,
+       "origin": {
+        "x": 93,
+        "y": 62,
+        "w": 74,
+        "h": 24
+       },
+       "eds": {
+        "x": 93,
+        "y": 62,
+        "w": 74,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1012,
+       "y": 1600,
+       "w": 260,
+       "h": 110
+      },
+      "eds": {
+       "x": 1012,
+       "y": 1600,
+       "w": 260,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:companies served",
+       "role": "heading",
+       "text": "companies served",
+       "edsText": "companies served",
+       "byPosition": false,
+       "origin": {
+        "x": 50,
+        "y": 24,
+        "w": 159,
+        "h": 22
+       },
+       "eds": {
+        "x": 50,
+        "y": 24,
+        "w": 159,
+        "h": 22,
+        "sel": "h2#companies-served",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:4 million",
+       "role": "text",
+       "text": "4 million",
+       "edsText": "4 million",
+       "byPosition": false,
+       "origin": {
+        "x": 101,
+        "y": 62,
+        "w": 58,
+        "h": 24
+       },
+       "eds": {
+        "x": 101,
+        "y": 62,
+        "w": 58,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1288,
+       "y": 1600,
+       "w": 260,
+       "h": 110
+      },
+      "eds": {
+       "x": 1288,
+       "y": 1600,
+       "w": 260,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:employees",
+       "role": "heading",
+       "text": "employees",
+       "edsText": "employees",
+       "byPosition": false,
+       "origin": {
+        "x": 85,
+        "y": 24,
+        "w": 91,
+        "h": 22
+       },
+       "eds": {
+        "x": 85,
+        "y": 24,
+        "w": 91,
+        "h": 22,
+        "sel": "h2#employees",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:3,000+",
+       "role": "text",
+       "text": "3,000+",
+       "edsText": "3,000+",
+       "byPosition": false,
+       "origin": {
+        "x": 105,
+        "y": 62,
+        "w": 49,
+        "h": 24
+       },
+       "eds": {
+        "x": 105,
+        "y": 62,
+        "w": 49,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1564,
+       "y": 1600,
+       "w": 260,
+       "h": 110
+      },
+      "eds": {
+       "x": 1564,
+       "y": 1600,
+       "w": 260,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Quotestyle__QuoteRoot-sc-rczw5k-0=.zb-quote",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.khrxgA > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:“if i had to describe zendesk in one wor",
+       "role": "text",
+       "text": "“if i had to describe zendesk in one word, it would be found",
+       "edsText": "“if i had to describe zendesk in one word, it would be found",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 472,
+        "h": 150
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 472,
+        "h": 150,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:ashley sprauge",
+       "role": "text",
+       "text": "ashley sprauge",
+       "edsText": "ashley sprauge",
+       "byPosition": false,
+       "origin": {
+        "x": 105,
+        "y": 222,
+        "w": 327,
+        "h": 28
+       },
+       "eds": {
+        "x": 105,
+        "y": 222,
+        "w": 327,
+        "h": 28,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/600",
+        "eds": "20/28/600"
+       }
+      },
+      {
+       "key": "text:senior director, it & corporate engineer",
+       "role": "text",
+       "text": "senior director, it & corporate engineering at github",
+       "edsText": "senior director, it & corporate engineering at github",
+       "byPosition": false,
+       "origin": {
+        "x": 105,
+        "y": 264,
+        "w": 327,
+        "h": 18
+       },
+       "eds": {
+        "x": 105,
+        "y": 264,
+        "w": 327,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/18/400",
+        "eds": "14/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 736,
+       "y": 1178,
+       "w": 536,
+       "h": 358
+      },
+      "eds": {
+       "x": 736,
+       "y": 1178,
+       "w": 536,
+       "h": 358
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.khrxgA > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:“hr-related tickets contain sensitive da",
+       "role": "text",
+       "text": "“hr-related tickets contain sensitive data, and role-based a",
+       "edsText": "“hr-related tickets contain sensitive data, and role-based a",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 472,
+        "h": 180
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 472,
+        "h": 180,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/30/400",
+        "eds": "22/30/400"
+       }
+      },
+      {
+       "key": "text:ashley sprauge",
+       "role": "text",
+       "text": "ashley sprauge",
+       "edsText": "ashley sprauge",
+       "byPosition": false,
+       "origin": {
+        "x": 105,
+        "y": 252,
+        "w": 327,
+        "h": 28
+       },
+       "eds": {
+        "x": 105,
+        "y": 252,
+        "w": 327,
+        "h": 28,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/600",
+        "eds": "20/28/600"
+       }
+      },
+      {
+       "key": "text:senior director, it & corporate engineer",
+       "role": "text",
+       "text": "senior director, it & corporate engineering at github",
+       "edsText": "senior director, it & corporate engineering at github",
+       "byPosition": false,
+       "origin": {
+        "x": 105,
+        "y": 294,
+        "w": 327,
+        "h": 18
+       },
+       "eds": {
+        "x": 105,
+        "y": 294,
+        "w": 327,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/18/400",
+        "eds": "14/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1288,
+       "y": 1178,
+       "w": 536,
+       "h": 358
+      },
+      "eds": {
+       "x": 1288,
+       "y": 1178,
+       "w": 536,
+       "h": 358
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Statstyle__StatRoot-sc-17s8ggd-0=.zb-stat",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:60k+",
+       "role": "text",
+       "text": "60k+",
+       "edsText": "60k+",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:monthly internal ticket volume",
+       "role": "text",
+       "text": "monthly internal ticket volume",
+       "edsText": "monthly internal ticket volume",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 736,
+       "y": 1838,
+       "w": 260,
+       "h": 84
+      },
+      "eds": {
+       "x": 736,
+       "y": 1838,
+       "w": 260,
+       "h": 84
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:90%",
+       "role": "text",
+       "text": "90%",
+       "edsText": "90%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:decrease in employee support ticket form",
+       "role": "text",
+       "text": "decrease in employee support ticket forms",
+       "edsText": "decrease in employee support ticket forms",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1012,
+       "y": 1838,
+       "w": 260,
+       "h": 108
+      },
+      "eds": {
+       "x": 1012,
+       "y": 1838,
+       "w": 260,
+       "h": 108
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:98%",
+       "role": "text",
+       "text": "98%",
+       "edsText": "98%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:new hire csat",
+       "role": "text",
+       "text": "new hire csat",
+       "edsText": "new hire csat",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1288,
+       "y": 1838,
+       "w": 260,
+       "h": 84
+      },
+      "eds": {
+       "x": 1288,
+       "y": 1838,
+       "w": 260,
+       "h": 84
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:15%",
+       "role": "text",
+       "text": "15%",
+       "edsText": "15%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "48/56/700",
+        "eds": "48/56/700"
+       }
+      },
+      {
+       "key": "text:decrease in resolution time for asset-re",
+       "role": "text",
+       "text": "decrease in resolution time for asset-related tickets",
+       "edsText": "decrease in resolution time for asset-related tickets",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 60,
+        "w": 260,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1564,
+       "y": 1838,
+       "w": 260,
+       "h": 108
+      },
+      "eds": {
+       "x": 1564,
+       "y": 1838,
+       "w": 260,
+       "h": 108
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 22,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

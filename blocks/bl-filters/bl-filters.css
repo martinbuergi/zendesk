@@ -1,0 +1,299 @@
+/* bl-filters — static listing filters: a dropdown bar (customer stories) or a directory aside (marketplace) */
+/* stylelint-disable no-descending-specificity -- bar and aside variants share slot names */
+.bl-filters p,
+.bl-filters ul {
+  margin: 0;
+}
+
+.bl-filters ul {
+  padding: 0;
+  list-style: none;
+}
+
+.bl-filters [role="button"] {
+  cursor: pointer;
+}
+
+/* bar */
+main .section.bl-filters-container:has(.bl-filters.bar) {
+  border-bottom: 1px solid rgb(216 220 222);
+  background: var(--zb-white);
+}
+
+.bl-filters.bar {
+  font-family: var(--zb-font-body);
+}
+
+.bl-filters .bl-filters-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 15px;
+  max-width: var(--zb-container);
+  padding: 20px var(--zb-gutter);
+}
+
+.bl-filters.bar .bl-filters-action {
+  text-align: center;
+}
+
+.bl-filters.bar .bl-filters-group {
+  position: relative;
+}
+
+.bl-filters.bar .bl-filters-label p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0 16px;
+  background: rgb(243 240 238);
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.bl-filters.bar .bl-filters-label p::after,
+.bl-filters.aside .bl-filters-label p::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  border-right: 1.5px solid currentcolor;
+  border-bottom: 1.5px solid currentcolor;
+  transform: rotate(45deg);
+}
+
+.bl-filters.bar .bl-filters-panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 5;
+  min-width: 260px;
+  padding: 16px;
+  background: var(--zb-white);
+  box-shadow: 0 8px 24px rgb(3 54 61 / 16%);
+}
+
+.bl-filters.bar .bl-filters-panel li {
+  padding: 6px 0;
+  color: var(--zb-teal-800);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.bl-filters.bar .bl-filters-action p {
+  color: var(--zb-teal-800);
+  font-family: var(--zb-font-head);
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: underline;
+}
+
+/* aside */
+.bl-filters.aside .bl-filters-title :is(h2, h3) {
+  margin: 0 0 16px;
+  color: var(--za-ink);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23.2px;
+}
+
+.bl-filters.aside .bl-filters-field {
+  margin-bottom: 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--za-hairline);
+}
+
+.bl-filters.aside .bl-filters-field .bl-filters-label p {
+  margin-bottom: 8px;
+  color: var(--za-ink);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.75px;
+}
+
+.bl-filters.aside .bl-filters-field .bl-filters-label p::after {
+  display: none;
+}
+
+.bl-filters.aside .bl-filters-input li {
+  padding: 11px 12px;
+  border: 1px solid rgb(17 17 13 / 30%);
+  border-radius: 12px;
+  background: rgb(17 17 13 / 5%);
+  color: var(--za-ink);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.bl-filters.aside .bl-filters-group {
+  border-top: 1px solid var(--za-hairline);
+}
+
+.bl-filters.aside .bl-filters-group:has([aria-expanded="true"]) {
+  box-shadow: inset 0 2px 0 0 var(--za-ink);
+}
+
+.bl-filters.aside .bl-filters-label p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  color: var(--za-ink);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23.2px;
+}
+
+.bl-filters.aside .bl-filters-label p[aria-expanded="true"]::after {
+  margin-top: 4px;
+  transform: rotate(-135deg);
+}
+
+.bl-filters.aside .bl-filters-panel {
+  padding: 0 20px 4px;
+}
+
+.bl-filters.aside .bl-filters-panel ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.bl-filters.aside .bl-filters-panel li {
+  align-self: flex-start;
+  margin-bottom: 16px;
+  color: var(--za-ink);
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 7px;
+}
+
+.bl-filters.aside .bl-filters-action p {
+  padding: 20px 20px 8px;
+  border-top: 1px solid var(--za-hairline);
+  color: var(--za-ink);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23.2px;
+}
+
+@media (width >= 768px) {
+  .bl-filters .bl-filters-bar {
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 20px var(--zb-gutter);
+  }
+
+  .bl-filters.bar .bl-filters-label p {
+    justify-content: flex-start;
+  }
+}
+
+/* directory aside type: 15px narrow, 16px from 1150 */
+.bl-filters.aside .bl-filters-title :is(h2, h3),
+.bl-filters.aside .bl-filters-group .bl-filters-label p {
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 21.75px;
+}
+
+.bl-filters.aside .bl-filters-group .bl-filters-label p {
+  margin-bottom: 0;
+}
+
+@media (width >= 1150px) {
+  .bl-filters.aside .bl-filters-title :is(h2, h3) {
+    margin-bottom: 16px;
+  }
+
+  .bl-filters.aside .bl-filters-title :is(h2, h3),
+  .bl-filters.aside .bl-filters-group .bl-filters-label p {
+    font-size: 16px;
+    line-height: 23.2px;
+  }
+}
+
+/* a two-field group without counts (Price range: From / To) renders as two input boxes */
+.bl-filters.aside .bl-filters-panel ul:not(:has(li:nth-child(3))) {
+  flex-direction: row;
+  gap: 16px;
+}
+
+.bl-filters.aside .bl-filters-panel ul:not(:has(li:nth-child(3))) li {
+  margin-bottom: 18px;
+  font-size: 15px;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+.bl-filters.aside .bl-filters-panel ul:not(:has(li:nth-child(3))) li::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 40px;
+  margin-top: 8px;
+  border: 1px solid rgb(17 17 13 / 30%);
+  border-radius: 8px;
+}
+
+/* stacked directory aside (live /marketplace/partners/ @360): bare 15/18.75 field label 12px above a
+   48px input; option lists are 20px checkboxes (radius 4, #90918c) with the label 32px in, 40px apart */
+@media (width < 768px) {
+  .bl-filters.aside .bl-filters-field {
+    padding-top: 2px;
+  }
+
+  .bl-filters.aside .bl-filters-field .bl-filters-label p {
+    margin-bottom: 12px;
+    padding: 0;
+  }
+
+  .bl-filters.aside .bl-filters-input li {
+    padding: 13px 12px;
+  }
+
+  .bl-filters.aside .bl-filters-panel {
+    padding: 0 16px 4px;
+  }
+
+  .bl-filters.aside .bl-filters-group:not(.links) ul:has(li:nth-child(3)) li {
+    position: relative;
+    margin-bottom: 21.25px;
+    padding-left: 32px;
+    font-size: 15px;
+    line-height: 18.75px;
+    text-decoration: none;
+  }
+
+  /* Price range (live /marketplace/themes/ @360): two 140x48 fields, radius 12, 14px under their labels */
+  .bl-filters.aside .bl-filters-panel ul:not(:has(li:nth-child(3))) li {
+    flex: 1 1 0;
+    margin-bottom: 20px;
+  }
+
+  .bl-filters.aside .bl-filters-panel ul:not(:has(li:nth-child(3))) li::after {
+    width: 100%;
+    height: 48px;
+    margin-top: 14px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: rgb(17 17 13 / 5%);
+  }
+
+  .bl-filters.aside .bl-filters-group:not(.links) ul:has(li:nth-child(3)) li::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(144 145 140);
+    border-radius: 4px;
+  }
+}

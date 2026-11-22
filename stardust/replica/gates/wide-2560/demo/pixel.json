@@ -1,0 +1,75 @@
+{
+  "a": "stardust/replica/gates/wide-2560/demo/origin.png",
+  "b": "stardust/replica/gates/wide-2560/demo/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 967,
+    "mode": "overlap"
+  },
+  "heightDelta": 90,
+  "differingPixels": 856207,
+  "pct": 34.59,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/wide-2560/demo/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 29.2
+    },
+    {
+      "y0": 500,
+      "y1": 967,
+      "pct": 40.4
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 34.59,
+    "differingPixels": 856207,
+    "compared": {
+      "width": 2560,
+      "height": 967,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 29.2,
+        "unaligned": 29.2
+      },
+      {
+        "y0": 500,
+        "y1": 967,
+        "pct": 40.4,
+        "unaligned": 40.4
+      }
+    ],
+    "diff": null,
+    "reason": "aligned number not lower than the unaligned one",
+    "candidate": {
+      "pct": 37.17,
+      "steps": 1,
+      "totalShift": 90
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": "pixel 34.59% > 10%"
+}

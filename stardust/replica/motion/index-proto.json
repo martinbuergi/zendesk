@@ -1,0 +1,661 @@
+{
+  "url": "http://localhost:8791/index-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": "button[aria-label=\"Next testimonial\"]",
+      "frames": [
+        {
+          "t": 29800.300000000745,
+          "trackTransform": "matrix(1, 0, 0, 1, -1038, 0)",
+          "trackTransition": "transform 0.15s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 30010.900000000373,
+          "trackTransform": "matrix(1, 0, 0, 1, -2076, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 30215.300000000745,
+          "trackTransform": "matrix(1, 0, 0, 1, -2076, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 30418.599999999627,
+          "trackTransform": "matrix(1, 0, 0, 1, -2076, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#homepage-accordion-tab-1",
+      "frames": [
+        {
+          "t": 31432.199999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 31636,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 31839.800000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 32043.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#footer_faq summary",
+      "frames": [
+        {
+          "t": 33055.90000000037,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 33264.90000000037,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 33467.699999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 33670.90000000037,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": "#resources a",
+      "changed": [
+        "self.color",
+        "self.background",
+        "img..color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgb(245, 245, 242)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.3s cubic-bezier(0.7, 0, 0.3, 1)"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(17, 17, 13)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.3s cubic-bezier(0.7, 0, 0.3, 1)"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgba(17, 17, 13, 0.7)",
+          "background": "rgba(17, 17, 13, 0.05)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.3s cubic-bezier(0.7, 0, 0.3, 1)"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgba(17, 17, 13, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.3s cubic-bezier(0.7, 0, 0.3, 1)"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "#employee_service_contact_center a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgb(209, 244, 112)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgb(209, 244, 112)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "main a[href=\"/platform/\"]",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgb(209, 244, 112)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgb(209, 244, 112)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "footer a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.1s linear"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.1s linear"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "scaleIn",
+        "el": "main.za-main > section.za-section.hp-rll.active > div.za-container.za-row-gap > div.hp-rll__track > div.hp-rll__dot",
+        "txt": "",
+        "y": 1682
+      },
+      {
+        "name": "scaleOut",
+        "el": "main.za-main > section.za-section.hp-rll.active > div.za-container.za-row-gap > div.hp-rll__track > div.hp-rll__dot",
+        "txt": "",
+        "y": 3763
+      },
+      {
+        "name": "expandAccordion",
+        "el": "html > body > main.za-main > section.za-section.hp-aifirst.active",
+        "txt": "Designed for AI-first customer service\n        A u",
+        "y": 5104
+      },
+      {
+        "name": "expandAccordion",
+        "el": "html > body > main.za-main > section.za-section.hp-aifirst.active",
+        "txt": "Designed for AI-first customer service\n        A u",
+        "y": 5294
+      },
+      {
+        "name": "scaleOut",
+        "el": "main.za-main > section.za-section.hp-rll.active > div.za-container.za-row-gap > div.hp-rll__track > div.hp-rll__dot",
+        "txt": "",
+        "y": 3829
+      },
+      {
+        "name": "scaleIn",
+        "el": "main.za-main > section.za-section.hp-rll.active > div.za-container.za-row-gap > div.hp-rll__track > div.hp-rll__dot",
+        "txt": "",
+        "y": 1865
+      },
+      {
+        "name": "scaleIn",
+        "el": "main.za-main > section.za-section.hp-rll.active > div.za-container.za-row-gap > div.hp-rll__track > div.hp-rll__dot",
+        "txt": "",
+        "y": 1725
+      },
+      {
+        "name": "scaleOut",
+        "el": "main.za-main > section.za-section.hp-rll.active > div.za-container.za-row-gap > div.hp-rll__track > div.hp-rll__dot",
+        "txt": "",
+        "y": 4303
+      },
+      {
+        "name": "expandAccordion",
+        "el": "html > body > main.za-main > section.za-section.hp-aifirst.active",
+        "txt": "Designed for AI-first customer service\n        A u",
+        "y": 5096
+      },
+      {
+        "name": "expandAccordion",
+        "el": "html > body > main.za-main > section.za-section.hp-aifirst.active",
+        "txt": "Designed for AI-first customer service\n        A u",
+        "y": 5245
+      },
+      {
+        "name": "scaleOut",
+        "el": "main.za-main > section.za-section.hp-rll.active > div.za-container.za-row-gap > div.hp-rll__track > div.hp-rll__dot",
+        "txt": "",
+        "y": 3833
+      },
+      {
+        "name": "scaleIn",
+        "el": "main.za-main > section.za-section.hp-rll.active > div.za-container.za-row-gap > div.hp-rll__track > div.hp-rll__dot",
+        "txt": "",
+        "y": 1992
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "nav.za-nav1 > div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg",
+        "y": 163,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 358,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 358,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 358,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 358,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.za-nav1 > div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg",
+        "y": 69,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 60,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 60,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 60,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 60,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.za-nav1 > div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg",
+        "y": 97,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 637,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 637,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 637,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 637,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.za-row.hp-quotes__row > div.za-col.hp-quotes__col > div.hp-quotes__card > div.hp-quotes__viewport > div.hp-quotes__track.slick-track.is-moving",
+        "y": 7542,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.za-section.za-section--forest.hp-faq > div.za-container > details.hp-faq__details > summary > svg.hp-faq__chev",
+        "y": 10534,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "color",
+        "el": "div.hp-res__carousel > div.hp-res__track > div.hp-res__slide > a.hp-rcard > img",
+        "y": 9638,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "filter",
+        "el": "div.hp-res__carousel > div.hp-res__track > div.hp-res__slide > a.hp-rcard > img",
+        "y": 9638,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "background-position-x",
+        "el": "a.hp-rcard > div.hp-rcard__body > div.hp-rcard__more > div.za-linkroot > span.za-link",
+        "y": 9638,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.za-container > div.hp-res__carousel > div.hp-res__track > div.hp-res__slide > a.hp-rcard",
+        "y": 9638,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.za-container > div.hp-res__carousel > div.hp-res__track > div.hp-res__slide > a.hp-rcard",
+        "y": 9638,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.hp-res__carousel > div.hp-res__track > div.hp-res__slide > a.hp-rcard > img",
+        "y": 9619,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "filter",
+        "el": "div.hp-res__carousel > div.hp-res__track > div.hp-res__slide > a.hp-rcard > img",
+        "y": 9619,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "background-position-x",
+        "el": "a.hp-rcard > div.hp-rcard__body > div.hp-rcard__more > div.za-linkroot > span.za-link",
+        "y": 9619,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.za-container > div.hp-res__carousel > div.hp-res__track > div.hp-res__slide > a.hp-rcard",
+        "y": 9619,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.za-container > div.hp-res__carousel > div.hp-res__track > div.hp-res__slide > a.hp-rcard",
+        "y": 9619,
+        "dur": "0.3s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main > section.za-section.hp-logos.active",
+        "y": 82
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 163
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main > section.za-section.hp-pillars.active",
+        "y": 378
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main > section.za-section.hp-rll.active",
+        "y": 1474
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main > section.za-section.hp-stats.active",
+        "y": 3282
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main > section.za-section.hp-split.active",
+        "y": 3763
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main > section.za-section.hp-teaser.active",
+        "y": 4163
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main > section.za-section.hp-aifirst.active",
+        "y": 4674
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main > section.za-section.hp-duo.active",
+        "y": 5682
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main > section.za-section.za-section--forest.hp-split",
+        "y": 6630
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main > section.za-section.hp-quotes.active",
+        "y": 7430
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main > section.za-section.hp-split.active",
+        "y": 8304
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main > section.za-section.hp-res.active",
+        "y": 8882
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main > section.za-section.hp-pricing.active",
+        "y": 9545
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main > section.za-section.za-section--forest.hp-fcta",
+        "y": 9958
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main > section.za-section.za-section--forest.hp-faq",
+        "y": 10274
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 97
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.za-col.hp-quotes__col > div.hp-quotes__card > div.hp-quotes__viewport > div.hp-quotes__track.slick-track.is-moving > div.hp-quote.is-active",
+        "y": 7482
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.za-row.hp-quotes__row > div.za-col.hp-quotes__col > div.hp-quotes__card > div.hp-quotes__nav > button.hp-dot.is-active",
+        "y": 7482
+      },
+      {
+        "added": [
+          "is-moving"
+        ],
+        "el": "div.za-row.hp-quotes__row > div.za-col.hp-quotes__col > div.hp-quotes__card > div.hp-quotes__viewport > div.hp-quotes__track.slick-track.is-moving",
+        "y": 7482
+      }
+    ]
+  }
+}

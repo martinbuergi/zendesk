@@ -1,0 +1,202 @@
+{
+  "a": "stardust/replica/gates/all-1440/marketplace-themes/origin.png",
+  "b": "stardust/replica/gates/all-1440/marketplace-themes/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4450,
+    "mode": "overlap"
+  },
+  "heightDelta": 13,
+  "differingPixels": 280039,
+  "pct": 4.37,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/marketplace-themes/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 15.64,
+  "textBoxes": 187,
+  "textPixels": 373288,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.8
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 7.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 5.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 3.4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 3.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 7.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 4.4
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 3.7
+    },
+    {
+      "y0": 4000,
+      "y1": 4450,
+      "pct": 2.7
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.2,
+    "differingPixels": 141976,
+    "compared": {
+      "width": 1440,
+      "height": 4476,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 819,
+        "shift": 2,
+        "cumulative": 2
+      },
+      {
+        "y": 1033,
+        "shift": -3,
+        "cumulative": -1
+      },
+      {
+        "y": 1160,
+        "shift": -2,
+        "cumulative": -3
+      },
+      {
+        "y": 1508,
+        "shift": 3,
+        "cumulative": 0
+      },
+      {
+        "y": 1721,
+        "shift": -3,
+        "cumulative": -3
+      },
+      {
+        "y": 1849,
+        "shift": -1,
+        "cumulative": -4
+      },
+      {
+        "y": 2176,
+        "shift": 3,
+        "cumulative": -1
+      },
+      {
+        "y": 2500,
+        "shift": 3,
+        "cumulative": 2
+      },
+      {
+        "y": 2825,
+        "shift": 2,
+        "cumulative": 4
+      },
+      {
+        "y": 3204,
+        "shift": -17,
+        "cumulative": -13
+      }
+    ],
+    "maxOffset": 13,
+    "totalShift": 39,
+    "insertedRows": 13,
+    "deletedRows": 26,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 5.5,
+        "unaligned": 7.9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 2.3,
+        "unaligned": 5.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 2,
+        "unaligned": 3.4
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 2,
+        "unaligned": 3.8
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 3,
+        "unaligned": 7.2
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 4.1,
+        "unaligned": 4.4
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 3.7
+      },
+      {
+        "y0": 4000,
+        "y1": 4463,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/marketplace-themes/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 45,
+    "totalShift": 39,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/marketplace/themes"
+  }
+}

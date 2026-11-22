@@ -1,0 +1,1140 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-21T12:39:01.836Z",
+  "tol": 4,
+  "n": 4,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/customer/furnished-finder/",
+  "at": "2026-11-20T19:58:15.850Z",
+  "docH": 12909
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/customer/furnished-finder",
+  "at": "2026-11-21T12:39:01.734Z",
+  "docH": 12909
+ },
+ "results": [
+  {
+   "sel": ".Cardstyle__CardRoot-sc-1g3sojj-1=.zb-fact",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:company headquarters",
+       "role": "heading",
+       "text": "company headquarters",
+       "edsText": "company headquarters",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 24,
+        "w": 126,
+        "h": 44
+       },
+       "eds": {
+        "x": 24,
+        "y": 24,
+        "w": 126,
+        "h": 44,
+        "sel": "h2#company-headquarters",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:austin, texas",
+       "role": "text",
+       "text": "austin, texas",
+       "edsText": "austin, texas",
+       "byPosition": false,
+       "origin": {
+        "x": 41,
+        "y": 84,
+        "w": 91,
+        "h": 24
+       },
+       "eds": {
+        "x": 41,
+        "y": 84,
+        "w": 91,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1998,
+       "w": 174,
+       "h": 132
+      },
+      "eds": {
+       "x": 16,
+       "y": 1998,
+       "w": 174,
+       "h": 132
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:year founded",
+       "role": "heading",
+       "text": "year founded",
+       "edsText": "year founded",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 24,
+        "w": 90,
+        "h": 44
+       },
+       "eds": {
+        "x": 24,
+        "y": 24,
+        "w": 90,
+        "h": 44,
+        "sel": "h2#year-founded",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:2014",
+       "role": "text",
+       "text": "2014",
+       "edsText": "2014",
+       "byPosition": false,
+       "origin": {
+        "x": 52,
+        "y": 84,
+        "w": 34,
+        "h": 24
+       },
+       "eds": {
+        "x": 52,
+        "y": 84,
+        "w": 34,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 206,
+       "y": 1998,
+       "w": 138,
+       "h": 132
+      },
+      "eds": {
+       "x": 206,
+       "y": 1998,
+       "w": 138,
+       "h": 132
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:furnished properties listed",
+       "role": "heading",
+       "text": "furnished properties listed",
+       "edsText": "furnished properties listed",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 24,
+        "w": 108,
+        "h": 66
+       },
+       "eds": {
+        "x": 24,
+        "y": 24,
+        "w": 108,
+        "h": 66,
+        "sel": "h2#furnished-properties-listed",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:300,000+",
+       "role": "text",
+       "text": "300,000+",
+       "edsText": "300,000+",
+       "byPosition": false,
+       "origin": {
+        "x": 44,
+        "y": 106,
+        "w": 69,
+        "h": 24
+       },
+       "eds": {
+        "x": 44,
+        "y": 106,
+        "w": 69,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2154,
+       "w": 156,
+       "h": 154
+      },
+      "eds": {
+       "x": 16,
+       "y": 2154,
+       "w": 156,
+       "h": 154
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:travelers seeking housing",
+       "role": "heading",
+       "text": "travelers seeking housing",
+       "edsText": "travelers seeking housing",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 24,
+        "w": 108,
+        "h": 66
+       },
+       "eds": {
+        "x": 24,
+        "y": 24,
+        "w": 108,
+        "h": 66,
+        "sel": "h2#travelers-seeking-housing",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:6 million+",
+       "role": "text",
+       "text": "6 million+",
+       "edsText": "6 million+",
+       "byPosition": false,
+       "origin": {
+        "x": 45,
+        "y": 106,
+        "w": 67,
+        "h": 24
+       },
+       "eds": {
+        "x": 45,
+        "y": 106,
+        "w": 67,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 188,
+       "y": 2154,
+       "w": 156,
+       "h": 154
+      },
+      "eds": {
+       "x": 188,
+       "y": 2154,
+       "w": 156,
+       "h": 154
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Quotestyle__QuoteRoot-sc-rczw5k-0=.zb-quote",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.khrxgA > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:\"zendesk's impact was immediate. within ",
+       "role": "text",
+       "text": "\"zendesk's impact was immediate. within weeks, about 60 perc",
+       "edsText": "\"zendesk's impact was immediate. within weeks, about 60 perc",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 130
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 130,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "text:cami nariño",
+       "role": "text",
+       "text": "cami nariño",
+       "edsText": "cami nariño",
+       "byPosition": false,
+       "origin": {
+        "x": 41,
+        "y": 202,
+        "w": 246,
+        "h": 26
+       },
+       "eds": {
+        "x": 41,
+        "y": 202,
+        "w": 246,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/600",
+        "eds": "18/26/600"
+       }
+      },
+      {
+       "key": "text:chief operating officer at furnished fin",
+       "role": "text",
+       "text": "chief operating officer at furnished finder",
+       "edsText": "chief operating officer at furnished finder",
+       "byPosition": false,
+       "origin": {
+        "x": 41,
+        "y": 241,
+        "w": 246,
+        "h": 18
+       },
+       "eds": {
+        "x": 41,
+        "y": 241,
+        "w": 246,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/18/400",
+        "eds": "13/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1358,
+       "w": 328,
+       "h": 304
+      },
+      "eds": {
+       "x": 16,
+       "y": 1358,
+       "w": 328,
+       "h": 304
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.khrxgA > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:\"i've always tried to lead with compassi",
+       "role": "text",
+       "text": "\"i've always tried to lead with compassion. that shapes how ",
+       "edsText": "\"i've always tried to lead with compassion. that shapes how ",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 130
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 130,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "text:cami nariño",
+       "role": "text",
+       "text": "cami nariño",
+       "edsText": "cami nariño",
+       "byPosition": false,
+       "origin": {
+        "x": 41,
+        "y": 202,
+        "w": 246,
+        "h": 26
+       },
+       "eds": {
+        "x": 41,
+        "y": 202,
+        "w": 246,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/600",
+        "eds": "18/26/600"
+       }
+      },
+      {
+       "key": "text:chief operating officer at furnished fin",
+       "role": "text",
+       "text": "chief operating officer at furnished finder",
+       "edsText": "chief operating officer at furnished finder",
+       "byPosition": false,
+       "origin": {
+        "x": 41,
+        "y": 241,
+        "w": 246,
+        "h": 18
+       },
+       "eds": {
+        "x": 41,
+        "y": 241,
+        "w": 246,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/18/400",
+        "eds": "13/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1662,
+       "w": 328,
+       "h": 304
+      },
+      "eds": {
+       "x": 16,
+       "y": 1662,
+       "w": 328,
+       "h": 304
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Statstyle__StatRoot-sc-17s8ggd-0=.zb-stat",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:44%",
+       "role": "text",
+       "text": "44%",
+       "edsText": "44%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/700",
+        "eds": "34/42/700"
+       }
+      },
+      {
+       "key": "text:reduction in inbound support requests",
+       "role": "text",
+       "text": "reduction in inbound support requests",
+       "edsText": "reduction in inbound support requests",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 46,
+        "w": 99,
+        "h": 96
+       },
+       "eds": {
+        "x": 0,
+        "y": 46,
+        "w": 99,
+        "h": 96,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2396,
+       "w": 99,
+       "h": 142
+      },
+      "eds": {
+       "x": 16,
+       "y": 2396,
+       "w": 99,
+       "h": 142
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:60%",
+       "role": "text",
+       "text": "60%",
+       "edsText": "60%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/700",
+        "eds": "34/42/700"
+       }
+      },
+      {
+       "key": "text:landlord tools support volume automated",
+       "role": "text",
+       "text": "landlord tools support volume automated",
+       "edsText": "landlord tools support volume automated",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 46,
+        "w": 99,
+        "h": 96
+       },
+       "eds": {
+        "x": 0,
+        "y": 46,
+        "w": 99,
+        "h": 96,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 131,
+       "y": 2396,
+       "w": 99,
+       "h": 142
+      },
+      "eds": {
+       "x": 131,
+       "y": 2396,
+       "w": 99,
+       "h": 142
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:12%",
+       "role": "text",
+       "text": "12%",
+       "edsText": "12%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/700",
+        "eds": "34/42/700"
+       }
+      },
+      {
+       "key": "text:fewer contacts per customer",
+       "role": "text",
+       "text": "fewer contacts per customer",
+       "edsText": "fewer contacts per customer",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 46,
+        "w": 99,
+        "h": 72
+       },
+       "eds": {
+        "x": 0,
+        "y": 46,
+        "w": 99,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 245,
+       "y": 2396,
+       "w": 99,
+       "h": 118
+      },
+      "eds": {
+       "x": 245,
+       "y": 2396,
+       "w": 99,
+       "h": 118
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:80%+",
+       "role": "text",
+       "text": "80%+",
+       "edsText": "80%+",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/700",
+        "eds": "34/42/700"
+       }
+      },
+      {
+       "key": "text:combined customer satisfaction",
+       "role": "text",
+       "text": "combined customer satisfaction",
+       "edsText": "combined customer satisfaction",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 46,
+        "w": 328,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 46,
+        "w": 328,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2538,
+       "w": 328,
+       "h": 70
+      },
+      "eds": {
+       "x": 16,
+       "y": 2538,
+       "w": 328,
+       "h": 70
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 22,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

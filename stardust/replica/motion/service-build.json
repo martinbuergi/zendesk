@@ -1,0 +1,985 @@
+{
+  "url": "http://localhost:8791/service-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".sv-acc__btn",
+      "frames": [
+        {
+          "t": 22335.299999998882,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 22538.799999998882,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 22744.699999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 22947.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#quoteCarouselWrapper > button[data-dir='1']",
+      "frames": [
+        {
+          "t": 23969,
+          "trackTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "trackTransition": "transform 0.2s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 24172.900000000373,
+          "trackTransform": "matrix(1, 0, 0, 1, -918.328, 0)",
+          "trackTransition": "transform 0.2s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 24378.900000000373,
+          "trackTransform": "matrix(1, 0, 0, 1, -918.328, 0)",
+          "trackTransition": "transform 0.2s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 24582.799999998882,
+          "trackTransform": "matrix(1, 0, 0, 1, -918.328, 0)",
+          "trackTransition": "transform 0.2s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".sv-res__nav [data-dir='1']",
+      "frames": [
+        {
+          "t": 25594.400000000373,
+          "trackTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "trackTransition": "transform 0.5s cubic-bezier(0.7, 0, 0.3, 1)",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 25798.799999998882,
+          "trackTransform": "matrix(1, 0, 0, 1, -48.9771, 0)",
+          "trackTransition": "transform 0.5s cubic-bezier(0.7, 0, 0.3, 1)",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 26006.900000000373,
+          "trackTransform": "matrix(1, 0, 0, 1, -269.867, 0)",
+          "trackTransition": "transform 0.5s cubic-bezier(0.7, 0, 0.3, 1)",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 26211,
+          "trackTransform": "matrix(1, 0, 0, 1, -280, 0)",
+          "trackTransition": "transform 0.5s cubic-bezier(0.7, 0, 0.3, 1)",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".sv-cap",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.1s linear"
+        },
+        "subs": [
+          {
+            "el": "span.sv-cap__icon",
+            "transform": "none",
+            "color": "rgb(17, 17, 13)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgba(17, 17, 13, 0.05)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.1s linear"
+        },
+        "subs": [
+          {
+            "el": "span.sv-cap__icon",
+            "transform": "none",
+            "color": "rgb(17, 17, 13)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".sv-res__card",
+      "changed": [
+        "self.color",
+        "self.background",
+        "img.sv-ii__sizer.color",
+        "img..color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgb(245, 245, 242)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.3s cubic-bezier(0.7, 0, 0.3, 1)"
+        },
+        "subs": [
+          {
+            "el": "img.sv-ii__sizer",
+            "transform": "none",
+            "color": "rgb(17, 17, 13)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.3s cubic-bezier(0.7, 0, 0.3, 1)"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(17, 17, 13)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.3s cubic-bezier(0.7, 0, 0.3, 1)"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgba(17, 17, 13, 0.7)",
+          "background": "rgba(17, 17, 13, 0.05)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.3s cubic-bezier(0.7, 0, 0.3, 1)"
+        },
+        "subs": [
+          {
+            "el": "img.sv-ii__sizer",
+            "transform": "none",
+            "color": "rgba(17, 17, 13, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.3s cubic-bezier(0.7, 0, 0.3, 1)"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgba(17, 17, 13, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.3s cubic-bezier(0.7, 0, 0.3, 1)"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".sv-video",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "#quoteCarouselWrapper > .sv-round",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.6s cubic-bezier(0.7, 0, 0.3, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.6s cubic-bezier(0.7, 0, 0.3, 1)"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".sv-quotes__slide.is-active .sv-story__link",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.6s cubic-bezier(0.7, 0, 0.3, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgba(17, 17, 13, 0.85)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.6s cubic-bezier(0.7, 0, 0.3, 1)"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "#teaser-8596b9dd03 a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-position 0.6s cubic-bezier(0.7, 0, 0.3, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-position 0.6s cubic-bezier(0.7, 0, 0.3, 1)"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "#teaser-9b6b7949ad a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgb(209, 244, 112)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.6s cubic-bezier(0.7, 0, 0.3, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgb(209, 244, 112)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.6s cubic-bezier(0.7, 0, 0.3, 1)"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".sv-trial__btn",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgb(209, 244, 112)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgb(209, 244, 112)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".sv-acc__head",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "h3.sv-acc__title",
+            "transform": "none",
+            "color": "rgb(17, 17, 13)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "svg.[object.SVGAnimatedString]",
+            "transform": "matrix(-1, 0, 0, -1, 0, 0)",
+            "color": "rgb(17, 17, 13)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "transform 0.25s"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(17, 17, 13, 0.05)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "h3.sv-acc__title",
+            "transform": "none",
+            "color": "rgb(17, 17, 13)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "svg.[object.SVGAnimatedString]",
+            "transform": "matrix(-1, 0, 0, -1, 0, 0)",
+            "color": "rgb(17, 17, 13)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "transform 0.25s"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".sv-promo a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgb(209, 244, 112)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.6s cubic-bezier(0.7, 0, 0.3, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgb(209, 244, 112)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.6s cubic-bezier(0.7, 0, 0.3, 1)"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "sv-progress",
+        "el": "div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > div.sv-quotes__navs > nav.sv-quotes__logos > button.sv-logo-tab.is-active",
+        "txt": "",
+        "y": 1682
+      },
+      {
+        "name": "sv-progress",
+        "el": "div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > div.sv-quotes__navs > nav.sv-quotes__logos > button.sv-logo-tab.is-active",
+        "txt": "",
+        "y": 2465
+      },
+      {
+        "name": "sv-progress",
+        "el": "div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > div.sv-quotes__navs > nav.sv-quotes__logos > button.sv-logo-tab.is-active",
+        "txt": "",
+        "y": 1743
+      },
+      {
+        "name": "sv-progress",
+        "el": "div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > div.sv-quotes__navs > nav.sv-quotes__logos > button.sv-logo-tab.is-active",
+        "txt": "",
+        "y": 1944
+      },
+      {
+        "name": "sv-progress",
+        "el": "div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > div.sv-quotes__navs > nav.sv-quotes__logos > button.sv-logo-tab.is-active",
+        "txt": "",
+        "y": 2112
+      },
+      {
+        "name": "sv-progress",
+        "el": "div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > div.sv-quotes__navs > nav.sv-quotes__logos > button.sv-logo-tab.is-active",
+        "txt": "",
+        "y": 1721
+      },
+      {
+        "name": "sv-progress",
+        "el": "div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > div.sv-quotes__navs > nav.sv-quotes__logos > button.sv-logo-tab.is-active",
+        "txt": "",
+        "y": 2147
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "nav.za-nav1 > div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg",
+        "y": 163,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 378,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 378,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 378,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 378,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.za-nav1 > div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg",
+        "y": 69,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 60,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 60,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 60,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 60,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.za-nav1 > div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg",
+        "y": 92,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 795,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "fill",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 795,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 795,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.za-container.za-hdr__bar > div.za-logo-wrap > a.za-logo > svg > path",
+        "y": 795,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > div.sv-quotes__navs > nav.sv-quotes__logos > button.sv-logo-tab.is-active",
+        "y": 1944,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > div.sv-quotes__navs > nav.sv-quotes__logos > button.sv-logo-tab",
+        "y": 1944,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > div.sv-quotes__stage.slider > div.sv-quotes__track.slick-track > div.sv-quotes__slide",
+        "y": 1944,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.za-container.za-row-gap > div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > div.sv-quotes__stage.slider > div.sv-quotes__track.slick-track",
+        "y": 1944,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.sv-story__body > div.sv-story__q > div > cite.sv-story__cite > a.sv-story__link",
+        "y": 1944,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.sv-story__body > div.sv-story__q > div > cite.sv-story__cite > a.sv-story__link",
+        "y": 1944,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > div.sv-quotes__stage.slider > div.sv-quotes__track.slick-track > div.sv-quotes__slide.is-active",
+        "y": 1944,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.za-row > div.za-col > div.sv-res.sv-carousel > div.sv-res__list.slider > div.sv-res__track.slick-track",
+        "y": 5768,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.za-container.za-row-gap > div.za-row > div.za-col > div.sv-caps > a.sv-cap",
+        "y": 3567,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.za-container.za-row-gap > div.za-row > div.za-col > div.sv-caps > a.sv-cap",
+        "y": 3265,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "color",
+        "el": "div.sv-res__track.slick-track > div.sv-res__slide > a.sv-res__card > span.sv-ii.sv-ii--block > img.sv-ii__sizer",
+        "y": 5280,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "filter",
+        "el": "div.sv-res__track.slick-track > div.sv-res__slide > a.sv-res__card > span.sv-ii.sv-ii--block > img.sv-ii__sizer",
+        "y": 5280,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.sv-res__track.slick-track > div.sv-res__slide > a.sv-res__card > span.sv-ii.sv-ii--block > img",
+        "y": 5280,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "filter",
+        "el": "div.sv-res__track.slick-track > div.sv-res__slide > a.sv-res__card > span.sv-ii.sv-ii--block > img",
+        "y": 5280,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sv-res__list.slider > div.sv-res__track.slick-track > div.sv-res__slide > a.sv-res__card > div.sv-res__content",
+        "y": 5280,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.sv-res__list.slider > div.sv-res__track.slick-track > div.sv-res__slide > a.sv-res__card > div.sv-res__content",
+        "y": 5280,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sv-res.sv-carousel > div.sv-res__list.slider > div.sv-res__track.slick-track > div.sv-res__slide > a.sv-res__card",
+        "y": 5280,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.sv-res.sv-carousel > div.sv-res__list.slider > div.sv-res__track.slick-track > div.sv-res__slide > a.sv-res__card",
+        "y": 5280,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.sv-res__track.slick-track > div.sv-res__slide > a.sv-res__card > span.sv-ii.sv-ii--block > img.sv-ii__sizer",
+        "y": 5605,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "filter",
+        "el": "div.sv-res__track.slick-track > div.sv-res__slide > a.sv-res__card > span.sv-ii.sv-ii--block > img.sv-ii__sizer",
+        "y": 5605,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.sv-res__track.slick-track > div.sv-res__slide > a.sv-res__card > span.sv-ii.sv-ii--block > img",
+        "y": 5605,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "filter",
+        "el": "div.sv-res__track.slick-track > div.sv-res__slide > a.sv-res__card > span.sv-ii.sv-ii--block > img",
+        "y": 5605,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sv-res__list.slider > div.sv-res__track.slick-track > div.sv-res__slide > a.sv-res__card > div.sv-res__content",
+        "y": 5605,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.sv-res__list.slider > div.sv-res__track.slick-track > div.sv-res__slide > a.sv-res__card > div.sv-res__content",
+        "y": 5605,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sv-res.sv-carousel > div.sv-res__list.slider > div.sv-res__track.slick-track > div.sv-res__slide > a.sv-res__card",
+        "y": 5605,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.sv-res.sv-carousel > div.sv-res__list.slider > div.sv-res__track.slick-track > div.sv-res__slide > a.sv-res__card",
+        "y": 5605,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "section.za-section.sv-cream > div.za-container.za-row-gap > div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > button.sv-round.sv-quotes__arrow",
+        "y": 1872,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "background-color",
+        "el": "section.za-section.sv-cream > div.za-container.za-row-gap > div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > button.sv-round.sv-quotes__arrow",
+        "y": 1872,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.za-section.sv-cream > div.za-container.za-row-gap > div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > button.sv-round.sv-quotes__arrow",
+        "y": 1872,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "color",
+        "el": "section.za-section.sv-cream > div.za-container.za-row-gap > div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > button.sv-round.sv-quotes__arrow",
+        "y": 1896,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "background-color",
+        "el": "section.za-section.sv-cream > div.za-container.za-row-gap > div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > button.sv-round.sv-quotes__arrow",
+        "y": 1896,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.za-section.sv-cream > div.za-container.za-row-gap > div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > button.sv-round.sv-quotes__arrow",
+        "y": 1896,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "color",
+        "el": "div.sv-story__body > div.sv-story__q > div > cite.sv-story__cite > a.sv-story__link",
+        "y": 2062,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "background-position-x",
+        "el": "div.sv-story__q > div > cite.sv-story__cite > a.sv-story__link > span",
+        "y": 2062,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "color",
+        "el": "div.sv-story__body > div.sv-story__q > div > cite.sv-story__cite > a.sv-story__link",
+        "y": 2062,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "background-position-x",
+        "el": "div.sv-story__q > div > cite.sv-story__cite > a.sv-story__link > span",
+        "y": 2062,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.za-container.sv-rel > div.za-row.sv-head > div.za-col.sv-head__col > div.sv-cta__links > a.za-btn.za-btn--primary.za-btn--block-sm",
+        "y": 6148,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.za-container.sv-rel > div.za-row.sv-head > div.za-col.sv-head__col > div.sv-cta__links > a.za-btn.za-btn--primary.za-btn--block-sm",
+        "y": 6225,
+        "dur": "0.6s"
+      },
+      {
+        "prop": "background-color",
+        "el": "section.za-section > div.za-container > div.sv-promo > div.sv-promo__cta > a.za-btn.za-btn--primary.za-btn--block-sm",
+        "y": 594,
+        "dur": "0.6s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 163
+      },
+      {
+        "added": [
+          "is-playing"
+        ],
+        "el": "div.sv-wrap > section.za-section.sv-cream > div.za-container.za-row-gap > div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel",
+        "y": 1612
+      },
+      {
+        "added": [
+          "is-playing"
+        ],
+        "el": "div.sv-wrap > section.za-section.sv-cream > div.za-container.za-row-gap > div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel",
+        "y": 2491
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 92
+      },
+      {
+        "added": [
+          "is-playing"
+        ],
+        "el": "div.sv-wrap > section.za-section.sv-cream > div.za-container.za-row-gap > div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel",
+        "y": 1643
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > div.sv-quotes__stage.slider > div.sv-quotes__track.slick-track > div.sv-quotes__slide.is-active",
+        "y": 1944
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > div.sv-quotes__navs > nav.sv-quotes__dots > button.sv-dot.is-active",
+        "y": 1944
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel > div.sv-quotes__navs > nav.sv-quotes__logos > button.sv-logo-tab.is-active",
+        "y": 1944
+      },
+      {
+        "added": [
+          "is-playing"
+        ],
+        "el": "div.sv-wrap > section.za-section.sv-cream > div.za-container.za-row-gap > div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel",
+        "y": 2488
+      },
+      {
+        "added": [
+          "is-playing"
+        ],
+        "el": "div.sv-wrap > section.za-section.sv-cream > div.za-container.za-row-gap > div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel",
+        "y": 1647
+      },
+      {
+        "added": [
+          "is-playing"
+        ],
+        "el": "div.sv-wrap > section.za-section.sv-cream > div.za-container.za-row-gap > div.za-row.sv-quotes__row > div.za-col.sv-quotes.sv-carousel",
+        "y": 2455
+      }
+    ]
+  }
+}

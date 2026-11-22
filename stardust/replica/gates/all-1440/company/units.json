@@ -1,0 +1,225 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-21T12:06:30.320Z",
+  "tol": 4,
+  "n": 1,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/company/",
+  "at": "2026-11-20T10:39:59.877Z",
+  "docH": 5012
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/company",
+  "at": "2026-11-21T12:06:30.206Z",
+  "docH": 5012
+ },
+ "results": [
+  {
+   "sel": "#teaser-f67eba53a7 .slick-current [role=group] > a=.co-carousel .co-car-slide:first-child .co-card",
+   "family": null,
+   "required": true,
+   "originMatches": 1,
+   "edsMatches": 1,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div > div > a#button-db7fd2da4a"
+     },
+     "eds": {
+      "path": "div.co-car-track > div.co-car-slide.slick-current > a.co-card"
+     },
+     "rows": [
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/500",
+        "eds": "16/0/500"
+       }
+      },
+      {
+       "key": "image:img#image-ed701fc074#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188,
+        "sel": "img.co-ii-sizer",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/500",
+        "eds": "16/0/500"
+       }
+      },
+      {
+       "key": "box:div.LinkCardstyle__LinkCardContent-sc-1nxo9pt-2.ihgjRr#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 189,
+        "w": 251,
+        "h": 103
+       },
+       "eds": {
+        "x": 1,
+        "y": 189,
+        "w": 251,
+        "h": 103,
+        "sel": "div.co-card-content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/500",
+        "eds": "16/16/500"
+       }
+      },
+      {
+       "key": "text:hq san francisco",
+       "role": "text",
+       "text": "hq san francisco",
+       "edsText": "hq san francisco",
+       "byPosition": false,
+       "origin": {
+        "x": 25,
+        "y": 229,
+        "w": 203,
+        "h": 23
+       },
+       "eds": {
+        "x": 25,
+        "y": 229,
+        "w": 203,
+        "h": 23,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/23/600",
+        "eds": "16/23/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1,
+       "y": 1,
+       "w": 251,
+       "h": 188,
+       "absY": 2310,
+       "hidden": false,
+       "fs": 16,
+       "lh": 0,
+       "fw": "500",
+       "color": "rgb(17, 17, 13)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 169,
+       "y": 2309,
+       "w": 253,
+       "h": 294
+      },
+      "eds": {
+       "x": 169,
+       "y": 2309,
+       "w": 253,
+       "h": 293
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 1,
+  "within": 4,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

@@ -1,0 +1,253 @@
+/* fm-quotes — form-template customer-stories carousel (live /free-trial/ #testimonials) */
+.fm-quotes.za-section {
+  background-color: var(--za-cream);
+}
+
+.fm-quotes .za-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.fm-quotes .fm-quotes-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border: 0;
+  border-radius: 100%;
+  padding: 16px;
+  background: rgb(17 17 13 / 8%);
+  color: var(--za-ink);
+  cursor: pointer;
+}
+
+.fm-quotes .fm-quotes-arrow.fm-quotes-prev svg {
+  transform: scaleX(-1);
+}
+
+.fm-quotes .fm-quotes-head {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 121px;
+  text-align: center;
+}
+
+.fm-quotes .fm-quotes-head p {
+  margin: 0;
+  color: var(--za-ink);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+
+.fm-quotes .fm-quotes-stage {
+  order: 2;
+}
+
+.fm-quotes .fm-quotes-stage > .fm-quotes-arrow {
+  display: none;
+}
+
+.fm-quotes .fm-quotes-viewport {
+  overflow: hidden;
+}
+
+.fm-quotes .fm-quotes-track {
+  display: flex;
+  transition: transform 500ms ease;
+}
+
+.fm-quotes .fm-quotes-slide {
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.fm-quotes .fm-quotes-photo p {
+  margin: 0;
+  line-height: 0;
+}
+
+.fm-quotes .fm-quotes-photo img {
+  display: block;
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.fm-quotes .fm-quotes-body {
+  width: 100%;
+}
+
+.fm-quotes .fm-quotes-quote :is(blockquote, p) {
+  margin: 0;
+  color: var(--za-ink);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 27.5px;
+}
+
+.fm-quotes .fm-quotes-cite {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.fm-quotes .fm-quotes-who p {
+  margin: 0;
+  color: var(--za-ink);
+  font-size: 16px;
+  line-height: 23.2px;
+}
+
+.fm-quotes .fm-quotes-name p {
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+
+.fm-quotes .fm-quotes-link p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.fm-quotes .fm-quotes-link a:any-link {
+  color: var(--za-ink);
+  font-weight: 600;
+  text-decoration: none;
+  background: linear-gradient(currentcolor, currentcolor) 0 100% / 100% 1px no-repeat;
+  padding-bottom: 2px;
+}
+
+.fm-quotes .fm-quotes-tabs {
+  display: flex;
+  order: 1;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.fm-quotes .fm-quotes-tab {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 56px;
+  cursor: pointer;
+}
+
+.fm-quotes .fm-quotes-tab.is-active {
+  display: flex;
+}
+
+.fm-quotes .fm-quotes-tab p {
+  margin: 0;
+  line-height: 0;
+}
+
+.fm-quotes .fm-quotes-tab img {
+  display: block;
+  width: auto;
+  max-width: 180px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.fm-quotes .fm-quotes-dots {
+  display: flex;
+  order: 3;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 48px;
+}
+
+.fm-quotes .fm-quotes-dot {
+  width: 6px;
+  height: 6px;
+  border: 0;
+  border-radius: 50%;
+  padding: 0;
+  background: rgb(17 17 13 / 30%);
+  cursor: pointer;
+}
+
+.fm-quotes .fm-quotes-dot.is-active {
+  background: var(--za-ink);
+}
+
+@media (width >= 768px) {
+  .fm-quotes .fm-quotes-head {
+    margin-bottom: 65px;
+  }
+
+  .fm-quotes .fm-quotes-head p {
+    font-size: 14px;
+    line-height: 18.2px;
+  }
+
+  .fm-quotes .fm-quotes-stage {
+    display: grid;
+    grid-template-columns: 56px minmax(0, 1fr) 56px;
+    column-gap: 52px;
+    align-items: center;
+  }
+
+  .fm-quotes .fm-quotes-stage > .fm-quotes-arrow {
+    display: flex;
+  }
+
+  .fm-quotes .fm-quotes-slide {
+    flex-direction: row;
+    gap: 64px;
+  }
+
+  .fm-quotes .fm-quotes-photo {
+    flex: none;
+  }
+
+  .fm-quotes .fm-quotes-photo img {
+    width: 310px;
+    height: 414px;
+    border-radius: 24px;
+  }
+
+  .fm-quotes .fm-quotes-quote :is(blockquote, p) {
+    font-size: 26px;
+    line-height: 32.5px;
+  }
+
+  .fm-quotes .fm-quotes-cite {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .fm-quotes .fm-quotes-tabs {
+    order: 3;
+    gap: 4px;
+    margin: 63px 108px 0;
+  }
+
+  .fm-quotes .fm-quotes-tab {
+    display: flex;
+    flex: 1 1 0;
+    height: 70px;
+    border-top: 1px solid var(--za-hairline);
+    padding: 12px 12px 0;
+    opacity: 0.5;
+  }
+
+  .fm-quotes .fm-quotes-tab.is-active {
+    opacity: 1;
+  }
+
+  .fm-quotes .fm-quotes-dots {
+    display: none;
+  }
+}

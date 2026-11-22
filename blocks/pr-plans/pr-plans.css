@@ -1,0 +1,433 @@
+/* pr-plans — plan cards (CardRoot eDfyXi / kIQfGC "Most Popular") + add-on cards (variant addons) */
+.pr-plans {
+  position: relative;
+  display: flow-root;
+  margin-top: 35px;
+  background: var(--za-white);
+}
+
+.pr-plans.addons {
+  margin-top: 0;
+}
+
+.pr-plans .pr-cadence {
+  display: none;
+}
+
+.pr-plans .pr-plans-head {
+  display: flow-root;
+  text-align: center;
+}
+
+.pr-plans .pr-plans-head h2 {
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto 24px;
+}
+
+.pr-plans .pr-plans-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+  margin: 0 -12px;
+}
+
+.pr-plans.addons .pr-plans-grid {
+  margin-top: var(--za-row-gap);
+}
+
+.pr-plans .pr-plans-col {
+  display: flex;
+  padding: 0 12px;
+}
+
+.pr-plans .pr-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 4px;
+  padding: 32px 24px;
+  border-radius: 40px;
+  background-color: rgb(17 17 13 / 5%);
+}
+
+.pr-plans .pr-card.pr-card-pop {
+  border: 2px solid var(--za-ink);
+  background-color: var(--za-white);
+  box-shadow: rgb(0 0 0 / 16%) 0 24px 36px 0;
+}
+
+.pr-plans .pr-card-sticker {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: flex;
+  max-width: calc(100% - 48px);
+  color: var(--za-white);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.75px;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+}
+
+/* the pill sits on the authored text box (live: the sticker span itself) */
+.pr-plans .pr-card-sticker p {
+  margin: 0;
+  padding: 7.8px 12px;
+  border-radius: 40px;
+  background: var(--za-ink);
+  color: inherit;
+  font: inherit;
+}
+
+.pr-plans .pr-card-cell {
+  margin-bottom: 20px;
+}
+
+.pr-plans .pr-card-title h3 {
+  margin: 0;
+  padding-right: 16px;
+  color: var(--za-ink);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.pr-plans .pr-card-desc p,
+.pr-plans .pr-card-lead p,
+.pr-plans .pr-card-extra p {
+  margin: 0;
+  padding-right: 16px;
+  color: var(--za-ink);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.pr-plans .pr-card-price p {
+  margin: 0;
+  padding-right: 16px;
+  color: var(--za-ink);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.pr-plans .pr-card-price strong {
+  display: inline-block;
+  vertical-align: baseline;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+/* CTAs: spz free-trial (lime) + StyledButton secondary (outlined) */
+.pr-plans .pr-card-ctas {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pr-plans .pr-card-ctas p {
+  margin: 0;
+}
+
+.pr-plans .pr-card-ctas a:any-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 44px;
+  min-height: 0;
+  padding: 10px 9px;
+  border-radius: 16px;
+  color: var(--za-ink);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.pr-plans .pr-card-ctas a.primary:hover::before {
+  background-color: rgb(196 232 96);
+}
+
+.pr-plans .pr-card-hr {
+  display: block;
+  height: 1px;
+  margin: 0 0 20px;
+  border: none;
+  background-color: rgb(17 17 13 / 18%);
+  opacity: 0.8;
+}
+
+.pr-plans .pr-card-feat {
+  margin-bottom: 0;
+}
+
+.pr-plans .pr-card-lead p {
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.pr-plans .pr-feats ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pr-plans .pr-feats li {
+  display: flex;
+  align-items: flex-start;
+  color: var(--za-ink);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.pr-plans .pr-feats li em {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 2px;
+  height: 20px;
+  margin-right: 8px;
+  padding: 3px;
+  border: 1px solid rgb(17 17 13 / 47%);
+  border-radius: 4px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+
+.pr-plans .pr-feats li em svg {
+  display: block;
+  width: 12px;
+  height: 12px;
+}
+
+.pr-plans .pr-feats li :is(a:any-link, .pr-feat) {
+  color: var(--za-ink);
+  text-decoration: underline dotted;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  cursor: pointer;
+}
+
+.pr-plans .pr-feats li :is(a:any-link, .pr-feat):hover {
+  text-decoration-style: solid;
+}
+
+/* add-on cards: "Learn more" (LinkRoot + LinkText) */
+.pr-plans.addons .pr-card-price {
+  margin-bottom: 0;
+}
+
+.pr-plans .pr-card-more {
+  height: 26px;
+  margin: 40px 0 0;
+  line-height: 24px;
+}
+
+.pr-plans .pr-card-more p {
+  margin: 0;
+  font: inherit;
+}
+
+.pr-plans .pr-card-more .pr-link-text,
+.pr-plans .pr-compare a:any-link {
+  background-image: linear-gradient(90deg, rgb(17 17 13 / 70%) 0%, rgb(17 17 13 / 70%) 40%, transparent 40%, transparent 60%, rgb(17 17 13) 60%, rgb(17 17 13) 100%);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 250% 1px;
+  color: var(--za-ink);
+  transition: background-position 600ms var(--za-ease);
+}
+
+.pr-plans .pr-card-more a:any-link {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.pr-plans .pr-card-more a:any-link:hover .pr-link-text,
+.pr-plans .pr-compare a:any-link:hover {
+  background-position: 0% 100%;
+}
+
+/* "Still need help deciding?" line */
+.pr-plans .pr-compare {
+  margin-top: 0;
+}
+
+.pr-plans .pr-compare h4 {
+  margin: 0 0 16px;
+  color: var(--za-ink);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+  text-align: center;
+}
+
+@media (width >= 768px) {
+  .pr-plans .pr-plans-grid {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 24px;
+  }
+
+  .pr-plans.addons .pr-plans-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .pr-plans.addons .pr-plans-col:first-child {
+    padding-left: 0;
+  }
+
+  .pr-plans.addons .pr-plans-col:last-child {
+    padding-right: 0;
+  }
+
+  .pr-plans .pr-card {
+    margin: 0;
+  }
+
+  .pr-plans .pr-compare {
+    margin-top: 26px;
+  }
+}
+
+@media (width >= 1150px) {
+  .pr-plans {
+    margin-top: 34px;
+  }
+
+  .pr-plans .pr-plans-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .pr-plans .pr-plans-col:first-child {
+    padding-left: 0;
+  }
+
+  .pr-plans .pr-plans-col:last-child {
+    padding-right: 0;
+  }
+
+  .pr-plans.addons .pr-plans-grid {
+    margin-bottom: 26px;
+  }
+
+  .pr-plans .pr-card-sticker {
+    font-size: 14px;
+  }
+
+  .pr-plans .pr-card-sticker p {
+    padding: 9.1px 14px;
+  }
+
+  .pr-plans .pr-card-title {
+    min-height: 62px;
+  }
+
+  .pr-plans .pr-card-pop .pr-card-title {
+    min-height: 60px;
+  }
+
+  .pr-plans .pr-card-desc {
+    min-height: 79px;
+  }
+
+  .pr-plans .pr-card-price {
+    min-height: 47px;
+  }
+
+  .pr-plans.addons .pr-card-title {
+    min-height: 60px;
+  }
+
+  .pr-plans.addons .pr-card-desc {
+    min-height: 39px;
+  }
+
+  .pr-plans.addons .pr-card-price {
+    min-height: 0;
+  }
+
+  .pr-plans .pr-card-desc p,
+  .pr-plans .pr-card-lead p,
+  .pr-plans .pr-card-extra p,
+  .pr-plans .pr-card-price p,
+  .pr-plans .pr-feats li {
+    font-size: 14px;
+  }
+
+  .pr-plans .pr-card-ctas:not(:has(a.secondary)) {
+    margin-bottom: 24px;
+  }
+
+  .pr-plans .pr-card-more {
+    height: 24px;
+    margin-top: 42px;
+  }
+
+  .pr-plans .pr-compare h4 {
+    font-size: 16px;
+  }
+}
+
+/* cadence toggle (rendered display:none as served on live) */
+.pr-plans .pr-cadence-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.75px;
+}
+
+.pr-plans .pr-cadence p {
+  margin: 0;
+  font: inherit;
+}
+
+.pr-plans .pr-cadence-tag {
+  margin-left: 16px;
+  padding: 0.35em 0.6em 0.3em;
+  border-radius: 4px;
+  background: var(--za-lime);
+  color: var(--za-ink);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+
+/* CTA pair spacing: outlined Buy now keeps 8px under it; a lone lime Contact us is 43px (live) */
+.pr-plans .pr-card-ctas p:has(a.secondary) {
+  margin-bottom: 8px;
+}
+
+.pr-plans .pr-card-ctas:not(:has(a.secondary)) a:any-link {
+  height: 43px;
+  padding: 10px 16px;
+}
+
+.pr-plans .pr-card-ctas .pr-cta-label {
+  display: block;
+  width: 100%;
+  background-image: linear-gradient(transparent, transparent); /* LinkText box (Garden button string) */
+}

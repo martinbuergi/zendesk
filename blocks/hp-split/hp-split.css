@@ -1,0 +1,144 @@
+/* hp-split — copy column + offset media column */
+.hp-split .hp-split-row {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hp-split .hp-split-copy {
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: column;
+  align-items: stretch;
+  max-width: 100%;
+  text-align: left;
+}
+
+.hp-split .hp-split-eyebrow p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+.hp-split .hp-split-eyebrow code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  padding: 0.35em 0.6em 0.3em;
+  border-radius: 4px;
+  background: var(--za-lime);
+  color: var(--za-ink);
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.75px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hp-split .hp-linkgroup {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.hp-split .za-text + .hp-linkgroup,
+.hp-split .hp-split-title + .hp-linkgroup {
+  padding-top: 8px;
+}
+
+.hp-split .hp-linkgroup p,
+.hp-split .hp-linkgroup a.button {
+  width: 100%;
+  margin: 0;
+}
+
+.hp-split .hp-split-media {
+  flex: 0 0 100%;
+  order: 1;
+  max-width: 100%;
+  margin-top: 32px;
+}
+
+.hp-split .hp-img {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 40px;
+  line-height: 0;
+}
+
+.hp-split .hp-img :is(p, picture) {
+  margin: 0;
+}
+
+.hp-split .hp-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* wide: 5-column copy + 6-column square image (report, marketplace) */
+.hp-split.wide .hp-img {
+  border-radius: 0;
+}
+
+/* on the forest ground */
+.section.forest .hp-split .hp-split-eyebrow,
+.section.forest .hp-split .hp-split-title :is(h2, h3) {
+  color: var(--za-cream);
+}
+
+.section.forest .hp-split .za-text {
+  color: var(--za-white);
+}
+
+@media (width >= 768px) {
+  .hp-split .hp-split-copy {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 36px;
+  }
+
+  .hp-split .hp-split-media {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+    margin-top: 0;
+    margin-left: 8.3333%;
+  }
+
+  .hp-split.wide .hp-split-copy {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+  }
+
+  .hp-split.wide .hp-split-media {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .hp-split .hp-linkgroup {
+    flex-direction: row;
+    align-items: baseline;
+    width: auto;
+  }
+
+  .hp-split .hp-linkgroup p,
+  .hp-split .hp-linkgroup a.button {
+    width: auto;
+  }
+}
+
+@media (width >= 1600px) {
+  .hp-split .hp-split-copy {
+    padding-right: 12px;
+  }
+}

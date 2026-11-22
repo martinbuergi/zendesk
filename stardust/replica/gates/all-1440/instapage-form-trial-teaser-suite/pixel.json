@@ -1,0 +1,79 @@
+{
+  "a": "stardust/replica/gates/all-1440/instapage-form-trial-teaser-suite/origin.png",
+  "b": "stardust/replica/gates/all-1440/instapage-form-trial-teaser-suite/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 900,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 14390,
+  "pct": 1.11,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/instapage-form-trial-teaser-suite/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 19.76,
+  "textBoxes": 4,
+  "textPixels": 7701,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2
+    },
+    {
+      "y0": 500,
+      "y1": 900,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 1.11,
+    "differingPixels": 14390,
+    "compared": {
+      "width": 1440,
+      "height": 900,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 2,
+        "unaligned": 2
+      },
+      {
+        "y0": 500,
+        "y1": 900,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 1.11,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/instapage-form-trial-teaser-suite"
+  }
+}

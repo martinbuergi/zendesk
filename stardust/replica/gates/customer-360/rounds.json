@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "stages": {
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-21T01-05-11-445Z",
+          "at": "2026-11-21T01:05:11.446Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-21T01-24-34-370Z",
+          "at": "2026-11-21T01:24:34.371Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T01-36-55-922Z",
+          "at": "2026-11-21T01:36:55.922Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T06-53-58-233Z",
+          "at": "2026-11-21T06:53:58.236Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T07-35-07-582Z",
+          "at": "2026-11-21T07:35:07.582Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T07-43-05-440Z",
+          "at": "2026-11-21T07:43:05.440Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T07-50-33-777Z",
+          "at": "2026-11-21T07:50:33.777Z",
+          "verdict": "pass",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "cluster-listing 360 cap: offsets 158>71px — featured story card title wraps (-56 at y=1055, gen-B font metrics) and logo-carousel/promo spacing — stardust/replica/gates/all-360/customer/pixel.json",
+          "at": "2026-11-21T01:37:09.393Z",
+          "counted": 3
+        }
+      ]
+    }
+  }
+}

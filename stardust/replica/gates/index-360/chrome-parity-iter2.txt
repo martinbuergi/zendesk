@@ -1,0 +1,14 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.zendesk.com/ (live side from cache stardust/replica/gates/index-360/chrome-live.json, probed 2026-11-20T09:40:03.989Z — delete the file to re-probe)
+  build: http://localhost:8791/index-proposed.html
+
+■ header: ✓ parity — 3 paired of 3/3 texts, 1/1 icons
+  region live:  div.sc-c5fa0909-6.fsXSfT[role=complementary] — auto-detected (no usable <header> landmark), box 0,0 360×110; selector #__next > div > div:nth-of-type(1)
+  region build: div.za-promo[role=complementary] — auto-detected (no usable <header> landmark), box 0,0 360×110; selector body > div:nth-of-type(1)
+
+■ footer: ✓ parity — 25 paired of 25/25 texts, 12/12 icons
+  region live:  footer#footer-1719023883.sc-70d743a6-4.eqsTBx — outermost <footer>, box 0,13873 360×931; selector #footer-1719023883
+  region build: footer#footer — outermost <footer>, box 0,13873 360×931; selector #footer
+  advisory     REST STATE: 50 live / 0 build text(s) inside panels not shown at rest left out (live: aria-hidden 50; build: none) — --strict-names counts them
+
+✓ chrome parity within tolerance, 1 advisory group(s) — run crop-compare (pass bar item 5) to confirm in pixels.

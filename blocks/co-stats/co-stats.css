@@ -1,0 +1,126 @@
+/* co-stats — split text + stats (live Grid 4/12 | 8/12, UnorderedList with check icons, StatGroup centred) */
+.co-stats .za-col.za-text {
+  margin: 0;
+}
+
+.co-stats .co-split-body ul {
+  margin: 16px 0 32px;
+  padding: 0;
+  list-style: none;
+}
+
+.co-stats .co-split-body li {
+  position: relative;
+  margin: 12px 0;
+  padding-left: 32px;
+}
+
+.co-stats .co-split-body li:first-child {
+  margin-top: 0;
+}
+
+/* check icon (presentational, live IconContainer 16 px, padding-top 2) */
+.co-stats .co-split-body li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+  background: currentcolor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 23c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11m5.788-14.384-6.944 8.888-4.55-4.529a1 1 0 0 1 1.412-1.417l2.95 2.938 5.556-7.112a1 1 0 1 1 1.576 1.232'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+.co-stats .co-split-body p,
+.co-stats .co-copy p {
+  margin: 0 0 16px;
+}
+
+.co-stats .co-split-body a:any-link,
+.co-stats .co-copy a:any-link {
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+.co-stats .co-stat-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.co-stats .co-stat-box {
+  display: flex;
+  flex: 1 1 0;
+  justify-content: center;
+}
+
+.co-stats .co-stat {
+  color: var(--za-ink);
+  text-align: center;
+}
+
+.co-stats .co-stat-figure p {
+  margin: 0;
+  color: var(--za-ink);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1;
+}
+
+/* live .stat-char: the unit at 2/3 size, an inline box 4 px off the baseline */
+.co-stats .co-stat-unit {
+  display: inline-block;
+  margin-bottom: 4px;
+  font-size: 0.6667em;
+  line-height: 1.29;
+}
+
+.co-stats .co-stat-label p {
+  margin: 0 0 4px;
+  color: var(--za-ink);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+@media (width >= 768px) {
+  .co-stats .co-split-head {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .co-stats .co-split-body {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+  }
+
+  .co-stats .co-stat-group {
+    gap: 24px;
+  }
+
+  .co-stats .co-stat-box {
+    flex: 0 0 auto;
+  }
+
+  .co-stats .co-stat-figure p {
+    font-size: 60px;
+  }
+}
+
+@media (width >= 1150px) {
+  .co-stats .co-stat-figure p {
+    font-size: 74px;
+  }
+
+  .co-stats .co-stat-label p {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1600px) {
+  .co-stats .co-stat-figure p {
+    font-size: 92px;
+  }
+}

@@ -1,0 +1,404 @@
+/* sv-carousel — additional-resources carousel (live slick: 4.3 / 2.3 / 1.4 slides) */
+.sv-carousel.za-section { background-color: transparent; }
+
+.sv-carousel .za-eyebrow { font-stretch: condensed; }
+
+.sv-carousel .za-eyebrow p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.sv-carousel .sv-lead { display: flow-root; }
+
+.sv-carousel .sv-res-list {
+  position: relative;
+  overflow: visible;
+}
+
+.sv-carousel .sv-res-track {
+  display: flex;
+  gap: 16px;
+  transform: translateX(0);
+  transition: transform 500ms var(--za-ease);
+}
+
+.sv-carousel .sv-res-slide {
+  flex: 0 0 auto;
+  width: calc(100% / 1.4 - 0.6px);
+}
+
+.sv-carousel .sv-res-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--za-cream);
+  color: var(--za-ink);
+  font-weight: 500;
+  transition: 300ms var(--za-ease);
+}
+
+.sv-carousel .sv-res-img {
+  position: relative;
+  width: 100%;
+  line-height: 0;
+}
+
+.sv-carousel .sv-res-card .sv-ii-sizer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
+  object-fit: cover;
+}
+
+.sv-carousel .sv-res-img p { margin: 0; }
+
+.sv-carousel .sv-res-img picture { display: contents; }
+
+.sv-carousel .sv-res-card img:not(.sv-ii-sizer) {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition: 300ms var(--za-ease);
+}
+
+.sv-carousel .sv-res-card:hover,
+.sv-carousel .sv-res-card:focus-visible {
+  background: rgb(17 17 13 / 5%);
+  color: rgb(17 17 13 / 70%);
+}
+
+.sv-carousel .sv-res-card:hover img:not(.sv-ii-sizer),
+.sv-carousel .sv-res-card:focus-visible img:not(.sv-ii-sizer) { filter: brightness(0.9); }
+
+.sv-carousel .sv-res-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%;
+  padding: 32px 20px;
+  background: var(--za-cream);
+  transition: 300ms var(--za-ease);
+}
+
+.sv-carousel .sv-res-card:hover .sv-res-content,
+.sv-carousel .sv-res-card:focus-visible .sv-res-content { background: rgb(17 17 13 / 5%); }
+
+.sv-carousel .sv-res-card:active,
+.sv-carousel .sv-res-card:active .sv-res-content {
+  background: rgb(17 17 13 / 11%);
+  transition: 100ms linear;
+}
+
+.sv-carousel .sv-res-kind {
+  margin-bottom: 8px;
+  color: var(--za-ink);
+  font-weight: 700;
+  font-size: 12px;
+  font-stretch: condensed;
+  line-height: 1.3;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+
+.sv-carousel .sv-res-kind svg { flex-shrink: 0; }
+
+.sv-carousel .sv-res-content p {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.sv-carousel .sv-res-content .sv-res-kind p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sv-carousel .sv-res-title {
+  display: block;
+  margin: 0 0 8px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.sv-carousel .sv-ext { display: none; }
+
+.sv-carousel .sv-res-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin: 32px 0 0;
+  white-space: nowrap;
+}
+
+/* round icon button (.eAlObx: 56px, ::before tint) */
+.sv-carousel .sv-round {
+  position: relative;
+  display: block;
+  flex-shrink: 0;
+  padding: 16px;
+  border: none;
+  border-radius: 100%;
+  background: transparent;
+  color: var(--za-ink);
+  line-height: 0;
+  cursor: pointer;
+  transition: color 600ms var(--za-ease);
+}
+
+.sv-carousel .sv-round::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: rgb(17 17 13 / 5%);
+  transform-origin: center center;
+  transition: background-color 100ms linear, border 100ms linear, transform 100ms linear;
+}
+
+.sv-carousel .sv-round > span {
+  position: relative;
+  display: block;
+}
+
+.sv-carousel .sv-round svg {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.sv-carousel .sv-round:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.sv-carousel .sv-round:not(:disabled):hover { color: rgb(17 17 13 / 70%); }
+
+.sv-carousel .sv-round:not(:disabled):hover::before { background-color: rgb(17 17 13 / 11%); }
+
+.sv-carousel .sv-round:not(:disabled):active::before { background-color: rgb(17 17 13 / 18%); }
+
+@media (width >= 768px) {
+  .sv-carousel .sv-res-kind { font-size: 13px; }
+
+  .sv-carousel .sv-res-track { gap: 24px; }
+
+  .sv-carousel .sv-res-slide { width: calc(100% / 2.3); }
+
+  .sv-carousel .sv-res-content { padding: 32px 24px; }
+
+  .sv-carousel .sv-round:not(:disabled):hover::before { transform: scale(1.1); }
+}
+
+@media (width >= 1150px) {
+  .sv-carousel .sv-res-kind { font-size: 14px; }
+
+  .sv-carousel .sv-res-slide { width: calc(100% / 4.3); }
+
+  .sv-carousel .sv-res-title { font-size: 16px; }
+}
+
+@media (width >= 1600px) {
+  .sv-carousel .sv-res-kind { font-size: 16px; }
+
+  .sv-carousel .sv-res-track { gap: 32px; }
+}
+
+/* stylelint-disable no-descending-specificity -- sibling variants layer over the archetype rules */
+
+/* ---------- program siblings ---------- */
+
+/* band colours (tint-<name> variants, measured per page) */
+.sv-carousel.tint-white { background-color: var(--za-white); }
+.sv-carousel.tint-grey { background-color: var(--zb-grey-100); }
+
+.sv-carousel .sv-res-more p { margin: 0; }
+
+/* gen B (legacy Basestyle family): white shadowed cards — title, kind, picture, label */
+.sv-carousel.legacy .za-container { max-width: var(--zb-container); }
+
+.sv-carousel.legacy h3,
+.sv-carousel.legacy h2 {
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.sv-carousel.legacy .sv-res-card {
+  padding: 24px;
+  border-radius: 0;
+  background: var(--za-white);
+  box-shadow: 0 2px 12px rgb(3 54 61 / 12%);
+  color: var(--zb-teal-900);
+}
+
+.sv-carousel.legacy .sv-res-content {
+  display: contents;
+}
+
+.sv-carousel.legacy .sv-res-title {
+  order: 1;
+  margin-bottom: 16px;
+  font-family: var(--zb-font-head);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.sv-carousel.legacy .sv-res-more:nth-child(2) {
+  order: 2;
+  margin: 0 0 16px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.sv-carousel.legacy .sv-res-img { order: 3; }
+
+.sv-carousel.legacy .sv-res-more {
+  order: 4;
+  margin-top: 16px;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.sv-carousel.legacy .sv-res-content p {
+  color: var(--zb-teal-800);
+  font-family: var(--zb-font-body);
+}
+
+@media (width >= 768px) {
+  .sv-carousel.legacy .sv-res-slide { width: calc(100% / 3); }
+
+  .sv-carousel.legacy .sv-res-track { gap: 0; }
+
+  .sv-carousel.legacy .sv-res-slide + .sv-res-slide { padding-left: 24px; }
+}
+
+/* every card in view: no travel, no controls (live: 4 cards at >= 1150, 3 legacy cards at >= 768) */
+@media (width >= 768px) {
+  .sv-carousel.legacy .sv-res:not(:has(.sv-res-slide:nth-child(4))) .sv-res-nav { display: none; }
+}
+
+@media (width >= 1150px) {
+  .sv-carousel .sv-res:not(:has(.sv-res-slide:nth-child(5))) .sv-res-nav { display: none; }
+}
+
+/* gen B section rhythm: 64px band padding at >= 768 (live Basestyle) */
+@media (width >= 768px) {
+  .sv-carousel.legacy.za-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}
+
+.sv-carousel.legacy .sv-res-img img {
+  aspect-ratio: 0.82;
+  object-fit: cover;
+}
+
+/* stylelint-disable no-duplicate-selectors -- mobile-first layer: the narrow value overrides the shared rule above, (width >= 768px) restores it */
+
+/* gen B below 768px (live Basestyle mobile): one wide card (+ a peek), 22/30 head, 20/28 titles,
+   16px kind and link */
+.sv-carousel.legacy h3,
+.sv-carousel.legacy h2 {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.sv-carousel.legacy .sv-res-track { gap: 24px; }
+
+.sv-carousel.legacy .sv-res-slide { width: calc(100% - 19px); }
+
+.sv-carousel.legacy .sv-res-title {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.sv-carousel.legacy .sv-res-more:nth-child(2) {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.sv-carousel.legacy .sv-res-more {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+@media (width >= 768px) {
+  .sv-carousel.legacy h3,
+  .sv-carousel.legacy h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .sv-carousel.legacy .sv-res-track { gap: 0; }
+
+  .sv-carousel.legacy .sv-res-slide { width: calc(100% / 3); }
+
+  .sv-carousel.legacy .sv-res-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .sv-carousel.legacy .sv-res-more:nth-child(2) {
+    font-size: 12px;
+    line-height: inherit;
+  }
+
+  .sv-carousel.legacy .sv-res-more {
+    font-size: 14px;
+    line-height: inherit;
+  }
+}
+
+/* legacy cards below 768px (live /employee-experience/ at 360): 32px band, head 24px above the
+   cards, 317px cards 16 apart padded 32/24, 32px arrows left aligned 24px under the cards */
+@media (width < 768px) {
+  .sv-carousel.legacy.za-section {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .sv-carousel.legacy .za-row-gap.za-row-gap > * + * { margin-top: 24px; }
+
+  .sv-carousel.legacy .sv-res-track { gap: 16px; }
+
+  .sv-carousel.legacy .sv-res-slide { width: calc(100% - 11px); }
+
+  .sv-carousel.legacy .sv-res-card { padding: 32px 24px; }
+
+  .sv-carousel.legacy .sv-res-nav {
+    justify-content: flex-start;
+    gap: 16px;
+    margin-top: 24px;
+  }
+
+  .sv-carousel.legacy .sv-round { padding: 4px; }
+}

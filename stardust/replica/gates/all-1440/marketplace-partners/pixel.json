@@ -1,0 +1,162 @@
+{
+  "a": "stardust/replica/gates/all-1440/marketplace-partners/origin.png",
+  "b": "stardust/replica/gates/all-1440/marketplace-partners/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4434,
+    "mode": "overlap"
+  },
+  "heightDelta": -17,
+  "differingPixels": 234099,
+  "pct": 3.67,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/marketplace-partners/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 15.91,
+  "textBoxes": 283,
+  "textPixels": 730992,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.8
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 4.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 4.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 3.5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 3.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 5.1
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 3.5
+    },
+    {
+      "y0": 4000,
+      "y1": 4434,
+      "pct": 2.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.93,
+    "differingPixels": 187621,
+    "compared": {
+      "width": 1440,
+      "height": 4452,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 3192,
+        "shift": 18,
+        "cumulative": 18
+      },
+      {
+        "y": 3440,
+        "shift": -1,
+        "cumulative": 17
+      }
+    ],
+    "maxOffset": 18,
+    "totalShift": 19,
+    "insertedRows": 18,
+    "deletedRows": 1,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 4.6,
+        "unaligned": 4.6
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 4.6,
+        "unaligned": 4.6
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 4,
+        "unaligned": 4
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 3.5,
+        "unaligned": 3.5
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 3.9,
+        "unaligned": 3.9
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 4.5,
+        "unaligned": 5.1
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 3.5
+      },
+      {
+        "y0": 4000,
+        "y1": 4434,
+        "pct": 0,
+        "unaligned": 2.9
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/marketplace-partners/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 44,
+    "totalShift": 19,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/marketplace/partners"
+  }
+}

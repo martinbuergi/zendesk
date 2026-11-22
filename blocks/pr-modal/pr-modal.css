@@ -1,0 +1,130 @@
+/* pr-modal — hidden SSR modal content + the dialog it opens in
+   (live keyframes: backdrop lbWRkT = pr-modal-fade, dialog inDLdD = pr-modal-in) */
+.pr-modal [hidden],
+.pr-modal .pr-modal-item[hidden] {
+  display: none;
+}
+
+.pr-modal-key,
+.pr-dialog .pr-modal-key {
+  display: none;
+}
+
+body.pr-modal-open {
+  overflow: hidden;
+}
+
+.pr-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: rgb(17 17 13 / 60%);
+  animation: pr-modal-fade 0.15s ease-in;
+}
+
+.pr-backdrop .pr-dialog {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  max-height: calc(100vh - 32px);
+  overflow: auto;
+  padding: 40px 32px 32px;
+  border-radius: 20px;
+  background: var(--za-white);
+  outline: none;
+  animation: pr-modal-in 0.3s ease-in-out;
+}
+
+.pr-backdrop .pr-dialog.pr-dialog-wide {
+  max-width: 1150px;
+}
+
+.pr-backdrop .pr-dialog-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--za-ink);
+  cursor: pointer;
+}
+
+.pr-backdrop .pr-dialog-close:hover {
+  background: rgb(17 17 13 / 5%);
+}
+
+.pr-backdrop .pr-dialog-body {
+  color: var(--za-ink);
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.pr-backdrop .pr-modal-content h2 {
+  font-size: 30px;
+}
+
+.pr-backdrop .pr-modal-content p {
+  margin: 0 0 16px;
+}
+
+.pr-backdrop .pr-modal-content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0 0 24px;
+}
+
+.pr-backdrop .pr-modal-content li {
+  position: relative;
+  padding-left: 28px;
+}
+
+.pr-backdrop .pr-modal-content li::before {
+  content: "";
+  position: absolute;
+  top: 0.2em;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background-color: currentcolor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 23c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11m5.788-14.384-6.944 8.888-4.55-4.529a1 1 0 0 1 1.412-1.417l2.95 2.938 5.556-7.112a1 1 0 1 1 1.576 1.232'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+.pr-backdrop .pr-modal-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes pr-modal-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes pr-modal-in {
+  from {
+    opacity: 0;
+    transform: translateY(32px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pr-backdrop,
+  .pr-backdrop .pr-dialog {
+    animation: none;
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "a": "stardust/replica/gates/wide-2560/what-is-zendesk/origin.png",
+  "b": "stardust/replica/gates/wide-2560/what-is-zendesk/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 5846,
+    "mode": "overlap"
+  },
+  "heightDelta": 74,
+  "differingPixels": 1051101,
+  "pct": 7.02,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/wide-2560/what-is-zendesk/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.8
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 11.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 1.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 4.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 2.3
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 23.2
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 15.5
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 15.1
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 1.8
+    },
+    {
+      "y0": 5500,
+      "y1": 5846,
+      "pct": 3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.74,
+    "differingPixels": 415778,
+    "compared": {
+      "width": 2560,
+      "height": 5920,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1238,
+        "shift": -12,
+        "cumulative": -12
+      },
+      {
+        "y": 2632,
+        "shift": -22,
+        "cumulative": -34
+      },
+      {
+        "y": 3168,
+        "shift": -11,
+        "cumulative": -45
+      },
+      {
+        "y": 3594,
+        "shift": -13,
+        "cumulative": -58
+      },
+      {
+        "y": 4137,
+        "shift": -9,
+        "cumulative": -67
+      },
+      {
+        "y": 4903,
+        "shift": -7,
+        "cumulative": -74
+      }
+    ],
+    "maxOffset": 74,
+    "totalShift": 74,
+    "insertedRows": 0,
+    "deletedRows": 74,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1.7,
+        "unaligned": 1.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 3.8,
+        "unaligned": 2.2
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 2.8,
+        "unaligned": 11.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 1.1,
+        "unaligned": 1.7
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 5.8,
+        "unaligned": 4.2
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 3,
+        "unaligned": 2.3
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 7.1,
+        "unaligned": 23.2
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 3.1,
+        "unaligned": 15.5
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 2,
+        "unaligned": 15.1
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 1.5,
+        "unaligned": 1.8
+      },
+      {
+        "y0": 5500,
+        "y1": 5920,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/wide-2560/what-is-zendesk/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 59,
+    "totalShift": 74,
+    "pass": false
+  },
+  "reason": "offsets: 6 step(s), 74px total — −12px at y=1238, −22px at y=2632, −11px at y=3168, −13px at y=3594, −9px at y=4137, −7px at y=4903 (bound 59px)"
+}

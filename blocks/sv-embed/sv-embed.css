@@ -1,0 +1,441 @@
+/* sv-embed — guided-tour frame (live Storylane iframe, radius 16, 16:9) */
+.sv-embed.za-section { background-color: transparent; }
+
+.sv-embed.desktop { display: none; }
+
+.sv-embed .sv-head {
+  justify-content: center;
+  align-items: center;
+}
+
+.sv-embed .sv-head-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sv-embed .za-eyebrow { font-stretch: condensed; }
+
+.sv-embed .za-eyebrow p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.sv-embed .sv-lead { display: flow-root; }
+
+.sv-embed .sv-embed-frame {
+  position: relative;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 16px;
+}
+
+.sv-embed .sv-embed-iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 16px;
+}
+
+@media (width >= 768px) {
+  .sv-embed.desktop { display: block; }
+
+  .sv-embed .sv-head-col {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+  }
+}
+
+/* stylelint-disable no-descending-specificity -- sibling variants layer over the archetype rules */
+
+/* ---------- program siblings: split section (text | media), shared shape with sv-embed video ---------- */
+.sv-embed .sv-split {
+  align-items: center;
+  row-gap: 32px;
+}
+
+.sv-embed .sv-split-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sv-embed .sv-split-text .za-eyebrow p { margin: 0; font: inherit; color: inherit; }
+
+.sv-embed .sv-split-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-top: 8px;
+}
+
+.sv-embed .sv-split-ctas p { margin: 0; }
+
+.sv-embed .sv-split-img p,
+.sv-embed .sv-split-video p { margin: 0; }
+
+.sv-embed .sv-split-img picture { display: contents; }
+
+.sv-embed .sv-split-img img,
+.sv-embed .sv-split-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+@media (width >= 768px) {
+  .sv-embed .sv-split-text {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 36px;
+  }
+
+  .sv-embed .sv-split-media,
+  .sv-embed .sv-split-aside {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+    margin-left: 8.3333%;
+  }
+
+  .sv-embed.reverse .sv-split-media {
+    order: -1;
+    margin-left: 0;
+    margin-right: 8.3333%;
+  }
+
+  .sv-embed.reverse .sv-split-text { padding: 0 0 0 36px; }
+}
+
+/* band colours (tint-<name> variants, measured per page) */
+.sv-embed.tint-white { background-color: var(--za-white); }
+.sv-embed.tint-grey { background-color: var(--zb-grey-100); }
+.sv-embed.tint-cream { background-color: var(--za-cream); }
+.sv-embed.tint-beige { background-color: rgb(236 224 206); }
+.sv-embed.tint-yellow { background-color: rgb(254 248 220); }
+.sv-embed.tint-forest { background-color: var(--za-forest); }
+
+/* gen B (legacy Basestyle family): Sharp Sans headings, Proxima Nova body, teal ink */
+.sv-embed.legacy .za-container {
+  max-width: var(--zb-container);
+  padding: 0 var(--zb-gutter);
+}
+
+.sv-embed.legacy .za-row { margin: 0 -8px; }
+
+.sv-embed.legacy .za-col { padding: 0 8px; }
+
+.sv-embed.legacy :is(h1, h2, h3, h4, h5) {
+  margin: 0 0 16px;
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.sv-embed.legacy :is(h4, h5) {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.sv-embed.legacy .za-eyebrow,
+.sv-embed.legacy .za-eyebrow :is(h2, h3, p) {
+  margin: 0 0 8px;
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.sv-embed.legacy :is(p, li) {
+  color: var(--zb-teal-800);
+  font-family: var(--zb-font-body);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.sv-embed.legacy .sv-split-img img,
+.sv-embed.legacy .sv-split-video video { border-radius: 0; }
+
+.sv-embed.legacy .sv-split-ctas a:any-link:not(.button) {
+  color: var(--zb-teal-800);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+@media (width >= 768px) {
+  .sv-embed.legacy .sv-split-text {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+    padding: 0 8px;
+  }
+
+  .sv-embed.legacy .sv-split-media {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: 8.3333%;
+    text-align: center;
+  }
+
+  .sv-embed.legacy.reverse .sv-split-media { margin: 0 8.3333% 0 0; }
+
+  .sv-embed.legacy .sv-split-img img {
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .sv-embed.legacy :is(h1, h2, h3) {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .sv-embed.legacy :is(h4, h5) {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+/* video media: poster + play control (swaps in the Wistia player), or the player itself */
+.sv-embed .sv-split-frame { position: relative; }
+
+.sv-embed .sv-split-play {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sv-embed .sv-split-play p { margin: 0; }
+
+.sv-embed .sv-split-play a:any-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: rgb(84 187 255 / 90%);
+  color: var(--za-white);
+  font-size: 0;
+}
+
+.sv-embed .sv-split-play svg {
+  width: 32px;
+  height: 32px;
+}
+
+.sv-embed .sv-split-frame.is-playing .sv-split-play,
+.sv-embed .sv-split-frame.is-playing .sv-split-img { visibility: hidden; }
+
+.sv-embed .sv-split-iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* aside box under the split (legacy "Try Sell for yourself") */
+.sv-embed .sv-split-box {
+  padding: 40px 32px;
+  background-color: rgb(236 224 206);
+}
+
+.sv-embed .sv-split-box .sv-split-text {
+  flex: none;
+  max-width: none;
+  padding: 0;
+}
+
+@media (width >= 768px) {
+  .sv-embed .sv-split-box { padding: 56px 64px; }
+
+  .sv-embed .sv-split-box .sv-split-text {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 64px;
+    align-items: center;
+  }
+
+  .sv-embed .sv-split-box .sv-split-text > :not(.sv-split-ctas) { grid-column: 1; }
+
+  .sv-embed .sv-split-box .sv-split-ctas {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+  }
+}
+
+@media (width >= 1200px) {
+  .sv-embed.legacy :is(h1, h2, h3) {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .sv-embed.legacy .sv-tabs-panel h3,
+  .sv-embed.legacy .sv-tabs-tour h3,
+  .sv-embed.legacy .sv-split-box h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.sv-embed.legacy .sv-split-box h2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+/* gen B section rhythm: 64px band padding at >= 768 (live Basestyle) */
+@media (width >= 768px) {
+  .sv-embed.legacy.za-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}
+
+/* stylelint-disable no-duplicate-selectors -- mobile-first layer: the narrow value overrides the shared rule above, (width >= 768px) restores it */
+
+/* gen B below 768px (live Basestyle mobile): 40px band padding, media above the text, 34/42 headings
+   24px under, eyebrow flush on the heading; the aside box centered with a full-width button */
+.sv-embed.legacy.za-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.sv-embed.legacy .sv-split { row-gap: 34px; }
+
+.sv-embed.legacy .sv-split-media { order: -1; }
+
+.sv-embed.legacy :is(h1, h2, h3) {
+  margin-bottom: 24px;
+  font-size: 34px;
+  line-height: 42px;
+}
+
+.sv-embed.legacy .za-eyebrow :is(h2, h3, p) { margin-bottom: 0; }
+
+.sv-embed.legacy .sv-split-box {
+  margin-top: -16px;
+  padding: 40px 24px;
+}
+
+.sv-embed.legacy .sv-split-box .sv-split-text {
+  align-items: stretch;
+  text-align: center;
+}
+
+.sv-embed.legacy .sv-split-box h2 {
+  margin-bottom: 16px;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.sv-embed.legacy .sv-split-box .sv-split-ctas { padding-top: 16px; }
+
+.sv-embed.legacy .sv-split-box .sv-split-ctas p { flex: 1 1 100%; }
+
+@media (width >= 768px) {
+  .sv-embed.legacy.za-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .sv-embed.legacy:not(.reverse) .sv-split-media { order: 0; }
+
+  .sv-embed.legacy :is(h1, h2, h3) {
+    margin-bottom: 16px;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .sv-embed.legacy .za-eyebrow :is(h2, h3, p) { margin-bottom: 8px; }
+
+  .sv-embed.legacy .sv-split-box {
+    margin-top: var(--za-row-gap);
+    padding: 56px 64px;
+  }
+
+  .sv-embed.legacy .sv-split-box .sv-split-text {
+    align-items: center;
+    text-align: inherit;
+  }
+
+  .sv-embed.legacy .sv-split-box h2 {
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .sv-embed.legacy .sv-split-box .sv-split-ctas { padding-top: 8px; }
+
+  .sv-embed.legacy .sv-split-box .sv-split-ctas p { flex: 0 1 auto; }
+}
+
+@media (width >= 1200px) {
+  .sv-embed.legacy :is(h1, h2, h3) {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .sv-embed.legacy .sv-split-box h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+/* gen A text-link CTA (live AEM button of type "link", kept a plain link by the encoder): 18px
+   semibold ink, 31px tall */
+.sv-embed:not(.legacy) .sv-split-ctas a:any-link:not(.button) {
+  display: inline-block;
+  padding-bottom: 3.6px;
+  color: var(--za-ink);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28.5px;
+  text-decoration: none;
+}
+
+/* the video band after the legacy logos hero (live /employee-experience/ at 360): 32px padding */
+@media (width < 768px) {
+  main > .section:has(.sv-hero.legacy.logos) + .section .sv-embed.legacy.za-section {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+/* the legacy video bands after the legacy video hero below 768px (live /sell/ at 360): 32px band
+   padding and row gap, inline videos (3px line tail), 18/28 text links flush under the body; the
+   aside box 32px under the text, 32px padding */
+@media (width < 768px) {
+  main:has(.sv-hero.legacy.video) .sv-embed.legacy.za-section {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  main:has(.sv-hero.legacy.video) .sv-embed.legacy .sv-split { row-gap: 32px; }
+
+  main:has(.sv-hero.legacy.video) .sv-embed.legacy .sv-split-video { padding-bottom: 3px; }
+
+  main:has(.sv-hero.legacy.video) .sv-embed.legacy .sv-split .sv-split-ctas { padding-top: 0; }
+
+  main:has(.sv-hero.legacy.video) .sv-embed.legacy .sv-split .sv-split-ctas p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  main:has(.sv-hero.legacy.video) .sv-embed.legacy .sv-split-box {
+    margin-top: 32px;
+    padding: 32px 24px;
+  }
+}

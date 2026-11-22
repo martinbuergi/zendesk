@@ -1,0 +1,133 @@
+/* fm-cta — form-template closing band (live /free-trial/: ink ground + moss glow, badges row) */
+.fm-cta.za-section {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--za-ink);
+}
+
+.fm-cta .fm-cta-glow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(115% 115% at 50% 100%, rgb(53 94 52) 10%, transparent 100%);
+}
+
+.fm-cta .fm-cta-rel {
+  position: relative;
+}
+
+.fm-cta .fm-cta-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.fm-cta .fm-cta-h :is(h1, h2, h3) {
+  margin: 0 0 24px;
+  color: var(--za-cream);
+}
+
+.fm-cta .fm-cta-links {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  padding-top: 8px;
+}
+
+.fm-cta .fm-cta-links p {
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+.fm-cta .fm-cta-links a:any-link {
+  width: 100%;
+}
+
+.fm-cta .fm-cta-text p {
+  margin: 0;
+  color: var(--za-white);
+  font-size: 16px;
+  line-height: 23.2px;
+}
+
+.fm-cta .fm-cta-text {
+  margin-top: 32px;
+}
+
+.fm-cta .fm-cta-text.fm-cta-check {
+  margin-top: 16px;
+}
+
+.fm-cta .fm-cta-check p {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+/* decorative check mark (live: lime-filled circle tick before the line) */
+.fm-cta .fm-cta-check p::before {
+  content: "";
+  flex: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--za-cream) url("/blocks/fm-cta/fm-cta-check.svg") center / 16px no-repeat;
+}
+
+.fm-cta .fm-cta-text a:any-link {
+  color: var(--za-white);
+  font-weight: 600;
+  text-decoration: underline 1px;
+  text-underline-offset: 0.15em;
+}
+
+.fm-cta .fm-cta-badges {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-top: 80px;
+}
+
+.fm-cta .fm-cta-badges p {
+  margin: 0;
+  line-height: 0;
+}
+
+.fm-cta .fm-cta-badges img {
+  display: block;
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+}
+
+@media (width >= 768px) {
+  .fm-cta .fm-cta-links {
+    flex-direction: row;
+    width: auto;
+  }
+
+  .fm-cta .fm-cta-links p,
+  .fm-cta .fm-cta-links a:any-link {
+    width: auto;
+  }
+
+  .fm-cta .fm-cta-badges {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+
+@media (width >= 1150px) {
+  .fm-cta .fm-cta-badges {
+    margin-top: 98px;
+  }
+}

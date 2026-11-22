@@ -1,0 +1,4262 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-20T11:43:55.752Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-21T18:57:58.712Z",
+  "pages": [
+    {
+      "slug": "blog",
+      "path": "/blog",
+      "title": "Customer experience, support and sales blog | Zendesk",
+      "templateId": "blog",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/index.html",
+        "metaJson": "stardust/migrated/blog/_meta.json",
+        "sourceHash": "sha256:3aa03df423b10aa9b3ffbe5ccde6ee9325f55601e6df1c33cbdff987a852dcff",
+        "sourceUrl": "https://www.zendesk.com/blog/"
+      },
+      "blocks": [
+        "card-grid",
+        "accordion-faq",
+        "carousel",
+        "sticker-badge"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/blog",
+        "deployedAt": "2026-11-20T13:34:29.040Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.38,
+          "heightDelta": 0,
+          "clipped": 11,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": [
+              "[data-nav-item=\"global-promo-eyebrow-root\"]"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "blog-ads-api-output",
+      "path": "/blog-ads-api-output",
+      "title": "blog-ads-api-output",
+      "templateId": "unique",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/blog-ads-api-output/index.html",
+        "metaJson": "stardust/migrated/blog-ads-api-output/_meta.json",
+        "sourceHash": "sha256:9c4518a7288770dedc2e6c3e004f6084634656dd6e81223f67ea2e8f49015817",
+        "currentStatePath": "stardust/current/pages/blog-ads-api-output.json",
+        "sourceUrl": "https://www.zendesk.com/blog-ads-api-output/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/blog-ads-api-output",
+        "deployedAt": "2026-11-21T17:50:10.857Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "company",
+      "path": "/company",
+      "title": "About Zendesk",
+      "templateId": "company",
+      "source": {
+        "migratedHtml": "stardust/migrated/company/index.html",
+        "metaJson": "stardust/migrated/company/_meta.json",
+        "sourceHash": "sha256:8fb526c1ed37c872163114c215d820c593c9804838fc8f4fc909b109665f0684",
+        "sourceUrl": "https://www.zendesk.com/company/"
+      },
+      "blocks": [
+        "accordion-faq",
+        "carousel",
+        "link-card"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/company",
+        "deployedAt": "2026-11-20T13:23:38.368Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.15,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "contact",
+      "path": "/contact",
+      "title": "Contact us",
+      "templateId": "contact",
+      "source": {
+        "migratedHtml": "stardust/migrated/contact/index.html",
+        "metaJson": "stardust/migrated/contact/_meta.json",
+        "sourceHash": "sha256:ef25d7a66cb30ae3707cca40a34b5c3d05d0e4832fafa013f100024a8386ab67",
+        "sourceUrl": "https://www.zendesk.com/contact/"
+      },
+      "blocks": [
+        "form-choice-tiles"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/contact",
+        "deployedAt": "2026-11-20T13:45:01.964Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.13,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer",
+      "path": "/customer",
+      "title": "Customers - What Companies Use to Service You | Zendesk",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/index.html",
+        "metaJson": "stardust/migrated/customer/_meta.json",
+        "sourceHash": "sha256:08d725844d4b91c79bf118823e1d87870edeaaa3eb7933601e9377fe33fe3534",
+        "currentStatePath": "stardust/current/pages/customer.json",
+        "sourceUrl": "https://www.zendesk.com/customer/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer",
+        "deployedAt": "2026-11-20T23:25:14.784Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.6,
+          "heightDelta": -13,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 4,
+            "hiddenButtons": 0,
+            "findings": 13,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-action-property-management",
+      "path": "/customer/action-property-management",
+      "title": "Zendesk AI helps Action Property Management homeowners love where they live",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/action-property-management/index.html",
+        "metaJson": "stardust/migrated/customer/action-property-management/_meta.json",
+        "sourceHash": "sha256:b0f85d014de731b800ce5cde3dfe24c69009ebc3ea972ae3d7eb8c03713e1399",
+        "currentStatePath": "stardust/current/pages/customer-action-property-management.json",
+        "sourceUrl": "https://www.zendesk.com/customer/action-property-management/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/action-property-management",
+        "deployedAt": "2026-11-20T21:26:16.832Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.39,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-asaas",
+      "path": "/customer/asaas",
+      "title": "Asaas transforms complexity into confidence with Zendesk Copilot",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/asaas/index.html",
+        "metaJson": "stardust/migrated/customer/asaas/_meta.json",
+        "sourceHash": "sha256:4481afe746356c2bf1ae67595fc96654e29396850861430ccbb01a1107f94ae2",
+        "currentStatePath": "stardust/current/pages/customer-asaas.json",
+        "sourceUrl": "https://www.zendesk.com/customer/asaas/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/asaas",
+        "deployedAt": "2026-11-20T16:24:07.017Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.05,
+          "heightDelta": 3,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-babbel",
+      "path": "/customer/babbel",
+      "title": "Zendesk AI speaks Babbel’s language",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/babbel/index.html",
+        "metaJson": "stardust/migrated/customer/babbel/_meta.json",
+        "sourceHash": "sha256:125cca099fa7c58481159d815d601c86d7582a82f0af1dea908caa7a94abe21e",
+        "currentStatePath": "stardust/current/pages/customer-babbel.json",
+        "sourceUrl": "https://www.zendesk.com/customer/babbel/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/babbel",
+        "deployedAt": "2026-11-20T21:26:16.698Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.28,
+          "heightDelta": -41,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-ballys",
+      "path": "/customer/ballys",
+      "title": "Bally's",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/ballys/index.html",
+        "metaJson": "stardust/migrated/customer/ballys/_meta.json",
+        "sourceHash": "sha256:4afc08b3898267406116cf4318bcccbaef062ca5c273ccb2ea47523a1a0e8bbc",
+        "currentStatePath": "stardust/current/pages/customer-ballys.json",
+        "sourceUrl": "https://www.zendesk.com/customer/ballys/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/ballys",
+        "deployedAt": "2026-11-20T21:26:16.501Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.36,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-benevity",
+      "path": "/customer/benevity",
+      "title": "Benevity transforms ticket triaging with Zendesk AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/benevity/index.html",
+        "metaJson": "stardust/migrated/customer/benevity/_meta.json",
+        "sourceHash": "sha256:8315c8aa982c5b2656fc3fc5dfc4fb5bd18ff768fb0df9b1161e9ea44f23b84a",
+        "currentStatePath": "stardust/current/pages/customer-benevity.json",
+        "sourceUrl": "https://www.zendesk.com/customer/benevity/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/benevity",
+        "deployedAt": "2026-11-20T21:42:29.359Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.4,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-betmgm-brasil",
+      "path": "/customer/betmgm-brasil",
+      "title": "BetMGM Brasil doubles down on the player experience with Zendesk AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/betmgm-brasil/index.html",
+        "metaJson": "stardust/migrated/customer/betmgm-brasil/_meta.json",
+        "sourceHash": "sha256:7f9ce3719cc8090cc8d7bcee6223c814b4b72aac8151bb87a77b20dbd0a12310",
+        "currentStatePath": "stardust/current/pages/customer-betmgm-brasil.json",
+        "sourceUrl": "https://www.zendesk.com/customer/betmgm-brasil/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/betmgm-brasil",
+        "deployedAt": "2026-11-20T17:40:59.665Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.17,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-bgl",
+      "path": "/customer/bgl",
+      "title": "BGL handles rapid growth with Zendesk AI-powered customer support",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/bgl/index.html",
+        "metaJson": "stardust/migrated/customer/bgl/_meta.json",
+        "sourceHash": "sha256:2b06a1c97dcbb6d9e6f0725aa8272c21648ded178017f8222abfdcaf68d764da",
+        "currentStatePath": "stardust/current/pages/customer-bgl.json",
+        "sourceUrl": "https://www.zendesk.com/customer/bgl/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/bgl",
+        "deployedAt": "2026-11-20T14:13:50.839Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.1,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-britbox",
+      "path": "/customer/britbox",
+      "title": "How BritBox maintains white-glove CX with Zendesk AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/britbox/index.html",
+        "metaJson": "stardust/migrated/customer/britbox/_meta.json",
+        "sourceHash": "sha256:b8a43e81a66af5adc80d2de7f4c4e0e558b0813921c3ae83f18f6a9087038f2e",
+        "currentStatePath": "stardust/current/pages/customer-britbox.json",
+        "sourceUrl": "https://www.zendesk.com/customer/britbox/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/britbox",
+        "deployedAt": "2026-11-20T20:10:01.059Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.8,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-canva",
+      "path": "/customer/canva",
+      "title": "Canva turns customer insights into action with Zendesk",
+      "templateId": "customer-canva",
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/canva/index.html",
+        "metaJson": "stardust/migrated/customer/canva/_meta.json",
+        "sourceHash": "sha256:3140c49b689a803ec1c3fbde73eba171d6dbe530992343f17aa63c85ea19f623",
+        "sourceUrl": "https://www.zendesk.com/customer/canva/"
+      },
+      "blocks": [
+        "customer-story-stats",
+        "newsletter-signup-legacy",
+        "logo-row",
+        "stat-row",
+        "pull-quote",
+        "card-grid",
+        "video-link"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/canva",
+        "deployedAt": "2026-11-20T12:33:06.925Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.1,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-catapult",
+      "path": "/customer/catapult",
+      "title": "Catapult offers elite CX performance with Zendesk AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/catapult/index.html",
+        "metaJson": "stardust/migrated/customer/catapult/_meta.json",
+        "sourceHash": "sha256:2105af4e3b85bf631541b8d33d15d9efcb1ce9a26f76bb71e34108b2cec256ea",
+        "currentStatePath": "stardust/current/pages/customer-catapult.json",
+        "sourceUrl": "https://www.zendesk.com/customer/catapult/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/catapult",
+        "deployedAt": "2026-11-20T18:47:36.331Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.1,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-coco-republic",
+      "path": "/customer/coco-republic",
+      "title": "Coco Republic elevates luxury service with Contact Center",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/coco-republic/index.html",
+        "metaJson": "stardust/migrated/customer/coco-republic/_meta.json",
+        "sourceHash": "sha256:17c7d26561cc03a1e5187269ba1be9316d373ef5e898062d39c547b28455f1f9",
+        "currentStatePath": "stardust/current/pages/customer-coco-republic.json",
+        "sourceUrl": "https://www.zendesk.com/customer/coco-republic/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/coco-republic",
+        "deployedAt": "2026-11-20T18:47:36.557Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.25,
+          "heightDelta": -8,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-deputy",
+      "path": "/customer/deputy",
+      "title": "Deputy builds an AI-first support experience with Zendesk",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/deputy/index.html",
+        "metaJson": "stardust/migrated/customer/deputy/_meta.json",
+        "sourceHash": "sha256:cee933c9fb3f934d2ecf8d11d0212cfbb9700bd545bbd0648c30a3c546379038",
+        "currentStatePath": "stardust/current/pages/customer-deputy.json",
+        "sourceUrl": "https://www.zendesk.com/customer/deputy/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/deputy",
+        "deployedAt": "2026-11-20T16:24:06.743Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.18,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-dfin",
+      "path": "/customer/dfin",
+      "title": "DFIN unifies service and drives 80 percent first-call resolution with Zendesk",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/dfin/index.html",
+        "metaJson": "stardust/migrated/customer/dfin/_meta.json",
+        "sourceHash": "sha256:b5cb5934aecac52ced45a222f7435b8fdf746d28198d5dfbdf9f53387a7bdbca",
+        "currentStatePath": "stardust/current/pages/customer-dfin.json",
+        "sourceUrl": "https://www.zendesk.com/customer/dfin/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/dfin",
+        "deployedAt": "2026-11-20T14:13:50.729Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.07,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 9,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-docebo",
+      "path": "/customer/docebo",
+      "title": "Docebo enhances B2B CX with Zendesk AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/docebo/index.html",
+        "metaJson": "stardust/migrated/customer/docebo/_meta.json",
+        "sourceHash": "sha256:94fd91945c95e355cadddb1f87377b17bca8916930fb4fdb63d7a9136f2a6dce",
+        "currentStatePath": "stardust/current/pages/customer-docebo.json",
+        "sourceUrl": "https://www.zendesk.com/customer/docebo/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/docebo",
+        "deployedAt": "2026-11-20T18:47:36.772Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.79,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-dupage-county",
+      "path": "/customer/dupage-county",
+      "title": "DuPage County modernizes employee support and CX with Zendesk AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/dupage-county/index.html",
+        "metaJson": "stardust/migrated/customer/dupage-county/_meta.json",
+        "sourceHash": "sha256:d314305f08a28aee8c12021ad51ab1e185f5cf6c43b0c3a596e52656fc9bb773",
+        "currentStatePath": "stardust/current/pages/customer-dupage-county.json",
+        "sourceUrl": "https://www.zendesk.com/customer/dupage-county/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/dupage-county",
+        "deployedAt": "2026-11-20T21:26:16.574Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.24,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-easyfundraising",
+      "path": "/customer/easyfundraising",
+      "title": "How easyfundraising's six-person team supports millions with Zendesk AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/easyfundraising/index.html",
+        "metaJson": "stardust/migrated/customer/easyfundraising/_meta.json",
+        "sourceHash": "sha256:bff35f67a10a0de1f05cc8636e95fdb2a73f8dc23c4f120e1d6ff09da3b9157b",
+        "currentStatePath": "stardust/current/pages/customer-easyfundraising.json",
+        "sourceUrl": "https://www.zendesk.com/customer/easyfundraising/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/easyfundraising",
+        "deployedAt": "2026-11-20T21:26:16.904Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.11,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-envato",
+      "path": "/customer/envato",
+      "title": "Envato cuts first reply time with Zendesk AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/envato/index.html",
+        "metaJson": "stardust/migrated/customer/envato/_meta.json",
+        "sourceHash": "sha256:712d71451ee86e595930ad4885f2cb6d3903499a862679257d0551ab6645ef10",
+        "currentStatePath": "stardust/current/pages/customer-envato.json",
+        "sourceUrl": "https://www.zendesk.com/customer/envato/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/envato",
+        "deployedAt": "2026-11-20T18:47:36.665Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.12,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-five-iron-golf",
+      "path": "/customer/five-iron-golf",
+      "title": "Five Iron Golf unifies customer conversations with Zendesk Contact Center",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/five-iron-golf/index.html",
+        "metaJson": "stardust/migrated/customer/five-iron-golf/_meta.json",
+        "sourceHash": "sha256:3837c3482731c1950ed3e2414f19b6b419d40da4ebb765401aba7d8a88e1d1b5",
+        "currentStatePath": "stardust/current/pages/customer-five-iron-golf.json",
+        "sourceUrl": "https://www.zendesk.com/customer/five-iron-golf/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/five-iron-golf",
+        "deployedAt": "2026-11-20T20:10:00.524Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.99,
+          "heightDelta": -48,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-furnished-finder",
+      "path": "/customer/furnished-finder",
+      "title": "Inside Furnished Finder’s human-centered approach to AI in customer support",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/furnished-finder/index.html",
+        "metaJson": "stardust/migrated/customer/furnished-finder/_meta.json",
+        "sourceHash": "sha256:1eb21aee46f6d945d87ab403ea7ac9d77e8e819a719dfd224402f2388fb7e522",
+        "currentStatePath": "stardust/current/pages/customer-furnished-finder.json",
+        "sourceUrl": "https://www.zendesk.com/customer/furnished-finder/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/furnished-finder",
+        "deployedAt": "2026-11-20T18:47:36.977Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.1,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-github-es",
+      "path": "/customer/github-es",
+      "title": "GitHub makes Zendesk the foundation of elevated employee service",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/github-es/index.html",
+        "metaJson": "stardust/migrated/customer/github-es/_meta.json",
+        "sourceHash": "sha256:83fb823ef90c4184dc3e074d0c31769105ee2e283730001f1bd934a89251ac77",
+        "currentStatePath": "stardust/current/pages/customer-github-es.json",
+        "sourceUrl": "https://www.zendesk.com/customer/github-es/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/github-es",
+        "deployedAt": "2026-11-20T20:10:00.624Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.16,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-givedirectly",
+      "path": "/customer/givedirectly",
+      "title": "GiveDirectly speeds up disaster response with Zendesk",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/givedirectly/index.html",
+        "metaJson": "stardust/migrated/customer/givedirectly/_meta.json",
+        "sourceHash": "sha256:538634bafb8c6fc178636c12b4a9c1e664b33b2d57b6ffd389bbfb5d29afbd41",
+        "currentStatePath": "stardust/current/pages/customer-givedirectly.json",
+        "sourceUrl": "https://www.zendesk.com/customer/givedirectly/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/givedirectly",
+        "deployedAt": "2026-11-20T17:40:59.412Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.1,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-inshur",
+      "path": "/customer/inshur",
+      "title": "The policy behind the promise: INSHUR’s CX transformation with Zendesk",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/inshur/index.html",
+        "metaJson": "stardust/migrated/customer/inshur/_meta.json",
+        "sourceHash": "sha256:91825959b11aab194739e47bd8bb47ec8fe3f5452ebc3c858ebc25acf2be592d",
+        "currentStatePath": "stardust/current/pages/customer-inshur.json",
+        "sourceUrl": "https://www.zendesk.com/customer/inshur/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/inshur",
+        "deployedAt": "2026-11-20T20:10:00.842Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.42,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-irc-video",
+      "path": "/customer/irc-video",
+      "title": "IRC Video",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/irc-video/index.html",
+        "metaJson": "stardust/migrated/customer/irc-video/_meta.json",
+        "sourceHash": "sha256:d41df224e59c0ef92ab3f8fdd8319014ebfdf45a3a5f36ccc3bf43cca127daf6",
+        "currentStatePath": "stardust/current/pages/customer-irc-video.json",
+        "sourceUrl": "https://www.zendesk.com/customer/irc-video/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/irc-video",
+        "deployedAt": "2026-11-20T20:30:09.067Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.28,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "units off 0 hidden 0 missing 0"
+          ],
+          "override": "PASS",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-koho",
+      "path": "/customer/koho",
+      "title": "KOHO saves $8M with Forethought Voice",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/koho/index.html",
+        "metaJson": "stardust/migrated/customer/koho/_meta.json",
+        "sourceHash": "sha256:75ad7dea855057900170fd2db10c052884914deb2923a3c11ba9f4dd7f3bafb1",
+        "currentStatePath": "stardust/current/pages/customer-koho.json",
+        "sourceUrl": "https://www.zendesk.com/customer/koho/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/koho",
+        "deployedAt": "2026-11-20T14:13:50.786Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.11,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-liberty-qa",
+      "path": "/customer/liberty-qa",
+      "title": "How Liberty uses Zendesk QA to provide luxury customer service",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/liberty-qa/index.html",
+        "metaJson": "stardust/migrated/customer/liberty-qa/_meta.json",
+        "sourceHash": "sha256:72481118a742a5d16d31309782c361bf590a7ae62aa515f69e07f955a3c56b84",
+        "currentStatePath": "stardust/current/pages/customer-liberty-qa.json",
+        "sourceUrl": "https://www.zendesk.com/customer/liberty-qa/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/liberty-qa",
+        "deployedAt": "2026-11-20T20:30:10.294Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.78,
+          "heightDelta": 10,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 8,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-liberty-tax",
+      "path": "/customer/liberty-tax",
+      "title": "Liberty Tax scales seasonal support with Zendesk AI agents",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/liberty-tax/index.html",
+        "metaJson": "stardust/migrated/customer/liberty-tax/_meta.json",
+        "sourceHash": "sha256:e42a621da78c77fdf4dc6a1e2a690656e57dfc6630f9337e91da7fc3ca77f685",
+        "currentStatePath": "stardust/current/pages/customer-liberty-tax.json",
+        "sourceUrl": "https://www.zendesk.com/customer/liberty-tax/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/liberty-tax",
+        "deployedAt": "2026-11-20T16:24:07.151Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.23,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-lucid-software-ai",
+      "path": "/customer/lucid-software-ai",
+      "title": "Lucid Software scales support for 100 million users with Zendesk AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/lucid-software-ai/index.html",
+        "metaJson": "stardust/migrated/customer/lucid-software-ai/_meta.json",
+        "sourceHash": "sha256:4c49f42647e6c42877c47bea21f4c5dfd95c866c1f80d107acebb00c8007b326",
+        "currentStatePath": "stardust/current/pages/customer-lucid-software-ai.json",
+        "sourceUrl": "https://www.zendesk.com/customer/lucid-software-ai/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/lucid-software-ai",
+        "deployedAt": "2026-11-20T20:10:00.302Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.1,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-lucid-software-es",
+      "path": "/customer/lucid-software-es",
+      "title": "Lucid Software builds trust at scale with Zendesk for Employee Service",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/lucid-software-es/index.html",
+        "metaJson": "stardust/migrated/customer/lucid-software-es/_meta.json",
+        "sourceHash": "sha256:faba3db2c6a9e28e5b7c920e5ea898955cb11af9b356b5a8901d282779a13fab",
+        "currentStatePath": "stardust/current/pages/customer-lucid-software-es.json",
+        "sourceUrl": "https://www.zendesk.com/customer/lucid-software-es/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/lucid-software-es",
+        "deployedAt": "2026-11-20T18:47:36.445Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.11,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-madeiramadeira",
+      "path": "/customer/madeiramadeira",
+      "title": "MadeiraMadeira transforms CX with Zendesk AI agents",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/madeiramadeira/index.html",
+        "metaJson": "stardust/migrated/customer/madeiramadeira/_meta.json",
+        "sourceHash": "sha256:56abc3b2d8f7432e132b09182289cb6c649e81248afedbe0d93876d5c635a67d",
+        "currentStatePath": "stardust/current/pages/customer-madeiramadeira.json",
+        "sourceUrl": "https://www.zendesk.com/customer/madeiramadeira/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/madeiramadeira",
+        "deployedAt": "2026-11-20T14:13:50.466Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.37,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-miko",
+      "path": "/customer/miko",
+      "title": "Miko uses AI to scale CX for high growth and assist busy agents",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/miko/index.html",
+        "metaJson": "stardust/migrated/customer/miko/_meta.json",
+        "sourceHash": "sha256:2b5f33adc48f0d1c0ffd595c0db484ce04d43dedab44fc573183f24d46939649",
+        "currentStatePath": "stardust/current/pages/customer-miko.json",
+        "sourceUrl": "https://www.zendesk.com/customer/miko/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/miko",
+        "deployedAt": "2026-11-20T20:30:11.096Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.97,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-mimecast",
+      "path": "/customer/mimecast",
+      "title": "Mimecast transforms customer support with Zendesk AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/mimecast/index.html",
+        "metaJson": "stardust/migrated/customer/mimecast/_meta.json",
+        "sourceHash": "sha256:40a75336ec5e8ec03f231bcf52c4df3f6a47402b0095a26a76888af8f29d189f",
+        "currentStatePath": "stardust/current/pages/customer-mimecast.json",
+        "sourceUrl": "https://www.zendesk.com/customer/mimecast/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/mimecast",
+        "deployedAt": "2026-11-20T14:13:50.680Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.04,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-motel-rocks",
+      "path": "/customer/motel-rocks",
+      "title": "Motel sees self-service climb by 3X and faster ticket handling with Zendesk AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/motel-rocks/index.html",
+        "metaJson": "stardust/migrated/customer/motel-rocks/_meta.json",
+        "sourceHash": "sha256:c3b4874fc001810aecab6b7a2fd450dfc20995a25b7b851e5953cfe734144868",
+        "currentStatePath": "stardust/current/pages/customer-motel-rocks.json",
+        "sourceUrl": "https://www.zendesk.com/customer/motel-rocks/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/motel-rocks",
+        "deployedAt": "2026-11-20T20:30:09.493Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.18,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-motiva",
+      "path": "/customer/motiva",
+      "title": "How Motiva is building an omnichannel operation with Zendesk AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/motiva/index.html",
+        "metaJson": "stardust/migrated/customer/motiva/_meta.json",
+        "sourceHash": "sha256:4e92dd390fc309fc05dc420c69471c0730ba45d6717de513d2246fa4f244dac1",
+        "currentStatePath": "stardust/current/pages/customer-motiva.json",
+        "sourceUrl": "https://www.zendesk.com/customer/motiva/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/motiva",
+        "deployedAt": "2026-11-20T16:24:07.213Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.07,
+          "heightDelta": 4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-nortek",
+      "path": "/customer/nortek",
+      "title": "How Nortek is using AI to make more time for customers",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/nortek/index.html",
+        "metaJson": "stardust/migrated/customer/nortek/_meta.json",
+        "sourceHash": "sha256:e7a437e8468559578f72ed5af4afe7fa3baff7876f1215f6447c48ff41a540d4",
+        "currentStatePath": "stardust/current/pages/customer-nortek.json",
+        "sourceUrl": "https://www.zendesk.com/customer/nortek/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/nortek",
+        "deployedAt": "2026-11-20T14:13:50.579Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.18,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [
+            "units off 0 hidden 0 missing 0"
+          ],
+          "override": "PASS",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-odeon-cinemas",
+      "path": "/customer/odeon-cinemas",
+      "title": "ODEON Cinemas delivers boffo results with Zendesk AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/odeon-cinemas/index.html",
+        "metaJson": "stardust/migrated/customer/odeon-cinemas/_meta.json",
+        "sourceHash": "sha256:c539314047936d62a9de62c7dbd3ab342291b56cb94ed3332e71951f9ab25b39",
+        "currentStatePath": "stardust/current/pages/customer-odeon-cinemas.json",
+        "sourceUrl": "https://www.zendesk.com/customer/odeon-cinemas/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/odeon-cinemas",
+        "deployedAt": "2026-11-20T20:10:00.945Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.06,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-perk-es",
+      "path": "/customer/perk-es",
+      "title": "Perk scales employee service with Zendesk + HiBob without losing the human touch",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/perk-es/index.html",
+        "metaJson": "stardust/migrated/customer/perk-es/_meta.json",
+        "sourceHash": "sha256:fb7addd152440c417c56af29a354591286c502517d1b906d1b7cdaadf96d56a7",
+        "currentStatePath": "stardust/current/pages/customer-perk-es.json",
+        "sourceUrl": "https://www.zendesk.com/customer/perk-es/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/perk-es",
+        "deployedAt": "2026-11-20T16:24:06.913Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.1,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-petstock",
+      "path": "/customer/petstock",
+      "title": "Petstock modernizes telephony with Zendesk Contact Center",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/petstock/index.html",
+        "metaJson": "stardust/migrated/customer/petstock/_meta.json",
+        "sourceHash": "sha256:2e60d116468ff95a7e4c5dbe8e0d281c9b94141a6fb7241d4cc7402c1d7428d1",
+        "currentStatePath": "stardust/current/pages/customer-petstock.json",
+        "sourceUrl": "https://www.zendesk.com/customer/petstock/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/petstock",
+        "deployedAt": "2026-11-20T17:40:59.219Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.93,
+          "heightDelta": 32,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-privy",
+      "path": "/customer/privy",
+      "title": "Privy scales customer service with Zendesk AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/privy/index.html",
+        "metaJson": "stardust/migrated/customer/privy/_meta.json",
+        "sourceHash": "sha256:8f114041c78005d199b3b14956b3c04c5c4a978d7fb75723f02511205f44387d",
+        "currentStatePath": "stardust/current/pages/customer-privy.json",
+        "sourceUrl": "https://www.zendesk.com/customer/privy/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/privy",
+        "deployedAt": "2026-11-20T20:30:09.912Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.16,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-pure-insurance",
+      "path": "/customer/pure-insurance",
+      "title": "How PURE Insurance scales internal support to 16+ teams with Zendesk",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/pure-insurance/index.html",
+        "metaJson": "stardust/migrated/customer/pure-insurance/_meta.json",
+        "sourceHash": "sha256:624d1a4662d433f8a3a8a53c4ff64d719494479c6283dbde67738d69bc905e26",
+        "currentStatePath": "stardust/current/pages/customer-pure-insurance.json",
+        "sourceUrl": "https://www.zendesk.com/customer/pure-insurance/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/pure-insurance",
+        "deployedAt": "2026-11-20T20:10:00.412Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.1,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-qantas-loyalty",
+      "path": "/customer/qantas-loyalty",
+      "title": "Qantas Loyalty soars past automation goals with Zendesk AI Agents",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/qantas-loyalty/index.html",
+        "metaJson": "stardust/migrated/customer/qantas-loyalty/_meta.json",
+        "sourceHash": "sha256:efaab4e450775a79fd35179f081497135e5ce0a2d4c317c7c61f8e14399854e2",
+        "currentStatePath": "stardust/current/pages/customer-qantas-loyalty.json",
+        "sourceUrl": "https://www.zendesk.com/customer/qantas-loyalty/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/qantas-loyalty",
+        "deployedAt": "2026-11-20T16:24:06.831Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.11,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-qualia",
+      "path": "/customer/qualia",
+      "title": "How Qualia uses GenAI to radically elevate its CX",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/qualia/index.html",
+        "metaJson": "stardust/migrated/customer/qualia/_meta.json",
+        "sourceHash": "sha256:07214d61b63bdb9332e8a5b00541e1271c2b36d39aec18be50bbade094d81d27",
+        "currentStatePath": "stardust/current/pages/customer-qualia.json",
+        "sourceUrl": "https://www.zendesk.com/customer/qualia/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/qualia",
+        "deployedAt": "2026-11-20T20:30:10.648Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.09,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-quickmd",
+      "path": "/customer/quickmd",
+      "title": "QuickMD achieves faster resolutions with Zendesk",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/quickmd/index.html",
+        "metaJson": "stardust/migrated/customer/quickmd/_meta.json",
+        "sourceHash": "sha256:700ce54f5c57cd9528bcbf0877abfa5bc5be013f9bf77f751e4e2f9043ad4b2c",
+        "currentStatePath": "stardust/current/pages/customer-quickmd.json",
+        "sourceUrl": "https://www.zendesk.com/customer/quickmd/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/quickmd",
+        "deployedAt": "2026-11-20T21:42:30.132Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.11,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-recargapay",
+      "path": "/customer/recargapay",
+      "title": "RecargaPay transforms Support With Zendesk Copilot",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/recargapay/index.html",
+        "metaJson": "stardust/migrated/customer/recargapay/_meta.json",
+        "sourceHash": "sha256:c8419bab09a56755eecd15e8d0f5042ceefc6697223eea519b722170689a311e",
+        "currentStatePath": "stardust/current/pages/customer-recargapay.json",
+        "sourceUrl": "https://www.zendesk.com/customer/recargapay/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/recargapay",
+        "deployedAt": "2026-11-20T16:24:07.087Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.87,
+          "heightDelta": 3,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-resurs-bank",
+      "path": "/customer/resurs-bank",
+      "title": "Resurs Bank partners with Synerity to bring AI-powered support to Nordic customers",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/resurs-bank/index.html",
+        "metaJson": "stardust/migrated/customer/resurs-bank/_meta.json",
+        "sourceHash": "sha256:16bc3ffa412010c49b73165321bb8498b26a5b3ff8e6586eecfc3abb72e74433",
+        "currentStatePath": "stardust/current/pages/customer-resurs-bank.json",
+        "sourceUrl": "https://www.zendesk.com/customer/resurs-bank/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/resurs-bank",
+        "deployedAt": "2026-11-20T14:13:50.627Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.12,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-sealy-of-australia",
+      "path": "/customer/sealy-of-australia",
+      "title": "Sealy of Australia scales CX with Zendesk AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/sealy-of-australia/index.html",
+        "metaJson": "stardust/migrated/customer/sealy-of-australia/_meta.json",
+        "sourceHash": "sha256:08cc4b4779356acd18923194fdd207371a488b78e22c5b2729981c4b0496f8f0",
+        "currentStatePath": "stardust/current/pages/customer-sealy-of-australia.json",
+        "sourceUrl": "https://www.zendesk.com/customer/sealy-of-australia/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/sealy-of-australia",
+        "deployedAt": "2026-11-20T17:40:59.603Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.05,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-serasa-experian",
+      "path": "/customer/serasa-experian",
+      "title": "Serasa Experian expands digital customer service with Zendesk AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/serasa-experian/index.html",
+        "metaJson": "stardust/migrated/customer/serasa-experian/_meta.json",
+        "sourceHash": "sha256:fafd5fddb15a4f7c90a6d2dbba3730f1568654f29b68cb6a14aa13e2d9b8869d",
+        "currentStatePath": "stardust/current/pages/customer-serasa-experian.json",
+        "sourceUrl": "https://www.zendesk.com/customer/serasa-experian/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/serasa-experian",
+        "deployedAt": "2026-11-20T14:13:50.525Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.09,
+          "heightDelta": 3,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-shearcomfort",
+      "path": "/customer/shearcomfort",
+      "title": "ShearComfort finds AI to be a perfect fit for exceptional CX",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/shearcomfort/index.html",
+        "metaJson": "stardust/migrated/customer/shearcomfort/_meta.json",
+        "sourceHash": "sha256:7ee5a2ffc8629118ce065e255c6d175553d51c430c0ac05d6965e576e08a4cdd",
+        "currentStatePath": "stardust/current/pages/customer-shearcomfort.json",
+        "sourceUrl": "https://www.zendesk.com/customer/shearcomfort/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/shearcomfort",
+        "deployedAt": "2026-11-20T21:26:16.965Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 10.7,
+          "heightDelta": -12,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-sinch-engage",
+      "path": "/customer/sinch-engage",
+      "title": "Leading cloud comms company sees major CX gains with Zendesk",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/sinch-engage/index.html",
+        "metaJson": "stardust/migrated/customer/sinch-engage/_meta.json",
+        "sourceHash": "sha256:cdee25ff597f3993d110c1549e519d8e2b2d8fa4ff131aa52fb1a255922e46b9",
+        "currentStatePath": "stardust/current/pages/customer-sinch-engage.json",
+        "sourceUrl": "https://www.zendesk.com/customer/sinch-engage/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/sinch-engage",
+        "deployedAt": "2026-11-20T20:30:08.262Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.14,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-solo-by-myob",
+      "path": "/customer/solo-by-myob",
+      "title": "Lean team, big impact: Solo by MYOB's service-first playbook",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/solo-by-myob/index.html",
+        "metaJson": "stardust/migrated/customer/solo-by-myob/_meta.json",
+        "sourceHash": "sha256:2482acf010f046793c92c7fe941b78415cd5eb036338e601c02228b2042534c6",
+        "currentStatePath": "stardust/current/pages/customer-solo-by-myob.json",
+        "sourceUrl": "https://www.zendesk.com/customer/solo-by-myob/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/solo-by-myob",
+        "deployedAt": "2026-11-20T17:40:59.346Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.11,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-star21",
+      "path": "/customer/star21",
+      "title": "Star21 innovates faster with Zendesk App Builder",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/star21/index.html",
+        "metaJson": "stardust/migrated/customer/star21/_meta.json",
+        "sourceHash": "sha256:69fc6d6271e4013896ac6d799ad36b47421c2e6167c3038ed8d0fd361e6f898d",
+        "currentStatePath": "stardust/current/pages/customer-star21.json",
+        "sourceUrl": "https://www.zendesk.com/customer/star21/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/star21",
+        "deployedAt": "2026-11-20T16:24:07.310Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.13,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-starshipit",
+      "path": "/customer/starshipit",
+      "title": "Starshipit",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/starshipit/index.html",
+        "metaJson": "stardust/migrated/customer/starshipit/_meta.json",
+        "sourceHash": "sha256:3b88cd64507c4af5b173a97ef16326e86b10dfc987fe609859d5ee53ca878685",
+        "currentStatePath": "stardust/current/pages/customer-starshipit.json",
+        "sourceUrl": "https://www.zendesk.com/customer/starshipit/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/starshipit",
+        "deployedAt": "2026-11-20T21:26:16.755Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.8,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-tbauctions",
+      "path": "/customer/tbauctions",
+      "title": "TBAuctions speeds customer support with Zendesk Advanced AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/tbauctions/index.html",
+        "metaJson": "stardust/migrated/customer/tbauctions/_meta.json",
+        "sourceHash": "sha256:39b92d6ddff1622ba45b5bd7d35b50de150d9de4c14db8f9fa487541245c70c7",
+        "currentStatePath": "stardust/current/pages/customer-tbauctions.json",
+        "sourceUrl": "https://www.zendesk.com/customer/tbauctions/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/tbauctions",
+        "deployedAt": "2026-11-20T18:47:36.877Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.14,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-tesu",
+      "path": "/customer/tesu",
+      "title": "TESU transforms student support with Zendesk AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/tesu/index.html",
+        "metaJson": "stardust/migrated/customer/tesu/_meta.json",
+        "sourceHash": "sha256:3571ffac2434ad647bbee668de099018b4777ed71a8aff8ca9ff939d22300693",
+        "currentStatePath": "stardust/current/pages/customer-tesu.json",
+        "sourceUrl": "https://www.zendesk.com/customer/tesu/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/tesu",
+        "deployedAt": "2026-11-20T20:10:00.738Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.78,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-the-smith-family",
+      "path": "/customer/the-smith-family",
+      "title": "The Smith Family builds trust with Zendesk Contact Center",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/the-smith-family/index.html",
+        "metaJson": "stardust/migrated/customer/the-smith-family/_meta.json",
+        "sourceHash": "sha256:fb51af49019da61c4872f9aef322e9cd524efc29debd68006e51ec12cb520543",
+        "currentStatePath": "stardust/current/pages/customer-the-smith-family.json",
+        "sourceUrl": "https://www.zendesk.com/customer/the-smith-family/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/the-smith-family",
+        "deployedAt": "2026-11-20T18:47:36.203Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.12,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-thoughtworks",
+      "path": "/customer/thoughtworks",
+      "title": "Thoughtworks transforms employee service with AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/thoughtworks/index.html",
+        "metaJson": "stardust/migrated/customer/thoughtworks/_meta.json",
+        "sourceHash": "sha256:c1a1c460ee408cbb33ee311b000edbcb455f0f41ad6195d4d27217ab60af7ba3",
+        "currentStatePath": "stardust/current/pages/customer-thoughtworks.json",
+        "sourceUrl": "https://www.zendesk.com/customer/thoughtworks/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/thoughtworks",
+        "deployedAt": "2026-11-20T17:40:59.281Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.14,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-trodo",
+      "path": "/customer/trodo",
+      "title": "Trodo drives the future of automated CX with Zendesk AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/trodo/index.html",
+        "metaJson": "stardust/migrated/customer/trodo/_meta.json",
+        "sourceHash": "sha256:945a25374042fcd6f4e8c9ca538e2eb5dbfd7db2875beb4db77fc4731ef9da4c",
+        "currentStatePath": "stardust/current/pages/customer-trodo.json",
+        "sourceUrl": "https://www.zendesk.com/customer/trodo/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/trodo",
+        "deployedAt": "2026-11-20T17:40:59.537Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.07,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-uneo",
+      "path": "/customer/uneo",
+      "title": "Zendesk delivers a 360° customer experience for Unéo",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/uneo/index.html",
+        "metaJson": "stardust/migrated/customer/uneo/_meta.json",
+        "sourceHash": "sha256:9cb296397386fd67ff250a4cb155c01528bbef17afea8295c3248f5243d301ad",
+        "currentStatePath": "stardust/current/pages/customer-uneo.json",
+        "sourceUrl": "https://www.zendesk.com/customer/uneo/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/uneo",
+        "deployedAt": "2026-11-20T17:40:59.475Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.27,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-yape",
+      "path": "/customer/yape",
+      "title": "Yape enhances its CX with Zendesk AI Copilot for faster and more efficient resolutions",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/yape/index.html",
+        "metaJson": "stardust/migrated/customer/yape/_meta.json",
+        "sourceHash": "sha256:06f91c089df6e28dc52a4b203712eb74e3a7b7c116b1516e9e7ae07173821862",
+        "currentStatePath": "stardust/current/pages/customer-yape.json",
+        "sourceUrl": "https://www.zendesk.com/customer/yape/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/yape",
+        "deployedAt": "2026-11-20T22:56:55.372Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.53,
+          "heightDelta": -2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-zendesk-for-employee-service",
+      "path": "/customer/zendesk-for-employee-service",
+      "title": "Zendesk facilitates 54% of internal tickets with AI",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/zendesk-for-employee-service/index.html",
+        "metaJson": "stardust/migrated/customer/zendesk-for-employee-service/_meta.json",
+        "sourceHash": "sha256:49839762bd94b8104abada56dc6e40c05f143f5e66721f43baefae149f1df097",
+        "currentStatePath": "stardust/current/pages/customer-zendesk-for-employee-service.json",
+        "sourceUrl": "https://www.zendesk.com/customer/zendesk-for-employee-service/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/customer/zendesk-for-employee-service",
+        "deployedAt": "2026-11-20T20:30:08.688Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.43,
+          "heightDelta": 72,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "cxtrends",
+      "path": "/cxtrends",
+      "title": "Zendesk CX Trends Report 2027",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/cxtrends/index.html",
+        "metaJson": "stardust/migrated/cxtrends/_meta.json",
+        "sourceHash": "sha256:dc09e2e2c6160a4aaf096f40cc4a656336c1e52f309581470c7dd3b166e04563",
+        "currentStatePath": "stardust/current/pages/cxtrends.json",
+        "sourceUrl": "https://www.zendesk.com/cxtrends/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/cxtrends",
+        "deployedAt": "2026-11-21T00:05:02.646Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.51,
+          "heightDelta": -11,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 7,
+            "missingButtons": 4,
+            "hiddenButtons": 0,
+            "findings": 37,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "demo",
+      "path": "/demo",
+      "title": "Zendesk Demo | Watch a Quick Help Desk Software Demo",
+      "templateId": "form",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/demo/index.html",
+        "metaJson": "stardust/migrated/demo/_meta.json",
+        "sourceHash": "sha256:ab4b4afe3a69edf5ab758f551496be12544f57badaa9e332e6973630ce704671",
+        "currentStatePath": "stardust/current/pages/demo.json",
+        "sourceUrl": "https://www.zendesk.com/demo/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/demo",
+        "deployedAt": "2026-11-21T00:23:50.783Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.48,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "employee-experience",
+      "path": "/employee-experience",
+      "title": "Internal Help Desk Software for Employees | Zendesk",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/employee-experience/index.html",
+        "metaJson": "stardust/migrated/employee-experience/_meta.json",
+        "sourceHash": "sha256:f2c98944fd80a2c920cb54b09d98b40edf3060ab6a67107b8f68536243970e5c",
+        "currentStatePath": "stardust/current/pages/employee-experience.json",
+        "sourceUrl": "https://www.zendesk.com/employee-experience/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/employee-experience",
+        "deployedAt": "2026-11-20T17:19:45.856Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.07,
+          "heightDelta": 4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "employee-service",
+      "path": "/employee-service",
+      "title": "Zendesk: AI-Powered Employee Service Solution",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/employee-service/index.html",
+        "metaJson": "stardust/migrated/employee-service/_meta.json",
+        "sourceHash": "sha256:bfffdf330672d0d7e54534fd47ddab5895134068bd42401d3dd318d78399d3b3",
+        "currentStatePath": "stardust/current/pages/employee-service.json",
+        "sourceUrl": "https://www.zendesk.com/employee-service/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/employee-service",
+        "deployedAt": "2026-11-20T17:19:45.979Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 14.62,
+          "heightDelta": 20,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 10,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 38,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "free-trial",
+      "path": "/free-trial",
+      "title": "Zendesk Free Trial | AI Customer & Employee Service",
+      "templateId": "form",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/free-trial/index.html",
+        "metaJson": "stardust/migrated/free-trial/_meta.json",
+        "sourceHash": "sha256:5fa77a9cc06de355af9cf5258b45a491be01b57a0410dfe7d180b89b392bddfd",
+        "currentStatePath": "stardust/current/pages/free-trial.json",
+        "sourceUrl": "https://www.zendesk.com/free-trial/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/free-trial",
+        "deployedAt": "2026-11-21T17:50:10.915Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 17.26,
+          "heightDelta": 71,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 6,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "help-center-closed",
+      "path": "/help-center-closed",
+      "title": "Help Center Closed",
+      "templateId": "unique",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/help-center-closed/index.html",
+        "metaJson": "stardust/migrated/help-center-closed/_meta.json",
+        "sourceHash": "sha256:ab8626044a59c571dd0c47e1684860cd539b533fad7b5846b8038d796f769ed4",
+        "currentStatePath": "stardust/current/pages/help-center-closed.json",
+        "sourceUrl": "https://www.zendesk.com/help-center-closed/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/help-center-closed",
+        "deployedAt": "2026-11-21T17:50:10.973Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.93,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "AI-Powered Customer Service Platform | Zendesk",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:e56b46e1cb8fe08c69ea0b945a2d74b8438f42681e5dccebc4340fd5fd516706",
+        "sourceUrl": "https://www.zendesk.com/"
+      },
+      "blocks": [
+        "logo-row",
+        "stat-row",
+        "card-grid",
+        "accordion-faq",
+        "carousel",
+        "link-card",
+        "sticker-badge",
+        "additional-resources"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/",
+        "deployedAt": "2026-11-20T12:44:03.038Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.67,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 5,
+            "missingButtons": 6,
+            "hiddenButtons": 0,
+            "findings": 22,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "industries",
+      "path": "/industries",
+      "title": "Looking for a CRM solution for your specific industry? | Zendesk",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/industries/index.html",
+        "metaJson": "stardust/migrated/industries/_meta.json",
+        "sourceHash": "sha256:4ffae0d7db1a37f536cda4ef9f7279d6cc2db91ab7b3cbbfe84071d72a87c88c",
+        "currentStatePath": "stardust/current/pages/industries.json",
+        "sourceUrl": "https://www.zendesk.com/industries/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/industries",
+        "deployedAt": "2026-11-20T23:25:14.900Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 10.1,
+          "heightDelta": 23,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "instapage-form-contact",
+      "path": "/instapage-form-contact",
+      "title": "Instapage Form: Contact",
+      "templateId": "form",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/instapage-form-contact/index.html",
+        "metaJson": "stardust/migrated/instapage-form-contact/_meta.json",
+        "sourceHash": "sha256:7c6b37a3e70f47d5a96d18c900160be3fdf333ec6ed3242974d555940efd5024",
+        "currentStatePath": "stardust/current/pages/instapage-form-contact.json",
+        "sourceUrl": "https://www.zendesk.com/instapage-form-contact/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/instapage-form-contact",
+        "deployedAt": "2026-11-21T17:50:11.025Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.05,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "instapage-form-content",
+      "path": "/instapage-form-content",
+      "title": "Instapage Form: Content",
+      "templateId": "form",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/instapage-form-content/index.html",
+        "metaJson": "stardust/migrated/instapage-form-content/_meta.json",
+        "sourceHash": "sha256:dd9f0f6f21da9fc533ef9cd1f0f1b1b5777770d882b9a1c1aa8465f90eb36b15",
+        "currentStatePath": "stardust/current/pages/instapage-form-content.json",
+        "sourceUrl": "https://www.zendesk.com/instapage-form-content/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/instapage-form-content",
+        "deployedAt": "2026-11-21T17:50:11.083Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.09,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "instapage-form-demo",
+      "path": "/instapage-form-demo",
+      "title": "Instapage Form: Demo",
+      "templateId": "form",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/instapage-form-demo/index.html",
+        "metaJson": "stardust/migrated/instapage-form-demo/_meta.json",
+        "sourceHash": "sha256:8e2c0a2523ef00de1e7061d52c606df36d43d69416321c750e2cd5350d587f19",
+        "currentStatePath": "stardust/current/pages/instapage-form-demo.json",
+        "sourceUrl": "https://www.zendesk.com/instapage-form-demo/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/instapage-form-demo",
+        "deployedAt": "2026-11-21T17:50:11.141Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.35,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "instapage-form-newsletter",
+      "path": "/instapage-form-newsletter",
+      "title": "Instapage Form: Newsletter",
+      "templateId": "form",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/instapage-form-newsletter/index.html",
+        "metaJson": "stardust/migrated/instapage-form-newsletter/_meta.json",
+        "sourceHash": "sha256:ef813db6a924d52e87dea7636fdce9d4a451d2934993917eecdc944209e21516",
+        "currentStatePath": "stardust/current/pages/instapage-form-newsletter.json",
+        "sourceUrl": "https://www.zendesk.com/instapage-form-newsletter/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/instapage-form-newsletter",
+        "deployedAt": "2026-11-21T17:50:11.200Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.05,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "instapage-form-trial-teaser-sell",
+      "path": "/instapage-form-trial-teaser-sell",
+      "title": "Instapage Form: Trial Teaser Sell",
+      "templateId": "form",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/instapage-form-trial-teaser-sell/index.html",
+        "metaJson": "stardust/migrated/instapage-form-trial-teaser-sell/_meta.json",
+        "sourceHash": "sha256:6e3b444a5ad9614ef4fdd634249ea614441d1d14bbd7345ee2f2f6d902967e00",
+        "currentStatePath": "stardust/current/pages/instapage-form-trial-teaser-sell.json",
+        "sourceUrl": "https://www.zendesk.com/instapage-form-trial-teaser-sell/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/instapage-form-trial-teaser-sell",
+        "deployedAt": "2026-11-21T17:50:11.266Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.06,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "instapage-form-trial-teaser-suite",
+      "path": "/instapage-form-trial-teaser-suite",
+      "title": "Instapage Form: Trial Teaser Suite",
+      "templateId": "form",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/instapage-form-trial-teaser-suite/index.html",
+        "metaJson": "stardust/migrated/instapage-form-trial-teaser-suite/_meta.json",
+        "sourceHash": "sha256:908a836a0b62f6da5496c694636477c9c43f5b5528357ed0f0a666572bd5a0bf",
+        "currentStatePath": "stardust/current/pages/instapage-form-trial-teaser-suite.json",
+        "sourceUrl": "https://www.zendesk.com/instapage-form-trial-teaser-suite/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/instapage-form-trial-teaser-suite",
+        "deployedAt": "2026-11-21T17:50:11.329Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.06,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "instapage-form-trial-teaser-suite-inline",
+      "path": "/instapage-form-trial-teaser-suite-inline",
+      "title": "Instapage Form: Trial Teaser Suite Inline",
+      "templateId": "form",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/instapage-form-trial-teaser-suite-inline/index.html",
+        "metaJson": "stardust/migrated/instapage-form-trial-teaser-suite-inline/_meta.json",
+        "sourceHash": "sha256:ae58c430b899ffd00290c40ecf67ec92e27605cea04ad45b43145e9307e5bc69",
+        "currentStatePath": "stardust/current/pages/instapage-form-trial-teaser-suite-inline.json",
+        "sourceUrl": "https://www.zendesk.com/instapage-form-trial-teaser-suite-inline/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/instapage-form-trial-teaser-suite-inline",
+        "deployedAt": "2026-11-21T17:50:11.384Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.1,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "instapage-form-webinar",
+      "path": "/instapage-form-webinar",
+      "title": "Instapage Form: Webinar",
+      "templateId": "form",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/instapage-form-webinar/index.html",
+        "metaJson": "stardust/migrated/instapage-form-webinar/_meta.json",
+        "sourceHash": "sha256:b264acb2df720fda2ace4db7ad77924f27b876f1dd3d203cb44b606076c2dfce",
+        "currentStatePath": "stardust/current/pages/instapage-form-webinar.json",
+        "sourceUrl": "https://www.zendesk.com/instapage-form-webinar/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/instapage-form-webinar",
+        "deployedAt": "2026-11-21T17:50:11.447Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.32,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "intro-tour",
+      "path": "/intro-tour",
+      "title": "Take a quick tour",
+      "templateId": "unique",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/intro-tour/index.html",
+        "metaJson": "stardust/migrated/intro-tour/_meta.json",
+        "sourceHash": "sha256:8cb1d797a8c54d0297dba4accd46dabda30ae58e8204ff4609115418742118b3",
+        "currentStatePath": "stardust/current/pages/intro-tour.json",
+        "sourceUrl": "https://www.zendesk.com/intro-tour/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/intro-tour",
+        "deployedAt": "2026-11-21T17:50:11.509Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.49,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "login",
+      "path": "/login",
+      "title": "Login | Zendesk",
+      "templateId": "form",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/login/index.html",
+        "metaJson": "stardust/migrated/login/_meta.json",
+        "sourceHash": "sha256:8e88a2d7d13f6d23b0add9ecc25d656789f10c6ac9f8e1f453c1b8199008ce79",
+        "currentStatePath": "stardust/current/pages/login.json",
+        "sourceUrl": "https://www.zendesk.com/login/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/login",
+        "deployedAt": "2026-11-21T00:23:50.669Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.03,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "marketplace",
+      "path": "/marketplace",
+      "title": "Zendesk Marketplace - Find Apps, Integrations & Partners",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/marketplace/index.html",
+        "metaJson": "stardust/migrated/marketplace/_meta.json",
+        "sourceHash": "sha256:669668e9c936353f08174dff4a9e8a662d6a71a347ddfcfc55b88d42d5f6f250",
+        "currentStatePath": "stardust/current/pages/marketplace.json",
+        "sourceUrl": "https://www.zendesk.com/marketplace/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/marketplace",
+        "deployedAt": "2026-11-20T23:25:14.727Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 16.46,
+          "heightDelta": 32,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 20,
+            "variable": [
+              "section.sc-a45d110c-1=.bl-group.grid:not(.no-head):not(.features)"
+            ]
+          },
+          "reasons": [
+            "pixel aligned 12.4% (unaligned 16.46%) > 10%"
+          ],
+          "override": "PASS",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "marketplace-apps",
+      "path": "/marketplace/apps",
+      "title": "Zendesk App Marketplace - Find Apps, Integrations & Partners",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/marketplace/apps/index.html",
+        "metaJson": "stardust/migrated/marketplace/apps/_meta.json",
+        "sourceHash": "sha256:41dd1d530d2242682e8c161b86b66d8e95e7b8bc44ced0d05b2ce4d65de73f5b",
+        "currentStatePath": "stardust/current/pages/marketplace-apps.json",
+        "sourceUrl": "https://www.zendesk.com/marketplace/apps/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/marketplace/apps",
+        "deployedAt": "2026-11-21T17:50:11.570Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.51,
+          "heightDelta": 69,
+          "clipped": 0,
+          "content": {
+            "missing": 1,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": [
+              "div.sc-c38018e9-0=.bl-latest-head",
+              "div.StyledInnerPanel-sc-8nbueg-0=.bl-filters-panel"
+            ]
+          },
+          "reasons": [
+            "content MISSING 1 / HIDDEN 0"
+          ],
+          "override": "PASS",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "marketplace-partners",
+      "path": "/marketplace/partners",
+      "title": "Looking for Zendesk consulting, solution & implementation partners?",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/marketplace/partners/index.html",
+        "metaJson": "stardust/migrated/marketplace/partners/_meta.json",
+        "sourceHash": "sha256:6912048c786f597987bca17731f18b29660a7063153cc5c80c35bb174c5a7386",
+        "currentStatePath": "stardust/current/pages/marketplace-partners.json",
+        "sourceUrl": "https://www.zendesk.com/marketplace/partners/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/marketplace/partners",
+        "deployedAt": "2026-11-21T17:50:11.637Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.66,
+          "heightDelta": 68,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": [
+              "div.sc-c38018e9-0=.bl-latest-head",
+              "div.StyledInnerPanel-sc-8nbueg-0=.bl-filters-panel"
+            ]
+          },
+          "reasons": [],
+          "override": "PASS",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "marketplace-themes",
+      "path": "/marketplace/themes",
+      "title": "Freshen up your help center with new Zendesk Help Center Themes",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/marketplace/themes/index.html",
+        "metaJson": "stardust/migrated/marketplace/themes/_meta.json",
+        "sourceHash": "sha256:af5850e34b118c0e4692be9daba871b95c76d04fb1002efa1876ae304ef7e563",
+        "currentStatePath": "stardust/current/pages/marketplace-themes.json",
+        "sourceUrl": "https://www.zendesk.com/marketplace/themes/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/marketplace/themes",
+        "deployedAt": "2026-11-21T17:50:11.696Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 12.45,
+          "heightDelta": 26,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": [
+              "div.sc-c38018e9-0=.bl-latest-head",
+              "div.StyledInnerPanel-sc-8nbueg-0=.bl-filters-panel"
+            ]
+          },
+          "reasons": [],
+          "override": "PASS",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "newsroom",
+      "path": "/newsroom",
+      "title": "Zendesk Newsroom",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/newsroom/index.html",
+        "metaJson": "stardust/migrated/newsroom/_meta.json",
+        "sourceHash": "sha256:24a0c1fbbbea825472c983d8aa1f55872ab7a3829163e4e9c7538530175dec2f",
+        "currentStatePath": "stardust/current/pages/newsroom.json",
+        "sourceUrl": "https://www.zendesk.com/newsroom/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/newsroom",
+        "deployedAt": "2026-11-21T17:50:11.759Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 11.55,
+          "heightDelta": -6,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "partner",
+      "path": "/partner",
+      "title": "Partner with Zendesk | Sell, deploy, and build custom solutions",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/partner/index.html",
+        "metaJson": "stardust/migrated/partner/_meta.json",
+        "sourceHash": "sha256:fed08c0b552d51ebf69bd7cbc1cf02866fa705ec49c450900a57f723aad6b651",
+        "currentStatePath": "stardust/current/pages/partner.json",
+        "sourceUrl": "https://www.zendesk.com/partner/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/partner",
+        "deployedAt": "2026-11-20T17:19:45.921Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.23,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "platform",
+      "path": "/platform",
+      "title": "Develop custom experiences with the Zendesk Platform | Zendesk Sunshine",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/platform/index.html",
+        "metaJson": "stardust/migrated/platform/_meta.json",
+        "sourceHash": "sha256:3674b6c6f4f8eb67752fd18ff3878283b0910b6fa87e3643154b801d632f6517",
+        "currentStatePath": "stardust/current/pages/platform.json",
+        "sourceUrl": "https://www.zendesk.com/platform/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/platform",
+        "deployedAt": "2026-11-20T17:19:46.102Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.19,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 12,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 49,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "pricing",
+      "path": "/pricing",
+      "title": "Zendesk Pricing Plans | Starting from $19/month",
+      "templateId": "pricing",
+      "source": {
+        "migratedHtml": "stardust/migrated/pricing/index.html",
+        "metaJson": "stardust/migrated/pricing/_meta.json",
+        "sourceHash": "sha256:e4dc56b6e74e2048c50e04fea60316d9107b581d7e70b29e7b99a51376488d30",
+        "sourceUrl": "https://www.zendesk.com/pricing/"
+      },
+      "blocks": [
+        "logo-row",
+        "card-grid",
+        "accordion-faq",
+        "sticker-badge",
+        "marketplace-filter-bar"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/pricing",
+        "deployedAt": "2026-11-20T13:32:34.339Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.06,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "professional-services",
+      "path": "/professional-services",
+      "title": "Zendesk professional Services",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/professional-services/index.html",
+        "metaJson": "stardust/migrated/professional-services/_meta.json",
+        "sourceHash": "sha256:8fc9960d6dfe730928b4d6f5039fe072f0a617e7a2580b3ef23af0a10f84a154",
+        "currentStatePath": "stardust/current/pages/professional-services.json",
+        "sourceUrl": "https://www.zendesk.com/professional-services/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/professional-services",
+        "deployedAt": "2026-11-21T00:05:02.588Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.4,
+          "heightDelta": -10,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 6,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 21,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "register",
+      "path": "/register",
+      "title": "Register",
+      "templateId": "form",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/register/index.html",
+        "metaJson": "stardust/migrated/register/_meta.json",
+        "sourceHash": "sha256:d44cd48c9dc0cdf55c1e6566b401a92682983f89525b9c5876f05c8d776bda1f",
+        "currentStatePath": "stardust/current/pages/register.json",
+        "sourceUrl": "https://www.zendesk.com/register/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/register",
+        "deployedAt": "2026-11-21T00:23:50.725Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.29,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "repeatcustomer",
+      "path": "/repeatcustomer",
+      "title": "The Repeat Customer podcast",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/repeatcustomer/index.html",
+        "metaJson": "stardust/migrated/repeatcustomer/_meta.json",
+        "sourceHash": "sha256:0adc706ba66d7b78a2afec5120fd4db045e345f234491f1152dd941520516774",
+        "currentStatePath": "stardust/current/pages/repeatcustomer.json",
+        "sourceUrl": "https://www.zendesk.com/repeatcustomer/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/repeatcustomer",
+        "deployedAt": "2026-11-21T00:05:02.390Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 11.69,
+          "heightDelta": 6,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "sell",
+      "path": "/sell",
+      "title": "Zendesk CRM for Sales | All-in-One Sales Platform Zendesk Sell",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/sell/index.html",
+        "metaJson": "stardust/migrated/sell/_meta.json",
+        "sourceHash": "sha256:8d774e250bb8e8574d21b83e8f111e9dca1e730cef52762bc55c2da9f5f96d31",
+        "currentStatePath": "stardust/current/pages/sell.json",
+        "sourceUrl": "https://www.zendesk.com/sell/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/sell",
+        "deployedAt": "2026-11-20T17:19:46.044Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.02,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 3,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 12,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "service",
+      "path": "/service",
+      "title": "AI-powered customer service software | Zendesk",
+      "templateId": "service",
+      "source": {
+        "migratedHtml": "stardust/migrated/service/index.html",
+        "metaJson": "stardust/migrated/service/_meta.json",
+        "sourceHash": "sha256:924846bfc3dba4975ad3f73391071173d60b82e5dc686a57f7310b9de04e29a3",
+        "sourceUrl": "https://www.zendesk.com/service/"
+      },
+      "blocks": [
+        "stat-row",
+        "card-grid",
+        "accordion-faq",
+        "video-link",
+        "carousel",
+        "link-card"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/service",
+        "deployedAt": "2026-11-20T12:40:36.384Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.01,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 3,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 14,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "sitemap",
+      "path": "/sitemap",
+      "title": "The Zendesk Sitemap for Quick Navigation",
+      "templateId": "static",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/sitemap/index.html",
+        "metaJson": "stardust/migrated/sitemap/_meta.json",
+        "sourceHash": "sha256:d8fbf599f69f8e965c8fc45669ecbcf1434cb331cfc2f9bae8d7d18d70d761f6",
+        "currentStatePath": "stardust/current/pages/sitemap.json",
+        "sourceUrl": "https://www.zendesk.com/sitemap/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/sitemap",
+        "deployedAt": "2026-11-21T17:50:11.820Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.89,
+          "heightDelta": 24,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "trust-center",
+      "path": "/trust-center",
+      "title": "Security, Privacy and Legal | Zendesk Trust Center",
+      "templateId": "static",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/trust-center/index.html",
+        "metaJson": "stardust/migrated/trust-center/_meta.json",
+        "sourceHash": "sha256:4b4d09e65ddbfb9fb5a8812807dbc97d121d9a460c20aed073c065466de2380c",
+        "currentStatePath": "stardust/current/pages/trust-center.json",
+        "sourceUrl": "https://www.zendesk.com/trust-center/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/trust-center",
+        "deployedAt": "2026-11-20T20:44:43.734Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.82,
+          "heightDelta": -18,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 26,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 120,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "web-widget",
+      "path": "/web-widget",
+      "title": "Web Widget",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/web-widget/index.html",
+        "metaJson": "stardust/migrated/web-widget/_meta.json",
+        "sourceHash": "sha256:2d037f6d3de65352261c94e264a0d7d4753cfcffa7bbf4209e0b5672b95dfd96",
+        "currentStatePath": "stardust/current/pages/web-widget.json",
+        "sourceUrl": "https://www.zendesk.com/web-widget/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/web-widget",
+        "deployedAt": "2026-11-21T00:05:02.522Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.12,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "what-is-zendesk",
+      "path": "/what-is-zendesk",
+      "title": "What is Zendesk? Powerful customer experience software",
+      "templateId": "static",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/what-is-zendesk/index.html",
+        "metaJson": "stardust/migrated/what-is-zendesk/_meta.json",
+        "sourceHash": "sha256:88667a2f4967b0151814e3904895f0d7a403e9e2e80728a0ab9584ba47f61e87",
+        "currentStatePath": "stardust/current/pages/what-is-zendesk.json",
+        "sourceUrl": "https://www.zendesk.com/what-is-zendesk/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/what-is-zendesk",
+        "deployedAt": "2026-11-20T20:44:43.852Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.02,
+          "heightDelta": 12,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    },
+    {
+      "slug": "why-zendesk",
+      "path": "/why-zendesk",
+      "title": "Why Zendesk | The AI Service Platform Built for Real Resolutions",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": "stardust/migrated/why-zendesk/index.html",
+        "metaJson": "stardust/migrated/why-zendesk/_meta.json",
+        "sourceHash": "sha256:81f84a85124e2b9220fe7bb1ce5571089936045d6ee9555881fdc72031466192",
+        "currentStatePath": "stardust/current/pages/why-zendesk.json",
+        "sourceUrl": "https://www.zendesk.com/why-zendesk/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3055ed88--aemcoder.aem.page/why-zendesk",
+        "deployedAt": "2026-11-21T00:05:02.458Z",
+        "verifiedAt": "2026-11-21T18:57:58.712Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 12.35,
+          "heightDelta": -40,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 5,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 18,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-21T14:07:11.337Z"
+        }
+      }
+    }
+  ]
+}

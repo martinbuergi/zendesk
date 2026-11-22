@@ -1,0 +1,223 @@
+{
+  "a": "stardust/replica/gates/all-1440/customer-docebo/origin.png",
+  "b": "stardust/replica/gates/all-1440/customer-docebo/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 7028,
+    "mode": "overlap"
+  },
+  "heightDelta": 24,
+  "differingPixels": 300664,
+  "pct": 2.97,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/customer-docebo/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 3.3,
+  "textBoxes": 206,
+  "textPixels": 1436133,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 0
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 23.8
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 10.4
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 3.1
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 4
+    },
+    {
+      "y0": 7000,
+      "y1": 7028,
+      "pct": 2.7
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.37,
+    "differingPixels": 37269,
+    "compared": {
+      "width": 1440,
+      "height": 7052,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 5029,
+        "shift": -24,
+        "cumulative": -24
+      }
+    ],
+    "maxOffset": 24,
+    "totalShift": 24,
+    "insertedRows": 0,
+    "deletedRows": 24,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 4.8,
+        "unaligned": 23.8
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0,
+        "unaligned": 10.4
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0,
+        "unaligned": 3.1
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0,
+        "unaligned": 4
+      },
+      {
+        "y0": 7000,
+        "y1": 7052,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/customer-docebo/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 71,
+    "totalShift": 24,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/customer/docebo"
+  }
+}

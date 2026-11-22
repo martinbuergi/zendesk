@@ -1,0 +1,100 @@
+{
+  "_doc": "per-sibling encoder options for encode.py --config (key = migrated path). hero/form: block variant words; step1: field names visible on load (others -> hidden flag; omitted = all visible); hideNotes: note/consent text prefixes hidden on load; progress: 'n/m' progress row (label = the page's own 'Step n of m' text when captured); tileIcons: option label -> icon name (/icons/<name>.svg); leadIcons: lead text prefix -> icon name; sideButtons: side-link texts encoded as secondary buttons; noteHref: note link text -> href (link without href in the capture); media: hero backdrop image URL (DA media); embed: true = emit the page's iframes as fm-embed; meta: Metadata rows (override the slim defaults); sections (cluster-form-2): section id -> '<mapper> <block [variants]>' (mappers hero-trial | logos | cards | quotes | prose | faq; existing site blocks reused unchanged); sectionStyle: section id -> Section Metadata style; mediaScope / mediaNames: DA media folder + file renames; submitHref, tags, rotate, portraits: see encode.py",
+  "login": {
+    "hero": "center",
+    "form": "login",
+    "sideButtons": ["New here? Start free trial"],
+    "noteHref": {"Forgot your subdomain?": "https://www.zendesk.com/login/"},
+    "meta": {"nav": "/nav-login", "footer": "/footer-legal", "promo": ""}
+  },
+  "register": {
+    "hero": "modal backdrop",
+    "form": "modal",
+    "step1": ["owner.email"],
+    "progress": "1/7",
+    "media": "https://content.da.live/aemcoder/3055ed88/media/register/product-screenshot-trial.jpg",
+    "meta": {"nav": "/nav-none", "footer": "/footer-none", "promo": "off"}
+  },
+  "demo": {
+    "hero": "modal",
+    "form": "modal",
+    "step1": ["account.use_case"],
+    "hideNotes": ["Not in", "By submitting"],
+    "progress": "1/6",
+    "tileIcons": {"Consumers": "fm-consumer", "Businesses": "fm-business", "Employees": "fm-employee"},
+    "embed": true,
+    "meta": {"nav": "/nav-slim-demo", "footer": "/footer-legal", "promo": "off"}
+  },
+  "instapage-form-demo": {
+    "hero": "instapage",
+    "form": "instapage",
+    "step1": ["account.use_case"],
+    "hideNotes": ["Not in", "By submitting"],
+    "progress": "1/6",
+    "tileIcons": {"Consumers": "fm-consumer", "Businesses": "fm-business", "Employees": "fm-employee"},
+    "meta": {"nav": "/nav-none", "footer": "/footer-none", "promo": "off", "robots": "noindex,follow"}
+  },
+  "instapage-form-contact": {
+    "hero": "instapage",
+    "form": "instapage",
+    "step1": ["FirstName", "LastName", "owner.email", "address.phone", "question"],
+    "hideNotes": ["Almost done"],
+    "meta": {"nav": "/nav-none", "footer": "/footer-none", "promo": "off", "robots": "noindex,follow"}
+  },
+  "instapage-form-trial-teaser-sell": {
+    "hero": "instapage",
+    "form": "instapage teaser",
+    "leadIcons": {"14-day free trial.": "fm-check-circle"},
+    "meta": {"nav": "/nav-none", "footer": "/footer-none", "promo": "off", "robots": "noindex,follow"}
+  },
+  "instapage-form-webinar": {
+    "form": "instapage loose",
+    "step1": ["FirstName", "LastName", "owner.email", "address.phone", "selectedCountry"],
+    "hideNotes": ["Almost done"],
+    "meta": {"nav": "/nav-none", "footer": "/footer-none", "promo": "off", "robots": "noindex,nofollow"}
+  },
+  "instapage-form-trial-teaser-suite": {
+    "hero": "instapage",
+    "form": "instapage teaser",
+    "leadIcons": {"14-day free trial.": "fm-check-circle"},
+    "meta": {"nav": "/nav-none", "footer": "/footer-none", "promo": "off", "robots": "noindex,follow"}
+  },
+  "instapage-form-trial-teaser-suite-inline": {
+    "hero": "instapage",
+    "form": "instapage teaser inline",
+    "leadIcons": {"14-day free trial.": "fm-check-circle"},
+    "meta": {"nav": "/nav-none", "footer": "/footer-none", "promo": "off", "robots": "noindex,nofollow"}
+  },
+  "instapage-form-newsletter": {
+    "form": "instapage inline",
+    "meta": {"nav": "/nav-none", "footer": "/footer-none", "promo": "off", "robots": "noindex,follow"}
+  },
+  "instapage-form-content": {
+    "form": "instapage halves",
+    "meta": {"nav": "/nav-none", "footer": "/footer-none", "promo": "off", "robots": "noindex,nofollow"}
+  },
+  "free-trial": {
+    "sections": {
+      "teaser-41a5620055": "hero-trial sv-hero trial",
+      "teaser-41a5620055-2": "logos fm-logos",
+      "teaser-5954bbc433": "cards fm-features",
+      "testimonials": "quotes fm-quotes",
+      "employee_service_contact_center": "cards hp-duo",
+      "teaser-3fd06df4b4": "prose fm-promo",
+      "teaser-e3eee01622": "faq pr-faq",
+      "resources": "cards hp-res",
+      "teaser-cec89a28d8": "prose fm-cta"
+    },
+    "mediaScope": "free-trial",
+    "mediaNames": {"Logo_Software_Advice.png": "Logo_Software_Advice.svg", "Logo_Capterra.png": "Logo_Capterra.svg"},
+    "submitHref": "https://www.zendesk.com/register/",
+    "tags": {"Product Featured": "Featured"},
+    "rotate": 1,
+    "portraits": {
+      "HeliosX": "Quote_Portrait_HeliosX_2x.png",
+      "Next": "Quote_Portrait_Next.png",
+      "Conservice": "Quote_Portrait_Conservice.png"
+    },
+    "meta": {"nav": "/nav", "footer": "/footer", "promo": "off"}
+  }
+}

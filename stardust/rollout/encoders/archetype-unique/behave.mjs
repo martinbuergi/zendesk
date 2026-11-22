@@ -1,0 +1,22 @@
+// node behave.mjs <url> — drive FAQ single-open + feature/compare modals + marquee on the served page
+import pw from '/app/node_modules/playwright/index.js';
+const b = await pw.chromium.launch();
+const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+const errs = []; p.on('pageerror', (e) => errs.push(e.message));
+await p.goto(process.argv[2], { waitUntil: 'networkidle' });
+await p.waitForTimeout(2000);
+const open = () => p.evaluate(() => [...document.querySelectorAll('.pr-faq-item')].map((i) => i.classList.contains('is-open') ? 1 : 0).join(''));
+const r = { faq0: await open() };
+await p.locator('.pr-faq-bar').nth(3).click(); await p.waitForTimeout(400); r.faqAfter3 = await open();
+await p.locator('.pr-faq-trigger').nth(3).press('Enter'); await p.waitForTimeout(400); r.faqAfterEnter = await open();
+await p.locator('.pr-feat').first().scrollIntoViewIfNeeded(); await p.locator('.pr-feat').first().click(); await p.waitForTimeout(500);
+r.featModal = await p.evaluate(() => { const d = document.querySelector('.pr-backdrop .pr-dialog'); return d ? `${d.querySelector('h2')?.textContent} | ${getComputedStyle(document.querySelector('.pr-backdrop')).animationName}` : null; });
+await p.keyboard.press('Escape'); await p.waitForTimeout(200);
+r.closed = await p.evaluate(() => !document.querySelector('.pr-backdrop') && document.querySelectorAll('.pr-plans ~ * .pr-modal-item, .pr-modal-item').length);
+await p.locator('a[href="#modal.pricing-table"]').click(); await p.waitForTimeout(500);
+r.matrix = await p.evaluate(() => { const d = document.querySelector('.pr-backdrop .pr-matrix'); return d ? `${d.querySelectorAll('tbody tr').length} rows, checks ${d.querySelectorAll('.icon-pr-check img, .icon-pr-check svg').length}` : null; });
+await p.mouse.click(5, 5); await p.waitForTimeout(200);
+r.backdropClosed = await p.evaluate(() => !document.querySelector('.pr-backdrop'));
+r.marquee = await p.evaluate(() => { const t = document.querySelector('.pr-logos-track'); const cs = getComputedStyle(t); return `${cs.animationName} ${cs.animationDuration} ${cs.animationTimingFunction} imgs ${t.querySelectorAll('img').length} hidden-clones ${t.querySelectorAll('[aria-hidden="true"] img').length}`; });
+console.log(JSON.stringify(r, null, 1), 'errors', JSON.stringify(errs));
+await b.close();

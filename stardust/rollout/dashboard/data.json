@@ -1,0 +1,998 @@
+{
+  "generatedAt": "2026-11-21T18:59:31.785Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.zendesk.com/",
+    "liveHost": "main--3055ed88--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 100,
+    "prototyped": 100,
+    "deployed": 100,
+    "optimised": 83
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 17,
+    "optimised": 83
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "blog",
+      "path": "/blog",
+      "stage": "optimised",
+      "templateId": "blog",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "blog-ads-api-output",
+      "path": "/blog-ads-api-output",
+      "stage": "deployed",
+      "templateId": "unique",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "company",
+      "path": "/company",
+      "stage": "optimised",
+      "templateId": "company",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "contact",
+      "path": "/contact",
+      "stage": "optimised",
+      "templateId": "contact",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer",
+      "path": "/customer",
+      "stage": "optimised",
+      "templateId": "listing",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-action-property-management",
+      "path": "/customer/action-property-management",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "customer-asaas",
+      "path": "/customer/asaas",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-babbel",
+      "path": "/customer/babbel",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-ballys",
+      "path": "/customer/ballys",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "customer-benevity",
+      "path": "/customer/benevity",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-betmgm-brasil",
+      "path": "/customer/betmgm-brasil",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-bgl",
+      "path": "/customer/bgl",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-britbox",
+      "path": "/customer/britbox",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-canva",
+      "path": "/customer/canva",
+      "stage": "optimised",
+      "templateId": "customer-canva",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-catapult",
+      "path": "/customer/catapult",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-coco-republic",
+      "path": "/customer/coco-republic",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-deputy",
+      "path": "/customer/deputy",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-dfin",
+      "path": "/customer/dfin",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "customer-docebo",
+      "path": "/customer/docebo",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-dupage-county",
+      "path": "/customer/dupage-county",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-easyfundraising",
+      "path": "/customer/easyfundraising",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "customer-envato",
+      "path": "/customer/envato",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-five-iron-golf",
+      "path": "/customer/five-iron-golf",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "customer-furnished-finder",
+      "path": "/customer/furnished-finder",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "customer-github-es",
+      "path": "/customer/github-es",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-givedirectly",
+      "path": "/customer/givedirectly",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-inshur",
+      "path": "/customer/inshur",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-irc-video",
+      "path": "/customer/irc-video",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "customer-koho",
+      "path": "/customer/koho",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-liberty-qa",
+      "path": "/customer/liberty-qa",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-liberty-tax",
+      "path": "/customer/liberty-tax",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-lucid-software-ai",
+      "path": "/customer/lucid-software-ai",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-lucid-software-es",
+      "path": "/customer/lucid-software-es",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-madeiramadeira",
+      "path": "/customer/madeiramadeira",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-miko",
+      "path": "/customer/miko",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-mimecast",
+      "path": "/customer/mimecast",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-motel-rocks",
+      "path": "/customer/motel-rocks",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "customer-motiva",
+      "path": "/customer/motiva",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-nortek",
+      "path": "/customer/nortek",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-odeon-cinemas",
+      "path": "/customer/odeon-cinemas",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-perk-es",
+      "path": "/customer/perk-es",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "customer-petstock",
+      "path": "/customer/petstock",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-privy",
+      "path": "/customer/privy",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-pure-insurance",
+      "path": "/customer/pure-insurance",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-qantas-loyalty",
+      "path": "/customer/qantas-loyalty",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-qualia",
+      "path": "/customer/qualia",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-quickmd",
+      "path": "/customer/quickmd",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-recargapay",
+      "path": "/customer/recargapay",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-resurs-bank",
+      "path": "/customer/resurs-bank",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "customer-sealy-of-australia",
+      "path": "/customer/sealy-of-australia",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-serasa-experian",
+      "path": "/customer/serasa-experian",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-shearcomfort",
+      "path": "/customer/shearcomfort",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-sinch-engage",
+      "path": "/customer/sinch-engage",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-solo-by-myob",
+      "path": "/customer/solo-by-myob",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-star21",
+      "path": "/customer/star21",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-starshipit",
+      "path": "/customer/starshipit",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-tbauctions",
+      "path": "/customer/tbauctions",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-tesu",
+      "path": "/customer/tesu",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-the-smith-family",
+      "path": "/customer/the-smith-family",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-thoughtworks",
+      "path": "/customer/thoughtworks",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-trodo",
+      "path": "/customer/trodo",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-uneo",
+      "path": "/customer/uneo",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-yape",
+      "path": "/customer/yape",
+      "stage": "deployed",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "customer-zendesk-for-employee-service",
+      "path": "/customer/zendesk-for-employee-service",
+      "stage": "optimised",
+      "templateId": "article",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "cxtrends",
+      "path": "/cxtrends",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "demo",
+      "path": "/demo",
+      "stage": "optimised",
+      "templateId": "form",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "employee-experience",
+      "path": "/employee-experience",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "employee-service",
+      "path": "/employee-service",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "free-trial",
+      "path": "/free-trial",
+      "stage": "optimised",
+      "templateId": "form",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "help-center-closed",
+      "path": "/help-center-closed",
+      "stage": "optimised",
+      "templateId": "unique",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "industries",
+      "path": "/industries",
+      "stage": "optimised",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "instapage-form-contact",
+      "path": "/instapage-form-contact",
+      "stage": "optimised",
+      "templateId": "form",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "instapage-form-content",
+      "path": "/instapage-form-content",
+      "stage": "optimised",
+      "templateId": "form",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "instapage-form-demo",
+      "path": "/instapage-form-demo",
+      "stage": "optimised",
+      "templateId": "form",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "instapage-form-newsletter",
+      "path": "/instapage-form-newsletter",
+      "stage": "optimised",
+      "templateId": "form",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "instapage-form-trial-teaser-sell",
+      "path": "/instapage-form-trial-teaser-sell",
+      "stage": "optimised",
+      "templateId": "form",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "instapage-form-trial-teaser-suite",
+      "path": "/instapage-form-trial-teaser-suite",
+      "stage": "deployed",
+      "templateId": "form",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "instapage-form-trial-teaser-suite-inline",
+      "path": "/instapage-form-trial-teaser-suite-inline",
+      "stage": "deployed",
+      "templateId": "form",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "instapage-form-webinar",
+      "path": "/instapage-form-webinar",
+      "stage": "optimised",
+      "templateId": "form",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "intro-tour",
+      "path": "/intro-tour",
+      "stage": "optimised",
+      "templateId": "unique",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "login",
+      "path": "/login",
+      "stage": "optimised",
+      "templateId": "form",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "marketplace",
+      "path": "/marketplace",
+      "stage": "optimised",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "marketplace-apps",
+      "path": "/marketplace/apps",
+      "stage": "optimised",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "marketplace-partners",
+      "path": "/marketplace/partners",
+      "stage": "optimised",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "marketplace-themes",
+      "path": "/marketplace/themes",
+      "stage": "optimised",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "newsroom",
+      "path": "/newsroom",
+      "stage": "optimised",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "partner",
+      "path": "/partner",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "platform",
+      "path": "/platform",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "pricing",
+      "path": "/pricing",
+      "stage": "optimised",
+      "templateId": "pricing",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "professional-services",
+      "path": "/professional-services",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "register",
+      "path": "/register",
+      "stage": "deployed",
+      "templateId": "form",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "repeatcustomer",
+      "path": "/repeatcustomer",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "sell",
+      "path": "/sell",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "service",
+      "path": "/service",
+      "stage": "optimised",
+      "templateId": "service",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "sitemap",
+      "path": "/sitemap",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "trust-center",
+      "path": "/trust-center",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "web-widget",
+      "path": "/web-widget",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "what-is-zendesk",
+      "path": "/what-is-zendesk",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "why-zendesk",
+      "path": "/why-zendesk",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "article",
+      "archetype": "customer-action-property-management",
+      "pageCount": 58,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 11,
+        "optimised": 47
+      }
+    },
+    {
+      "id": "blog",
+      "archetype": "blog",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "company",
+      "archetype": "company",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "contact",
+      "archetype": "contact",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "customer-canva",
+      "archetype": "customer-canva",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "form",
+      "archetype": "demo",
+      "pageCount": 12,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 3,
+        "optimised": 9
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "listing",
+      "archetype": "customer",
+      "pageCount": 7,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 7
+      }
+    },
+    {
+      "id": "pricing",
+      "archetype": "pricing",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "program",
+      "archetype": "cxtrends",
+      "pageCount": 10,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 2,
+        "optimised": 8
+      }
+    },
+    {
+      "id": "service",
+      "archetype": "service",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "static",
+      "archetype": "sitemap",
+      "pageCount": 3,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 3
+      }
+    },
+    {
+      "id": "unique",
+      "archetype": "blog-ads-api-output",
+      "pageCount": 3,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 2
+      }
+    }
+  ],
+  "blocks": {
+    "total": 14,
+    "converted": 14
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": 100
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      65,
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 17
+    },
+    "byAutofix": {}
+  }
+}

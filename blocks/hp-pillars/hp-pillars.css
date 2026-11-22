@@ -1,0 +1,241 @@
+/* stylelint-disable no-descending-specificity -- state and hover rules follow their base rules */
+
+/* hp-pillars — AI Summit three-pillar promo (body-promo) */
+.hp-pillars .hp-pillars-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: var(--za-graphite);
+}
+
+.hp-pillars .hp-pillars-lead {
+  position: relative;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 48px 32px;
+  background-color: var(--za-moss);
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 5%) 1px, transparent 1px),
+    linear-gradient(rgb(255 255 255 / 5%) 1px, transparent 1px);
+  background-size: 40px 40px;
+  text-align: left;
+}
+
+.hp-pillars .hp-pillars-lockup {
+  position: relative;
+  max-width: 208px;
+}
+
+.hp-pillars .hp-pillars-lockup :is(p, picture) {
+  margin: 0;
+  line-height: 0;
+}
+
+.hp-pillars .hp-pillars-lockup img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.hp-pillars .hp-pillars-intro {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.hp-pillars .hp-pillars-intro .za-text,
+.hp-pillars .hp-pillars-intro .za-text p {
+  margin-bottom: 0;
+  color: var(--za-white);
+}
+
+.hp-pillars .hp-linkgroup {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.hp-pillars :is(.hp-linkgroup, .hp-pillar-cta) p {
+  width: 100%;
+  margin: 0;
+}
+
+.hp-pillars :is(.hp-linkgroup, .hp-pillar-cta) a.button {
+  width: 100%;
+}
+
+.hp-pillars .hp-pillars-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 48px 32px;
+  background: var(--za-forest);
+}
+
+.hp-pillars .hp-pillar {
+  text-align: left;
+}
+
+.hp-pillars .hp-pillar-media {
+  margin-bottom: 32px;
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+.hp-pillars .hp-pillar-media :is(p, picture) {
+  margin: 0;
+  line-height: 0;
+}
+
+.hp-pillars .hp-pillar-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.hp-pillars .hp-pillar-body {
+  flex: 1 1 0%;
+}
+
+/* the pillar title keeps the source's h4 type (authored as h3 for the outline) */
+.hp-pillars .hp-pillar-title :is(h2, h3, h4) {
+  margin: 0 0 12px;
+  color: var(--za-cream);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+/* pillar CTA: the small on-dark button (za-btn-sm za-btn-on-dark) */
+.hp-pillars .hp-pillar-cta a.button {
+  padding: 10px 16px;
+  color: var(--za-white);
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.hp-pillars .hp-pillar-cta a.button::before {
+  border-color: rgb(255 255 255 / 32%);
+}
+
+.hp-pillars .hp-pillar-cta a.button:hover::before {
+  background-color: rgb(255 255 255 / 7%);
+}
+
+@media (width >= 768px) {
+  .hp-pillars .hp-pillars-lead {
+    align-items: center;
+    gap: 44px;
+    padding: 44px;
+  }
+
+  .hp-pillars .hp-pillars-lockup {
+    min-width: 254px;
+    margin-right: -9px;
+  }
+
+  .hp-pillars .hp-pillars-intro {
+    align-items: flex-start;
+    margin-top: 0;
+  }
+
+  .hp-pillars .hp-linkgroup {
+    flex-direction: row;
+    align-items: baseline;
+    width: auto;
+  }
+
+  .hp-pillars :is(.hp-linkgroup, .hp-pillar-cta) p,
+  .hp-pillars :is(.hp-linkgroup, .hp-pillar-cta) a.button {
+    width: auto;
+  }
+
+  .hp-pillars .hp-pillars-list {
+    flex-direction: row;
+    gap: 56px;
+    padding: 56px;
+  }
+
+  .hp-pillars .hp-pillar {
+    width: 33%;
+  }
+
+  .hp-pillars .hp-pillar-title :is(h2, h3, h4) {
+    margin-bottom: 16px;
+  }
+}
+
+@media (width >= 1150px) {
+  .hp-pillars .hp-pillars-card {
+    flex-direction: row;
+  }
+
+  .hp-pillars .hp-pillars-lead {
+    flex-basis: 40%;
+    gap: 24px;
+    padding: 153px 44px 174px;
+    background: var(--za-moss) url("./pillars-bg.avif") center center / cover no-repeat;
+  }
+
+  .hp-pillars .hp-pillars-lockup {
+    align-self: flex-start;
+  }
+
+  .hp-pillars .hp-pillars-intro {
+    gap: 16px;
+  }
+
+  .hp-pillars .hp-pillars-list {
+    flex-direction: column;
+  }
+
+  .hp-pillars .hp-pillar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+    width: unset;
+  }
+
+  .hp-pillars .hp-pillar-media {
+    flex-shrink: 0;
+    width: 200px;
+    margin-bottom: 0;
+  }
+
+  .hp-pillars .hp-pillar-title :is(h2, h3, h4) {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1600px) {
+  .hp-pillars .hp-pillars-lead {
+    padding: 82px 72px 247px;
+  }
+
+  .hp-pillars .hp-pillars-lockup {
+    min-width: 324px;
+  }
+
+  .hp-pillars .hp-pillars-list {
+    gap: 72px;
+    padding: 72px;
+  }
+
+  .hp-pillars .hp-pillar-title :is(h2, h3, h4) {
+    font-size: 20px;
+  }
+}

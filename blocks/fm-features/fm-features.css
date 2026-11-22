@@ -1,0 +1,82 @@
+/* fm-features — form-template icon cards (live /free-trial/ #teaser-5954bbc433) */
+.fm-features .fm-features-head {
+  text-align: center;
+}
+
+.fm-features .fm-features-head :is(h1, h2, h3) {
+  margin: 0 0 24px;
+}
+
+.fm-features .fm-features-head p {
+  margin: 0;
+  color: var(--za-ink);
+  font-size: 15px;
+  line-height: 21.75px;
+}
+
+.fm-features .fm-features-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 48px;
+  margin-top: 80px;
+}
+
+.fm-features .fm-features-card {
+  text-align: center;
+}
+
+.fm-features .fm-features-icon {
+  margin-bottom: 16px;
+}
+
+.fm-features .fm-features-icon p {
+  margin: 0;
+  line-height: 0;
+}
+
+.fm-features .fm-features-icon img {
+  display: block;
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.fm-features .fm-features-body :is(h2, h3, h4) {
+  margin: 0 0 16px;
+  color: var(--za-ink);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 21.75px;
+}
+
+.fm-features .fm-features-body p {
+  margin: 0 0 16px;
+  color: var(--za-ink);
+  font-size: 15px;
+  line-height: 21.75px;
+}
+
+@media (width >= 768px) {
+  .fm-features .fm-features-head p,
+  .fm-features .fm-features-body p,
+  .fm-features .fm-features-body :is(h2, h3, h4) {
+    font-size: 16px;
+    line-height: 23.2px;
+  }
+
+  .fm-features .fm-features-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+  }
+
+  .fm-features .fm-features-icon {
+    margin-bottom: 24px;
+  }
+}
+
+@media (width >= 1150px) {
+  .fm-features .fm-features-grid {
+    margin-top: 96px;
+  }
+}

@@ -1,0 +1,4467 @@
+{
+  "url": "http://localhost:8791/blog-proposed.html",
+  "width": 360,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".bl-group button[aria-label=\"Next\"]",
+      "frames": [
+        {
+          "t": 24519.5,
+          "trackTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 24723.400000000373,
+          "trackTransform": "matrix(1, 0, 0, 1, -171.328, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 24927.599999999627,
+          "trackTransform": "matrix(1, 0, 0, 1, -246.846, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 25129.699999999255,
+          "trackTransform": "matrix(1, 0, 0, 1, -251, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".bl-picks__slider button[aria-label=\"Next\"]",
+      "frames": [
+        {
+          "t": 26141.800000000745,
+          "trackTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 26346.199999999255,
+          "trackTransform": "matrix(1, 0, 0, 1, -209.269, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 26553.199999999255,
+          "trackTransform": "matrix(1, 0, 0, 1, -319.731, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 26757.900000000373,
+          "trackTransform": "matrix(1, 0, 0, 1, -331, 0)",
+          "trackTransition": "transform 0.5s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".bl-lead__link",
+      "changed": [
+        "self.color",
+        "img..color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.1s linear"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(17, 17, 13)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h3.bl-lead__title",
+            "transform": "none",
+            "color": "rgb(17, 17, 13)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "text-decoration-color 0.1s linear"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgba(17, 17, 13, 0.7)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.1s linear"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgba(17, 17, 13, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h3.bl-lead__title",
+            "transform": "none",
+            "color": "rgb(17, 17, 13)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "text-decoration-color 0.1s linear"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".bl-tag",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgba(17, 17, 13, 0.11)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 17, 13)",
+          "background": "rgba(17, 17, 13, 0.11)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "section.za-section.bl-listing.active > div.za-container.bl-listing__groups > section.bl-group > div.bl-carousel > div.bl-track.slick-track",
+        "y": 1457,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.za-col.bl-hero__side > div.bl-picks > div.bl-picks__slider > div.bl-carousel > div.bl-track.slick-track",
+        "y": 535,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.za-row.bl-hero__row > div.za-col.bl-hero__lead > div.bl-lead > a.bl-lead__link > div.bl-lead__media",
+        "y": 12,
+        "dur": "0s"
+      },
+      {
+        "prop": "text-decoration-color",
+        "el": "div.za-row.bl-hero__row > div.za-col.bl-hero__lead > div.bl-lead > a.bl-lead__link > h3.bl-lead__title",
+        "y": 12,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "color",
+        "el": "div.za-container.bl-hero__container > div.za-row.bl-hero__row > div.za-col.bl-hero__lead > div.bl-lead > a.bl-lead__link",
+        "y": 12,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.za-row.bl-hero__row > div.za-col.bl-hero__lead > div.bl-lead > a.bl-lead__link > div.bl-lead__media",
+        "y": 12,
+        "dur": "0s"
+      },
+      {
+        "prop": "text-decoration-color",
+        "el": "div.za-row.bl-hero__row > div.za-col.bl-hero__lead > div.bl-lead > a.bl-lead__link > h3.bl-lead__title",
+        "y": 12,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "color",
+        "el": "div.za-container.bl-hero__container > div.za-row.bl-hero__row > div.za-col.bl-hero__lead > div.bl-lead > a.bl-lead__link",
+        "y": 12,
+        "dur": "0.1s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 12
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 34
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 82
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 163
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 163
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 230
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 230
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 274
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 274
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 304
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 304
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 327
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 327
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 345
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 345
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 358
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 358
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 369
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 369
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 378
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 378
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 384
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 384
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 390
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 390
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 394
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 394
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 397
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 397
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 399
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 399
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 400
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 400
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 402
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 402
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 412
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 412
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 434
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 434
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 482
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 482
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 563
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 563
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 630
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 630
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > section.za-section.bl-listing.active",
+        "y": 630
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 674
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 674
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 704
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 704
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 727
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 727
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 745
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 745
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 758
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 758
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 769
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 769
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 778
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 778
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 784
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 784
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 790
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 790
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 794
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 794
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 797
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 797
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 799
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 799
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 800
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 800
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 802
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 802
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 812
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 812
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 834
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 834
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 882
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 882
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 963
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 963
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1030
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1030
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1074
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1074
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1104
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1104
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1127
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1127
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1145
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1145
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1158
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1158
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1169
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1169
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1178
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1178
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1184
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1184
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1190
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1190
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1194
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1194
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1197
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1197
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1199
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1199
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1200
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1200
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1202
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1202
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1212
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1212
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1234
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1234
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1282
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1282
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1363
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1363
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1430
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1430
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1474
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1474
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1504
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1504
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1527
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1527
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1545
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1545
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1558
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1558
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1569
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1569
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1578
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1578
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1584
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1584
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1590
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1590
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1594
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1594
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1597
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1597
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1599
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1599
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1600
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1600
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1602
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1602
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1612
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1612
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1634
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1634
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1682
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1682
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1763
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1763
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1830
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1830
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1874
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1874
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1904
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1904
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1927
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1927
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1945
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1945
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1958
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1958
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1969
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1969
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1978
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1978
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1984
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1984
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1990
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1990
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1994
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1994
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1997
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1997
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 1999
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 1999
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2000
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2000
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2002
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2002
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2012
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2012
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2034
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2034
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2082
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2082
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2163
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2163
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2230
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2230
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2274
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2274
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2304
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2304
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2327
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2327
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2345
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2345
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2358
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2358
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2369
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2369
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2378
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2378
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2384
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2384
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2390
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2390
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2394
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2394
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2397
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2397
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2399
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2399
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2400
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2400
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2402
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2402
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2412
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2412
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2434
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2434
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2482
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2482
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2563
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2563
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2630
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2630
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2674
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2674
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2704
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2704
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2727
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2727
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2745
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2745
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2758
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2758
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2769
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2769
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2778
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2778
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2784
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2784
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2790
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2790
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2794
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2794
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2797
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2797
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2799
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2799
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2800
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2800
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2802
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2802
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2812
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2812
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2834
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2834
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2882
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2882
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 2963
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 2963
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3030
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3030
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3074
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3074
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3104
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3104
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3127
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3127
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3145
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3145
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3158
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3158
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3169
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3169
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3178
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3178
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3184
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3184
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3190
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3190
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3194
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3194
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3197
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3197
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3199
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3199
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3200
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3200
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3202
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3202
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3212
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3212
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3234
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3234
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3282
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3282
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3363
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3363
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3430
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3430
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3474
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3474
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3504
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3504
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3527
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3527
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3545
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3545
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3558
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3558
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3569
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3569
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3578
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3578
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3584
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3584
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3590
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3590
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3594
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3594
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3597
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3597
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3599
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3599
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3600
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3600
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3602
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3602
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3612
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3612
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3634
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3634
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3682
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3682
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3763
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3763
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3830
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3830
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3874
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3874
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3904
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3904
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3927
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3927
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3945
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3945
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3958
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3958
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3969
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3969
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3978
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3978
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3984
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3984
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3990
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3990
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3994
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3994
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3997
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3997
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 3999
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 3999
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4000
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4000
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4002
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4002
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4012
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4012
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4034
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4034
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4082
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4082
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4163
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4163
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4230
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4230
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4274
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4274
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4304
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4304
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4327
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4327
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4345
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4345
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4358
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4358
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4369
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4369
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4378
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4378
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4384
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4384
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4390
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4390
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4394
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4394
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4397
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4397
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4399
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4399
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4400
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4400
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4402
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4402
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4412
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4412
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4434
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4434
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4482
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4482
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > section.za-section.bl-guides.active",
+        "y": 4482
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4563
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4563
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4630
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4630
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4674
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4674
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4704
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4704
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4727
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4727
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4745
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4745
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4758
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4758
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4769
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4769
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4778
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4778
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4784
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4784
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4790
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4790
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4794
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4794
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4797
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4797
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4799
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4799
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4800
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4800
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4802
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4802
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4812
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4812
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4834
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4834
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4882
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4882
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 4963
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 4963
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5030
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5030
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5074
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5074
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5104
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5104
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5127
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5127
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5145
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5145
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5158
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5158
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5169
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5169
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5178
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5178
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5184
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5184
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5190
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5190
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5194
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5194
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5197
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5197
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5199
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5199
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5200
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5200
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5202
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5202
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5212
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5212
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5234
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5234
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5282
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5282
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5363
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5363
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5430
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5430
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > section.za-section.hp-teaser.active",
+        "y": 5430
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5474
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5474
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5504
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5504
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5527
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5527
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5545
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5545
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5558
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5558
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5569
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5569
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5578
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5578
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5584
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5584
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5590
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5590
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5594
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5594
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5597
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5597
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5599
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5599
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5600
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5600
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5602
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5602
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5612
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5612
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5634
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5634
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5682
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5682
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5763
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5763
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5830
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5830
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5874
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5874
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5904
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5904
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5927
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5927
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5945
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5945
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > section.za-section.bl-latest.active",
+        "y": 5945
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5958
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5958
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5969
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5969
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5978
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5978
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5984
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5984
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5990
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5990
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5994
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5994
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5997
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5997
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 5999
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 5999
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 6000
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 6000
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 6002
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 6002
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 6012
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 6012
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 6034
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 6034
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 6082
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 6082
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 6163
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 6163
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 6230
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 6230
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 6274
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 6274
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 6304
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 6304
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 6327
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 6327
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 6345
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 6345
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 6358
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 6358
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 6369
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 6369
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 6378
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 6378
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 6384
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 6384
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 6390
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--desktop.is-stuck",
+        "y": 6390
+      },
+      {
+        "added": [
+          "is-stuck"
+        ],
+        "el": "html > body > main.za-main.bl-main > div.bl-root > div.za-hdr.za-hdr--mobile.is-stuck",
+        "y": 6394
+      }
+    ]
+  }
+}

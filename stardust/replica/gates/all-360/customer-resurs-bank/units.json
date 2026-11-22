@@ -1,0 +1,936 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-21T13:14:08.836Z",
+  "tol": 4,
+  "n": 4,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/customer/resurs-bank/",
+  "at": "2026-11-20T15:31:59.391Z",
+  "docH": 8318
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/customer/resurs-bank",
+  "at": "2026-11-21T13:14:08.726Z",
+  "docH": 8318
+ },
+ "results": [
+  {
+   "sel": ".Cardstyle__CardRoot-sc-1g3sojj-1=.zb-fact",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:markets",
+       "role": "heading",
+       "text": "markets",
+       "edsText": "markets",
+       "byPosition": false,
+       "origin": {
+        "x": 41,
+        "y": 24,
+        "w": 74,
+        "h": 22
+       },
+       "eds": {
+        "x": 41,
+        "y": 24,
+        "w": 74,
+        "h": 22,
+        "sel": "h2#markets",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:nordics",
+       "role": "text",
+       "text": "nordics",
+       "edsText": "nordics",
+       "byPosition": false,
+       "origin": {
+        "x": 51,
+        "y": 62,
+        "w": 54,
+        "h": 24
+       },
+       "eds": {
+        "x": 51,
+        "y": 62,
+        "w": 54,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1804,
+       "w": 156,
+       "h": 110
+      },
+      "eds": {
+       "x": 16,
+       "y": 1804,
+       "w": 156,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:zendesk customer since",
+       "role": "heading",
+       "text": "zendesk customer since",
+       "edsText": "zendesk customer since",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 24,
+        "w": 108,
+        "h": 66
+       },
+       "eds": {
+        "x": 24,
+        "y": 24,
+        "w": 108,
+        "h": 66,
+        "sel": "h2#zendesk-customer-since",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:2025",
+       "role": "text",
+       "text": "2025",
+       "edsText": "2025",
+       "byPosition": false,
+       "origin": {
+        "x": 59,
+        "y": 106,
+        "w": 38,
+        "h": 24
+       },
+       "eds": {
+        "x": 59,
+        "y": 106,
+        "w": 38,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 188,
+       "y": 1804,
+       "w": 156,
+       "h": 154
+      },
+      "eds": {
+       "x": 188,
+       "y": 1804,
+       "w": 156,
+       "h": 154
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:industry",
+       "role": "heading",
+       "text": "industry",
+       "edsText": "industry",
+       "byPosition": false,
+       "origin": {
+        "x": 125,
+        "y": 24,
+        "w": 78,
+        "h": 22
+       },
+       "eds": {
+        "x": 125,
+        "y": 24,
+        "w": 78,
+        "h": 22,
+        "sel": "h2#industry",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:financial services",
+       "role": "text",
+       "text": "financial services",
+       "edsText": "financial services",
+       "byPosition": false,
+       "origin": {
+        "x": 101,
+        "y": 62,
+        "w": 126,
+        "h": 24
+       },
+       "eds": {
+        "x": 101,
+        "y": 62,
+        "w": 126,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1982,
+       "w": 328,
+       "h": 110
+      },
+      "eds": {
+       "x": 16,
+       "y": 1982,
+       "w": 328,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Quotestyle__QuoteRoot-sc-rczw5k-0=.zb-quote",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.khrxgA > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:“a swedish colleague can support a finni",
+       "role": "text",
+       "text": "“a swedish colleague can support a finnish customer, and vic",
+       "edsText": "“a swedish colleague can support a finnish customer, and vic",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 78
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 78,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "text:pernilla klarqvist",
+       "role": "text",
+       "text": "pernilla klarqvist",
+       "edsText": "pernilla klarqvist",
+       "byPosition": false,
+       "origin": {
+        "x": 53,
+        "y": 150,
+        "w": 223,
+        "h": 26
+       },
+       "eds": {
+        "x": 53,
+        "y": 150,
+        "w": 223,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/600",
+        "eds": "18/26/600"
+       }
+      },
+      {
+       "key": "text:head of customer care at resurs bank",
+       "role": "text",
+       "text": "head of customer care at resurs bank",
+       "edsText": "head of customer care at resurs bank",
+       "byPosition": false,
+       "origin": {
+        "x": 53,
+        "y": 189,
+        "w": 223,
+        "h": 18
+       },
+       "eds": {
+        "x": 53,
+        "y": 189,
+        "w": 223,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/18/400",
+        "eds": "13/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1268,
+       "w": 328,
+       "h": 252
+      },
+      "eds": {
+       "x": 16,
+       "y": 1268,
+       "w": 328,
+       "h": 252
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.khrxgA > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:“now when we can present fact-based data",
+       "role": "text",
+       "text": "“now when we can present fact-based data—our voice is really",
+       "edsText": "“now when we can present fact-based data—our voice is really",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 78
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 78,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "text:pernilla klarqvist",
+       "role": "text",
+       "text": "pernilla klarqvist",
+       "edsText": "pernilla klarqvist",
+       "byPosition": false,
+       "origin": {
+        "x": 53,
+        "y": 150,
+        "w": 223,
+        "h": 26
+       },
+       "eds": {
+        "x": 53,
+        "y": 150,
+        "w": 223,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/600",
+        "eds": "18/26/600"
+       }
+      },
+      {
+       "key": "text:head of customer care at resurs bank",
+       "role": "text",
+       "text": "head of customer care at resurs bank",
+       "edsText": "head of customer care at resurs bank",
+       "byPosition": false,
+       "origin": {
+        "x": 53,
+        "y": 189,
+        "w": 223,
+        "h": 18
+       },
+       "eds": {
+        "x": 53,
+        "y": 189,
+        "w": 223,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/18/400",
+        "eds": "13/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1520,
+       "w": 328,
+       "h": 252
+      },
+      "eds": {
+       "x": 16,
+       "y": 1520,
+       "w": 328,
+       "h": 252
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Statstyle__StatRoot-sc-17s8ggd-0=.zb-stat",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:77%",
+       "role": "text",
+       "text": "77%",
+       "edsText": "77%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/700",
+        "eds": "34/42/700"
+       }
+      },
+      {
+       "key": "text:automated resolution",
+       "role": "text",
+       "text": "automated resolution",
+       "edsText": "automated resolution",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 46,
+        "w": 99,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 46,
+        "w": 99,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2180,
+       "w": 99,
+       "h": 94
+      },
+      "eds": {
+       "x": 16,
+       "y": 2180,
+       "w": 99,
+       "h": 94
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:86%",
+       "role": "text",
+       "text": "86%",
+       "edsText": "86%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/700",
+        "eds": "34/42/700"
+       }
+      },
+      {
+       "key": "text:customer ai agent satisfaction",
+       "role": "text",
+       "text": "customer ai agent satisfaction",
+       "edsText": "customer ai agent satisfaction",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 46,
+        "w": 99,
+        "h": 72
+       },
+       "eds": {
+        "x": 0,
+        "y": 46,
+        "w": 99,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 131,
+       "y": 2180,
+       "w": 99,
+       "h": 118
+      },
+      "eds": {
+       "x": 131,
+       "y": 2180,
+       "w": 99,
+       "h": 118
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:92%",
+       "role": "text",
+       "text": "92%",
+       "edsText": "92%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/700",
+        "eds": "34/42/700"
+       }
+      },
+      {
+       "key": "text:one-touch resolution",
+       "role": "text",
+       "text": "one-touch resolution",
+       "edsText": "one-touch resolution",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 46,
+        "w": 99,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 46,
+        "w": 99,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 245,
+       "y": 2180,
+       "w": 99,
+       "h": 94
+      },
+      "eds": {
+       "x": 245,
+       "y": 2180,
+       "w": 99,
+       "h": 94
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 8,
+  "within": 18,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

@@ -1,0 +1,13 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.zendesk.com/customer/canva/ (live side from cache stardust/replica/gates/customer-canva-360/chrome-live.json, probed 2026-11-20T08:16:46.429Z — delete the file to re-probe)
+  build: http://localhost:8791/customer-canva-proposed.html
+
+■ header: ✓ parity — 1 paired of 1/1 texts, 2/2 icons
+  region live:  header.sc-b03eb99a-5.kufEWs[role=banner] — [role=banner] landmark, box 0,0 360×68; selector #__next > div > header
+  region build: header.zb-header[role=banner] — [role=banner] landmark, box 0,0 360×68; selector body > header
+
+■ footer: ✓ parity — 9 paired of 9/9 texts, 5/5 icons
+  region live:  footer.sc-589b3f08-0.kiqZIv — outermost <footer>, box 0,9938 360×413; selector #__next > div > footer
+  region build: footer.zb-footer — outermost <footer>, box 0,9938 360×413; selector body > footer
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

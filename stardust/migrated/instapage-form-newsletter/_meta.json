@@ -1,0 +1,96 @@
+{
+  "slug": "instapage-form-newsletter",
+  "type": "form",
+  "renderBranch": "A'",
+  "template": "contact",
+  "modules": [
+    "fm-form",
+    "fm-hero"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "ct-wrap"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": null,
+    "css": "6522953e4893"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "encoder-gap",
+      "encoder": "stardust/rollout/encoders/archetype-form/encode.py",
+      "scratch": "stardust/.work/render/form/enc/instapage-form-newsletter.html",
+      "exit": 0,
+      "blocks": [
+        "fm-form",
+        "fm-hero"
+      ],
+      "wordsNotCarried": 0,
+      "wordsTotal": 34,
+      "gap": "",
+      "iframesDropped": 0,
+      "imgsDropped": 0
+    },
+    {
+      "kind": "metadata",
+      "robots": "noindex,follow",
+      "note": "source head meta robots noindex,follow carried in the render head; archetype-form encode.py emits no robots row — delivery: --meta-row robots=noindex,follow"
+    }
+  ],
+  "metadata": {
+    "title": "Instapage Form: Newsletter",
+    "description": "Newsletter form",
+    "canonical": "https://www.zendesk.com/instapage-form-newsletter/",
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Instapage Form: Newsletter",
+    "description": "Newsletter form",
+    "url": "https://www.zendesk.com/instapage-form-newsletter/"
+  },
+  "migratedAt": "2026-11-20T16:53:48Z",
+  "designMdSha": "84a4a03d7364",
+  "designJsonSha": "28069f8740fe",
+  "sourceCurrentSha": "1b9d7f49e970",
+  "sourceProposedSha": "c187182f4164",
+  "fidelityTier": "sibling",
+  "archetypeSource": "contact",
+  "archetypeSha": "616e2bf4d511",
+  "variants": [
+    "ct-instapage ct-form--full ct-hero--stack ct-bare"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "stardust/.work/render/form/variance.json (12 siblings vs /contact/, exit 2): \"main section:first-of-type\" matches 1 on the archetype, 0 on the sibling; rect{w 539 → 1430, h 556 → 125}; padding 0px 0px 0px 0px → 0px 0px 3px 0px; font vanilla sans 16px/16px 400 → proxima nova 16px/16px 400; 5 → 1 matches; 2 → 1 distinct style families among matches (a second visual family = a variant class); rect{w 539 → 1296}; backgroundColor rgba(17, 17, 13, 0.05) → rgb(248, 249, 249); color rgb(17, 17, 13) → rgb(23, 73, 77); font vanilla sans 15px/21px 400 → proxima nova 16px/24px 400; borderRadius 12px → 0px; \"h1\" matches 1 on the archetype, 0 on the sibling -> variants ct-instapage, ct-form--full, ct-hero--stack, ct-bare",
+    "content-count": "count.py: source {'headings': 0, 'body': 2, 'ctas': 2, 'hrefs': 1, 'images': 0, 'words': 34} vs render {'headings': 0, 'body': 2, 'ctas': 2, 'hrefs': 1, 'images': 0, 'words': 34}; drops none; words missing 0; hrefs compared as resolved targets (driver depth-relative rewrite); <noscript> fallback imgs not counted (same src as the lazy img) (stardust/.work/render/form/counts.jsonl)",
+    "content-fidelity": "sibling-form/build.py: headings, text (block-level boundaries), CTA labels+hrefs, images (src/alt), form schema (names/types/labels/options/placeholders/validation text) verbatim from the hydrated capture; word multiset diff 0; image src multiset equal; deviations declared"
+  },
+  "contentDeviations": [
+    {
+      "kind": "chrome",
+      "source": "live page has no site header/footer (bare form page)",
+      "target": "render without canon header/footer",
+      "reason": "verbatim: the source carries no chrome (delivery: nav/footer metadata off or an empty fragment)"
+    }
+  ],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/company/agreements-and-terms/privacy-notice/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "instapage-form-newsletter/index.html",
+  "outputPathDefault": null,
+  "sidecar": "instapage-form-newsletter/_meta.json",
+  "driverVersion": "1"
+}

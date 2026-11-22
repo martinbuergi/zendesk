@@ -1,0 +1,10 @@
+unit-geometry @ 1440px, tol 4px — https://www.zendesk.com/company/ vs http://localhost:8791/company-proposed.html
+unit 1 of gen-a-location-card (required) #teaser-f67eba53a7 .slick-current [role=group] > a=.co-car__slide:first-child .co-card: origin 169,2309 253×294 vs served 169,2309 253×293 → Δx 0 Δy 0 Δw 0 Δh -1; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img#1" | 1,1 251×188 | 1,1 251×188 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img#image-ed701fc074#1" | 1,1 251×188 | 1,1 251×188 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.LinkCardstyle__LinkCardConte" | 1,189 251×103 | 1,189 251×103 | 0 | 0 | 0 | 0 | ✓ |
+| text "hq san francisco" | 25,229 203×23 | 25,229 203×23 | 0 | 0 | 0 | 0 | ✓ |
+Units: 1 compared; elements within 4, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/company-1440/units-iter2.json

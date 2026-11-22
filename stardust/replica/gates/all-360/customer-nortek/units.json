@@ -1,0 +1,630 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-21T13:00:05.926Z",
+  "tol": 4,
+  "n": 4,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/customer/nortek/",
+  "at": "2026-11-20T15:30:16.121Z",
+  "docH": 7919
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/customer/nortek",
+  "at": "2026-11-21T13:00:05.825Z",
+  "docH": 7919
+ },
+ "results": [
+  {
+   "sel": ".Cardstyle__CardRoot-sc-1g3sojj-1=.zb-fact",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".Quotestyle__QuoteRoot-sc-rczw5k-0=.zb-quote",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.khrxgA > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:“the whole package that you get with zen",
+       "role": "text",
+       "text": "“the whole package that you get with zendesk, nobody else re",
+       "edsText": "“the whole package that you get with zendesk, nobody else re",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 78
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 78,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "text:keeley morris",
+       "role": "text",
+       "text": "keeley morris",
+       "edsText": "keeley morris",
+       "byPosition": false,
+       "origin": {
+        "x": 42,
+        "y": 150,
+        "w": 245,
+        "h": 26
+       },
+       "eds": {
+        "x": 42,
+        "y": 150,
+        "w": 245,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/600",
+        "eds": "18/26/600"
+       }
+      },
+      {
+       "key": "text:commercial operations manager at nortek",
+       "role": "text",
+       "text": "commercial operations manager at nortek",
+       "edsText": "commercial operations manager at nortek",
+       "byPosition": false,
+       "origin": {
+        "x": 42,
+        "y": 189,
+        "w": 245,
+        "h": 18
+       },
+       "eds": {
+        "x": 42,
+        "y": 189,
+        "w": 245,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/18/400",
+        "eds": "13/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1072,
+       "w": 328,
+       "h": 252
+      },
+      "eds": {
+       "x": 16,
+       "y": 1072,
+       "w": 328,
+       "h": 252
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.khrxgA > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:“we can see who’s calling you, how every",
+       "role": "text",
+       "text": "“we can see who’s calling you, how everything connects, and ",
+       "edsText": "“we can see who’s calling you, how everything connects, and ",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 104
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 104,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "text:keeley morris",
+       "role": "text",
+       "text": "keeley morris",
+       "edsText": "keeley morris",
+       "byPosition": false,
+       "origin": {
+        "x": 42,
+        "y": 176,
+        "w": 245,
+        "h": 26
+       },
+       "eds": {
+        "x": 42,
+        "y": 176,
+        "w": 245,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/600",
+        "eds": "18/26/600"
+       }
+      },
+      {
+       "key": "text:commercial operations manager at nortek",
+       "role": "text",
+       "text": "commercial operations manager at nortek",
+       "edsText": "commercial operations manager at nortek",
+       "byPosition": false,
+       "origin": {
+        "x": 42,
+        "y": 215,
+        "w": 245,
+        "h": 18
+       },
+       "eds": {
+        "x": 42,
+        "y": 215,
+        "w": 245,
+        "h": 18,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/18/400",
+        "eds": "13/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1324,
+       "w": 328,
+       "h": 278
+      },
+      "eds": {
+       "x": 16,
+       "y": 1324,
+       "w": 328,
+       "h": 278
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Statstyle__StatRoot-sc-17s8ggd-0=.zb-stat",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:83%",
+       "role": "text",
+       "text": "83%",
+       "edsText": "83%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/700",
+        "eds": "34/42/700"
+       }
+      },
+      {
+       "key": "text:reduction in first time response",
+       "role": "text",
+       "text": "reduction in first time response",
+       "edsText": "reduction in first time response",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 46,
+        "w": 156,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 46,
+        "w": 156,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1666,
+       "w": 156,
+       "h": 94
+      },
+      "eds": {
+       "x": 16,
+       "y": 1666,
+       "w": 156,
+       "h": 94
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:47 seconds",
+       "role": "text",
+       "text": "47 seconds",
+       "edsText": "47 seconds",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 84
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 84,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/700",
+        "eds": "34/42/700"
+       }
+      },
+      {
+       "key": "text:reduction of average technical call time",
+       "role": "text",
+       "text": "reduction of average technical call time yoy",
+       "edsText": "reduction of average technical call time yoy",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 88,
+        "w": 156,
+        "h": 72
+       },
+       "eds": {
+        "x": 0,
+        "y": 88,
+        "w": 156,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 188,
+       "y": 1666,
+       "w": 156,
+       "h": 160
+      },
+      "eds": {
+       "x": 188,
+       "y": 1666,
+       "w": 156,
+       "h": 160
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:+130%",
+       "role": "text",
+       "text": "+130%",
+       "edsText": "+130%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/700",
+        "eds": "34/42/700"
+       }
+      },
+      {
+       "key": "text:quote follow-up activity",
+       "role": "text",
+       "text": "quote follow-up activity",
+       "edsText": "quote follow-up activity",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 46,
+        "w": 328,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 46,
+        "w": 328,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1826,
+       "w": 328,
+       "h": 70
+      },
+      "eds": {
+       "x": 16,
+       "y": 1826,
+       "w": 328,
+       "h": 70
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 5,
+  "within": 12,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 1,
+  "requiredOff": 0
+ }
+}

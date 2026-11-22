@@ -1,0 +1,1907 @@
+[live-session] waiting to pace live navigations to www.zendesk.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 838 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/index-360/vdiff-iter3/
+
+build red flags (advisory): 
+  • IMAGE DID NOT LOAD: ProductImagery_AIAgentBuilder_AIAgent_ProductImagery__en_us.avif rendered 260x195 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: ProductImagery_AIAgents_Insights__en_us.avif rendered 260x195 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: ProductImagery_QualityAssurance_AIAgent_ProductImagery__en_us.avif rendered 260x195 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: ProductImagery_Intent_VoiceAIAgents__en_us.avif rendered 260x195 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 13663,
+  "textLen": 5046,
+  "images": [
+   {
+    "src": "%3e",
+    "natural": "440x331",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "440x331",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Hero-image_V01.jpg",
+    "natural": "1600x1065",
+    "rendered": "328x396",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Hero_Homepage__en_us.png",
+    "natural": "890x910",
+    "rendered": "246x350",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Siemens_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "202x112",
+    "rendered": "101x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Github_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "128x112",
+    "rendered": "64x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Uber_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "118x112",
+    "rendered": "59x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Box_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "96x112",
+    "rendered": "48x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Vimeo_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "164x112",
+    "rendered": "82x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Lush_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "160x112",
+    "rendered": "80x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tesco_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "192x112",
+    "rendered": "96x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Discord_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "332x112",
+    "rendered": "166x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1134x296",
+    "rendered": "208x54",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AI%20Summit%2026%20lockup%20center.png",
+    "natural": "1134x296",
+    "rendered": "208x54",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "800x600",
+    "rendered": "264x198",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ZAIS25_3Pillars_VoiceAIAgents%20(2).png",
+    "natural": "800x600",
+    "rendered": "264x198",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "400x300",
+    "rendered": "264x198",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "264x198",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "800x600",
+    "rendered": "264x198",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "264x198",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "400x200",
+    "rendered": "278x139",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "278x139",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "400x200",
+    "rendered": "278x139",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "278x139",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "400x200",
+    "rendered": "278x139",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "278x139",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1226x920",
+    "rendered": "328x246",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "328x246",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "144x144",
+    "rendered": "144x144",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "144x144",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "2088x1567",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "2088x1567",
+    "rendered": "260x195",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "260x195",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1484x1113",
+    "rendered": "260x195",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "260x195",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1484x1115",
+    "rendered": "260x195",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "260x195",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1484x1113",
+    "rendered": "260x195",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "260x195",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1484x1113",
+    "rendered": "260x195",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "260x195",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "3275x3717",
+    "rendered": "328x372",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "328x372",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1084x1084",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1084x1084",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1084x1084",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1084x1084",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1084x1084",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1084x1084",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1084x1084",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1084x1084",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1084x1084",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1084x1084",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1796x1454",
+    "rendered": "328x266",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "328x266",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "936x702",
+    "rendered": "233x175",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "233x175",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "936x702",
+    "rendered": "233x175",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "233x175",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "936x702",
+    "rendered": "233x175",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "233x175",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "936x702",
+    "rendered": "233x175",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "233x175",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "zendesk-logo.png",
+    "natural": "660x127",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1795168185245",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "1x1.gif?action=ct-init&hash=4c523741&advertiserId=3594&errorName=&errorCause=&errorMessage=&url=https%3A%2F%2Fwww.zendesk.com%2F",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=5217919&tm=gtm002&Ver=2&mid=1584d704-7e71-4373-9b7d-d549a0ed85ef&bo=2&sid=7257df20e4c411f1aba91b3ba53c5921&vid=72584fd0e4c411f189510f8175ced832&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=AI-Powered%20Customer%20Service%20Platform%20%7C%20Zendesk&p=https%3A%2F%2Fwww.zendesk.com%2F&r=&lt=4546&evt=pageLoad&sv=2&asc=G&cdb=AQET&rn=866369",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "cs?pid=d177d942cb8207b52f57818feb9bb79a7b77ce6e0ed688e3af36875661b9be1d&r=https%3A%2F%2Fs.dpmsrv.com%2Fblank.png&puid=dpmpixc%5B1478%5Da%5BNA%5Ds%5B01a1f85c-ac51-7d07-9e58-f7be23d4174a%5D",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "seg?member=827&consent=1&add=35557257,35557258",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "img?mt_id=2373595&mt_adid=431650",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "img?mt_id=2373594&mt_adid=431650",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "?adv=f6ba480&ct=0:vkv8rin&fmt=3",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "?adv=f6ba480&ct=0:lnrijku&fmt=3",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "img?mt_id=2770488&mt_adid=434212&mt_exem=&mt_excl=&v1=eng&v2=Engagement&v3=&s1=1&s2=&s3=",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "?adv=zlzb4gk&ct=0:dci0ww7&fmt=3&td1=eng&td2=1&td3=Engagement",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "AI-powered customer service plat",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "12px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Build for better outcomes",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "43px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "32,000+ service teams trust Zend",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "12px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "AI that gets smarter with every ",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Every conversation becomes a lea",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Zendesk AI turns signals into im",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Faster resolutions. Stronger loy",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Trillions of data points turned ",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Standalone AI agents for any pla",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The new CX Trends 2027 report is",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Designed for AI-first customer s",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Manage high volume autonomously",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "15px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Launch in minutes, not months",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "15px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Scale without adding headcount",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "15px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Trust every AI-driven resolution",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "15px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Modernize voice with Agentic AI",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "15px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Extend the power of AI-first ser",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Employee Service",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Contact Center",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Zendesk named a Leader in the 20",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Built for businesses of all size",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Connect your ecosystem. Your way",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Additional resources",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Pricing built for your success",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Launch your first AI agent today",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Need to know more?",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Common use cases",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "By business type",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Learn",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Support",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Company",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Latest News",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Common use cases",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "By business type",
+    "color": "rgb(17, 17, 13)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "Textstyle__TextRoot-sc-1qs4xfy-0",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "sc-9709aa77-0",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "StyledCol-sc-inuw62-0",
+    "width": 344,
+    "left": 8
+   },
+   {
+    "sel": "Textstyle__TextRoot-sc-1qs4xfy-0",
+    "width": 264,
+    "left": 48
+   },
+   {
+    "sel": "Textstyle__TextRoot-sc-1qs4xfy-0",
+    "width": 264,
+    "left": 48
+   },
+   {
+    "sel": "Textstyle__TextRoot-sc-1qs4xfy-0",
+    "width": 264,
+    "left": 48
+   },
+   {
+    "sel": "Textstyle__TextRoot-sc-1qs4xfy-0",
+    "width": 264,
+    "left": 48
+   },
+   {
+    "sel": "Textstyle__TextRoot-sc-1qs4xfy-0",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "sc-e20a6571-4",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "sc-e20a6571-4",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "sc-e20a6571-4",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "StyledCol-sc-inuw62-0",
+    "width": 344,
+    "left": 8
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 13663,
+  "textLen": 5135,
+  "images": [
+   {
+    "src": "AI_Summit_26_lockup_center.png",
+    "natural": "1134x296",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Hero-image_V01.avif",
+    "natural": "1600x1065",
+    "rendered": "328x396",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Hero_Homepage__en_us.webp",
+    "natural": "890x910",
+    "rendered": "246x350",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-anim-frame.png",
+    "natural": "310x772",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Siemens_Default.avif",
+    "natural": "202x112",
+    "rendered": "101x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Github_Default.avif",
+    "natural": "128x112",
+    "rendered": "64x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Uber_Default.avif",
+    "natural": "118x112",
+    "rendered": "59x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Box_Default.avif",
+    "natural": "96x112",
+    "rendered": "48x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Vimeo_Default.avif",
+    "natural": "164x112",
+    "rendered": "82x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Lush_Default.avif",
+    "natural": "160x112",
+    "rendered": "80x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Tesco_Default.avif",
+    "natural": "192x112",
+    "rendered": "96x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Discord_Default.avif",
+    "natural": "332x112",
+    "rendered": "166x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AI_Summit_26_lockup_center.png",
+    "natural": "1134x296",
+    "rendered": "208x54",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ZAIS25_3Pillars_VoiceAIAgents-2.avif",
+    "natural": "800x600",
+    "rendered": "264x198",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ZAIS25_3Pillars_VoiceAIAgents.avif",
+    "natural": "400x300",
+    "rendered": "264x198",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ZAIS25_3Pillars_ITAM.avif",
+    "natural": "800x600",
+    "rendered": "264x198",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rll-anim-1.png",
+    "natural": "510x240",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "RLL_ProductImagery_01__en_gb.avif",
+    "natural": "640x364",
+    "rendered": "278x139",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rll-anim-2.png",
+    "natural": "510x240",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "RLL_ProductImagery_02__en_gb.avif",
+    "natural": "640x277",
+    "rendered": "278x139",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rll-anim-3.png",
+    "natural": "510x240",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "RLL_ProductImagery_03__en_gb.avif",
+    "natural": "640x368",
+    "rendered": "278x139",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Photo_ZendeskForethought.avif",
+    "natural": "1226x920",
+    "rendered": "328x246",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "CX_Trends_2026.avif",
+    "natural": "256x256",
+    "rendered": "144x144",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ProductImagery_AIAgent_Messaging_CustomEntityIntent__en_us.avif",
+    "natural": "1600x1200",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ProductImagery_AIAgent_Messaging_CustomEntityIntent__en_us.avif",
+    "natural": "1600x1200",
+    "rendered": "260x195",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ProductImagery_AIAgentBuilder_AIAgent_ProductImagery__en_us.avif",
+    "natural": "0x0",
+    "rendered": "260x195",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "ProductImagery_AIAgents_Insights__en_us.avif",
+    "natural": "0x0",
+    "rendered": "260x195",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "ProductImagery_QualityAssurance_AIAgent_ProductImagery__en_us.avif",
+    "natural": "0x0",
+    "rendered": "260x195",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "ProductImagery_Intent_VoiceAIAgents__en_us.avif",
+    "natural": "0x0",
+    "rendered": "260x195",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "ProductImagery_EmployeeService__en_us.avif",
+    "natural": "1492x878",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ProductImagery_ContactCenter__en_us.avif",
+    "natural": "746x439",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gartner2026.webp",
+    "natural": "1600x1815",
+    "rendered": "328x372",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Next_Default.avif",
+    "natural": "152x112",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Next_Image_Testimonials_2x.avif",
+    "natural": "1084x1084",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Vimeo_Large.avif",
+    "natural": "256x112",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Vimeo_Image_Testimonials_2x.avif",
+    "natural": "1084x1084",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Openly_Large.avif",
+    "natural": "162x112",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Next_Default.avif",
+    "natural": "152x112",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Next_Image_Testimonials_2x.avif",
+    "natural": "1084x1084",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Vimeo_Large.avif",
+    "natural": "256x112",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Vimeo_Image_Testimonials_2x.avif",
+    "natural": "1084x1084",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Openly_Large.avif",
+    "natural": "162x112",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Next_Default.avif",
+    "natural": "152x112",
+    "rendered": "280x45",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Next_Image_Testimonials_2x.avif",
+    "natural": "1084x1084",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Logos_Marketplace.avif",
+    "natural": "1600x1295",
+    "rendered": "328x265",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Resources_Product_Platform.avif",
+    "natural": "936x702",
+    "rendered": "232x174",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Resources_Report_CX_Trends.avif",
+    "natural": "936x702",
+    "rendered": "232x174",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Resources_Guide_Zendesk_AI.avif",
+    "natural": "936x702",
+    "rendered": "232x174",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Resources_Article_Customer_Support.avif",
+    "natural": "936x702",
+    "rendered": "232x174",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "footer-cta-icon-42.png",
+    "natural": "42x42",
+    "rendered": "30x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "AI-powered customer service plat",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "12px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Build for better outcomes",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "43px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "32,000+ service teams trust Zend",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "12px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "AI that gets smarter with every ",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Every conversation becomes a lea",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Zendesk AI turns signals into im",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Faster resolutions. Stronger loy",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Trillions of data points turned ",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Standalone AI agents for any pla",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The new CX Trends 2027 report is",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Designed for AI-first customer s",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Manage high volume autonomously",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "15px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Launch in minutes, not months",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "15px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Scale without adding headcount",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "15px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Trust every AI-driven resolution",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "15px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Modernize voice with Agentic AI",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "15px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Extend the power of AI-first ser",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Employee Service",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Contact Center",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Zendesk named a Leader in the 20",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Built for businesses of all size",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Connect your ecosystem. Your way",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Additional resources",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Pricing built for your success",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Launch your first AI agent today",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Need to know more?",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Common use cases",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "By business type",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Learn",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Support",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Company",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Latest News",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "NEW",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Report",
+    "color": "rgb(245, 245, 242)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "za-text",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "hp-trial__consent",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "za-col",
+    "width": 352,
+    "left": 4
+   },
+   {
+    "sel": "za-text",
+    "width": 264,
+    "left": 48
+   },
+   {
+    "sel": "za-text",
+    "width": 264,
+    "left": 48
+   },
+   {
+    "sel": "za-text",
+    "width": 264,
+    "left": 48
+   },
+   {
+    "sel": "za-text",
+    "width": 264,
+    "left": 48
+   },
+   {
+    "sel": "za-text",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "hp-rll__block",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "hp-rll__block",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "hp-rll__block",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "za-col",
+    "width": 352,
+    "left": 4
+   }
+  ]
+ }
+}

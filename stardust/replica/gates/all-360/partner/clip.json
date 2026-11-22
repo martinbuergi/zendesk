@@ -1,0 +1,57 @@
+{
+ "url": "https://main--3055ed88--aemcoder.aem.page/partner",
+ "at": "2026-11-21T13:55:02.407Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 10,
+  "textNodes": 94,
+  "controls": 50,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.sv-carousel.block",
+   "path": "div.sv-res-list > div.sv-res-track > div.sv-res-slide > a.sv-res-card",
+   "text": "partner applicationapply now",
+   "cutMin": 139,
+   "cutMax": 139
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "a.sv-res-card",
+   "path": "a.sv-res-card > div.sv-res-content > div.sv-res-kind > p",
+   "text": "partner application",
+   "cutMin": 98,
+   "cutMax": 98
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 9,
+   "textNodes": 94,
+   "controls": 50,
+   "total": 0
+  }
+ }
+}

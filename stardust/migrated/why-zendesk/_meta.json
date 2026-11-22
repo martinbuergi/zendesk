@@ -1,0 +1,777 @@
+{
+  "slug": "why-zendesk",
+  "type": "program",
+  "renderBranch": "A'",
+  "template": "service",
+  "modules": [
+    "sv-hero",
+    "sv-columns",
+    "sv-cards",
+    "sv-stories",
+    "sv-accordion",
+    "sv-cta",
+    "sv-form"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "sv-wrap",
+    "sv-modal"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": "82a3dbc75361",
+    "css": "6522953e4893"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "closest-module-mapping",
+      "rule": "each live section carried with the closest archetype sv- module; compositions the archetype lacks ride a variant class on that module (block stays generic)",
+      "builder": "stardust/rollout/encoders/sibling-program/build.mjs",
+      "sections": [
+        {
+          "id": "teaser-1cdc65d405",
+          "module": "sv-hero",
+          "variants": [
+            "trial",
+            "image",
+            "logos"
+          ],
+          "heading": "Why modern service teams choose Zendesk"
+        },
+        {
+          "id": "teaser-0ed01f8114",
+          "module": "sv-columns",
+          "variants": [
+            "media"
+          ],
+          "heading": "Smarter service with every interaction"
+        },
+        {
+          "id": "teaser-b094cbb26d",
+          "module": "sv-cards",
+          "variants": [],
+          "heading": "What sets us apart"
+        },
+        {
+          "id": "teaser-22e364a5b4",
+          "module": "sv-columns",
+          "variants": [
+            "media"
+          ],
+          "heading": "A foundation that you can rely on"
+        },
+        {
+          "id": "teaser-b6dee8f830",
+          "module": "sv-columns",
+          "variants": [
+            "media"
+          ],
+          "heading": "Get real service value without the wait"
+        },
+        {
+          "id": "teaser-230f8cacaa",
+          "module": "sv-columns",
+          "variants": [
+            "media"
+          ],
+          "heading": "AI that acts, not  just informs"
+        },
+        {
+          "id": "teaser-8a72cd4a35",
+          "module": "sv-columns",
+          "variants": [
+            "media"
+          ],
+          "heading": "One platform. Zero silos."
+        },
+        {
+          "id": "teaser-faa5bdd92b",
+          "module": "sv-columns",
+          "variants": [
+            "text"
+          ],
+          "heading": "See why service leaders choose Zendesk"
+        },
+        {
+          "id": "datapoints",
+          "module": "sv-columns",
+          "variants": [
+            "text"
+          ],
+          "heading": "Trusted by 80,000+ companies worldwide"
+        },
+        {
+          "id": "testimonials",
+          "module": "sv-stories",
+          "variants": [],
+          "heading": null
+        },
+        {
+          "id": "datapoints",
+          "module": "sv-columns",
+          "variants": [
+            "media"
+          ],
+          "heading": "Our awards"
+        },
+        {
+          "id": "teaser-c2ccc9f976",
+          "module": "sv-accordion",
+          "variants": [
+            "faq"
+          ],
+          "heading": "Frequently asked questions"
+        },
+        {
+          "id": "teaser-eec9eeab0d",
+          "module": "sv-cta",
+          "variants": [],
+          "heading": "See why service leaders choose Zendesk"
+        },
+        {
+          "id": null,
+          "module": "sv-form",
+          "variants": [
+            "modal"
+          ],
+          "heading": "Contact Sales"
+        }
+      ]
+    },
+    {
+      "kind": "encoder",
+      "archetypeEncoder": "stardust/rollout/encoders/archetype-program/gen-content.py — one-off scraper of service-proposed.html; cannot read siblings",
+      "siblingEncoder": "stardust/rollout/encoders/sibling-program/encode.mjs stardust/migrated/why-zendesk/index.html <out> --page-url https://www.zendesk.com/why-zendesk/ — scratch run exit 0 under stardust/.work/render/program/enc/; carries every rendered word"
+    }
+  ],
+  "metadata": {
+    "title": "Why Zendesk | The AI Service Platform Built for Real Resolutions",
+    "description": "Discover why 80,000+ companies choose Zendesk. An AI-powered customer service, employee service, and contact center platform delivering faster resolutions and lower TCO.",
+    "canonical": "https://www.zendesk.com/why-zendesk/",
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Why Zendesk | The AI Service Platform Built for Real Resolutions",
+    "description": "Discover why 80,000+ companies choose Zendesk. An AI-powered customer service, employee service, and contact center platform delivering faster resolutions and lower TCO.",
+    "url": "https://www.zendesk.com/why-zendesk/"
+  },
+  "migratedAt": "2026-11-20T16:36:13Z",
+  "designMdSha": "84a4a03d7364",
+  "designJsonSha": "28069f8740fe",
+  "sourceCurrentSha": "8a18783d802c",
+  "sourceProposedSha": "b454d6cf8c4c",
+  "fidelityTier": "sibling",
+  "archetypeSource": "service",
+  "archetypeSha": "4d81ca4b601a",
+  "variants": [
+    "sv-hero trial",
+    "sv-hero image",
+    "sv-hero logos",
+    "sv-columns media",
+    "sv-columns text",
+    "sv-accordion faq",
+    "sv-form modal"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "media-reconcile"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance.mjs (stardust/.work/render/program/variance.json, job program-variance, from unit program-1): 8 findings: COUNT | CLUSTERS | PROBE | MISSING — budgeted as variant classes on the sibling's modules (variants[]), no block fork",
+    "content-count": "sibling-program/count.mjs vs stardust/current/pages/why-zendesk.{html,json}: why-zendesk: headings 23/23 · body 74/51 · ctas 25/25 · images 24/24 · media 0/0 · fields 9/9 · json-headings 23/23 · drops 0",
+    "content-fidelity": "verbatim DOM serialization from the hydrated capture (build.mjs); 0 uncovered drops; dedupes logged in contentDeviations; word check capture→render→sibling encoder: every word carried (count differences = logged duplicate copies only)",
+    "delivery-lint": "FAIL: 0 P0 · 1 P1 · 1 P2 (delivery-lint --path /why-zendesk)",
+    "pixel-gate-1440": "gate-all published origin main--3055ed88--aemcoder.aem.page @1440: pixel 1.11 (1.95) [9.92]%, offsets 2 step(s), 6px (bound 95), Δh 4px, clipped 0, MISSING 0 / HIDDEN 0 / state 5 → PASS (cp2-gate1440-final.log)",
+    "pixel-gate-360": "gate-all published origin main--3055ed88--aemcoder.aem.page @360: pixel 1.18 (1.18) [3.26]%, offsets 2 step(s), 2px (bound 138), Δh 0px, clipped 0, MISSING 0 / HIDDEN 0 / state 5 → PASS (cp2-gate360-r2.log)",
+    "media-reconcile": "media-reconcile content/why-zendesk.html --deploy-host main--3055ed88--aemcoder.aem.live: 24 hosted"
+  },
+  "contentDeviations": [
+    {
+      "kind": "deduplicated",
+      "source": "capture main (4 node(s))",
+      "target": "omitted from sibling render",
+      "reason": "slick clone slide (carousel loop copy)"
+    },
+    {
+      "kind": "deduplicated",
+      "source": "capture main (6 node(s))",
+      "target": "omitted from sibling render",
+      "reason": "AccordionMediaMobile duplicate image set (mobile copy of the desktop media)"
+    }
+  ],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/login/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.zendesk.com/it/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/au/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/in/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/zendesk-bridge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/analytics/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/any-platform/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/contact-center/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/quality-assurance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/workforce-management/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/messaging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/employee-service/itsm/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/voice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/startups/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/retail/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/financial-services/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/technology/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/media/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/programs/zendesk-community/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/company/events/ai-summit-2026/?utm_medium=webpromo&utm_source=navigation&utm_campaign=AISummit_26_nav3_NA_2026Q3",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/register/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/company/agreements-and-terms/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/zendesk-insights/innovation/csa-star-ai-levels-1-2-certification/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/analytics/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/quality-assurance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/workforce-management/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/customer/auctane/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/bitly/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/shopmonkey/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/contact-center/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/service/analytics/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/register/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/company/agreements-and-terms/privacy-policy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/contact-center/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/login/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/business/enterprise/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/smb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/startups/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/specialized-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/messaging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/customer-data-privacy-protection/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/voice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/community-forum/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/analytics/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/workforce-management/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/quality-assurance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/live-chat/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/customer-portal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/developers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/ai/zendesk-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/free-trial/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.zendesk.com/company/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/belonging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/sustainability/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/ventures/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/zendesk-vs-intercom/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/zendesk-vs-salesforce/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/zendesk-vs-freshdesk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/programs/experience-research-panel/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ticketing-system/customer-service-management-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/help-desk-software/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/messaging/live-chat-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/online-community-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/help-desk-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/client-portal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/knowledge-base-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/top-ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/contact-center/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/login/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/business/enterprise/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/smb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/startups/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/specialized-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/messaging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/customer-data-privacy-protection/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/voice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/community-forum/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/analytics/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/workforce-management/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/quality-assurance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/live-chat/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/customer-portal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/developers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/ai/zendesk-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/free-trial/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.zendesk.com/company/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/belonging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/sustainability/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/ventures/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/zendesk-vs-intercom/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/zendesk-vs-salesforce/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/zendesk-vs-freshdesk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/programs/experience-research-panel/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ticketing-system/customer-service-management-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/help-desk-software/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/messaging/live-chat-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/online-community-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/help-desk-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/client-portal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/knowledge-base-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/top-ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/terms-of-use/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/cookie-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "why-zendesk/index.html",
+  "outputPathDefault": null,
+  "sidecar": "why-zendesk/_meta.json",
+  "driverVersion": "1"
+}

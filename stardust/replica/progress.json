@@ -1,0 +1,1833 @@
+{
+  "archetypes": {
+    "article": {
+      "type": "article",
+      "slug": "customer-canva",
+      "liveUrl": "https://www.zendesk.com/customer/canva/",
+      "prototype": "stardust/prototypes/customer-canva-proposed.html",
+      "css": [
+        "stardust/prototypes/fonts.css",
+        "stardust/prototypes/canon-b.css",
+        "stardust/prototypes/customer-canva.css"
+      ],
+      "contentRoot": "main",
+      "gates": {
+        "360": {
+          "rounds": 2,
+          "counted": 1,
+          "pixel": 0.07,
+          "dh": 0,
+          "contentDiff": "0 red / 0 yellow / 54 advisory (EXTRA: desktop primary/secondary nav — live renders it only at >=768 and omits it from the DOM at 360; the build ships it display:none)",
+          "clipped": 0,
+          "overflow": false,
+          "units": "8 compared, 0 off",
+          "chromeParity": "quiet; header crop 99.31% (glyph AA), footer crop 100.00%",
+          "capProbe": "PASS (run once at 2560)",
+          "verdict": "PASS"
+        },
+        "1440": {
+          "rounds": 4,
+          "counted": 2,
+          "pixel": 0.03,
+          "dh": 0,
+          "contentDiff": "0 red / 0 yellow / 0 advisory",
+          "clipped": 0,
+          "overflow": false,
+          "units": "8 compared, 0 off",
+          "chromeParity": "quiet; header crop 100.00%, footer crop 100.00%",
+          "capProbe": "PASS (2560, 0 of 5 rows failed)",
+          "verdict": "PASS"
+        }
+      },
+      "chromeParity": "gen-B legacy header + footer authored in canon-b.css; chrome-parity quiet at 1440 and 360; header contract (stardust/chrome/header-contract-legacy.json): sticky scroll state (top -29px desktop / -1px mobile), Company + primary hover dropdowns, mobile drawer (accordion: Products, Pricing, Solutions, Demo, Resources, Company, Contact; Free trial + Sign in) mounted on toggle click",
+      "residuals": [
+        "visual-diff advisory IMAGERY GAP 17 vs 2: live extras are third-party (Wistia popover thumbnail, chat widget, tracking pixels, OneTrust logos) — not page content",
+        "Watch the video: Wistia popover (media z5pqgubflf) not wired — button carries data-video=wistia:z5pqgubflf; dynamics row (embed) for delivery",
+        "Newsletter form: UI rebuilt, no submit backend (interim tier per dynamic-features.md)",
+        "Mobile drawer accordion internals styled from contract screenshots (not gated by pixel; closed state is what the gate sees)",
+        "Hero image + logo fetched directly from the CloudFront CDN (200) into assets/customer-canva/"
+      ],
+      "motion": {
+        "observed": [
+          "header sticky scroll-state (class swap kufEWs->hHkIaE, position relative->sticky, top -29px @1440 / -1px @360)",
+          "hover color -> rgb(6,97,90) 0.25s: secondary nav link, back link, share icons, video link, legal links",
+          "hover background -> rgb(6,97,90) 0.25s: primary buttons (Free trial, Find my solution, Subscribe)",
+          "section 'active' class on enter (no style change observed)",
+          "mobile drawer open on toggle click (contract)"
+        ],
+        "implemented": [
+          "header .is-stuck sticky state (JS, threshold = secondary-bar height)",
+          "all hover color/background transitions above, 0.25s",
+          "mobile drawer toggle + accordion (JS)"
+        ],
+        "dead": [
+          "hover on primary-nav labels (no diff)",
+          "hover on header Demo button (no diff)",
+          "hover on footer column links (no diff)",
+          "section 'active' class (no visual effect measured)"
+        ]
+      },
+      "captureState": [
+        {
+          "what": "Wistia 'Watch the video' popover",
+          "restoreAtDelivery": "wire Wistia popover embed z5pqgubflf (same src) at delivery"
+        },
+        {
+          "what": "Newsletter subscribe form",
+          "restoreAtDelivery": "connect to the form backend per dynamic-features.md"
+        }
+      ],
+      "sharedModules": {
+        "canon-b.css": [
+          "tokens",
+          "base + Garden 12-col grid",
+          "buttons",
+          "legacy header (desktop + mobile + drawer)",
+          "legacy footer + newsletter",
+          "social block",
+          "back link",
+          "logo row",
+          "link group + video link",
+          "pull-quote pair",
+          "fact cards",
+          "stats row",
+          "article body 9/12",
+          "hover states"
+        ],
+        "customer-canva.css": [
+          "story hero (6/12 text + 5/12 offset-1 image)"
+        ]
+      },
+      "passed": true
+    },
+    "landing": {
+      "type": "landing",
+      "slug": "index",
+      "liveUrl": "https://www.zendesk.com/",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "css": [
+        "stardust/prototypes/fonts.css",
+        "stardust/prototypes/canon-a.css",
+        "stardust/prototypes/index.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon-a.js",
+        "stardust/prototypes/index.js"
+      ],
+      "contentRoot": "main",
+      "sourceSpec": {
+        "360": "0 sections with a height delta, page height 14844 = 14844; exit 2 for the same pairing artefacts",
+        "1440": "0 sections with a height delta, page height 12505 = 12505; exit 2 only on node pairing (next/image sizer placeholder imgs on live, odometer digit spans, links inside the closed FAQ)"
+      },
+      "gates": {
+        "360": {
+          "rounds": 3,
+          "counted": 2,
+          "pixel": 0.33,
+          "dh": 0,
+          "contentDiff": "0 red / 0 yellow / 32 advisory",
+          "clipped": 0,
+          "overflow": false,
+          "units": "none declared",
+          "chromeParity": "quiet; header crop 98.84 %, footer crop 100.00 %",
+          "capProbe": "PASS (run once at 2560)",
+          "verdict": "PASS"
+        },
+        "1440": {
+          "rounds": 3,
+          "counted": 3,
+          "pixel": 0.49,
+          "dh": 0,
+          "contentDiff": "0 yellow / 1 red (hero email placeholder — live flips between 'Enter work email' and 'name@company.com' between visits: content-diff-iter1 vs iter3; frozen baseline renders 'Enter work email')",
+          "clipped": 0,
+          "overflow": false,
+          "units": "none declared",
+          "chromeParity": "footer quiet after fixes (wrapper/footer split, LinkText spans); header with --region (live has no header landmark): 3 span-vs-a pairs fixed after the last round, logo box 97x69 vs 84x60 pixel-identical; crops header 99.92 %, footer 98.64 %",
+          "capProbe": "PASS (2560, 0 of 17 rows failed)",
+          "verdict": "residual (accept-residual recorded at the cap)"
+        }
+      },
+      "chromeParity": "gen-A header (desktop >=970 + mobile) and footer authored in canon-a.css; footer quiet at 360, 1440 deltas fixed after the capped round; header needs --region header=\"body>div:nth-of-type(1)>div>div:nth-of-type(3)|#za-hdr-d\" (live has no landmark)",
+      "residuals": [
+        "1440 hero email placeholder: live A/B / per-visit variance ('Enter work email' vs 'name@company.com'); build: 'Enter work email' >=768, 'name@company.com' below (matches both frozen baselines)",
+        "Footer legal link: OneTrust rewrites 'Cookie settings' to 'Do Not Sell or Share My Personal Information' after load; build carries the rendered (baseline) text",
+        "1440 hero band 500-1000 (3.9 % aligned): Rive hero animation frame + third-party chat launcher on live — not page content",
+        "source-spec compare exit 2 on pairing artefacts only (live next/image sizer imgs, odometer digit spans now generated content, collapsed FAQ links)",
+        "1440 rounds closed at the cap before the final motion/chrome tweaks (header LinkText spans, slide track, stuck header, keyframe names, card hover colour); not re-gated at 1440 — 360 confirmation after them: 0.33 %, Δh 0, 0/0, clipped 0",
+        "visual-diff advisory: AI-first accordion images in collapsed panels lazy (not loaded) — live renders 1x1 placeholders there",
+        "Hero trial form: UI rebuilt, no submit backend (interim tier per dynamic-features.md)"
+      ],
+      "motion": {
+        "observed": [
+          "testimonials Next: slick track travel 1038px @1440, settle 211ms, infinite clones",
+          "#resources card hover: background + colour to rgba(17,17,13,.7), img filter, 300ms",
+          "scroll-timeline entrances: expandAccordion (AI-first), scaleIn/scaleOut (RLL dot)",
+          "header stuck state (kOPZoh): logo transform/fill transitions",
+          "sections gain 'active' on entering the viewport",
+          "RLL blocks: active glow (box-shadow 300ms) moves with scroll",
+          "odometer reels roll on entering (transform 1.2s)"
+        ],
+        "implemented": [
+          "testimonial slide track (translateX, 150ms) + slick-style clones, Prev/Next/dots",
+          "resources card hover colour/background/filter 300ms",
+          "keyframes expandAccordion / scaleIn / scaleOut (view timelines)",
+          "canon-a.js header .is-stuck on pin",
+          "section 'active' class via IntersectionObserver",
+          "viewport-dependent hero placeholder"
+        ],
+        "dead": [
+          "AI-first tab click (no sampled change)",
+          "FAQ summary click (no sampled change)",
+          "hover on duo cards, platform CTA, footer links (no measured diff)"
+        ],
+        "notImplemented": [
+          "RLL scroll-driven active-glow swap (static state = frozen reference: block 2 active; a scroll-driven swap would change stitched captures at 1440, which is closed)",
+          "odometer roll-in (static final figures = reference)",
+          "RLL dot colour class swap (values not captured)"
+        ]
+      },
+      "captureState": [
+        {
+          "what": "Hero trial teaser form",
+          "restoreAtDelivery": "connect to /register/ trial flow per dynamic-features.md"
+        },
+        {
+          "what": "Hero Rive animation (static fallback frame)",
+          "restoreAtDelivery": "embed /content/dam/zendesk/pages/home/rive/Hero-20260520__en_us.riv runtime"
+        },
+        {
+          "what": "OneTrust cookie-settings link",
+          "restoreAtDelivery": "OneTrust SDK owns the link text (ot-sdk-show-settings)"
+        }
+      ],
+      "sharedModules": {
+        "canon-a.css": [
+          "tokens",
+          "base",
+          "eyebrow/tag",
+          "buttons",
+          "text link + LinkRoot (.za-linkroot)",
+          "hidden Garden icons (.za-ext, .za-rot)",
+          "container/section shells + 12-col grid",
+          "promo bar",
+          "gen-A header (desktop + mobile, stuck state)",
+          "gen-A footer (columns + mobile accordion, Contact us LinkText)"
+        ],
+        "canon-a.js": [
+          "promo dismiss",
+          "footer accordion",
+          "header stuck state"
+        ],
+        "index.css": [
+          "hero + trial teaser",
+          "logo row",
+          "AI Summit pillars",
+          "resolution learning loop",
+          "odometer stats",
+          "split rows",
+          "CX Trends teaser",
+          "AI-first tabs/accordion",
+          "duo cards",
+          "testimonials carousel",
+          "resources carousel",
+          "pricing card",
+          "footer CTA",
+          "FAQ details"
+        ]
+      },
+      "passed": false,
+      "approvedBy": "hands-off",
+      "approvalNote": "1440 accept-residual at round cap: sole content-diff red is the live hero email placeholder, which varies between live loads (Enter work email / name@company.com); pixel 0.49% dh 0"
+    },
+    "program": {
+      "type": "program",
+      "slug": "service",
+      "liveUrl": "https://www.zendesk.com/service/",
+      "generation": "A (Vanilla Sans; _computed-styles fontFamily 50/50 \"Vanilla Sans\")",
+      "prototype": "stardust/prototypes/service-proposed.html",
+      "css": [
+        "stardust/prototypes/fonts.css",
+        "stardust/prototypes/canon-a.css",
+        "stardust/prototypes/service.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon-a.js",
+        "stardust/prototypes/service.js"
+      ],
+      "contentRoot": "main",
+      "gates": {
+        "360": {
+          "rounds": 3,
+          "pixel": 0.17,
+          "dh": 0,
+          "contentDiff": "main: 0 red / 0 nothing-lost (owner-accepted 14 incl. hidden <768 logo-tab placeholders); footer (canon-a): 22 external-glyph icons/aria-labels + MISSING CTA 'Cookie settings' -> canon-requests.md #2/#3 | after canon sync: footer findings resolved (0 nothing-lost), see postCanonSync",
+          "clipped": 0,
+          "overflow": false,
+          "units": "21 compared, 0 off",
+          "chromeCrops": "header 99.14%, footer 99.91%",
+          "sourceSpec": "0 sections / 0 nodes off / 0 missing; 1 extra = canon footer h3 'Contact us.'",
+          "capProbe": "PASS (run once at 2560)",
+          "verdict": "residual"
+        },
+        "1440": {
+          "rounds": 3,
+          "pixel": 0.23,
+          "dh": 0,
+          "contentDiff": "main: 0 red / 0 nothing-lost (owner-accepted 9: slick loop-clone CTA duplicates + live 'undefined testimonial' aria-labels, stardust/replica/accepted.json); footer (canon-a): 22 red MISSING ICON + 22 nothing-lost MISSING ARIA-LABEL '(opens in a new tab)' -> canon-requests.md #2 | after canon sync: footer findings resolved (0 nothing-lost), see postCanonSync",
+          "clipped": 0,
+          "overflow": false,
+          "units": "21 compared, 0 off (gen-a-icon-card x4, gen-a-capability-link x12, gen-a-resource-card x1, gen-a-accordion-row x4)",
+          "chromeCrops": "header 99.91%, footer 98.69%",
+          "sourceSpec": "0 sections / 0 nodes off / 0 missing; 1 extra = canon footer h3 'Contact us.' (canon-requests.md #1)",
+          "capProbe": "PASS (2560, 0 of 11 rows failed)",
+          "verdict": "residual"
+        }
+      },
+      "chromeParity": "after the canon-a sync: chrome-parity quiet at 1440 and 360 (header + footer); counted rounds (iter3) predate the sync and carried 76/17 canon-footer deltas",
+      "residuals": [
+        "Counted gate rounds (iter1-3 per width) closed with accept-residual on canon-footer-only findings; the owner then landed the footer changes and the re-synced prototype measures clean on chrome-parity/content-diff (postCanonSync) — a counted confirmation round needs a rounds decision the ledger no longer allows (closed)",
+        "Customer-stories carousel: live slick renders loop clones with text (Vimeo x3, others x2); the build renders each slide once (clones carry no text) — MISSING BODY advisories + accepted MISSING CTA duplicates",
+        "Live logo tabs carry aria-label 'undefined testimonial'; build names '<customer> testimonial' (accepted.json)",
+        "Guided-tour section (Storylane iframe) is not rendered below 768 on live (JS-conditional); build hides it with @media (max-width: 767.98px) — the exact breakpoint between 360 and 1440 is unmeasured",
+        "Resources carousel slidesToShow at 768-1149 assumed 2.3 (4.3 @>=1150 and 1.4 @<768 measured)",
+        "Contact Sales modal (hidden form in main) authored as a hidden dialog with the captured fields/options; no submit backend (interim tier per dynamic-features.md); nothing opens it on live at rest",
+        "Hero free-trial form: UI rebuilt, no submit backend (interim tier); privacy notice reveals on email focus as live (.expanded)",
+        "Header sticky/stuck state (kOPZoh) and its logo fill transition are canon-a.js scope (not in service.js)",
+        "Live hero email placeholder drifted to 'Enter work email' after the gate rounds (captured: 'name@company.com'); build keeps the captured value — confirm at delivery"
+      ],
+      "motion": {
+        "observed": [
+          "customer-stories Next: slick track travel 918px, settle ~212ms (live)",
+          "resources Next: track travel 276px, transform 0.5s, clicks ignored mid-slide",
+          "customer-stories autoplay: active logo tab ::before progressBar 10s linear while in view, then next slide (classes kNUmSf/eYlcVI/cbWYUK)",
+          "hover resources card: background rgba(17,17,13,.05), color .7, img brightness(.9), 300ms",
+          "hover story link / arrow buttons: color -> rgba(17,17,13,.7) 600ms",
+          "slide fade: opacity 200ms (+200ms delay on active)",
+          "section 'active' class on enter (no visual change)",
+          "header stuck class + logo fill transition (canon)"
+        ],
+        "implemented": [
+          "testimonial track translateX(-100% x n) 200ms + opacity fade; prev/next, dots, logo tabs",
+          "resources track translateX(step) 500ms with a 500ms click lock; prev disabled at start",
+          "autoplay via IntersectionObserver + 10s timer; sv-progress bar on the active tab",
+          "card / link / arrow hover colours and tints as lifted from the live CSSOM",
+          "benefits accordion: single-open, swaps the desktop media, aria-expanded/hidden/inert"
+        ],
+        "dead": [
+          "accordion label click (no sampled travel on live; panel/media swap implemented from CSS/DOM)",
+          "hover on capability links, video link, protected links, free-trial button, promo button (no measured diff on live)",
+          "Contact Sales CTA hover (white -> white text colour, no visible change)",
+          "section 'active' class (no visual effect)",
+          "entrance 'blippity' (one element, logo-tab bar fade) — covered by the progress bar restart"
+        ],
+        "evidence": [
+          "stardust/replica/motion/service-live.json",
+          "stardust/replica/motion/service-build.json"
+        ]
+      },
+      "captureState": [
+        {
+          "what": "Customer-stories autoplay (10 s per slide) — gate captures show slide 1 (Best Egg)",
+          "restoreAtDelivery": "rotates every 10 s while in view, progress bar on the active logo tab (implemented in service.js; keep in the EDS block)"
+        },
+        {
+          "what": "Hero video link (Wistia popover izivwbhm2u) — static poster + play button",
+          "restoreAtDelivery": "wire the Wistia popover embed izivwbhm2u (same src) on the play button"
+        },
+        {
+          "what": "Storylane guided tour iframe",
+          "restoreAtDelivery": "same src https://app.storylane.io/demo/htqk95bthcym?embed=inline (embed-passthrough, dynamics rows 68-72)"
+        },
+        {
+          "what": "Free-trial form + Contact Sales modal form",
+          "restoreAtDelivery": "connect to the form backend per dynamic-features.md (interim tier)"
+        }
+      ],
+      "canonRequests": "stardust/replica/canon-requests.md #1-#3 (canon-a footer)",
+      "sharedModules": {
+        "canon-a.css": [
+          "tokens",
+          "base/type",
+          "buttons",
+          "container + section shells + grid",
+          "promo bar",
+          "gen-A header",
+          "gen-A footer"
+        ],
+        "service.css": [
+          "page shell (first section under the header, --headerHeight 65/115)",
+          "hero teaser (6/12 text + 5/12 video, lime glow) + free-trial form",
+          "forest body-promo card",
+          "accordion + media (benefits)",
+          "customer-stories carousel (logo, stats, quote, cite, logo tabs, dots)",
+          "icon cards (4-up)",
+          "capability link grid (3-up)",
+          "guided-tour iframe",
+          "cream 'protected by' card (3-col)",
+          "resources link-card carousel",
+          "closing CTA (ink + moss glow)",
+          "intrinsic-image wrapper, hidden Contact Sales modal"
+        ]
+      },
+      "pageOwnedPass": true,
+      "passed": true,
+      "postCanonSync": {
+        "what": "canon-a footer/header landed by the owner after the counted rounds closed (accept-residual at 1440/360); service chrome markup re-synced from the canon (index-proposed.html). Evidence below is uncounted (no gate round available), measured against the frozen baselines",
+        "sourceSpec": {
+          "360": "0 / 0 / 0 / 0",
+          "1440": "0 sections / 0 nodes off / 0 missing / 0 extra"
+        },
+        "chromeParity": {
+          "360": "quiet (header 3/3, footer 25/25; 1 advisory REST STATE)",
+          "1440": "quiet (header 3/3, footer 75/75)"
+        },
+        "pixelVsFrozenBaseline": {
+          "360": "0.16%, dh 0",
+          "1440": "0.36% unaligned, dh 0"
+        },
+        "chromeCrops": {
+          "360": "header 99.14%, footer 100.00%",
+          "1440": "header 99.91%, footer 98.69%"
+        },
+        "contentDiff": {
+          "360": "1 red / 0 nothing-lost",
+          "1440": "1 red / 0 nothing-lost",
+          "red": "MISSING PLACEHOLDER: live hero input now shows placeholder 'Enter work email' (captured page + gate rounds: 'name@company.com') — live content drift/variant; build keeps the captured value"
+        },
+        "evidence": "stardust/.work/service-tools/sync/ (build-*.png, diff-*.png, cd-*.txt)"
+      },
+      "approvedBy": "hands-off",
+      "approvalNote": "3/3 counted rounds per width closed accept-residual on shared-footer reds (since fixed in canon-a); uncounted re-checks after the footer landed: compare 0 diffs, chrome parity clean, pixel 0.36%/0.16%; remaining red = live-variant email placeholder. Open: live tab labels read \"undefined testimonial\" — prototype names customers; restore verbatim label at delivery"
+    },
+    "form": {
+      "type": "form",
+      "slug": "contact",
+      "liveUrl": "https://www.zendesk.com/contact/",
+      "generation": "A (Vanilla Sans; slim header + slim legal footer variant)",
+      "prototype": "stardust/prototypes/contact-proposed.html",
+      "css": [
+        "stardust/prototypes/fonts.css",
+        "stardust/prototypes/canon-a.css",
+        "stardust/prototypes/contact.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon-a.js",
+        "stardust/prototypes/contact.js"
+      ],
+      "contentRoot": "main",
+      "sourceSpec": {
+        "360": "0 / 0 / 0 / 0 (page 5219 = 5219)",
+        "1440": "0 sections / 0 nodes off / 0 missing / 0 extra (page 2902 = 2902)"
+      },
+      "gates": {
+        "360": {
+          "rounds": 1,
+          "pixel": 0.13,
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost / 0 advisory (iter2 confirmation)",
+          "clipped": 0,
+          "overflow": false,
+          "units": "28 compared, 0 off",
+          "chromeCrops": "header 100.00%, footer 100.00%",
+          "capProbe": "PASS (run once at 2560)",
+          "verdict": "PASS"
+        },
+        "1440": {
+          "rounds": 2,
+          "pixel": 0.06,
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost / 0 advisory (iter3 confirmation)",
+          "clipped": 0,
+          "overflow": false,
+          "units": "gen-a-office-cell 28 compared, 0 off",
+          "chromeCrops": "header 100.00%, footer 100.00%",
+          "capProbe": "PASS (2560, 0 of 3 rows failed)",
+          "verdict": "PASS"
+        }
+      },
+      "chromeParity": "quiet at 1440 and 360 (header 2/2 + 1/1 texts, footer 6/6). Live has no header landmark and no promo strip on /contact/: the index --region body>div:nth-of-type(1)>div>div:nth-of-type(3) does NOT hold here; used header=#__next>div>div:nth-of-type(2)|#za-hdr-d (1440) and #__next>div>div:nth-of-type(1)|#za-hdr-m (360). Slim header/footer authored page-locally (canon-requests.md #4-#6)",
+      "residuals": [
+        "visual-diff advisory IMAGERY GAP (13 source images): all tracking pixels / OneTrust logos rendered 0x0 - not page content",
+        "Live renders a second, display:none duplicate 5-field form (#contact-form-548); the build carries it hidden too so content counts match",
+        "Live 15-field variant fields (Phone number, Company name, Number of employees tiles) are display:none in the visible form; build keeps them hidden",
+        "Country select shows 'United States' at rest on live (geo default); build pre-selects United States",
+        "Validation: required-field state lifted from a live submit (First/Last/Work email -> 'This field is required', #b84242 2px inset ring, 13px/500 message 12px below); malformed-email text not observed, not invented",
+        "Footer 'Do Not Sell or Share My Personal Information' is the OneTrust-rewritten text of 'Cookie settings' (as on index); build carries the rendered text"
+      ],
+      "motion": {
+        "observed": [
+          "submit: form takes .ymIyT (opacity .6, pointer-events none) then 3 inputs get the error skin + messages",
+          "hover Visit Help Center: color -> rgba(17,17,13,.7) + LinkText underline sweep 600ms",
+          "header stuck state kOPZoh (logo transform/fill 300ms) - canon-a.js",
+          "header Try for free hover: anchor color/background 600ms (text span stays ink) - canon scope",
+          "section 'active' class on enter (no visual effect)"
+        ],
+        "implemented": [
+          "is-loading (300ms) then required-field validation with live error styling; 'no backend connected' status on a valid submit (interim tier)",
+          "arrow-link hover colour + underline sweep",
+          "input/select/textarea hover + focus rings from the live CSSOM",
+          "stuck header via canon-a.js .is-stuck"
+        ],
+        "dead": [
+          "hover on submit button, footer links, office MAP links (no measured diff on live)",
+          "section 'active' class"
+        ],
+        "evidence": [
+          "stardust/replica/motion/contact-live.json",
+          "stardust/replica/motion/contact-build.json"
+        ]
+      },
+      "captureState": [
+        {
+          "what": "Lead form (5 visible fields + hidden 15-field variant + hidden duplicate form)",
+          "restoreAtDelivery": "connect to the lead-form backend per dynamic-features.md D2 (interim: UI + client validation only, no submit)"
+        },
+        {
+          "what": "Country select default 'United States'",
+          "restoreAtDelivery": "live geo-defaults the country; wire geo default or keep the captured value"
+        }
+      ],
+      "canonRequests": "stardust/replica/canon-requests.md #4-#6 (slim header, mobile CTA size, slim legal footer)",
+      "sharedModules": {
+        "contact.css": [
+          "slim header overrides",
+          "page shell (--headerHeight 65/115)",
+          "hero 6/1/5 grid + side contact blocks + arrow link",
+          "Garden form fields, select, tiles, validation, consent, submit",
+          "offices 4-up grid",
+          "slim legal footer"
+        ]
+      },
+      "passed": true,
+      "approvedBy": "hands-off"
+    },
+    "listing": {
+      "type": "listing",
+      "slug": "blog",
+      "liveUrl": "https://www.zendesk.com/blog/",
+      "prototype": "stardust/prototypes/blog-proposed.html",
+      "css": [
+        "stardust/prototypes/fonts.css",
+        "stardust/prototypes/canon-a.css",
+        "stardust/prototypes/blog.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon-a.js",
+        "stardust/prototypes/blog.js"
+      ],
+      "contentRoot": "#teaser-12bfb47939,#blog-story-category-listing-1995158695,#blog-editors-picks-1023113396,#teaser-ef6abf30ab,main section:not([id]):not(section section)",
+      "contentRootNote": "live <main> wraps promo + both headers + sub-nav + footer; with --main main content-diff reported ~200 reds from the canon's missing hidden mobile-menu panel (canon request 4). Roots = the 5 page sections (same selectors on both sides); header/sub-nav/footer gated by chrome-parity (GATE_CHROME_REGION header=#container-62e15e442e>div:nth-of-type(3)|#za-hdr-d;subnav=.llLKNZ|#bl-subnav-d at 1440, header=#container-62e15e442e>div:nth-of-type(2)|#za-hdr-m;subnav=.glJVBt|#bl-subnav-m at 360). The index selector body>div:nth-of-type(1)>div>div:nth-of-type(3) does NOT match on /blog/.",
+      "sourceSpec": {
+        "360": "+10px from tag margin, fixed after (13px); same pairing artefacts + canon View demo 15px (fixed)",
+        "1440": "0 sections off before the last tag-margin tweak (-3px, then 13.6px margin); exit 2 on pairing only: brand 'Zendesk Blog' (live reports em + span separately), CX Trends hidden next/image placeholder img, Ariglad/Gartner no-desc cards swapped pairing, canon 'Language' inner span"
+      },
+      "gates": {
+        "360": {
+          "rounds": 3,
+          "counted": 3,
+          "pixel": 0.28,
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost yellow / 18 advisory",
+          "clipped": "0 at iter2/iter3; final state 11 (line-clamp, see residuals)",
+          "overflow": false,
+          "capProbe": "PASS (run once at 2560)",
+          "chromeParity": "header ✓, subnav ✓, footer ✓; crops header 99.46 %, footer 100.00 %",
+          "verdict": "residual (accept-residual recorded at the cap; final uncounted build re-check 0.28 %, Δh 0, 0 offset steps)"
+        },
+        "1440": {
+          "rounds": 3,
+          "counted": 2,
+          "pixel": 0.4,
+          "dh": -3,
+          "contentDiff": "0 red / 0 nothing-lost yellow / 2 advisory",
+          "clipped": 0,
+          "overflow": false,
+          "capProbe": "PASS (2560, 0 of 10 rows failed, --main main)",
+          "chromeParity": "header ✓, subnav ✓, footer ✓ 75/75; crops header 99.96 %, footer 97.58 % (canon ±1px steps)",
+          "offsets": "4 steps, 5px (bound 8)",
+          "verdict": "PASS"
+        }
+      },
+      "chromeParity": "canon-a header/footer reused; /blog/ deltas applied page-side: global header position relative + opaque white (sub-nav is the sticky bar), secondary-row LinkText span wraps icon+text, language links -> locale /blog/, mobile View demo 16px. Footer sits inside <main> as on live.",
+      "residuals": [
+        "360 clip-probe: 11 'text clipped' on listing/latest card descriptions = 4-line -webkit-line-clamp boxes of 72.8px (13px x 1.4), same clamp as live; a 18.25px line-height workaround cleared the probe but added 14 x 1px offset steps (iter3), reverted",
+        "1440 footer crop 97.58 % (bar 98 %): canon footer ±1px steps (canon request 6)",
+        "1440 Δh -3 / 4 x 1px offset steps from tag-row margin rounding (13.6px)",
+        "source-spec pairing-only mismatches (hidden next/image placeholder img in CX Trends promo, brand em/span split, no-desc card pairing swap)",
+        "content-diff scoped to page sections (canon mobile-menu panel absent — canon request 4); sub-nav dropdown links authored hidden",
+        "Hero lead + editor's picks: third-party chat launcher on live at 360 (not page content)",
+        "Subscribe form: UI rebuilt, no submit backend (interim tier per dynamic-features.md)"
+      ],
+      "motion": {
+        "observed": [
+          "category carousel Next (360): slick track travel 247px, 500ms",
+          "editor's picks slider Next (360): travel 328px, 500ms",
+          "story card hover: link + img colour to rgba(17,17,13,.7), 100ms; title underline colour 100ms",
+          "sections gain 'active' on entering the viewport",
+          "sub-nav background-color 0.5s state swap (dYYyyC/eZJQhU), kOPZoh/hIDnGq header classes on scroll",
+          "slick-active/slick-current class swaps"
+        ],
+        "implemented": [
+          "slick-track translateX 500ms ease, Prev disabled at start / Next at end",
+          "lead + card hover colour 100ms linear, title underline colour",
+          "section 'active' via IntersectionObserver",
+          "sub-nav background-color transition 0.5s",
+          "slick-current/slick-active on slide change"
+        ],
+        "dead": [
+          "tag hover (no measured diff on live)"
+        ],
+        "notImplemented": [
+          "sub-nav scrolled-state class values (dYYyyC/eZJQhU target values not captured)",
+          "kOPZoh/hIDnGq header classes (global header not sticky on /blog/)"
+        ]
+      },
+      "captureState": [
+        {
+          "what": "Subscribe to the blog form",
+          "restoreAtDelivery": "connect to the newsletter subscription endpoint per dynamic-features.md"
+        },
+        {
+          "what": "Sub-nav category dropdowns and mobile sub-nav menu (hover/toggle panels, static)",
+          "restoreAtDelivery": "header/sub-nav block JS"
+        },
+        {
+          "what": "Latest stories pagination (page 1 of 233)",
+          "restoreAtDelivery": "query-index driven listing"
+        }
+      ],
+      "units": [
+        "blog-story-card",
+        "blog-latest-card (required:false, declared after the rounds closed)"
+      ],
+      "passed": false,
+      "approvedBy": "hands-off",
+      "approvalNote": "360 accept-residual at round cap: 11 clip-probe findings are card descriptions clamped at 4 lines exactly as on live (72.8px fractional boxes); final-state uncounted check 0.28% dh 0 no offsets"
+    },
+    "static": {
+      "type": "static",
+      "slug": "company",
+      "liveUrl": "https://www.zendesk.com/company/",
+      "generation": "A (Vanilla Sans; full gen-A header without the promo strip + canon footer)",
+      "prototype": "stardust/prototypes/company-proposed.html",
+      "css": [
+        "stardust/prototypes/fonts.css",
+        "stardust/prototypes/canon-a.css",
+        "stardust/prototypes/company.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon-a.js",
+        "stardust/prototypes/company.js"
+      ],
+      "contentRoot": "main",
+      "sourceSpec": {
+        "360": "0 / 0 offset / 0 missing / 0 extra (page 5094 = 5094); footer 'Cookie settings' vs 'Do Not Sell…' = OneTrust rewrite timing (accepted)",
+        "1440": "0 sections / 0 offset / 0 missing / 0 extra (page 5012 = 5012); 5 carousel card titles first paired to the slide box (fixed: aria-roledescription=slide on the group, as live)"
+      },
+      "gates": {
+        "360": {
+          "rounds": 2,
+          "pixel": 0.12,
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost / 0 advisory (iter2 confirmation); iter1 had the OneTrust 'Cookie settings' MISSING CTA/EXTRA pair -> accepted.json",
+          "clipped": 0,
+          "overflow": false,
+          "units": "1 compared, 0 off (iter1 declared all 22 cards: the partly off-screen 2nd card read 'hidden (clipped)' on the build only; narrowed to the slick-current card like service's gen-a-resource-card)",
+          "chromeCrops": "header 100.00%, footer 100.00%",
+          "capProbe": "PASS (run once at 2560)",
+          "verdict": "PASS"
+        },
+        "1440": {
+          "rounds": 2,
+          "pixel": 0.04,
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost / 0 advisory (iter1 + iter2 confirmation)",
+          "clipped": 0,
+          "overflow": false,
+          "units": "gen-a-location-card 1 compared, 0 off",
+          "chromeCrops": "header 100.00%, footer 100.00%",
+          "capProbe": "PASS (2560, 0 of 8 rows failed)",
+          "verdict": "PASS"
+        }
+      },
+      "chromeParity": "quiet at 1440 and 360 (header 10/10 + 1/1 texts, footer 75/75 + 25/25; 4 accepted OneTrust-timing footer deltas at 360). Live has no header landmark and NO promo strip on /company/: the index region does not hold; the contact selectors do: header=#__next>div>div:nth-of-type(2)|#za-hdr-d (1440), #__next>div>div:nth-of-type(1)|#za-hdr-m (360). Page-local chrome fixes: nav2 icon moved inside the label span (canon-requests C1), mobile View demo 16px (contact #5 / C2)",
+      "residuals": [
+        "Footer legal link: OneTrust rewrites 'Cookie settings' to 'Do Not Sell or Share My Personal Information' after load; the live capture lands either side of the rewrite (nondeterministic) - canon carries the rewritten text; accepted.json entries (content-diff + chrome-parity) appended",
+        "Images harvested by direct GET from web-assets.zendesk.com (avif); the live slick lazy-loads slides 6-22 (1x1 gif placeholders until slid in) - the build ships the real photos for all 22",
+        "Location cards are <a> without href on live (no destination); kept as-is",
+        "Pixel residue 0.04% / 0.12%: image-encoding noise in the hero/teaser photos (band 500-1000 at 1440: 0.4%)"
+      ],
+      "motion": {
+        "observed": [
+          "carousel Next: slick track translateX -276px per click (slide width, gap ignored), 500ms, slick-current/slick-active class moves",
+          "location card hover: background rgba(17,17,13,.05), colour .7, img brightness(.9), 300ms",
+          "CTA button hover: anchor colour .7 600ms + LinkText background-position sweep 600ms",
+          "round nav buttons hover tint/scale (100ms)",
+          "header stuck state kOPZoh (canon-a.js .is-stuck)",
+          "section 'active' class on enter (no visual effect)"
+        ],
+        "implemented": [
+          "company.js carousel: step = ceil(list/show) px, 500ms transform, prev disabled at 0, 500ms click lock, slick-current/slick-active classes",
+          "card hover/active skins, CTA colour + span background-position transitions, round button hover",
+          "stuck header via canon-a.js"
+        ],
+        "dead": [
+          "section 'active' class",
+          "hIDnGq (header anchor state class, canon scope)"
+        ],
+        "compare": "11 parity, 3 missing (active, hIDnGq, kOPZoh = canon is-stuck), 0 extra",
+        "evidence": [
+          "stardust/replica/motion/company-live.json",
+          "stardust/replica/motion/company-build.json"
+        ]
+      },
+      "captureState": [
+        {
+          "what": "Locations carousel: 22 slides, slick lazy images",
+          "restoreAtDelivery": "author the 22 location cards as a carousel block; images from DA media (live lazy-loads slides 6-22)"
+        },
+        {
+          "what": "Footer OneTrust link text",
+          "restoreAtDelivery": "OneTrust script rewrites the link at runtime; ship 'Cookie settings' + OneTrust if the script is restored"
+        }
+      ],
+      "canonRequests": "stardust/replica/canon-requests.md C1 (nav2 icon inside label span), C2 (= contact #5, mobile CTA 16px)",
+      "units": "stardust/replica/units.json gen-a-location-card (slick-current card)",
+      "sharedModules": {
+        "company.css": [
+          "page shell (--headerHeight 65/115)",
+          "teaser rows text 6/12 + media 5/12 offset 1 (both orders), radius-40 intrinsic images",
+          "hero lime glow",
+          "centred head 8/12",
+          "locations carousel (slick 4 / 1.33 / 2.33 guess at 768) + link cards + round nav",
+          "forest body promo",
+          "ink logos CTA with moss glow"
+        ]
+      },
+      "passed": true,
+      "approvedBy": "hands-off"
+    },
+    "unique": {
+      "type": "unique",
+      "slug": "pricing",
+      "liveUrl": "https://www.zendesk.com/pricing/",
+      "generation": "A (Vanilla Sans; _computed-styles fontFamily 75/75 \"Vanilla Sans\")",
+      "prototype": "stardust/prototypes/pricing-proposed.html",
+      "css": [
+        "stardust/prototypes/fonts.css",
+        "stardust/prototypes/canon-a.css",
+        "stardust/prototypes/pricing.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon-a.js",
+        "stardust/prototypes/pricing.js"
+      ],
+      "contentRoot": "main",
+      "build": "pricing-proposed.html is assembled by stardust/.work/pricing/tools/build.py from authored parts (stardust/.work/pricing/parts/*), the canon-a chrome markup (service prototype) and the hidden SSR modal/FAQ-panel content re-authored as clean semantic markup by tools/hidden.py (text verbatim, classes/ids dropped)",
+      "sourceSpec": {
+        "360": "0 sections with a height delta, all section nodes Δy 0; same pairing artefacts",
+        "1440": "0 sections with a height delta, page 6525 = 6525; residual: 3 tab pills +6px wide (text width), 3 MISSING [img] = live next/image placeholder imgs, logo marquee positions (spec taken mid-animation), OneTrust footer link text"
+      },
+      "gates": {
+        "360": {
+          "rounds": 5,
+          "counted": 3,
+          "pixel": 0.16,
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost / 633 advisory",
+          "clipped": 0,
+          "overflow": false,
+          "units": "19 compared, 0 off",
+          "chromeCrops": "header 100.00%, footer 100.00%",
+          "capProbe": "PASS (run once at 2560)",
+          "verdict": "PASS"
+        },
+        "1440": {
+          "rounds": 4,
+          "counted": 2,
+          "pixel": 0.25,
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost / 309 advisory",
+          "clipped": 0,
+          "overflow": false,
+          "units": "19 compared, 0 off (gen-a-plan-card x4, gen-a-addon-card x3, gen-a-pricing-faq-row x12)",
+          "chromeCrops": "header 100.00%, footer 100.00%",
+          "capProbe": "PASS (2560, 0 of 11 rows failed)",
+          "verdict": "PASS"
+        }
+      },
+      "chromeParity": "quiet at 1440 and 360 (header 10/10 texts, footer 75/75). Live has no header landmark and no promo strip: header=#__next>div>div:nth-of-type(2)|#za-hdr-d (1440), #__next>div>div:nth-of-type(1)|#za-hdr-m (360) via GATE_CHROME_REGION. Page-side: secondary-row LinkText span (blog canon request 1), mobile CTA 16px (contact request 5), CTAs Try for free / Contact Sales",
+      "residuals": [
+        "Monthly/Annual cadence toggle (#pricing-cadence-toggle, '20% off annual') is display:none on the live page as served; carried hidden, no toggle behaviour implemented (never fires)",
+        "Hidden SSR modal content (24 feature modals, pricing-table comparison, contact-sales form, Copilot/WEM/Contact Center add-on modals) carried hidden in main; the 360 live DOM serves a narrower pricing-table variant (content-diff advisories only)",
+        "Tab pills 6px wider than live at 1440 (text width; Δx -10..+3), below the pixel bar",
+        "Logo row is a continuous marquee on live (14 imgs = 7 + 7 clones); build marquee 40s linear translateX(-50%), clones alt=\"\" aria-hidden; gate captures freeze both at t=0",
+        "Modal visual chrome (backdrop tint, dialog radius/size) not measured on live — interim styling; keyframes named as live (lbWRkT backdrop, inDLdD modal)",
+        "Mobile tab 'Previous tab'/'Next tab' scroll buttons carried (labels verbatim); scroll behaviour not observed, not implemented",
+        "Footer 'Do Not Sell or Share My Personal Information' = OneTrust-rewritten 'Cookie settings' (as on index/contact)",
+        "Contact-sales demo form (8-field, inside the hidden contact-sales modal): UI only, no backend — interim tier per dynamic-features.md D2"
+      ],
+      "motion": {
+        "observed": [
+          "FAQ accordion: single-open (opening item 2 collapses item 1), grid-template-rows + padding-bottom transitions, chevron rotate",
+          "feature buttons / 'Compare all plan features' open a modal (backdrop animation lbWRkT + modal entrance inDLdD) with the SSR modal content",
+          "a third modal 'Take Zendesk for a spin' fired during the run — not SSR page content (marketing/exit modal), not implemented",
+          "header stuck state (kOPZoh/hIDnGq) — canon-a.js",
+          "section 'active' class on enter (no style change)",
+          "hover probes on tabs, CTAs, feature buttons, Learn more, accordion headers, cards: no measured change"
+        ],
+        "implemented": [
+          "FAQ single-open accordion (pricing.js + CSS transitions)",
+          "modal open/close for [data-modal] buttons and #modal.* links, Esc/backdrop close, lbWRkT/inDLdD keyframes",
+          "header stuck state via canon-a.js"
+        ],
+        "dead": [
+          "all hover probes (no diff on live)",
+          "cadence toggle (display:none)",
+          "'Take Zendesk for a spin' promo modal (not page content)"
+        ]
+      },
+      "captureState": [
+        {
+          "what": "Logo marquee frozen at t=0 by the gate capture",
+          "restoreAtDelivery": "continuous marquee, linear, 7 logos + 7 presentational clones (live speed not measured — build 40s per loop)"
+        },
+        {
+          "what": "FAQ first item open at rest",
+          "restoreAtDelivery": "as served (item 1 expanded), single-open accordion"
+        }
+      ],
+      "passed": true,
+      "approvedBy": "hands-off"
+    }
+  },
+  "siblings": {
+    "customer-bgl": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-count",
+        "content-fidelity",
+        "variance-probe",
+        "delivery-lint",
+        "pixel-gate-1440",
+        "pixel-gate-360",
+        "media-reconcile"
+      ],
+      "migrated": "stardust/migrated/customer/bgl/index.html"
+    },
+    "customer-dfin": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-facts three-up"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-count",
+        "content-fidelity",
+        "variance-probe",
+        "delivery-lint",
+        "pixel-gate-1440",
+        "pixel-gate-360",
+        "media-reconcile"
+      ],
+      "migrated": "stardust/migrated/customer/dfin/index.html"
+    },
+    "customer-koho": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-facts three-up"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-count",
+        "content-fidelity",
+        "variance-probe",
+        "delivery-lint",
+        "pixel-gate-1440",
+        "pixel-gate-360",
+        "media-reconcile"
+      ],
+      "migrated": "stardust/migrated/customer/koho/index.html"
+    },
+    "customer-madeiramadeira": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-count",
+        "content-fidelity",
+        "variance-probe",
+        "delivery-lint",
+        "pixel-gate-1440",
+        "pixel-gate-360",
+        "media-reconcile"
+      ],
+      "migrated": "stardust/migrated/customer/madeiramadeira/index.html"
+    },
+    "customer-mimecast": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-count",
+        "content-fidelity",
+        "variance-probe",
+        "delivery-lint",
+        "pixel-gate-1440",
+        "pixel-gate-360",
+        "media-reconcile"
+      ],
+      "migrated": "stardust/migrated/customer/mimecast/index.html"
+    },
+    "customer-nortek": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-quotes no-facts"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-count",
+        "content-fidelity",
+        "variance-probe",
+        "delivery-lint",
+        "pixel-gate-1440",
+        "pixel-gate-360",
+        "media-reconcile"
+      ],
+      "migrated": "stardust/migrated/customer/nortek/index.html"
+    },
+    "customer-resurs-bank": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-facts three-up"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-count",
+        "content-fidelity",
+        "variance-probe",
+        "delivery-lint",
+        "pixel-gate-1440",
+        "pixel-gate-360",
+        "media-reconcile"
+      ],
+      "migrated": "stardust/migrated/customer/resurs-bank/index.html"
+    },
+    "customer-serasa-experian": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-facts three-up"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "content-count",
+        "content-fidelity",
+        "variance-probe",
+        "delivery-lint",
+        "pixel-gate-1440",
+        "pixel-gate-360",
+        "media-reconcile"
+      ],
+      "migrated": "stardust/migrated/customer/serasa-experian/index.html"
+    },
+    "customer-asaas": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-facts one-up"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "4 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/asaas/index.html"
+    },
+    "customer-deputy": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "6 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/deputy/index.html"
+    },
+    "customer-liberty-tax": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "6 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/liberty-tax/index.html"
+    },
+    "customer-motiva": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "6 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/motiva/index.html"
+    },
+    "customer-perk-es": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "8 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/perk-es/index.html"
+    },
+    "customer-qantas-loyalty": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-quotes single"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "4 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/qantas-loyalty/index.html"
+    },
+    "customer-recargapay": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "2 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/recargapay/index.html"
+    },
+    "customer-star21": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-facts three-up"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "6 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/star21/index.html"
+    },
+    "customer-betmgm-brasil": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-facts three-up"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "6 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "delivery-lint",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile"
+      ],
+      "migrated": "stardust/migrated/customer/betmgm-brasil/index.html"
+    },
+    "customer-givedirectly": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "3 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "delivery-lint",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile"
+      ],
+      "migrated": "stardust/migrated/customer/givedirectly/index.html"
+    },
+    "customer-petstock": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-facts three-up"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "6 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "delivery-lint",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile"
+      ],
+      "migrated": "stardust/migrated/customer/petstock/index.html"
+    },
+    "customer-sealy-of-australia": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "7 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "delivery-lint",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile"
+      ],
+      "migrated": "stardust/migrated/customer/sealy-of-australia/index.html"
+    },
+    "customer-solo-by-myob": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-facts three-up"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "6 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "delivery-lint",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile"
+      ],
+      "migrated": "stardust/migrated/customer/solo-by-myob/index.html"
+    },
+    "customer-thoughtworks": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "6 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "delivery-lint",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile"
+      ],
+      "migrated": "stardust/migrated/customer/thoughtworks/index.html"
+    },
+    "customer-trodo": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "3 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "delivery-lint",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile"
+      ],
+      "migrated": "stardust/migrated/customer/trodo/index.html"
+    },
+    "customer-uneo": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-facts three-up"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "4 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "delivery-lint",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile"
+      ],
+      "migrated": "stardust/migrated/customer/uneo/index.html"
+    },
+    "customer-catapult": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "6 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/catapult/index.html"
+    },
+    "customer-coco-republic": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-facts three-up"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "4 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/coco-republic/index.html"
+    },
+    "customer-docebo": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "5 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/docebo/index.html"
+    },
+    "customer-envato": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "4 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/envato/index.html"
+    },
+    "customer-furnished-finder": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "5 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/furnished-finder/index.html"
+    },
+    "customer-lucid-software-es": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "3 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/lucid-software-es/index.html"
+    },
+    "customer-tbauctions": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "6 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/tbauctions/index.html"
+    },
+    "customer-the-smith-family": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "6 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/the-smith-family/index.html"
+    },
+    "customer-britbox": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "6 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/britbox/index.html"
+    },
+    "customer-five-iron-golf": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "6 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/five-iron-golf/index.html"
+    },
+    "customer-github-es": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "5 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/github-es/index.html"
+    },
+    "customer-inshur": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-quotes single"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "7 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/inshur/index.html"
+    },
+    "customer-lucid-software-ai": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "3 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/lucid-software-ai/index.html"
+    },
+    "customer-odeon-cinemas": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-facts three-up"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "6 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/odeon-cinemas/index.html"
+    },
+    "customer-pure-insurance": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "5 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/pure-insurance/index.html"
+    },
+    "customer-tesu": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "5 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/tesu/index.html"
+    },
+    "customer-benevity": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "6 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/benevity/index.html"
+    },
+    "customer-quickmd": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "5 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/quickmd/index.html"
+    },
+    "customer-action-property-management": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "7 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/action-property-management/index.html"
+    },
+    "customer-babbel": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "7 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/babbel/index.html"
+    },
+    "customer-ballys": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-story-hero cta-secondary",
+        "zb-facts three-up",
+        "zb-article h2",
+        "zb-article merged-sections"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "6 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "media-reconcile",
+        "delivery-lint",
+        "pixel-gate-1440"
+      ],
+      "migrated": "stardust/migrated/customer/ballys/index.html"
+    },
+    "customer-dupage-county": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "6 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/dupage-county/index.html"
+    },
+    "customer-easyfundraising": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-story-hero cta-secondary"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "5 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/easyfundraising/index.html"
+    },
+    "customer-shearcomfort": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-story-hero cta-secondary",
+        "zb-facts three-up"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "4 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/shearcomfort/index.html"
+    },
+    "customer-starshipit": {
+      "archetype": "customer-canva",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "6 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-360",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/customer/starshipit/index.html"
+    },
+    "customer-yape": {
+      "archetype": "customer-canva",
+      "variants": [
+        "zb-story-hero cta-secondary"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": "5 hosted",
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-1440",
+        "media-reconcile",
+        "delivery-lint",
+        "pixel-gate-360"
+      ],
+      "migrated": "stardust/migrated/customer/yape/index.html"
+    },
+    "cxtrends": {
+      "archetype": "service",
+      "variants": [
+        "sv-links subnav",
+        "sv-hero video",
+        "sv-columns text",
+        "sv-accordion faq",
+        "sv-columns media",
+        "sv-columns modal",
+        "sv-form modal"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 1 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity"
+      ],
+      "migrated": "stardust/migrated/cxtrends/index.html"
+    },
+    "professional-services": {
+      "archetype": "service",
+      "variants": [
+        "sv-hero image",
+        "sv-cards cols-3",
+        "sv-columns media",
+        "sv-embed video",
+        "sv-accordion faq",
+        "sv-form modal"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 1 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity"
+      ],
+      "migrated": "stardust/migrated/professional-services/index.html"
+    },
+    "repeatcustomer": {
+      "archetype": "service",
+      "variants": [
+        "sv-hero text",
+        "sv-hero legacy",
+        "sv-cards legacy"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 1 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity"
+      ],
+      "migrated": "stardust/migrated/repeatcustomer/index.html"
+    },
+    "web-widget": {
+      "archetype": "service",
+      "variants": [
+        "sv-links subnav",
+        "sv-hero trial",
+        "sv-hero video"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 1 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity"
+      ],
+      "migrated": "stardust/migrated/web-widget/index.html"
+    },
+    "why-zendesk": {
+      "archetype": "service",
+      "variants": [
+        "sv-hero trial",
+        "sv-hero image",
+        "sv-hero logos",
+        "sv-columns media",
+        "sv-columns text",
+        "sv-accordion faq",
+        "sv-form modal"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 1 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity"
+      ],
+      "migrated": "stardust/migrated/why-zendesk/index.html"
+    }
+  }
+}

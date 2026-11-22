@@ -1,0 +1,769 @@
+/* fm-form — lead form (live Garden FormField + Zendesk input skin .kdxuye / .bTIpRI / .gjKWcl).
+   Values lifted from the live CSSOM (prototype contact.css); validation state from the live error
+   render (.jMKAlT / .cXGqsw). Breakpoints are the source's: 481 / 768 / 1150 / 1600. */
+
+.fm-form {
+  margin-bottom: 16px;
+}
+
+.fm-form[hidden] {
+  display: none;
+}
+
+.fm-form .fm-form-el {
+  position: relative;
+}
+
+.fm-form .fm-form-el.is-loading {
+  cursor: not-allowed;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.fm-form .fm-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.fm-form .fm-field {
+  grid-column: span 2;
+  position: relative;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.fm-form .fm-field[hidden] {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .fm-form .fm-field-half {
+    grid-column: span 1;
+  }
+}
+
+.fm-form .fm-field-tip {
+  z-index: 5;
+}
+
+.fm-form .fm-tipwrap,
+.fm-form .fm-field-in {
+  display: block;
+}
+
+.fm-form .fm-label {
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: var(--za-ink);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.25;
+  vertical-align: middle;
+}
+
+.fm-form .fm-fieldset {
+  min-width: 0;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.fm-form .fm-wrapper {
+  position: relative;
+}
+
+.fm-form * + .fm-wrapper {
+  margin-top: 12px;
+}
+
+.fm-form .fm-input {
+  appearance: none;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 48px;
+  margin: 0;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  background: rgb(17 17 13 / 5%);
+  box-shadow: rgb(17 17 13 / 47%) 0 0 0 1px inset;
+  color: var(--za-ink);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 21px;
+  vertical-align: middle;
+  transition: border-color 0.25s ease-in-out, box-shadow 0.1s ease-in-out, background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+@media (width >= 768px) {
+  .fm-form .fm-input {
+    font-size: 15px;
+  }
+}
+
+.fm-form .fm-input::placeholder {
+  color: var(--za-ink);
+  opacity: 1;
+}
+
+.fm-form .fm-input:hover {
+  background: rgb(17 17 13 / 11%);
+}
+
+.fm-form .fm-input:focus {
+  outline: none;
+  box-shadow: rgb(17 17 13) 0 0 0 2px inset;
+}
+
+.fm-form .fm-input:focus-visible {
+  outline: rgb(17 17 13 / 47%) solid 2px;
+  outline-offset: 3px;
+}
+
+.fm-form .fm-textarea {
+  height: 66px;
+  overflow: auto;
+  resize: none;
+}
+
+.fm-form .fm-select {
+  position: relative;
+  border-radius: 12px;
+}
+
+.fm-form .fm-select-el {
+  padding-right: 40px;
+  cursor: pointer;
+  text-overflow: ellipsis;
+}
+
+.fm-form .fm-select-icon {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+  color: var(--za-ink);
+  pointer-events: none;
+}
+
+/* validation state (live error render) */
+.fm-form .fm-input[aria-invalid="true"],
+.fm-form .fm-input[aria-invalid="true"]:focus {
+  box-shadow: rgb(184 66 66) 0 0 0 2px inset;
+}
+
+.fm-form .fm-input[aria-invalid="true"]:hover {
+  box-shadow: rgb(184 66 66) 0 0 0 1px inset;
+}
+
+.fm-form .fm-msg {
+  display: block;
+  margin-top: 12px;
+  padding-left: 0;
+  color: rgb(184 66 66);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.1429;
+}
+
+.fm-form .fm-status {
+  margin: 16px 0 0;
+  color: var(--za-ink);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.fm-form .fm-status[hidden] {
+  display: none;
+}
+
+/* tooltip (hidden at rest, aria-hidden) */
+.fm-form .fm-tip {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 10ms;
+}
+
+.fm-form .fm-tip-box {
+  border-radius: 8px;
+  padding: 8px 12px;
+  background: var(--za-white);
+  box-shadow: 0 4px 12px rgb(17 17 13 / 15%);
+  color: var(--za-ink);
+  font-size: 14px;
+}
+
+.fm-form .fm-tip-box p {
+  margin: 0;
+}
+
+/* employee tiles (live 15-field variant, .bpJlEN / .bxjBWy) */
+.fm-form .fm-tiles {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: 16px;
+}
+
+@media (width >= 481px) {
+  .fm-form .fm-tiles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 768px) {
+  .fm-form .fm-tiles {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.fm-form .fm-tile {
+  position: relative;
+  min-height: 48px;
+  border-radius: 16px;
+  padding: 16px 20px;
+  background: rgb(17 17 13 / 5%);
+  box-shadow: rgb(17 17 13 / 47%) 0 0 0 1px inset;
+  color: var(--za-ink);
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.fm-form .fm-tile-label {
+  line-height: 24px;
+}
+
+.fm-form .fm-tile-icon {
+  display: none;
+}
+
+.fm-form .fm-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* consent (.gKXuOp) */
+.fm-form .fm-consent p {
+  margin: 0 0 16px;
+  color: var(--za-ink);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+@media (width >= 1150px) {
+  .fm-form .fm-consent p {
+    font-size: 14px;
+  }
+}
+
+@media (width >= 1600px) {
+  .fm-form .fm-consent p {
+    font-size: 15px;
+  }
+}
+
+/* inline underlined link (.bPCQQB) */
+.fm-form .fm-consent a {
+  margin: -0.15em 0;
+  border-radius: 4px;
+  padding: 0.15em 0;
+  color: var(--za-ink);
+  font-weight: 600;
+  text-decoration: underline 1px;
+  text-underline-offset: 0.15em;
+  transition: 100ms linear;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fm-form .fm-consent a:hover {
+  color: var(--za-ink);
+  text-decoration: underline 1px;
+}
+
+.fm-form .fm-consent a:visited {
+  color: var(--za-matcha);
+}
+
+/* actions (.cKJYvn.iDBzPi, .eRmmgU.gXuiJx) */
+.fm-form .fm-actions {
+  display: flex;
+  flex-flow: column-reverse nowrap;
+  align-items: stretch;
+  gap: 12px;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.fm-form .fm-submit {
+  flex: 1 0 auto;
+  width: 100%;
+  white-space: normal;
+}
+
+@media (width >= 768px) {
+  .fm-form .fm-actions {
+    flex-direction: row;
+    width: auto;
+  }
+
+  .fm-form .fm-submit {
+    width: auto;
+  }
+}
+
+.fm-form .fm-submit:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* ---------- sibling shapes (cluster-form-1; live probes stardust/.work/cluster-form-1/probe) ---------- */
+/* stylelint-disable no-descending-specificity -- each variant skin styles a different block instance */
+
+/* :icon: masks (tile icons, lead check) painted in currentColor */
+.fm-form .fm-icon {
+  display: inline-block;
+  flex: none;
+  width: 24px;
+  height: 24px;
+  background-color: currentcolor;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+}
+
+/* step progress (.dVBJAQ: 8px track 11 % ink, matcha fill, 32px under) */
+.fm-form .fm-progress {
+  margin: 0 0 32px;
+}
+
+.fm-form .fm-progress-track {
+  overflow: hidden;
+  height: 8px;
+  border-radius: 8px;
+  background: rgb(17 17 13 / 11%);
+}
+
+.fm-form .fm-progress-fill {
+  height: 100%;
+  border-radius: 8px;
+  background: var(--za-matcha);
+}
+
+/* in-field suffix (login ".zendesk.com", divider 1 x 21 px) */
+.fm-form .fm-field-suffix .fm-input {
+  padding-right: 120px;
+}
+
+.fm-form .fm-suffix {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0 12px;
+  color: var(--za-ink);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  pointer-events: none;
+}
+
+.fm-form .fm-suffix::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 1px;
+  height: 21px;
+  background: rgb(17 17 13 / 13%);
+}
+
+/* login: 445px column, link note under the field, full-width Sign in */
+.fm-form.login {
+  margin-bottom: 12px;
+}
+
+.fm-form.login .fm-consent {
+  margin-top: -12px;
+}
+
+.fm-form.login .fm-consent p {
+  margin: 0;
+  padding-bottom: 4px;
+  font-size: 14px;
+  line-height: 23.5px;
+}
+
+.fm-form.login .fm-consent a {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(currentcolor, currentcolor) 0 100% / 100% 1px no-repeat;
+  text-decoration: none;
+}
+
+.fm-form.login .fm-consent a:hover {
+  text-decoration: none;
+}
+
+.fm-form.login .fm-actions,
+.fm-form.modal .fm-actions {
+  flex-direction: column;
+  width: 100%;
+}
+
+.fm-form.login .fm-submit,
+.fm-form.modal .fm-submit {
+  width: 100%;
+}
+
+/* modal (register / demo dialog) */
+.fm-form.modal {
+  margin-bottom: 0;
+}
+
+.fm-form.modal .fm-consent {
+  margin-top: 4px;
+}
+
+.fm-form.modal .fm-consent p {
+  margin: 0;
+}
+
+.fm-form.modal .fm-input:focus {
+  background: rgb(17 17 13 / 11%);
+}
+
+.fm-form.modal .fm-tiles {
+  grid-template-columns: 1fr;
+}
+
+.fm-form.modal .fm-tile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.fm-form.modal .fm-tile:has(.fm-sr:checked) {
+  background: rgb(17 17 13 / 11%);
+  box-shadow: rgb(17 17 13) 0 0 0 2px inset;
+}
+
+@media (width >= 481px) {
+  .fm-form.modal .fm-tiles {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (width >= 768px) {
+  .fm-form.modal .fm-tiles {
+    grid-template-columns: 1fr;
+  }
+
+  .fm-form.modal .fm-tile {
+    font-size: 15px;
+  }
+
+  .fm-form.login .fm-actions,
+  .fm-form.modal .fm-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .fm-form.login .fm-submit,
+  .fm-form.modal .fm-submit {
+    width: 100%;
+  }
+}
+
+/* instapage (the bare embedded instapage-form-* pages: Sharp Sans labels, flat teal skin) */
+.fm-form.instapage {
+  margin: 0;
+  padding: 0 5px 3px;
+  font-family: var(--zb-font-body);
+}
+
+.fm-form.instapage .fm-grid {
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.fm-form.instapage .fm-label {
+  color: rgb(3 54 61);
+  font-family: var(--zb-font-head);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.fm-form.instapage .fm-fieldset .fm-label {
+  color: rgb(23 73 77);
+  font-family: var(--zb-font-body);
+  line-height: 20px;
+}
+
+.fm-form.instapage * + .fm-wrapper {
+  margin-top: 8px;
+}
+
+.fm-form.instapage .fm-input {
+  border-radius: 0;
+  background: rgb(248 249 249);
+  box-shadow: rgb(104 115 125) 0 0 0 1px inset;
+  color: rgb(23 73 77);
+  font-family: var(--zb-font-body);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.fm-form.instapage .fm-textarea {
+  height: 72px;
+}
+
+.fm-form.instapage .fm-consent {
+  margin-top: 8px;
+}
+
+.fm-form.instapage .fm-consent p {
+  margin: 0;
+  color: rgb(23 73 77);
+  font-family: var(--zb-font-body);
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.fm-form.instapage .fm-consent a,
+.fm-form.instapage .fm-consent a:hover,
+.fm-form.instapage .fm-consent a:visited {
+  color: rgb(23 73 77);
+  font-weight: 400;
+}
+
+.fm-form.instapage .fm-consent .za-ext {
+  display: none;
+}
+
+.fm-form.instapage .fm-progress {
+  margin-bottom: 32px;
+}
+
+.fm-form.instapage .fm-progress-track {
+  height: 16px;
+  border: 1px solid rgb(104 115 125);
+  border-radius: 0;
+  background: rgb(248 249 249);
+}
+
+.fm-form.instapage .fm-progress-fill {
+  border-radius: 0;
+  background: rgb(104 115 125);
+}
+
+.fm-form.instapage .fm-tiles {
+  grid-template-columns: 1fr;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.fm-form.instapage .fm-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  min-height: 88px;
+  border-radius: 0;
+  padding: 12px;
+  background: rgb(248 249 249);
+  box-shadow: rgb(104 115 125) 0 0 0 1px inset;
+  color: rgb(3 54 61);
+  font-family: var(--zb-font-head);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.fm-form.instapage .fm-tile .fm-icon {
+  width: 32px;
+  height: 32px;
+  color: rgb(104 115 125);
+}
+
+.fm-form.instapage .fm-tile:has(.fm-sr:checked) {
+  background: rgb(2 128 121);
+  box-shadow: none;
+  color: var(--za-white);
+}
+
+.fm-form.instapage .fm-tile:has(.fm-sr:checked) .fm-icon {
+  color: var(--za-white);
+}
+
+.fm-form.instapage .fm-actions {
+  flex-direction: column;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.fm-form.instapage .fm-submit {
+  z-index: 1;
+  width: 100%;
+  min-height: 48px;
+  border: 2px solid rgb(23 73 77);
+  border-radius: 0;
+  padding: 8px 24px;
+  background: rgb(23 73 77);
+  color: var(--za-white);
+  font-family: var(--zb-font-head);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.fm-form.instapage .fm-submit::before {
+  display: none;
+}
+
+/* teaser: 600px form; the consent sits under the submit (live: overlapped, out of flow) */
+.fm-form.teaser {
+  max-width: 600px;
+}
+
+.fm-form.teaser .fm-consent {
+  height: 0;
+  margin-top: -8px;
+}
+
+.fm-form.teaser .fm-actions {
+  margin-top: 8px;
+}
+
+@media (width >= 481px) {
+  .fm-form.instapage .fm-tiles {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (width >= 768px) {
+  .fm-form.instapage .fm-field-half {
+    grid-column: span 2;
+  }
+
+  .fm-form.instapage .fm-input {
+    font-size: 16px;
+  }
+
+  .fm-form.instapage .fm-consent p {
+    font-size: 14px;
+  }
+
+  .fm-form.instapage .fm-tiles {
+    grid-template-columns: 1fr;
+  }
+
+  .fm-form.instapage .fm-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .fm-form.instapage .fm-submit {
+    width: 100%;
+  }
+}
+
+/* halves (cluster-form-2, /instapage-form-content/): half fields pair up from 768 px (16 px gap) */
+.fm-form.instapage.halves .fm-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.fm-form.instapage.halves .fm-consent {
+  margin-top: 0;
+}
+
+/* inline (cluster-form-2, /instapage-form-newsletter/, -trial-teaser-suite-inline/): the submit
+   sits beside the single email field from 768 px; below, it follows the field and the consent
+   comes last */
+.fm-form.inline .fm-form-el {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.fm-form.inline .fm-grid {
+  display: contents;
+}
+
+.fm-form.instapage.inline .fm-actions {
+  order: 1;
+  margin-top: 8px;
+}
+
+.fm-form.inline .fm-consent {
+  order: 2;
+  margin-top: 24px;
+}
+
+.fm-form.teaser.inline .fm-consent {
+  height: auto;
+  margin-top: 8px;
+}
+
+@media (width >= 768px) {
+  .fm-form.instapage.halves .fm-field-half {
+    grid-column: span 1;
+  }
+
+  .fm-form.inline .fm-form-el {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .fm-form.inline .fm-field:not(.fm-consent) {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .fm-form.inline .fm-consent {
+    grid-column: 1 / -1;
+  }
+
+  .fm-form.instapage.inline .fm-actions {
+    grid-row: 1;
+    grid-column: 2;
+    align-self: end;
+    width: auto;
+    margin-top: 0;
+  }
+
+  .fm-form.instapage.inline .fm-submit {
+    width: auto;
+  }
+}
+
+/* loose (cluster-form-2, /instapage-form-webinar/): the live two-step form keeps its later-step
+   wrappers in flow, so the consent and the submit sit lower (+6 / +14 px) */
+.fm-form.instapage.loose .fm-consent {
+  margin-top: 14px;
+}
+
+.fm-form.instapage.loose .fm-actions {
+  margin-top: 30px;
+}

@@ -1,0 +1,306 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-21T18:24:28.590Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/instapage-form-trial-teaser-sell/",
+  "at": "2026-11-21T18:24:14.354Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 900,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form.sc-d0574c0f-2.HrWOu > div.sc-d0574c0f-0.cMCvfw > p.Textstyle__TextRoot-sc-1qs4xfy-0.cWvMNi",
+    "x": 5,
+    "y": 13,
+    "w": 350,
+    "h": 19,
+    "text": "No credit card required."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-9709aa77-0.hTAHlP > div.StyledField-sc-12gzfsu-0.iRSmTf > label#:r1:--label",
+    "x": 5,
+    "y": 45,
+    "w": 350,
+    "h": 24,
+    "text": "Work email"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form.sc-d0574c0f-2.HrWOu > div.LinkGroupstyle__LinkGroupRoot-sc-1rsp4bh-0.kWIkIT > button.Linkstyle__LinkRoot-sc-1cm3ukq-2.bbMVeg",
+    "x": 5,
+    "y": 141,
+    "w": 350,
+    "h": 48,
+    "text": "start your trial"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 4,
+    "controls": 1,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/instapage-form-trial-teaser-sell",
+  "at": "2026-11-21T18:24:28.475Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 900,
+  "root": "main",
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.za-col.fm-col-6 > div.za-text.fm-text > p",
+    "x": 5,
+    "y": 13,
+    "w": 350,
+    "h": 19,
+    "text": "No credit card required."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.fm-tipwrap > span.fm-field-in > label#fm-owner-email--label",
+    "x": 5,
+    "y": 48,
+    "w": 350,
+    "h": 24,
+    "text": "Work email"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.fm-grid > div.fm-field.fm-field-full > p",
+    "x": 5,
+    "y": 136,
+    "w": 350,
+    "h": 54,
+    "text": "By submitting my personal data, I consent to Zendesk collecting, processing, and"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.fm-field.fm-field-full > p > a",
+    "x": 124,
+    "y": 171,
+    "w": 134,
+    "h": 20,
+    "text": "zendesk privacy notice",
+    "href": "/company/agreements-and-terms/privacy-notice/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form#contact-us-form > div.fm-actions > button.za-btn.za-btn-primary",
+    "x": 5,
+    "y": 152,
+    "w": 350,
+    "h": 48,
+    "text": "start your trial"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 8,
+    "controls": 2,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"zendesk privacy notice\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "zendesk privacy notice"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 1,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 24,
+    "y": 15,
+    "w": 94,
+    "h": 16
+   },
+   {
+    "x": 119,
+    "y": 15,
+    "w": 139,
+    "h": 16
+   },
+   {
+    "x": 5,
+    "y": 49,
+    "w": 83,
+    "h": 16
+   },
+   {
+    "x": 122,
+    "y": 156,
+    "w": 117,
+    "h": 18
+   }
+  ],
+  "eds": [
+   {
+    "x": 21,
+    "y": 15,
+    "w": 94,
+    "h": 16
+   },
+   {
+    "x": 115,
+    "y": 15,
+    "w": 139,
+    "h": 16
+   },
+   {
+    "x": 5,
+    "y": 52,
+    "w": 83,
+    "h": 16
+   },
+   {
+    "x": 5,
+    "y": 137,
+    "w": 304,
+    "h": 16
+   },
+   {
+    "x": 5,
+    "y": 155,
+    "w": 295,
+    "h": 16
+   },
+   {
+    "x": 5,
+    "y": 173,
+    "w": 119,
+    "h": 16
+   },
+   {
+    "x": 124,
+    "y": 173,
+    "w": 134,
+    "h": 16
+   },
+   {
+    "x": 258,
+    "y": 173,
+    "w": 3,
+    "h": 16
+   },
+   {
+    "x": 122,
+    "y": 167,
+    "w": 117,
+    "h": 18
+   }
+  ]
+ }
+}

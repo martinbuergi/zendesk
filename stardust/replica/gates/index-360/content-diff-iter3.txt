@@ -1,0 +1,50 @@
+
+Content diff @ 360px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 336 text nodes — 35 headings, 8 eyebrows, 50 CTAs, 243 body; 84 img
+  build: 323 text nodes — 36 headings, 8 eyebrows, 49 CTAs, 230 body; 56 img
+  editable texts (outermost h*/p/ul/ol): source 213 / build 202
+  attributes (placeholder/aria-label/title): source 26 / build 26; icons: source 66 / build 60
+  accepted (invisible, nothing lost): 1 ROLE UPGRADE body → heading — "Need to know more?"; 3 SAME IMAGE — "Github_Default ↔ Github_Default.avif", "Uber_Default ↔ Uber_Default.avif", "Box_Default ↔ Box_Default.avif"
+root "header": absent on both sides (no <header> / [role="banner"] outside the main root(s)) — not compared
+root "footer"
+  source: 143 text nodes — 14 headings, 0 eyebrows, 129 CTAs, 0 body; 0 img
+  build: 143 text nodes — 14 headings, 0 eyebrows, 129 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 20 / build 20
+  attributes (placeholder/aria-label/title): source 35 / build 35; icons: source 40 / build 40
+
+Findings: 32 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 5 (owner 1, auto 4) · advisory 32
+  🟡 MISSING BODY [main]: source body "49"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "YoY decrease in new tickets"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "90–91"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "AI agent CSAT"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "“AI hasn’t replaced the human touch at NOBULL—it"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Bhav Raju"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Director of Customer Service at NOBULL"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "49"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "YoY decrease in new tickets"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "90–91"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "AI agent CSAT"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "%"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "%"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "%"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "%"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Previous"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Next"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [main]: build body "K" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "+" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "M" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "B" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EDITABLE COUNT [main]: build has 202 outermost editable element(s) vs 213 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at "free your team from repetition. ai agent" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at "92 % one-touch resolution rate 15 % over" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at "36 % increase in ai agent volume 30-40 %" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at "92 % one-touch resolution rate 15 % over" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at "36 % increase in ai agent volume 30-40 %" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at "49 % yoy decrease in new tickets 90–91 %" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at "92 % one-touch resolution rate 15 % over" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 24 24 / 1 shape(s) (21×24) at "what is zendesk?" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 EXTRA ICON [main]: build inline svg 0 0 17 16 / 2 shape(s) (0×0) at "every conversation becomes a learning si" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image footer-cta-icon-42.png (30×30) at "launch your first ai agent today" has no source source. Build-only icon — confirm it is intended.
+  🟢 MISSING CTA [main] accepted (stardust/replica/accepted.json): service: slick loop clones on the live customer-stories carousel duplicate each slide's link; the build renders every slide (and its link) once — clones carry no text per recreation-procedure § Carousels (loop clones are presentational)

@@ -1,0 +1,1140 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-21T12:12:43.674Z",
+  "tol": 4,
+  "n": 4,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/customer/action-property-management/",
+  "at": "2026-11-20T22:16:25.334Z",
+  "docH": 11767
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/customer/action-property-management",
+  "at": "2026-11-21T12:12:43.575Z",
+  "docH": 11768
+ },
+ "results": [
+  {
+   "sel": ".Cardstyle__CardRoot-sc-1g3sojj-1=.zb-fact",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:company headquarters",
+       "role": "heading",
+       "text": "company headquarters",
+       "edsText": "company headquarters",
+       "byPosition": false,
+       "origin": {
+        "x": 58,
+        "y": 24,
+        "w": 212,
+        "h": 22
+       },
+       "eds": {
+        "x": 58,
+        "y": 24,
+        "w": 212,
+        "h": 22,
+        "sel": "h2#company-headquarters",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:irvine, california",
+       "role": "text",
+       "text": "irvine, california",
+       "edsText": "irvine, california",
+       "byPosition": false,
+       "origin": {
+        "x": 108,
+        "y": 62,
+        "w": 112,
+        "h": 24
+       },
+       "eds": {
+        "x": 108,
+        "y": 62,
+        "w": 112,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2013,
+       "w": 328,
+       "h": 110
+      },
+      "eds": {
+       "x": 16,
+       "y": 2013,
+       "w": 328,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:communities served",
+       "role": "heading",
+       "text": "communities served",
+       "edsText": "communities served",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 24,
+        "w": 113,
+        "h": 44
+       },
+       "eds": {
+        "x": 24,
+        "y": 24,
+        "w": 113,
+        "h": 44,
+        "sel": "h2#communities-served",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:300+",
+       "role": "text",
+       "text": "300+",
+       "edsText": "300+",
+       "byPosition": false,
+       "origin": {
+        "x": 62,
+        "y": 84,
+        "w": 36,
+        "h": 24
+       },
+       "eds": {
+        "x": 62,
+        "y": 84,
+        "w": 36,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2147,
+       "w": 161,
+       "h": 132
+      },
+      "eds": {
+       "x": 16,
+       "y": 2147,
+       "w": 161,
+       "h": 132
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:employees",
+       "role": "heading",
+       "text": "employees",
+       "edsText": "employees",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 24,
+        "w": 91,
+        "h": 22
+       },
+       "eds": {
+        "x": 30,
+        "y": 24,
+        "w": 91,
+        "h": 22,
+        "sel": "h2#employees",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:850+",
+       "role": "text",
+       "text": "850+",
+       "edsText": "850+",
+       "byPosition": false,
+       "origin": {
+        "x": 57,
+        "y": 62,
+        "w": 37,
+        "h": 24
+       },
+       "eds": {
+        "x": 57,
+        "y": 62,
+        "w": 37,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 193,
+       "y": 2147,
+       "w": 151,
+       "h": 110
+      },
+      "eds": {
+       "x": 193,
+       "y": 2147,
+       "w": 151,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:company founded",
+       "role": "heading",
+       "text": "company founded",
+       "edsText": "company founded",
+       "byPosition": false,
+       "origin": {
+        "x": 84,
+        "y": 24,
+        "w": 161,
+        "h": 22
+       },
+       "eds": {
+        "x": 84,
+        "y": 24,
+        "w": 161,
+        "h": 22,
+        "sel": "h2#company-founded",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:1984",
+       "role": "text",
+       "text": "1984",
+       "edsText": "1984",
+       "byPosition": false,
+       "origin": {
+        "x": 147,
+        "y": 62,
+        "w": 33,
+        "h": 24
+       },
+       "eds": {
+        "x": 147,
+        "y": 62,
+        "w": 33,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2303,
+       "w": 328,
+       "h": 110
+      },
+      "eds": {
+       "x": 16,
+       "y": 2303,
+       "w": 328,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Quotestyle__QuoteRoot-sc-rczw5k-0=.zb-quote",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.khrxgA > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:“we’ve seen a 20-point increase in csat.",
+       "role": "text",
+       "text": "“we’ve seen a 20-point increase in csat. a lot of that can b",
+       "edsText": "“we’ve seen a 20-point increase in csat. a lot of that can b",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 156
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 156,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "text:josh chance",
+       "role": "text",
+       "text": "josh chance",
+       "edsText": "josh chance",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 228,
+        "w": 264,
+        "h": 26
+       },
+       "eds": {
+        "x": 32,
+        "y": 228,
+        "w": 264,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/600",
+        "eds": "18/26/600"
+       }
+      },
+      {
+       "key": "text:director of operations at action propert",
+       "role": "text",
+       "text": "director of operations at action property management",
+       "edsText": "director of operations at action property management",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 267,
+        "w": 264,
+        "h": 36
+       },
+       "eds": {
+        "x": 32,
+        "y": 267,
+        "w": 264,
+        "h": 36,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/18/400",
+        "eds": "13/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1285,
+       "w": 328,
+       "h": 348
+      },
+      "eds": {
+       "x": 16,
+       "y": 1285,
+       "w": 328,
+       "h": 348
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.khrxgA > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:“with zendesk reporting, we can see the ",
+       "role": "text",
+       "text": "“with zendesk reporting, we can see the median time it takes",
+       "edsText": "“with zendesk reporting, we can see the median time it takes",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 156
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 156,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "text:josh chance",
+       "role": "text",
+       "text": "josh chance",
+       "edsText": "josh chance",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 228,
+        "w": 264,
+        "h": 26
+       },
+       "eds": {
+        "x": 32,
+        "y": 228,
+        "w": 264,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/600",
+        "eds": "18/26/600"
+       }
+      },
+      {
+       "key": "text:director of operations at action propert",
+       "role": "text",
+       "text": "director of operations at action property management",
+       "edsText": "director of operations at action property management",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 267,
+        "w": 264,
+        "h": 36
+       },
+       "eds": {
+        "x": 32,
+        "y": 267,
+        "w": 264,
+        "h": 36,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/18/400",
+        "eds": "13/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1633,
+       "w": 328,
+       "h": 348
+      },
+      "eds": {
+       "x": 16,
+       "y": 1633,
+       "w": 328,
+       "h": 348
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Statstyle__StatRoot-sc-17s8ggd-0=.zb-stat",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:80%",
+       "role": "text",
+       "text": "80%",
+       "edsText": "80%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/700",
+        "eds": "34/42/700"
+       }
+      },
+      {
+       "key": "text:ai resolution rate",
+       "role": "text",
+       "text": "ai resolution rate",
+       "edsText": "ai resolution rate",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 46,
+        "w": 99,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 46,
+        "w": 99,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2501,
+       "w": 99,
+       "h": 94
+      },
+      "eds": {
+       "x": 16,
+       "y": 2501,
+       "w": 99,
+       "h": 94
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:+20 points",
+       "role": "text",
+       "text": "+20 points",
+       "edsText": "+20 points",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 84
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 84,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/700",
+        "eds": "34/42/700"
+       }
+      },
+      {
+       "key": "text:increase in csat",
+       "role": "text",
+       "text": "increase in csat",
+       "edsText": "increase in csat",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 88,
+        "w": 99,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 88,
+        "w": 99,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 131,
+       "y": 2501,
+       "w": 99,
+       "h": 136
+      },
+      "eds": {
+       "x": 131,
+       "y": 2501,
+       "w": 99,
+       "h": 136
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:20%",
+       "role": "text",
+       "text": "20%",
+       "edsText": "20%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/700",
+        "eds": "34/42/700"
+       }
+      },
+      {
+       "key": "text:increase in qa review speed",
+       "role": "text",
+       "text": "increase in qa review speed",
+       "edsText": "increase in qa review speed",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 46,
+        "w": 99,
+        "h": 72
+       },
+       "eds": {
+        "x": 0,
+        "y": 46,
+        "w": 99,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 245,
+       "y": 2501,
+       "w": 99,
+       "h": 118
+      },
+      "eds": {
+       "x": 245,
+       "y": 2501,
+       "w": 99,
+       "h": 118
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:81%",
+       "role": "text",
+       "text": "81%",
+       "edsText": "81%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/700",
+        "eds": "34/42/700"
+       }
+      },
+      {
+       "key": "text:decrease in average first response time",
+       "role": "text",
+       "text": "decrease in average first response time",
+       "edsText": "decrease in average first response time",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 46,
+        "w": 328,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 46,
+        "w": 328,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2637,
+       "w": 328,
+       "h": 70
+      },
+      "eds": {
+       "x": 16,
+       "y": 2637,
+       "w": 328,
+       "h": 70
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 22,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

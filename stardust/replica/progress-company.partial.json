@@ -1,0 +1,102 @@
+{
+  "type": "static",
+  "slug": "company",
+  "liveUrl": "https://www.zendesk.com/company/",
+  "generation": "A (Vanilla Sans; full gen-A header without the promo strip + canon footer)",
+  "prototype": "stardust/prototypes/company-proposed.html",
+  "css": [
+    "stardust/prototypes/fonts.css",
+    "stardust/prototypes/canon-a.css",
+    "stardust/prototypes/company.css"
+  ],
+  "js": [
+    "stardust/prototypes/canon-a.js",
+    "stardust/prototypes/company.js"
+  ],
+  "contentRoot": "main",
+  "sourceSpec": {
+    "1440": "0 sections / 0 offset / 0 missing / 0 extra (page 5012 = 5012); 5 carousel card titles first paired to the slide box (fixed: aria-roledescription=slide on the group, as live)",
+    "360": "0 / 0 offset / 0 missing / 0 extra (page 5094 = 5094); footer 'Cookie settings' vs 'Do Not Sell…' = OneTrust rewrite timing (accepted)"
+  },
+  "gates": {
+    "1440": {
+      "rounds": 2,
+      "pixel": 0.04,
+      "dh": 0,
+      "contentDiff": "0 red / 0 nothing-lost / 0 advisory (iter1 + iter2 confirmation)",
+      "clipped": 0,
+      "overflow": false,
+      "units": "gen-a-location-card 1 compared, 0 off",
+      "chromeCrops": "header 100.00%, footer 100.00%",
+      "capProbe": "PASS (2560, 0 of 8 rows failed)",
+      "verdict": "PASS"
+    },
+    "360": {
+      "rounds": 2,
+      "pixel": 0.12,
+      "dh": 0,
+      "contentDiff": "0 red / 0 nothing-lost / 0 advisory (iter2 confirmation); iter1 had the OneTrust 'Cookie settings' MISSING CTA/EXTRA pair -> accepted.json",
+      "clipped": 0,
+      "overflow": false,
+      "units": "1 compared, 0 off (iter1 declared all 22 cards: the partly off-screen 2nd card read 'hidden (clipped)' on the build only; narrowed to the slick-current card like service's gen-a-resource-card)",
+      "chromeCrops": "header 100.00%, footer 100.00%",
+      "capProbe": "PASS (run once at 2560)",
+      "verdict": "PASS"
+    }
+  },
+  "chromeParity": "quiet at 1440 and 360 (header 10/10 + 1/1 texts, footer 75/75 + 25/25; 4 accepted OneTrust-timing footer deltas at 360). Live has no header landmark and NO promo strip on /company/: the index region does not hold; the contact selectors do: header=#__next>div>div:nth-of-type(2)|#za-hdr-d (1440), #__next>div>div:nth-of-type(1)|#za-hdr-m (360). Page-local chrome fixes: nav2 icon moved inside the label span (canon-requests C1), mobile View demo 16px (contact #5 / C2)",
+  "residuals": [
+    "Footer legal link: OneTrust rewrites 'Cookie settings' to 'Do Not Sell or Share My Personal Information' after load; the live capture lands either side of the rewrite (nondeterministic) - canon carries the rewritten text; accepted.json entries (content-diff + chrome-parity) appended",
+    "Images harvested by direct GET from web-assets.zendesk.com (avif); the live slick lazy-loads slides 6-22 (1x1 gif placeholders until slid in) - the build ships the real photos for all 22",
+    "Location cards are <a> without href on live (no destination); kept as-is",
+    "Pixel residue 0.04% / 0.12%: image-encoding noise in the hero/teaser photos (band 500-1000 at 1440: 0.4%)"
+  ],
+  "motion": {
+    "observed": [
+      "carousel Next: slick track translateX -276px per click (slide width, gap ignored), 500ms, slick-current/slick-active class moves",
+      "location card hover: background rgba(17,17,13,.05), colour .7, img brightness(.9), 300ms",
+      "CTA button hover: anchor colour .7 600ms + LinkText background-position sweep 600ms",
+      "round nav buttons hover tint/scale (100ms)",
+      "header stuck state kOPZoh (canon-a.js .is-stuck)",
+      "section 'active' class on enter (no visual effect)"
+    ],
+    "implemented": [
+      "company.js carousel: step = ceil(list/show) px, 500ms transform, prev disabled at 0, 500ms click lock, slick-current/slick-active classes",
+      "card hover/active skins, CTA colour + span background-position transitions, round button hover",
+      "stuck header via canon-a.js"
+    ],
+    "dead": [
+      "section 'active' class",
+      "hIDnGq (header anchor state class, canon scope)"
+    ],
+    "compare": "11 parity, 3 missing (active, hIDnGq, kOPZoh = canon is-stuck), 0 extra",
+    "evidence": [
+      "stardust/replica/motion/company-live.json",
+      "stardust/replica/motion/company-build.json"
+    ]
+  },
+  "captureState": [
+    {
+      "what": "Locations carousel: 22 slides, slick lazy images",
+      "restoreAtDelivery": "author the 22 location cards as a carousel block; images from DA media (live lazy-loads slides 6-22)"
+    },
+    {
+      "what": "Footer OneTrust link text",
+      "restoreAtDelivery": "OneTrust script rewrites the link at runtime; ship 'Cookie settings' + OneTrust if the script is restored"
+    }
+  ],
+  "canonRequests": "stardust/replica/canon-requests.md C1 (nav2 icon inside label span), C2 (= contact #5, mobile CTA 16px)",
+  "units": "stardust/replica/units.json gen-a-location-card (slick-current card)",
+  "sharedModules": {
+    "company.css": [
+      "page shell (--headerHeight 65/115)",
+      "teaser rows text 6/12 + media 5/12 offset 1 (both orders), radius-40 intrinsic images",
+      "hero lime glow",
+      "centred head 8/12",
+      "locations carousel (slick 4 / 1.33 / 2.33 guess at 768) + link cards + round nav",
+      "forest body promo",
+      "ink logos CTA with moss glow"
+    ]
+  },
+  "passed": true
+}

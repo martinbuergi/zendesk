@@ -1,0 +1,240 @@
+{
+  "a": "stardust/replica/gates/all-360/cxtrends/origin.png",
+  "b": "stardust/replica/gates/all-360/cxtrends/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 5664,
+    "mode": "overlap"
+  },
+  "heightDelta": -11,
+  "differingPixels": 193854,
+  "pct": 9.51,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/cxtrends/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 11.41,
+  "textBoxes": 109,
+  "textPixels": 425912,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 17.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 14.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 3.3
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 16.3
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 8.8
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 6.8
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 18
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 13.9
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 5.2
+    },
+    {
+      "y0": 5500,
+      "y1": 5664,
+      "pct": 5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 4.43,
+    "differingPixels": 90708,
+    "compared": {
+      "width": 360,
+      "height": 5682,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2280,
+        "shift": -3,
+        "cumulative": -3
+      },
+      {
+        "y": 2512,
+        "shift": 5,
+        "cumulative": 2
+      },
+      {
+        "y": 2620,
+        "shift": 9,
+        "cumulative": 11
+      },
+      {
+        "y": 3526,
+        "shift": -1,
+        "cumulative": 10
+      },
+      {
+        "y": 3571,
+        "shift": 1,
+        "cumulative": 11
+      },
+      {
+        "y": 3613,
+        "shift": -1,
+        "cumulative": 10
+      },
+      {
+        "y": 3752,
+        "shift": 1,
+        "cumulative": 11
+      },
+      {
+        "y": 3834,
+        "shift": -1,
+        "cumulative": 10
+      },
+      {
+        "y": 4467,
+        "shift": 1,
+        "cumulative": 11
+      },
+      {
+        "y": 4935,
+        "shift": -1,
+        "cumulative": 10
+      },
+      {
+        "y": 5259,
+        "shift": 1,
+        "cumulative": 11
+      }
+    ],
+    "maxOffset": 11,
+    "totalShift": 25,
+    "insertedRows": 18,
+    "deletedRows": 7,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 17.3,
+        "unaligned": 17.3
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 14.2,
+        "unaligned": 14.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 1,
+        "unaligned": 1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1.2,
+        "unaligned": 1.2
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 1,
+        "unaligned": 3.3
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 8,
+        "unaligned": 16.3
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 1.3,
+        "unaligned": 8.8
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 1.4,
+        "unaligned": 6.8
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 2.9,
+        "unaligned": 18
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 1.1,
+        "unaligned": 13.9
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0.7,
+        "unaligned": 5.2
+      },
+      {
+        "y0": 5500,
+        "y1": 5664,
+        "pct": 0,
+        "unaligned": 5
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/cxtrends/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 57,
+    "totalShift": 25,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/cxtrends"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-21T00:25:57.945Z",
+  "url": "https://www.zendesk.com/instapage-form-contact/",
+  "width": 1440,
+  "vh": 900,
+  "height": 900,
+  "settle": true,
+  "chunks": 1,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 0,
+    "late": 0
+  },
+  "primed": true,
+  "prime": {
+    "height": 900,
+    "pct": 0,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    900,
+    900
+  ],
+  "noiseFloor": 0,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [],
+  "variableShare": 0,
+  "maskArg": "",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-21T00:26:20.677Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

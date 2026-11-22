@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "stages": {
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-21T02-20-08-457Z",
+          "at": "2026-11-21T02:20:08.458Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-21T02-27-27-387Z",
+          "at": "2026-11-21T02:27:27.387Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T02-32-44-052Z",
+          "at": "2026-11-21T02:32:44.053Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T02-56-57-956Z",
+          "at": "2026-11-21T02:56:57.957Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T03-21-27-122Z",
+          "at": "2026-11-21T03:21:27.125Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T03-54-46-643Z",
+          "at": "2026-11-21T03:54:46.646Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T13-51-11-864Z",
+          "at": "2026-11-21T13:51:11.872Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T18-04-49-911Z",
+          "at": "2026-11-21T18:04:49.912Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

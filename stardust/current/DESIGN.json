@@ -1,0 +1,3884 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-20T07:46:49.956Z",
+    "readArtifacts": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/pages/*.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.42.2"
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-20T07:46:49.956Z",
+  "title": "Design System: Zendesk (current state)",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "text-primary",
+        "displayName": "Ink",
+        "generation": "A"
+      },
+      "white": {
+        "role": "background",
+        "displayName": "White",
+        "generation": "A+B"
+      },
+      "lime": {
+        "role": "accent",
+        "displayName": "Lime CTA",
+        "generation": "A"
+      },
+      "cream": {
+        "role": "surface",
+        "displayName": "Cream",
+        "generation": "A"
+      },
+      "forest": {
+        "role": "accent-2",
+        "displayName": "Forest band",
+        "generation": "A"
+      },
+      "ink-hairline": {
+        "role": "border",
+        "displayName": "Ink hairline",
+        "generation": "A"
+      },
+      "legacy-teal": {
+        "role": "primary",
+        "displayName": "Legacy teal",
+        "generation": "B"
+      },
+      "legacy-teal-hover": {
+        "role": "primary-hover",
+        "displayName": "Legacy teal hover",
+        "generation": "B"
+      },
+      "legacy-heading": {
+        "role": "heading",
+        "displayName": "Legacy heading teal",
+        "generation": "B"
+      },
+      "legacy-muted": {
+        "role": "text-secondary",
+        "displayName": "Legacy muted",
+        "generation": "B"
+      },
+      "legacy-link": {
+        "role": "link",
+        "displayName": "Legacy link blue",
+        "generation": "B"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display (A)",
+        "purpose": "Hero h1, Vanilla Sans 500"
+      },
+      "headline": {
+        "displayName": "Section headline (A)",
+        "purpose": "h2 42px"
+      },
+      "eyebrow": {
+        "displayName": "Eyebrow (A)",
+        "purpose": "14px uppercase 0.75px tracking"
+      },
+      "legacy-display": {
+        "displayName": "Display (B)",
+        "purpose": "Customer-story h1, Sharp Sans 700"
+      },
+      "legacy-eyebrow": {
+        "displayName": "Eyebrow (B)",
+        "purpose": "14px uppercase 2px tracking; stat labels"
+      },
+      "legacy-body": {
+        "displayName": "Body (B)",
+        "purpose": "Proxima Nova body in teal"
+      }
+    },
+    "shadows": [
+      {
+        "name": "input-ring",
+        "value": "rgb(104, 115, 125) 0px 0px 0px 1px inset",
+        "purpose": "87 elements"
+      },
+      {
+        "name": "legacy-card-lift",
+        "value": "rgba(23, 73, 77, 0.15) 0px 20px 30px 0px",
+        "purpose": "87 elements"
+      },
+      {
+        "name": "ink-inset-rule",
+        "value": "rgb(17, 17, 13) 0px 2px 0px 0px inset",
+        "purpose": "26 elements"
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(90deg, rgba(17, 17, 13, 0.7) 0%, rgba(17, 17, 13, 0.7) 40%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, rgb(17, 17, 13) 60%, rgb(17, 17, 13) 100%)",
+        "uses": "220 elements"
+      },
+      {
+        "value": "linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 40%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, rgb(255, 255, 255) 60%, rgb(255, 255, 255) 100%)",
+        "uses": "54 elements"
+      },
+      {
+        "value": "linear-gradient(90deg, rgb(209, 244, 112) 0%, rgb(209, 244, 112) 40%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, rgb(209, 244, 112) 60%, rgb(209, 244, 112) 100%)",
+        "uses": "21 elements"
+      },
+      {
+        "value": "radial-gradient(150% 140% at 22% 0%, rgba(0, 0, 0, 0) 65%, rgba(209, 244, 112, 0.6) 80%, rgba(209, 244, 112, 0.8) 100%)",
+        "uses": "13 elements"
+      },
+      {
+        "value": "radial-gradient(115% 115% at 50% 100%, rgb(53, 94, 52) 10%, rgba(0, 0, 0, 0) 100%)",
+        "uses": "11 elements"
+      }
+    ],
+    "motion": [
+      {
+        "name": "hover-fade",
+        "value": "color/border to 70% alpha",
+        "purpose": "gen A button + link hover"
+      },
+      {
+        "name": "legacy-hover",
+        "value": "background #17494d → #06615a",
+        "purpose": "gen B button hover"
+      }
+    ],
+    "generations": {
+      "A": {
+        "pages": [
+          "blog",
+          "company",
+          "contact",
+          "demo",
+          "employee-service"
+        ],
+        "families": [
+          "Vanilla Sans"
+        ]
+      },
+      "B": {
+        "pageCount": 65,
+        "families": [
+          "Sharp Sans",
+          "Proxima Nova"
+        ]
+      }
+    },
+    "componentStyle": {
+      "buttonPrimary": {
+        "gen": "A",
+        "backgroundColor": "#d1f470",
+        "color": "#11110d",
+        "borderRadius": "16px",
+        "padding": "10px 20px",
+        "font": "600 18px Vanilla Sans",
+        "hover": "color rgba(17,17,13,.7)"
+      },
+      "buttonPrimaryLegacy": {
+        "gen": "B",
+        "backgroundColor": "#17494d",
+        "color": "#ffffff",
+        "borderRadius": "0px",
+        "padding": "8px 24px",
+        "font": "600 18px Sharp Sans",
+        "hover": "background #06615a"
+      },
+      "buttonSecondaryLegacy": {
+        "gen": "B",
+        "backgroundColor": "transparent",
+        "color": "#17494d",
+        "border": "1px solid #17494d",
+        "borderRadius": "0px",
+        "hover": "background #06615a, color #fff"
+      },
+      "chip": {
+        "gen": "A",
+        "backgroundColor": "rgba(17,17,13,.11)",
+        "color": "#11110d",
+        "borderRadius": "16px",
+        "padding": "7px 12px 9px",
+        "font": "600 14px Vanilla Sans"
+      },
+      "hover": [
+        {
+          "kind": "button",
+          "from": {
+            "backgroundColor": "rgb(23, 73, 77)",
+            "borderColor": "rgb(23, 73, 77)"
+          },
+          "to": {
+            "backgroundColor": "rgb(6, 97, 90)",
+            "borderColor": "rgb(6, 97, 90)"
+          },
+          "count": 138,
+          "sources": [
+            {
+              "url": "https://www.zendesk.com/customer/",
+              "selector": "nav > div > div > div > div:nth-of-type(7) > a:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.zendesk.com/customer/",
+              "selector": "#main-content > section:nth-of-type(5) > div > div > div > div:nth-of-type(1) > div > a:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.zendesk.com/customer/action-property-management/",
+              "selector": "nav > div > div > div > div:nth-of-type(7) > a:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.zendesk.com/customer/action-property-management/",
+              "selector": "div > section > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > a"
+            },
+            {
+              "url": "https://www.zendesk.com/customer/asaas/",
+              "selector": "nav > div > div > div > div:nth-of-type(7) > a:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "kind": "link",
+          "from": {
+            "color": "rgb(23, 73, 77)"
+          },
+          "to": {
+            "color": "rgb(6, 97, 90)"
+          },
+          "count": 122,
+          "sources": [
+            {
+              "url": "https://www.zendesk.com/customer/",
+              "selector": "#main-content > section:nth-of-type(1) > div > div > div > div:nth-of-type(1) > div > a"
+            },
+            {
+              "url": "https://www.zendesk.com/customer/",
+              "selector": "#main-content > section:nth-of-type(2) > div > div:nth-of-type(6) > a"
+            },
+            {
+              "url": "https://www.zendesk.com/customer/",
+              "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > h3 > a"
+            },
+            {
+              "url": "https://www.zendesk.com/customer/action-property-management/",
+              "selector": "#main-content > div > section > div > div > div:nth-of-type(1) > div > a"
+            },
+            {
+              "url": "https://www.zendesk.com/customer/action-property-management/",
+              "selector": "#main-content > section:nth-of-type(3) > div > div > div > div > p:nth-of-type(2) > a"
+            }
+          ]
+        },
+        {
+          "kind": "button",
+          "from": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(23, 73, 77)",
+            "borderColor": "rgb(23, 73, 77)"
+          },
+          "to": {
+            "backgroundColor": "rgb(6, 97, 90)",
+            "color": "rgb(255, 255, 255)",
+            "borderColor": "rgb(6, 97, 90)"
+          },
+          "count": 73,
+          "sources": [
+            {
+              "url": "https://www.zendesk.com/customer/",
+              "selector": "nav > div > div > div > div:nth-of-type(7) > a:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.zendesk.com/customer/",
+              "selector": "section:nth-of-type(3) > div > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > button"
+            },
+            {
+              "url": "https://www.zendesk.com/customer/action-property-management/",
+              "selector": "nav > div > div > div > div:nth-of-type(7) > a:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.zendesk.com/customer/asaas/",
+              "selector": "nav > div > div > div > div:nth-of-type(7) > a:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.zendesk.com/customer/babbel/",
+              "selector": "nav > div > div > div > div:nth-of-type(7) > a:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "kind": "button",
+          "from": {
+            "color": "rgb(17, 17, 13)",
+            "borderColor": "rgb(17, 17, 13)"
+          },
+          "to": {
+            "color": "rgba(17, 17, 13, 0.7)",
+            "borderColor": "rgba(17, 17, 13, 0.7)"
+          },
+          "count": 50,
+          "sources": [
+            {
+              "url": "https://www.zendesk.com/",
+              "selector": "nav > div > div:nth-of-type(3) > a:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.zendesk.com/",
+              "selector": "#button-2be0de0f35"
+            },
+            {
+              "url": "https://www.zendesk.com/blog/",
+              "selector": "nav > div > div:nth-of-type(3) > a:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.zendesk.com/blog/",
+              "selector": "div:nth-of-type(2) > div > span > div > div > div > div:nth-of-type(1) > button"
+            },
+            {
+              "url": "https://www.zendesk.com/company/",
+              "selector": "nav > div > div:nth-of-type(3) > a:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "kind": "link",
+          "from": {
+            "color": "rgb(17, 17, 13)"
+          },
+          "to": {
+            "color": "rgba(17, 17, 13, 0.7)"
+          },
+          "count": 25,
+          "sources": [
+            {
+              "url": "https://www.zendesk.com/",
+              "selector": "#forethought > div > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.zendesk.com/blog/",
+              "selector": "nav > div > div:nth-of-type(2) > div:nth-of-type(5) > a"
+            },
+            {
+              "url": "https://www.zendesk.com/contact/",
+              "selector": "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > a"
+            },
+            {
+              "url": "https://www.zendesk.com/cxtrends/",
+              "selector": "nav > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a"
+            },
+            {
+              "url": "https://www.zendesk.com/employee-service/",
+              "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div > cite > a"
+            }
+          ]
+        },
+        {
+          "kind": "button",
+          "from": {
+            "color": "rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)"
+          },
+          "to": {
+            "color": "rgba(255, 255, 255, 0.7)",
+            "borderColor": "rgba(255, 255, 255, 0.7)"
+          },
+          "count": 12,
+          "sources": [
+            {
+              "url": "https://www.zendesk.com/",
+              "selector": "#hero-trial-teaser > div > div:nth-of-type(1) > div:nth-of-type(2) > button"
+            },
+            {
+              "url": "https://www.zendesk.com/",
+              "selector": "#hero > div:nth-of-type(2) > div > div:nth-of-type(2) > button"
+            },
+            {
+              "url": "https://www.zendesk.com/blog/",
+              "selector": "#teaser-ef6abf30ab > div > div > div > div > div:nth-of-type(3) > div > a"
+            },
+            {
+              "url": "https://www.zendesk.com/company/",
+              "selector": "section:nth-of-type(5) > div > div > div > div > div:nth-of-type(2) > div > a"
+            },
+            {
+              "url": "https://www.zendesk.com/employee-service/",
+              "selector": "section:nth-of-type(2) > div > div > div > div > div:nth-of-type(3) > div > a"
+            }
+          ]
+        }
+      ]
+    },
+    "motifs": {
+      "borderRadius": {
+        "primary": "16px",
+        "secondary": "4px",
+        "pill": "50%",
+        "primarySources": [
+          "index",
+          "pricing",
+          "why-zendesk"
+        ],
+        "occurrences": {
+          "4px": 6647,
+          "16px": 422,
+          "8px": 150,
+          "50%": 87,
+          "40px": 72,
+          "20px": 45,
+          "100%": 40,
+          "16px 16px 0px 0px": 32,
+          "12px": 20,
+          "6px": 12
+        },
+        "note": "count mode 4px (chips/inputs), area mode 16px (gen A buttons/cards); gen B buttons 0px"
+      },
+      "shadows": [
+        {
+          "value": "rgb(104, 115, 125) 0px 0px 0px 1px inset",
+          "uses": "87 elements",
+          "sources": [
+            "/customer/",
+            "/customer/action-property-management/",
+            "/customer/asaas/"
+          ]
+        },
+        {
+          "value": "rgba(23, 73, 77, 0.15) 0px 20px 30px 0px",
+          "uses": "87 elements",
+          "sources": [
+            "/",
+            "/blog/",
+            "/company/"
+          ]
+        },
+        {
+          "value": "rgb(17, 17, 13) 0px 2px 0px 0px inset",
+          "uses": "26 elements",
+          "sources": [
+            "/cxtrends/",
+            "/employee-service/",
+            "/free-trial/"
+          ]
+        }
+      ],
+      "gradients": [
+        {
+          "value": "linear-gradient(90deg, rgba(17, 17, 13, 0.7) 0%, rgba(17, 17, 13, 0.7) 40%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, rgb(17, 17, 13) 60%, rgb(17, 17, 13) 100%)",
+          "uses": "220 elements"
+        },
+        {
+          "value": "linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 40%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, rgb(255, 255, 255) 60%, rgb(255, 255, 255) 100%)",
+          "uses": "54 elements"
+        },
+        {
+          "value": "linear-gradient(90deg, rgb(209, 244, 112) 0%, rgb(209, 244, 112) 40%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, rgb(209, 244, 112) 60%, rgb(209, 244, 112) 100%)",
+          "uses": "21 elements"
+        },
+        {
+          "value": "radial-gradient(150% 140% at 22% 0%, rgba(0, 0, 0, 0) 65%, rgba(209, 244, 112, 0.6) 80%, rgba(209, 244, 112, 0.8) 100%)",
+          "uses": "13 elements"
+        },
+        {
+          "value": "radial-gradient(115% 115% at 50% 100%, rgb(53, 94, 52) 10%, rgba(0, 0, 0, 0) 100%)",
+          "uses": "11 elements"
+        }
+      ],
+      "patterns": [
+        {
+          "name": "hero-with-image",
+          "evidence": "home photo hero (Hero-image_V01.jpg) + product animation fallback"
+        },
+        {
+          "name": "social-proof-logos",
+          "evidence": "LogotypeRow on 68 pages"
+        },
+        {
+          "name": "stat-row",
+          "evidence": "Stat on 67 pages"
+        },
+        {
+          "name": "card-grid",
+          "evidence": "Card on 78 pages"
+        },
+        {
+          "name": "testimonial-quote",
+          "evidence": "Quote on 60 pages"
+        },
+        {
+          "name": "faq-accordion",
+          "evidence": "Accordion on 23 pages"
+        },
+        {
+          "name": "cta-band",
+          "evidence": "closing green radial-gradient band (\"Launch your first AI agent today\") on gen A pages"
+        },
+        {
+          "name": "footer-mega",
+          "evidence": "five-column footer on every chromed page"
+        },
+        {
+          "name": "nav-mega",
+          "evidence": "Platform/Products/Solutions/Resources mega menus"
+        }
+      ]
+    },
+    "voice": {
+      "heroHeadline": "Build for better outcomes",
+      "heroSubcopy": "Go beyond answers to improve customer and employee experiences with the Zendesk Outcome AI™ Platform. Trusted by 32,000+ customers to drive better outcomes.",
+      "heroImage": {
+        "url": "https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/home/Hero-image_V01.jpg",
+        "alt": "",
+        "source": "css-background",
+        "domPath": "home hero section",
+        "localPath": null
+      },
+      "heroMedium": {
+        "kind": "animated-svg",
+        "mechanism": "product-UI hero animation with static PNG fallback",
+        "src": "https://web-assets.zendesk.com/zendesk/pages/home/animation-fallbacks/hero/Hero_Homepage__en_us.png",
+        "note": "preloaded animation fallback image; animation mechanism to confirm in dynamics"
+      },
+      "primaryCTALabel": "Try for free",
+      "ctaSamples": [
+        "Try for free",
+        "View demo",
+        "Contact sales",
+        "See plans & pricing",
+        "Read customer story"
+      ],
+      "navItems": [
+        "Platform",
+        "Products",
+        "Solutions",
+        "Resources",
+        "Pricing",
+        "Sign in",
+        "Contact us"
+      ],
+      "footerHeadings": [
+        "Products",
+        "Resources",
+        "Company",
+        "Features",
+        "Compare",
+        "Popular topics"
+      ],
+      "firstParagraph": "Go beyond answers to improve customer and employee experiences with the Zendesk Outcome AI™ Platform. Trusted by 32,000+ customers to drive better outcomes.",
+      "tone": {
+        "guess": "professional-warm",
+        "evidence": "short outcome-led declaratives, second person, trademark-heavy product names"
+      }
+    },
+    "systemComponents": [
+      {
+        "name": "site-header-current",
+        "kind": "header",
+        "occurrences": 19,
+        "headingSequence": [
+          "Platform",
+          "Products",
+          "Solutions",
+          "Resources",
+          "Pricing"
+        ],
+        "ctaLabels": [
+          "Try for free",
+          "View demo",
+          "Sign in",
+          "Contact us"
+        ],
+        "exampleSlug": "index",
+        "exampleSelector": "div[id^=\"header-\"] > nav",
+        "examplePages": [
+          "blog",
+          "company",
+          "contact",
+          "demo",
+          "employee-service"
+        ]
+      },
+      {
+        "name": "site-header-legacy",
+        "kind": "header",
+        "occurrences": 65,
+        "headingSequence": [
+          "Products",
+          "Pricing",
+          "Solutions",
+          "Demo",
+          "Resources"
+        ],
+        "ctaLabels": [
+          "Free trial",
+          "Demo",
+          "Sign in"
+        ],
+        "exampleSlug": "customer-canva",
+        "exampleSelector": "header (PrimaryNavbar + SecondaryNavbar)",
+        "examplePages": [
+          "customer",
+          "customer-action-property-management",
+          "customer-asaas",
+          "customer-babbel",
+          "customer-ballys"
+        ]
+      },
+      {
+        "name": "site-footer-current",
+        "kind": "footer",
+        "occurrences": 21,
+        "headingSequence": [
+          "Products",
+          "Resources",
+          "Company",
+          "Features",
+          "Compare",
+          "Popular topics",
+          "How can we help? Contact us."
+        ],
+        "ctaLabels": [
+          "Contact us"
+        ],
+        "exampleSlug": "index",
+        "exampleSelector": "footer (dark #11110d)",
+        "examplePages": [
+          "blog",
+          "company",
+          "cxtrends",
+          "employee-service",
+          "free-trial"
+        ]
+      },
+      {
+        "name": "site-footer-legacy",
+        "kind": "footer",
+        "occurrences": 65,
+        "headingSequence": [
+          "Champions of customer service",
+          "Our Products",
+          "Top Features",
+          "Resources",
+          "Company",
+          "Favorite Things",
+          "Enter the fold"
+        ],
+        "ctaLabels": [
+          "Subscribe"
+        ],
+        "exampleSlug": "customer-canva",
+        "exampleSelector": "footer (light, newsletter \"Enter the fold\")",
+        "examplePages": [
+          "customer",
+          "customer-action-property-management",
+          "customer-asaas",
+          "customer-babbel",
+          "customer-ballys"
+        ]
+      },
+      {
+        "name": "consent-strip",
+        "kind": "other",
+        "occurrences": 100,
+        "headingSequence": [
+          "This website uses cookies"
+        ],
+        "ctaLabels": [
+          "Accept Cookies",
+          "Do Not Sell or Share My Personal Information"
+        ],
+        "exampleSlug": "index",
+        "exampleSelector": "#onetrust-banner-sdk",
+        "examplePages": [
+          "index",
+          "marketplace",
+          "customer",
+          "trust-center",
+          "pricing"
+        ]
+      }
+    ],
+    "fonts": [
+      {
+        "url": "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Regular.woff2",
+        "family": "Vanilla Sans",
+        "weight": 400,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/VanillaSans-Regular.woff2",
+        "sourceCssRule": "@font-face{font-family:Vanilla Sans;src:url(\".../VanillaSans/VanillaSans-Regular.woff2\") format(\"woff2\");font-weight:400;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Medium.woff2",
+        "family": "Vanilla Sans",
+        "weight": 500,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/VanillaSans-Medium.woff2",
+        "sourceCssRule": "@font-face{font-family:Vanilla Sans;src:url(\".../VanillaSans/VanillaSans-Medium.woff2\") format(\"woff2\");font-weight:500;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-SemiBold.woff2",
+        "family": "Vanilla Sans",
+        "weight": 600,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/VanillaSans-SemiBold.woff2",
+        "sourceCssRule": "@font-face{font-family:Vanilla Sans;src:url(\".../VanillaSans/VanillaSans-SemiBold.woff2\") format(\"woff2\");font-weight:600;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Bold.woff2",
+        "family": "Vanilla Sans",
+        "weight": 700,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/VanillaSans-Bold.woff2",
+        "sourceCssRule": "@font-face{font-family:Vanilla Sans;src:url(\".../VanillaSans/VanillaSans-Bold.woff2\") format(\"woff2\");font-weight:700;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://web-assets.zendesk.com/fonts/SHSNMedium.woff2",
+        "family": "Sharp Sans",
+        "weight": 400,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/SHSNMedium.woff2",
+        "sourceCssRule": "@font-face{font-family:Sharp Sans;src:url(\".../SHSNMedium.woff2\") format(\"woff2\");font-weight:400;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://web-assets.zendesk.com/fonts/SHSN.woff2",
+        "family": "Sharp Sans",
+        "weight": 600,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/SHSN.woff2",
+        "sourceCssRule": "@font-face{font-family:Sharp Sans;src:url(\".../SHSN.woff2\") format(\"woff2\");font-weight:600;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://web-assets.zendesk.com/fonts/SHSNBold.woff2",
+        "family": "Sharp Sans",
+        "weight": 700,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/SHSNBold.woff2",
+        "sourceCssRule": "@font-face{font-family:Sharp Sans;src:url(\".../SHSNBold.woff2\") format(\"woff2\");font-weight:700;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://web-assets.zendesk.com/fonts/PNR.woff2",
+        "family": "Proxima Nova",
+        "weight": 400,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/PNR.woff2",
+        "sourceCssRule": "@font-face{font-family:Proxima Nova;src:url(\".../PNR.woff2\") format(\"woff2\");font-weight:400;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://web-assets.zendesk.com/fonts/PNSB.woff2",
+        "family": "Proxima Nova",
+        "weight": 600,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/PNSB.woff2",
+        "sourceCssRule": "@font-face{font-family:Proxima Nova;src:url(\".../PNSB.woff2\") format(\"woff2\");font-weight:600;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://web-assets.zendesk.com/fonts/PNB.woff2",
+        "family": "Proxima Nova",
+        "weight": 700,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/PNB.woff2",
+        "sourceCssRule": "@font-face{font-family:Proxima Nova;src:url(\".../PNB.woff2\") format(\"woff2\");font-weight:700;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1600px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1920,
+          "via": "other",
+          "selector": "#hero",
+          "pages": [
+            "https://www.zendesk.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1600,
+          "via": "max-width",
+          "selector": "#hero > div.hHhIKw.sc-f23d7fd5-7",
+          "pages": [
+            "https://www.zendesk.com/",
+            "https://www.zendesk.com/blog/",
+            "https://www.zendesk.com/service/",
+            "https://www.zendesk.com/contact/",
+            "https://www.zendesk.com/company/",
+            "https://www.zendesk.com/pricing/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1552,
+          "via": "max-width",
+          "selector": "#container-78d5a9aec7 > div.spz-socialproof",
+          "pages": [
+            "https://www.zendesk.com/pricing/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1440,
+          "via": "other",
+          "selector": "div.slick-slider.sc-c1b68abd-4 > div.slick-list > div.slick-track > div.slick-slide.slick-active",
+          "pages": [
+            "https://www.zendesk.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1267,
+          "via": "other",
+          "selector": "div.slick-slider.bPHyHw > div.slick-list > div.slick-track > div.slick-slide.slick-active",
+          "pages": [
+            "https://www.zendesk.com/service/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1120,
+          "via": "max-width",
+          "selector": "#main-content > div.sc-8ed9cb52-1.gnbqpT > section.Basestyle__BaseRoot-sc-3zktjg-1.dvTsIe > div.cjZCoN",
+          "pages": [
+            "https://www.zendesk.com/customer/canva/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1080,
+          "via": "max-width",
+          "selector": "#datapoints > div.hHhIKw.sc-f23d7fd5-7 > div.StyledGrid-sc-oxgg5i-0.jdUzaL > div.gqkGhQ",
+          "pages": [
+            "https://www.zendesk.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 820,
+          "via": "fixed",
+          "selector": "#homepage-accordion-panel-0",
+          "pages": [
+            "https://www.zendesk.com/",
+            "https://www.zendesk.com/customer/canva/",
+            "https://www.zendesk.com/pricing/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 744,
+          "via": "other",
+          "selector": "div.eDfyXi.wcfhO > div.kBFxcy > span.frWMUj > span",
+          "pages": [
+            "https://www.zendesk.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 700,
+          "via": "max-width",
+          "selector": "div.slick-slide.slick-active > div > div.sc-f19af1ee-1.gacXYJ > div.sc-f19af1ee-6.cYETkV",
+          "pages": [
+            "https://www.zendesk.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 652,
+          "via": "fixed",
+          "selector": "#splide01-clone01 > div.spz-socialproof__card > div.spz-socialproof__photo",
+          "pages": [
+            "https://www.zendesk.com/pricing/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 600,
+          "via": "max-width",
+          "selector": "div.StyledGrid-sc-oxgg5i-0.jdUzaL > div.StyledRow-sc-xjsdg1-0.jJrhpI > div.StyledCol-sc-inuw62-0.lnlHXe > div.dGKSxT.sc-ad4d4b80-0",
+          "pages": [
+            "https://www.zendesk.com/",
+            "https://www.zendesk.com/blog/",
+            "https://www.zendesk.com/service/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 542,
+          "via": "max-width",
+          "selector": "div.slick-slide.slick-active > div > div.sc-f19af1ee-1.gacXYJ > div.sc-f19af1ee-2.faWfMw",
+          "pages": [
+            "https://www.zendesk.com/",
+            "https://www.zendesk.com/customer/canva/",
+            "https://www.zendesk.com/service/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 464,
+          "via": "fixed",
+          "selector": "#homepage-accordion-panel-0 > span.frWMUj",
+          "pages": [
+            "https://www.zendesk.com/",
+            "https://www.zendesk.com/customer/canva/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 443,
+          "via": "other",
+          "selector": "div.giQXbW > div.hdNOgv > span.frWMUj > span",
+          "pages": [
+            "https://www.zendesk.com/service/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 422,
+          "via": "other",
+          "selector": "#hero > div.sc-dda81aa4-4.gOZGrr > div.lexBds",
+          "pages": [
+            "https://www.zendesk.com/",
+            "https://www.zendesk.com/pricing/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 356,
+          "via": "other",
+          "selector": "a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0 > div.shxNh.dlctRs > span.frWMUj > span",
+          "pages": [
+            "https://www.zendesk.com/blog/",
+            "https://www.zendesk.com/company/",
+            "https://www.zendesk.com/pricing/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 309,
+          "via": "fixed",
+          "selector": "#splide01-clone02 > div.spz-socialproof__card > div.spz-socialproof__content > div.spz-socialproof__author",
+          "pages": [
+            "https://www.zendesk.com/pricing/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 271,
+          "via": "fixed",
+          "selector": "div.StyledRow-sc-xjsdg1-0.jJrhpI > div.StyledCol-sc-inuw62-0.lnlHXe > div.eCTgYG > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0",
+          "pages": [
+            "https://www.zendesk.com/",
+            "https://www.zendesk.com/customer/canva/",
+            "https://www.zendesk.com/service/",
+            "https://www.zendesk.com/pricing/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 250,
+          "via": "fixed",
+          "selector": "div.cFgWCS > div.bSJKhH > div.hvqpZx > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0",
+          "pages": [
+            "https://www.zendesk.com/",
+            "https://www.zendesk.com/service/",
+            "https://www.zendesk.com/company/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.zendesk.com/",
+          "section": 0,
+          "selector": "#hero",
+          "px": 1920
+        },
+        {
+          "url": "https://www.zendesk.com/",
+          "section": 1,
+          "selector": "#logos",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/",
+          "section": 2,
+          "selector": "#container-8dbc66d40b > section.sc-f23d7fd5-11.kLnTED",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/",
+          "section": 3,
+          "selector": "#resolution_learning_loop",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/",
+          "section": 4,
+          "selector": "#datapoints",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/",
+          "section": 5,
+          "selector": "#forethought",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/",
+          "section": 6,
+          "selector": "#container-8dbc66d40b > section.sc-f23d7fd5-11.kLnTED",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/",
+          "section": 7,
+          "selector": "#ai_first_customer_service",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/",
+          "section": 8,
+          "selector": "#employee_service_contact_center",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/",
+          "section": 9,
+          "selector": "#gartner",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/",
+          "section": 10,
+          "selector": "#testimonials",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/",
+          "section": 11,
+          "selector": "#marketplace_ecosystem",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/",
+          "section": 12,
+          "selector": "#resources",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/",
+          "section": 13,
+          "selector": "#pricing",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/",
+          "section": 14,
+          "selector": "#footer_cta",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/",
+          "section": 15,
+          "selector": "#footer_faq",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/customer/canva/",
+          "section": 0,
+          "selector": "#main-content > div.sc-8ed9cb52-1.gnbqpT",
+          "px": 1120
+        },
+        {
+          "url": "https://www.zendesk.com/customer/canva/",
+          "section": 1,
+          "selector": "#main-content > section.Basestyle__BaseRoot-sc-3zktjg-1.iEPMHG",
+          "px": 1120
+        },
+        {
+          "url": "https://www.zendesk.com/customer/canva/",
+          "section": 2,
+          "selector": "#main-content > section.Basestyle__BaseRoot-sc-3zktjg-1.dvTsIe",
+          "px": 1120
+        },
+        {
+          "url": "https://www.zendesk.com/customer/canva/",
+          "section": 3,
+          "selector": "#main-content > section.Basestyle__BaseRoot-sc-3zktjg-1.dvTsIe",
+          "px": 1120
+        },
+        {
+          "url": "https://www.zendesk.com/blog/",
+          "section": 0,
+          "selector": "#main-content > div.sc-f9eaaf5f-0.cwMKbe > div.fsXSfT",
+          "px": null
+        },
+        {
+          "url": "https://www.zendesk.com/blog/",
+          "section": 1,
+          "selector": "#main-content > div.sc-f9eaaf5f-0.cwMKbe > div.cbtmSw",
+          "px": null
+        },
+        {
+          "url": "https://www.zendesk.com/blog/",
+          "section": 2,
+          "selector": "#main-content > div.sc-f9eaaf5f-0.cwMKbe > div.llLKNZ",
+          "px": null
+        },
+        {
+          "url": "https://www.zendesk.com/blog/",
+          "section": 3,
+          "selector": "#main-content > div.sc-f9eaaf5f-0.cwMKbe > section.sc-f23d7fd5-11.eKGAwU",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/blog/",
+          "section": 4,
+          "selector": "#main-content > div.sc-f9eaaf5f-0.cwMKbe > section.sc-f23d7fd5-11.kLnTED",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/blog/",
+          "section": 5,
+          "selector": "#main-content > div.sc-f9eaaf5f-0.cwMKbe > section.sc-f23d7fd5-11.fzASFR",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/blog/",
+          "section": 6,
+          "selector": "#teaser-ef6abf30ab",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/blog/",
+          "section": 7,
+          "selector": "#main-content > div.sc-f9eaaf5f-0.cwMKbe > section.sc-f23d7fd5-11.kLnTED",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/blog/",
+          "section": 8,
+          "selector": "#main-content > div.sc-f9eaaf5f-0.cwMKbe > div.kXmWFW",
+          "px": null
+        },
+        {
+          "url": "https://www.zendesk.com/service/",
+          "section": 0,
+          "selector": "#main-content > div.sc-f9eaaf5f-0.cwMKbe > section.sc-f23d7fd5-11.eKGAwU",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/service/",
+          "section": 1,
+          "selector": "#main-content > div.sc-f9eaaf5f-0.cwMKbe > section.sc-f23d7fd5-11.kLnTED",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/service/",
+          "section": 2,
+          "selector": "#benefits",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/service/",
+          "section": 3,
+          "selector": "#testimonials",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/service/",
+          "section": 4,
+          "selector": "#main-content > div.sc-f9eaaf5f-0.cwMKbe > section.sc-f23d7fd5-11.kLnTED",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/service/",
+          "section": 5,
+          "selector": "#main-content > div.sc-f9eaaf5f-0.cwMKbe > section.sc-f23d7fd5-11.kLnTED",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/service/",
+          "section": 6,
+          "selector": "#teaser-0de1c10d53",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/service/",
+          "section": 7,
+          "selector": "#main-content > div.sc-f9eaaf5f-0.cwMKbe > section.sc-f23d7fd5-11.kLnTED",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/service/",
+          "section": 8,
+          "selector": "#main-content > div.sc-f9eaaf5f-0.cwMKbe > section.sc-f23d7fd5-11.kLnTED",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/service/",
+          "section": 9,
+          "selector": "#main-content > div.sc-f9eaaf5f-0.cwMKbe > section.sc-f23d7fd5-11.gWxblo",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/contact/",
+          "section": 0,
+          "selector": "#teaser-fa15c27e19",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/contact/",
+          "section": 1,
+          "selector": "#container-aa2da67d8a > section.sc-f23d7fd5-11.fzASFR",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/company/",
+          "section": 0,
+          "selector": "#teaser-5a7c10b28e",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/company/",
+          "section": 1,
+          "selector": "#container-76c8c1dd9d > section.sc-f23d7fd5-11.eKGAwU",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/company/",
+          "section": 2,
+          "selector": "#container-76c8c1dd9d > section.sc-f23d7fd5-11.eKGAwU",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/company/",
+          "section": 3,
+          "selector": "#teaser-f67eba53a7",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/company/",
+          "section": 4,
+          "selector": "#container-76c8c1dd9d > section.sc-f23d7fd5-11.gGODWX",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/company/",
+          "section": 5,
+          "selector": "#container-76c8c1dd9d > section.sc-f23d7fd5-11.ihWeaZ",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/company/",
+          "section": 6,
+          "selector": "#container-76c8c1dd9d > section.sc-f23d7fd5-11.gWxblo",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/pricing/",
+          "section": 0,
+          "selector": "#container-78d5a9aec7 > section.sc-f23d7fd5-11.kLnTED",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/pricing/",
+          "section": 1,
+          "selector": "#container-78d5a9aec7 > section.sc-f23d7fd5-11.jlZBiC",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/pricing/",
+          "section": 2,
+          "selector": "#plans",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/pricing/",
+          "section": 3,
+          "selector": "#container-78d5a9aec7 > div.spz-socialproof",
+          "px": 1552
+        },
+        {
+          "url": "https://www.zendesk.com/pricing/",
+          "section": 4,
+          "selector": "#addons",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/pricing/",
+          "section": 5,
+          "selector": "#forethought",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/pricing/",
+          "section": 6,
+          "selector": "#zendesk_for_startups",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/pricing/",
+          "section": 7,
+          "selector": "#container-78d5a9aec7 > section.sc-f23d7fd5-11.jpVCTe",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/pricing/",
+          "section": 8,
+          "selector": "#roi-calculator",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/pricing/",
+          "section": 9,
+          "selector": "#faqs",
+          "px": 1600
+        },
+        {
+          "url": "https://www.zendesk.com/pricing/",
+          "section": 10,
+          "selector": "#final-callout",
+          "px": 1600
+        }
+      ],
+      "capRegister": [
+        "contentMaxWidth differs between archetypes: 1600 (https://www.zendesk.com/), 1120 (https://www.zendesk.com/customer/canva/), 1600 (https://www.zendesk.com/blog/), 1600 (https://www.zendesk.com/service/), 1600 (https://www.zendesk.com/contact/), 1600 (https://www.zendesk.com/company/), 1600 (https://www.zendesk.com/pricing/) — decide per template in the inconsistency register",
+        "module cap 1920px on a single section (#hero, https://www.zendesk.com/) — intent or mistake? register it",
+        "module cap 1552px on a single section (#container-78d5a9aec7 > div.spz-socialproof, https://www.zendesk.com/pricing/) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-20T08:01:26.549Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.zendesk.com/",
+          "https://www.zendesk.com/customer/canva/",
+          "https://www.zendesk.com/blog/",
+          "https://www.zendesk.com/service/",
+          "https://www.zendesk.com/contact/",
+          "https://www.zendesk.com/company/",
+          "https://www.zendesk.com/pricing/"
+        ]
+      }
+    },
+    "modules": [
+      {
+        "id": "candidate-47113fc",
+        "name": "customer-story-stats",
+        "status": "candidate",
+        "confidence": "high",
+        "signals": [
+          "headings"
+        ],
+        "instanceCount": 50,
+        "slots": [
+          {
+            "name": "stat-value",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "stat-label",
+            "type": "text",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "customer-action-property-management",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-asaas",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-babbel",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-ballys",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-betmgm-brasil",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-bgl",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-britbox",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-canva",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-catapult",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-deputy",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-dfin",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-docebo",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-envato",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-five-iron-golf",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-givedirectly",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-inshur",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-irc-video",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-koho",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-liberty-qa",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-liberty-tax",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-lucid-software-ai",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-lucid-software-es",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-madeiramadeira",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-miko",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-mimecast",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-motel-rocks",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-odeon-cinemas",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-perk-es",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-petstock",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-privy",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-pure-insurance",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-qantas-loyalty",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-qualia",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-quickmd",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-recargapay",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-resurs-bank",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-sealy-of-australia",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-shearcomfort",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-sinch-engage",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-solo-by-myob",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-star21",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-starshipit",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-tbauctions",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-tesu",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-the-smith-family",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-thoughtworks",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-trodo",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-uneo",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-yape",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-zendesk-for-employee-service",
+            "selector": "heading-match"
+          }
+        ]
+      },
+      {
+        "id": "candidate-539f33e",
+        "name": "newsletter-signup-legacy",
+        "status": "candidate",
+        "confidence": "high",
+        "signals": [
+          "headings",
+          "forms"
+        ],
+        "instanceCount": 65,
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "email",
+            "type": "input",
+            "required": true
+          },
+          {
+            "name": "consent-copy",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "customer",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-action-property-management",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-asaas",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-babbel",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-ballys",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-benevity",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-betmgm-brasil",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-bgl",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-britbox",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-canva",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-catapult",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-coco-republic",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-deputy",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-dfin",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-docebo",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-dupage-county",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-easyfundraising",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-envato",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-five-iron-golf",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-furnished-finder",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-github-es",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-givedirectly",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-inshur",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-irc-video",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-koho",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-liberty-qa",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-liberty-tax",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-lucid-software-ai",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-lucid-software-es",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-madeiramadeira",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-miko",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-mimecast",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-motel-rocks",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-motiva",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-nortek",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-odeon-cinemas",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-perk-es",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-petstock",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-privy",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-pure-insurance",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-qantas-loyalty",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-qualia",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-quickmd",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-recargapay",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-resurs-bank",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-sealy-of-australia",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-serasa-experian",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-shearcomfort",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-sinch-engage",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-solo-by-myob",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-star21",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-starshipit",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-tbauctions",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-tesu",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-the-smith-family",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-thoughtworks",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-trodo",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-uneo",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-yape",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "customer-zendesk-for-employee-service",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "employee-experience",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "newsroom",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "repeatcustomer",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "sell",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "sitemap",
+            "selector": "heading-match"
+          }
+        ]
+      },
+      {
+        "id": "candidate-1ac3f9b",
+        "name": "logo-row",
+        "status": "candidate",
+        "confidence": "medium",
+        "signals": [
+          "components"
+        ],
+        "instanceCount": 68,
+        "slots": [
+          {
+            "name": "logos",
+            "type": "image[]",
+            "required": true
+          },
+          {
+            "name": "caption",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "customer",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-action-property-management",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-asaas",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-babbel",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-ballys",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-benevity",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-betmgm-brasil",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-bgl",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-britbox",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-canva",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-catapult",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-coco-republic",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-deputy",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-dfin",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-docebo",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-dupage-county",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-easyfundraising",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-envato",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-five-iron-golf",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-furnished-finder",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-github-es",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-givedirectly",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-inshur",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-irc-video",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-koho",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-liberty-qa",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-liberty-tax",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-lucid-software-ai",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-lucid-software-es",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-madeiramadeira",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-miko",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-mimecast",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-motel-rocks",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-motiva",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-nortek",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-odeon-cinemas",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-perk-es",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-petstock",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-privy",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-pure-insurance",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-qantas-loyalty",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-qualia",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-quickmd",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-recargapay",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-resurs-bank",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-sealy-of-australia",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-serasa-experian",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-shearcomfort",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-sinch-engage",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-solo-by-myob",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-star21",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-starshipit",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-tbauctions",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-tesu",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-the-smith-family",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-thoughtworks",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-trodo",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-uneo",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-yape",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "customer-zendesk-for-employee-service",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "employee-experience",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "employee-service",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "free-trial",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "index",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "pricing",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "sell",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "what-is-zendesk",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          },
+          {
+            "slug": "why-zendesk",
+            "selector": "[class*=\"LogotypeRowstyle__\"]"
+          }
+        ]
+      },
+      {
+        "id": "candidate-332dca7",
+        "name": "stat-row",
+        "status": "candidate",
+        "confidence": "medium",
+        "signals": [
+          "components"
+        ],
+        "instanceCount": 67,
+        "slots": [
+          {
+            "name": "value",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "label",
+            "type": "text",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "customer-action-property-management",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-asaas",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-babbel",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-ballys",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-benevity",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-betmgm-brasil",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-bgl",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-britbox",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-canva",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-catapult",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-coco-republic",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-deputy",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-dfin",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-docebo",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-dupage-county",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-easyfundraising",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-envato",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-five-iron-golf",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-furnished-finder",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-github-es",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-givedirectly",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-inshur",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-koho",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-liberty-qa",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-liberty-tax",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-lucid-software-ai",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-lucid-software-es",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-madeiramadeira",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-miko",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-mimecast",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-motel-rocks",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-motiva",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-nortek",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-odeon-cinemas",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-perk-es",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-petstock",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-privy",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-pure-insurance",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-qantas-loyalty",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-qualia",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-quickmd",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-recargapay",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-resurs-bank",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-sealy-of-australia",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-serasa-experian",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-shearcomfort",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-sinch-engage",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-solo-by-myob",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-star21",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-starshipit",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-tbauctions",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-tesu",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-the-smith-family",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-thoughtworks",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-trodo",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-uneo",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-yape",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "customer-zendesk-for-employee-service",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "employee-experience",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "employee-service",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "index",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "partner",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "platform",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "professional-services",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "sell",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "service",
+            "selector": "[class*=\"Statstyle__\"]"
+          },
+          {
+            "slug": "what-is-zendesk",
+            "selector": "[class*=\"Statstyle__\"]"
+          }
+        ]
+      },
+      {
+        "id": "candidate-cce46cf",
+        "name": "pull-quote",
+        "status": "candidate",
+        "confidence": "medium",
+        "signals": [
+          "components",
+          "body"
+        ],
+        "instanceCount": 60,
+        "slots": [
+          {
+            "name": "quote",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "name",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "role",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "image",
+            "type": "image",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "customer-action-property-management",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-asaas",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-babbel",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-ballys",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-benevity",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-betmgm-brasil",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-bgl",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-britbox",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-canva",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-catapult",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-coco-republic",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-deputy",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-dfin",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-docebo",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-dupage-county",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-easyfundraising",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-envato",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-five-iron-golf",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-furnished-finder",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-github-es",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-givedirectly",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-inshur",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-koho",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-liberty-qa",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-liberty-tax",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-lucid-software-ai",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-lucid-software-es",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-madeiramadeira",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-miko",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-mimecast",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-motel-rocks",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-motiva",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-nortek",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-odeon-cinemas",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-perk-es",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-petstock",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-privy",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-pure-insurance",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-qantas-loyalty",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-qualia",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-quickmd",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-recargapay",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-resurs-bank",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-sealy-of-australia",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-serasa-experian",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-shearcomfort",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-sinch-engage",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-solo-by-myob",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-star21",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-starshipit",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-tbauctions",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-tesu",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-the-smith-family",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-thoughtworks",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-trodo",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-uneo",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-yape",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "customer-zendesk-for-employee-service",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "employee-experience",
+            "selector": "[class*=\"Quotestyle__\"]"
+          },
+          {
+            "slug": "sell",
+            "selector": "[class*=\"Quotestyle__\"]"
+          }
+        ]
+      },
+      {
+        "id": "candidate-9583453",
+        "name": "card-grid",
+        "status": "candidate",
+        "confidence": "high",
+        "signals": [
+          "components",
+          "headings"
+        ],
+        "instanceCount": 78,
+        "slots": [
+          {
+            "name": "image",
+            "type": "image",
+            "required": false
+          },
+          {
+            "name": "eyebrow",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "title",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "body",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "link",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "blog",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-action-property-management",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-asaas",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-babbel",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-ballys",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-benevity",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-betmgm-brasil",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-bgl",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-britbox",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-canva",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-catapult",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-coco-republic",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-deputy",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-dfin",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-docebo",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-dupage-county",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-easyfundraising",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-envato",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-five-iron-golf",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-furnished-finder",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-github-es",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-givedirectly",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-inshur",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-irc-video",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-koho",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-liberty-qa",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-liberty-tax",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-lucid-software-ai",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-lucid-software-es",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-madeiramadeira",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-miko",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-mimecast",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-motel-rocks",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-motiva",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-odeon-cinemas",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-perk-es",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-petstock",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-privy",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-pure-insurance",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-qantas-loyalty",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-qualia",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-quickmd",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-recargapay",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-resurs-bank",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-sealy-of-australia",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-serasa-experian",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-shearcomfort",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-sinch-engage",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-solo-by-myob",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-star21",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-starshipit",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-tbauctions",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-tesu",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-the-smith-family",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-thoughtworks",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-trodo",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-uneo",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-yape",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "customer-zendesk-for-employee-service",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "employee-experience",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "employee-service",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "free-trial",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "index",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "marketplace",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "marketplace-apps",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "marketplace-partners",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "marketplace-themes",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "newsroom",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "partner",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "platform",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "pricing",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "professional-services",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "repeatcustomer",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "sell",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "service",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "what-is-zendesk",
+            "selector": "[class*=\"Cardstyle__\"]"
+          },
+          {
+            "slug": "why-zendesk",
+            "selector": "[class*=\"Cardstyle__\"]"
+          }
+        ]
+      },
+      {
+        "id": "candidate-082fb7e",
+        "name": "accordion-faq",
+        "status": "candidate",
+        "confidence": "high",
+        "signals": [
+          "components",
+          "headings"
+        ],
+        "instanceCount": 23,
+        "slots": [
+          {
+            "name": "question",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "answer",
+            "type": "richtext",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "blog",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "company",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "cxtrends",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "employee-experience",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "employee-service",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "free-trial",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "help-center-closed",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "index",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "industries",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "marketplace",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "marketplace-apps",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "marketplace-partners",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "marketplace-themes",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "partner",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "platform",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "pricing",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "professional-services",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "sell",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "service",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "trust-center",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "web-widget",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "what-is-zendesk",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          },
+          {
+            "slug": "why-zendesk",
+            "selector": "[class*=\"Accordionstyle__\"]"
+          }
+        ]
+      },
+      {
+        "id": "candidate-ccf0d20",
+        "name": "video-link",
+        "status": "candidate",
+        "confidence": "medium",
+        "signals": [
+          "components"
+        ],
+        "instanceCount": 26,
+        "slots": [
+          {
+            "name": "thumbnail",
+            "type": "image",
+            "required": true
+          },
+          {
+            "name": "label",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "video-id",
+            "type": "text",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "customer",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-britbox",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-canva",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-catapult",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-coco-republic",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-docebo",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-dupage-county",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-envato",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-five-iron-golf",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-furnished-finder",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-github-es",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-irc-video",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-lucid-software-ai",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-lucid-software-es",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-mimecast",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-perk-es",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-qantas-loyalty",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-sinch-engage",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-solo-by-myob",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-tesu",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "customer-thoughtworks",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "cxtrends",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "employee-service",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "platform",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "service",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          },
+          {
+            "slug": "what-is-zendesk",
+            "selector": "[class*=\"VideoLinkstyle__\"]"
+          }
+        ]
+      },
+      {
+        "id": "candidate-9ef0a58",
+        "name": "carousel",
+        "status": "candidate",
+        "confidence": "medium",
+        "signals": [
+          "components"
+        ],
+        "instanceCount": 9,
+        "slots": [
+          {
+            "name": "slides",
+            "type": "card[]",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "blog",
+            "selector": "[class*=\"Carouselstyle__\"]"
+          },
+          {
+            "slug": "company",
+            "selector": "[class*=\"Carouselstyle__\"]"
+          },
+          {
+            "slug": "employee-experience",
+            "selector": "[class*=\"Carouselstyle__\"]"
+          },
+          {
+            "slug": "employee-service",
+            "selector": "[class*=\"Carouselstyle__\"]"
+          },
+          {
+            "slug": "free-trial",
+            "selector": "[class*=\"Carouselstyle__\"]"
+          },
+          {
+            "slug": "index",
+            "selector": "[class*=\"Carouselstyle__\"]"
+          },
+          {
+            "slug": "partner",
+            "selector": "[class*=\"Carouselstyle__\"]"
+          },
+          {
+            "slug": "platform",
+            "selector": "[class*=\"Carouselstyle__\"]"
+          },
+          {
+            "slug": "service",
+            "selector": "[class*=\"Carouselstyle__\"]"
+          }
+        ]
+      },
+      {
+        "id": "candidate-d29bf82",
+        "name": "link-card",
+        "status": "candidate",
+        "confidence": "medium",
+        "signals": [
+          "components"
+        ],
+        "instanceCount": 8,
+        "slots": [
+          {
+            "name": "title",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "body",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "link",
+            "type": "link",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "company",
+            "selector": "[class*=\"LinkCardstyle__\"]"
+          },
+          {
+            "slug": "employee-service",
+            "selector": "[class*=\"LinkCardstyle__\"]"
+          },
+          {
+            "slug": "free-trial",
+            "selector": "[class*=\"LinkCardstyle__\"]"
+          },
+          {
+            "slug": "index",
+            "selector": "[class*=\"LinkCardstyle__\"]"
+          },
+          {
+            "slug": "marketplace",
+            "selector": "[class*=\"LinkCardstyle__\"]"
+          },
+          {
+            "slug": "partner",
+            "selector": "[class*=\"LinkCardstyle__\"]"
+          },
+          {
+            "slug": "platform",
+            "selector": "[class*=\"LinkCardstyle__\"]"
+          },
+          {
+            "slug": "service",
+            "selector": "[class*=\"LinkCardstyle__\"]"
+          }
+        ]
+      },
+      {
+        "id": "candidate-b977302",
+        "name": "relation-frame-related",
+        "status": "candidate",
+        "confidence": "medium",
+        "signals": [
+          "components"
+        ],
+        "instanceCount": 5,
+        "slots": [
+          {
+            "name": "items",
+            "type": "card[]",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "customer",
+            "selector": "[class*=\"Relationframestyle__\"]"
+          },
+          {
+            "slug": "employee-experience",
+            "selector": "[class*=\"Relationframestyle__\"]"
+          },
+          {
+            "slug": "newsroom",
+            "selector": "[class*=\"Relationframestyle__\"]"
+          },
+          {
+            "slug": "repeatcustomer",
+            "selector": "[class*=\"Relationframestyle__\"]"
+          },
+          {
+            "slug": "sell",
+            "selector": "[class*=\"Relationframestyle__\"]"
+          }
+        ]
+      },
+      {
+        "id": "candidate-641e687",
+        "name": "sticker-badge",
+        "status": "candidate",
+        "confidence": "medium",
+        "signals": [
+          "components"
+        ],
+        "instanceCount": 6,
+        "slots": [
+          {
+            "name": "label",
+            "type": "text",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "blog",
+            "selector": "[class*=\"Stickerstyle__\"]"
+          },
+          {
+            "slug": "free-trial",
+            "selector": "[class*=\"Stickerstyle__\"]"
+          },
+          {
+            "slug": "index",
+            "selector": "[class*=\"Stickerstyle__\"]"
+          },
+          {
+            "slug": "marketplace",
+            "selector": "[class*=\"Stickerstyle__\"]"
+          },
+          {
+            "slug": "pricing",
+            "selector": "[class*=\"Stickerstyle__\"]"
+          },
+          {
+            "slug": "sell",
+            "selector": "[class*=\"Stickerstyle__\"]"
+          }
+        ]
+      },
+      {
+        "id": "candidate-055bece",
+        "name": "marketplace-tile",
+        "status": "candidate",
+        "confidence": "low",
+        "signals": [
+          "components"
+        ],
+        "instanceCount": 4,
+        "slots": [
+          {
+            "name": "icon",
+            "type": "image",
+            "required": true
+          },
+          {
+            "name": "title",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "rating",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "link",
+            "type": "link",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "marketplace",
+            "selector": "[class*=\"MarketplaceTilestyle__\"]"
+          },
+          {
+            "slug": "marketplace-apps",
+            "selector": "[class*=\"MarketplaceTilestyle__\"]"
+          },
+          {
+            "slug": "marketplace-partners",
+            "selector": "[class*=\"MarketplaceTilestyle__\"]"
+          },
+          {
+            "slug": "marketplace-themes",
+            "selector": "[class*=\"MarketplaceTilestyle__\"]"
+          }
+        ]
+      },
+      {
+        "id": "candidate-84b4b18",
+        "name": "marketplace-filter-bar",
+        "status": "candidate",
+        "confidence": "low",
+        "signals": [
+          "components",
+          "forms"
+        ],
+        "instanceCount": 4,
+        "slots": [
+          {
+            "name": "filters",
+            "type": "select[]",
+            "required": true
+          },
+          {
+            "name": "search",
+            "type": "input",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "marketplace-apps",
+            "selector": "[class*=\"Multiselectstyle__\"]"
+          },
+          {
+            "slug": "marketplace-partners",
+            "selector": "[class*=\"Multiselectstyle__\"]"
+          },
+          {
+            "slug": "marketplace-themes",
+            "selector": "[class*=\"Multiselectstyle__\"]"
+          },
+          {
+            "slug": "pricing",
+            "selector": "[class*=\"Multiselectstyle__\"]"
+          }
+        ]
+      },
+      {
+        "id": "candidate-92b1f53",
+        "name": "form-choice-tiles",
+        "status": "candidate",
+        "confidence": "low",
+        "signals": [
+          "components",
+          "forms"
+        ],
+        "instanceCount": 4,
+        "slots": [
+          {
+            "name": "options",
+            "type": "radio[]",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "contact",
+            "selector": "[class*=\"Tilesstyle__\"]"
+          },
+          {
+            "slug": "demo",
+            "selector": "[class*=\"Tilesstyle__\"]"
+          },
+          {
+            "slug": "instapage-form-demo",
+            "selector": "[class*=\"Tilesstyle__\"]"
+          },
+          {
+            "slug": "register",
+            "selector": "[class*=\"Tilesstyle__\"]"
+          }
+        ]
+      },
+      {
+        "id": "candidate-8eefe4b",
+        "name": "video-embed",
+        "status": "candidate",
+        "confidence": "low",
+        "signals": [
+          "components"
+        ],
+        "instanceCount": 3,
+        "slots": [
+          {
+            "name": "video",
+            "type": "embed",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "customer-irc-video",
+            "selector": "[class*=\"VideoEmbedstyle__\"]"
+          },
+          {
+            "slug": "employee-experience",
+            "selector": "[class*=\"VideoEmbedstyle__\"]"
+          },
+          {
+            "slug": "sell",
+            "selector": "[class*=\"VideoEmbedstyle__\"]"
+          }
+        ]
+      },
+      {
+        "id": "candidate-c251af3",
+        "name": "breadcrumbs",
+        "status": "candidate",
+        "confidence": "low",
+        "signals": [
+          "components"
+        ],
+        "instanceCount": 3,
+        "slots": [
+          {
+            "name": "trail",
+            "type": "link[]",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "marketplace-apps",
+            "selector": "[class*=\"Breadcrumbsstyle__\"]"
+          },
+          {
+            "slug": "marketplace-partners",
+            "selector": "[class*=\"Breadcrumbsstyle__\"]"
+          },
+          {
+            "slug": "marketplace-themes",
+            "selector": "[class*=\"Breadcrumbsstyle__\"]"
+          }
+        ]
+      },
+      {
+        "id": "candidate-65bdee9",
+        "name": "faq-heading-block",
+        "status": "candidate",
+        "confidence": "high",
+        "signals": [
+          "headings"
+        ],
+        "instanceCount": 5,
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "items",
+            "type": "qa[]",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "cxtrends",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "employee-service",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "free-trial",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "professional-services",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "why-zendesk",
+            "selector": "heading-match"
+          }
+        ]
+      },
+      {
+        "id": "candidate-0b35ae5",
+        "name": "additional-resources",
+        "status": "candidate",
+        "confidence": "high",
+        "signals": [
+          "headings"
+        ],
+        "instanceCount": 5,
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "cards",
+            "type": "card[]",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "employee-service",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "free-trial",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "index",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "partner",
+            "selector": "heading-match"
+          },
+          {
+            "slug": "platform",
+            "selector": "heading-match"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Lime CTA (gen A): Try for free / Subscribe.",
+      "html": "<a class=\"zd-btn\">Try for free</a>",
+      "css": ".zd-btn{background:#d1f470;color:#11110d;font:600 18px/1.3 \"Vanilla Sans\",Arial,sans-serif;padding:10px 20px;border-radius:16px;border:0}.zd-btn:hover{color:rgba(17,17,13,.7)}"
+    },
+    {
+      "name": "Legacy Primary Button",
+      "kind": "button",
+      "refersTo": "button-legacy-primary",
+      "description": "Square teal CTA (gen B): Free trial.",
+      "html": "<a class=\"zd-btn-b\">Free trial</a>",
+      "css": ".zd-btn-b{background:#17494d;color:#fff;font:600 18px/1.4 \"Sharp Sans\",Arial,sans-serif;padding:8px 24px;border:1px solid #17494d;border-radius:0}.zd-btn-b:hover{background:#06615a;border-color:#06615a}"
+    },
+    {
+      "name": "Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Tinted ink chip (gen A).",
+      "html": "<span class=\"zd-chip\">Product</span>",
+      "css": ".zd-chip{background:rgba(17,17,13,.11);color:#11110d;font:600 14px \"Vanilla Sans\",Arial,sans-serif;padding:7px 12px 9px;border-radius:16px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Outcomes, proven by customers",
+    "overview": "Two coexisting generations: gen A (Vanilla Sans, ink/cream/lime/forest, 16px radius) and gen B (Sharp Sans + Proxima Nova, teal, square buttons). Replica preserves both per page.",
+    "keyCharacteristics": [
+      "Lime reserved for primary CTAs",
+      "Medium-weight display type (A)",
+      "Square teal buttons (B)",
+      "Proof modules: logos, stats, quotes"
+    ],
+    "dos": [
+      "Keep each page on its current generation"
+    ],
+    "donts": [
+      "Do not unify headers/footers silently"
+    ]
+  }
+}

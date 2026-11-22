@@ -1,0 +1,109 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-21T18:21:31.461Z",
+ "content": {
+  "totals": {
+   "missingHeadings": 0,
+   "hiddenHeadings": 0,
+   "extraHeadings": 0,
+   "missingLinks": 0,
+   "hiddenLinks": 0,
+   "movedLinks": 0,
+   "extraLinks": 4,
+   "missingButtons": 6,
+   "hiddenButtons": 0,
+   "controlState": 0,
+   "countDeltas": 1,
+   "findings": 5,
+   "structural": 0,
+   "missing": 0,
+   "hidden": 0
+  },
+  "variable": [],
+  "reason": null,
+  "tier": "chrome"
+ },
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 9,
+   "offPage": 43,
+   "textNodes": 129,
+   "controls": 74,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "TEXT X-HIDDEN",
+    "advisory": true,
+    "n": 4,
+    "clipper": "div.fm-quotes-viewport",
+    "path": "div.fm-quotes-body > div.fm-quotes-quote > blockquote > p",
+    "text": "“one of the biggest improvements is that zendesk wfm can aut",
+    "cutMin": 107,
+    "cutMax": 312
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 2,
+    "clipper": "a.hp-rcard",
+    "path": "a.hp-rcard > div.hp-rcard-body > div.hp-rcard-title > p",
+    "text": "cx trends 2026",
+    "cutMin": 13,
+    "cutMax": 38
+   },
+   {
+    "kind": "CONTROL X-HIDDEN",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.fm-quotes-viewport",
+    "path": "div.fm-quotes-cite > div.fm-quotes-link > p > a",
+    "text": "read customer story",
+    "cutMin": null,
+    "cutMax": null
+   },
+   {
+    "kind": "TEXT X-HIDDEN",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.fm-quotes-viewport",
+    "path": "div.fm-quotes-cite > div.fm-quotes-link > p > a",
+    "text": "read customer story",
+    "cutMin": 120,
+    "cutMax": 120
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.hp-res.block",
+    "path": "div.hp-res-carousel > div.hp-res-track > div.hp-res-slide > a.hp-rcard",
+    "text": "reportcx trends 2026learn more",
+    "cutMin": 141,
+    "cutMax": 141
+   }
+  ],
+  "origin": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 4,
+   "offPage": 8,
+   "textNodes": 95,
+   "controls": 65,
+   "total": 0
+  },
+  "source": "content-presence"
+ }
+}

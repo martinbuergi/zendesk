@@ -1,0 +1,5530 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-21T17:15:14.986Z",
+  "tol": 4,
+  "n": 12,
+  "width": 2560,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/pricing/",
+  "at": "2026-11-21T17:14:50.247Z",
+  "docH": 7286
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/pricing",
+  "at": "2026-11-21T17:15:14.883Z",
+  "docH": 7346
+ },
+ "results": [
+  {
+   "sel": "#plans .Cardstyle__CardRoot-sc-12jokda-2=.pr-plans:not(.addons) .pr-card",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.kipjjl > div.StyledCol-sc-inuw62-0.ingjfc > div.Cardstyle__CardRoot-sc-12jokda-2.eDfyXi"
+     },
+     "eds": {
+      "path": "div.pr-plans-grid > div.pr-plans-col > div.pr-card"
+     },
+     "rows": [
+      {
+       "key": "heading:support team",
+       "role": "heading",
+       "text": "support team",
+       "edsText": "support team",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 32,
+        "w": 328,
+        "h": 30
+       },
+       "eds": {
+        "x": 24,
+        "y": 32,
+        "w": 326,
+        "h": 30,
+        "sel": "h3#support-team",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/30/500",
+        "eds": "24/30/500"
+       }
+      },
+      {
+       "key": "text:for teams that have outgrown a shared in",
+       "role": "text",
+       "text": "for teams that have outgrown a shared inbox and need core su",
+       "edsText": "for teams that have outgrown a shared inbox and need core su",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 84,
+        "w": 328,
+        "h": 42
+       },
+       "eds": {
+        "x": 24,
+        "y": 114,
+        "w": 326,
+        "h": 39,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 30,
+       "dw": -2,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:$19",
+       "role": "text",
+       "text": "$19",
+       "edsText": "$19",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 167,
+        "w": 32,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 213,
+        "w": 32,
+        "h": 28,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 46,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/600",
+        "eds": "20/28/600"
+       }
+      },
+      {
+       "key": "text:agent/month paid yearly",
+       "role": "text",
+       "text": "agent/month paid yearly",
+       "edsText": "agent/month paid yearly",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 173,
+        "w": 167,
+        "h": 19
+       },
+       "eds": {
+        "x": 59,
+        "y": 220,
+        "w": 156,
+        "h": 18,
+        "sel": "span.pr-price-per",
+        "role": "text"
+       },
+       "dx": -1,
+       "dy": 47,
+       "dw": -11,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:start free trial",
+       "role": "link",
+       "text": "start free trial",
+       "edsText": "start free trial",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 215,
+        "w": 328,
+        "h": 44
+       },
+       "eds": {
+        "x": 24,
+        "y": 280,
+        "w": 326,
+        "h": 44,
+        "sel": "a.button.primary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 65,
+       "dw": -2,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/23/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "link:buy now",
+       "role": "link",
+       "text": "buy now",
+       "edsText": "buy now",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 271,
+        "w": 328,
+        "h": 44
+       },
+       "eds": {
+        "x": 24,
+        "y": 336,
+        "w": 326,
+        "h": 44,
+        "sel": "a.button.secondary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 65,
+       "dw": -2,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/23/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "box:hr.Dividerstyle__DividerRoot-sc-36mrmp-0.kYtlvq#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 343,
+        "w": 328,
+        "h": 1
+       },
+       "eds": {
+        "x": 24,
+        "y": 408,
+        "w": 326,
+        "h": 1,
+        "sel": "hr.pr-card-hr",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 65,
+       "dw": -2,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      },
+      {
+       "key": "text:starting with the basics",
+       "role": "text",
+       "text": "starting with the basics",
+       "edsText": "starting with the basics",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 364,
+        "w": 328,
+        "h": 21
+       },
+       "eds": {
+        "x": 24,
+        "y": 429,
+        "w": 326,
+        "h": 20,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 65,
+       "dw": -2,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/600",
+        "eds": "14/20/600"
+       }
+      },
+      {
+       "key": "button:email and ticketing system",
+       "role": "button",
+       "text": "email and ticketing system",
+       "edsText": "email and ticketing system",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 401,
+        "w": 183,
+        "h": 21
+       },
+       "eds": {
+        "x": 24,
+        "y": 465,
+        "w": 170,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 64,
+       "dw": -13,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "button:ticket routing",
+       "role": "button",
+       "text": "ticket routing",
+       "edsText": "ticket routing",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 434,
+        "w": 94,
+        "h": 21
+       },
+       "eds": {
+        "x": 24,
+        "y": 496,
+        "w": 88,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 62,
+       "dw": -6,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "button:prebuilt analytics dashboards",
+       "role": "button",
+       "text": "prebuilt analytics dashboards",
+       "edsText": "prebuilt analytics dashboards",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 467,
+        "w": 202,
+        "h": 21
+       },
+       "eds": {
+        "x": 24,
+        "y": 528,
+        "w": 189,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 61,
+       "dw": -13,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "button:pre-written responses",
+       "role": "button",
+       "text": "pre-written responses",
+       "edsText": "pre-written responses",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 500,
+        "w": 151,
+        "h": 21
+       },
+       "eds": {
+        "x": 24,
+        "y": 559,
+        "w": 141,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 59,
+       "dw": -10,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "button:customer context",
+       "role": "button",
+       "text": "customer context",
+       "edsText": "customer context",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 533,
+        "w": 123,
+        "h": 21
+       },
+       "eds": {
+        "x": 24,
+        "y": 591,
+        "w": 115,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 58,
+       "dw": -8,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "button:automations and triggers",
+       "role": "button",
+       "text": "automations and triggers",
+       "edsText": "automations and triggers",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 566,
+        "w": 175,
+        "h": 21
+       },
+       "eds": {
+        "x": 24,
+        "y": 623,
+        "w": 163,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 57,
+       "dw": -12,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 504,
+       "y": 381,
+       "w": 376,
+       "h": 621
+      },
+      "eds": {
+       "x": 508,
+       "y": 380,
+       "w": 374,
+       "h": 678
+      },
+      "dx": 4,
+      "dy": -1,
+      "dw": -2,
+      "dh": 57
+     },
+     "summary": {
+      "elements": 14,
+      "within": 1,
+      "off": 13,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.kipjjl > div.StyledCol-sc-inuw62-0.ingjfc > div.Cardstyle__CardRoot-sc-12jokda-2.eDfyXi"
+     },
+     "eds": {
+      "path": "div.pr-plans-grid > div.pr-plans-col > div.pr-card"
+     },
+     "rows": [
+      {
+       "key": "heading:suite team",
+       "role": "heading",
+       "text": "suite team",
+       "edsText": "suite team",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 32,
+        "w": 316,
+        "h": 30
+       },
+       "eds": {
+        "x": 24,
+        "y": 32,
+        "w": 314,
+        "h": 30,
+        "sel": "h3#suite-team",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/30/500",
+        "eds": "24/30/500"
+       }
+      },
+      {
+       "key": "text:for teams ready to unify support channel",
+       "role": "text",
+       "text": "for teams ready to unify support channels and automate resol",
+       "edsText": "for teams ready to unify support channels and automate resol",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 84,
+        "w": 316,
+        "h": 42
+       },
+       "eds": {
+        "x": 24,
+        "y": 114,
+        "w": 314,
+        "h": 39,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 30,
+       "dw": -2,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:$55",
+       "role": "text",
+       "text": "$55",
+       "edsText": "$55",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 167,
+        "w": 36,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 213,
+        "w": 36,
+        "h": 28,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 46,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/600",
+        "eds": "20/28/600"
+       }
+      },
+      {
+       "key": "text:agent/month paid yearly",
+       "role": "text",
+       "text": "agent/month paid yearly",
+       "edsText": "agent/month paid yearly",
+       "byPosition": false,
+       "origin": {
+        "x": 64,
+        "y": 173,
+        "w": 167,
+        "h": 19
+       },
+       "eds": {
+        "x": 63,
+        "y": 220,
+        "w": 156,
+        "h": 18,
+        "sel": "span.pr-price-per",
+        "role": "text"
+       },
+       "dx": -1,
+       "dy": 47,
+       "dw": -11,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:start free trial",
+       "role": "link",
+       "text": "start free trial",
+       "edsText": "start free trial",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 215,
+        "w": 316,
+        "h": 44
+       },
+       "eds": {
+        "x": 24,
+        "y": 280,
+        "w": 314,
+        "h": 44,
+        "sel": "a.button.primary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 65,
+       "dw": -2,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/23/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "link:buy now",
+       "role": "link",
+       "text": "buy now",
+       "edsText": "buy now",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 271,
+        "w": 316,
+        "h": 44
+       },
+       "eds": {
+        "x": 24,
+        "y": 336,
+        "w": 314,
+        "h": 44,
+        "sel": "a.button.secondary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 65,
+       "dw": -2,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/23/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "box:hr.Dividerstyle__DividerRoot-sc-36mrmp-0.kYtlvq#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 343,
+        "w": 316,
+        "h": 1
+       },
+       "eds": {
+        "x": 24,
+        "y": 408,
+        "w": 314,
+        "h": 1,
+        "sel": "hr.pr-card-hr",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 65,
+       "dw": -2,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      },
+      {
+       "key": "text:support team features, plus:",
+       "role": "text",
+       "text": "support team features, plus:",
+       "edsText": "support team features, plus:",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 364,
+        "w": 316,
+        "h": 21
+       },
+       "eds": {
+        "x": 24,
+        "y": 429,
+        "w": 314,
+        "h": 20,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 65,
+       "dw": -2,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/600",
+        "eds": "14/20/600"
+       }
+      },
+      {
+       "key": "text:ai",
+       "role": "text",
+       "text": "ai",
+       "edsText": "ai",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 401,
+        "w": 35,
+        "h": 20
+       },
+       "eds": {
+        "x": 24,
+        "y": 465,
+        "w": 35,
+        "h": 20,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 64,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "button:ai agents",
+       "role": "button",
+       "text": "ai agents",
+       "edsText": "ai agents",
+       "byPosition": false,
+       "origin": {
+        "x": 67,
+        "y": 401,
+        "w": 64,
+        "h": 21
+       },
+       "eds": {
+        "x": 67,
+        "y": 465,
+        "w": 60,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 64,
+       "dw": -4,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 28,
+        "y": 405,
+        "w": 12,
+        "h": 12
+       },
+       "eds": {
+        "x": 28,
+        "y": 469,
+        "w": 12,
+        "h": 12,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 64,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "text:ai #2",
+       "role": "text",
+       "text": "ai",
+       "edsText": "ai",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 434,
+        "w": 35,
+        "h": 20
+       },
+       "eds": {
+        "x": 24,
+        "y": 497,
+        "w": 35,
+        "h": 20,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 63,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "button:knowledge base",
+       "role": "button",
+       "text": "knowledge base",
+       "edsText": "knowledge base",
+       "byPosition": false,
+       "origin": {
+        "x": 67,
+        "y": 434,
+        "w": 112,
+        "h": 21
+       },
+       "eds": {
+        "x": 67,
+        "y": 497,
+        "w": 105,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 63,
+       "dw": -7,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 28,
+        "y": 438,
+        "w": 12,
+        "h": 12
+       },
+       "eds": {
+        "x": 28,
+        "y": 501,
+        "w": 12,
+        "h": 12,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 63,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "text:ai #3",
+       "role": "text",
+       "text": "ai",
+       "edsText": "ai",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 467,
+        "w": 35,
+        "h": 20
+       },
+       "eds": {
+        "x": 24,
+        "y": 529,
+        "w": 35,
+        "h": 20,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 62,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "button:action builder",
+       "role": "button",
+       "text": "action builder",
+       "edsText": "action builder",
+       "byPosition": false,
+       "origin": {
+        "x": 67,
+        "y": 467,
+        "w": 95,
+        "h": 21
+       },
+       "eds": {
+        "x": 67,
+        "y": 529,
+        "w": 88,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 62,
+       "dw": -7,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 28,
+        "y": 471,
+        "w": 12,
+        "h": 12
+       },
+       "eds": {
+        "x": 28,
+        "y": 533,
+        "w": 12,
+        "h": 12,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 62,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "button:omnichannel routing",
+       "role": "button",
+       "text": "omnichannel routing",
+       "edsText": "omnichannel routing",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 500,
+        "w": 144,
+        "h": 21
+       },
+       "eds": {
+        "x": 24,
+        "y": 561,
+        "w": 135,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 61,
+       "dw": -9,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "button:messaging and live chat",
+       "role": "button",
+       "text": "messaging and live chat",
+       "edsText": "messaging and live chat",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 533,
+        "w": 163,
+        "h": 21
+       },
+       "eds": {
+        "x": 24,
+        "y": 592,
+        "w": 152,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 59,
+       "dw": -11,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "button:telephony",
+       "role": "button",
+       "text": "telephony",
+       "edsText": "telephony",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 566,
+        "w": 70,
+        "h": 21
+       },
+       "eds": {
+        "x": 24,
+        "y": 624,
+        "w": 65,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 58,
+       "dw": -5,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 904,
+       "y": 381,
+       "w": 364,
+       "h": 621
+      },
+      "eds": {
+       "x": 906,
+       "y": 380,
+       "w": 362,
+       "h": 678
+      },
+      "dx": 2,
+      "dy": -1,
+      "dw": -2,
+      "dh": 57
+     },
+     "summary": {
+      "elements": 20,
+      "within": 1,
+      "off": 19,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.kipjjl > div.StyledCol-sc-inuw62-0.ingjfc > div.Cardstyle__CardRoot-sc-12jokda-2.kIQfGC"
+     },
+     "eds": {
+      "path": "div.pr-plans-grid > div.pr-plans-col > div.pr-card.pr-card-pop"
+     },
+     "rows": [
+      {
+       "key": "text:most popular",
+       "role": "text",
+       "text": "most popular",
+       "edsText": "most popular",
+       "byPosition": false,
+       "origin": {
+        "x": 100,
+        "y": -16,
+        "w": 163,
+        "h": 37
+       },
+       "eds": {
+        "x": 109,
+        "y": -14,
+        "w": 144,
+        "h": 32,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 9,
+       "dy": 2,
+       "dw": -19,
+       "dh": -5,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/700",
+        "eds": "14/14/700"
+       }
+      },
+      {
+       "key": "heading:suite professional",
+       "role": "heading",
+       "text": "suite professional",
+       "edsText": "suite professional",
+       "byPosition": false,
+       "origin": {
+        "x": 26,
+        "y": 34,
+        "w": 312,
+        "h": 30
+       },
+       "eds": {
+        "x": 26,
+        "y": 34,
+        "w": 310,
+        "h": 30,
+        "sel": "h3#suite-professional",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/30/500",
+        "eds": "24/30/500"
+       }
+      },
+      {
+       "key": "text:for teams optimizing support operations ",
+       "role": "text",
+       "text": "for teams optimizing support operations with advanced automa",
+       "edsText": "for teams optimizing support operations with advanced automa",
+       "byPosition": false,
+       "origin": {
+        "x": 26,
+        "y": 84,
+        "w": 312,
+        "h": 63
+       },
+       "eds": {
+        "x": 26,
+        "y": 114,
+        "w": 310,
+        "h": 39,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 30,
+       "dw": -2,
+       "dh": -24,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:$115",
+       "role": "text",
+       "text": "$115",
+       "edsText": "$115",
+       "byPosition": false,
+       "origin": {
+        "x": 26,
+        "y": 167,
+        "w": 39,
+        "h": 28
+       },
+       "eds": {
+        "x": 26,
+        "y": 213,
+        "w": 39,
+        "h": 28,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 46,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/600",
+        "eds": "20/28/600"
+       }
+      },
+      {
+       "key": "text:agent/month paid yearly",
+       "role": "text",
+       "text": "agent/month paid yearly",
+       "edsText": "agent/month paid yearly",
+       "byPosition": false,
+       "origin": {
+        "x": 69,
+        "y": 173,
+        "w": 167,
+        "h": 19
+       },
+       "eds": {
+        "x": 68,
+        "y": 220,
+        "w": 156,
+        "h": 18,
+        "sel": "span.pr-price-per",
+        "role": "text"
+       },
+       "dx": -1,
+       "dy": 47,
+       "dw": -11,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:start free trial",
+       "role": "link",
+       "text": "start free trial",
+       "edsText": "start free trial",
+       "byPosition": false,
+       "origin": {
+        "x": 26,
+        "y": 215,
+        "w": 312,
+        "h": 44
+       },
+       "eds": {
+        "x": 26,
+        "y": 280,
+        "w": 310,
+        "h": 44,
+        "sel": "a.button.primary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 65,
+       "dw": -2,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/23/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "link:buy now",
+       "role": "link",
+       "text": "buy now",
+       "edsText": "buy now",
+       "byPosition": false,
+       "origin": {
+        "x": 26,
+        "y": 271,
+        "w": 312,
+        "h": 44
+       },
+       "eds": {
+        "x": 26,
+        "y": 336,
+        "w": 310,
+        "h": 44,
+        "sel": "a.button.secondary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 65,
+       "dw": -2,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/23/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "box:hr.Dividerstyle__DividerRoot-sc-36mrmp-0.kYtlvq#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 26,
+        "y": 343,
+        "w": 312,
+        "h": 1
+       },
+       "eds": {
+        "x": 26,
+        "y": 408,
+        "w": 310,
+        "h": 1,
+        "sel": "hr.pr-card-hr",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 65,
+       "dw": -2,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      },
+      {
+       "key": "text:suite team features, plus:",
+       "role": "text",
+       "text": "suite team features, plus:",
+       "edsText": "suite team features, plus:",
+       "byPosition": false,
+       "origin": {
+        "x": 26,
+        "y": 364,
+        "w": 312,
+        "h": 21
+       },
+       "eds": {
+        "x": 26,
+        "y": 429,
+        "w": 310,
+        "h": 20,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 65,
+       "dw": -2,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/600",
+        "eds": "14/20/600"
+       }
+      },
+      {
+       "key": "text:ai",
+       "role": "text",
+       "text": "ai",
+       "edsText": "ai",
+       "byPosition": false,
+       "origin": {
+        "x": 26,
+        "y": 401,
+        "w": 35,
+        "h": 20
+       },
+       "eds": {
+        "x": 26,
+        "y": 465,
+        "w": 35,
+        "h": 20,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 64,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "button:admin copilot",
+       "role": "button",
+       "text": "admin copilot",
+       "edsText": "admin copilot",
+       "byPosition": false,
+       "origin": {
+        "x": 69,
+        "y": 401,
+        "w": 96,
+        "h": 21
+       },
+       "eds": {
+        "x": 69,
+        "y": 465,
+        "w": 90,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 64,
+       "dw": -6,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 405,
+        "w": 12,
+        "h": 12
+       },
+       "eds": {
+        "x": 30,
+        "y": 469,
+        "w": 12,
+        "h": 12,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 64,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "text:ai #2",
+       "role": "text",
+       "text": "ai",
+       "edsText": "ai",
+       "byPosition": false,
+       "origin": {
+        "x": 26,
+        "y": 434,
+        "w": 35,
+        "h": 20
+       },
+       "eds": {
+        "x": 26,
+        "y": 497,
+        "w": 35,
+        "h": 20,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 63,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "button:app builder",
+       "role": "button",
+       "text": "app builder",
+       "edsText": "app builder",
+       "byPosition": false,
+       "origin": {
+        "x": 69,
+        "y": 434,
+        "w": 78,
+        "h": 21
+       },
+       "eds": {
+        "x": 69,
+        "y": 497,
+        "w": 73,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 63,
+       "dw": -5,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 438,
+        "w": 12,
+        "h": 12
+       },
+       "eds": {
+        "x": 30,
+        "y": 501,
+        "w": 12,
+        "h": 12,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 63,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "text:ai #3",
+       "role": "text",
+       "text": "ai",
+       "edsText": "ai",
+       "byPosition": false,
+       "origin": {
+        "x": 26,
+        "y": 467,
+        "w": 35,
+        "h": 20
+       },
+       "eds": {
+        "x": 26,
+        "y": 529,
+        "w": 35,
+        "h": 20,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 62,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "button:writing tools",
+       "role": "button",
+       "text": "writing tools",
+       "edsText": "writing tools",
+       "byPosition": false,
+       "origin": {
+        "x": 69,
+        "y": 467,
+        "w": 90,
+        "h": 21
+       },
+       "eds": {
+        "x": 69,
+        "y": 529,
+        "w": 84,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 62,
+       "dw": -6,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 471,
+        "w": 12,
+        "h": 12
+       },
+       "eds": {
+        "x": 30,
+        "y": 533,
+        "w": 12,
+        "h": 12,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 62,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "text:ai #4",
+       "role": "text",
+       "text": "ai",
+       "edsText": "ai",
+       "byPosition": false,
+       "origin": {
+        "x": 26,
+        "y": 500,
+        "w": 35,
+        "h": 20
+       },
+       "eds": {
+        "x": 26,
+        "y": 561,
+        "w": 35,
+        "h": 20,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 61,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "button:quick reports",
+       "role": "button",
+       "text": "quick reports",
+       "edsText": "quick reports",
+       "byPosition": false,
+       "origin": {
+        "x": 69,
+        "y": 500,
+        "w": 96,
+        "h": 21
+       },
+       "eds": {
+        "x": 69,
+        "y": 561,
+        "w": 89,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 61,
+       "dw": -7,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#4",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 504,
+        "w": 12,
+        "h": 12
+       },
+       "eds": {
+        "x": 30,
+        "y": 565,
+        "w": 12,
+        "h": 12,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 61,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "button:skills-based routing",
+       "role": "button",
+       "text": "skills-based routing",
+       "edsText": "skills-based routing",
+       "byPosition": false,
+       "origin": {
+        "x": 26,
+        "y": 533,
+        "w": 135,
+        "h": 21
+       },
+       "eds": {
+        "x": 26,
+        "y": 593,
+        "w": 126,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 60,
+       "dw": -9,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "button:ivr phone tree",
+       "role": "button",
+       "text": "ivr phone tree",
+       "edsText": "ivr phone tree",
+       "byPosition": false,
+       "origin": {
+        "x": 26,
+        "y": 566,
+        "w": 99,
+        "h": 21
+       },
+       "eds": {
+        "x": 26,
+        "y": 624,
+        "w": 93,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 58,
+       "dw": -6,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1292,
+       "y": 381,
+       "w": 364,
+       "h": 621
+      },
+      "eds": {
+       "x": 1292,
+       "y": 380,
+       "w": 362,
+       "h": 678
+      },
+      "dx": 0,
+      "dy": -1,
+      "dw": -2,
+      "dh": 57
+     },
+     "summary": {
+      "elements": 23,
+      "within": 1,
+      "off": 22,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.kipjjl > div.StyledCol-sc-inuw62-0.ingjfc > div.Cardstyle__CardRoot-sc-12jokda-2.eDfyXi"
+     },
+     "eds": {
+      "path": "div.pr-plans-grid > div.pr-plans-col > div.pr-card"
+     },
+     "rows": [
+      {
+       "key": "heading:suite enterprise + copilot",
+       "role": "heading",
+       "text": "suite enterprise + copilot",
+       "edsText": "suite enterprise + copilot",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 32,
+        "w": 328,
+        "h": 30
+       },
+       "eds": {
+        "x": 24,
+        "y": 32,
+        "w": 326,
+        "h": 30,
+        "sel": "h3#suite-enterprise--copilot",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/30/500",
+        "eds": "24/30/500"
+       }
+      },
+      {
+       "key": "text:for teams needing advanced security, gov",
+       "role": "text",
+       "text": "for teams needing advanced security, governance and the most",
+       "edsText": "for teams needing advanced security, governance and the most",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 84,
+        "w": 328,
+        "h": 63
+       },
+       "eds": {
+        "x": 24,
+        "y": 114,
+        "w": 326,
+        "h": 39,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 30,
+       "dw": -2,
+       "dh": -24,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:contact us",
+       "role": "link",
+       "text": "contact us",
+       "edsText": "contact us",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 215,
+        "w": 328,
+        "h": 43
+       },
+       "eds": {
+        "x": 24,
+        "y": 280,
+        "w": 326,
+        "h": 43,
+        "sel": "a.button.primary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 65,
+       "dw": -2,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/23/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "box:span.Linkstyle__LinkText-sc-1n8u9ej-3.faVsWJ#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 40,
+        "y": 225,
+        "w": 296,
+        "h": 23
+       },
+       "eds": {
+        "x": 40,
+        "y": 290,
+        "w": 294,
+        "h": 23,
+        "sel": "span.pr-cta-label",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 65,
+       "dw": -2,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/23/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "box:hr.Dividerstyle__DividerRoot-sc-36mrmp-0.kYtlvq#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 282,
+        "w": 328,
+        "h": 1
+       },
+       "eds": {
+        "x": 24,
+        "y": 347,
+        "w": 326,
+        "h": 1,
+        "sel": "hr.pr-card-hr",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 65,
+       "dw": -2,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      },
+      {
+       "key": "text:suite professional features, plus:",
+       "role": "text",
+       "text": "suite professional features, plus:",
+       "edsText": "suite professional features, plus:",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 303,
+        "w": 328,
+        "h": 21
+       },
+       "eds": {
+        "x": 24,
+        "y": 368,
+        "w": 326,
+        "h": 20,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 65,
+       "dw": -2,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/600",
+        "eds": "14/20/600"
+       }
+      },
+      {
+       "key": "text:ai",
+       "role": "text",
+       "text": "ai",
+       "edsText": "ai",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 340,
+        "w": 35,
+        "h": 20
+       },
+       "eds": {
+        "x": 24,
+        "y": 404,
+        "w": 35,
+        "h": 20,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 64,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "button:intelligent triage",
+       "role": "button",
+       "text": "intelligent triage",
+       "edsText": "intelligent triage",
+       "byPosition": false,
+       "origin": {
+        "x": 67,
+        "y": 340,
+        "w": 114,
+        "h": 21
+       },
+       "eds": {
+        "x": 67,
+        "y": 404,
+        "w": 106,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 64,
+       "dw": -8,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 28,
+        "y": 344,
+        "w": 12,
+        "h": 12
+       },
+       "eds": {
+        "x": 28,
+        "y": 408,
+        "w": 12,
+        "h": 12,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 64,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "text:ai #2",
+       "role": "text",
+       "text": "ai",
+       "edsText": "ai",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 373,
+        "w": 35,
+        "h": 20
+       },
+       "eds": {
+        "x": 24,
+        "y": 436,
+        "w": 35,
+        "h": 20,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 63,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "button:auto assist",
+       "role": "button",
+       "text": "auto assist",
+       "edsText": "auto assist",
+       "byPosition": false,
+       "origin": {
+        "x": 67,
+        "y": 373,
+        "w": 76,
+        "h": 21
+       },
+       "eds": {
+        "x": 67,
+        "y": 436,
+        "w": 71,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 63,
+       "dw": -5,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 28,
+        "y": 377,
+        "w": 12,
+        "h": 12
+       },
+       "eds": {
+        "x": 28,
+        "y": 440,
+        "w": 12,
+        "h": 12,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 63,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "text:ai #3",
+       "role": "text",
+       "text": "ai",
+       "edsText": "ai",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 406,
+        "w": 35,
+        "h": 20
+       },
+       "eds": {
+        "x": 24,
+        "y": 468,
+        "w": 35,
+        "h": 20,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 62,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "button:generative ai for voice",
+       "role": "button",
+       "text": "generative ai for voice",
+       "edsText": "generative ai for voice",
+       "byPosition": false,
+       "origin": {
+        "x": 67,
+        "y": 406,
+        "w": 152,
+        "h": 21
+       },
+       "eds": {
+        "x": 67,
+        "y": 468,
+        "w": 142,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 62,
+       "dw": -10,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 28,
+        "y": 410,
+        "w": 12,
+        "h": 12
+       },
+       "eds": {
+        "x": 28,
+        "y": 472,
+        "w": 12,
+        "h": 12,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 62,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "12/12/700",
+        "eds": "12/12/700"
+       }
+      },
+      {
+       "key": "button:approval workflows",
+       "role": "button",
+       "text": "approval workflows",
+       "edsText": "approval workflows",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 439,
+        "w": 133,
+        "h": 21
+       },
+       "eds": {
+        "x": 24,
+        "y": 500,
+        "w": 124,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 61,
+       "dw": -9,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "button:sandbox environment",
+       "role": "button",
+       "text": "sandbox environment",
+       "edsText": "sandbox environment",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 472,
+        "w": 151,
+        "h": 21
+       },
+       "eds": {
+        "x": 24,
+        "y": 531,
+        "w": 141,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 59,
+       "dw": -10,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "button:custom agent roles",
+       "role": "button",
+       "text": "custom agent roles",
+       "edsText": "custom agent roles",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 505,
+        "w": 133,
+        "h": 21
+       },
+       "eds": {
+        "x": 24,
+        "y": 563,
+        "w": 124,
+        "h": 20,
+        "sel": "span.pr-feat",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 58,
+       "dw": -9,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1680,
+       "y": 381,
+       "w": 376,
+       "h": 621
+      },
+      "eds": {
+       "x": 1678,
+       "y": 380,
+       "w": 374,
+       "h": 678
+      },
+      "dx": -2,
+      "dy": -1,
+      "dw": -2,
+      "dh": 57
+     },
+     "summary": {
+      "elements": 18,
+      "within": 1,
+      "off": 17,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#addons .Cardstyle__CardRoot-sc-12jokda-2=.pr-plans.addons .pr-card",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.kipjjl > div.StyledCol-sc-inuw62-0.ingjfc > div.Cardstyle__CardRoot-sc-12jokda-2.eDfyXi"
+     },
+     "eds": {
+      "path": "div.pr-plans-grid > div.pr-plans-col > div.pr-card"
+     },
+     "rows": [
+      {
+       "key": "heading:copilot",
+       "role": "heading",
+       "text": "copilot",
+       "edsText": "copilot",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 32,
+        "w": 457,
+        "h": 30
+       },
+       "eds": {
+        "x": 24,
+        "y": 32,
+        "w": 455,
+        "h": 30,
+        "sel": "h3#copilot",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/30/500",
+        "eds": "24/30/500"
+       }
+      },
+      {
+       "key": "text:ai assistance that empowers your entire ",
+       "role": "text",
+       "text": "ai assistance that empowers your entire team.",
+       "edsText": "ai assistance that empowers your entire team.",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 82,
+        "w": 457,
+        "h": 21
+       },
+       "eds": {
+        "x": 24,
+        "y": 112,
+        "w": 455,
+        "h": 20,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 30,
+       "dw": -2,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:$50",
+       "role": "text",
+       "text": "$50",
+       "edsText": "$50",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 144,
+        "w": 37,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 171,
+        "w": 37,
+        "h": 28,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 27,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/600",
+        "eds": "20/28/600"
+       }
+      },
+      {
+       "key": "text:agent/month paid yearly",
+       "role": "text",
+       "text": "agent/month paid yearly",
+       "edsText": "agent/month paid yearly",
+       "byPosition": false,
+       "origin": {
+        "x": 65,
+        "y": 150,
+        "w": 167,
+        "h": 19
+       },
+       "eds": {
+        "x": 64,
+        "y": 178,
+        "w": 156,
+        "h": 18,
+        "sel": "span.pr-price-per",
+        "role": "text"
+       },
+       "dx": -1,
+       "dy": 28,
+       "dw": -11,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:learn more",
+       "role": "link",
+       "text": "learn more",
+       "edsText": "learn more",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 214,
+        "w": 85,
+        "h": 24
+       },
+       "eds": {
+        "x": 24,
+        "y": 242,
+        "w": 85,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 28,
+       "dw": 0,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/600",
+        "eds": "16/24/600"
+       }
+      },
+      {
+       "key": "text:learn more",
+       "role": "text",
+       "text": "learn more",
+       "edsText": "learn more",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 214,
+        "w": 85,
+        "h": 24
+       },
+       "eds": {
+        "x": 24,
+        "y": 242,
+        "w": 85,
+        "h": 21,
+        "sel": "span.pr-link-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 28,
+       "dw": 0,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/600",
+        "eds": "16/24/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 504,
+       "y": 1334,
+       "w": 505,
+       "h": 270
+      },
+      "eds": {
+       "x": 508,
+       "y": 1384,
+       "w": 503,
+       "h": 297
+      },
+      "dx": 4,
+      "dy": 50,
+      "dw": -2,
+      "dh": 27
+     },
+     "summary": {
+      "elements": 6,
+      "within": 1,
+      "off": 5,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.kipjjl > div.StyledCol-sc-inuw62-0.ingjfc > div.Cardstyle__CardRoot-sc-12jokda-2.eDfyXi"
+     },
+     "eds": {
+      "path": "div.pr-plans-grid > div.pr-plans-col > div.pr-card"
+     },
+     "rows": [
+      {
+       "key": "heading:workforce engagement bundle",
+       "role": "heading",
+       "text": "workforce engagement bundle",
+       "edsText": "workforce engagement bundle",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 32,
+        "w": 445,
+        "h": 30
+       },
+       "eds": {
+        "x": 24,
+        "y": 32,
+        "w": 443,
+        "h": 30,
+        "sel": "h3#workforce-engagement-bundle",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/30/500",
+        "eds": "24/30/500"
+       }
+      },
+      {
+       "key": "text:elevate customer service quality and opt",
+       "role": "text",
+       "text": "elevate customer service quality and optimize agent performa",
+       "edsText": "elevate customer service quality and optimize agent performa",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 82,
+        "w": 445,
+        "h": 42
+       },
+       "eds": {
+        "x": 24,
+        "y": 112,
+        "w": 443,
+        "h": 20,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 30,
+       "dw": -2,
+       "dh": -22,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:$50",
+       "role": "text",
+       "text": "$50",
+       "edsText": "$50",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 144,
+        "w": 37,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 171,
+        "w": 37,
+        "h": 28,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 27,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/600",
+        "eds": "20/28/600"
+       }
+      },
+      {
+       "key": "text:agent/month paid yearly",
+       "role": "text",
+       "text": "agent/month paid yearly",
+       "edsText": "agent/month paid yearly",
+       "byPosition": false,
+       "origin": {
+        "x": 65,
+        "y": 150,
+        "w": 167,
+        "h": 19
+       },
+       "eds": {
+        "x": 64,
+        "y": 178,
+        "w": 156,
+        "h": 18,
+        "sel": "span.pr-price-per",
+        "role": "text"
+       },
+       "dx": -1,
+       "dy": 28,
+       "dw": -11,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:learn more",
+       "role": "link",
+       "text": "learn more",
+       "edsText": "learn more",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 214,
+        "w": 85,
+        "h": 24
+       },
+       "eds": {
+        "x": 24,
+        "y": 242,
+        "w": 85,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 28,
+       "dw": 0,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/600",
+        "eds": "16/24/600"
+       }
+      },
+      {
+       "key": "text:learn more",
+       "role": "text",
+       "text": "learn more",
+       "edsText": "learn more",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 214,
+        "w": 85,
+        "h": 24
+       },
+       "eds": {
+        "x": 24,
+        "y": 242,
+        "w": 85,
+        "h": 21,
+        "sel": "span.pr-link-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 28,
+       "dw": 0,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/600",
+        "eds": "16/24/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1033,
+       "y": 1334,
+       "w": 493,
+       "h": 270
+      },
+      "eds": {
+       "x": 1035,
+       "y": 1384,
+       "w": 491,
+       "h": 297
+      },
+      "dx": 2,
+      "dy": 50,
+      "dw": -2,
+      "dh": 27
+     },
+     "summary": {
+      "elements": 6,
+      "within": 1,
+      "off": 5,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.kipjjl > div.StyledCol-sc-inuw62-0.ingjfc > div.Cardstyle__CardRoot-sc-12jokda-2.eDfyXi"
+     },
+     "eds": {
+      "path": "div.pr-plans-grid > div.pr-plans-col > div.pr-card"
+     },
+     "rows": [
+      {
+       "key": "heading:contact center",
+       "role": "heading",
+       "text": "contact center",
+       "edsText": "contact center",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 32,
+        "w": 457,
+        "h": 30
+       },
+       "eds": {
+        "x": 24,
+        "y": 32,
+        "w": 455,
+        "h": 30,
+        "sel": "h3#contact-center",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/30/500",
+        "eds": "24/30/500"
+       }
+      },
+      {
+       "key": "text:power complex contact centers with ease ",
+       "role": "text",
+       "text": "power complex contact centers with ease of use and flexibili",
+       "edsText": "power complex contact centers with ease of use and flexibili",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 82,
+        "w": 457,
+        "h": 21
+       },
+       "eds": {
+        "x": 24,
+        "y": 112,
+        "w": 455,
+        "h": 20,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 30,
+       "dw": -2,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "text:$83",
+       "role": "text",
+       "text": "$83",
+       "edsText": "$83",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 144,
+        "w": 36,
+        "h": 28
+       },
+       "eds": {
+        "x": 24,
+        "y": 171,
+        "w": 36,
+        "h": 28,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 27,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/28/600",
+        "eds": "20/28/600"
+       }
+      },
+      {
+       "key": "text:agent/month paid yearly",
+       "role": "text",
+       "text": "agent/month paid yearly",
+       "edsText": "agent/month paid yearly",
+       "byPosition": false,
+       "origin": {
+        "x": 64,
+        "y": 150,
+        "w": 167,
+        "h": 19
+       },
+       "eds": {
+        "x": 63,
+        "y": 178,
+        "w": 156,
+        "h": 18,
+        "sel": "span.pr-price-per",
+        "role": "text"
+       },
+       "dx": -1,
+       "dy": 28,
+       "dw": -11,
+       "dh": -1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:learn more",
+       "role": "link",
+       "text": "learn more",
+       "edsText": "learn more",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 214,
+        "w": 85,
+        "h": 24
+       },
+       "eds": {
+        "x": 24,
+        "y": 242,
+        "w": 85,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 28,
+       "dw": 0,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/600",
+        "eds": "16/24/600"
+       }
+      },
+      {
+       "key": "text:learn more",
+       "role": "text",
+       "text": "learn more",
+       "edsText": "learn more",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 214,
+        "w": 85,
+        "h": 24
+       },
+       "eds": {
+        "x": 24,
+        "y": 242,
+        "w": 85,
+        "h": 21,
+        "sel": "span.pr-link-text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 28,
+       "dw": 0,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/600",
+        "eds": "16/24/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1551,
+       "y": 1334,
+       "w": 505,
+       "h": 270
+      },
+      "eds": {
+       "x": 1549,
+       "y": 1384,
+       "w": 503,
+       "h": 297
+      },
+      "dx": -2,
+      "dy": 50,
+      "dw": -2,
+      "dh": 27
+     },
+     "summary": {
+      "elements": 6,
+      "within": 1,
+      "off": 5,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#faqs .Accordionstyle__AccordionSection-sc-1baakjb-5=.pr-faq .pr-faq-item",
+   "family": null,
+   "required": true,
+   "originMatches": 12,
+   "edsMatches": 12,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledCol-sc-inuw62-0.fxfbhh > div.StyledAccordion-sc-niv9ic-0.dgZvap > div.StyledSection-sc-v2t9bd-0.bFpvu"
+     },
+     "eds": {
+      "path": "div.za-row.pr-faq-row > div.za-col.pr-faq-list > div.pr-faq-item.is-open"
+     },
+     "rows": [
+      {
+       "key": "heading:how is zendesk pricing structured?",
+       "role": "heading",
+       "text": "how is zendesk pricing structured?",
+       "edsText": "how is zendesk pricing structured?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 1,
+        "w": 873,
+        "h": 69
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 877,
+        "h": 63,
+        "sel": "div.pr-faq-bar",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      },
+      {
+       "key": "button:how is zendesk pricing structured?",
+       "role": "button",
+       "text": "how is zendesk pricing structured?",
+       "edsText": "how is zendesk pricing structured?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 1,
+        "w": 798,
+        "h": 69
+       },
+       "eds": {
+        "x": 20,
+        "y": 1,
+        "w": 802,
+        "h": 63,
+        "sel": "div#pr-faq-1-t0",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/600",
+        "eds": "16/20/600"
+       }
+      },
+      {
+       "key": "heading:how is zendesk pricing structured? #2",
+       "role": "heading",
+       "text": "how is zendesk pricing structured?",
+       "edsText": "how is zendesk pricing structured?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 21,
+        "w": 798,
+        "h": 29
+       },
+       "eds": {
+        "x": 20,
+        "y": 21,
+        "w": 802,
+        "h": 23,
+        "sel": "h5#how-is-zendesk-pricing-structured",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 830,
+        "y": 24,
+        "w": 23,
+        "h": 24
+       },
+       "eds": {
+        "x": 833,
+        "y": 21,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 3,
+       "dy": -3,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      },
+      {
+       "key": "text:zendesk pricing is primarily seat-based ",
+       "role": "text",
+       "text": "zendesk pricing is primarily seat-based (per agent, per mont",
+       "edsText": "zendesk pricing is primarily seat-based (per agent, per mont",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 70,
+        "w": 805,
+        "h": 58
+       },
+       "eds": {
+        "x": 20,
+        "y": 64,
+        "w": 809,
+        "h": 58,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -6,
+       "dw": 4,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/400",
+        "eds": "20/29/400"
+       }
+      },
+      {
+       "key": "text:base subscription: pricing is determined",
+       "role": "text",
+       "text": "base subscription: pricing is determined by your selected pl",
+       "edsText": "base subscription: pricing is determined by your selected pl",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 148,
+        "w": 765,
+        "h": 58
+       },
+       "eds": {
+        "x": 52,
+        "y": 138,
+        "w": 777,
+        "h": 58,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": -8,
+       "dy": -10,
+       "dw": 12,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/400",
+        "eds": "20/29/400"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 152,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 145,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": -7,
+       "dw": -8,
+       "dh": -8,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/400",
+        "eds": "20/29/400"
+       }
+      },
+      {
+       "key": "text:usage-based features: certain features l",
+       "role": "text",
+       "text": "usage-based features: certain features like app builder, act",
+       "edsText": "usage-based features: certain features like app builder, act",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 222,
+        "w": 765,
+        "h": 58
+       },
+       "eds": {
+        "x": 52,
+        "y": 208,
+        "w": 777,
+        "h": 58,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": -8,
+       "dy": -14,
+       "dw": 12,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/400",
+        "eds": "20/29/400"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 226,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 215,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": -11,
+       "dw": -8,
+       "dh": -8,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/400",
+        "eds": "20/29/400"
+       }
+      },
+      {
+       "key": "text:add-ons: optional products and advanced ",
+       "role": "text",
+       "text": "add-ons: optional products and advanced capabilities are bil",
+       "edsText": "add-ons: optional products and advanced capabilities are bil",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 296,
+        "w": 765,
+        "h": 58
+       },
+       "eds": {
+        "x": 52,
+        "y": 278,
+        "w": 777,
+        "h": 58,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": -8,
+       "dy": -18,
+       "dw": 12,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/400",
+        "eds": "20/29/400"
+       }
+      },
+      {
+       "key": "image:svg#4",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 300,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 285,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": -15,
+       "dw": -8,
+       "dh": -8,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/400",
+        "eds": "20/29/400"
+       }
+      },
+      {
+       "key": "text:annual vs. monthly billing: annual subsc",
+       "role": "text",
+       "text": "annual vs. monthly billing: annual subscriptions often inclu",
+       "edsText": "annual vs. monthly billing: annual subscriptions often inclu",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 370,
+        "w": 765,
+        "h": 58
+       },
+       "eds": {
+        "x": 52,
+        "y": 348,
+        "w": 777,
+        "h": 58,
+        "sel": "li",
+        "role": "text"
+       },
+       "dx": -8,
+       "dy": -22,
+       "dw": 12,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/400",
+        "eds": "20/29/400"
+       }
+      },
+      {
+       "key": "image:svg#5",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 374,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 20,
+        "y": 355,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": -19,
+       "dw": -8,
+       "dh": -8,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/400",
+        "eds": "20/29/400"
+       }
+      },
+      {
+       "key": "link:contact sales",
+       "role": "link",
+       "text": "contact sales",
+       "edsText": "contact sales",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 458,
+        "w": 129,
+        "h": 32
+       },
+       "eds": {
+        "x": 20,
+        "y": 436,
+        "w": 129,
+        "h": 32,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -22,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/600",
+        "eds": "20/29/600"
+       }
+      },
+      {
+       "key": "text:to learn more.",
+       "role": "text",
+       "text": "to learn more.",
+       "edsText": "to learn more.",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 460,
+        "w": 805,
+        "h": 29
+       },
+       "eds": {
+        "x": 20,
+        "y": 438,
+        "w": 809,
+        "h": 29,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -22,
+       "dw": 4,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/400",
+        "eds": "20/29/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1167,
+       "y": 4346,
+       "w": 873,
+       "h": 529
+      },
+      "eds": {
+       "x": 1163,
+       "y": 4437,
+       "w": 877,
+       "h": 507
+      },
+      "dx": -4,
+      "dy": 91,
+      "dw": 4,
+      "dh": -22
+     },
+     "summary": {
+      "elements": 15,
+      "within": 1,
+      "off": 14,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledCol-sc-inuw62-0.fxfbhh > div.StyledAccordion-sc-niv9ic-0.dgZvap > div.StyledSection-sc-v2t9bd-0.bFpvu"
+     },
+     "eds": {
+      "path": "div.za-row.pr-faq-row > div.za-col.pr-faq-list > div.pr-faq-item"
+     },
+     "rows": [
+      {
+       "key": "heading:what is the difference between support a",
+       "role": "heading",
+       "text": "what is the difference between support and suite service pla",
+       "edsText": "what is the difference between support and suite service pla",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 1,
+        "w": 873,
+        "h": 69
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 877,
+        "h": 63,
+        "sel": "div.pr-faq-bar",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      },
+      {
+       "key": "button:what is the difference between support a",
+       "role": "button",
+       "text": "what is the difference between support and suite service pla",
+       "edsText": "what is the difference between support and suite service pla",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 1,
+        "w": 798,
+        "h": 69
+       },
+       "eds": {
+        "x": 20,
+        "y": 1,
+        "w": 802,
+        "h": 63,
+        "sel": "div#pr-faq-1-t1",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/600",
+        "eds": "16/20/600"
+       }
+      },
+      {
+       "key": "heading:what is the difference between support a #2",
+       "role": "heading",
+       "text": "what is the difference between support and suite service pla",
+       "edsText": "what is the difference between support and suite service pla",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 21,
+        "w": 798,
+        "h": 29
+       },
+       "eds": {
+        "x": 20,
+        "y": 21,
+        "w": 802,
+        "h": 23,
+        "sel": "h5#what-is-the-difference-between-support-and-suite-service-plans",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 830,
+        "y": 24,
+        "w": 23,
+        "h": 24
+       },
+       "eds": {
+        "x": 834,
+        "y": 21,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 4,
+       "dy": -3,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1167,
+       "y": 4875,
+       "w": 873,
+       "h": 70
+      },
+      "eds": {
+       "x": 1163,
+       "y": 4944,
+       "w": 877,
+       "h": 64
+      },
+      "dx": -4,
+      "dy": 69,
+      "dw": 4,
+      "dh": -6
+     },
+     "summary": {
+      "elements": 4,
+      "within": 1,
+      "off": 3,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledCol-sc-inuw62-0.fxfbhh > div.StyledAccordion-sc-niv9ic-0.dgZvap > div.StyledSection-sc-v2t9bd-0.bFpvu"
+     },
+     "eds": {
+      "path": "div.za-row.pr-faq-row > div.za-col.pr-faq-list > div.pr-faq-item"
+     },
+     "rows": [
+      {
+       "key": "heading:how does pricing for ai agents work?",
+       "role": "heading",
+       "text": "how does pricing for ai agents work?",
+       "edsText": "how does pricing for ai agents work?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 1,
+        "w": 873,
+        "h": 69
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 877,
+        "h": 63,
+        "sel": "div.pr-faq-bar",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      },
+      {
+       "key": "button:how does pricing for ai agents work?",
+       "role": "button",
+       "text": "how does pricing for ai agents work?",
+       "edsText": "how does pricing for ai agents work?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 1,
+        "w": 798,
+        "h": 69
+       },
+       "eds": {
+        "x": 20,
+        "y": 1,
+        "w": 802,
+        "h": 63,
+        "sel": "div#pr-faq-1-t2",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/600",
+        "eds": "16/20/600"
+       }
+      },
+      {
+       "key": "heading:how does pricing for ai agents work? #2",
+       "role": "heading",
+       "text": "how does pricing for ai agents work?",
+       "edsText": "how does pricing for ai agents work?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 21,
+        "w": 798,
+        "h": 29
+       },
+       "eds": {
+        "x": 20,
+        "y": 21,
+        "w": 802,
+        "h": 23,
+        "sel": "h5#how-does-pricing-for-ai-agents-work",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 830,
+        "y": 24,
+        "w": 23,
+        "h": 24
+       },
+       "eds": {
+        "x": 834,
+        "y": 21,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 4,
+       "dy": -3,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1167,
+       "y": 4945,
+       "w": 873,
+       "h": 70
+      },
+      "eds": {
+       "x": 1163,
+       "y": 5008,
+       "w": 877,
+       "h": 64
+      },
+      "dx": -4,
+      "dy": 63,
+      "dw": 4,
+      "dh": -6
+     },
+     "summary": {
+      "elements": 4,
+      "within": 1,
+      "off": 3,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.StyledCol-sc-inuw62-0.fxfbhh > div.StyledAccordion-sc-niv9ic-0.dgZvap > div.StyledSection-sc-v2t9bd-0.bFpvu"
+     },
+     "eds": {
+      "path": "div.za-row.pr-faq-row > div.za-col.pr-faq-list > div.pr-faq-item"
+     },
+     "rows": [
+      {
+       "key": "heading:what are forethought ai agents?",
+       "role": "heading",
+       "text": "what are forethought ai agents?",
+       "edsText": "what are forethought ai agents?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 1,
+        "w": 873,
+        "h": 69
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 877,
+        "h": 63,
+        "sel": "div.pr-faq-bar",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      },
+      {
+       "key": "button:what are forethought ai agents?",
+       "role": "button",
+       "text": "what are forethought ai agents?",
+       "edsText": "what are forethought ai agents?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 1,
+        "w": 798,
+        "h": 69
+       },
+       "eds": {
+        "x": 20,
+        "y": 1,
+        "w": 802,
+        "h": 63,
+        "sel": "div#pr-faq-1-t3",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/600",
+        "eds": "16/20/600"
+       }
+      },
+      {
+       "key": "heading:what are forethought ai agents? #2",
+       "role": "heading",
+       "text": "what are forethought ai agents?",
+       "edsText": "what are forethought ai agents?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 21,
+        "w": 798,
+        "h": 29
+       },
+       "eds": {
+        "x": 20,
+        "y": 21,
+        "w": 802,
+        "h": 23,
+        "sel": "h5#what-are-forethought-ai-agents",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 830,
+        "y": 24,
+        "w": 23,
+        "h": 24
+       },
+       "eds": {
+        "x": 834,
+        "y": 21,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 4,
+       "dy": -3,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1167,
+       "y": 5015,
+       "w": 873,
+       "h": 70
+      },
+      "eds": {
+       "x": 1163,
+       "y": 5072,
+       "w": 877,
+       "h": 64
+      },
+      "dx": -4,
+      "dy": 57,
+      "dw": 4,
+      "dh": -6
+     },
+     "summary": {
+      "elements": 4,
+      "within": 1,
+      "off": 3,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.StyledCol-sc-inuw62-0.fxfbhh > div.StyledAccordion-sc-niv9ic-0.dgZvap > div.StyledSection-sc-v2t9bd-0.bFpvu"
+     },
+     "eds": {
+      "path": "div.za-row.pr-faq-row > div.za-col.pr-faq-list > div.pr-faq-item"
+     },
+     "rows": [
+      {
+       "key": "heading:what add-ons are available and how are t",
+       "role": "heading",
+       "text": "what add-ons are available and how are they priced?",
+       "edsText": "what add-ons are available and how are they priced?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 1,
+        "w": 873,
+        "h": 69
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 877,
+        "h": 63,
+        "sel": "div.pr-faq-bar",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      },
+      {
+       "key": "button:what add-ons are available and how are t",
+       "role": "button",
+       "text": "what add-ons are available and how are they priced?",
+       "edsText": "what add-ons are available and how are they priced?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 1,
+        "w": 798,
+        "h": 69
+       },
+       "eds": {
+        "x": 20,
+        "y": 1,
+        "w": 802,
+        "h": 63,
+        "sel": "div#pr-faq-1-t4",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/600",
+        "eds": "16/20/600"
+       }
+      },
+      {
+       "key": "heading:what add-ons are available and how are t #2",
+       "role": "heading",
+       "text": "what add-ons are available and how are they priced?",
+       "edsText": "what add-ons are available and how are they priced?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 21,
+        "w": 798,
+        "h": 29
+       },
+       "eds": {
+        "x": 20,
+        "y": 21,
+        "w": 802,
+        "h": 23,
+        "sel": "h5#what-add-ons-are-available-and-how-are-they-priced",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 830,
+        "y": 24,
+        "w": 23,
+        "h": 24
+       },
+       "eds": {
+        "x": 834,
+        "y": 21,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 4,
+       "dy": -3,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1167,
+       "y": 5085,
+       "w": 873,
+       "h": 70
+      },
+      "eds": {
+       "x": 1163,
+       "y": 5136,
+       "w": 877,
+       "h": 64
+      },
+      "dx": -4,
+      "dy": 51,
+      "dw": 4,
+      "dh": -6
+     },
+     "summary": {
+      "elements": 4,
+      "within": 1,
+      "off": 3,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.StyledCol-sc-inuw62-0.fxfbhh > div.StyledAccordion-sc-niv9ic-0.dgZvap > div.StyledSection-sc-v2t9bd-0.bFpvu"
+     },
+     "eds": {
+      "path": "div.za-row.pr-faq-row > div.za-col.pr-faq-list > div.pr-faq-item"
+     },
+     "rows": [
+      {
+       "key": "heading:how can i purchase zendesk?",
+       "role": "heading",
+       "text": "how can i purchase zendesk?",
+       "edsText": "how can i purchase zendesk?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 1,
+        "w": 873,
+        "h": 69
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 877,
+        "h": 63,
+        "sel": "div.pr-faq-bar",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      },
+      {
+       "key": "button:how can i purchase zendesk?",
+       "role": "button",
+       "text": "how can i purchase zendesk?",
+       "edsText": "how can i purchase zendesk?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 1,
+        "w": 798,
+        "h": 69
+       },
+       "eds": {
+        "x": 20,
+        "y": 1,
+        "w": 802,
+        "h": 63,
+        "sel": "div#pr-faq-1-t5",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/600",
+        "eds": "16/20/600"
+       }
+      },
+      {
+       "key": "heading:how can i purchase zendesk? #2",
+       "role": "heading",
+       "text": "how can i purchase zendesk?",
+       "edsText": "how can i purchase zendesk?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 21,
+        "w": 798,
+        "h": 29
+       },
+       "eds": {
+        "x": 20,
+        "y": 21,
+        "w": 802,
+        "h": 23,
+        "sel": "h5#how-can-i-purchase-zendesk",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 830,
+        "y": 24,
+        "w": 23,
+        "h": 24
+       },
+       "eds": {
+        "x": 834,
+        "y": 21,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 4,
+       "dy": -3,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1167,
+       "y": 5155,
+       "w": 873,
+       "h": 70
+      },
+      "eds": {
+       "x": 1163,
+       "y": 5201,
+       "w": 877,
+       "h": 64
+      },
+      "dx": -4,
+      "dy": 46,
+      "dw": 4,
+      "dh": -6
+     },
+     "summary": {
+      "elements": 4,
+      "within": 1,
+      "off": 3,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.StyledCol-sc-inuw62-0.fxfbhh > div.StyledAccordion-sc-niv9ic-0.dgZvap > div.StyledSection-sc-v2t9bd-0.bFpvu"
+     },
+     "eds": {
+      "path": "div.za-row.pr-faq-row > div.za-col.pr-faq-list > div.pr-faq-item"
+     },
+     "rows": [
+      {
+       "key": "heading:can i purchase enterprise plans online?",
+       "role": "heading",
+       "text": "can i purchase enterprise plans online?",
+       "edsText": "can i purchase enterprise plans online?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 1,
+        "w": 873,
+        "h": 69
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 877,
+        "h": 63,
+        "sel": "div.pr-faq-bar",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      },
+      {
+       "key": "button:can i purchase enterprise plans online?",
+       "role": "button",
+       "text": "can i purchase enterprise plans online?",
+       "edsText": "can i purchase enterprise plans online?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 1,
+        "w": 798,
+        "h": 69
+       },
+       "eds": {
+        "x": 20,
+        "y": 1,
+        "w": 802,
+        "h": 63,
+        "sel": "div#pr-faq-1-t6",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/600",
+        "eds": "16/20/600"
+       }
+      },
+      {
+       "key": "heading:can i purchase enterprise plans online? #2",
+       "role": "heading",
+       "text": "can i purchase enterprise plans online?",
+       "edsText": "can i purchase enterprise plans online?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 21,
+        "w": 798,
+        "h": 29
+       },
+       "eds": {
+        "x": 20,
+        "y": 21,
+        "w": 802,
+        "h": 23,
+        "sel": "h5#can-i-purchase-enterprise-plans-online",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 830,
+        "y": 24,
+        "w": 23,
+        "h": 24
+       },
+       "eds": {
+        "x": 834,
+        "y": 21,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 4,
+       "dy": -3,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1167,
+       "y": 5225,
+       "w": 873,
+       "h": 70
+      },
+      "eds": {
+       "x": 1163,
+       "y": 5265,
+       "w": 877,
+       "h": 64
+      },
+      "dx": -4,
+      "dy": 40,
+      "dw": 4,
+      "dh": -6
+     },
+     "summary": {
+      "elements": 4,
+      "within": 1,
+      "off": 3,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div.StyledCol-sc-inuw62-0.fxfbhh > div.StyledAccordion-sc-niv9ic-0.dgZvap > div.StyledSection-sc-v2t9bd-0.bFpvu"
+     },
+     "eds": {
+      "path": "div.za-row.pr-faq-row > div.za-col.pr-faq-list > div.pr-faq-item"
+     },
+     "rows": [
+      {
+       "key": "heading:how long are your contracts? can i upgra",
+       "role": "heading",
+       "text": "how long are your contracts? can i upgrade or downgrade?",
+       "edsText": "how long are your contracts? can i upgrade or downgrade?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 1,
+        "w": 873,
+        "h": 69
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 877,
+        "h": 63,
+        "sel": "div.pr-faq-bar",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      },
+      {
+       "key": "button:how long are your contracts? can i upgra",
+       "role": "button",
+       "text": "how long are your contracts? can i upgrade or downgrade?",
+       "edsText": "how long are your contracts? can i upgrade or downgrade?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 1,
+        "w": 798,
+        "h": 69
+       },
+       "eds": {
+        "x": 20,
+        "y": 1,
+        "w": 802,
+        "h": 63,
+        "sel": "div#pr-faq-1-t7",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/600",
+        "eds": "16/20/600"
+       }
+      },
+      {
+       "key": "heading:how long are your contracts? can i upgra #2",
+       "role": "heading",
+       "text": "how long are your contracts? can i upgrade or downgrade?",
+       "edsText": "how long are your contracts? can i upgrade or downgrade?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 21,
+        "w": 798,
+        "h": 29
+       },
+       "eds": {
+        "x": 20,
+        "y": 21,
+        "w": 802,
+        "h": 23,
+        "sel": "h5#how-long-are-your-contracts-can-i-upgrade-or-downgrade",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 830,
+        "y": 24,
+        "w": 23,
+        "h": 24
+       },
+       "eds": {
+        "x": 834,
+        "y": 21,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 4,
+       "dy": -3,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1167,
+       "y": 5295,
+       "w": 873,
+       "h": 70
+      },
+      "eds": {
+       "x": 1163,
+       "y": 5329,
+       "w": 877,
+       "h": 64
+      },
+      "dx": -4,
+      "dy": 34,
+      "dw": 4,
+      "dh": -6
+     },
+     "summary": {
+      "elements": 4,
+      "within": 1,
+      "off": 3,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div.StyledCol-sc-inuw62-0.fxfbhh > div.StyledAccordion-sc-niv9ic-0.dgZvap > div.StyledSection-sc-v2t9bd-0.bFpvu"
+     },
+     "eds": {
+      "path": "div.za-row.pr-faq-row > div.za-col.pr-faq-list > div.pr-faq-item"
+     },
+     "rows": [
+      {
+       "key": "heading:how does the free trial work?",
+       "role": "heading",
+       "text": "how does the free trial work?",
+       "edsText": "how does the free trial work?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 1,
+        "w": 873,
+        "h": 69
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 877,
+        "h": 63,
+        "sel": "div.pr-faq-bar",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      },
+      {
+       "key": "button:how does the free trial work?",
+       "role": "button",
+       "text": "how does the free trial work?",
+       "edsText": "how does the free trial work?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 1,
+        "w": 798,
+        "h": 69
+       },
+       "eds": {
+        "x": 20,
+        "y": 1,
+        "w": 802,
+        "h": 63,
+        "sel": "div#pr-faq-1-t8",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/600",
+        "eds": "16/20/600"
+       }
+      },
+      {
+       "key": "heading:how does the free trial work? #2",
+       "role": "heading",
+       "text": "how does the free trial work?",
+       "edsText": "how does the free trial work?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 21,
+        "w": 798,
+        "h": 29
+       },
+       "eds": {
+        "x": 20,
+        "y": 21,
+        "w": 802,
+        "h": 23,
+        "sel": "h5#how-does-the-free-trial-work",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 830,
+        "y": 24,
+        "w": 23,
+        "h": 24
+       },
+       "eds": {
+        "x": 834,
+        "y": 21,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 4,
+       "dy": -3,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1167,
+       "y": 5365,
+       "w": 873,
+       "h": 70
+      },
+      "eds": {
+       "x": 1163,
+       "y": 5393,
+       "w": 877,
+       "h": 64
+      },
+      "dx": -4,
+      "dy": 28,
+      "dw": 4,
+      "dh": -6
+     },
+     "summary": {
+      "elements": 4,
+      "within": 1,
+      "off": 3,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 9,
+     "origin": {
+      "path": "div.StyledCol-sc-inuw62-0.fxfbhh > div.StyledAccordion-sc-niv9ic-0.dgZvap > div.StyledSection-sc-v2t9bd-0.bFpvu"
+     },
+     "eds": {
+      "path": "div.za-row.pr-faq-row > div.za-col.pr-faq-list > div.pr-faq-item"
+     },
+     "rows": [
+      {
+       "key": "heading:how do i estimate my total cost?",
+       "role": "heading",
+       "text": "how do i estimate my total cost?",
+       "edsText": "how do i estimate my total cost?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 1,
+        "w": 873,
+        "h": 69
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 877,
+        "h": 63,
+        "sel": "div.pr-faq-bar",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      },
+      {
+       "key": "button:how do i estimate my total cost?",
+       "role": "button",
+       "text": "how do i estimate my total cost?",
+       "edsText": "how do i estimate my total cost?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 1,
+        "w": 798,
+        "h": 69
+       },
+       "eds": {
+        "x": 20,
+        "y": 1,
+        "w": 802,
+        "h": 63,
+        "sel": "div#pr-faq-1-t9",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/600",
+        "eds": "16/20/600"
+       }
+      },
+      {
+       "key": "heading:how do i estimate my total cost? #2",
+       "role": "heading",
+       "text": "how do i estimate my total cost?",
+       "edsText": "how do i estimate my total cost?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 21,
+        "w": 798,
+        "h": 29
+       },
+       "eds": {
+        "x": 20,
+        "y": 21,
+        "w": 802,
+        "h": 23,
+        "sel": "h5#how-do-i-estimate-my-total-cost",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 830,
+        "y": 24,
+        "w": 23,
+        "h": 24
+       },
+       "eds": {
+        "x": 834,
+        "y": 21,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 4,
+       "dy": -3,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1167,
+       "y": 5435,
+       "w": 873,
+       "h": 70
+      },
+      "eds": {
+       "x": 1163,
+       "y": 5457,
+       "w": 877,
+       "h": 64
+      },
+      "dx": -4,
+      "dy": 22,
+      "dw": 4,
+      "dh": -6
+     },
+     "summary": {
+      "elements": 4,
+      "within": 1,
+      "off": 3,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 10,
+     "origin": {
+      "path": "div.StyledCol-sc-inuw62-0.fxfbhh > div.StyledAccordion-sc-niv9ic-0.dgZvap > div.StyledSection-sc-v2t9bd-0.bFpvu"
+     },
+     "eds": {
+      "path": "div.za-row.pr-faq-row > div.za-col.pr-faq-list > div.pr-faq-item"
+     },
+     "rows": [
+      {
+       "key": "heading:does zendesk integrate with other applic",
+       "role": "heading",
+       "text": "does zendesk integrate with other applications and systems?",
+       "edsText": "does zendesk integrate with other applications and systems?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 1,
+        "w": 873,
+        "h": 69
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 877,
+        "h": 63,
+        "sel": "div.pr-faq-bar",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      },
+      {
+       "key": "button:does zendesk integrate with other applic",
+       "role": "button",
+       "text": "does zendesk integrate with other applications and systems?",
+       "edsText": "does zendesk integrate with other applications and systems?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 1,
+        "w": 798,
+        "h": 69
+       },
+       "eds": {
+        "x": 20,
+        "y": 1,
+        "w": 802,
+        "h": 63,
+        "sel": "div#pr-faq-1-t10",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/600",
+        "eds": "16/20/600"
+       }
+      },
+      {
+       "key": "heading:does zendesk integrate with other applic #2",
+       "role": "heading",
+       "text": "does zendesk integrate with other applications and systems?",
+       "edsText": "does zendesk integrate with other applications and systems?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 21,
+        "w": 798,
+        "h": 29
+       },
+       "eds": {
+        "x": 20,
+        "y": 21,
+        "w": 802,
+        "h": 23,
+        "sel": "h5#does-zendesk-integrate-with-other-applications-and-systems",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 830,
+        "y": 24,
+        "w": 23,
+        "h": 24
+       },
+       "eds": {
+        "x": 834,
+        "y": 21,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 4,
+       "dy": -3,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1167,
+       "y": 5505,
+       "w": 873,
+       "h": 70
+      },
+      "eds": {
+       "x": 1163,
+       "y": 5522,
+       "w": 877,
+       "h": 64
+      },
+      "dx": -4,
+      "dy": 17,
+      "dw": 4,
+      "dh": -6
+     },
+     "summary": {
+      "elements": 4,
+      "within": 1,
+      "off": 3,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 11,
+     "origin": {
+      "path": "div.StyledCol-sc-inuw62-0.fxfbhh > div.StyledAccordion-sc-niv9ic-0.dgZvap > div.StyledSection-sc-v2t9bd-0.bFpvu"
+     },
+     "eds": {
+      "path": "div.za-row.pr-faq-row > div.za-col.pr-faq-list > div.pr-faq-item"
+     },
+     "rows": [
+      {
+       "key": "heading:how do you protect customer data?",
+       "role": "heading",
+       "text": "how do you protect customer data?",
+       "edsText": "how do you protect customer data?",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 1,
+        "w": 873,
+        "h": 69
+       },
+       "eds": {
+        "x": 0,
+        "y": 1,
+        "w": 877,
+        "h": 63,
+        "sel": "div.pr-faq-bar",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      },
+      {
+       "key": "button:how do you protect customer data?",
+       "role": "button",
+       "text": "how do you protect customer data?",
+       "edsText": "how do you protect customer data?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 1,
+        "w": 798,
+        "h": 69
+       },
+       "eds": {
+        "x": 20,
+        "y": 1,
+        "w": 802,
+        "h": 63,
+        "sel": "div#pr-faq-1-t11",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/20/600",
+        "eds": "16/20/600"
+       }
+      },
+      {
+       "key": "heading:how do you protect customer data? #2",
+       "role": "heading",
+       "text": "how do you protect customer data?",
+       "edsText": "how do you protect customer data?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 21,
+        "w": 798,
+        "h": 29
+       },
+       "eds": {
+        "x": 20,
+        "y": 21,
+        "w": 802,
+        "h": 23,
+        "sel": "h5#how-do-you-protect-customer-data",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 4,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/29/600",
+        "eds": "16/23/600"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 830,
+        "y": 24,
+        "w": 23,
+        "h": 24
+       },
+       "eds": {
+        "x": 834,
+        "y": 21,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 4,
+       "dy": -3,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "16/16/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1167,
+       "y": 5575,
+       "w": 873,
+       "h": 70
+      },
+      "eds": {
+       "x": 1163,
+       "y": 5586,
+       "w": 877,
+       "h": 64
+      },
+      "dx": -4,
+      "dy": 11,
+      "dw": 4,
+      "dh": -6
+     },
+     "summary": {
+      "elements": 4,
+      "within": 1,
+      "off": 3,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 19,
+  "within": 19,
+  "off": 133,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 133
+ }
+}

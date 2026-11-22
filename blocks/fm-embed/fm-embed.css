@@ -1,0 +1,29 @@
+/* fm-embed — framed page embed (live /demo/: iframe 1392 x 682 at 1440, 328 x 608 at 360,
+   radius 16, 56 / 64 px clear of the header and the footer). */
+
+.fm-embed {
+  padding: 56px 16px;
+}
+
+.fm-embed .fm-embed-frame {
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.fm-embed iframe {
+  display: block;
+  width: 100%;
+  height: 608px;
+  border: 0;
+  border-radius: 16px;
+}
+
+@media (width >= 768px) {
+  .fm-embed {
+    padding: 64px 24px;
+  }
+
+  .fm-embed iframe {
+    height: 682px;
+  }
+}

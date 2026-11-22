@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "stages": {
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-21T01-05-11-445Z",
+          "at": "2026-11-21T01:05:11.447Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-21T01-24-34-370Z",
+          "at": "2026-11-21T01:24:34.372Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T01-36-55-922Z",
+          "at": "2026-11-21T01:36:55.923Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T08-10-02-335Z",
+          "at": "2026-11-21T08:10:02.339Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T08-28-52-155Z",
+          "at": "2026-11-21T08:28:52.156Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T08-37-36-404Z",
+          "at": "2026-11-21T08:37:36.405Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T18-32-54-501Z",
+          "at": "2026-11-21T18:32:54.505Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "cluster-listing 360 cap: offsets 123>111px — the open Region filter group (+69 at y=969) and partner card text lengths vs the live accordion — stardust/replica/gates/all-360/marketplace-partners/pixel.json",
+          "at": "2026-11-21T01:37:09.438Z",
+          "counted": 3
+        }
+      ]
+    }
+  }
+}

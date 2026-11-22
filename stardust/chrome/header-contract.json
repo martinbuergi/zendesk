@@ -1,0 +1,2268 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.zendesk.com/",
+ "at": "2026-11-20T07:45:02.391Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "390": {
+   "root": "body>div:nth-of-type(1)>div>div:nth-of-type(2)",
+   "controls": [
+    {
+     "name": "Zendesk home",
+     "key": "zendesk home",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(2)>nav>div>a",
+     "href": "https://www.zendesk.com/",
+     "expanded": null,
+     "rect": [
+      16,
+      110,
+      90,
+      60
+     ],
+     "actions": {}
+    },
+    {
+     "name": "View demo",
+     "key": "view demo",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(2)>nav>div>div>div:nth-of-type(2)>a",
+     "href": "https://www.zendesk.com/demo/",
+     "expanded": null,
+     "rect": [
+      217,
+      118,
+      115,
+      43
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Toggle Mobile Menu",
+     "key": "toggle mobile menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(2)>nav>div>button:nth-of-type(2)",
+     "expanded": null,
+     "rect": [
+      338,
+      118,
+      44,
+      44
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "Pricing",
+          "href": "https://www.zendesk.com/pricing/"
+         },
+         {
+          "text": "Sign in",
+          "href": "https://www.zendesk.com/login/"
+         },
+         {
+          "text": "View demo",
+          "href": "https://www.zendesk.com/demo/"
+         },
+         {
+          "text": "Contact us",
+          "href": "https://www.zendesk.com/contact/"
+         }
+        ],
+        "headings": [
+         "Platform",
+         "Products",
+         "Solutions",
+         "Resources",
+         "Pricing",
+         "Sign in",
+         "Language"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Platform",
+         "Products",
+         "Solutions",
+         "Resources",
+         "Language"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         171,
+         390,
+         673
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "iTVnrm",
+         "ms": 400,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.sc-d3ef341b-7"
+        },
+        {
+         "kind": "animation",
+         "prop": "eEAsaf",
+         "ms": 400,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.LinkGroupstyle__LinkGroupRoot-sc-e6je4r-0"
+        },
+        {
+         "kind": "animation",
+         "prop": "kkbEPd",
+         "ms": 400,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.sc-e254d12-13"
+        }
+       ],
+       "shot": "390-001-Toggle-Mobile-Menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "Pricing",
+          "href": "https://www.zendesk.com/pricing/"
+         },
+         {
+          "text": "Sign in",
+          "href": "https://www.zendesk.com/login/"
+         },
+         {
+          "text": "View demo",
+          "href": "https://www.zendesk.com/demo/"
+         },
+         {
+          "text": "Contact us",
+          "href": "https://www.zendesk.com/contact/"
+         }
+        ],
+        "headings": [
+         "Platform",
+         "Products",
+         "Solutions",
+         "Resources",
+         "Pricing",
+         "Sign in",
+         "Language"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Platform",
+         "Products",
+         "Solutions",
+         "Resources",
+         "Language"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         171,
+         390,
+         673
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "iTVnrm",
+         "ms": 400,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.sc-d3ef341b-7"
+        },
+        {
+         "kind": "animation",
+         "prop": "eEAsaf",
+         "ms": 400,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.LinkGroupstyle__LinkGroupRoot-sc-e6je4r-0"
+        },
+        {
+         "kind": "animation",
+         "prop": "kkbEPd",
+         "ms": 400,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.sc-e254d12-13"
+        }
+       ],
+       "shot": "390-002-Toggle-Mobile-Menu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": false
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 110,
+     "height": 60,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1,
+     "height": 60,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -1,
+     "height": 60,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 110,
+     "height": 60,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 2,
+   "truncated": "request-budget",
+   "loads": 6,
+   "requests": 842,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "body>div:nth-of-type(1)>div>div:nth-of-type(3)",
+   "controls": [
+    {
+     "name": "Sign in",
+     "key": "sign in",
+     "role": "link",
+     "kind": "account",
+     "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(3)>nav:nth-of-type(1)>div>div:nth-of-type(1)>a",
+     "href": "https://www.zendesk.com/login/",
+     "expanded": null,
+     "rect": [
+      1108,
+      64,
+      67,
+      21
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Contact us",
+     "key": "contact us",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(3)>nav:nth-of-type(1)>div>div:nth-of-type(2)>a",
+     "href": "https://www.zendesk.com/contact/",
+     "expanded": null,
+     "rect": [
+      1203,
+      64,
+      93,
+      21
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Language",
+     "key": "language",
+     "role": "toggle",
+     "kind": "locale",
+     "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(3)>nav:nth-of-type(1)>div>div:nth-of-type(3)>span",
+     "expanded": "false",
+     "rect": [
+      1324,
+      64,
+      88,
+      21
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "English (US)",
+          "href": "https://www.zendesk.com/"
+         },
+         {
+          "text": "English (UK)",
+          "href": "https://www.zendesk.co.uk/"
+         },
+         {
+          "text": "Español",
+          "href": "https://www.zendesk.es/"
+         },
+         {
+          "text": "Español (LATAM)",
+          "href": "https://www.zendesk.com.mx/"
+         },
+         {
+          "text": "Português",
+          "href": "https://www.zendesk.com.br/"
+         },
+         {
+          "text": "Français",
+          "href": "https://www.zendesk.fr/"
+         },
+         {
+          "text": "Deutsch",
+          "href": "https://www.zendesk.de/"
+         },
+         {
+          "text": "Italiano",
+          "href": "https://www.zendesk.com/it/"
+         },
+         {
+          "text": "Nederlands",
+          "href": "https://www.zendesk.nl/"
+         },
+         {
+          "text": "English (Denmark)",
+          "href": "https://www.zendesk.com/dk/"
+         },
+         {
+          "text": "English (Sweden)",
+          "href": "https://www.zendesk.com/se/"
+         },
+         {
+          "text": "English (Australia)",
+          "href": "https://www.zendesk.com/au/"
+         },
+         {
+          "text": "English (India)",
+          "href": "https://www.zendesk.com/in/"
+         },
+         {
+          "text": "English (Singapore)",
+          "href": "https://www.zendesk.com/sg/"
+         },
+         {
+          "text": "日本語",
+          "href": "https://www.zendesk.co.jp/"
+         },
+         {
+          "text": "한국어",
+          "href": "https://www.zendesk.kr/"
+         },
+         {
+          "text": "繁體中文 (台灣)",
+          "href": "https://www.zendesk.tw/"
+         },
+         {
+          "text": "繁體中文 (香港特區)",
+          "href": "https://www.zendesk.hk/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1258,
+         90,
+         182,
+         704
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "text-decoration-color",
+         "ms": 100,
+         "delay": 0,
+         "easing": "linear",
+         "target": "span.Linkstyle__LinkRoot-sc-1n8u9ej-6"
+        }
+       ],
+       "shot": "1440-001-Language-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "English (US)",
+          "href": "https://www.zendesk.com/"
+         },
+         {
+          "text": "English (UK)",
+          "href": "https://www.zendesk.co.uk/"
+         },
+         {
+          "text": "Español",
+          "href": "https://www.zendesk.es/"
+         },
+         {
+          "text": "Español (LATAM)",
+          "href": "https://www.zendesk.com.mx/"
+         },
+         {
+          "text": "Português",
+          "href": "https://www.zendesk.com.br/"
+         },
+         {
+          "text": "Français",
+          "href": "https://www.zendesk.fr/"
+         },
+         {
+          "text": "Deutsch",
+          "href": "https://www.zendesk.de/"
+         },
+         {
+          "text": "Italiano",
+          "href": "https://www.zendesk.com/it/"
+         },
+         {
+          "text": "Nederlands",
+          "href": "https://www.zendesk.nl/"
+         },
+         {
+          "text": "English (Denmark)",
+          "href": "https://www.zendesk.com/dk/"
+         },
+         {
+          "text": "English (Sweden)",
+          "href": "https://www.zendesk.com/se/"
+         },
+         {
+          "text": "English (Australia)",
+          "href": "https://www.zendesk.com/au/"
+         },
+         {
+          "text": "English (India)",
+          "href": "https://www.zendesk.com/in/"
+         },
+         {
+          "text": "English (Singapore)",
+          "href": "https://www.zendesk.com/sg/"
+         },
+         {
+          "text": "日本語",
+          "href": "https://www.zendesk.co.jp/"
+         },
+         {
+          "text": "한국어",
+          "href": "https://www.zendesk.kr/"
+         },
+         {
+          "text": "繁體中文 (台灣)",
+          "href": "https://www.zendesk.tw/"
+         },
+         {
+          "text": "繁體中文 (香港特區)",
+          "href": "https://www.zendesk.hk/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1258,
+         90,
+         182,
+         704
+        ]
+       },
+       "expanded": "false",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "text-decoration-color",
+         "ms": 100,
+         "delay": 0,
+         "easing": "linear",
+         "target": "span.Linkstyle__LinkRoot-sc-1n8u9ej-6"
+        }
+       ],
+       "shot": "1440-002-Language-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "English (US)",
+          "href": "https://www.zendesk.com/"
+         },
+         {
+          "text": "English (UK)",
+          "href": "https://www.zendesk.co.uk/"
+         },
+         {
+          "text": "Español",
+          "href": "https://www.zendesk.es/"
+         },
+         {
+          "text": "Español (LATAM)",
+          "href": "https://www.zendesk.com.mx/"
+         },
+         {
+          "text": "Português",
+          "href": "https://www.zendesk.com.br/"
+         },
+         {
+          "text": "Français",
+          "href": "https://www.zendesk.fr/"
+         },
+         {
+          "text": "Deutsch",
+          "href": "https://www.zendesk.de/"
+         },
+         {
+          "text": "Italiano",
+          "href": "https://www.zendesk.com/it/"
+         },
+         {
+          "text": "Nederlands",
+          "href": "https://www.zendesk.nl/"
+         },
+         {
+          "text": "English (Denmark)",
+          "href": "https://www.zendesk.com/dk/"
+         },
+         {
+          "text": "English (Sweden)",
+          "href": "https://www.zendesk.com/se/"
+         },
+         {
+          "text": "English (Australia)",
+          "href": "https://www.zendesk.com/au/"
+         },
+         {
+          "text": "English (India)",
+          "href": "https://www.zendesk.com/in/"
+         },
+         {
+          "text": "English (Singapore)",
+          "href": "https://www.zendesk.com/sg/"
+         },
+         {
+          "text": "日本語",
+          "href": "https://www.zendesk.co.jp/"
+         },
+         {
+          "text": "한국어",
+          "href": "https://www.zendesk.kr/"
+         },
+         {
+          "text": "繁體中文 (台灣)",
+          "href": "https://www.zendesk.tw/"
+         },
+         {
+          "text": "繁體中文 (香港特區)",
+          "href": "https://www.zendesk.hk/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1258,
+         90,
+         182,
+         704
+        ]
+       },
+       "expanded": "false",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "text-decoration-color",
+         "ms": 100,
+         "delay": 0,
+         "easing": "linear",
+         "target": "span.Linkstyle__LinkRoot-sc-1n8u9ej-6"
+        }
+       ],
+       "shot": "1440-003-Language-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "English (US)",
+       "key": "english us",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#language-dropdown>a:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        1282,
+        122,
+        172,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "English (UK)",
+       "key": "english uk",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#language-dropdown>a:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        1282,
+        158,
+        172,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Español",
+       "key": "español",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#language-dropdown>a:nth-of-type(3)",
+       "expanded": null,
+       "rect": [
+        1282,
+        194,
+        172,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Español (LATAM)",
+       "key": "español latam",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#language-dropdown>a:nth-of-type(4)",
+       "expanded": null,
+       "rect": [
+        1282,
+        230,
+        172,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Português",
+       "key": "português",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#language-dropdown>a:nth-of-type(5)",
+       "expanded": null,
+       "rect": [
+        1282,
+        266,
+        172,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Français",
+       "key": "français",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#language-dropdown>a:nth-of-type(6)",
+       "expanded": null,
+       "rect": [
+        1282,
+        302,
+        172,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Deutsch",
+       "key": "deutsch",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#language-dropdown>a:nth-of-type(7)",
+       "expanded": null,
+       "rect": [
+        1282,
+        338,
+        172,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Italiano",
+       "key": "italiano",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#language-dropdown>a:nth-of-type(8)",
+       "expanded": null,
+       "rect": [
+        1282,
+        374,
+        172,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Nederlands",
+       "key": "nederlands",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#language-dropdown>a:nth-of-type(9)",
+       "expanded": null,
+       "rect": [
+        1282,
+        410,
+        172,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "English (Denmark)",
+       "key": "english denmark",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#language-dropdown>a:nth-of-type(10)",
+       "expanded": null,
+       "rect": [
+        1282,
+        446,
+        172,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "English (Sweden)",
+       "key": "english sweden",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#language-dropdown>a:nth-of-type(11)",
+       "expanded": null,
+       "rect": [
+        1282,
+        482,
+        172,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "English (Australia)",
+       "key": "english australia",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#language-dropdown>a:nth-of-type(12)",
+       "expanded": null,
+       "rect": [
+        1282,
+        518,
+        172,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "English (India)",
+       "key": "english india",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#language-dropdown>a:nth-of-type(13)",
+       "expanded": null,
+       "rect": [
+        1282,
+        554,
+        172,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "English (Singapore)",
+       "key": "english singapore",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#language-dropdown>a:nth-of-type(14)",
+       "expanded": null,
+       "rect": [
+        1282,
+        590,
+        172,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "日本語",
+       "key": "日本語",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#language-dropdown>a:nth-of-type(15)",
+       "expanded": null,
+       "rect": [
+        1282,
+        626,
+        172,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "한국어",
+       "key": "한국어",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#language-dropdown>a:nth-of-type(16)",
+       "expanded": null,
+       "rect": [
+        1282,
+        662,
+        172,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "繁體中文 (台灣)",
+       "key": "繁體中文 台灣",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#language-dropdown>a:nth-of-type(17)",
+       "expanded": null,
+       "rect": [
+        1282,
+        698,
+        172,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "繁體中文 (香港特區)",
+       "key": "繁體中文 香港特區",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#language-dropdown>a:nth-of-type(18)",
+       "expanded": null,
+       "rect": [
+        1282,
+        734,
+        172,
+        36
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Zendesk home",
+     "key": "zendesk home",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(3)>nav:nth-of-type(2)>div>div:nth-of-type(1)>a",
+     "href": "https://www.zendesk.com/",
+     "expanded": null,
+     "rect": [
+      24,
+      82,
+      100,
+      71
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Platform",
+     "key": "platform",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(3)>nav:nth-of-type(2)>div>div:nth-of-type(2)>div:nth-of-type(1)>span",
+     "expanded": "false",
+     "rect": [
+      365,
+      92,
+      110,
+      73
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Zendesk Resolution Platform Deliver faster, higher quality resolutions with the only AI-first service platform",
+          "href": "https://www.zendesk.com/platform/"
+         },
+         {
+          "text": "Zendesk AI Power your service with AI that continuously improves every resolution",
+          "href": "https://www.zendesk.com/service/ai/"
+         },
+         {
+          "text": "Zendesk Bridge Deliver better outcomes with any AI agent, app, or experience",
+          "href": "https://www.zendesk.com/service/ai/ai-agents/zendesk-bridge/"
+         },
+         {
+          "text": "Reporting and analytics Turn service insights into better outcomes",
+          "href": "https://www.zendesk.com/service/analytics/"
+         },
+         {
+          "text": "Marketplace Find 1,800+ apps, partners, and integrations to serve customers and employees",
+          "href": "https://www.zendesk.com/marketplace/"
+         },
+         {
+          "text": "Actions and integrations Drive resolutions across unified data and systems",
+          "href": "https://www.zendesk.com/service/ai/ai-agents/any-platform/"
+         },
+         {
+          "text": "Security and Trust Deploy trusted service with enterprise-grade security and AI governance",
+          "href": "https://www.zendesk.com/trust-center/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         320,
+         169,
+         800,
+         464
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.7, 0, 0.3, 1)",
+         "target": "span.Linkstyle__LinkRoot-sc-1n8u9ej-6"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 100,
+         "delay": 0,
+         "easing": "cubic-bezier(0.5, 0, 1, 1)",
+         "target": "span.Linkstyle__LinkText-sc-1n8u9ej-3"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 100,
+         "delay": 150,
+         "easing": "linear",
+         "target": "svg"
+        }
+       ],
+       "shot": "1440-004-Platform-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Zendesk Resolution Platform Deliver faster, higher quality resolutions with the only AI-first service platform",
+          "href": "https://www.zendesk.com/platform/"
+         },
+         {
+          "text": "Zendesk AI Power your service with AI that continuously improves every resolution",
+          "href": "https://www.zendesk.com/service/ai/"
+         },
+         {
+          "text": "Zendesk Bridge Deliver better outcomes with any AI agent, app, or experience",
+          "href": "https://www.zendesk.com/service/ai/ai-agents/zendesk-bridge/"
+         },
+         {
+          "text": "Reporting and analytics Turn service insights into better outcomes",
+          "href": "https://www.zendesk.com/service/analytics/"
+         },
+         {
+          "text": "Marketplace Find 1,800+ apps, partners, and integrations to serve customers and employees",
+          "href": "https://www.zendesk.com/marketplace/"
+         },
+         {
+          "text": "Actions and integrations Drive resolutions across unified data and systems",
+          "href": "https://www.zendesk.com/service/ai/ai-agents/any-platform/"
+         },
+         {
+          "text": "Security and Trust Deploy trusted service with enterprise-grade security and AI governance",
+          "href": "https://www.zendesk.com/trust-center/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         320,
+         169,
+         800,
+         464
+        ]
+       },
+       "expanded": "false",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.7, 0, 0.3, 1)",
+         "target": "span.Linkstyle__LinkRoot-sc-1n8u9ej-6"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 100,
+         "delay": 0,
+         "easing": "cubic-bezier(0.5, 0, 1, 1)",
+         "target": "span.Linkstyle__LinkText-sc-1n8u9ej-3"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 100,
+         "delay": 150,
+         "easing": "linear",
+         "target": "svg"
+        }
+       ],
+       "shot": "1440-005-Platform-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Zendesk Resolution Platform Deliver faster, higher quality resolutions with the only AI-first service platform",
+          "href": "https://www.zendesk.com/platform/"
+         },
+         {
+          "text": "Zendesk AI Power your service with AI that continuously improves every resolution",
+          "href": "https://www.zendesk.com/service/ai/"
+         },
+         {
+          "text": "Zendesk Bridge Deliver better outcomes with any AI agent, app, or experience",
+          "href": "https://www.zendesk.com/service/ai/ai-agents/zendesk-bridge/"
+         },
+         {
+          "text": "Reporting and analytics Turn service insights into better outcomes",
+          "href": "https://www.zendesk.com/service/analytics/"
+         },
+         {
+          "text": "Marketplace Find 1,800+ apps, partners, and integrations to serve customers and employees",
+          "href": "https://www.zendesk.com/marketplace/"
+         },
+         {
+          "text": "Actions and integrations Drive resolutions across unified data and systems",
+          "href": "https://www.zendesk.com/service/ai/ai-agents/any-platform/"
+         },
+         {
+          "text": "Security and Trust Deploy trusted service with enterprise-grade security and AI governance",
+          "href": "https://www.zendesk.com/trust-center/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         320,
+         169,
+         800,
+         464
+        ]
+       },
+       "expanded": "false",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.7, 0, 0.3, 1)",
+         "target": "span.Linkstyle__LinkRoot-sc-1n8u9ej-6"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 100,
+         "delay": 0,
+         "easing": "cubic-bezier(0.5, 0, 1, 1)",
+         "target": "span.Linkstyle__LinkText-sc-1n8u9ej-3"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 100,
+         "delay": 150,
+         "easing": "linear",
+         "target": "svg"
+        }
+       ],
+       "shot": "1440-006-Platform-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Products",
+     "key": "products",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(3)>nav:nth-of-type(2)>div>div:nth-of-type(2)>div:nth-of-type(2)>span",
+     "expanded": "false",
+     "rect": [
+      483,
+      92,
+      112,
+      73
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Customer Service Manage and resolve customer inquiries across all channels in one place",
+          "href": "https://www.zendesk.com/service/"
+         },
+         {
+          "text": "Employee Service Give employees the fastest resolutions through a scalable, intuitive platform",
+          "href": "https://www.zendesk.com/employee-service/"
+         },
+         {
+          "text": "Contact Center Deliver AI-powered resolutions for every call, every channel, every time",
+          "href": "https://www.zendesk.com/service/contact-center/"
+         },
+         {
+          "text": "AI agents Resolve even the most complex issues on any channel autonomously",
+          "href": "https://www.zendesk.com/service/ai/ai-agents/"
+         },
+         {
+          "text": "Copilot Empower service teams with the only proactive AI assistant",
+          "href": "https://www.zendesk.com/service/ai/copilot/"
+         },
+         {
+          "text": "Quality assurance Improve your service overtime with automatic human and AI agent scoring",
+          "href": "https://www.zendesk.com/service/quality-assurance/"
+         },
+         {
+          "text": "Workforce Management Forecast, staff, and manage agent schedules with AI-powered precision",
+          "href": "https://www.zendesk.com/service/workforce-management/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         270,
+         169,
+         900,
+         439
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 100,
+         "delay": 150,
+         "easing": "linear",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.7, 0, 0.3, 1)",
+         "target": "span.Linkstyle__LinkRoot-sc-1n8u9ej-6"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 100,
+         "delay": 0,
+         "easing": "cubic-bezier(0.5, 0, 1, 1)",
+         "target": "span.Linkstyle__LinkText-sc-1n8u9ej-3"
+        }
+       ],
+       "shot": "1440-007-Products-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Customer Service Manage and resolve customer inquiries across all channels in one place",
+          "href": "https://www.zendesk.com/service/"
+         },
+         {
+          "text": "Employee Service Give employees the fastest resolutions through a scalable, intuitive platform",
+          "href": "https://www.zendesk.com/employee-service/"
+         },
+         {
+          "text": "Contact Center Deliver AI-powered resolutions for every call, every channel, every time",
+          "href": "https://www.zendesk.com/service/contact-center/"
+         },
+         {
+          "text": "AI agents Resolve even the most complex issues on any channel autonomously",
+          "href": "https://www.zendesk.com/service/ai/ai-agents/"
+         },
+         {
+          "text": "Copilot Empower service teams with the only proactive AI assistant",
+          "href": "https://www.zendesk.com/service/ai/copilot/"
+         },
+         {
+          "text": "Quality assurance Improve your service overtime with automatic human and AI agent scoring",
+          "href": "https://www.zendesk.com/service/quality-assurance/"
+         },
+         {
+          "text": "Workforce Management Forecast, staff, and manage agent schedules with AI-powered precision",
+          "href": "https://www.zendesk.com/service/workforce-management/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         270,
+         169,
+         900,
+         439
+        ]
+       },
+       "expanded": "false",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 100,
+         "delay": 150,
+         "easing": "linear",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.7, 0, 0.3, 1)",
+         "target": "span.Linkstyle__LinkRoot-sc-1n8u9ej-6"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 100,
+         "delay": 0,
+         "easing": "cubic-bezier(0.5, 0, 1, 1)",
+         "target": "span.Linkstyle__LinkText-sc-1n8u9ej-3"
+        }
+       ],
+       "shot": "1440-008-Products-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Customer Service Manage and resolve customer inquiries across all channels in one place",
+          "href": "https://www.zendesk.com/service/"
+         },
+         {
+          "text": "Employee Service Give employees the fastest resolutions through a scalable, intuitive platform",
+          "href": "https://www.zendesk.com/employee-service/"
+         },
+         {
+          "text": "Contact Center Deliver AI-powered resolutions for every call, every channel, every time",
+          "href": "https://www.zendesk.com/service/contact-center/"
+         },
+         {
+          "text": "AI agents Resolve even the most complex issues on any channel autonomously",
+          "href": "https://www.zendesk.com/service/ai/ai-agents/"
+         },
+         {
+          "text": "Copilot Empower service teams with the only proactive AI assistant",
+          "href": "https://www.zendesk.com/service/ai/copilot/"
+         },
+         {
+          "text": "Quality assurance Improve your service overtime with automatic human and AI agent scoring",
+          "href": "https://www.zendesk.com/service/quality-assurance/"
+         },
+         {
+          "text": "Workforce Management Forecast, staff, and manage agent schedules with AI-powered precision",
+          "href": "https://www.zendesk.com/service/workforce-management/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         270,
+         169,
+         900,
+         439
+        ]
+       },
+       "expanded": "false",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 100,
+         "delay": 150,
+         "easing": "linear",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.7, 0, 0.3, 1)",
+         "target": "span.Linkstyle__LinkRoot-sc-1n8u9ej-6"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 100,
+         "delay": 0,
+         "easing": "cubic-bezier(0.5, 0, 1, 1)",
+         "target": "span.Linkstyle__LinkText-sc-1n8u9ej-3"
+        }
+       ],
+       "shot": "1440-009-Products-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Solutions",
+     "key": "solutions",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(3)>nav:nth-of-type(2)>div>div:nth-of-type(2)>div:nth-of-type(3)>span",
+     "expanded": "false",
+     "rect": [
+      604,
+      92,
+      115,
+      73
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Messaging and live chat Engage customers on your website or mobile app",
+          "href": "https://www.zendesk.com/service/messaging/"
+         },
+         {
+          "text": "Ticketing Track, organize, and resolve all your tickets in one place",
+          "href": "https://www.zendesk.com/service/ticketing-system/"
+         },
+         {
+          "text": "IT service management IT support that empowers your workforce",
+          "href": "https://www.zendesk.com/employee-service/itsm/"
+         },
+         {
+          "text": "Knowledge base Power every resolution with connected knowledge",
+          "href": "https://www.zendesk.com/service/knowledge/"
+         },
+         {
+          "text": "Voice Manage and resolve customer calls with AI",
+          "href": "https://www.zendesk.com/service/voice/"
+         },
+         {
+          "text": "Startups Get up to 2 years of Zendesk free for qualified startups",
+          "href": "https://www.zendesk.com/business/startups/"
+         },
+         {
+          "text": "Retail Turn service into smarter selling",
+          "href": "https://www.zendesk.com/industries/retail/"
+         },
+         {
+          "text": "Financial Services Secure service that builds financial trust",
+          "href": "https://www.zendesk.com/industries/financial-services/"
+         },
+         {
+          "text": "Technology Transform support to drive net retention",
+          "href": "https://www.zendesk.com/industries/technology/"
+         },
+         {
+          "text": "Media & Entertainment Engage audiences and elevate experiences",
+          "href": "https://www.zendesk.com/industries/media/"
+         },
+         {
+          "text": "View all business types",
+          "href": "https://www.zendesk.com/industries/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         220,
+         169,
+         1000,
+         554
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 100,
+         "delay": 150,
+         "easing": "linear",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 100,
+         "delay": 0,
+         "easing": "cubic-bezier(0.5, 0, 1, 1)",
+         "target": "span.Linkstyle__LinkText-sc-1n8u9ej-3"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.7, 0, 0.3, 1)",
+         "target": "span.Linkstyle__LinkRoot-sc-1n8u9ej-6"
+        }
+       ],
+       "shot": "1440-010-Solutions-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Messaging and live chat Engage customers on your website or mobile app",
+          "href": "https://www.zendesk.com/service/messaging/"
+         },
+         {
+          "text": "Ticketing Track, organize, and resolve all your tickets in one place",
+          "href": "https://www.zendesk.com/service/ticketing-system/"
+         },
+         {
+          "text": "IT service management IT support that empowers your workforce",
+          "href": "https://www.zendesk.com/employee-service/itsm/"
+         },
+         {
+          "text": "Knowledge base Power every resolution with connected knowledge",
+          "href": "https://www.zendesk.com/service/knowledge/"
+         },
+         {
+          "text": "Voice Manage and resolve customer calls with AI",
+          "href": "https://www.zendesk.com/service/voice/"
+         },
+         {
+          "text": "Startups Get up to 2 years of Zendesk free for qualified startups",
+          "href": "https://www.zendesk.com/business/startups/"
+         },
+         {
+          "text": "Retail Turn service into smarter selling",
+          "href": "https://www.zendesk.com/industries/retail/"
+         },
+         {
+          "text": "Financial Services Secure service that builds financial trust",
+          "href": "https://www.zendesk.com/industries/financial-services/"
+         },
+         {
+          "text": "Technology Transform support to drive net retention",
+          "href": "https://www.zendesk.com/industries/technology/"
+         },
+         {
+          "text": "Media & Entertainment Engage audiences and elevate experiences",
+          "href": "https://www.zendesk.com/industries/media/"
+         },
+         {
+          "text": "View all business types",
+          "href": "https://www.zendesk.com/industries/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         220,
+         169,
+         1000,
+         554
+        ]
+       },
+       "expanded": "false",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 100,
+         "delay": 150,
+         "easing": "linear",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 100,
+         "delay": 0,
+         "easing": "cubic-bezier(0.5, 0, 1, 1)",
+         "target": "span.Linkstyle__LinkText-sc-1n8u9ej-3"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.7, 0, 0.3, 1)",
+         "target": "span.Linkstyle__LinkRoot-sc-1n8u9ej-6"
+        }
+       ],
+       "shot": "1440-011-Solutions-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Messaging and live chat Engage customers on your website or mobile app",
+          "href": "https://www.zendesk.com/service/messaging/"
+         },
+         {
+          "text": "Ticketing Track, organize, and resolve all your tickets in one place",
+          "href": "https://www.zendesk.com/service/ticketing-system/"
+         },
+         {
+          "text": "IT service management IT support that empowers your workforce",
+          "href": "https://www.zendesk.com/employee-service/itsm/"
+         },
+         {
+          "text": "Knowledge base Power every resolution with connected knowledge",
+          "href": "https://www.zendesk.com/service/knowledge/"
+         },
+         {
+          "text": "Voice Manage and resolve customer calls with AI",
+          "href": "https://www.zendesk.com/service/voice/"
+         },
+         {
+          "text": "Startups Get up to 2 years of Zendesk free for qualified startups",
+          "href": "https://www.zendesk.com/business/startups/"
+         },
+         {
+          "text": "Retail Turn service into smarter selling",
+          "href": "https://www.zendesk.com/industries/retail/"
+         },
+         {
+          "text": "Financial Services Secure service that builds financial trust",
+          "href": "https://www.zendesk.com/industries/financial-services/"
+         },
+         {
+          "text": "Technology Transform support to drive net retention",
+          "href": "https://www.zendesk.com/industries/technology/"
+         },
+         {
+          "text": "Media & Entertainment Engage audiences and elevate experiences",
+          "href": "https://www.zendesk.com/industries/media/"
+         },
+         {
+          "text": "View all business types",
+          "href": "https://www.zendesk.com/industries/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         220,
+         169,
+         1000,
+         554
+        ]
+       },
+       "expanded": "false",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 100,
+         "delay": 150,
+         "easing": "linear",
+         "target": "svg"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 100,
+         "delay": 0,
+         "easing": "cubic-bezier(0.5, 0, 1, 1)",
+         "target": "span.Linkstyle__LinkText-sc-1n8u9ej-3"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.7, 0, 0.3, 1)",
+         "target": "span.Linkstyle__LinkRoot-sc-1n8u9ej-6"
+        }
+       ],
+       "shot": "1440-012-Solutions-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Resources",
+     "key": "resources",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(3)>nav:nth-of-type(2)>div>div:nth-of-type(2)>div:nth-of-type(4)>span",
+     "expanded": "false",
+     "rect": [
+      726,
+      92,
+      123,
+      73
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Customer stories Success stories from customers who love Zendesk",
+          "href": "https://www.zendesk.com/customer/"
+         },
+         {
+          "text": "Blog Content focused on growing and scaling your support teams",
+          "href": "https://www.zendesk.com/blog/"
+         },
+         {
+          "text": "Events Discover popular local events, browse by category, or view on-demand options",
+          "href": "https://www.zendesk.com/company/events/"
+         },
+         {
+          "text": "CX Trends Our flagship report, covering the five trends shaping the future of CX",
+          "href": "https://cxtrends.zendesk.com/?utm_source=navigation&utm_medium=webpromo&utm_campaign=CX_Trends_2026_Report_US_English_NA_2025Q4"
+         },
+         {
+          "text": "Help Center Articles and discussions to answer your questions",
+          "href": "https://support.zendesk.com/hc/en-us/"
+         },
+         {
+          "text": "Community Connect, learn, and share with other Zendesk users",
+          "href": "https://www.zendesk.com/programs/zendesk-community/"
+         },
+         {
+          "text": "Partners Find a partner to help your business integrate with Zendesk solutions",
+          "href": "https://www.zendesk.com/partner/"
+         },
+         {
+          "text": "What's new Stay up to date with new product releases",
+          "href": "https://support.zendesk.com/hc/en-us/sections/4405298877338-What-s-New-in-Zendesk/"
+         },
+         {
+          "text": "About Us Learn why Zendesk is the leader in AI customer service",
+          "href": "https://www.zendesk.com/company/"
+         },
+         {
+          "text": "Why Zendesk See why 80,000+ companies choose Zendesk for AI service",
+          "href": "https://www.zendesk.com/why-zendesk/"
+         },
+         {
+          "text": "Newsroom See news updates and press about Zendesk",
+          "href": "https://www.zendesk.com/newsroom/"
+         },
+         {
+          "text": "Careers Want to work at Zendesk? Check out our current openings",
+          "href": "https://www.zendesk.com/company/careers/"
+         },
+         {
+          "text": "Watch now",
+          "href": "https://www.zendesk.com/company/events/ai-summit-2026/?utm_medium=webpromo&utm_source=navigation&utm_campaign=AISummit_26_nav3_NA_2026Q3"
+         }
+        ],
+        "headings": [
+         "AI Summit 2026 now available to stream"
+        ],
+        "images": 2,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         220,
+         169,
+         1000,
+         539
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 2,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.StyledTextInput-sc-k12n8x-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 2,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.StyledTextInput-sc-k12n8x-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 2,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.StyledTextInput-sc-k12n8x-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 2,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "input.StyledTextInput-sc-k12n8x-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 100,
+         "delay": 0,
+         "easing": "cubic-bezier(0.5, 0, 1, 1)",
+         "target": "span.Linkstyle__LinkText-sc-1n8u9ej-3"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.7, 0, 0.3, 1)",
+         "target": "span.Linkstyle__LinkRoot-sc-1n8u9ej-6"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 100,
+         "delay": 150,
+         "easing": "linear",
+         "target": "svg"
+        }
+       ],
+       "shot": "1440-013-Resources-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Customer stories Success stories from customers who love Zendesk",
+          "href": "https://www.zendesk.com/customer/"
+         },
+         {
+          "text": "Blog Content focused on growing and scaling your support teams",
+          "href": "https://www.zendesk.com/blog/"
+         },
+         {
+          "text": "Events Discover popular local events, browse by category, or view on-demand options",
+          "href": "https://www.zendesk.com/company/events/"
+         },
+         {
+          "text": "CX Trends Our flagship report, covering the five trends shaping the future of CX",
+          "href": "https://cxtrends.zendesk.com/?utm_source=navigation&utm_medium=webpromo&utm_campaign=CX_Trends_2026_Report_US_English_NA_2025Q4"
+         },
+         {
+          "text": "Help Center Articles and discussions to answer your questions",
+          "href": "https://support.zendesk.com/hc/en-us/"
+         },
+         {
+          "text": "Community Connect, learn, and share with other Zendesk users",
+          "href": "https://www.zendesk.com/programs/zendesk-community/"
+         },
+         {
+          "text": "Partners Find a partner to help your business integrate with Zendesk solutions",
+          "href": "https://www.zendesk.com/partner/"
+         },
+         {
+          "text": "What's new Stay up to date with new product releases",
+          "href": "https://support.zendesk.com/hc/en-us/sections/4405298877338-What-s-New-in-Zendesk/"
+         },
+         {
+          "text": "About Us Learn why Zendesk is the leader in AI customer service",
+          "href": "https://www.zendesk.com/company/"
+         },
+         {
+          "text": "Why Zendesk See why 80,000+ companies choose Zendesk for AI service",
+          "href": "https://www.zendesk.com/why-zendesk/"
+         },
+         {
+          "text": "Newsroom See news updates and press about Zendesk",
+          "href": "https://www.zendesk.com/newsroom/"
+         },
+         {
+          "text": "Careers Want to work at Zendesk? Check out our current openings",
+          "href": "https://www.zendesk.com/company/careers/"
+         },
+         {
+          "text": "Watch now",
+          "href": "https://www.zendesk.com/company/events/ai-summit-2026/?utm_medium=webpromo&utm_source=navigation&utm_campaign=AISummit_26_nav3_NA_2026Q3"
+         }
+        ],
+        "headings": [
+         "AI Summit 2026 now available to stream"
+        ],
+        "images": 2,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         220,
+         169,
+         1000,
+         539
+        ]
+       },
+       "expanded": "false",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 100,
+         "delay": 0,
+         "easing": "cubic-bezier(0.5, 0, 1, 1)",
+         "target": "span.Linkstyle__LinkText-sc-1n8u9ej-3"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.7, 0, 0.3, 1)",
+         "target": "span.Linkstyle__LinkRoot-sc-1n8u9ej-6"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 100,
+         "delay": 150,
+         "easing": "linear",
+         "target": "svg"
+        }
+       ],
+       "shot": "1440-014-Resources-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Customer stories Success stories from customers who love Zendesk",
+          "href": "https://www.zendesk.com/customer/"
+         },
+         {
+          "text": "Blog Content focused on growing and scaling your support teams",
+          "href": "https://www.zendesk.com/blog/"
+         },
+         {
+          "text": "Events Discover popular local events, browse by category, or view on-demand options",
+          "href": "https://www.zendesk.com/company/events/"
+         },
+         {
+          "text": "CX Trends Our flagship report, covering the five trends shaping the future of CX",
+          "href": "https://cxtrends.zendesk.com/?utm_source=navigation&utm_medium=webpromo&utm_campaign=CX_Trends_2026_Report_US_English_NA_2025Q4"
+         },
+         {
+          "text": "Help Center Articles and discussions to answer your questions",
+          "href": "https://support.zendesk.com/hc/en-us/"
+         },
+         {
+          "text": "Community Connect, learn, and share with other Zendesk users",
+          "href": "https://www.zendesk.com/programs/zendesk-community/"
+         },
+         {
+          "text": "Partners Find a partner to help your business integrate with Zendesk solutions",
+          "href": "https://www.zendesk.com/partner/"
+         },
+         {
+          "text": "What's new Stay up to date with new product releases",
+          "href": "https://support.zendesk.com/hc/en-us/sections/4405298877338-What-s-New-in-Zendesk/"
+         },
+         {
+          "text": "About Us Learn why Zendesk is the leader in AI customer service",
+          "href": "https://www.zendesk.com/company/"
+         },
+         {
+          "text": "Why Zendesk See why 80,000+ companies choose Zendesk for AI service",
+          "href": "https://www.zendesk.com/why-zendesk/"
+         },
+         {
+          "text": "Newsroom See news updates and press about Zendesk",
+          "href": "https://www.zendesk.com/newsroom/"
+         },
+         {
+          "text": "Careers Want to work at Zendesk? Check out our current openings",
+          "href": "https://www.zendesk.com/company/careers/"
+         },
+         {
+          "text": "Watch now",
+          "href": "https://www.zendesk.com/company/events/ai-summit-2026/?utm_medium=webpromo&utm_source=navigation&utm_campaign=AISummit_26_nav3_NA_2026Q3"
+         }
+        ],
+        "headings": [
+         "AI Summit 2026 now available to stream"
+        ],
+        "images": 2,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         220,
+         169,
+         1000,
+         539
+        ]
+       },
+       "expanded": "false",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 100,
+         "delay": 0,
+         "easing": "cubic-bezier(0.5, 0, 1, 1)",
+         "target": "span.Linkstyle__LinkText-sc-1n8u9ej-3"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 600,
+         "delay": 0,
+         "easing": "cubic-bezier(0.7, 0, 0.3, 1)",
+         "target": "span.Linkstyle__LinkRoot-sc-1n8u9ej-6"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 100,
+         "delay": 150,
+         "easing": "linear",
+         "target": "svg"
+        }
+       ],
+       "shot": "1440-015-Resources-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Pricing",
+     "key": "pricing",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(3)>nav:nth-of-type(2)>div>div:nth-of-type(2)>div:nth-of-type(5)>a",
+     "href": "https://www.zendesk.com/pricing/",
+     "expanded": null,
+     "rect": [
+      857,
+      92,
+      77,
+      73
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Try for free",
+     "key": "try for free",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(3)>nav:nth-of-type(2)>div>div:nth-of-type(3)>a:nth-of-type(1)",
+     "href": "https://www.zendesk.com/register/",
+     "expanded": null,
+     "rect": [
+      1176,
+      106,
+      114,
+      43
+     ],
+     "actions": {}
+    },
+    {
+     "name": "View demo",
+     "key": "view demo",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(1)>div>div:nth-of-type(3)>nav:nth-of-type(2)>div>div:nth-of-type(3)>a:nth-of-type(2)",
+     "href": "https://www.zendesk.com/demo/",
+     "expanded": null,
+     "rect": [
+      1301,
+      106,
+      115,
+      43
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 58,
+     "height": 110,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -32,
+     "height": 110,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -32,
+     "height": 110,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 58,
+     "height": 110,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 15,
+   "truncated": null,
+   "loads": 1,
+   "requests": 166,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": null
+}

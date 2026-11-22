@@ -1,0 +1,941 @@
+{
+  "slug": "employee-service",
+  "type": "program",
+  "renderBranch": "A'",
+  "template": "service",
+  "modules": [
+    "sv-hero",
+    "sv-promo",
+    "sv-columns",
+    "sv-cards",
+    "sv-accordion",
+    "sv-embed",
+    "sv-stories",
+    "sv-links",
+    "sv-carousel",
+    "sv-form"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "sv-wrap",
+    "sv-modal"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": "82a3dbc75361",
+    "css": "6522953e4893"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "closest-module-mapping",
+      "rule": "each live section carried with the closest archetype sv- module; compositions the archetype lacks ride a variant class on that module (block stays generic)",
+      "builder": "stardust/rollout/encoders/sibling-program/build.mjs",
+      "sections": [
+        {
+          "id": "teaser-d2b0967197",
+          "module": "sv-hero",
+          "variants": [
+            "trial",
+            "video"
+          ],
+          "heading": "AI that delivers real employee resolutions"
+        },
+        {
+          "id": "teaser-4de18a0518",
+          "module": "sv-promo",
+          "variants": [],
+          "heading": "Employee Service AI Agents"
+        },
+        {
+          "id": "teaser-094cd3885f",
+          "module": "sv-columns",
+          "variants": [
+            "media"
+          ],
+          "heading": "IT Service Management"
+        },
+        {
+          "id": "teaser-3cd96ac2d7",
+          "module": "sv-columns",
+          "variants": [
+            "media"
+          ],
+          "heading": "HR Service"
+        },
+        {
+          "id": "teaser-d3fab51a00",
+          "module": "sv-cards",
+          "variants": [],
+          "heading": "Set up fast, resolve even faster"
+        },
+        {
+          "id": "teaser-f9dab5a082",
+          "module": "sv-columns",
+          "variants": [
+            "media"
+          ],
+          "heading": "Zendesk named a Major Player in the 2026 IDC MarketScape for Worldwide AI-Enabled ITSM Software"
+        },
+        {
+          "id": "teaser-2e06c28fd9",
+          "module": "sv-accordion",
+          "variants": [],
+          "heading": "Better, faster employee service"
+        },
+        {
+          "id": "teaser-e914e76b70",
+          "module": "sv-embed",
+          "variants": [],
+          "heading": "See it in action"
+        },
+        {
+          "id": "testimonials",
+          "module": "sv-stories",
+          "variants": [],
+          "heading": null
+        },
+        {
+          "id": "teaser-c284b2e644",
+          "module": "sv-links",
+          "variants": [],
+          "heading": "Explore capabilities"
+        },
+        {
+          "id": "teaser-3520ddca20",
+          "module": "sv-columns",
+          "variants": [],
+          "heading": "Protected by Zendesk"
+        },
+        {
+          "id": "teaser-28e3ab81ff",
+          "module": "sv-carousel",
+          "variants": [],
+          "heading": "Additional resources"
+        },
+        {
+          "id": "teaser-74259ca98f",
+          "module": "sv-accordion",
+          "variants": [
+            "faq"
+          ],
+          "heading": "Frequently asked questions"
+        },
+        {
+          "id": "teaser-0bf9ba2e25",
+          "module": "sv-cards",
+          "variants": [
+            "logos"
+          ],
+          "heading": "Powering 100,000+ of the best customer and employee experiences"
+        },
+        {
+          "id": null,
+          "module": "sv-form",
+          "variants": [
+            "modal"
+          ],
+          "heading": "Contact Sales"
+        }
+      ]
+    },
+    {
+      "kind": "encoder",
+      "archetypeEncoder": "stardust/rollout/encoders/archetype-program/gen-content.py — one-off scraper of service-proposed.html (hardcoded strings/asset maps); exits 1 on any sibling and on migrated/service",
+      "siblingEncoder": "stardust/rollout/encoders/sibling-program/encode.mjs <migrated index.html> <out> --page-url <live url> — archetype block names + row shapes, variant classes on the block; scratch run exit 0 under stardust/.work/render/program/enc/"
+    }
+  ],
+  "metadata": {
+    "title": "Zendesk: AI-Powered Employee Service Solution",
+    "description": "Boost team support and HR efficiency with our AI-powered employee service solution. Simplify assistance at scale. Start transforming your workplace today!",
+    "canonical": "https://www.zendesk.com/employee-service/",
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Zendesk: AI-Powered Employee Service Solution",
+    "description": "Boost team support and HR efficiency with our AI-powered employee service solution. Simplify assistance at scale. Start transforming your workplace today!",
+    "url": "https://www.zendesk.com/employee-service/"
+  },
+  "migratedAt": "2026-11-20T14:02:20Z",
+  "designMdSha": "84a4a03d7364",
+  "designJsonSha": "28069f8740fe",
+  "sourceCurrentSha": "f9d0fa61254b",
+  "sourceProposedSha": "115d16c5c4d7",
+  "fidelityTier": "sibling",
+  "archetypeSource": "service",
+  "archetypeSha": "4d81ca4b601a",
+  "variants": [
+    "sv-hero trial",
+    "sv-hero video",
+    "sv-columns media",
+    "sv-accordion faq",
+    "sv-cards logos",
+    "sv-form modal"
+  ],
+  "gatesPassed": [
+    "content-count",
+    "content-fidelity",
+    "variance-probe",
+    "pixel-gate-1440",
+    "media-reconcile"
+  ],
+  "gateEvidence": {
+    "content-count": "sibling-program/count.mjs vs stardust/current/pages/employee-service.{html,json}: employee-service: headings 32/32 · body 102/83 · ctas 44/44 · images 35/35 · media 2/2 · fields 9/9 · json-headings 31/31 · drops 0",
+    "content-fidelity": "verbatim DOM serialization from the hydrated capture (build.mjs); 0 uncovered drops; dedupe/player-chrome logged in contentDeviations",
+    "variance-probe": "sibling-variance.mjs exit 2 (stardust/.work/render/program/variance.json, job program-variance): 9 findings: CLUSTERS | COUNT | PROBE — budgeted as variant classes on the sibling's modules (variants[]), no block fork",
+    "pixel-gate-1440": "gate-all published origin main--3055ed88--aemcoder.aem.page @1440: pixel 4.94 (11.73) [15]%, offsets 7 step(s), 74px (bound 111), Δh 72px, clipped 0, MISSING 0 / HIDDEN 0 / state 10 → PASS (cp1-g1440-r3.log)",
+    "media-reconcile": "media-reconcile content/employee-service.html --deploy-host main--3055ed88--aemcoder.aem.live: 35 hosted (employee-service-media-reconcile.log)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "deduplicated",
+      "source": "capture main (12 node(s))",
+      "target": "omitted from sibling render",
+      "reason": "AccordionMediaMobile duplicate image set (mobile copy of the desktop media)"
+    },
+    {
+      "kind": "deduplicated",
+      "source": "capture main (4 node(s))",
+      "target": "omitted from sibling render",
+      "reason": "slick clone slide (carousel loop copy)"
+    }
+  ],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/login/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.zendesk.com/it/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/au/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/in/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/zendesk-bridge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/analytics/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/service/ai/ai-agents/any-platform/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/trust-center/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/service/contact-center/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/quality-assurance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/workforce-management/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/messaging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/employee-service/itsm/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/voice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/startups/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/retail/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/financial-services/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/technology/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/media/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/customer/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/company/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/programs/zendesk-community/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/newsroom/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/company/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/company/events/ai-summit-2026/?utm_medium=webpromo&utm_source=navigation&utm_campaign=AISummit_26_nav3_NA_2026Q3",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/register/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/company/agreements-and-terms/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/employee-service/ai-agents",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/employee-service/itsm/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/employee-service/human-resources/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/employee-service/ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/quality-assurance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/github-es/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/customer/tesco/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/audacy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/employee-service/ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/quality-assurance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/analytics/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/voice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/employee-service/itam/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer-data-privacy-protection/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/messaging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/trust-center/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/sustainability/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/campaigns/it-enterprise-ai-report/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/dupage-county/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blog/guides-and-ebooks/it-transformation-playbook/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/zendesk-insights/expertise/the-ai-advantage-how-smart-automation-gives-it-teams-their-lives-back/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/zendesk-insights/trends/3-ways-ai-will-reshape-hr-by-2028/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/zendesk-insights/trends/ai-strategies-productivity/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/ai/productivity/unlock-the-future-of-work-with-ai-driven-insights/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/trust-center/#ai",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blog/zendesk-insights/expertise/create-better-employee-experiences-zendesk-marketplace-apps/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/3-steps-achieving-customer-satisfaction-loyalty/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pricing/employee-service-pricing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/newsroom/articles/building-responsible-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/trust-center/#ai",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/trust-center/#ai",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/demo/?useCase=employee",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/pricing/employee-service-pricing/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/privacy-policy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/contact-center/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/login/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/business/enterprise/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/smb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/startups/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/specialized-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/messaging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/customer-data-privacy-protection/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/voice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/community-forum/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/analytics/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/workforce-management/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/quality-assurance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/live-chat/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/customer-portal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/trust-center/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/developers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/ai/zendesk-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/professional-services/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/free-trial/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/newsroom/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/what-is-zendesk/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.zendesk.com/company/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/belonging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/sustainability/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/ventures/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/zendesk-vs-intercom/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/zendesk-vs-salesforce/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/zendesk-vs-freshdesk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/programs/experience-research-panel/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ticketing-system/customer-service-management-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/help-desk-software/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/messaging/live-chat-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/online-community-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/help-desk-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/client-portal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/knowledge-base-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/top-ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/contact-center/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/login/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/business/enterprise/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/smb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/startups/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/specialized-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/messaging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/customer-data-privacy-protection/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/voice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/community-forum/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/analytics/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/workforce-management/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/quality-assurance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/live-chat/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/customer-portal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/trust-center/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/developers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/ai/zendesk-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/professional-services/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/free-trial/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/newsroom/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/what-is-zendesk/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.zendesk.com/company/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/belonging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/sustainability/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/ventures/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/zendesk-vs-intercom/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/zendesk-vs-salesforce/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/zendesk-vs-freshdesk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/programs/experience-research-panel/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ticketing-system/customer-service-management-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/help-desk-software/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/messaging/live-chat-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/online-community-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/help-desk-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/client-portal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/knowledge-base-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/top-ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/terms-of-use/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/cookie-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/trust-center/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "employee-service/index.html",
+  "outputPathDefault": null,
+  "sidecar": "employee-service/_meta.json",
+  "driverVersion": "1"
+}

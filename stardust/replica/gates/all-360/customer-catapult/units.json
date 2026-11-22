@@ -1,0 +1,1140 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-21T12:25:36.488Z",
+  "tol": 4,
+  "n": 4,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/customer/catapult/",
+  "at": "2026-11-20T19:49:39.667Z",
+  "docH": 12053
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/customer/catapult",
+  "at": "2026-11-21T12:25:36.403Z",
+  "docH": 12053
+ },
+ "results": [
+  {
+   "sel": ".Cardstyle__CardRoot-sc-1g3sojj-1=.zb-fact",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:company headquarters",
+       "role": "heading",
+       "text": "company headquarters",
+       "edsText": "company headquarters",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 24,
+        "w": 126,
+        "h": 44
+       },
+       "eds": {
+        "x": 24,
+        "y": 24,
+        "w": 126,
+        "h": 44,
+        "sel": "h2#company-headquarters",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:melbourne, australia",
+       "role": "text",
+       "text": "melbourne, australia",
+       "edsText": "melbourne, australia",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 84,
+        "w": 126,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 84,
+        "w": 126,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2131,
+       "w": 174,
+       "h": 156
+      },
+      "eds": {
+       "x": 16,
+       "y": 2131,
+       "w": 174,
+       "h": 156
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:sports teams serviced",
+       "role": "heading",
+       "text": "sports teams serviced",
+       "edsText": "sports teams serviced",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 24,
+        "w": 90,
+        "h": 66
+       },
+       "eds": {
+        "x": 24,
+        "y": 24,
+        "w": 90,
+        "h": 66,
+        "sel": "h2#sports-teams-serviced",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:4,200+",
+       "role": "text",
+       "text": "4,200+",
+       "edsText": "4,200+",
+       "byPosition": false,
+       "origin": {
+        "x": 44,
+        "y": 106,
+        "w": 50,
+        "h": 24
+       },
+       "eds": {
+        "x": 44,
+        "y": 106,
+        "w": 50,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 206,
+       "y": 2131,
+       "w": 138,
+       "h": 154
+      },
+      "eds": {
+       "x": 206,
+       "y": 2131,
+       "w": 138,
+       "h": 154
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:employees",
+       "role": "heading",
+       "text": "employees",
+       "edsText": "employees",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 24,
+        "w": 91,
+        "h": 22
+       },
+       "eds": {
+        "x": 33,
+        "y": 24,
+        "w": 91,
+        "h": 22,
+        "sel": "h2#employees",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:400+",
+       "role": "text",
+       "text": "400+",
+       "edsText": "400+",
+       "byPosition": false,
+       "origin": {
+        "x": 60,
+        "y": 62,
+        "w": 37,
+        "h": 24
+       },
+       "eds": {
+        "x": 60,
+        "y": 62,
+        "w": 37,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2311,
+       "w": 156,
+       "h": 110
+      },
+      "eds": {
+       "x": 16,
+       "y": 2311,
+       "w": 156,
+       "h": 110
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.gOpaft > div.Cardstyle__CardRoot-sc-1g3sojj-1.uIIEj"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-facts-row > div.zb-facts-col > div.zb-facts-fact.zb-fact"
+     },
+     "rows": [
+      {
+       "key": "heading:company founded",
+       "role": "heading",
+       "text": "company founded",
+       "edsText": "company founded",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 24,
+        "w": 108,
+        "h": 44
+       },
+       "eds": {
+        "x": 24,
+        "y": 24,
+        "w": 108,
+        "h": 44,
+        "sel": "h2#company-founded",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/22/700",
+        "eds": "14/22/700"
+       }
+      },
+      {
+       "key": "text:2006",
+       "role": "text",
+       "text": "2006",
+       "edsText": "2006",
+       "byPosition": false,
+       "origin": {
+        "x": 59,
+        "y": 84,
+        "w": 38,
+        "h": 24
+       },
+       "eds": {
+        "x": 59,
+        "y": 84,
+        "w": 38,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 188,
+       "y": 2311,
+       "w": 156,
+       "h": 132
+      },
+      "eds": {
+       "x": 188,
+       "y": 2311,
+       "w": 156,
+       "h": 132
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Quotestyle__QuoteRoot-sc-rczw5k-0=.zb-quote",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.khrxgA > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:“zendesk ai copilot has provided us with",
+       "role": "text",
+       "text": "“zendesk ai copilot has provided us with tools that save age",
+       "edsText": "“zendesk ai copilot has provided us with tools that save age",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 208
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 208,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "text:thomas powers",
+       "role": "text",
+       "text": "thomas powers",
+       "edsText": "thomas powers",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 280,
+        "w": 264,
+        "h": 26
+       },
+       "eds": {
+        "x": 32,
+        "y": 280,
+        "w": 264,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/600",
+        "eds": "18/26/600"
+       }
+      },
+      {
+       "key": "text:vice president of product support at cat",
+       "role": "text",
+       "text": "vice president of product support at catapult sports",
+       "edsText": "vice president of product support at catapult sports",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 319,
+        "w": 264,
+        "h": 36
+       },
+       "eds": {
+        "x": 32,
+        "y": 319,
+        "w": 264,
+        "h": 36,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/18/400",
+        "eds": "13/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1299,
+       "w": 328,
+       "h": 400
+      },
+      "eds": {
+       "x": 16,
+       "y": 1299,
+       "w": 328,
+       "h": 400
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.jcTdzb > div.StyledCol-sc-inuw62-0.khrxgA > div.Quotestyle__QuoteRoot-sc-rczw5k-0.bSUcvB"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-quotes-row > div.zb-quotes-col > div.zb-quotes-quote.zb-quote"
+     },
+     "rows": [
+      {
+       "key": "text:“intelligent triage allows us to underst",
+       "role": "text",
+       "text": "“intelligent triage allows us to understand the type of tick",
+       "edsText": "“intelligent triage allows us to understand the type of tick",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 208
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 264,
+        "h": 208,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "text:thomas powers",
+       "role": "text",
+       "text": "thomas powers",
+       "edsText": "thomas powers",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 280,
+        "w": 264,
+        "h": 26
+       },
+       "eds": {
+        "x": 32,
+        "y": 280,
+        "w": 264,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/600",
+        "eds": "18/26/600"
+       }
+      },
+      {
+       "key": "text:vice president of product support at cat",
+       "role": "text",
+       "text": "vice president of product support at catapult sports",
+       "edsText": "vice president of product support at catapult sports",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 319,
+        "w": 264,
+        "h": 36
+       },
+       "eds": {
+        "x": 32,
+        "y": 319,
+        "w": 264,
+        "h": 36,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/18/400",
+        "eds": "13/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1699,
+       "w": 328,
+       "h": 400
+      },
+      "eds": {
+       "x": 16,
+       "y": 1699,
+       "w": 328,
+       "h": 400
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".Statstyle__StatRoot-sc-17s8ggd-0=.zb-stat",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:50%",
+       "role": "text",
+       "text": "50%",
+       "edsText": "50%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 68,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 68,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/700",
+        "eds": "34/42/700"
+       }
+      },
+      {
+       "key": "text:decrease in first reply time with zendes",
+       "role": "text",
+       "text": "decrease in first reply time with zendesk ai",
+       "edsText": "decrease in first reply time with zendesk ai",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 46,
+        "w": 68,
+        "h": 144
+       },
+       "eds": {
+        "x": 0,
+        "y": 46,
+        "w": 68,
+        "h": 144,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2531,
+       "w": 68,
+       "h": 190
+      },
+      "eds": {
+       "x": 16,
+       "y": 2531,
+       "w": 68,
+       "h": 190
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:97",
+       "role": "text",
+       "text": "97",
+       "edsText": "97",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 65,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 65,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/700",
+        "eds": "34/42/700"
+       }
+      },
+      {
+       "key": "text:csat",
+       "role": "text",
+       "text": "csat",
+       "edsText": "csat",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 46,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 46,
+        "w": 65,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 100,
+       "y": 2531,
+       "w": 65,
+       "h": 70
+      },
+      "eds": {
+       "x": 100,
+       "y": 2531,
+       "w": 65,
+       "h": 70
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:21%",
+       "role": "text",
+       "text": "21%",
+       "edsText": "21%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 70,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 70,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/700",
+        "eds": "34/42/700"
+       }
+      },
+      {
+       "key": "text:decrease in full resolution time",
+       "role": "text",
+       "text": "decrease in full resolution time",
+       "edsText": "decrease in full resolution time",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 46,
+        "w": 70,
+        "h": 96
+       },
+       "eds": {
+        "x": 0,
+        "y": 46,
+        "w": 70,
+        "h": 96,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 2531,
+       "w": 70,
+       "h": 142
+      },
+      "eds": {
+       "x": 181,
+       "y": 2531,
+       "w": 70,
+       "h": 142
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.StyledRow-sc-xjsdg1-0.fsMCSE > div.StyledCol-sc-inuw62-0.gOpaft > div.Statstyle__StatRoot-sc-17s8ggd-0.kLoMYp"
+     },
+     "eds": {
+      "path": "div.zb-row.zb-stats-row > div.zb-stats-col > div.zb-stats-stat.zb-stat"
+     },
+     "rows": [
+      {
+       "key": "text:41%",
+       "role": "text",
+       "text": "41%",
+       "edsText": "41%",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 77,
+        "h": 42
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 77,
+        "h": 42,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/700",
+        "eds": "34/42/700"
+       }
+      },
+      {
+       "key": "text:automated resolutions",
+       "role": "text",
+       "text": "automated resolutions",
+       "edsText": "automated resolutions",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 46,
+        "w": 77,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 46,
+        "w": 77,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 267,
+       "y": 2531,
+       "w": 77,
+       "h": 94
+      },
+      "eds": {
+       "x": 267,
+       "y": 2531,
+       "w": 77,
+       "h": 94
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 22,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

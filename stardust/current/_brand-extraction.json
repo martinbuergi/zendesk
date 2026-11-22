@@ -1,0 +1,1300 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-20T07:45:52.512Z",
+    "readArtifacts": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/pages/*.json (100)",
+      "stardust/current/pages/*.html",
+      "https://www.zendesk.com/ (raw HTML, @font-face)",
+      "https://www.zendesk.com/customer/canva/ (raw HTML, @font-face)"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.42.2",
+    "notes": [
+      "TWO DESIGN GENERATIONS coexist: gen A (current: Vanilla Sans, ink #11110d, lime #d1f470, cream #f5f5f2, forest #203524, 16px button radius) on 19 pages; gen B (legacy: Sharp Sans headings + Proxima Nova body, teal #17494d/#03363d, square 0px buttons) on 65 pages (all customer stories, /customer/, /sell/, /sitemap/, /repeatcustomer/, /employee-experience/, /newsroom/).",
+      "Cross-page radius mode is 4px (6647 elements, mostly small chips/inputs); area mode 16px (gen A buttons/cards); home suggests 16px/20px (--radius:20px).",
+      "Palette capped at 8; dropped: #000000 (marketplace text), #3d8dae (legacy link text, customer stories), #d5d5d2 (borders), #90918c (borders), alpha inks #11110d1c/#11110d0d (hairlines/tints)."
+    ]
+  },
+  "site": {
+    "name": "Zendesk",
+    "tagline": "Move beyond deflection with AI agents that resolve issues end-to-end. Improve service quality, speed, and scale. Start your free trial.",
+    "originUrl": "https://www.zendesk.com"
+  },
+  "origins": [
+    {
+      "origin": "https://www.zendesk.com",
+      "role": "primary",
+      "pages": 100
+    }
+  ],
+  "logo": {
+    "source": "inline-svg",
+    "sourceSelector": "div[id^=\"header-\"] nav a[aria-label=\"Zendesk home\"] > svg",
+    "localPath": "stardust/current/assets/logo.svg",
+    "format": "svg",
+    "intrinsicWidth": 78.4,
+    "intrinsicHeight": 56,
+    "synthesized": false,
+    "synthesizedBasis": null,
+    "fill": "currentColor",
+    "variants": [
+      {
+        "name": "legacy-wordmark",
+        "localPath": "stardust/current/assets/logo-legacy.svg",
+        "sourceSelector": "header nav a[aria-label=\"Zendesk\"] > svg (customer/canva)",
+        "intrinsicWidth": 83,
+        "intrinsicHeight": 16
+      }
+    ]
+  },
+  "favicon": {
+    "localPath": "stardust/current/assets/favicon.ico",
+    "url": "https://d1eipm3vz40hy0.cloudfront.net/images/logos/favicons/zendesk-favicon.ico",
+    "svg": "https://d1eipm3vz40hy0.cloudfront.net/images/logos/favicons/zendesk-icon.svg"
+  },
+  "palette": [
+    {
+      "role": "background",
+      "value": "#ffffff",
+      "occurrences": 3219,
+      "usedAs": [
+        "text",
+        "background"
+      ],
+      "sources": [
+        "/",
+        "/cxtrends/",
+        "/employee-service/"
+      ],
+      "sourceSelectors": [
+        "body > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1) > span > strong",
+        "section:nth-of-type(3) > div > div > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+      ]
+    },
+    {
+      "role": "text-primary",
+      "value": "#11110d",
+      "occurrences": 3319,
+      "usedAs": [
+        "text",
+        "border",
+        "background"
+      ],
+      "sources": [
+        "/trust-center/",
+        "/blog/",
+        "/employee-service/"
+      ],
+      "sourceSelectors": [
+        "nav > div > div:nth-of-type(1) > a > span",
+        "nav > div > div:nth-of-type(1) > a > span"
+      ],
+      "note": "current-design ink (gen A); also dark footer surface"
+    },
+    {
+      "role": "primary",
+      "value": "#17494d",
+      "occurrences": 4521,
+      "usedAs": [
+        "text",
+        "border",
+        "background"
+      ],
+      "sources": [
+        "/sitemap/",
+        "/customer/perk-es/",
+        "/customer/dfin/"
+      ],
+      "sourceSelectors": [
+        "nav > div > div > div:nth-of-type(1) > a > span",
+        "section > div > div > div:nth-of-type(2) > div:nth-of-type(1) > ul > li:nth-of-type(1) > a"
+      ],
+      "note": "legacy (gen B) button/link teal; hover #06615a"
+    },
+    {
+      "role": "heading-legacy",
+      "value": "#03363d",
+      "occurrences": 2746,
+      "usedAs": [
+        "text",
+        "background",
+        "border"
+      ],
+      "sources": [
+        "/sell/",
+        "/employee-experience/",
+        "/customer/"
+      ],
+      "sourceSelectors": [
+        "nav > div > div > div > div:nth-of-type(2) > span",
+        "nav > div > div > div > div:nth-of-type(2) > span"
+      ],
+      "note": "legacy (gen B) heading ink"
+    },
+    {
+      "role": "accent",
+      "value": "#d1f470",
+      "occurrences": 225,
+      "usedAs": [
+        "background",
+        "text",
+        "border"
+      ],
+      "sources": [
+        "/",
+        "/pricing/",
+        "/why-zendesk/"
+      ],
+      "sourceSelectors": [
+        "nav > div > div:nth-of-type(3) > a:nth-of-type(1)",
+        "nav > div > div:nth-of-type(3) > a:nth-of-type(1)"
+      ],
+      "note": "current-design lime CTA fill (gen A)"
+    },
+    {
+      "role": "surface",
+      "value": "#f5f5f2",
+      "occurrences": 541,
+      "usedAs": [
+        "background",
+        "text"
+      ],
+      "sources": [
+        "/company/",
+        "/",
+        "/employee-service/"
+      ],
+      "sourceSelectors": [
+        "#button-db7fd2da4a",
+        "#hero > div:nth-of-type(1) > div:nth-of-type(1) > div > div > h1:nth-of-type(1)"
+      ],
+      "note": "current-design cream panel"
+    },
+    {
+      "role": "text-secondary",
+      "value": "#68737d",
+      "occurrences": 3991,
+      "usedAs": [
+        "text",
+        "border"
+      ],
+      "sources": [
+        "/newsroom/",
+        "/customer/",
+        "/customer/action-property-management/"
+      ],
+      "sourceSelectors": [
+        "#main-content > section:nth-of-type(1) > div > div > ul > li:nth-of-type(3) > a",
+        "div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a > span"
+      ],
+      "note": "legacy muted text / nav utility"
+    },
+    {
+      "role": "accent-2",
+      "value": "#203524",
+      "occurrences": 17,
+      "usedAs": [
+        "background"
+      ],
+      "sources": [
+        "/",
+        "/employee-service/",
+        "/cxtrends/"
+      ],
+      "sourceSelectors": [
+        "#container-8dbc66d40b > section:nth-of-type(3) > div > div > div > div:nth-of-type(2)",
+        "#container-1ab1d7adbe > section:nth-of-type(2) > div > div > div > div"
+      ],
+      "note": "current-design forest-green band"
+    }
+  ],
+  "type": {
+    "headingFamily": {
+      "name": "Vanilla Sans",
+      "generation": "A",
+      "stack": "\"Vanilla Sans\", Arial, sans-serif",
+      "weights": [
+        500,
+        600,
+        700
+      ],
+      "sizes": [
+        "68px",
+        "42px",
+        "26px",
+        "24px",
+        "16px",
+        "14px"
+      ],
+      "lineHeights": [
+        1.05,
+        1.15,
+        1.25,
+        1.45
+      ],
+      "letterSpacing": [
+        "normal",
+        "0.75px (14px uppercase eyebrow)"
+      ],
+      "sourceSelectors": [
+        "h1",
+        "h2",
+        "h3"
+      ]
+    },
+    "bodyFamily": {
+      "name": "Vanilla Sans",
+      "generation": "A",
+      "stack": "\"Vanilla Sans\", Arial, sans-serif",
+      "weights": [
+        400
+      ],
+      "sizes": [
+        "16px",
+        "14px"
+      ],
+      "lineHeights": [
+        1.45,
+        1.4
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "sourceSelectors": [
+        "p",
+        "li"
+      ]
+    },
+    "legacy": {
+      "headingFamily": {
+        "name": "Sharp Sans",
+        "stack": "\"Sharp Sans\", Arial, sans-serif",
+        "weights": [
+          600,
+          700
+        ],
+        "sizes": [
+          "72px",
+          "48px",
+          "32px",
+          "24px",
+          "20px",
+          "14px (uppercase eyebrow, ls 2px)"
+        ],
+        "lineHeights": [
+          "80px",
+          "56px",
+          "40px",
+          "32px",
+          "28px",
+          "22px"
+        ]
+      },
+      "bodyFamily": {
+        "name": "Proxima Nova",
+        "stack": "\"Proxima Nova\", Arial, sans-serif",
+        "weights": [
+          400,
+          600
+        ],
+        "sizes": [
+          "16px",
+          "14px",
+          "18px"
+        ],
+        "lineHeights": [
+          "24px",
+          "18px"
+        ]
+      }
+    },
+    "censusFamilies": [
+      {
+        "family": "Sharp Sans",
+        "count": 1415,
+        "headings": 1132,
+        "text": 7,
+        "buttons": 276
+      },
+      {
+        "family": "Vanilla Sans",
+        "count": 1145,
+        "headings": 746,
+        "text": 249,
+        "buttons": 150
+      },
+      {
+        "family": "Proxima Nova",
+        "count": 750,
+        "headings": 0,
+        "text": 750,
+        "buttons": 0
+      }
+    ],
+    "censusLevels": {
+      "h1": {
+        "fontSize": 72,
+        "fontWeight": "700",
+        "count": 63,
+        "score": 1000.09
+      },
+      "h2": {
+        "fontSize": 14,
+        "fontWeight": "700",
+        "count": 569,
+        "score": 584.42
+      },
+      "h3": {
+        "fontSize": 16,
+        "fontWeight": "600",
+        "count": 287,
+        "score": 406.59
+      },
+      "h4": {
+        "fontSize": 24,
+        "fontWeight": "700",
+        "count": 367,
+        "score": 804.6
+      },
+      "h5": {
+        "fontSize": 16,
+        "fontWeight": "600",
+        "count": 38,
+        "score": 147.95
+      },
+      "h6": {
+        "fontSize": 16,
+        "fontWeight": "600",
+        "count": 28,
+        "score": 127
+      }
+    },
+    "monoFamily": null,
+    "scaleRatio": null,
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [
+        1.619,
+        1.615,
+        1.625,
+        1.143
+      ],
+      "matchedScale": null,
+      "sizes": [
+        "68",
+        "42",
+        "26",
+        "16",
+        "14"
+      ]
+    },
+    "loadStrategy": "swap",
+    "files": [
+      {
+        "url": "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Regular.woff2",
+        "family": "Vanilla Sans",
+        "weight": 400,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/VanillaSans-Regular.woff2",
+        "sourceCssRule": "@font-face{font-family:Vanilla Sans;src:url(\".../VanillaSans/VanillaSans-Regular.woff2\") format(\"woff2\");font-weight:400;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Medium.woff2",
+        "family": "Vanilla Sans",
+        "weight": 500,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/VanillaSans-Medium.woff2",
+        "sourceCssRule": "@font-face{font-family:Vanilla Sans;src:url(\".../VanillaSans/VanillaSans-Medium.woff2\") format(\"woff2\");font-weight:500;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-SemiBold.woff2",
+        "family": "Vanilla Sans",
+        "weight": 600,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/VanillaSans-SemiBold.woff2",
+        "sourceCssRule": "@font-face{font-family:Vanilla Sans;src:url(\".../VanillaSans/VanillaSans-SemiBold.woff2\") format(\"woff2\");font-weight:600;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSans-Bold.woff2",
+        "family": "Vanilla Sans",
+        "weight": 700,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/VanillaSans-Bold.woff2",
+        "sourceCssRule": "@font-face{font-family:Vanilla Sans;src:url(\".../VanillaSans/VanillaSans-Bold.woff2\") format(\"woff2\");font-weight:700;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://web-assets.zendesk.com/fonts/SHSNMedium.woff2",
+        "family": "Sharp Sans",
+        "weight": 400,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/SHSNMedium.woff2",
+        "sourceCssRule": "@font-face{font-family:Sharp Sans;src:url(\".../SHSNMedium.woff2\") format(\"woff2\");font-weight:400;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://web-assets.zendesk.com/fonts/SHSN.woff2",
+        "family": "Sharp Sans",
+        "weight": 600,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/SHSN.woff2",
+        "sourceCssRule": "@font-face{font-family:Sharp Sans;src:url(\".../SHSN.woff2\") format(\"woff2\");font-weight:600;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://web-assets.zendesk.com/fonts/SHSNBold.woff2",
+        "family": "Sharp Sans",
+        "weight": 700,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/SHSNBold.woff2",
+        "sourceCssRule": "@font-face{font-family:Sharp Sans;src:url(\".../SHSNBold.woff2\") format(\"woff2\");font-weight:700;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://web-assets.zendesk.com/fonts/PNR.woff2",
+        "family": "Proxima Nova",
+        "weight": 400,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/PNR.woff2",
+        "sourceCssRule": "@font-face{font-family:Proxima Nova;src:url(\".../PNR.woff2\") format(\"woff2\");font-weight:400;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://web-assets.zendesk.com/fonts/PNSB.woff2",
+        "family": "Proxima Nova",
+        "weight": 600,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/PNSB.woff2",
+        "sourceCssRule": "@font-face{font-family:Proxima Nova;src:url(\".../PNSB.woff2\") format(\"woff2\");font-weight:600;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://web-assets.zendesk.com/fonts/PNB.woff2",
+        "family": "Proxima Nova",
+        "weight": 700,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/PNB.woff2",
+        "sourceCssRule": "@font-face{font-family:Proxima Nova;src:url(\".../PNB.woff2\") format(\"woff2\");font-weight:700;font-display:swap} (raw HTML inline <style>)",
+        "licensingFlag": "private"
+      }
+    ]
+  },
+  "spacing": {
+    "baseUnit": "8px",
+    "tokens": {
+      "--radius": "20px",
+      "--space-space": "24px",
+      "--space-globalPadding": "24px",
+      "--space-sectionPadding": "88px",
+      "--space-sectionPaddingHorizontal": "24px",
+      "--space-sectionPaddingVertical": "88px",
+      "--space-scrollPadding": "90px",
+      "--space-textMarginSm": "8px",
+      "--space-textMarginMd": "16px",
+      "--space-textMarginLg": "24px",
+      "--space-contentMarginSm": "24px",
+      "--space-contentMarginMd": "48px",
+      "--space-contentMarginLg": "64px",
+      "--space-buttonMargin": "32px",
+      "--space-linkMarginSm": "16px",
+      "--space-linkMarginMd": "24px",
+      "--space-tabletExtraPadding": "0px",
+      "--space-modalPaddingHorizontal": "40px",
+      "--contentWidth": "1150px"
+    },
+    "scale": [
+      "8px",
+      "16px",
+      "24px",
+      "32px",
+      "48px",
+      "64px",
+      "88px"
+    ],
+    "containerMaxWidth": "1150px",
+    "source": "index customProps (--space-*)"
+  },
+  "motifs": {
+    "borderRadius": {
+      "primary": "16px",
+      "secondary": "4px",
+      "pill": "50%",
+      "primarySources": [
+        "index",
+        "pricing",
+        "why-zendesk"
+      ],
+      "occurrences": {
+        "4px": 6647,
+        "16px": 422,
+        "8px": 150,
+        "50%": 87,
+        "40px": 72,
+        "20px": 45,
+        "100%": 40,
+        "16px 16px 0px 0px": 32,
+        "12px": 20,
+        "6px": 12
+      },
+      "note": "count mode 4px (chips/inputs), area mode 16px (gen A buttons/cards); gen B buttons 0px"
+    },
+    "shadows": [
+      {
+        "value": "rgb(104, 115, 125) 0px 0px 0px 1px inset",
+        "uses": "87 elements",
+        "sources": [
+          "/customer/",
+          "/customer/action-property-management/",
+          "/customer/asaas/"
+        ]
+      },
+      {
+        "value": "rgba(23, 73, 77, 0.15) 0px 20px 30px 0px",
+        "uses": "87 elements",
+        "sources": [
+          "/",
+          "/blog/",
+          "/company/"
+        ]
+      },
+      {
+        "value": "rgb(17, 17, 13) 0px 2px 0px 0px inset",
+        "uses": "26 elements",
+        "sources": [
+          "/cxtrends/",
+          "/employee-service/",
+          "/free-trial/"
+        ]
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(90deg, rgba(17, 17, 13, 0.7) 0%, rgba(17, 17, 13, 0.7) 40%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, rgb(17, 17, 13) 60%, rgb(17, 17, 13) 100%)",
+        "uses": "220 elements"
+      },
+      {
+        "value": "linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 40%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, rgb(255, 255, 255) 60%, rgb(255, 255, 255) 100%)",
+        "uses": "54 elements"
+      },
+      {
+        "value": "linear-gradient(90deg, rgb(209, 244, 112) 0%, rgb(209, 244, 112) 40%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, rgb(209, 244, 112) 60%, rgb(209, 244, 112) 100%)",
+        "uses": "21 elements"
+      },
+      {
+        "value": "radial-gradient(150% 140% at 22% 0%, rgba(0, 0, 0, 0) 65%, rgba(209, 244, 112, 0.6) 80%, rgba(209, 244, 112, 0.8) 100%)",
+        "uses": "13 elements"
+      },
+      {
+        "value": "radial-gradient(115% 115% at 50% 100%, rgb(53, 94, 52) 10%, rgba(0, 0, 0, 0) 100%)",
+        "uses": "11 elements"
+      }
+    ],
+    "patterns": [
+      {
+        "name": "hero-with-image",
+        "evidence": "home photo hero (Hero-image_V01.jpg) + product animation fallback"
+      },
+      {
+        "name": "social-proof-logos",
+        "evidence": "LogotypeRow on 68 pages"
+      },
+      {
+        "name": "stat-row",
+        "evidence": "Stat on 67 pages"
+      },
+      {
+        "name": "card-grid",
+        "evidence": "Card on 78 pages"
+      },
+      {
+        "name": "testimonial-quote",
+        "evidence": "Quote on 60 pages"
+      },
+      {
+        "name": "faq-accordion",
+        "evidence": "Accordion on 23 pages"
+      },
+      {
+        "name": "cta-band",
+        "evidence": "closing green radial-gradient band (\"Launch your first AI agent today\") on gen A pages"
+      },
+      {
+        "name": "footer-mega",
+        "evidence": "five-column footer on every chromed page"
+      },
+      {
+        "name": "nav-mega",
+        "evidence": "Platform/Products/Solutions/Resources mega menus"
+      }
+    ]
+  },
+  "componentStyle": {
+    "buttonPrimary": {
+      "gen": "A",
+      "backgroundColor": "#d1f470",
+      "color": "#11110d",
+      "borderRadius": "16px",
+      "padding": "10px 20px",
+      "font": "600 18px Vanilla Sans",
+      "hover": "color rgba(17,17,13,.7)"
+    },
+    "buttonPrimaryLegacy": {
+      "gen": "B",
+      "backgroundColor": "#17494d",
+      "color": "#ffffff",
+      "borderRadius": "0px",
+      "padding": "8px 24px",
+      "font": "600 18px Sharp Sans",
+      "hover": "background #06615a"
+    },
+    "buttonSecondaryLegacy": {
+      "gen": "B",
+      "backgroundColor": "transparent",
+      "color": "#17494d",
+      "border": "1px solid #17494d",
+      "borderRadius": "0px",
+      "hover": "background #06615a, color #fff"
+    },
+    "chip": {
+      "gen": "A",
+      "backgroundColor": "rgba(17,17,13,.11)",
+      "color": "#11110d",
+      "borderRadius": "16px",
+      "padding": "7px 12px 9px",
+      "font": "600 14px Vanilla Sans"
+    },
+    "hover": [
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgb(23, 73, 77)",
+          "borderColor": "rgb(23, 73, 77)"
+        },
+        "to": {
+          "backgroundColor": "rgb(6, 97, 90)",
+          "borderColor": "rgb(6, 97, 90)"
+        },
+        "count": 138,
+        "sources": [
+          {
+            "url": "https://www.zendesk.com/customer/",
+            "selector": "nav > div > div > div > div:nth-of-type(7) > a:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.zendesk.com/customer/",
+            "selector": "#main-content > section:nth-of-type(5) > div > div > div > div:nth-of-type(1) > div > a:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.zendesk.com/customer/action-property-management/",
+            "selector": "nav > div > div > div > div:nth-of-type(7) > a:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.zendesk.com/customer/action-property-management/",
+            "selector": "div > section > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > a"
+          },
+          {
+            "url": "https://www.zendesk.com/customer/asaas/",
+            "selector": "nav > div > div > div > div:nth-of-type(7) > a:nth-of-type(1)"
+          }
+        ]
+      },
+      {
+        "kind": "link",
+        "from": {
+          "color": "rgb(23, 73, 77)"
+        },
+        "to": {
+          "color": "rgb(6, 97, 90)"
+        },
+        "count": 122,
+        "sources": [
+          {
+            "url": "https://www.zendesk.com/customer/",
+            "selector": "#main-content > section:nth-of-type(1) > div > div > div > div:nth-of-type(1) > div > a"
+          },
+          {
+            "url": "https://www.zendesk.com/customer/",
+            "selector": "#main-content > section:nth-of-type(2) > div > div:nth-of-type(6) > a"
+          },
+          {
+            "url": "https://www.zendesk.com/customer/",
+            "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > h3 > a"
+          },
+          {
+            "url": "https://www.zendesk.com/customer/action-property-management/",
+            "selector": "#main-content > div > section > div > div > div:nth-of-type(1) > div > a"
+          },
+          {
+            "url": "https://www.zendesk.com/customer/action-property-management/",
+            "selector": "#main-content > section:nth-of-type(3) > div > div > div > div > p:nth-of-type(2) > a"
+          }
+        ]
+      },
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(23, 73, 77)",
+          "borderColor": "rgb(23, 73, 77)"
+        },
+        "to": {
+          "backgroundColor": "rgb(6, 97, 90)",
+          "color": "rgb(255, 255, 255)",
+          "borderColor": "rgb(6, 97, 90)"
+        },
+        "count": 73,
+        "sources": [
+          {
+            "url": "https://www.zendesk.com/customer/",
+            "selector": "nav > div > div > div > div:nth-of-type(7) > a:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.zendesk.com/customer/",
+            "selector": "section:nth-of-type(3) > div > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > button"
+          },
+          {
+            "url": "https://www.zendesk.com/customer/action-property-management/",
+            "selector": "nav > div > div > div > div:nth-of-type(7) > a:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.zendesk.com/customer/asaas/",
+            "selector": "nav > div > div > div > div:nth-of-type(7) > a:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.zendesk.com/customer/babbel/",
+            "selector": "nav > div > div > div > div:nth-of-type(7) > a:nth-of-type(2)"
+          }
+        ]
+      },
+      {
+        "kind": "button",
+        "from": {
+          "color": "rgb(17, 17, 13)",
+          "borderColor": "rgb(17, 17, 13)"
+        },
+        "to": {
+          "color": "rgba(17, 17, 13, 0.7)",
+          "borderColor": "rgba(17, 17, 13, 0.7)"
+        },
+        "count": 50,
+        "sources": [
+          {
+            "url": "https://www.zendesk.com/",
+            "selector": "nav > div > div:nth-of-type(3) > a:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.zendesk.com/",
+            "selector": "#button-2be0de0f35"
+          },
+          {
+            "url": "https://www.zendesk.com/blog/",
+            "selector": "nav > div > div:nth-of-type(3) > a:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.zendesk.com/blog/",
+            "selector": "div:nth-of-type(2) > div > span > div > div > div > div:nth-of-type(1) > button"
+          },
+          {
+            "url": "https://www.zendesk.com/company/",
+            "selector": "nav > div > div:nth-of-type(3) > a:nth-of-type(1)"
+          }
+        ]
+      },
+      {
+        "kind": "link",
+        "from": {
+          "color": "rgb(17, 17, 13)"
+        },
+        "to": {
+          "color": "rgba(17, 17, 13, 0.7)"
+        },
+        "count": 25,
+        "sources": [
+          {
+            "url": "https://www.zendesk.com/",
+            "selector": "#forethought > div > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.zendesk.com/blog/",
+            "selector": "nav > div > div:nth-of-type(2) > div:nth-of-type(5) > a"
+          },
+          {
+            "url": "https://www.zendesk.com/contact/",
+            "selector": "div > div > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > a"
+          },
+          {
+            "url": "https://www.zendesk.com/cxtrends/",
+            "selector": "nav > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a"
+          },
+          {
+            "url": "https://www.zendesk.com/employee-service/",
+            "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div > cite > a"
+          }
+        ]
+      },
+      {
+        "kind": "button",
+        "from": {
+          "color": "rgb(255, 255, 255)",
+          "borderColor": "rgb(255, 255, 255)"
+        },
+        "to": {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "borderColor": "rgba(255, 255, 255, 0.7)"
+        },
+        "count": 12,
+        "sources": [
+          {
+            "url": "https://www.zendesk.com/",
+            "selector": "#hero-trial-teaser > div > div:nth-of-type(1) > div:nth-of-type(2) > button"
+          },
+          {
+            "url": "https://www.zendesk.com/",
+            "selector": "#hero > div:nth-of-type(2) > div > div:nth-of-type(2) > button"
+          },
+          {
+            "url": "https://www.zendesk.com/blog/",
+            "selector": "#teaser-ef6abf30ab > div > div > div > div > div:nth-of-type(3) > div > a"
+          },
+          {
+            "url": "https://www.zendesk.com/company/",
+            "selector": "section:nth-of-type(5) > div > div > div > div > div:nth-of-type(2) > div > a"
+          },
+          {
+            "url": "https://www.zendesk.com/employee-service/",
+            "selector": "section:nth-of-type(2) > div > div > div > div > div:nth-of-type(3) > div > a"
+          }
+        ]
+      }
+    ]
+  },
+  "systemComponents": [
+    {
+      "name": "site-header-current",
+      "kind": "header",
+      "occurrences": 19,
+      "headingSequence": [
+        "Platform",
+        "Products",
+        "Solutions",
+        "Resources",
+        "Pricing"
+      ],
+      "ctaLabels": [
+        "Try for free",
+        "View demo",
+        "Sign in",
+        "Contact us"
+      ],
+      "exampleSlug": "index",
+      "exampleSelector": "div[id^=\"header-\"] > nav",
+      "examplePages": [
+        "blog",
+        "company",
+        "contact",
+        "demo",
+        "employee-service"
+      ]
+    },
+    {
+      "name": "site-header-legacy",
+      "kind": "header",
+      "occurrences": 65,
+      "headingSequence": [
+        "Products",
+        "Pricing",
+        "Solutions",
+        "Demo",
+        "Resources"
+      ],
+      "ctaLabels": [
+        "Free trial",
+        "Demo",
+        "Sign in"
+      ],
+      "exampleSlug": "customer-canva",
+      "exampleSelector": "header (PrimaryNavbar + SecondaryNavbar)",
+      "examplePages": [
+        "customer",
+        "customer-action-property-management",
+        "customer-asaas",
+        "customer-babbel",
+        "customer-ballys"
+      ]
+    },
+    {
+      "name": "site-footer-current",
+      "kind": "footer",
+      "occurrences": 21,
+      "headingSequence": [
+        "Products",
+        "Resources",
+        "Company",
+        "Features",
+        "Compare",
+        "Popular topics",
+        "How can we help? Contact us."
+      ],
+      "ctaLabels": [
+        "Contact us"
+      ],
+      "exampleSlug": "index",
+      "exampleSelector": "footer (dark #11110d)",
+      "examplePages": [
+        "blog",
+        "company",
+        "cxtrends",
+        "employee-service",
+        "free-trial"
+      ]
+    },
+    {
+      "name": "site-footer-legacy",
+      "kind": "footer",
+      "occurrences": 65,
+      "headingSequence": [
+        "Champions of customer service",
+        "Our Products",
+        "Top Features",
+        "Resources",
+        "Company",
+        "Favorite Things",
+        "Enter the fold"
+      ],
+      "ctaLabels": [
+        "Subscribe"
+      ],
+      "exampleSlug": "customer-canva",
+      "exampleSelector": "footer (light, newsletter \"Enter the fold\")",
+      "examplePages": [
+        "customer",
+        "customer-action-property-management",
+        "customer-asaas",
+        "customer-babbel",
+        "customer-ballys"
+      ]
+    },
+    {
+      "name": "consent-strip",
+      "kind": "other",
+      "occurrences": 100,
+      "headingSequence": [
+        "This website uses cookies"
+      ],
+      "ctaLabels": [
+        "Accept Cookies",
+        "Do Not Sell or Share My Personal Information"
+      ],
+      "exampleSlug": "index",
+      "exampleSelector": "#onetrust-banner-sdk",
+      "examplePages": [
+        "index",
+        "marketplace",
+        "customer",
+        "trust-center",
+        "pricing"
+      ]
+    }
+  ],
+  "iconFont": {
+    "family": "greenhouse-web-icons",
+    "file": null,
+    "scope": "intro-tour only (legacy global-header)",
+    "glyphs": [
+      {
+        "class": "open-dropdown js-open-dropdown primary-link",
+        "pseudo": "::before",
+        "codepoint": "U+E921",
+        "fontFamily": "greenhouse-web-icons",
+        "count": 1,
+        "sources": [
+          "https://www.zendesk.com/intro-tour/"
+        ]
+      },
+      {
+        "class": "secondary-link open-dropdown",
+        "pseudo": "::before",
+        "codepoint": "U+E921",
+        "fontFamily": "greenhouse-web-icons",
+        "count": 1,
+        "sources": [
+          "https://www.zendesk.com/intro-tour/"
+        ]
+      },
+      {
+        "class": "secondary-link open-dropdown js-open-dropdown",
+        "pseudo": "::before",
+        "codepoint": "U+E921",
+        "fontFamily": "greenhouse-web-icons",
+        "count": 1,
+        "sources": [
+          "https://www.zendesk.com/intro-tour/"
+        ]
+      }
+    ]
+  },
+  "voice": {
+    "heroHeadline": "Build for better outcomes",
+    "heroSubcopy": "Go beyond answers to improve customer and employee experiences with the Zendesk Outcome AI™ Platform. Trusted by 32,000+ customers to drive better outcomes.",
+    "heroImage": {
+      "url": "https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/home/Hero-image_V01.jpg",
+      "alt": "",
+      "source": "css-background",
+      "domPath": "home hero section",
+      "localPath": null
+    },
+    "heroMedium": {
+      "kind": "animated-svg",
+      "mechanism": "product-UI hero animation with static PNG fallback",
+      "src": "https://web-assets.zendesk.com/zendesk/pages/home/animation-fallbacks/hero/Hero_Homepage__en_us.png",
+      "note": "preloaded animation fallback image; animation mechanism to confirm in dynamics"
+    },
+    "primaryCTALabel": "Try for free",
+    "ctaSamples": [
+      "Try for free",
+      "View demo",
+      "Contact sales",
+      "See plans & pricing",
+      "Read customer story"
+    ],
+    "navItems": [
+      "Platform",
+      "Products",
+      "Solutions",
+      "Resources",
+      "Pricing",
+      "Sign in",
+      "Contact us"
+    ],
+    "footerHeadings": [
+      "Products",
+      "Resources",
+      "Company",
+      "Features",
+      "Compare",
+      "Popular topics"
+    ],
+    "firstParagraph": "Go beyond answers to improve customer and employee experiences with the Zendesk Outcome AI™ Platform. Trusted by 32,000+ customers to drive better outcomes.",
+    "tone": {
+      "guess": "professional-warm",
+      "evidence": "short outcome-led declaratives, second person, trademark-heavy product names"
+    }
+  },
+  "voiceTable": {
+    "ctaFrequency": [
+      {
+        "label": "Sign in",
+        "pages": 86
+      },
+      {
+        "label": "Knowledge base",
+        "pages": 85
+      },
+      {
+        "label": "Zendesk for customer service",
+        "pages": 84
+      },
+      {
+        "label": "Zendesk for Enterprise",
+        "pages": 84
+      },
+      {
+        "label": "Zendesk for Small Business",
+        "pages": 84
+      },
+      {
+        "label": "Zendesk for Startups",
+        "pages": 84
+      },
+      {
+        "label": "Voice",
+        "pages": 84
+      },
+      {
+        "label": "Community forums",
+        "pages": 84
+      },
+      {
+        "label": "Workforce management",
+        "pages": 84
+      },
+      {
+        "label": "Quality assurance",
+        "pages": 84
+      },
+      {
+        "label": "Help center",
+        "pages": 84
+      },
+      {
+        "label": "Partners",
+        "pages": 84
+      },
+      {
+        "label": "Contact us",
+        "pages": 83
+      },
+      {
+        "label": "Zendesk for employee service",
+        "pages": 83
+      },
+      {
+        "label": "Zendesk for contact center",
+        "pages": 83
+      },
+      {
+        "label": "System status",
+        "pages": 83
+      },
+      {
+        "label": "Demo",
+        "pages": 83
+      },
+      {
+        "label": "Advanced Data Privacy and Protection",
+        "pages": 83
+      },
+      {
+        "label": "Security",
+        "pages": 83
+      },
+      {
+        "label": "Blog",
+        "pages": 83
+      }
+    ],
+    "headingFrequency": [
+      {
+        "label": "Resources",
+        "pages": 86
+      },
+      {
+        "label": "Company",
+        "pages": 86
+      },
+      {
+        "label": "Champions of customer service",
+        "pages": 65
+      },
+      {
+        "label": "Our Products",
+        "pages": 65
+      },
+      {
+        "label": "Top Features",
+        "pages": 65
+      },
+      {
+        "label": "Favorite Things",
+        "pages": 65
+      },
+      {
+        "label": "Enter the fold",
+        "pages": 65
+      },
+      {
+        "label": "Company founded",
+        "pages": 33
+      },
+      {
+        "label": "Employees",
+        "pages": 24
+      },
+      {
+        "label": "Products",
+        "pages": 22
+      },
+      {
+        "label": "Company Headquarters",
+        "pages": 22
+      },
+      {
+        "label": "Features",
+        "pages": 21
+      },
+      {
+        "label": "Compare",
+        "pages": 21
+      },
+      {
+        "label": "Popular topics",
+        "pages": 21
+      },
+      {
+        "label": "How can we help? Contact us.",
+        "pages": 21
+      },
+      {
+        "label": "Zendesk customer since",
+        "pages": 20
+      },
+      {
+        "label": "Company Founded",
+        "pages": 10
+      },
+      {
+        "label": "Company headquarters",
+        "pages": 8
+      },
+      {
+        "label": "Additional resources",
+        "pages": 5
+      },
+      {
+        "label": "Frequently asked questions",
+        "pages": 5
+      },
+      {
+        "label": "Industry",
+        "pages": 4
+      },
+      {
+        "label": "Looking ahead",
+        "pages": 4
+      },
+      {
+        "label": "Filter by",
+        "pages": 3
+      },
+      {
+        "label": "Sort By",
+        "pages": 3
+      },
+      {
+        "label": "Rating",
+        "pages": 3
+      },
+      {
+        "label": "Worldwide users",
+        "pages": 3
+      },
+      {
+        "label": "Started Using Zendesk",
+        "pages": 3
+      }
+    ],
+    "headingsUppercasePercent": 0.4,
+    "distinctHeadings": 1078,
+    "distinctCtaLabels": 605
+  },
+  "crossPromo": {
+    "detected": false,
+    "note": "no interior-only repeated promo strip beyond the legacy newsletter (module candidate newsletter-signup-legacy)"
+  },
+  "register": "brand"
+}

@@ -1,0 +1,19 @@
+chrome-parity: --live-cache stardust/replica/gates/blog-1440/chrome-live.json was probed for a different url/width/regions/overlay state — re-probing live
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.zendesk.com/blog/
+  build: http://localhost:8791/blog-proposed.html
+
+■ header: ✓ parity — 10 paired of 10/10 texts, 8/8 icons
+  region live:  #container-62e15e442e>div:nth-of-type(3) — given by --region, box 0,58 1440×110
+  region build: #za-hdr-d — given by --region, box 0,58 1440×110
+
+■ subnav: ✓ parity — 8 paired of 8/8 texts, 0/0 icons
+  region live:  .llLKNZ — given by --region, box 0,168 1440×56
+  region build: #bl-subnav-d — given by --region, box 0,168 1440×56
+
+■ footer: ✓ parity — 75 paired of 75/75 texts, 6/6 icons
+  region live:  footer#footer-1719023883.sc-70d743a6-4.eqsTBx — outermost <footer>, box 0,6834 1440×998; selector #footer-1719023883
+  region build: footer#footer — outermost <footer>, box 0,6837 1440×998; selector #footer
+  advisory     REGION OFFSET: page Δy +3px (6834→6837) — the region sits at another page y as one block (the page above is another height); the main content gate owns that height (--strict-region-offset fails it here)
+
+✓ chrome parity within tolerance, 1 advisory group(s) — run crop-compare (pass bar item 5) to confirm in pixels.

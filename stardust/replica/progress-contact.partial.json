@@ -1,0 +1,101 @@
+{
+  "type": "form",
+  "slug": "contact",
+  "liveUrl": "https://www.zendesk.com/contact/",
+  "generation": "A (Vanilla Sans; slim header + slim legal footer variant)",
+  "prototype": "stardust/prototypes/contact-proposed.html",
+  "css": [
+    "stardust/prototypes/fonts.css",
+    "stardust/prototypes/canon-a.css",
+    "stardust/prototypes/contact.css"
+  ],
+  "js": [
+    "stardust/prototypes/canon-a.js",
+    "stardust/prototypes/contact.js"
+  ],
+  "contentRoot": "main",
+  "sourceSpec": {
+    "1440": "0 sections / 0 nodes off / 0 missing / 0 extra (page 2902 = 2902)",
+    "360": "0 / 0 / 0 / 0 (page 5219 = 5219)"
+  },
+  "gates": {
+    "1440": {
+      "rounds": 2,
+      "pixel": 0.06,
+      "dh": 0,
+      "contentDiff": "0 red / 0 nothing-lost / 0 advisory (iter3 confirmation)",
+      "clipped": 0,
+      "overflow": false,
+      "units": "gen-a-office-cell 28 compared, 0 off",
+      "chromeCrops": "header 100.00%, footer 100.00%",
+      "capProbe": "PASS (2560, 0 of 3 rows failed)",
+      "verdict": "PASS"
+    },
+    "360": {
+      "rounds": 1,
+      "pixel": 0.13,
+      "dh": 0,
+      "contentDiff": "0 red / 0 nothing-lost / 0 advisory (iter2 confirmation)",
+      "clipped": 0,
+      "overflow": false,
+      "units": "28 compared, 0 off",
+      "chromeCrops": "header 100.00%, footer 100.00%",
+      "capProbe": "PASS (run once at 2560)",
+      "verdict": "PASS"
+    }
+  },
+  "chromeParity": "quiet at 1440 and 360 (header 2/2 + 1/1 texts, footer 6/6). Live has no header landmark and no promo strip on /contact/: the index --region body>div:nth-of-type(1)>div>div:nth-of-type(3) does NOT hold here; used header=#__next>div>div:nth-of-type(2)|#za-hdr-d (1440) and #__next>div>div:nth-of-type(1)|#za-hdr-m (360). Slim header/footer authored page-locally (canon-requests.md #4-#6)",
+  "residuals": [
+    "visual-diff advisory IMAGERY GAP (13 source images): all tracking pixels / OneTrust logos rendered 0x0 - not page content",
+    "Live renders a second, display:none duplicate 5-field form (#contact-form-548); the build carries it hidden too so content counts match",
+    "Live 15-field variant fields (Phone number, Company name, Number of employees tiles) are display:none in the visible form; build keeps them hidden",
+    "Country select shows 'United States' at rest on live (geo default); build pre-selects United States",
+    "Validation: required-field state lifted from a live submit (First/Last/Work email -> 'This field is required', #b84242 2px inset ring, 13px/500 message 12px below); malformed-email text not observed, not invented",
+    "Footer 'Do Not Sell or Share My Personal Information' is the OneTrust-rewritten text of 'Cookie settings' (as on index); build carries the rendered text"
+  ],
+  "motion": {
+    "observed": [
+      "submit: form takes .ymIyT (opacity .6, pointer-events none) then 3 inputs get the error skin + messages",
+      "hover Visit Help Center: color -> rgba(17,17,13,.7) + LinkText underline sweep 600ms",
+      "header stuck state kOPZoh (logo transform/fill 300ms) - canon-a.js",
+      "header Try for free hover: anchor color/background 600ms (text span stays ink) - canon scope",
+      "section 'active' class on enter (no visual effect)"
+    ],
+    "implemented": [
+      "is-loading (300ms) then required-field validation with live error styling; 'no backend connected' status on a valid submit (interim tier)",
+      "arrow-link hover colour + underline sweep",
+      "input/select/textarea hover + focus rings from the live CSSOM",
+      "stuck header via canon-a.js .is-stuck"
+    ],
+    "dead": [
+      "hover on submit button, footer links, office MAP links (no measured diff on live)",
+      "section 'active' class"
+    ],
+    "evidence": [
+      "stardust/replica/motion/contact-live.json",
+      "stardust/replica/motion/contact-build.json"
+    ]
+  },
+  "captureState": [
+    {
+      "what": "Lead form (5 visible fields + hidden 15-field variant + hidden duplicate form)",
+      "restoreAtDelivery": "connect to the lead-form backend per dynamic-features.md D2 (interim: UI + client validation only, no submit)"
+    },
+    {
+      "what": "Country select default 'United States'",
+      "restoreAtDelivery": "live geo-defaults the country; wire geo default or keep the captured value"
+    }
+  ],
+  "canonRequests": "stardust/replica/canon-requests.md #4-#6 (slim header, mobile CTA size, slim legal footer)",
+  "sharedModules": {
+    "contact.css": [
+      "slim header overrides",
+      "page shell (--headerHeight 65/115)",
+      "hero 6/1/5 grid + side contact blocks + arrow link",
+      "Garden form fields, select, tiles, validation, consent, submit",
+      "offices 4-up grid",
+      "slim legal footer"
+    ]
+  },
+  "passed": true
+}

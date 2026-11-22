@@ -1,0 +1,662 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-20T11:10:39.673Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.zendesk.com/pricing/",
+      "http://localhost:8791/pricing-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from stardust/current/DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.zendesk.com/pricing/",
+    "http://localhost:8791/pricing-proposed.html"
+  ],
+  "probeNote": "from stardust/current/DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 179,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#container-78d5a9aec7 > section.sc-f23d7fd5-11.kLnTED > div.hHhIKw.sc-f23d7fd5-7",
+        "tier": 3,
+        "share": 0.02,
+        "section": 0,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#container-78d5a9aec7 > section.sc-f23d7fd5-11.jlZBiC > div.hHhIKw.sc-f23d7fd5-7",
+        "tier": 3,
+        "share": 0.01,
+        "section": 1,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#plans > div.hHhIKw.sc-f23d7fd5-7",
+        "tier": 3,
+        "share": 0.35,
+        "section": 2,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#addons > div.hHhIKw.sc-f23d7fd5-7",
+        "tier": 3,
+        "share": 0.09,
+        "section": 3,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#forethought > div.hHhIKw.sc-f23d7fd5-7",
+        "tier": 3,
+        "share": 0.03,
+        "section": 4,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 271,
+        "via": "fixed",
+        "selector": "div.StyledRow-sc-xjsdg1-0.jJrhpI > div.StyledCol-sc-inuw62-0.lnlHXe > div.eCTgYG > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0",
+        "tier": 8,
+        "share": 0.01,
+        "section": 4,
+        "w1": 271,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#zendesk_for_startups > div.hHhIKw.sc-f23d7fd5-7",
+        "tier": 3,
+        "share": 0.02,
+        "section": 5,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#container-78d5a9aec7 > section.sc-f23d7fd5-11.jpVCTe > div.hHhIKw.sc-f23d7fd5-7",
+        "tier": 3,
+        "share": 0.01,
+        "section": 6,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#roi-calculator > div.hHhIKw.sc-f23d7fd5-7",
+        "tier": 3,
+        "share": 0.02,
+        "section": 7,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#faqs > div.hHhIKw.sc-f23d7fd5-7",
+        "tier": 3,
+        "share": 0.44,
+        "section": 8,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 805,
+        "via": "other",
+        "selector": "#text-8db39e7ea6",
+        "tier": 12,
+        "share": 0.03,
+        "section": 8,
+        "w1": 565,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 805,
+        "via": "other",
+        "selector": "div.StyledSection-sc-v2t9bd-0.bFpvu > section.StyledPanel-sc-1piryze-0.kfKkET > div.StyledInnerPanel-sc-8nbueg-0.gxjxDP > div.fBGUXt",
+        "tier": 12,
+        "share": 0.02,
+        "section": 8,
+        "w1": 565,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 805,
+        "via": "other",
+        "selector": "div.StyledSection-sc-v2t9bd-0.bFpvu > section.StyledPanel-sc-1piryze-0.kfKkET > div.StyledInnerPanel-sc-8nbueg-0.gxjxDP > div.fBGUXt",
+        "tier": 12,
+        "share": 0.02,
+        "section": 8,
+        "w1": 565,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 805,
+        "via": "other",
+        "selector": "#text-a4c2ec95f4",
+        "tier": 12,
+        "share": 0.03,
+        "section": 8,
+        "w1": 565,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 805,
+        "via": "other",
+        "selector": "div.StyledSection-sc-v2t9bd-0.bFpvu > section.StyledPanel-sc-1piryze-0.kfKkET > div.StyledInnerPanel-sc-8nbueg-0.gxjxDP > div.fBGUXt",
+        "tier": 12,
+        "share": 0.04,
+        "section": 8,
+        "w1": 565,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 805,
+        "via": "other",
+        "selector": "div.StyledSection-sc-v2t9bd-0.bFpvu > section.StyledPanel-sc-1piryze-0.kfKkET > div.StyledInnerPanel-sc-8nbueg-0.gxjxDP > div.fBGUXt",
+        "tier": 12,
+        "share": 0.01,
+        "section": 8,
+        "w1": 565,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 805,
+        "via": "other",
+        "selector": "#text-5de8efda1d",
+        "tier": 12,
+        "share": 0.04,
+        "section": 8,
+        "w1": 565,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 805,
+        "via": "other",
+        "selector": "#text-4cc77d4b7a",
+        "tier": 12,
+        "share": 0.04,
+        "section": 8,
+        "w1": 565,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 339,
+        "via": "other",
+        "selector": "#text-4cc77d4b7a > p.fBGUXt > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0",
+        "tier": 14,
+        "share": 0.01,
+        "section": 8,
+        "w1": 271,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 805,
+        "via": "other",
+        "selector": "div.StyledSection-sc-v2t9bd-0.bFpvu > section.StyledPanel-sc-1piryze-0.kfKkET > div.StyledInnerPanel-sc-8nbueg-0.gxjxDP > div.fBGUXt",
+        "tier": 12,
+        "share": 0.04,
+        "section": 8,
+        "w1": 565,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 805,
+        "via": "other",
+        "selector": "div.StyledSection-sc-v2t9bd-0.bFpvu > section.StyledPanel-sc-1piryze-0.kfKkET > div.StyledInnerPanel-sc-8nbueg-0.gxjxDP > div.fBGUXt",
+        "tier": 12,
+        "share": 0.04,
+        "section": 8,
+        "w1": 565,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 805,
+        "via": "other",
+        "selector": "#text-7b7cacfd95",
+        "tier": 12,
+        "share": 0.02,
+        "section": 8,
+        "w1": 565,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#final-callout > div.hHhIKw.sc-f23d7fd5-7",
+        "tier": 3,
+        "share": 0.02,
+        "section": 9,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 300,
+        "via": "fixed",
+        "selector": "div.StyledGrid-sc-oxgg5i-0.jdUzaL > div.StyledRow-sc-xjsdg1-0.gwAElZ > div.StyledCol-sc-inuw62-0.euUSmO > div.jRgiMW",
+        "tier": 7,
+        "share": 0.01,
+        "section": 9,
+        "w1": 300,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#container-78d5a9aec7 > section.sc-f23d7fd5-11.kLnTED",
+        "px": 1600,
+        "capSelector": "#container-78d5a9aec7 > section.sc-f23d7fd5-11.kLnTED > div.hHhIKw.sc-f23d7fd5-7"
+      },
+      {
+        "index": 1,
+        "selector": "#container-78d5a9aec7 > section.sc-f23d7fd5-11.jlZBiC",
+        "px": 1600,
+        "capSelector": "#container-78d5a9aec7 > section.sc-f23d7fd5-11.jlZBiC > div.hHhIKw.sc-f23d7fd5-7"
+      },
+      {
+        "index": 2,
+        "selector": "#plans",
+        "px": 1600,
+        "capSelector": "#plans > div.hHhIKw.sc-f23d7fd5-7"
+      },
+      {
+        "index": 3,
+        "selector": "#addons",
+        "px": 1600,
+        "capSelector": "#addons > div.hHhIKw.sc-f23d7fd5-7"
+      },
+      {
+        "index": 4,
+        "selector": "#forethought",
+        "px": 1600,
+        "capSelector": "#forethought > div.hHhIKw.sc-f23d7fd5-7"
+      },
+      {
+        "index": 5,
+        "selector": "#zendesk_for_startups",
+        "px": 1600,
+        "capSelector": "#zendesk_for_startups > div.hHhIKw.sc-f23d7fd5-7"
+      },
+      {
+        "index": 6,
+        "selector": "#container-78d5a9aec7 > section.sc-f23d7fd5-11.jpVCTe",
+        "px": 1600,
+        "capSelector": "#container-78d5a9aec7 > section.sc-f23d7fd5-11.jpVCTe > div.hHhIKw.sc-f23d7fd5-7"
+      },
+      {
+        "index": 7,
+        "selector": "#roi-calculator",
+        "px": 1600,
+        "capSelector": "#roi-calculator > div.hHhIKw.sc-f23d7fd5-7"
+      },
+      {
+        "index": 8,
+        "selector": "#faqs",
+        "px": 1600,
+        "capSelector": "#faqs > div.hHhIKw.sc-f23d7fd5-7"
+      },
+      {
+        "index": 9,
+        "selector": "#final-callout",
+        "px": 1600,
+        "capSelector": "#final-callout > div.hHhIKw.sc-f23d7fd5-7"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1600,
+    "contentFrom": "module",
+    "maxCap": 1600,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 313
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 179,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#main-content > div.pr-wrap > section.za-section.pr-tabs > div.za-container",
+        "tier": 3,
+        "share": 0.02,
+        "section": 0,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#main-content > div.pr-wrap > section.pr-title > div.za-container",
+        "tier": 3,
+        "share": 0.01,
+        "section": 1,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#plans > div.za-container",
+        "tier": 3,
+        "share": 0.35,
+        "section": 2,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#addons > div.za-container",
+        "tier": 3,
+        "share": 0.09,
+        "section": 3,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#forethought > div.za-container",
+        "tier": 3,
+        "share": 0.03,
+        "section": 4,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 271,
+        "via": "fixed",
+        "selector": "div.za-row.pr-split__row > div.za-col.pr-split__text > div.pr-btns > a.za-btn.za-btn--on-dark",
+        "tier": 7,
+        "share": 0.01,
+        "section": 4,
+        "w1": 271,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#zendesk_for_startups > div.za-container",
+        "tier": 3,
+        "share": 0.02,
+        "section": 5,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#main-content > div.pr-wrap > section.za-section.pr-logos > div.za-container",
+        "tier": 3,
+        "share": 0.01,
+        "section": 6,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#roi-calculator > div.za-container",
+        "tier": 3,
+        "share": 0.02,
+        "section": 7,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#faqs > div.za-container",
+        "tier": 3,
+        "share": 0.44,
+        "section": 8,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#final-callout > div.za-container",
+        "tier": 3,
+        "share": 0.02,
+        "section": 9,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 563,
+        "via": "max-width",
+        "selector": "#final-callout > div.za-container > div.pr-final__col",
+        "tier": 4,
+        "share": 0.02,
+        "section": 9,
+        "w1": 563,
+        "maxWidth": "563px"
+      },
+      {
+        "kind": "module",
+        "px": 300,
+        "via": "fixed",
+        "selector": "#final-callout > div.za-container > div.pr-final__col > div.pr-btns.pr-btns--center",
+        "tier": 5,
+        "share": 0.01,
+        "section": 9,
+        "w1": 300,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#main-content > div.pr-wrap > section.za-section.pr-tabs",
+        "px": 1600,
+        "capSelector": "#main-content > div.pr-wrap > section.za-section.pr-tabs > div.za-container"
+      },
+      {
+        "index": 1,
+        "selector": "#main-content > div.pr-wrap > section.pr-title",
+        "px": 1600,
+        "capSelector": "#main-content > div.pr-wrap > section.pr-title > div.za-container"
+      },
+      {
+        "index": 2,
+        "selector": "#plans",
+        "px": 1600,
+        "capSelector": "#plans > div.za-container"
+      },
+      {
+        "index": 3,
+        "selector": "#addons",
+        "px": 1600,
+        "capSelector": "#addons > div.za-container"
+      },
+      {
+        "index": 4,
+        "selector": "#forethought",
+        "px": 1600,
+        "capSelector": "#forethought > div.za-container"
+      },
+      {
+        "index": 5,
+        "selector": "#zendesk_for_startups",
+        "px": 1600,
+        "capSelector": "#zendesk_for_startups > div.za-container"
+      },
+      {
+        "index": 6,
+        "selector": "#main-content > div.pr-wrap > section.za-section.pr-logos",
+        "px": 1600,
+        "capSelector": "#main-content > div.pr-wrap > section.za-section.pr-logos > div.za-container"
+      },
+      {
+        "index": 7,
+        "selector": "#roi-calculator",
+        "px": 1600,
+        "capSelector": "#roi-calculator > div.za-container"
+      },
+      {
+        "index": 8,
+        "selector": "#faqs",
+        "px": 1600,
+        "capSelector": "#faqs > div.za-container"
+      },
+      {
+        "index": 9,
+        "selector": "#final-callout",
+        "px": 1600,
+        "capSelector": "#final-callout > div.za-container"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1600,
+    "contentFrom": "module",
+    "maxCap": 1600,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 179
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1600px = build 1600px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/10",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/10",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/10",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/10",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 5/10",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 6/10",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 7/10",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 8/10",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 9/10",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 10/10",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/pricing-2560/cap-iter.json"
+}

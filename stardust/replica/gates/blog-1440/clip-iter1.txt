@@ -1,0 +1,4 @@
+clip-probe http://localhost:8791/blog-proposed.html @ 1440px — docH 7872, 241 text nodes, 187 controls (HTTP 200, chrome)
+  🔴 TEXT CLIPPED           ×17    in span  div.bl-card > div.bl-tags > a.bl-tag > span  "ai customer service"  cut 4px
+Clipped: 17 (text clipped 17, text hidden 0, controls hidden 0, controls clipped 0; advisory: clamped 15, collapsed 0, scroll-hidden 0, horizontal 0)
+json → stardust/replica/gates/blog-1440/clip-iter1.json

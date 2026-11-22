@@ -1,0 +1,58 @@
+/* zb-stats — gen-B stats row (canon-b .zb-stats / .zb-stat; section is flush-bottom) */
+.zb-stats {
+  padding: 32px 0 0;
+  background: var(--zb-white);
+  font-size: 16px;
+  line-height: 16px;
+}
+
+/* live grid col: flex 1 1 0 with min-width auto — items share the row and wrap on min-content (narrow viewports) */
+.zb-stats .zb-stats-col {
+  flex: 1 1 0;
+  max-width: 100%;
+  padding: 0 8px;
+}
+
+.zb-stats .zb-stats-stat { text-align: center; }
+
+.zb-stats .zb-stats-figure {
+  margin: 0 0 4px;
+  color: var(--zb-blue-600);
+  font-family: var(--zb-font-head);
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 700;
+}
+
+.zb-stats .zb-stats-text {
+  color: var(--zb-teal-800);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.zb-stats .zb-stats-stat p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+@media (width >= 768px) {
+  .zb-stats { padding-top: 64px; }
+
+  .zb-stats.zb-stats-many .zb-stats-col {
+    flex: 1 1 0;
+    max-width: 100%;
+  }
+
+  .zb-stats .zb-stats-figure {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+@media (width >= 1200px) {
+  .zb-stats .zb-stats-figure {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}

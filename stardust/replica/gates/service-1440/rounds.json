@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-20T09:33:37.045Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-20T09:37:12.194Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-20T09:51:00.983Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "service@1440 iter3: pixel aligned 0.23% (bound ok), dh 0, units PASS, clipped 0, overflow ok, cap-probe PASS; main root 0 red / 0 nothing-lost. Remaining FAIL inputs are canon-a footer only (22 MISSING ICON + 22 MISSING ARIA-LABEL '(opens in a new tab)', 76 chrome-parity footer deltas: span-wrapped link text, region box) — requested in stardust/replica/canon-requests.md; evidence content-diff-iter3.txt, chrome-parity-iter3.txt",
+          "at": "2026-11-20T09:51:17.216Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-20T12-42-46-838Z",
+          "at": "2026-11-20T12:42:46.842Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-20T12-44-59-051Z",
+          "at": "2026-11-20T12:44:59.052Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-20T12-49-29-596Z",
+          "at": "2026-11-20T12:49:29.596Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-20T12-52-20-601Z",
+          "at": "2026-11-20T12:52:20.601Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-20T17-41-56-594Z",
+          "at": "2026-11-20T17:41:56.596Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-20T18-01-19-942Z",
+          "at": "2026-11-20T18:01:19.944Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-20T18-15-35-353Z",
+          "at": "2026-11-20T18:15:35.355Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-20T20-00-36-653Z",
+          "at": "2026-11-20T20:00:36.655Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-20T23-59-36-705Z",
+          "at": "2026-11-20T23:59:36.708Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T03-21-27-122Z",
+          "at": "2026-11-21T03:21:27.128Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T03-54-46-643Z",
+          "at": "2026-11-21T03:54:46.648Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T06-09-29-741Z",
+          "at": "2026-11-21T06:09:29.748Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

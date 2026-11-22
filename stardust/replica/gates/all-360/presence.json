@@ -1,0 +1,56 @@
+{
+  "blog": {
+    "main": "body=body",
+    "variable": [
+      "[data-nav-item=\"global-promo-eyebrow-root\"]"
+    ],
+    "reason": "listing archetype: live /blog/ renders promo, global header and footer INSIDE <main> while EDS chrome sits outside main (frozen header/footer blocks), so a main-vs-main probe compares live chrome against nothing; both sides are probed whole-page (body=body) so chrome is compared like-for-like. The top promo strip is campaign-variable (counts only)."
+  },
+  "web-widget": {
+    "main": "body=body",
+    "reason": "program microsite (sv-links subnav, nav | /nav-none): live renders its footer INSIDE <main> while the EDS footer block sits outside main (frozen footer), so a main-vs-main probe reports the whole live footer as MISSING; both sides are probed whole-page (body=body) so chrome is compared like-for-like."
+  },
+  "cxtrends": {
+    "main": "body=body",
+    "reason": "program microsite (sv-links subnav, nav | /nav-none): live renders its footer INSIDE <main> while the EDS footer block sits outside main (frozen footer), so a main-vs-main probe reports the whole live footer as MISSING; both sides are probed whole-page (body=body) so chrome is compared like-for-like."
+  },
+  "marketplace": {
+    "variable": [
+      "section.sc-a45d110c-1=.bl-group.grid:not(.no-head):not(.features)"
+    ],
+    "reason": "listing hub (cluster-listing): the featured-apps, experimental, themes and partners rails are client-rendered from the live marketplace catalogue and reshuffle per visit (D3 interim: authored cards as captured); compared as counts, not by link text."
+  },
+  "marketplace-apps": {
+    "variable": [
+      "div.sc-c38018e9-0=.bl-latest-head",
+      "div.StyledInnerPanel-sc-8nbueg-0=.bl-filters-panel"
+    ],
+    "reason": "marketplace directory (cluster-listing): the live result count and the filter option counts come from the live apps catalogue (Algolia, changes daily; D3 interim: authored as captured); compared as counts."
+  },
+  "marketplace-partners": {
+    "variable": [
+      "div.sc-c38018e9-0=.bl-latest-head",
+      "div.StyledInnerPanel-sc-8nbueg-0=.bl-filters-panel"
+    ],
+    "reason": "marketplace directory (cluster-listing): the live result count and the filter option counts come from the live partners catalogue (Algolia, changes daily; D3 interim: authored as captured); compared as counts."
+  },
+  "marketplace-themes": {
+    "variable": [
+      "div.sc-c38018e9-0=.bl-latest-head",
+      "div.StyledInnerPanel-sc-8nbueg-0=.bl-filters-panel"
+    ],
+    "reason": "marketplace directory (cluster-listing): the live result count and the filter option counts come from the live themes catalogue (Algolia, changes daily; D3 interim: authored as captured); compared as counts."
+  },
+  "login": {
+    "main": "body=body",
+    "reason": "form sibling (cluster-form-1): live /login/ renders its global header, promo strip and footer INSIDE <main> while the EDS chrome sits outside main (frozen header/footer blocks), so a main-vs-main probe reports the live chrome as MISSING; both sides are probed whole-page (body=body) so chrome is compared like-for-like."
+  },
+  "demo": {
+    "main": "body=body",
+    "reason": "form sibling (cluster-form-1): live /demo/ renders its global header and footer INSIDE <main> while the EDS chrome sits outside main (frozen header/footer blocks), so a main-vs-main probe reports the live chrome as MISSING; both sides are probed whole-page (body=body) so chrome is compared like-for-like."
+  },
+  "help-center-closed": {
+    "main": "body=body",
+    "reason": "unique sibling (cluster-unique): live /help-center-closed/ wraps its header nav, promo strip and footer INSIDE main#main-content (Next.js shell), EDS main holds only the page body — compare body to body so chrome links/headings are matched on both sides"
+  }
+}

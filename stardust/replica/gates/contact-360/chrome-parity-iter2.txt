@@ -1,0 +1,13 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.zendesk.com/contact/ (live side from cache stardust/replica/gates/contact-360/chrome-live.json, probed 2026-11-20T10:14:43.085Z — delete the file to re-probe)
+  build: http://localhost:8791/contact-proposed.html
+
+■ header: ✓ parity — 1 paired of 1/1 texts, 1/1 icons
+  region live:  div#header-2034679258.sc-93bde466-5.iQZsgX — auto-detected (no usable <header> landmark), box 0,0 360×60; selector #__next > div > div:nth-of-type(1)
+  region build: div#za-hdr-m.za-hdr.za-hdr--mobile — auto-detected (no usable <header> landmark), box 0,0 360×60; selector #za-hdr-m
+
+■ footer: ✓ parity — 6 paired of 6/6 texts, 1/1 icons
+  region live:  footer#footer-689004117.sc-512deb61-0.bRykKL — outermost <footer>, box 0,5053 360×166; selector #footer-689004117
+  region build: footer#footer.ct-ftr — outermost <footer>, box 0,5053 360×166; selector #footer
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

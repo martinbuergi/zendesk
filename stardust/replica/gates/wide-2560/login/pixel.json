@@ -1,0 +1,79 @@
+{
+  "a": "stardust/replica/gates/wide-2560/login/origin.png",
+  "b": "stardust/replica/gates/wide-2560/login/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 946,
+    "mode": "overlap"
+  },
+  "heightDelta": -4,
+  "differingPixels": 19197,
+  "pct": 0.79,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/wide-2560/login/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.6
+    },
+    {
+      "y0": 500,
+      "y1": 946,
+      "pct": 1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.79,
+    "differingPixels": 19197,
+    "compared": {
+      "width": 2560,
+      "height": 946,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.6,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 500,
+        "y1": 946,
+        "pct": 1,
+        "unaligned": 1
+      }
+    ],
+    "diff": null,
+    "reason": "aligned number not lower than the unaligned one",
+    "candidate": {
+      "pct": 0.96,
+      "steps": 1,
+      "totalShift": 4
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/login"
+  }
+}

@@ -1,0 +1,448 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-21T18:26:24.343Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/intro-tour/",
+  "at": "2026-11-21T18:26:09.615Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 900,
+  "root": null,
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row > div.col.col-4 > a.logo",
+    "x": 16,
+    "y": 38,
+    "w": 99,
+    "h": 20,
+    "text": "zendesk",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col.col-4 > a.logo > img",
+    "x": 16,
+    "y": 38,
+    "w": 99,
+    "h": 19,
+    "text": "zendesk",
+    "file": "zendesk-logo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col.col-8 > div.link-group > a.button.button-medium",
+    "x": 131,
+    "y": 24,
+    "w": 213,
+    "h": 48,
+    "text": "start a trial",
+    "href": "/register/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "nav.container > div.legal-nav > a",
+    "x": 49,
+    "y": 423,
+    "w": 69,
+    "h": 48,
+    "text": "terms of use",
+    "href": "/company/agreements-and-terms/terms-of-use/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "nav.container > div.legal-nav > a",
+    "x": 133,
+    "y": 423,
+    "w": 75,
+    "h": 48,
+    "text": "privacy notice",
+    "href": "/company/agreements-and-terms/privacy-notice/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "nav.container > div.legal-nav > a",
+    "x": 225,
+    "y": 423,
+    "w": 75,
+    "h": 48,
+    "text": "cookie notice",
+    "href": "/company/agreements-and-terms/cookie-notice/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "nav.container > div.legal-nav > a#onetrust-show-cookie-settings",
+    "x": 54,
+    "y": 471,
+    "w": 240,
+    "h": 48,
+    "text": "do not sell or share my personal information",
+    "href": "/intro-tour/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "nav.container > div.legal-nav > a",
+    "x": 91,
+    "y": 519,
+    "w": 64,
+    "h": 48,
+    "text": "trust center",
+    "href": "/trust-center/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "nav.container > div.legal-nav > a",
+    "x": 171,
+    "y": 519,
+    "w": 86,
+    "h": 48,
+    "text": "©zendesk 2023",
+    "href": "/company/legal/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 7,
+    "controls": 8,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/intro-tour",
+  "at": "2026-11-21T18:26:24.233Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 900,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.un-tour-logo > p > a",
+    "x": 16,
+    "y": 38,
+    "w": 100,
+    "h": 20,
+    "text": "zendesk",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 16,
+    "y": 38,
+    "w": 100,
+    "h": 19,
+    "text": "zendesk",
+    "file": "media_13c084e983a9f709f3adc4a5e20b0b8b76"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.un-tour-acts > p.button-wrapper > a.button.primary",
+    "x": 131,
+    "y": 24,
+    "w": 213,
+    "h": 48,
+    "text": "start a trial",
+    "href": "/register"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.za-col.za-ftr-slim-navcol > nav.za-ftr-slim-nav > a.za-ftr-slim-a",
+    "x": 53,
+    "y": 423,
+    "w": 69,
+    "h": 48,
+    "text": "terms of use",
+    "href": "/company/agreements-and-terms/terms-of-use/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.za-col.za-ftr-slim-navcol > nav.za-ftr-slim-nav > a.za-ftr-slim-a",
+    "x": 133,
+    "y": 423,
+    "w": 75,
+    "h": 48,
+    "text": "privacy notice",
+    "href": "/company/agreements-and-terms/privacy-notice/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.za-col.za-ftr-slim-navcol > nav.za-ftr-slim-nav > a.za-ftr-slim-a",
+    "x": 220,
+    "y": 423,
+    "w": 75,
+    "h": 48,
+    "text": "cookie notice",
+    "href": "/company/agreements-and-terms/cookie-notice/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.za-col.za-ftr-slim-navcol > nav.za-ftr-slim-nav > a#onetrust-show-cookie-settings",
+    "x": 17,
+    "y": 471,
+    "w": 237,
+    "h": 48,
+    "text": "do not sell or share my personal information",
+    "href": "/intro-tour"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.za-col.za-ftr-slim-navcol > nav.za-ftr-slim-nav > a.za-ftr-slim-a",
+    "x": 266,
+    "y": 471,
+    "w": 64,
+    "h": 48,
+    "text": "trust center",
+    "href": "/trust-center"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.za-col.za-ftr-slim-navcol > nav.za-ftr-slim-nav > a.za-ftr-slim-a",
+    "x": 131,
+    "y": 519,
+    "w": 86,
+    "h": 48,
+    "text": "©zendesk 2023",
+    "href": "/company/legal/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 8,
+    "controls": 8,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 192,
+    "y": 39,
+    "w": 91,
+    "h": 18
+   },
+   {
+    "x": 49,
+    "y": 439,
+    "w": 69,
+    "h": 15
+   },
+   {
+    "x": 133,
+    "y": 439,
+    "w": 75,
+    "h": 15
+   },
+   {
+    "x": 225,
+    "y": 439,
+    "w": 75,
+    "h": 15
+   },
+   {
+    "x": 54,
+    "y": 487,
+    "w": 240,
+    "h": 15
+   },
+   {
+    "x": 91,
+    "y": 535,
+    "w": 64,
+    "h": 15
+   },
+   {
+    "x": 171,
+    "y": 535,
+    "w": 86,
+    "h": 15
+   }
+  ],
+  "eds": [
+   {
+    "x": 192,
+    "y": 39,
+    "w": 91,
+    "h": 18
+   },
+   {
+    "x": 53,
+    "y": 439,
+    "w": 69,
+    "h": 15
+   },
+   {
+    "x": 133,
+    "y": 439,
+    "w": 75,
+    "h": 15
+   },
+   {
+    "x": 220,
+    "y": 439,
+    "w": 75,
+    "h": 15
+   },
+   {
+    "x": 17,
+    "y": 487,
+    "w": 237,
+    "h": 15
+   },
+   {
+    "x": 266,
+    "y": 487,
+    "w": 64,
+    "h": 15
+   },
+   {
+    "x": 131,
+    "y": 535,
+    "w": 86,
+    "h": 15
+   }
+  ]
+ }
+}

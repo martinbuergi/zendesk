@@ -1,0 +1,91 @@
+{
+  "round": "iter2",
+  "width": 360,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/pricing-360/diff-iter2.png",
+    "json": "stardust/replica/gates/pricing-360/pixel-iter2.json",
+    "pct": 1.68,
+    "alignedPct": 1.02,
+    "alignedUsed": true,
+    "totalShift": 23,
+    "steps": [
+      {
+        "y": 1889,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 2163,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 2663,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 4080,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 4125,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 4827,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 5636,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 5682,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 6503,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 6645,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 6800,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 7031,
+        "shift": -1,
+        "cumulative": 0
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 76,
+    "noiseFloor": 0.08,
+    "reason": "offsets: 23 step(s), 23px total — −1px at y=1889, +1px at y=2163, +1px at y=2663, −1px at y=4080, +1px at y=4125, −1px at y=4827, … 17 more (bound 8px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-20T10:59:05.388Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": "5332:76"
+  },
+  "probes": {},
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-20T11:01:50.971Z"
+}

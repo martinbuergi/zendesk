@@ -1,0 +1,69 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-21T13:37:02.456Z",
+ "content": {
+  "totals": {
+   "missingHeadings": 0,
+   "hiddenHeadings": 0,
+   "extraHeadings": 0,
+   "missingLinks": 0,
+   "hiddenLinks": 0,
+   "movedLinks": 0,
+   "extraLinks": 1,
+   "missingButtons": 0,
+   "hiddenButtons": 0,
+   "controlState": 0,
+   "countDeltas": 2,
+   "findings": 6,
+   "structural": 0,
+   "missing": 0,
+   "hidden": 0
+  },
+  "variable": [],
+  "reason": null,
+  "tier": "chrome"
+ },
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 1,
+   "offPage": 7,
+   "textNodes": 70,
+   "controls": 34,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.sv-carousel.legacy",
+    "path": "div.sv-res-list > div.sv-res-track > div.sv-res-slide > a.sv-res-card",
+    "text": "3 tips for improving your it service deskarticleread the art",
+    "cutMin": 306,
+    "cutMax": 306
+   }
+  ],
+  "origin": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 1,
+   "offPage": 7,
+   "textNodes": 69,
+   "controls": 39,
+   "total": 0
+  },
+  "source": "content-presence"
+ }
+}

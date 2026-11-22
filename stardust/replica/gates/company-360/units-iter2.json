@@ -1,0 +1,204 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-20T10:41:20.308Z",
+  "tol": 4,
+  "n": 1,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/company/",
+  "at": "2026-11-20T10:41:04.624Z",
+  "docH": 5094
+ },
+ "eds": {
+  "url": "http://localhost:8791/company-proposed.html",
+  "at": "2026-11-20T10:41:20.206Z",
+  "docH": 5094
+ },
+ "results": [
+  {
+   "sel": "#teaser-f67eba53a7 .slick-current [role=group] > a=.co-car__slide:first-child .co-card",
+   "family": "gen-a-location-card",
+   "required": true,
+   "originMatches": 1,
+   "edsMatches": 1,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div > div > a#button-db7fd2da4a"
+     },
+     "eds": {
+      "path": "div.co-car__track.slick-track > div.co-car__slide.slick-current > a#button-db7fd2da4a"
+     },
+     "rows": [
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 230,
+        "h": 172
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 230,
+        "h": 172,
+        "sel": "img.co-ii__sizer",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/500",
+        "eds": "16/0/500"
+       }
+      },
+      {
+       "key": "image:img#image-ed701fc074#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 230,
+        "h": 172
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 230,
+        "h": 172,
+        "sel": "img#image-ed701fc074",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/500",
+        "eds": "16/0/500"
+       }
+      },
+      {
+       "key": "box:div.LinkCardstyle__LinkCardContent-sc-1nxo9pt-2.ihgjRr#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 173,
+        "w": 230,
+        "h": 102
+       },
+       "eds": {
+        "x": 1,
+        "y": 173,
+        "w": 230,
+        "h": 102,
+        "sel": "div.co-card__content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/500",
+        "eds": "16/16/500"
+       }
+      },
+      {
+       "key": "text:hq san francisco",
+       "role": "text",
+       "text": "hq san francisco",
+       "edsText": "hq san francisco",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 213,
+        "w": 190,
+        "h": 22
+       },
+       "eds": {
+        "x": 21,
+        "y": 213,
+        "w": 190,
+        "h": 22,
+        "sel": "p.co-card__title",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/600",
+        "eds": "15/22/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2550,
+       "w": 232,
+       "h": 276
+      },
+      "eds": {
+       "x": 16,
+       "y": 2550,
+       "w": 232,
+       "h": 276
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 1,
+  "within": 4,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

@@ -1,0 +1,691 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-21T01:36:55.924Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.zendesk.com",
+    "eds": "https://main--3055ed88--aemcoder.aem.page",
+    "edsHostOverride": "https://main--3055ed88--aemcoder.aem.page",
+    "only": [
+      "marketplace",
+      "customer",
+      "newsroom",
+      "marketplace-partners",
+      "marketplace-themes"
+    ]
+  },
+  "totals": {
+    "pages": 5,
+    "pass": 2,
+    "pixelOnlyPass": 2,
+    "overridePass": 0,
+    "fail": 3,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 3,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 2,
+    "failOffsets": 2,
+    "referenceUnstable": 0,
+    "passWithOverrides": 2
+  },
+  "rows": [
+    {
+      "slug": "customer",
+      "path": "/customer/",
+      "template": "listing",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 26.58,
+      "textPct": 23.03,
+      "heightDelta": 64,
+      "originH": 7074,
+      "edsH": 7010,
+      "alignedPct": 4.73,
+      "alignedUsed": true,
+      "totalShift": 158,
+      "steps": [
+        {
+          "y": 148,
+          "shift": 4,
+          "cumulative": 4
+        },
+        {
+          "y": 1055,
+          "shift": -56,
+          "cumulative": -52
+        },
+        {
+          "y": 1651,
+          "shift": -9,
+          "cumulative": -61
+        },
+        {
+          "y": 1988,
+          "shift": 1,
+          "cumulative": -60
+        },
+        {
+          "y": 2458,
+          "shift": 3,
+          "cumulative": -57
+        },
+        {
+          "y": 2543,
+          "shift": -2,
+          "cumulative": -59
+        },
+        {
+          "y": 3011,
+          "shift": 2,
+          "cumulative": -57
+        },
+        {
+          "y": 3097,
+          "shift": -1,
+          "cumulative": -58
+        },
+        {
+          "y": 3567,
+          "shift": -19,
+          "cumulative": -77
+        },
+        {
+          "y": 3671,
+          "shift": -2,
+          "cumulative": -79
+        },
+        {
+          "y": 4139,
+          "shift": 2,
+          "cumulative": -77
+        },
+        {
+          "y": 4253,
+          "shift": -1,
+          "cumulative": -78
+        }
+      ],
+      "offsetBound": 71,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel"
+      ],
+      "unwaived": [
+        "pixel"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "offsets: 16 step(s), 158px total — +4px at y=148, −56px at y=1055, −9px at y=1651, +1px at y=1988, +3px at y=2458, −2px at y=2543, … 10 more (bound 71px)"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 4,
+        "hiddenButtons": 0,
+        "findings": 13,
+        "variable": []
+      },
+      "units": {
+        "units": 0,
+        "within": 0,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 2,
+        "requiredOff": 0
+      },
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/customer",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "2000-2500:46.9%",
+        "2500-3000:44.5%",
+        "3000-3500:37%",
+        "3500-4000:46.5%",
+        "4000-4500:32.6%",
+        "4500-5000:37.8%",
+        "5000-5500:28.1%",
+        "5500-6000:17.3%",
+        "6000-6500:23.8%",
+        "6500-7000:28.3%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "marketplace",
+      "path": "/marketplace/",
+      "template": "listing",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 16.36,
+      "textPct": 21.24,
+      "heightDelta": -80,
+      "originH": 16719,
+      "edsH": 16799,
+      "alignedPct": 14.59,
+      "alignedUsed": true,
+      "totalShift": 326,
+      "steps": [
+        {
+          "y": 13549,
+          "shift": -123,
+          "cumulative": -123
+        },
+        {
+          "y": 14215,
+          "shift": 37,
+          "cumulative": -86
+        },
+        {
+          "y": 14418,
+          "shift": 22,
+          "cumulative": -64
+        },
+        {
+          "y": 14548,
+          "shift": 12,
+          "cumulative": -52
+        },
+        {
+          "y": 15094,
+          "shift": 131,
+          "cumulative": 79
+        },
+        {
+          "y": 16604,
+          "shift": 1,
+          "cumulative": 80
+        }
+      ],
+      "offsetBound": 167,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel"
+      ],
+      "unwaived": [
+        "pixel"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "pixel aligned 14.59% (unaligned 16.36%) > 10%"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 20,
+        "variable": [
+          "section.sc-a45d110c-1=.bl-group.grid:not(.no-head):not(.features)"
+        ]
+      },
+      "units": {
+        "units": 0,
+        "within": 0,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 2,
+        "requiredOff": 0
+      },
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/marketplace",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "7500-8000:49.1%",
+        "8000-8500:42.1%",
+        "8500-9000:30.6%",
+        "9000-9500:30.1%",
+        "9500-10000:33%",
+        "10000-10500:29.5%",
+        "10500-11000:25%",
+        "13500-14000:30.3%",
+        "14000-14500:52.4%",
+        "14500-15000:26.2%",
+        "15000-15500:41.6%",
+        "15500-16000:35.9%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "marketplace-partners",
+      "path": "/marketplace/partners/",
+      "template": "listing",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 5.72,
+      "textPct": 16.74,
+      "heightDelta": -49,
+      "originH": 11099,
+      "edsH": 11148,
+      "alignedPct": 3.79,
+      "alignedUsed": true,
+      "totalShift": 123,
+      "steps": [
+        {
+          "y": 969,
+          "shift": 69,
+          "cumulative": 69
+        },
+        {
+          "y": 2012,
+          "shift": 16,
+          "cumulative": 85
+        },
+        {
+          "y": 9441,
+          "shift": -1,
+          "cumulative": 84
+        },
+        {
+          "y": 9795,
+          "shift": -1,
+          "cumulative": 83
+        },
+        {
+          "y": 9951,
+          "shift": -34,
+          "cumulative": 49
+        },
+        {
+          "y": 10371,
+          "shift": 1,
+          "cumulative": 50
+        },
+        {
+          "y": 10692,
+          "shift": -1,
+          "cumulative": 49
+        }
+      ],
+      "offsetBound": 111,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel"
+      ],
+      "unwaived": [
+        "pixel"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "offsets: 7 step(s), 123px total — +69px at y=969, +16px at y=2012, −1px at y=9441, −1px at y=9795, −34px at y=9951, +1px at y=10371, … 1 more (bound 111px)"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 2,
+        "variable": [
+          "div.sc-c38018e9-0=.bl-latest-head",
+          "div.StyledInnerPanel-sc-8nbueg-0=.bl-filters-panel"
+        ]
+      },
+      "units": {
+        "units": 0,
+        "within": 0,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 2,
+        "requiredOff": 0
+      },
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS",
+        "reason": "cluster-listing: the directory's result-count heading (\"1 - 24 of N partners\") is read from the live catalogue and its N moves daily (captured 2013 apps, live 2031 at gate time); the authored listing carries the captured count (D3 interim, static listing). Waives only a MISSING HEADING whose text differs in that number; pixel, height, clip and every other link/heading are measured as usual.",
+        "waives": [
+          "content"
+        ]
+      },
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/marketplace-partners",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "10000-10500:16.8%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "marketplace-themes",
+      "path": "/marketplace/themes/",
+      "template": "listing",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 21.26,
+      "textPct": 18.16,
+      "heightDelta": -4,
+      "originH": 12175,
+      "edsH": 12179,
+      "alignedPct": 5.7,
+      "alignedUsed": true,
+      "totalShift": 116,
+      "steps": [
+        {
+          "y": 818,
+          "shift": 16,
+          "cumulative": 16
+        },
+        {
+          "y": 1282,
+          "shift": 3,
+          "cumulative": 19
+        },
+        {
+          "y": 2968,
+          "shift": -6,
+          "cumulative": 13
+        },
+        {
+          "y": 3426,
+          "shift": 4,
+          "cumulative": 17
+        },
+        {
+          "y": 3820,
+          "shift": -3,
+          "cumulative": 14
+        },
+        {
+          "y": 4675,
+          "shift": 6,
+          "cumulative": 20
+        },
+        {
+          "y": 5100,
+          "shift": 2,
+          "cumulative": 22
+        },
+        {
+          "y": 5207,
+          "shift": 2,
+          "cumulative": 24
+        },
+        {
+          "y": 5533,
+          "shift": 2,
+          "cumulative": 26
+        },
+        {
+          "y": 5955,
+          "shift": 4,
+          "cumulative": 30
+        },
+        {
+          "y": 6376,
+          "shift": 3,
+          "cumulative": 33
+        },
+        {
+          "y": 6641,
+          "shift": -1,
+          "cumulative": 32
+        }
+      ],
+      "offsetBound": 122,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 2,
+        "variable": [
+          "div.sc-c38018e9-0=.bl-latest-head",
+          "div.StyledInnerPanel-sc-8nbueg-0=.bl-filters-panel"
+        ]
+      },
+      "units": {
+        "units": 0,
+        "within": 0,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 2,
+        "requiredOff": 0
+      },
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS",
+        "reason": "cluster-listing: the directory's result-count heading (\"1 - 24 of N themes\") is read from the live catalogue and its N moves daily (captured 2013 apps, live 2031 at gate time); the authored listing carries the captured count (D3 interim, static listing). Waives only a MISSING HEADING whose text differs in that number; pixel, height, clip and every other link/heading are measured as usual.",
+        "waives": [
+          "content"
+        ]
+      },
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/marketplace-themes",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "1000-1500:24.3%",
+        "1500-2000:17.5%",
+        "2000-2500:15.1%",
+        "2500-3000:22.1%",
+        "3000-3500:28.8%",
+        "3500-4000:24.1%",
+        "4000-4500:23.9%",
+        "4500-5000:24.6%",
+        "5000-5500:19%",
+        "5500-6000:22.8%",
+        "6000-6500:19.4%",
+        "6500-7000:23.3%",
+        "7000-7500:25.5%",
+        "7500-8000:26.1%",
+        "8000-8500:20.3%",
+        "8500-9000:31.8%",
+        "9000-9500:32.4%",
+        "9500-10000:32.2%",
+        "10000-10500:30.5%",
+        "10500-11000:25.4%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "newsroom",
+      "path": "/newsroom/",
+      "template": "listing",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 11.55,
+      "textPct": 15.2,
+      "heightDelta": -6,
+      "originH": 8019,
+      "edsH": 8025,
+      "alignedPct": 3.22,
+      "alignedUsed": true,
+      "totalShift": 62,
+      "steps": [
+        {
+          "y": 944,
+          "shift": -11,
+          "cumulative": -11
+        },
+        {
+          "y": 5838,
+          "shift": -17,
+          "cumulative": -28
+        },
+        {
+          "y": 7590,
+          "shift": 34,
+          "cumulative": 6
+        }
+      ],
+      "offsetBound": 80,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 0,
+        "variable": []
+      },
+      "units": {
+        "units": 0,
+        "within": 0,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 2,
+        "requiredOff": 0
+      },
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/newsroom",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "4500-5000:19.4%",
+        "5000-5500:20.5%",
+        "7000-7500:22.8%"
+      ],
+      "error": null
+    }
+  ]
+}

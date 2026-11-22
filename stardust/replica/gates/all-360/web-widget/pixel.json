@@ -1,0 +1,112 @@
+{
+  "a": "stardust/replica/gates/all-360/web-widget/origin.png",
+  "b": "stardust/replica/gates/all-360/web-widget/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 2085,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 8374,
+  "pct": 1.12,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/web-widget/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 1.38,
+  "textBoxes": 42,
+  "textPixels": 125899,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 4.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2085,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 1.12,
+    "differingPixels": 8374,
+    "compared": {
+      "width": 360,
+      "height": 2085,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 4.7,
+        "unaligned": 4.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2085,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 1.12,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/web-widget"
+  }
+}

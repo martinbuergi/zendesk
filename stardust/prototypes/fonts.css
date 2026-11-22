@@ -1,0 +1,75 @@
+/* Captured source faces, self-hosted as-is (register R-01). Shared canon — every archetype imports it. */
+@font-face {
+  font-family: "Vanilla Sans";
+  src: url("assets/fonts/VanillaSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Vanilla Sans";
+  src: url("assets/fonts/VanillaSans-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Vanilla Sans";
+  src: url("assets/fonts/VanillaSans-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Vanilla Sans";
+  src: url("assets/fonts/VanillaSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sharp Sans";
+  src: url("assets/fonts/SHSNMedium.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sharp Sans";
+  src: url("assets/fonts/SHSN.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sharp Sans";
+  src: url("assets/fonts/SHSNBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("assets/fonts/PNR.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("assets/fonts/PNSB.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("assets/fonts/PNB.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+/* Linux-available metric fallbacks, listed after each brand family */
+@font-face { font-family: "Vanilla Sans Fallback"; src: local("Arimo"), local("Liberation Sans"); }
+@font-face { font-family: "Sharp Sans Fallback"; src: local("Arimo"), local("Liberation Sans"); }
+@font-face { font-family: "Proxima Nova Fallback"; src: local("Arimo"), local("Liberation Sans"); }

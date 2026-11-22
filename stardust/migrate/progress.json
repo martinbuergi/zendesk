@@ -1,0 +1,356 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "listing",
+        "static",
+        "unique",
+        "form",
+        "program",
+        "article"
+      ],
+      "pages": 100,
+      "startedAt": "2026-11-20T11:43:03.996Z",
+      "endedAt": "2026-11-20T11:43:03.996Z",
+      "verdict": "plan: 7 archetypes Path A, 93 siblings Path A′ in 15 render clusters (≤8), each after its archetype unit is done"
+    },
+    "archetypes": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing",
+        "listing",
+        "static",
+        "unique",
+        "form",
+        "program",
+        "article"
+      ],
+      "pages": 7,
+      "slugs": [
+        "index",
+        "blog",
+        "company",
+        "pricing",
+        "contact",
+        "service",
+        "customer-canva"
+      ],
+      "startedAt": "2026-11-20T11:43:49.429Z",
+      "endedAt": "2026-11-20T11:43:49.429Z",
+      "verdict": "rendered 7, unchanged 0, refused 0, passthrough 0"
+    },
+    "listing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "listing"
+      ],
+      "archetype": "blog",
+      "pages": 7,
+      "slugs": [
+        "marketplace",
+        "customer",
+        "newsroom",
+        "industries",
+        "marketplace-apps",
+        "marketplace-partners",
+        "marketplace-themes"
+      ],
+      "startedAt": "2026-11-20T16:21:43.064Z",
+      "endedAt": "2026-11-20T16:32:27.393Z",
+      "verdict": "rendered 7, unchanged 0, refused 0, passthrough 0"
+    },
+    "static": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "static"
+      ],
+      "archetype": "company",
+      "pages": 3,
+      "slugs": [
+        "trust-center",
+        "sitemap",
+        "what-is-zendesk"
+      ],
+      "startedAt": "2026-11-20T14:08:35.327Z",
+      "endedAt": "2026-11-20T14:17:00.817Z",
+      "verdict": "rendered 3, unchanged 0, refused 0, passthrough 0"
+    },
+    "form-1": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "form"
+      ],
+      "archetype": "contact",
+      "pages": 6,
+      "slugs": [
+        "login",
+        "register",
+        "demo",
+        "instapage-form-demo",
+        "instapage-form-contact",
+        "instapage-form-trial-teaser-sell"
+      ],
+      "startedAt": "2026-11-20T16:38:41.383Z",
+      "endedAt": "2026-11-20T16:49:34.731Z",
+      "verdict": "rendered 6, unchanged 0, refused 0, passthrough 0"
+    },
+    "form-2": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "form"
+      ],
+      "archetype": "contact",
+      "pages": 6,
+      "slugs": [
+        "instapage-form-webinar",
+        "instapage-form-trial-teaser-suite",
+        "instapage-form-trial-teaser-suite-inline",
+        "instapage-form-newsletter",
+        "instapage-form-content",
+        "free-trial"
+      ],
+      "startedAt": "2026-11-20T16:49:40.093Z",
+      "endedAt": "2026-11-20T16:54:58.021Z",
+      "verdict": "rendered 6, unchanged 0, refused 0, passthrough 0"
+    },
+    "program-1": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "program"
+      ],
+      "archetype": "service",
+      "pages": 5,
+      "slugs": [
+        "employee-experience",
+        "partner",
+        "employee-service",
+        "sell",
+        "platform"
+      ],
+      "startedAt": "2026-11-20T13:53:36.464Z",
+      "endedAt": "2026-11-20T14:07:17.966Z",
+      "verdict": "rendered 5, unchanged 0, refused 0, passthrough 0"
+    },
+    "program-2": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "program"
+      ],
+      "archetype": "service",
+      "pages": 5,
+      "slugs": [
+        "repeatcustomer",
+        "why-zendesk",
+        "web-widget",
+        "professional-services",
+        "cxtrends"
+      ],
+      "startedAt": "2026-11-20T16:32:35.563Z",
+      "endedAt": "2026-11-20T16:38:32.336Z",
+      "verdict": "rendered 5, unchanged 0, refused 0, passthrough 0"
+    },
+    "unique": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "unique"
+      ],
+      "archetype": "pricing",
+      "pages": 3,
+      "slugs": [
+        "intro-tour",
+        "help-center-closed",
+        "blog-ads-api-output"
+      ],
+      "startedAt": "2026-11-20T16:55:03.121Z",
+      "endedAt": "2026-11-20T17:01:58.478Z",
+      "verdict": "rendered 3, unchanged 0, refused 0, passthrough 0"
+    },
+    "article-1": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "customer-canva",
+      "pages": 8,
+      "slugs": [
+        "customer-madeiramadeira",
+        "customer-serasa-experian",
+        "customer-nortek",
+        "customer-resurs-bank",
+        "customer-mimecast",
+        "customer-dfin",
+        "customer-koho",
+        "customer-bgl"
+      ],
+      "startedAt": "2026-11-20T13:51:02.669Z",
+      "endedAt": "2026-11-20T14:05:30.672Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0"
+    },
+    "article-2": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "customer-canva",
+      "pages": 8,
+      "slugs": [
+        "customer-deputy",
+        "customer-qantas-loyalty",
+        "customer-perk-es",
+        "customer-asaas",
+        "customer-recargapay",
+        "customer-liberty-tax",
+        "customer-motiva",
+        "customer-star21"
+      ],
+      "startedAt": "2026-11-20T14:07:25.366Z",
+      "endedAt": "2026-11-20T14:09:24.143Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0"
+    },
+    "article-3": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "customer-canva",
+      "pages": 8,
+      "slugs": [
+        "customer-petstock",
+        "customer-thoughtworks",
+        "customer-solo-by-myob",
+        "customer-givedirectly",
+        "customer-uneo",
+        "customer-trodo",
+        "customer-sealy-of-australia",
+        "customer-betmgm-brasil"
+      ],
+      "startedAt": "2026-11-20T14:09:30.447Z",
+      "endedAt": "2026-11-20T14:10:56.216Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0"
+    },
+    "article-4": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "customer-canva",
+      "pages": 8,
+      "slugs": [
+        "customer-the-smith-family",
+        "customer-catapult",
+        "customer-lucid-software-es",
+        "customer-coco-republic",
+        "customer-envato",
+        "customer-docebo",
+        "customer-tbauctions",
+        "customer-furnished-finder"
+      ],
+      "startedAt": "2026-11-20T14:11:04.794Z",
+      "endedAt": "2026-11-20T14:12:38.012Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0"
+    },
+    "article-5": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "customer-canva",
+      "pages": 8,
+      "slugs": [
+        "customer-lucid-software-ai",
+        "customer-pure-insurance",
+        "customer-five-iron-golf",
+        "customer-github-es",
+        "customer-tesu",
+        "customer-inshur",
+        "customer-odeon-cinemas",
+        "customer-britbox"
+      ],
+      "startedAt": "2026-11-20T14:12:43.817Z",
+      "endedAt": "2026-11-20T14:16:10.271Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0"
+    },
+    "article-6": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "customer-canva",
+      "pages": 8,
+      "slugs": [
+        "customer-sinch-engage",
+        "customer-zendesk-for-employee-service",
+        "customer-irc-video",
+        "customer-motel-rocks",
+        "customer-privy",
+        "customer-liberty-qa",
+        "customer-qualia",
+        "customer-miko"
+      ],
+      "startedAt": "2026-11-20T14:16:18.228Z",
+      "endedAt": "2026-11-20T14:18:47.340Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0"
+    },
+    "article-7": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "customer-canva",
+      "pages": 8,
+      "slugs": [
+        "customer-ballys",
+        "customer-dupage-county",
+        "customer-yape",
+        "customer-babbel",
+        "customer-starshipit",
+        "customer-action-property-management",
+        "customer-easyfundraising",
+        "customer-shearcomfort"
+      ],
+      "startedAt": "2026-11-20T14:18:53.733Z",
+      "endedAt": "2026-11-20T14:20:33.087Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0"
+    },
+    "article-8": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "customer-canva",
+      "pages": 2,
+      "slugs": [
+        "customer-benevity",
+        "customer-quickmd"
+      ],
+      "startedAt": "2026-11-20T14:20:39.371Z",
+      "endedAt": "2026-11-20T14:22:01.242Z",
+      "verdict": "rendered 2, unchanged 0, refused 0, passthrough 0"
+    },
+    "report": {
+      "status": "pending",
+      "kind": "report",
+      "templates": [],
+      "pages": 100
+    }
+  }
+}

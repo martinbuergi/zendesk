@@ -1,0 +1,49 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-21T17:11:57.205Z",
+  "tol": 4,
+  "n": 4,
+  "width": 2560,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/marketplace/",
+  "at": "2026-11-21T17:11:32.754Z",
+  "docH": 7949
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/marketplace",
+  "at": "2026-11-21T17:11:57.104Z",
+  "docH": 7876
+ },
+ "results": [
+  {
+   "sel": "#blog-story-category-listing-1995158695 .iZDyCR=#blog-story-category-listing-1995158695 .bl-card",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": "main section:not([id]):not(section section) .iZDyCR=.bl-latest__grid .bl-card",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  }
+ ],
+ "verdict": {
+  "units": 0,
+  "within": 0,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 2,
+  "requiredOff": 0
+ }
+}

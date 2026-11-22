@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-11-20T16:47:35Z
+  page:             Login | Zendesk
+  slug:             login
+  pagePath:         migrated/login/index.html
+  renderBranch:     A'
+  template:         contact
+  archetypePath:    stardust/prototypes/contact-proposed.html
+  archetypeSha:     616e2bf4d511
+  sourceCurrent:    stardust/current/pages/login.json
+  againstDirection: stardust/direction.md (Active)
+  designMd:         DESIGN.md (sha: 84a4a03d7364)
+  designJson:       DESIGN.json (sha: 28069f8740fe)
+  canonShas:        header:null footer:eb12288bdf84 css:6522953e4893
+  decisionTrace:    _meta.json
+  brokenInternalLinks: 4
+  stardustVersion:  local
+-->
+<style>
+:root {
+  --za-ink: rgb(17, 17, 13);
+  --za-white: rgb(255, 255, 255);
+  --za-cream: rgb(245, 245, 242);
+  --za-lime: rgb(209, 244, 112);
+  --za-forest: rgb(32, 53, 36);
+  --za-moss: rgb(53, 94, 52);
+  --za-matcha: rgb(112, 163, 42);
+  --za-graphite: rgb(66, 67, 62);
+  --za-hairline: rgb(213, 213, 210);
+  --za-font: "Vanilla Sans", Arial, sans-serif;
+  --za-ease: cubic-bezier(0.7, 0, 0.3, 1);
+  --za-content: 1150px;      /* .hHhIKw max-width at >=1150 */
+  --za-gutter: 16px;          /* container side padding: 16 / 24 (>=768) / 40 (>=1600) */
+  --za-section-pad: 48px;     /* 48 / 56 (>=481) / 64 (>=768) / 88 (>=1150) / 104 (>=1600) */
+  --za-row-gap: 48px;         /* grid + grid: 48 / 56 / 64 / 72 */
+  --za-radius: 20px;
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Login | Zendesk","description":"Sign into your Zendesk account","url":"https://www.zendesk.com/login/"}</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login | Zendesk</title>
+<meta name="description" content="Sign into your Zendesk account">
+<meta property="og:title" content="Login | Zendesk">
+<meta property="og:description" content="Sign into your Zendesk account">
+<meta property="og:image" content="https://d1eipm3vz40hy0.cloudfront.net/images/logos/favicons/zendesk-image.png">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://www.zendesk.com/login/">
+<link rel="icon" href="../assets/favicon.ico">
+<link rel="stylesheet" href="../assets/canon-a.css">
+<link rel="stylesheet" href="../assets/contact.css">
+</head>
+<body>
+<a class="za-skip" href="#main-content">Skip to main content</a>
+
+<!-- slim gen-A header (contact variant: no secondary row, no menus) — mobile (<970) -->
+<div class="za-hdr za-hdr--mobile ct-hdr" id="za-hdr-m">
+  <nav class="za-container za-hdr__nav">
+    <div class="za-hdr__bar">
+      <a class="za-logo" href="../index.html" aria-label="Zendesk home"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="78.4" height="56" viewbox="0 0 78.4 56" fill="currentColor"><path d="M37.5 8.8v24.4H17.4zm0-8.8c0 5.6-4.5 10.1-10.1 10.1s-10-4.5-10-10.1zm3.3 33.1c0-5.6 4.5-10.1 10.1-10.1S61 27.5 61 33.1zm0-8.7V0H61z"></path><path d="M54.6 49.8c-.2-1.4-1.1-2.4-2.7-2.4-1.5 0-2.6.9-2.9 2.4zm-2.5 4.1c1.3 0 2.2-.5 2.8-1.1l1.4 1.5c-.9.9-2.2 1.6-4.2 1.6-3.4 0-5.6-2.2-5.6-5.3 0-3 2.3-5.3 5.2-5.3 3.4 0 5.2 2.6 5.1 6.1H49c.3 1.6 1.3 2.5 3.1 2.5M0 53.8l6.1-6.2h-6v-2h8.8v2l-6.1 6.2H9v2H0zm18.3-4c-.2-1.4-1.1-2.4-2.7-2.4-1.5 0-2.6.9-2.9 2.4zm-2.4 4.1c1.3 0 2.2-.5 2.8-1.1l1.4 1.5c-.9.9-2.2 1.6-4.2 1.6-3.4 0-5.6-2.2-5.6-5.3 0-3 2.3-5.3 5.2-5.3 3.4 0 5.2 2.6 5.1 6.1h-7.9c.4 1.6 1.4 2.5 3.2 2.5m26.6-3.2c0-1.8-1.4-3.3-3.2-3.3s-3.2 1.4-3.2 3.3 1.4 3.3 3.2 3.3 3.2-1.5 3.2-3.3m-8.6 0c0-3.3 2.4-5.3 5.1-5.3 1.3 0 2.6.6 3.4 1.5v-6h2.2v14.8h-2.2v-1.4c-.8 1-2.1 1.6-3.4 1.6-2.6.1-5.1-2-5.1-5.2m24.4 3 2-1c.6.9 1.4 1.5 2.6 1.5s1.9-.6 1.9-1.3c0-.8-1.2-1-2.5-1.3-1.7-.4-3.5-.9-3.5-3 0-1.6 1.5-3.1 3.9-3.1 1.9 0 3.3.7 4.1 2l-1.8 1c-.5-.7-1.3-1.2-2.3-1.2-1.2 0-1.8.6-1.8 1.2 0 .7.9.9 2.4 1.3 1.7.3 3.6.9 3.6 3 0 1.4-1.2 3.3-4.1 3.3q-3.15-.15-4.5-2.4m14.5-2.4-1.7 1.9v2.6h-2.2V41h2.2v9.7l4.6-5h2.6l-4 4.3 4.1 5.8h-2.5zm-45.4-5.9c-2.6 0-4.7 1.7-4.7 4.4v5.9h2.2v-5.6c0-1.7.9-2.7 2.6-2.7s2.4 1 2.4 2.7v5.6h2.2v-5.9c0-2.7-2.2-4.4-4.7-4.4"></path></svg></a>
+      <button class="za-hdr__toggle ct-hdr__toggle" type="button" aria-label="Toggle Mobile Menu" aria-expanded="false"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewbox="0 0 32 32"><path fill="currentColor" fill-rule="evenodd" d="M25 11H7V9h18zm0 6H7v-2h18zM7 23h18v-2H7z" clip-rule="evenodd"></path></svg></button>
+      <div class="za-hdr__ctas"><a class="za-btn za-btn--sm za-btn--primary" href="../demo/index.html"><span><span>View demo</span></span></a></div>
+    </div>
+  </nav>
+</div>
+<!-- desktop (>=970) -->
+<div class="za-hdr za-hdr--desktop ct-hdr" id="za-hdr-d">
+  <nav class="za-nav1" aria-label="Global Primary Navigation">
+    <div class="za-container za-hdr__bar">
+      <div class="ct-logo-wrap"><a class="za-logo" href="../index.html" aria-label="Zendesk home"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="78.4" height="56" viewbox="0 0 78.4 56" fill="currentColor"><path d="M37.5 8.8v24.4H17.4zm0-8.8c0 5.6-4.5 10.1-10.1 10.1s-10-4.5-10-10.1zm3.3 33.1c0-5.6 4.5-10.1 10.1-10.1S61 27.5 61 33.1zm0-8.7V0H61z"></path><path d="M54.6 49.8c-.2-1.4-1.1-2.4-2.7-2.4-1.5 0-2.6.9-2.9 2.4zm-2.5 4.1c1.3 0 2.2-.5 2.8-1.1l1.4 1.5c-.9.9-2.2 1.6-4.2 1.6-3.4 0-5.6-2.2-5.6-5.3 0-3 2.3-5.3 5.2-5.3 3.4 0 5.2 2.6 5.1 6.1H49c.3 1.6 1.3 2.5 3.1 2.5M0 53.8l6.1-6.2h-6v-2h8.8v2l-6.1 6.2H9v2H0zm18.3-4c-.2-1.4-1.1-2.4-2.7-2.4-1.5 0-2.6.9-2.9 2.4zm-2.4 4.1c1.3 0 2.2-.5 2.8-1.1l1.4 1.5c-.9.9-2.2 1.6-4.2 1.6-3.4 0-5.6-2.2-5.6-5.3 0-3 2.3-5.3 5.2-5.3 3.4 0 5.2 2.6 5.1 6.1h-7.9c.4 1.6 1.4 2.5 3.2 2.5m26.6-3.2c0-1.8-1.4-3.3-3.2-3.3s-3.2 1.4-3.2 3.3 1.4 3.3 3.2 3.3 3.2-1.5 3.2-3.3m-8.6 0c0-3.3 2.4-5.3 5.1-5.3 1.3 0 2.6.6 3.4 1.5v-6h2.2v14.8h-2.2v-1.4c-.8 1-2.1 1.6-3.4 1.6-2.6.1-5.1-2-5.1-5.2m24.4 3 2-1c.6.9 1.4 1.5 2.6 1.5s1.9-.6 1.9-1.3c0-.8-1.2-1-2.5-1.3-1.7-.4-3.5-.9-3.5-3 0-1.6 1.5-3.1 3.9-3.1 1.9 0 3.3.7 4.1 2l-1.8 1c-.5-.7-1.3-1.2-2.3-1.2-1.2 0-1.8.6-1.8 1.2 0 .7.9.9 2.4 1.3 1.7.3 3.6.9 3.6 3 0 1.4-1.2 3.3-4.1 3.3q-3.15-.15-4.5-2.4m14.5-2.4-1.7 1.9v2.6h-2.2V41h2.2v9.7l4.6-5h2.6l-4 4.3 4.1 5.8h-2.5zm-45.4-5.9c-2.6 0-4.7 1.7-4.7 4.4v5.9h2.2v-5.6c0-1.7.9-2.7 2.6-2.7s2.4 1 2.4 2.7v5.6h2.2v-5.9c0-2.7-2.2-4.4-4.7-4.4"></path></svg></a></div>
+      <div class="za-hdr__ctas">
+        <a class="za-btn za-btn--sm za-btn--primary" href="../register/index.html"><span><span>Try for free</span></span></a>
+        <a class="za-btn za-btn--sm za-btn--secondary" href="../demo/index.html"><span><span>View demo</span></span></a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<main id="main-content" class="ct-main" lang="en-US" data-template="contact">
+<div class="ct-wrap ct-sibling ct-form--narrow ct-field--suffix ct-siderow--links" data-section="1">
+<section class="za-section ct-sec ct-promo" id="form-promo-1">
+<div class="za-container ct-rel">
+<div class="za-text ct-text"><p class="ct-p"><strong>AI Masterclass 2026:</strong></p></div>
+<div class="za-text ct-text"><p class="ct-p">On-demand workshops to assess AI readiness and build a practical plan to scale agentic service.</p></div>
+<div class="za-text ct-text"><p class="ct-p">On-demand workshops to assess AI readiness and build a practical plan to scale agentic service.</p></div>
+<p class="ct-linkp"><a class="ct-link" href="https://virtualevents.zendesk.com/series/ai-masterclass-amer-26/landing_page?utm_source=eyebrow&amp;utm_medium=webpromo&amp;utm_campaign=AI_Masterclass_AMER_NA_2026Q2" target="_blank" rel="noopener noreferrer">Watch now</a></p>
+</div>
+</section>
+<section class="za-section ct-sec" id="teaser-ffa11ec1ba">
+<div class="za-container ct-rel">
+<div class="za-row ct-hero">
+<div class="za-col ct-col-6">
+<h1 class="ct-h1">Sign in to Zendesk</h1>
+<div class="ct-formwrap" id="form-ct2-wrap"><form class="ct-form" novalidate><div class="ct-grid2"><div class="ct-field ct-field--full ct-field--suffix"><label class="ct-label" id="ct1-account-subdomain--label" for="ct1-account-subdomain">yoursubdomain.zendesk.com</label><div class="ct-wrapper"><input class="ct-input" id="ct1-account-subdomain" name="account.subdomain" value=""><p class="ct-suffix">.zendesk.com</p></div></div><div class="ct-field ct-field--full ct-note"><p><a class="ct-link">Forgot your subdomain?</a></p></div></div><div class="ct-actions"><button type="submit" class="za-btn za-btn--primary ct-submit"><span><span>Sign in</span></span></button></div></form></div>
+</div>
+<div class="za-col ct-col-1"></div>
+<div class="za-col ct-col-5"><div class="za-row ct-siderow"><div class="za-col"><div class="za-text ct-text"><p class="ct-p"><a class="ct-link" href="../register/index.html">New here? Start free trial</a></p></div></div></div><div class="za-row ct-siderow"><div class="za-col"><p class="ct-linkp"><a class="ct-link" href="https://dashboard.zopim.com/">Sign in to Chat</a></p><p class="ct-linkp"><a class="ct-link" href="https://app.futuresimple.com/">Sign in to Sell</a></p><p class="ct-linkp"><a class="ct-link" href="https://app.smooch.io/login">Sign in to Sunshine Conversations</a></p></div></div></div>
+</div>
+</div>
+</section>
+</div>
+</main><footer class="ct-ftr" id="footer">
+  <div class="za-container">
+    <div class="za-row ct-ftr__row">
+      <div class="za-col ct-ftr__brand"><a class="ct-ftr__home" href="../index.html" aria-label="Zendesk"><span><svg class="ct-ftr__logo" xmlns="http://www.w3.org/2000/svg" width="83" height="16" viewbox="0 0 83 16" fill="currentColor" aria-hidden="true" focusable="false"><path d="M55.753 13.773a4.47 4.47 0 0 0 2.969-1.155l1.485 1.567c-1.155 1.155-2.722 1.814-4.371 1.732-3.546 0-5.938-2.392-5.938-5.608-.082-3.052 2.309-5.526 5.361-5.608h.247c3.546 0 5.608 2.722 5.443 6.515h-8.495a3.01 3.01 0 0 0 3.299 2.557m2.556-4.371c-.082-1.485-1.32-2.639-2.804-2.557-1.567-.082-2.887.99-3.052 2.557zM0 13.691l6.515-6.598H.164V5.031h9.32v2.144l-6.515 6.598h6.598v2.062H0zm17.32.082a4.47 4.47 0 0 0 2.969-1.155l1.485 1.567a5.74 5.74 0 0 1-4.454 1.814c-3.629 0-5.938-2.392-5.938-5.608-.082-3.052 2.309-5.526 5.361-5.608h.247c3.546 0 5.608 2.722 5.361 6.515h-8.33c.247 1.567 1.732 2.639 3.299 2.474zm2.556-4.371c-.082-1.485-1.32-2.639-2.804-2.557-1.485-.082-2.804.99-3.052 2.557zm16.578.99c-.165-2.969 2.144-5.526 5.113-5.608h.247c1.402 0 2.722.577 3.546 1.649V0h2.309v15.753H45.36v-1.485C44.453 15.34 43.133 16 41.731 16c-2.969 0-5.443-2.474-5.361-5.443.082-.082.082-.165.082-.165zm9.072 0c0-1.897-1.567-3.381-3.381-3.381-1.897 0-3.381 1.567-3.381 3.381 0 1.897 1.567 3.381 3.381 3.381a3.344 3.344 0 0 0 3.381-3.381m16.825 3.134 2.062-1.155a3.18 3.18 0 0 0 2.722 1.567c1.32 0 1.979-.66 1.979-1.402s-1.237-1.072-2.639-1.32c-1.814-.412-3.711-.99-3.711-3.216 0-1.732 1.649-3.299 4.206-3.299 1.732-.082 3.381.66 4.371 2.062l-1.897 1.155a2.9 2.9 0 0 0-2.392-1.237c-1.237 0-1.814.577-1.814 1.32s.99.99 2.557 1.32c1.814.412 3.794.99 3.794 3.216 0 1.485-1.32 3.464-4.371 3.464-2.062.165-3.959-.825-4.866-2.474zm15.01-2.557-1.814 1.979v2.804h-2.309V-.001h2.309v10.309l4.866-5.361h2.804l-4.206 4.619 4.289 6.186h-2.557zM29.608 4.784c-2.722 0-5.031 1.814-5.031 4.701v6.351h2.309V9.815a2.515 2.515 0 0 1 2.227-2.804h.495c1.732 0 2.557 1.072 2.557 2.804v6.021h2.474V9.485c0-2.969-2.309-4.701-5.031-4.701"></path></svg></span></a></div>
+      <div class="za-col ct-ftr__navcol">
+        <nav class="ct-ftr__nav" aria-label="legal-footer"><a class="ct-ftr__a" href="../company/agreements-and-terms/terms-of-use/index.html" data-broken-link="true"><span>Terms of Use</span></a><a class="ct-ftr__a" href="../company/agreements-and-terms/privacy-notice/index.html" data-broken-link="true"><span>Privacy Notice</span></a><a class="ct-ftr__a" href="../company/agreements-and-terms/cookie-notice/index.html" data-broken-link="true"><span>Cookie Notice</span></a><a class="ct-ftr__a" id="onetrust-show-cookie-settings" href="#onetrust-show-cookie-settings">Do Not Sell or Share My Personal Information</a><a class="ct-ftr__a" href="../trust-center/index.html"><span>Trust Center</span></a><a class="ct-ftr__a" href="../company/legal/index.html" data-broken-link="true"><span>© 2026 Zendesk, Inc.</span></a></nav>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/canon-a.js" defer></script>
+<script src="../assets/contact.js" defer></script>
+</body>
+</html>

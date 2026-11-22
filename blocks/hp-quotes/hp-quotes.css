@@ -1,0 +1,510 @@
+/* hp-quotes — testimonials carousel (slick: one visible slide, others hidden in place) */
+.hp-quotes .hp-center-row {
+  align-items: center;
+  justify-content: center;
+}
+
+.hp-quotes .hp-center-col {
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  text-align: center;
+}
+
+.hp-quotes .hp-head-title :is(h2, h3) {
+  margin-bottom: 24px;
+}
+
+.hp-quotes .hp-quotes-row {
+  align-items: center;
+}
+
+.hp-quotes .hp-quotes-col {
+  display: flex;
+  flex: 1 1 0;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.hp-quotes .hp-quotes-card {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px;
+  border-radius: 20px;
+  background-color: var(--za-cream);
+}
+
+.hp-quotes .hp-quotes-viewport {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+.hp-quotes .hp-quotes-track {
+  display: flex;
+  transform: translateX(calc(var(--qi, 0) * -100%));
+}
+
+/* slick track: one slide-width step, settled < 211 ms */
+.hp-quotes .hp-quotes-track.is-moving {
+  transition: transform 150ms ease;
+}
+
+.hp-quotes .hp-quote {
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 0;
+  visibility: hidden;
+}
+
+.hp-quotes .hp-quote.is-active,
+.hp-quotes .hp-quotes-track.is-moving .hp-quote {
+  visibility: visible;
+}
+
+.hp-quotes .hp-quote-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  text-align: center;
+}
+
+.hp-quotes .hp-quote-logo {
+  position: relative;
+  height: 45px;
+}
+
+.hp-quotes .hp-quote-logo :is(p, picture) {
+  margin: 0;
+}
+
+.hp-quotes .hp-quote-logo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center center;
+}
+
+.hp-quotes .hp-quote-mstats {
+  display: flex;
+  gap: 16px;
+  margin: 0 12px;
+}
+
+.hp-quotes .hp-quote-body {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  text-align: left;
+}
+
+.hp-quotes .hp-quote-inner {
+  text-align: center;
+}
+
+.hp-quotes .hp-quote-text {
+  margin: 0 0 24px;
+  color: var(--za-ink);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.hp-quotes .hp-quote-text p {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.hp-quotes .hp-quote-cite {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  font-style: normal;
+  text-align: center;
+}
+
+.hp-quotes .hp-quote-who {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hp-quotes .hp-quote-who p {
+  margin: 0 0 4px;
+  color: var(--za-ink);
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.hp-quotes .hp-quote-name p {
+  font-weight: 700;
+}
+
+.hp-quotes .hp-quote-role p {
+  margin-bottom: 0;
+}
+
+/* story link: LinkRoot box + animated LinkText underline */
+.hp-quotes .hp-quote-link {
+  display: inline-block;
+  min-height: calc(1.25em + 8px);
+  color: var(--za-ink);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: calc(1.25em + 6px);
+}
+
+.hp-quotes .hp-quote-link p {
+  margin: 0;
+}
+
+.hp-quotes .hp-quote-link a {
+  padding-bottom: 0.2em;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgb(17 17 13 / 70%) 0%,
+      rgb(17 17 13 / 70%) 40%,
+      transparent 40%,
+      transparent 60%,
+      rgb(17 17 13) 60%,
+      rgb(17 17 13) 100%
+    );
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 250% 1px;
+  color: var(--za-ink);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  transition: background-position 600ms var(--za-ease);
+}
+
+.hp-quotes .hp-quote-link a:hover {
+  background-position: 0% 100%;
+}
+
+.hp-quotes .hp-quote-media {
+  position: relative;
+  display: none;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  margin-bottom: 32px;
+  overflow: hidden;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.hp-quotes .hp-quote-img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  line-height: 0;
+}
+
+.hp-quotes .hp-quote-img :is(p, picture) {
+  height: 100%;
+  margin: 0;
+}
+
+.hp-quotes .hp-quote-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hp-quotes .hp-quote-ostats {
+  position: absolute;
+  bottom: 0;
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  padding: 24px;
+  border-radius: 0 0 20px 20px;
+  background-color: rgb(17 17 13 / 50%);
+  backdrop-filter: blur(25px);
+}
+
+.hp-quotes .hp-tstat {
+  flex: 1 1 0;
+  overflow-wrap: anywhere;
+}
+
+.hp-quotes .hp-tstat p {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.hp-quotes .hp-tstat-fig {
+  margin: 0;
+  color: var(--za-ink);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.hp-quotes .hp-stat-char {
+  margin: 0 0 4px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.hp-quotes .hp-tstat-head {
+  margin: 0 0 4px;
+  color: var(--za-ink);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.hp-quotes .hp-quote-ostats :is(.hp-tstat-fig, .hp-tstat-head) {
+  color: var(--za-cream);
+}
+
+.hp-quotes .hp-quotes-nav {
+  display: flex;
+  flex: 0 1 auto;
+  align-items: center;
+  justify-content: space-between;
+  width: 210px;
+  margin: 32px auto 0;
+}
+
+.hp-quotes .hp-roundbtn {
+  position: relative;
+  display: inline-block;
+  padding: 16px;
+  border: none;
+  border-radius: 100%;
+  background: transparent;
+  color: var(--za-ink);
+  line-height: 26px;
+  cursor: pointer;
+}
+
+.hp-quotes .hp-roundbtn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 100%;
+  background-color: rgb(17 17 13 / 5%);
+  transition: background-color 100ms linear;
+}
+
+.hp-quotes .hp-roundbtn:hover::before {
+  background-color: rgb(17 17 13 / 11%);
+}
+
+.hp-quotes .hp-roundbtn svg {
+  position: relative;
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.hp-quotes .hp-dot {
+  width: 6px;
+  height: 6px;
+  padding: 0;
+  border: 1px solid rgb(17 17 13 / 18%);
+  border-radius: 100%;
+  background: none;
+  cursor: pointer;
+}
+
+.hp-quotes .hp-dot.is-active {
+  border: none;
+  background: rgb(17 17 13 / 47%);
+}
+
+@media (width >= 768px) {
+  .hp-quotes .hp-center-col {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+  }
+
+  .hp-quotes .hp-quotes-card {
+    border-radius: 40px;
+  }
+
+  .hp-quotes .hp-quote {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: normal;
+    gap: 40px;
+  }
+
+  .hp-quotes .hp-quote-copy {
+    flex-basis: 65%;
+    gap: 20px;
+    text-align: left;
+  }
+
+  .hp-quotes .hp-quote-logo {
+    width: 160px;
+  }
+
+  .hp-quotes .hp-quote-logo img {
+    object-position: left center;
+  }
+
+  .hp-quotes .hp-quote-mstats {
+    display: none;
+  }
+
+  .hp-quotes .hp-quote-inner {
+    text-align: left;
+  }
+
+  .hp-quotes .hp-quote-cite {
+    column-gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .hp-quotes .hp-quote-who {
+    flex-flow: wrap;
+  }
+
+  .hp-quotes .hp-quote-media {
+    display: flex;
+    flex-basis: 58.3333%;
+    margin-bottom: 0;
+    aspect-ratio: 63 / 82;
+  }
+
+  .hp-quotes .hp-quote-img {
+    aspect-ratio: 63 / 82;
+  }
+
+  .hp-quotes .hp-quote-ostats {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .hp-quotes .hp-tstat-fig {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .hp-quotes .hp-stat-char {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .hp-quotes .hp-quotes-nav {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+  }
+}
+
+@media (width >= 1150px) {
+  .hp-quotes .hp-quotes-card {
+    padding: 32px;
+  }
+
+  .hp-quotes .hp-quote {
+    justify-content: space-between;
+  }
+
+  .hp-quotes .hp-quote-copy {
+    width: 463px;
+    max-width: 463px;
+  }
+
+  .hp-quotes .hp-quote-text {
+    font-size: 16px;
+  }
+
+  .hp-quotes .hp-quote-who p {
+    font-size: 16px;
+  }
+
+  .hp-quotes .hp-quote-media {
+    flex-shrink: 0;
+    width: 454px;
+    max-width: 454px;
+    height: 454px;
+    aspect-ratio: 1 / 1;
+  }
+
+  .hp-quotes .hp-quote-img {
+    aspect-ratio: 1 / 1;
+  }
+
+  .hp-quotes .hp-tstat {
+    max-width: 270px;
+  }
+
+  .hp-quotes .hp-tstat-head {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1600px) {
+  .hp-quotes .hp-quotes-card {
+    padding: 40px;
+  }
+
+  .hp-quotes .hp-quote-copy {
+    width: 700px;
+    max-width: 700px;
+  }
+
+  .hp-quotes .hp-quote-logo {
+    width: 200px;
+    height: 56px;
+  }
+
+  .hp-quotes .hp-quote-text {
+    font-size: 20px;
+  }
+
+  .hp-quotes .hp-quote-media {
+    width: 542px;
+    max-width: 542px;
+    height: 542px;
+  }
+
+  .hp-quotes .hp-tstat {
+    max-width: 310px;
+  }
+
+  .hp-quotes .hp-tstat-fig {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .hp-quotes .hp-stat-char {
+    font-size: 32px;
+    line-height: 50px;
+  }
+}

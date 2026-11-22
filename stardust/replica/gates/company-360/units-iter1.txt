@@ -1,0 +1,17 @@
+unit-geometry @ 360px, tol 4px — https://www.zendesk.com/company/ vs http://localhost:8791/company-proposed.html
+unit 1 of gen-a-location-card (required) #teaser-f67eba53a7 [role=group] > a=#teaser-f67eba53a7 .co-card: origin 16,2550 232×276 vs served 16,2550 232×276 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img#1" | 1,1 230×172 | 1,1 230×172 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img#image-ed701fc074#1" | 1,1 230×172 | 1,1 230×172 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.LinkCardstyle__LinkCardConte" | 1,173 230×102 | 1,173 230×102 | 0 | 0 | 0 | 0 | ✓ |
+| text "hq san francisco" | 21,213 190×22 | 21,213 190×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of gen-a-location-card (required) #teaser-f67eba53a7 [role=group] > a=#teaser-f67eba53a7 .co-card: origin 264,2550 232×276 vs served 264,2550 232×276 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 0 within 4px, 0 off, 4 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img#1" | 1,1 230×172 | 1,1 230×172 | 0 | 0 | 0 | 0 | ✗ hidden (clipped) |
+| image "image:img#image-75d41ae2f2#1" | 1,1 230×172 | 1,1 230×172 | 0 | 0 | 0 | 0 | ✗ hidden (clipped) |
+| box "box:div.LinkCardstyle__LinkCardConte" | 1,173 230×102 | 1,173 230×102 | 0 | 0 | 0 | 0 | ✗ hidden (clipped) |
+| text "austin" | 21,213 190×22 | 21,213 190×22 | 0 | 0 | 0 | 0 | ✗ hidden (clipped) |
+Units: 2 compared; elements within 4, off 0, hidden 4, missing 0 → FAIL
+json → stardust/replica/gates/company-360/units-iter1.json

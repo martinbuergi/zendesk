@@ -1,0 +1,75 @@
+{
+  "a": "stardust/replica/gates/wide-2560/register/origin.png",
+  "b": "stardust/replica/gates/wide-2560/register/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 900,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 1908539,
+  "pct": 82.84,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/wide-2560/register/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 81.1
+    },
+    {
+      "y0": 500,
+      "y1": 900,
+      "pct": 84.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 82.84,
+    "differingPixels": 1908539,
+    "compared": {
+      "width": 2560,
+      "height": 900,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 81.1,
+        "unaligned": 81.1
+      },
+      {
+        "y0": 500,
+        "y1": 900,
+        "pct": 84.9,
+        "unaligned": 84.9
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 82.84,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": "pixel 82.84% > 10%"
+}

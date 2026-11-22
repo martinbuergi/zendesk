@@ -1,0 +1,46 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-21T17:11:57.229Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 4,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 1,
+   "textNodes": 241,
+   "controls": 149,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "TEXT CLAMPED",
+    "advisory": true,
+    "n": 4,
+    "clipper": "p",
+    "path": "div.bl-tile > a.bl-tile-body > div.bl-tile-text.bl-tile-text-2 > p",
+    "text": "the kilted consultant is your trusted zendesk premier partne",
+    "cutMin": null,
+    "cutMax": null
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ },
+ "units": {
+  "verdict": {
+   "units": 0,
+   "within": 0,
+   "off": 0,
+   "hidden": 0,
+   "missing": 0,
+   "errors": 2,
+   "requiredOff": 0
+  },
+  "required": false
+ }
+}

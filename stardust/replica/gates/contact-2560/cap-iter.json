@@ -1,0 +1,155 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-20T10:20:18.814Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.zendesk.com/contact/",
+      "http://localhost:8791/contact-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.zendesk.com/contact/",
+    "http://localhost:8791/contact-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 112,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#teaser-fa15c27e19 > div.hHhIKw.sc-f23d7fd5-7",
+        "tier": 3,
+        "share": 0.15,
+        "section": 0,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#container-aa2da67d8a > section.sc-f23d7fd5-11.fzASFR > div.hHhIKw.sc-f23d7fd5-7",
+        "tier": 3,
+        "share": 0.85,
+        "section": 1,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#teaser-fa15c27e19",
+        "px": 1600,
+        "capSelector": "#teaser-fa15c27e19 > div.hHhIKw.sc-f23d7fd5-7"
+      },
+      {
+        "index": 1,
+        "selector": "#container-aa2da67d8a > section.sc-f23d7fd5-11.fzASFR",
+        "px": 1600,
+        "capSelector": "#container-aa2da67d8a > section.sc-f23d7fd5-11.fzASFR > div.hHhIKw.sc-f23d7fd5-7"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1600,
+    "contentFrom": "module",
+    "maxCap": 1600,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 158
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 113,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#teaser-fa15c27e19 > div.za-container.ct-rel",
+        "tier": 3,
+        "share": 0.16,
+        "section": 0,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      },
+      {
+        "kind": "module",
+        "px": 1600,
+        "via": "max-width",
+        "selector": "#main-content > div.ct-wrap > section.za-section.ct-sec > div.za-container.ct-rel",
+        "tier": 3,
+        "share": 0.84,
+        "section": 1,
+        "w1": 1150,
+        "maxWidth": "1600px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#teaser-fa15c27e19",
+        "px": 1600,
+        "capSelector": "#teaser-fa15c27e19 > div.za-container.ct-rel"
+      },
+      {
+        "index": 1,
+        "selector": "#main-content > div.ct-wrap > section.za-section.ct-sec",
+        "px": 1600,
+        "capSelector": "#main-content > div.ct-wrap > section.za-section.ct-sec > div.za-container.ct-rel"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1600,
+    "contentFrom": "module",
+    "maxCap": 1600,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 143
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1600px = build 1600px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/2",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/2",
+        "detail": "1600px = 1600px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/contact-2560/cap-iter.json"
+}

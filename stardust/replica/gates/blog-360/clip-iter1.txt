@@ -1,0 +1,4 @@
+clip-probe http://localhost:8791/blog-proposed.html @ 360px — docH 9373, 165 text nodes, 135 controls (HTTP 200, chrome)
+  🔴 TEXT CLIPPED           ×11    in p.bl-card__desc  div.bl-slide > div.bl-card > a.bl-card__link > p.bl-card__desc  "ai agents have changed how users access software. the ripple"  cut 17px
+Clipped: 11 (text clipped 11, text hidden 0, controls hidden 0, controls clipped 0; advisory: clamped 0, collapsed 0, scroll-hidden 0, horizontal 25)
+json → stardust/replica/gates/blog-360/clip-iter1.json

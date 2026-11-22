@@ -1,0 +1,113 @@
+{
+  "a": "stardust/replica/gates/wide-2560/help-center-closed/origin.png",
+  "b": "stardust/replica/gates/wide-2560/help-center-closed/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 2098,
+    "mode": "overlap"
+  },
+  "heightDelta": 2,
+  "differingPixels": 82417,
+  "pct": 1.53,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/wide-2560/help-center-closed/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 2.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2098,
+      "pct": 1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.53,
+    "differingPixels": 81997,
+    "compared": {
+      "width": 2560,
+      "height": 2100,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1975,
+        "shift": -2,
+        "cumulative": -2
+      }
+    ],
+    "maxOffset": 2,
+    "totalShift": 2,
+    "insertedRows": 0,
+    "deletedRows": 2,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.6,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 2.4,
+        "unaligned": 2.4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 1.9,
+        "unaligned": 1.9
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1.4,
+        "unaligned": 1.3
+      },
+      {
+        "y0": 2000,
+        "y1": 2100,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/wide-2560/help-center-closed/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 21,
+    "totalShift": 2,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/help-center-closed"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "stages": {
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-20T14-41-41-412Z",
+          "at": "2026-11-20T14:41:41.414Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-20T15-04-06-532Z",
+          "at": "2026-11-20T15:04:06.533Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-20T16-17-40-793Z",
+          "at": "2026-11-20T16:17:40.798Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T13-51-11-864Z",
+          "at": "2026-11-21T13:51:11.865Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "units error = required legacy-fact-card family absent on both sides (0/0); pixel 0.03/0.18%, Δh 0, clip 0, content 0 — documented override in all-1440/overrides.json",
+          "at": "2026-11-20T16:20:07.227Z",
+          "counted": 3
+        }
+      ]
+    }
+  }
+}

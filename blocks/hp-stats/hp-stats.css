@@ -1,0 +1,149 @@
+/* hp-stats — odometer figures */
+.hp-stats .hp-center-row {
+  align-items: center;
+  justify-content: center;
+}
+
+.hp-stats .hp-center-col {
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  text-align: center;
+}
+
+.hp-stats .hp-head-title :is(h2, h3) {
+  margin-bottom: 24px;
+}
+
+.hp-stats .hp-stats-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  width: 100%;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hp-stats .hp-stat {
+  display: flex;
+  flex: 1 1 150px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hp-stats .hp-stat-figure {
+  margin: 0 0 14px;
+  color: var(--za-matcha);
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.hp-stats .hp-stat-label p {
+  margin: 0;
+  color: var(--za-ink);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+.hp-stats .hp-odo {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+/* below 768 the source renders the plain figure (line-height 1) */
+.hp-stats .hp-odo-col {
+  position: relative;
+  height: 1em;
+  overflow: hidden;
+}
+
+.hp-stats .hp-odo-reel {
+  display: flex;
+  flex-direction: column;
+  transition: transform 1.2s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.hp-stats .hp-odo-reel span {
+  display: block;
+  height: 1em;
+  line-height: 1em;
+}
+
+/* reel digits as generated content: the off-window digits are not text nodes */
+.hp-stats .hp-odo-reel span::before {
+  content: attr(data-d);
+}
+
+.hp-stats .hp-odo-reel[data-v="0"] { transform: translateY(-0%); }
+
+.hp-stats .hp-odo-reel[data-v="1"] { transform: translateY(-10%); }
+
+.hp-stats .hp-odo-reel[data-v="2"] { transform: translateY(-20%); }
+
+.hp-stats .hp-odo-reel[data-v="3"] { transform: translateY(-30%); }
+
+.hp-stats .hp-odo-reel[data-v="4"] { transform: translateY(-40%); }
+
+.hp-stats .hp-odo-reel[data-v="5"] { transform: translateY(-50%); }
+
+.hp-stats .hp-odo-reel[data-v="6"] { transform: translateY(-60%); }
+
+.hp-stats .hp-odo-reel[data-v="7"] { transform: translateY(-70%); }
+
+.hp-stats .hp-odo-reel[data-v="8"] { transform: translateY(-80%); }
+
+.hp-stats .hp-odo-reel[data-v="9"] { transform: translateY(-90%); }
+
+@media (width >= 481px) {
+  .hp-stats .hp-stats-list {
+    gap: 16px;
+  }
+}
+
+@media (width >= 768px) {
+  .hp-stats .hp-center-col {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+  }
+
+  .hp-stats .hp-stats-list {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .hp-stats .hp-stat {
+    flex: 1 1 auto;
+  }
+
+  .hp-stats .hp-odo-col,
+  .hp-stats .hp-odo-reel span {
+    height: 1.1em;
+    line-height: 1.1em;
+  }
+}
+
+@media (width >= 1150px) {
+  .hp-stats .hp-stat-figure {
+    font-size: 72px;
+  }
+
+  .hp-stats .hp-stat-label p {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1600px) {
+  .hp-stats .hp-stat-label p {
+    font-size: 20px;
+  }
+}

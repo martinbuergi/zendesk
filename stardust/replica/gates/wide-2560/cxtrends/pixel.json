@@ -1,0 +1,180 @@
+{
+  "a": "stardust/replica/gates/wide-2560/cxtrends/origin.png",
+  "b": "stardust/replica/gates/wide-2560/cxtrends/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 4926,
+    "mode": "overlap"
+  },
+  "heightDelta": 188,
+  "differingPixels": 1402126,
+  "pct": 11.12,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/wide-2560/cxtrends/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 4.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 20.5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 13.5
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 7.8
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 45.2
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 1.9
+    },
+    {
+      "y0": 4500,
+      "y1": 4926,
+      "pct": 2.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 7.11,
+    "differingPixels": 930710,
+    "compared": {
+      "width": 2560,
+      "height": 5114,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2214,
+        "shift": -163,
+        "cumulative": -163
+      },
+      {
+        "y": 3138,
+        "shift": -21,
+        "cumulative": -184
+      },
+      {
+        "y": 4124,
+        "shift": -4,
+        "cumulative": -188
+      }
+    ],
+    "maxOffset": 188,
+    "totalShift": 188,
+    "insertedRows": 0,
+    "deletedRows": 188,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 4.3,
+        "unaligned": 4.3
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 3.6,
+        "unaligned": 3.6
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 3.9,
+        "unaligned": 3.9
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 6.5,
+        "unaligned": 6.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 40.8,
+        "unaligned": 20.5
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1.9,
+        "unaligned": 13.5
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 5.2,
+        "unaligned": 7.8
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 3.9,
+        "unaligned": 45.2
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 2.2,
+        "unaligned": 1.9
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.5,
+        "unaligned": null
+      },
+      {
+        "y0": 5000,
+        "y1": 5114,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/wide-2560/cxtrends/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 51,
+    "totalShift": 188,
+    "pass": false
+  },
+  "reason": "offsets: 3 step(s), 188px total — −163px at y=2214, −21px at y=3138, −4px at y=4124 (bound 51px)"
+}

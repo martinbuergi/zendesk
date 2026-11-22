@@ -1,0 +1,1881 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.zendesk.com/customer/canva/",
+ "at": "2026-11-20T07:57:31.426Z",
+ "shots": "stardust/.work/chrome/header-contract-legacy",
+ "widths": {
+  "390": {
+   "root": "body>div:nth-of-type(1)>div>header",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(1)>div>header>div:nth-of-type(3)>nav>div:nth-of-type(1)>div>div:nth-of-type(1)>a",
+     "href": "https://www.zendesk.com/",
+     "expanded": null,
+     "rect": [
+      16,
+      27,
+      90,
+      20
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Start free trial",
+     "key": "start free trial",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(1)>div>header>div:nth-of-type(3)>nav>div:nth-of-type(1)>div>div:nth-of-type(2)>div>a",
+     "href": "https://www.zendesk.com/register/",
+     "expanded": null,
+     "rect": [
+      209,
+      16,
+      121,
+      36
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Toggle Mobile Menu",
+     "key": "toggle mobile menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "body>div:nth-of-type(1)>div>header>div:nth-of-type(3)>nav>div:nth-of-type(1)>div>div:nth-of-type(2)>div>button",
+     "expanded": null,
+     "rect": [
+      346,
+      19,
+      28,
+      31
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Demo",
+          "href": "https://www.zendesk.com/demo/"
+         },
+         {
+          "text": "Free trial",
+          "href": "https://www.zendesk.com/register/"
+         },
+         {
+          "text": "Sign in",
+          "href": "https://www.zendesk.com/login/"
+         }
+        ],
+        "headings": [
+         "Products",
+         "Pricing",
+         "Solutions",
+         "Demo",
+         "Resources",
+         "Company",
+         "Contact"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Products",
+         "Pricing",
+         "Solutions",
+         "Resources",
+         "Company",
+         "Contact"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         68,
+         390,
+         627
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-001-Toggle-Mobile-Menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Demo",
+          "href": "https://www.zendesk.com/demo/"
+         },
+         {
+          "text": "Free trial",
+          "href": "https://www.zendesk.com/register/"
+         },
+         {
+          "text": "Sign in",
+          "href": "https://www.zendesk.com/login/"
+         }
+        ],
+        "headings": [
+         "Products",
+         "Pricing",
+         "Solutions",
+         "Demo",
+         "Resources",
+         "Company",
+         "Contact"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Products",
+         "Pricing",
+         "Solutions",
+         "Resources",
+         "Company",
+         "Contact"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         68,
+         390,
+         627
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-002-Toggle-Mobile-Menu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Products",
+       "key": "products",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(1)>div>header>div:nth-of-type(3)>nav>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        70,
+        333,
+        58
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 4,
+         "panel": {
+          "links": [
+           {
+            "text": "Zendesk for customer service The complete service solution",
+            "href": "https://www.zendesk.com/service/"
+           },
+           {
+            "text": "Zendesk for employee service Treat employees like customers",
+            "href": "https://www.zendesk.com/employee-service/"
+           },
+           {
+            "text": "Sunshine Platform Fast, open, and flexible",
+            "href": "https://www.zendesk.com/platform/"
+           },
+           {
+            "text": "Marketplace Apps, integrations, and partners",
+            "href": "https://www.zendesk.com/marketplace/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           132,
+           390,
+           376
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "svg.StyledRotateIcon-sc-hp435q-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "grid-template-rows",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "section.StyledPanel-sc-1piryze-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.MobileNavbarstyle__BlockLink-sc-lh7jwa-4"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 100,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "svg.StyledRotateIcon-sc-hp435q-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 100,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "button.StyledButton-sc-xj3hy7-0"
+          }
+         ],
+         "shot": "390-003-Products-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 4,
+         "panel": {
+          "links": [
+           {
+            "text": "Zendesk for customer service The complete service solution",
+            "href": "https://www.zendesk.com/service/"
+           },
+           {
+            "text": "Zendesk for employee service Treat employees like customers",
+            "href": "https://www.zendesk.com/employee-service/"
+           },
+           {
+            "text": "Sunshine Platform Fast, open, and flexible",
+            "href": "https://www.zendesk.com/platform/"
+           },
+           {
+            "text": "Marketplace Apps, integrations, and partners",
+            "href": "https://www.zendesk.com/marketplace/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           132,
+           390,
+           376
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.MobileNavbarstyle__BlockLink-sc-lh7jwa-4"
+          },
+          {
+           "kind": "transition",
+           "prop": "grid-template-rows",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "section.StyledPanel-sc-1piryze-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "svg.StyledRotateIcon-sc-hp435q-0"
+          }
+         ],
+         "shot": "390-004-Products-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Pricing",
+       "key": "pricing",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(1)>div>header>div:nth-of-type(3)>nav>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        133,
+        333,
+        58
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Zendesk for service The complete service solution",
+            "href": "https://www.zendesk.com/pricing/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           194,
+           390,
+           123
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.MobileNavbarstyle__BlockLink-sc-lh7jwa-4"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "svg.StyledRotateIcon-sc-hp435q-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "grid-template-rows",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "section.StyledPanel-sc-1piryze-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 100,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "button.StyledButton-sc-xj3hy7-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 100,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "svg.StyledRotateIcon-sc-hp435q-0"
+          }
+         ],
+         "shot": "390-005-Pricing-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Zendesk for service The complete service solution",
+            "href": "https://www.zendesk.com/pricing/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           194,
+           390,
+           123
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "svg.StyledRotateIcon-sc-hp435q-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "grid-template-rows",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "section.StyledPanel-sc-1piryze-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.MobileNavbarstyle__BlockLink-sc-lh7jwa-4"
+          }
+         ],
+         "shot": "390-006-Pricing-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Solutions",
+       "key": "solutions",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(1)>div>header>div:nth-of-type(3)>nav>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)>div>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        196,
+        333,
+        58
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 4,
+         "panel": {
+          "links": [
+           {
+            "text": "Enterprise Have conversations at scale",
+            "href": "https://www.zendesk.com/business/enterprise/"
+           },
+           {
+            "text": "Small & medium businesses Grow without growing pains",
+            "href": "https://www.zendesk.com/business/smb/"
+           },
+           {
+            "text": "Startups Get off on the right foot",
+            "href": "https://www.zendesk.com/business/startups/"
+           },
+           {
+            "text": "Industries Meet your market’s needs",
+            "href": "https://www.zendesk.com/industries/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           257,
+           390,
+           376
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.MobileNavbarstyle__BlockLink-sc-lh7jwa-4"
+          },
+          {
+           "kind": "transition",
+           "prop": "grid-template-rows",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "section.StyledPanel-sc-1piryze-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "svg.StyledRotateIcon-sc-hp435q-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 100,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "button.StyledButton-sc-xj3hy7-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 100,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "svg.StyledRotateIcon-sc-hp435q-0"
+          }
+         ],
+         "shot": "390-007-Solutions-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 4,
+         "panel": {
+          "links": [
+           {
+            "text": "Enterprise Have conversations at scale",
+            "href": "https://www.zendesk.com/business/enterprise/"
+           },
+           {
+            "text": "Small & medium businesses Grow without growing pains",
+            "href": "https://www.zendesk.com/business/smb/"
+           },
+           {
+            "text": "Startups Get off on the right foot",
+            "href": "https://www.zendesk.com/business/startups/"
+           },
+           {
+            "text": "Industries Meet your market’s needs",
+            "href": "https://www.zendesk.com/industries/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           257,
+           390,
+           376
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.MobileNavbarstyle__BlockLink-sc-lh7jwa-4"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "svg.StyledRotateIcon-sc-hp435q-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "grid-template-rows",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "section.StyledPanel-sc-1piryze-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "box-shadow",
+           "ms": 100,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.StyledHeader-sc-2c6rbr-0"
+          }
+         ],
+         "shot": "390-008-Solutions-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Resources",
+       "key": "resources",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(1)>div>header>div:nth-of-type(3)>nav>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(5)>div>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        320,
+        333,
+        58
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 6,
+         "panel": {
+          "links": [
+           {
+            "text": "Blog Guides, reports, and best practices",
+            "href": "https://www.zendesk.com/blog/"
+           },
+           {
+            "text": "Events and webinars Learn from wherever you are",
+            "href": "https://www.zendesk.com/company/events/"
+           },
+           {
+            "text": "Training and certification Learn how to use Zendesk and prove your expertise",
+            "href": "https://training.zendesk.com/"
+           },
+           {
+            "text": "Community Connect, learn, and engage with Zendesk users",
+            "href": "https://www.zendesk.com/programs/zendesk-community/"
+           },
+           {
+            "text": "Professional services Get hands-on help, dedicated support or expert guidance",
+            "href": "https://www.zendesk.com/professional-services/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           16,
+           400,
+           358,
+           444
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.MobileNavbarstyle__BlockLink-sc-lh7jwa-4"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "svg.StyledRotateIcon-sc-hp435q-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "grid-template-rows",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "section.StyledPanel-sc-1piryze-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 100,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "svg.StyledRotateIcon-sc-hp435q-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 100,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "button.StyledButton-sc-xj3hy7-0"
+          }
+         ],
+         "shot": "390-009-Resources-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 6,
+         "panel": {
+          "links": [
+           {
+            "text": "Blog Guides, reports, and best practices",
+            "href": "https://www.zendesk.com/blog/"
+           },
+           {
+            "text": "Events and webinars Learn from wherever you are",
+            "href": "https://www.zendesk.com/company/events/"
+           },
+           {
+            "text": "Training and certification Learn how to use Zendesk and prove your expertise",
+            "href": "https://training.zendesk.com/"
+           },
+           {
+            "text": "Community Connect, learn, and engage with Zendesk users",
+            "href": "https://www.zendesk.com/programs/zendesk-community/"
+           },
+           {
+            "text": "Professional services Get hands-on help, dedicated support or expert guidance",
+            "href": "https://www.zendesk.com/professional-services/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           16,
+           400,
+           358,
+           444
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.MobileNavbarstyle__BlockLink-sc-lh7jwa-4"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "svg.StyledRotateIcon-sc-hp435q-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "grid-template-rows",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "section.StyledPanel-sc-1piryze-0"
+          }
+         ],
+         "shot": "390-010-Resources-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Company",
+       "key": "company",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(1)>div>header>div:nth-of-type(3)>nav>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>div>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        383,
+        333,
+        58
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 4,
+         "panel": {
+          "links": [
+           {
+            "text": "Contact us",
+            "href": "https://www.zendesk.com/contact/"
+           },
+           {
+            "text": "About us",
+            "href": "https://www.zendesk.com/company/"
+           },
+           {
+            "text": "Newsroom",
+            "href": "https://www.zendesk.com/newsroom/"
+           },
+           {
+            "text": "Events",
+            "href": "https://www.zendesk.com/company/events/"
+           },
+           {
+            "text": "Careers",
+            "href": "https://www.zendesk.com/company/careers/"
+           },
+           {
+            "text": "Inclusion & Belonging",
+            "href": "https://www.zendesk.com/company/belonging/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           444,
+           390,
+           400
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "grid-template-rows",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "section.StyledPanel-sc-1piryze-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.MobileNavbarstyle__BlockLink-sc-lh7jwa-4"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "svg.StyledRotateIcon-sc-hp435q-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 100,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "button.StyledButton-sc-xj3hy7-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 100,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "svg.StyledRotateIcon-sc-hp435q-0"
+          }
+         ],
+         "shot": "390-011-Company-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 4,
+         "panel": {
+          "links": [
+           {
+            "text": "Contact us",
+            "href": "https://www.zendesk.com/contact/"
+           },
+           {
+            "text": "About us",
+            "href": "https://www.zendesk.com/company/"
+           },
+           {
+            "text": "Newsroom",
+            "href": "https://www.zendesk.com/newsroom/"
+           },
+           {
+            "text": "Events",
+            "href": "https://www.zendesk.com/company/events/"
+           },
+           {
+            "text": "Careers",
+            "href": "https://www.zendesk.com/company/careers/"
+           },
+           {
+            "text": "Inclusion & Belonging",
+            "href": "https://www.zendesk.com/company/belonging/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           444,
+           390,
+           400
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.MobileNavbarstyle__BlockLink-sc-lh7jwa-4"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "svg.StyledRotateIcon-sc-hp435q-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "grid-template-rows",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "section.StyledPanel-sc-1piryze-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "box-shadow",
+           "ms": 100,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.StyledHeader-sc-2c6rbr-0"
+          }
+         ],
+         "shot": "390-012-Company-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Contact",
+       "key": "contact",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(1)>div>header>div:nth-of-type(3)>nav>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>div>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        446,
+        333,
+        58
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Contact Sales",
+            "href": "https://www.zendesk.com/contact/"
+           },
+           {
+            "text": "Zendesk Help center",
+            "href": "https://support.zendesk.com/hc/en-us/?_ga=2.87833242.389796813.1713143946-1911925190.1713145373&_gl=1*iyltmf*_ga*MTkxMTkyNTE5MC4xNzEzMTQ1Mzcz*_ga_FBP7C61M6Z*MTcxMzUwODI0Ny4zMy4xLjE3MTM1MDgyNzAuMzcuMC4w/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           507,
+           390,
+           159
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.MobileNavbarstyle__BlockLink-sc-lh7jwa-4"
+          },
+          {
+           "kind": "transition",
+           "prop": "grid-template-rows",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "section.StyledPanel-sc-1piryze-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "svg.StyledRotateIcon-sc-hp435q-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 100,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "button.StyledButton-sc-xj3hy7-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 100,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "svg.StyledRotateIcon-sc-hp435q-0"
+          }
+         ],
+         "shot": "390-013-Contact-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Contact Sales",
+            "href": "https://www.zendesk.com/contact/"
+           },
+           {
+            "text": "Zendesk Help center",
+            "href": "https://support.zendesk.com/hc/en-us/?_ga=2.87833242.389796813.1713143946-1911925190.1713145373&_gl=1*iyltmf*_ga*MTkxMTkyNTE5MC4xNzEzMTQ1Mzcz*_ga_FBP7C61M6Z*MTcxMzUwODI0Ny4zMy4xLjE3MTM1MDgyNzAuMzcuMC4w/"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           507,
+           390,
+           159
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "svg.StyledRotateIcon-sc-hp435q-0"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.MobileNavbarstyle__BlockLink-sc-lh7jwa-4"
+          },
+          {
+           "kind": "transition",
+           "prop": "grid-template-rows",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "section.StyledPanel-sc-1piryze-0"
+          }
+         ],
+         "shot": "390-014-Contact-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 68,
+     "position": "relative",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1,
+     "height": 68,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -1,
+     "height": 68,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 68,
+     "position": "relative",
+     "inView": true
+    }
+   ],
+   "states": 14,
+   "truncated": null,
+   "loads": 1,
+   "requests": 54,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "body>div:nth-of-type(1)>div>header",
+   "controls": [
+    {
+     "name": "Sign in",
+     "key": "sign in",
+     "role": "link",
+     "kind": "account",
+     "sel": "body>div:nth-of-type(1)>div>header>div:nth-of-type(1)>nav>div>div>div:nth-of-type(1)>a",
+     "href": "https://www.zendesk.com/login/",
+     "expanded": null,
+     "rect": [
+      963,
+      6,
+      36,
+      15
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Zendesk Help center",
+     "key": "zendesk help center",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(1)>div>header>div:nth-of-type(1)>nav>div>div>div:nth-of-type(2)>a",
+     "href": "https://support.zendesk.com/hc/en-us/",
+     "expanded": null,
+     "rect": [
+      1015,
+      6,
+      110,
+      15
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Company",
+     "key": "company",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(1)>div>header>div:nth-of-type(1)>nav>div>div>div:nth-of-type(3)>a",
+     "expanded": null,
+     "rect": [
+      1141,
+      6,
+      50,
+      15
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Contact us",
+          "href": "https://www.zendesk.com/contact/"
+         },
+         {
+          "text": "About us",
+          "href": "https://www.zendesk.com/company/"
+         },
+         {
+          "text": "Newsroom",
+          "href": "https://www.zendesk.com/newsroom/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.zendesk.com/company/events/"
+         },
+         {
+          "text": "Careers",
+          "href": "https://www.zendesk.com/company/careers/"
+         },
+         {
+          "text": "Inclusion & Belonging",
+          "href": "https://www.zendesk.com/company/belonging/"
+         },
+         {
+          "text": "Accessibility Plan",
+          "href": "https://support.zendesk.com/hc/en-us/articles/10831381898650-Zendesk-Accessibility-Plan"
+         },
+         {
+          "text": "Sustainability",
+          "href": "https://www.zendesk.com/company/sustainability/"
+         },
+         {
+          "text": "Zendesk Foundation",
+          "href": "https://www.zendesk.org/"
+         },
+         {
+          "text": "Legal",
+          "href": "https://www.zendesk.com/company/legal/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1060,
+         28,
+         213,
+         320
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span.Linkstyle__LinkText-sc-1cm3ukq-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span.Linkstyle__LinkText-sc-1cm3ukq-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span.Linkstyle__LinkText-sc-1cm3ukq-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span.Linkstyle__LinkText-sc-1cm3ukq-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span.Linkstyle__LinkText-sc-1cm3ukq-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        }
+       ],
+       "shot": "1440-001-Company-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Contact us",
+          "href": "https://www.zendesk.com/contact/"
+         },
+         {
+          "text": "About us",
+          "href": "https://www.zendesk.com/company/"
+         },
+         {
+          "text": "Newsroom",
+          "href": "https://www.zendesk.com/newsroom/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.zendesk.com/company/events/"
+         },
+         {
+          "text": "Careers",
+          "href": "https://www.zendesk.com/company/careers/"
+         },
+         {
+          "text": "Inclusion & Belonging",
+          "href": "https://www.zendesk.com/company/belonging/"
+         },
+         {
+          "text": "Accessibility Plan",
+          "href": "https://support.zendesk.com/hc/en-us/articles/10831381898650-Zendesk-Accessibility-Plan"
+         },
+         {
+          "text": "Sustainability",
+          "href": "https://www.zendesk.com/company/sustainability/"
+         },
+         {
+          "text": "Zendesk Foundation",
+          "href": "https://www.zendesk.org/"
+         },
+         {
+          "text": "Legal",
+          "href": "https://www.zendesk.com/company/legal/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1060,
+         28,
+         213,
+         320
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span.Linkstyle__LinkText-sc-1cm3ukq-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span.Linkstyle__LinkText-sc-1cm3ukq-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span.Linkstyle__LinkText-sc-1cm3ukq-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span.Linkstyle__LinkText-sc-1cm3ukq-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span.Linkstyle__LinkText-sc-1cm3ukq-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        }
+       ],
+       "shot": "1440-002-Company-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Contact us",
+          "href": "https://www.zendesk.com/contact/"
+         },
+         {
+          "text": "About us",
+          "href": "https://www.zendesk.com/company/"
+         },
+         {
+          "text": "Newsroom",
+          "href": "https://www.zendesk.com/newsroom/"
+         },
+         {
+          "text": "Events",
+          "href": "https://www.zendesk.com/company/events/"
+         },
+         {
+          "text": "Careers",
+          "href": "https://www.zendesk.com/company/careers/"
+         },
+         {
+          "text": "Inclusion & Belonging",
+          "href": "https://www.zendesk.com/company/belonging/"
+         },
+         {
+          "text": "Accessibility Plan",
+          "href": "https://support.zendesk.com/hc/en-us/articles/10831381898650-Zendesk-Accessibility-Plan"
+         },
+         {
+          "text": "Sustainability",
+          "href": "https://www.zendesk.com/company/sustainability/"
+         },
+         {
+          "text": "Zendesk Foundation",
+          "href": "https://www.zendesk.org/"
+         },
+         {
+          "text": "Legal",
+          "href": "https://www.zendesk.com/company/legal/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1060,
+         28,
+         213,
+         320
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span.Linkstyle__LinkText-sc-1cm3ukq-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span.Linkstyle__LinkText-sc-1cm3ukq-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span.Linkstyle__LinkText-sc-1cm3ukq-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span.Linkstyle__LinkText-sc-1cm3ukq-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "span.Linkstyle__LinkText-sc-1cm3ukq-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.StyledButton-sc-qe3ace-0"
+        }
+       ],
+       "shot": "1440-003-Company-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Contact us",
+     "key": "contact us",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(1)>div>header>div:nth-of-type(1)>nav>div>div>div:nth-of-type(4)>a",
+     "href": "https://www.zendesk.com/contact/",
+     "expanded": null,
+     "rect": [
+      1208,
+      6,
+      56,
+      15
+     ],
+     "actions": {}
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(1)>div>header>div:nth-of-type(2)>div>nav>div>div>div>div:nth-of-type(1)>a",
+     "href": "https://www.zendesk.com/",
+     "expanded": null,
+     "rect": [
+      184,
+      63,
+      100,
+      20
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Demo",
+     "key": "demo",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(1)>div>header>div:nth-of-type(2)>div>nav>div>div>div>div:nth-of-type(5)>a",
+     "href": "https://www.zendesk.com/demo/",
+     "expanded": null,
+     "rect": [
+      791,
+      44,
+      44,
+      50
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Free trial",
+     "key": "free trial",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(1)>div>header>div:nth-of-type(2)>div>nav>div>div>div>div:nth-of-type(7)>a:nth-of-type(1)",
+     "href": "https://www.zendesk.com/register/",
+     "expanded": null,
+     "rect": [
+      992,
+      46,
+      128,
+      46
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Demo",
+     "key": "demo",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(1)>div>header>div:nth-of-type(2)>div>nav>div>div>div>div:nth-of-type(7)>a:nth-of-type(2)",
+     "href": "https://www.zendesk.com/demo/",
+     "expanded": null,
+     "rect": [
+      1136,
+      46,
+      128,
+      46
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 110,
+     "position": "relative",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -29,
+     "height": 110,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -29,
+     "height": 110,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 110,
+     "position": "relative",
+     "inView": true
+    }
+   ],
+   "states": 3,
+   "truncated": null,
+   "loads": 1,
+   "requests": 53,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": null
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-11-20T16:47:35Z
+  page:             Register
+  slug:             register
+  pagePath:         migrated/register/index.html
+  renderBranch:     A'
+  template:         contact
+  archetypePath:    stardust/prototypes/contact-proposed.html
+  archetypeSha:     616e2bf4d511
+  sourceCurrent:    stardust/current/pages/register.json
+  againstDirection: stardust/direction.md (Active)
+  designMd:         DESIGN.md (sha: 84a4a03d7364)
+  designJson:       DESIGN.json (sha: 28069f8740fe)
+  canonShas:        header:null footer:null css:6522953e4893
+  decisionTrace:    _meta.json
+  brokenInternalLinks: 2
+  stardustVersion:  local
+-->
+<style>
+:root {
+  --za-ink: rgb(17, 17, 13);
+  --za-white: rgb(255, 255, 255);
+  --za-cream: rgb(245, 245, 242);
+  --za-lime: rgb(209, 244, 112);
+  --za-forest: rgb(32, 53, 36);
+  --za-moss: rgb(53, 94, 52);
+  --za-matcha: rgb(112, 163, 42);
+  --za-graphite: rgb(66, 67, 62);
+  --za-hairline: rgb(213, 213, 210);
+  --za-font: "Vanilla Sans", Arial, sans-serif;
+  --za-ease: cubic-bezier(0.7, 0, 0.3, 1);
+  --za-content: 1150px;      /* .hHhIKw max-width at >=1150 */
+  --za-gutter: 16px;          /* container side padding: 16 / 24 (>=768) / 40 (>=1600) */
+  --za-section-pad: 48px;     /* 48 / 56 (>=481) / 64 (>=768) / 88 (>=1150) / 104 (>=1600) */
+  --za-row-gap: 48px;         /* grid + grid: 48 / 56 / 64 / 72 */
+  --za-radius: 20px;
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Register","description":"Register today, and start your free Zendesk trial","url":"https://www.zendesk.com/register/"}</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Register</title>
+<meta name="description" content="Register today, and start your free Zendesk trial">
+<meta property="og:title" content="Register">
+<meta property="og:description" content="Register today, and start your free Zendesk trial">
+<meta property="og:image" content="https://d1eipm3vz40hy0.cloudfront.net/images/logos/favicons/zendesk-image.png">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://www.zendesk.com/register/">
+<link rel="icon" href="../assets/favicon.ico">
+<link rel="stylesheet" href="../assets/canon-a.css">
+<link rel="stylesheet" href="../assets/contact.css">
+</head>
+<body>
+<a class="za-skip" href="#main-content">Skip to main content</a>
+
+<!-- slim gen-A header (contact variant: no secondary row, no menus) — mobile (<970) -->
+<!-- desktop (>=970) -->
+<main id="main-content" class="ct-main" lang="en-US" data-template="contact">
+<div class="ct-wrap ct-sibling ct-compact ct-form--mid ct-tint ct-lead--lifted ct-siderow--links ct-hero--media" data-section="1">
+<section class="za-section ct-sec" id="form-hero-1">
+<div class="za-container ct-rel">
+<div class="za-row ct-hero">
+<div class="za-col ct-col-6">
+<a class="za-logo ct-formlogo" aria-label="Zendesk logo" href="../index.html"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="78.4" height="56" viewbox="0 0 78.4 56" fill="currentColor"><path d="M37.5 8.8v24.4H17.4zm0-8.8c0 5.6-4.5 10.1-10.1 10.1s-10-4.5-10-10.1zm3.3 33.1c0-5.6 4.5-10.1 10.1-10.1S61 27.5 61 33.1zm0-8.7V0H61z"></path><path d="M54.6 49.8c-.2-1.4-1.1-2.4-2.7-2.4-1.5 0-2.6.9-2.9 2.4zm-2.5 4.1c1.3 0 2.2-.5 2.8-1.1l1.4 1.5c-.9.9-2.2 1.6-4.2 1.6-3.4 0-5.6-2.2-5.6-5.3 0-3 2.3-5.3 5.2-5.3 3.4 0 5.2 2.6 5.1 6.1H49c.3 1.6 1.3 2.5 3.1 2.5M0 53.8l6.1-6.2h-6v-2h8.8v2l-6.1 6.2H9v2H0zm18.3-4c-.2-1.4-1.1-2.4-2.7-2.4-1.5 0-2.6.9-2.9 2.4zm-2.4 4.1c1.3 0 2.2-.5 2.8-1.1l1.4 1.5c-.9.9-2.2 1.6-4.2 1.6-3.4 0-5.6-2.2-5.6-5.3 0-3 2.3-5.3 5.2-5.3 3.4 0 5.2 2.6 5.1 6.1h-7.9c.4 1.6 1.4 2.5 3.2 2.5m26.6-3.2c0-1.8-1.4-3.3-3.2-3.3s-3.2 1.4-3.2 3.3 1.4 3.3 3.2 3.3 3.2-1.5 3.2-3.3m-8.6 0c0-3.3 2.4-5.3 5.1-5.3 1.3 0 2.6.6 3.4 1.5v-6h2.2v14.8h-2.2v-1.4c-.8 1-2.1 1.6-3.4 1.6-2.6.1-5.1-2-5.1-5.2m24.4 3 2-1c.6.9 1.4 1.5 2.6 1.5s1.9-.6 1.9-1.3c0-.8-1.2-1-2.5-1.3-1.7-.4-3.5-.9-3.5-3 0-1.6 1.5-3.1 3.9-3.1 1.9 0 3.3.7 4.1 2l-1.8 1c-.5-.7-1.3-1.2-2.3-1.2-1.2 0-1.8.6-1.8 1.2 0 .7.9.9 2.4 1.3 1.7.3 3.6.9 3.6 3 0 1.4-1.2 3.3-4.1 3.3q-3.15-.15-4.5-2.4m14.5-2.4-1.7 1.9v2.6h-2.2V41h2.2v9.7l4.6-5h2.6l-4 4.3 4.1 5.8h-2.5zm-45.4-5.9c-2.6 0-4.7 1.7-4.7 4.4v5.9h2.2v-5.6c0-1.7.9-2.7 2.6-2.7s2.4 1 2.4 2.7v5.6h2.2v-5.9c0-2.7-2.2-4.4-4.7-4.4"></path></svg></a>
+<h1 class="ct-h1">Start your free 14-day trial</h1>
+<h4 class="ct-lead-h">100% free. No credit card required.</h4>
+<div class="za-text ct-text"><p class="ct-p">Step 1 of 7</p></div>
+<div class="ct-formwrap" id="form-ct11-wrap"><form class="ct-form" novalidate><div class="ct-grid2"><div class="ct-field ct-field--full" hidden><div class="ct-wrapper"><input class="ct-input" id="ct1-fauxusername" name="FauxUsername" type="text" value=""></div></div><div class="ct-field ct-field--full" hidden><div class="ct-wrapper"><input class="ct-input" id="ct2-fauxpassword" name="FauxPassword" type="password" value=""></div></div><div class="ct-field ct-field--full ct-field--tip"><label class="ct-label" id="ct3-owner-email--label" for="ct3-owner-email">Let’s start with your work email</label><div class="ct-wrapper"><input class="ct-input" id="ct3-owner-email" name="owner.email" type="email" placeholder="name@company.com" aria-label="Work email" value=""></div><div class="ct-msg" role="alert">Please enter a valid email address</div><div class="ct-msg" role="alert" hidden>This field is required</div><div class="ct-tip" aria-hidden="true"><div class="ct-tip__box" id="ct3-owner-email-tip" role="tooltip">Use your work email to connect customer emails, apps, and invite team members.</div></div></div><div class="ct-field ct-field--full ct-note"><p class="ct-consent">By submitting my personal data, I consent to Zendesk collecting, processing, and storing my information in accordance with the <a class="ct-link" href="../company/agreements-and-terms/privacy-notice/index.html" target="_blank" rel="noopener noreferrer" data-broken-link="true">Zendesk Privacy Notice</a>.</p></div><div class="ct-field ct-field--half"><label class="ct-label" id="ct4-firstname--label" for="ct4-firstname">First name</label><div class="ct-wrapper"><input class="ct-input" id="ct4-firstname" name="FirstName" autocomplete="given-name" value=""></div></div><div class="ct-field ct-field--half"><label class="ct-label" id="ct5-lastname--label" for="ct5-lastname">Last name</label><div class="ct-wrapper"><input class="ct-input" id="ct5-lastname" name="LastName" autocomplete="family-name" value=""></div></div><div class="ct-field ct-field--full"><label class="ct-label" id="ct6-address-phone--label" for="ct6-address-phone">Thanks , what’s your phone number?</label><div class="ct-wrapper"><input class="ct-input" id="ct6-address-phone" name="address.phone" type="tel" value=""></div></div><div class="ct-field ct-field--full"><label class="ct-label" id="ct7-account-name--label" for="ct7-account-name">What company do you work for?</label><div class="ct-wrapper"><input class="ct-input" id="ct7-account-name" name="account.name" autocomplete="organization" value=""></div></div><div class="ct-field ct-field--full"><fieldset class="ct-fieldset" id="ct8-account-help-desk-size"><legend class="ct-label">And how many employees are there at ?</legend><div class="ct-wrapper"><div class="ct-tiles" role="radiogroup"><label class="ct-tile"><span class="ct-tile__label" title="1-9">1-9</span><input class="ct-sr" name="account.help_desk_size" type="radio" value="1-9"></label><label class="ct-tile"><span class="ct-tile__label" title="10-49">10-49</span><input class="ct-sr" name="account.help_desk_size" type="radio" value="10-49"></label><label class="ct-tile"><span class="ct-tile__label" title="50-99">50-99</span><input class="ct-sr" name="account.help_desk_size" type="radio" value="50-99"></label><label class="ct-tile"><span class="ct-tile__label" title="100-249">100-249</span><input class="ct-sr" name="account.help_desk_size" type="radio" value="100-249"></label><label class="ct-tile"><span class="ct-tile__label" title="250-499">250-499</span><input class="ct-sr" name="account.help_desk_size" type="radio" value="250-499"></label><label class="ct-tile"><span class="ct-tile__label" title="500-999">500-999</span><input class="ct-sr" name="account.help_desk_size" type="radio" value="500-999"></label><label class="ct-tile"><span class="ct-tile__label" title="1000-4999">1000-4999</span><input class="ct-sr" name="account.help_desk_size" type="radio" value="1000-4999"></label><label class="ct-tile"><span class="ct-tile__label" title="5000+">5000+</span><input class="ct-sr" name="account.help_desk_size" type="radio" value="5000+"></label></div></div></fieldset></div><div class="ct-field ct-field--full ct-field--suffix"><label class="ct-label" id="ct9-account-subdomain--label" for="ct9-account-subdomain">Choose your Zendesk subdomain</label><div class="ct-wrapper"><input class="ct-input" id="ct9-account-subdomain" name="account.subdomain" value=""><p class="ct-suffix">.zendesk.com</p></div></div><div class="ct-field ct-field--full"><fieldset class="ct-fieldset" id="ct10-trial-extras-trial-use-case"><legend class="ct-label">How will you use Zendesk?</legend><div class="ct-wrapper"><div class="ct-tiles" role="radiogroup"><label class="ct-tile"><span class="ct-tile__label" title="To support our customers">To support our customers</span><span class="ct-tile__desc">Assist customers with their questions, issues, and requests.</span><input class="ct-sr" name="trial_extras.trial_use_case" type="radio" value="Customer Service" checked></label><label class="ct-tile"><span class="ct-tile__label" title="To support our employees">To support our employees</span><span class="ct-tile__desc">Help employees with IT, HR, and workplace requests.</span><input class="ct-sr" name="trial_extras.trial_use_case" type="radio" value="Employee Service"></label></div></div></fieldset></div></div><div class="ct-actions"><button type="submit" class="za-btn za-btn--primary ct-submit"><span><span>Get started</span></span></button></div></form></div>
+</div>
+<div class="za-col ct-col-1"></div>
+<div class="za-col ct-col-5"><div class="ct-media"><img src="https://web-assets.zendesk.com/is/image/zendesk/Product_Screenshot_Trial?wid=1638" alt="" loading="lazy"></div><div class="za-row ct-siderow"><div class="za-col"><div class="za-text ct-text"><p class="ct-p"><a class="ct-link" href="../company/legal/index.html" target="_blank" rel="noopener noreferrer" data-broken-link="true">©Zendesk 2026</a></p></div></div></div></div>
+</div>
+</div>
+</section>
+</div>
+</main><script src="../assets/canon-a.js" defer></script>
+<script src="../assets/contact.js" defer></script>
+</body>
+</html>

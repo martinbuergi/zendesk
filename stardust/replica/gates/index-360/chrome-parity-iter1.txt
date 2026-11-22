@@ -1,0 +1,16 @@
+[live-session] waiting to pace live navigations to www.zendesk.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.zendesk.com/
+  build: http://localhost:8791/index-proposed.html
+
+■ header: ✓ parity — 3 paired of 3/3 texts, 1/1 icons
+  region live:  div.sc-c5fa0909-6.fsXSfT[role=complementary] — auto-detected (no usable <header> landmark), box 0,0 360×110; selector #__next > div > div:nth-of-type(1)
+  region build: div.za-promo[role=complementary] — auto-detected (no usable <header> landmark), box 0,0 360×110; selector body > div:nth-of-type(1)
+
+■ footer: 1 delta(s) — 25 paired of 25/25 texts, 12/12 icons
+  region live:  footer#footer-1719023883.sc-70d743a6-4.eqsTBx — outermost <footer>, box 0,13873 360×931; selector #footer-1719023883
+  region build: footer#footer — outermost <footer>, box 0,13873 360×931; selector #footer
+  PAIR         "Do Not Sell or Share My Personal Informa"  tag <a> → <span>; borderRadius 4px → 0px; textDecorationLine underline → none
+  advisory     REST STATE: 50 live / 0 build text(s) inside panels not shown at rest left out (live: aria-hidden 50; build: none) — --strict-names counts them
+
+✗ 1 delta(s), 1 advisory group(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

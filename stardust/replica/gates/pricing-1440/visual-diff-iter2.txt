@@ -1,0 +1,2419 @@
+[live-session] waiting to pace live navigations to www.zendesk.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 996 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/pricing-1440/vdiff-iter2/
+
+build red flags (advisory): 
+  • HEADING FACE: <h3> "AI Agents" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Copilot" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Email" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Messaging and live chat" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Social and business" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Voice" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Help center" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Knowledge management" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Community forums" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Agent workspace with customer co" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Collaboration tools" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Marketplace" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Workflows" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Automations & intelligence" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Change management" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Reporting & analytics" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Data" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Developer tools" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Security and compliance" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Messaging platform (Sunshine Con" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Contact Center" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Support and services from the Ze" is 26px Vanilla Sans in build vs 20px Vanilla Sans in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 5398,
+  "textLen": 9558,
+  "images": [
+   {
+    "src": "%3e",
+    "natural": "440x331",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "440x331",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "600x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1226x920",
+    "rendered": "445x334",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "445x334",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1920x1440",
+    "rendered": "445x334",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "445x334",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Discord_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "332x112",
+    "rendered": "166x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Grubhub_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "234x122",
+    "rendered": "107x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Shopify_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "278x112",
+    "rendered": "139x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "OpenTable_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "400x112",
+    "rendered": "200x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Squarespace_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "408x112",
+    "rendered": "204x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Airbnb_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "266x112",
+    "rendered": "133x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Slack_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "212x112",
+    "rendered": "106x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Discord_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "332x112",
+    "rendered": "166x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Grubhub_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "234x122",
+    "rendered": "107x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Shopify_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "278x112",
+    "rendered": "139x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "OpenTable_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "400x112",
+    "rendered": "200x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Squarespace_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "408x112",
+    "rendered": "204x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Airbnb_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "266x112",
+    "rendered": "133x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Slack_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "natural": "212x112",
+    "rendered": "106x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "613x613",
+    "rendered": "445x445",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "445x445",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1311x809",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "1566x1175",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "%3e",
+    "natural": "3034x1866",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "zendesk-logo.png",
+    "natural": "660x127",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1795173003996",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "1x1.gif?action=ct-init&hash=4c523741&advertiserId=3594&errorName=&errorCause=&errorMessage=&url=https%3A%2F%2Fwww.zendesk.com%2Fpricing%2F",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=5217919&tm=gtm002&Ver=2&mid=1cfcb462-8527-4743-8c12-f9e09837cff2&bo=2&sid=c20950a0e4cc11f1890d41d1c067ba05&vid=c2097140e4cc11f1a4432d857ceb8e23&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=Zendesk%20Pricing%20Plans%20%7C%20Starting%20from%20%2419%2Fmonth&p=https%3A%2F%2Fwww.zendesk.com%2Fpricing%2F&r=&lt=5102&evt=pageLoad&sv=2&asc=G&cdb=AQET&rn=471272",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "cs?pid=d177d942cb8207b52f57818feb9bb79a7b77ce6e0ed688e3af36875661b9be1d&r=https%3A%2F%2Fs.dpmsrv.com%2Fblank.png&puid=dpmpixc%5B1478%5Da%5BNA%5Ds%5B01a1f8a6-33cb-7d0d-b01e-d94944474201%5D",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "seg?member=827&consent=1&add=35557257,35557258",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "img?mt_id=2373595&mt_adid=431650",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "img?mt_id=2373594&mt_adid=431650",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "?adv=f6ba480&ct=0:vkv8rin&fmt=3",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "?adv=f6ba480&ct=0:lnrijku&fmt=3",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "img?mt_id=2770488&mt_adid=434212&mt_exem=&mt_excl=&v1=eng&v2=Engagement&v3=&s1=1&s2=&s3=",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "?adv=zlzb4gk&ct=0:dci0ww7&fmt=3&td1=eng&td2=1&td3=Engagement",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Pricing for the #1 AI customer s",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Support Team",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "24px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Suite Team",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "24px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Suite Professional",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "24px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Suite Enterprise + Copilot",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "24px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Email and ticketing support",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Work faster with ticket routing",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Action insights with prebuilt re",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Surface the best reply, every ti",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Conversation history and custome",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Build and customize workflows",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Resolve complex issues on any ch",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Power faster resolutions with co",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Accelerate resolution automation",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Route requests to right agent, a",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Messaging and live chat",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Offer phone support to your cust",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Run your operations with an AI a",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Turn ideas into apps",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Enhance your agent responses wit",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Accelerate service insights with",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Reduce wait times with smart rou",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Reach the right agent every time",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Power every decision with intell",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Equip every agent with proactive",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Transcribe and summarize every c",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Streamline approvals and track c",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Test updates safely in sandbox",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Control access with custom permi",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Featured add-ons",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Copilot",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "24px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Workforce Engagement Bundle",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "24px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Contact Center",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "24px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Self-learning AI for any stack",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Zendesk for Startups",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Trusted by teams everywhere.",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "See how much you can save",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Frequently asked questions, answ",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Still not sure? Explore on your ",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Contact Sales",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI Agents",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Copilot",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Email",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Messaging and live chat",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Social and business",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Voice",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Help center",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Knowledge management",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Community forums",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Agent workspace with customer co",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Collaboration tools",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Marketplace",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Workflows",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Automations & intelligence",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Change management",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reporting & analytics",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Data",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Developer tools",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Security and compliance",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Messaging platform (Sunshine Con",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Contact Center",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Support and services from the Ze",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "20px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Copilot",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Workforce Engagement Bundle",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Contact Center",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Common use cases",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "By business type",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Learn",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Support",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Company",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Latest News",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Common use cases",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "By business type",
+    "color": "rgb(17, 17, 13)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "sc-39949627-0",
+    "width": 1102,
+    "left": 169
+   },
+   {
+    "sel": "StyledCol-sc-inuw62-0",
+    "width": 1126,
+    "left": 157
+   },
+   {
+    "sel": "StyledRow-sc-xjsdg1-0",
+    "width": 1126,
+    "left": 157
+   },
+   {
+    "sel": "StyledRow-sc-xjsdg1-0",
+    "width": 1126,
+    "left": 157
+   },
+   {
+    "sel": "StyledRow-sc-xjsdg1-0",
+    "width": 1126,
+    "left": 157
+   },
+   {
+    "sel": "StyledRow-sc-xjsdg1-0",
+    "width": 1126,
+    "left": 157
+   },
+   {
+    "sel": "StyledRow-sc-xjsdg1-0",
+    "width": 1126,
+    "left": 157
+   },
+   {
+    "sel": "StyledCol-sc-inuw62-0",
+    "width": 1126,
+    "left": 157
+   },
+   {
+    "sel": "StyledRow-sc-xjsdg1-0",
+    "width": 1126,
+    "left": 157
+   },
+   {
+    "sel": "StyledRow-sc-xjsdg1-0",
+    "width": 1126,
+    "left": 157
+   },
+   {
+    "sel": "StyledRow-sc-xjsdg1-0",
+    "width": 1126,
+    "left": 157
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 5398,
+  "textLen": 3753,
+  "images": [
+   {
+    "src": "AI_Summit_26_lockup_center.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Photo_ZendeskForethought.avif",
+    "natural": "1226x920",
+    "rendered": "445x334",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Photos_People_Relate_2025_Retail_4x3_01.avif",
+    "natural": "1600x1200",
+    "rendered": "445x334",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Discord_Default.avif",
+    "natural": "332x112",
+    "rendered": "166x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Grubhub_Default.avif",
+    "natural": "234x122",
+    "rendered": "107x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Shopify_Default.avif",
+    "natural": "278x112",
+    "rendered": "139x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "OpenTable_Default.avif",
+    "natural": "400x112",
+    "rendered": "200x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Squarespace_Default.avif",
+    "natural": "408x112",
+    "rendered": "204x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Airbnb_Default.avif",
+    "natural": "266x112",
+    "rendered": "133x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Slack_Default.avif",
+    "natural": "212x112",
+    "rendered": "106x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Discord_Default.avif",
+    "natural": "332x112",
+    "rendered": "166x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Grubhub_Default.avif",
+    "natural": "234x122",
+    "rendered": "107x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Shopify_Default.avif",
+    "natural": "278x112",
+    "rendered": "139x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "OpenTable_Default.avif",
+    "natural": "400x112",
+    "rendered": "200x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Squarespace_Default.avif",
+    "natural": "408x112",
+    "rendered": "204x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Airbnb_Default.avif",
+    "natural": "266x112",
+    "rendered": "133x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Slack_Default.avif",
+    "natural": "212x112",
+    "rendered": "106x56",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "BlockFrame_ROI_Calculator__en_us.png",
+    "natural": "613x613",
+    "rendered": "445x445",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Pricing for the #1 AI customer s",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Support Team",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "24px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Suite Team",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "24px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Suite Professional",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "24px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Suite Enterprise + Copilot",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "24px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Email and ticketing support",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Work faster with ticket routing",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Action insights with prebuilt re",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Surface the best reply, every ti",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Conversation history and custome",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Build and customize workflows",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Resolve complex issues on any ch",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Power faster resolutions with co",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Accelerate resolution automation",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Route requests to right agent, a",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Messaging and live chat",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Offer phone support to your cust",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Run your operations with an AI a",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Turn ideas into apps",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Enhance your agent responses wit",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Accelerate service insights with",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Reduce wait times with smart rou",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Reach the right agent every time",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Power every decision with intell",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Equip every agent with proactive",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Transcribe and summarize every c",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Streamline approvals and track c",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Test updates safely in sandbox",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Control access with custom permi",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Featured add-ons",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Copilot",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "24px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Workforce Engagement Bundle",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "24px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Contact Center",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "24px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Self-learning AI for any stack",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Zendesk for Startups",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Trusted by teams everywhere.",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "See how much you can save",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Frequently asked questions, answ",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Still not sure? Explore on your ",
+    "color": "rgb(245, 245, 242)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Contact Sales",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI Agents",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Copilot",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Email",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Messaging and live chat",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Social and business",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Voice",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Help center",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Knowledge management",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Community forums",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Agent workspace with customer co",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Collaboration tools",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Marketplace",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Workflows",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Automations & intelligence",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Change management",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Reporting & analytics",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Data",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Developer tools",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Security and compliance",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Messaging platform (Sunshine Con",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Contact Center",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Support and services from the Ze",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "26px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Copilot",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Workforce Engagement Bundle",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Contact Center",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "42px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Common use cases",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "By business type",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Learn",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Support",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Company",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Latest News",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "20% off annual",
+    "color": "rgb(17, 17, 13)"
+   },
+   {
+    "text": "Most Popular",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "pr-tabs__row",
+    "width": 1102,
+    "left": 169
+   },
+   {
+    "sel": "za-container",
+    "width": 1150,
+    "left": 145
+   },
+   {
+    "sel": "pr-plans__grid",
+    "width": 1126,
+    "left": 157
+   },
+   {
+    "sel": "pr-addons__head",
+    "width": 1102,
+    "left": 169
+   },
+   {
+    "sel": "pr-addons__grid",
+    "width": 1126,
+    "left": 157
+   },
+   {
+    "sel": "za-row",
+    "width": 1126,
+    "left": 157
+   },
+   {
+    "sel": "za-row",
+    "width": 1126,
+    "left": 157
+   },
+   {
+    "sel": "pr-logos__head",
+    "width": 1102,
+    "left": 169
+   },
+   {
+    "sel": "za-row",
+    "width": 1126,
+    "left": 157
+   },
+   {
+    "sel": "za-row",
+    "width": 1126,
+    "left": 157
+   },
+   {
+    "sel": "za-container",
+    "width": 1150,
+    "left": 145
+   }
+  ]
+ }
+}

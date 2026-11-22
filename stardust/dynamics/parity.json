@@ -1,0 +1,1430 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-11-21T17:41:48.661Z",
+    "rows": 108,
+    "script": "stardust/.work/dynamics/probes/build-parity.mjs",
+    "evidence": "stardust/.work/dynamics/probes/flows.mjs on https://main--3055ed88--aemcoder.aem.live"
+  },
+  "method": "108 curated rows (dynamic-features.md § Features) grouped into 27 features; flows driven with Playwright on the published origin (flows.mjs), replayable subset as dom-count / video-plays / martech gate / no-page-errors; D2 forms carry no check (form-flow needs a POST that the interim tier never sends).",
+  "features": [
+    {
+      "id": "chrome-menu",
+      "feature": "header mega menus: Platform, Products, Solutions, Resources (+ aria-haspopup triggers)",
+      "class": "M",
+      "rows": [
+        "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+        "chrome-menu"
+      ],
+      "pages": 100,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "flows.mjs @1440 on /: 4/4 menus closed at rest; hover opens a 1150px panel (Platform 420px h / 7 links, Products 368/7, Solutions 546/11, Resources 513/13 = 38 links); keyboard focus opens 4/4; Escape closes 4/4. Same 38 links on /service /blog /pricing /company /trust-center. Menus are CSS hover/focus-within role=menu panels, not dialogs, so the replay asserts the 38 menu links (dom-count); the open/close flow is the probe's.",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".header .za-menu > .za-mega[role=menu] a",
+          "min": 38
+        },
+        {
+          "type": "dom-count",
+          "path": "/service",
+          "selector": ".header .za-menu > .za-mega[role=menu] a",
+          "min": 38
+        },
+        {
+          "type": "dom-count",
+          "path": "/pricing",
+          "selector": ".header .za-menu > .za-mega[role=menu] a",
+          "min": 38
+        },
+        {
+          "type": "dom-count",
+          "path": "/blog",
+          "selector": ".header .za-menu > .za-mega[role=menu] a",
+          "min": 38
+        }
+      ]
+    },
+    {
+      "id": "chrome-drawer",
+      "feature": "header drawer: Toggle Mobile Menu (< 970px)",
+      "class": "M",
+      "rows": [
+        "chrome-drawer"
+      ],
+      "pages": 100,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "flows.mjs @390 on /: drawer hidden at rest (aria-expanded false); toggle opens a 390x674 drawer, aria-expanded true, 7 rows; Platform row opens its sub-panel (7 links), Back returns; Escape closes (hidden, aria-expanded false). Article header (/customer/canva @390): zb-mobnav toggle aria-expanded false→true→false, 2→38 links. The replay runs at 1440 (toggle hidden), so it asserts the drawer structure: 7 rows, 55 sub-panel links.",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "#za-drawer .za-drawer-row",
+          "min": 7
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "#za-drawer .za-drawer-sub a",
+          "min": 55
+        },
+        {
+          "type": "dom-count",
+          "path": "/customer/canva",
+          "selector": ".header .zb-mobnav-toggle",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "locale-d4",
+      "feature": "locale variants + header Language switcher",
+      "class": "I18N",
+      "rows": [
+        "i18n-locale-variants-en-au-pt-de-en-dk-es-es-fr-en-gb-zh-hk-",
+        "i18n-locale-variants-en-dk-en-gb-en-in-en-se-en-au-en-sg-es-",
+        "i18n-locale-variants-en-en-au-en-br-en-de-en-dk-en-es-en-fr-",
+        "chrome-locale",
+        "i18n-locale-variants-ko-fr-nl-de-th-es-es-es-it-zh-en-sg-en-"
+      ],
+      "pages": 100,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "owner": "D4 locale scope — interim: en tree only; switcher links to the source locale sites. Owner decides which locale trees migrate.",
+      "verifiedBy": "Language menu: 18 entries / 36 links (desktop + drawer) to www.zendesk.com + www.zendesk.co.uk, .es, … (source locale trees). hreflang alternates in <head>: 0 on / (D4 interim names hreflang → source trees; not shipped — head is frozen foundation, recorded in rollout/foundation-requests.md).",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".header .za-lang a[href^=\"https://www.zendesk.\"]",
+          "min": 36
+        },
+        {
+          "type": "dom-count",
+          "path": "/pricing",
+          "selector": ".header .za-lang a[href^=\"https://www.zendesk.\"]",
+          "min": 36
+        }
+      ]
+    },
+    {
+      "id": "auth-links-d5",
+      "feature": "sign-in / free-trial account links",
+      "class": "X",
+      "rows": [
+        "x-sign-in-account-links"
+      ],
+      "pages": 100,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "owner": "D5 auth routing — interim: absolute links to https://www.zendesk.com/login/ and /register/; owner says where they route after cut-over.",
+      "verifiedBy": "header on / /service /blog /pricing: 2 × login link, ≥ 1 × register link (gen-A); /customer/canva gen-B header 1 login + 2 register.",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header a[href=\"https://www.zendesk.com/login/\"]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header a[href=\"https://www.zendesk.com/register/\"]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/customer/canva",
+          "selector": "header a[href=\"https://www.zendesk.com/login/\"]",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "carousel-hp-quotes",
+      "feature": "home testimonial carousel (slick-track 9 cards)",
+      "class": "L",
+      "rows": [
+        "l-listing-candidate-slick-track-9-cards"
+      ],
+      "pages": 2,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "/ hp-quotes: 9 authored quote cards; Next moves Testimonial 1 → 2 (dot is-active). /service sv-stories: 4 slides, Next 1 → 2 (Best Egg → BritBox tab).",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".hp-quotes .hp-quote",
+          "min": 9
+        },
+        {
+          "type": "dom-count",
+          "path": "/service",
+          "selector": ".sv-stories .sv-quotes-slide",
+          "min": 4
+        }
+      ]
+    },
+    {
+      "id": "rail-hp-res",
+      "feature": "home resource rail (slick-track 4 cards)",
+      "class": "L",
+      "rows": [
+        "l-listing-candidate-slick-track-4-cards"
+      ],
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "/ hp-res: 4 authored link cards; at 1440 all 4 fit (x 169/451/732/1014, arrows hidden as on live), arrows only on small screens.",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".hp-res .hp-rcard",
+          "min": 4
+        }
+      ]
+    },
+    {
+      "id": "carousel-sv-carousel",
+      "feature": "/service resource carousel (slick-track 6 cards)",
+      "class": "L",
+      "rows": [
+        "l-listing-candidate-slick-track-6-cards"
+      ],
+      "pages": 5,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "/service sv-carousel: 6 cards; Next shifts the first card x 169 → -111. /company co-carousel: 22 cards, Next x 169 → -107.",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/service",
+          "selector": ".sv-carousel .sv-res-card",
+          "min": 6
+        },
+        {
+          "type": "dom-count",
+          "path": "/company",
+          "selector": ".co-carousel .co-card",
+          "min": 22
+        }
+      ]
+    },
+    {
+      "id": "blog-link-lists",
+      "feature": "/blog category / link lists (ul 6 + ul 10)",
+      "class": "L",
+      "rows": [
+        "l-listing-candidate-ul-6-cards",
+        "l-listing-candidate-ul-10-cards"
+      ],
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "/blog bl-guides: 16 links (6 + 10 authored).",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/blog",
+          "selector": ".bl-guides a",
+          "min": 16
+        }
+      ]
+    },
+    {
+      "id": "blog-featured-slider",
+      "feature": "/blog featured slider (regular slider 6)",
+      "class": "L",
+      "rows": [
+        "l-listing-candidate-regular-slider-6-cards"
+      ],
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "/blog bl-hero: 6 slides; Next moves slick-current 1 → 2, Previous enables.",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/blog",
+          "selector": ".bl-hero .bl-slide",
+          "min": 6
+        }
+      ]
+    },
+    {
+      "id": "blog-topic-tiles",
+      "feature": "/blog topic tiles / grouped card rails",
+      "class": "L",
+      "rows": [
+        "l-listing-candidate-sc-5ae68053-6-hszant-6-cards"
+      ],
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "/blog bl-group: 7 rails × 4 = 28 cards; Next shifts the first rail x 169 → -113.",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/blog",
+          "selector": ".bl-group .bl-card",
+          "min": 28
+        }
+      ]
+    },
+    {
+      "id": "pricing-faq",
+      "feature": "/pricing FAQ accordion (12)",
+      "class": "L",
+      "rows": [
+        "l-listing-candidate-styledaccordion-sc-niv9ic-0-dgzvap-12-ca"
+      ],
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "/pricing pr-faq: 12 items, item 1 open at rest (402px); clicking item 4 opens it (281px, aria-expanded true) and closes item 1 (single-open as live).",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/pricing",
+          "selector": ".pr-faq .pr-faq-item",
+          "min": 12
+        }
+      ]
+    },
+    {
+      "id": "listings-d3",
+      "feature": "dated / index candidate listings (home rail, /blog latest, /marketplace rows, /trust-center cards)",
+      "class": "L",
+      "rows": [
+        "l-listing-candidate-sc-e040b71c-5-cfgwcs-3-cards",
+        "l-listing-candidate-sc-f9eaaf5f-0-sc-82ac2201-0-11-cards",
+        "l-listing-candidate-styledrow-sc-xjsdg1-0-dmpjof-8-cards",
+        "l-listing-candidate-styledrow-sc-xjsdg1-0-gzhrsv-17-cards",
+        "l-listing-candidate-styledrow-sc-xjsdg1-0-dmpjof-4-cards",
+        "l-listing-candidate-sc-f9eaaf5f-0-cwmkbe-3-cards",
+        "l-listing-candidate-div-4-cards",
+        "l-listing-candidate-styledcol-sc-inuw62-0-bxuhxs-4-cards"
+      ],
+      "pages": 5,
+      "disposition": "index-backed",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "owner": "D3 listing source — interim: authored cards from the capture; index-backed once the query index is configured at tools.aem.live.",
+      "verifiedBy": "/ hp-pillars 3 cards (source rail 3); /blog bl-latest 8 cards (source \"Latest stories\" 8); /marketplace bl-group 30 tiles (source rows 8 + 17 + 4), 29 tile images first-party; /trust-center co-accordion lead 9 columns (source 3 + 4 + 4 cards).",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".hp-pillars .hp-pillar",
+          "min": 3
+        },
+        {
+          "type": "dom-count",
+          "path": "/blog",
+          "selector": ".bl-latest .bl-card",
+          "min": 8
+        },
+        {
+          "type": "dom-count",
+          "path": "/marketplace",
+          "selector": ".bl-group .bl-tile",
+          "min": 30
+        },
+        {
+          "type": "dom-count",
+          "path": "/trust-center",
+          "selector": ".co-accordion.lead .za-col",
+          "min": 9
+        }
+      ]
+    },
+    {
+      "id": "forms-lead-d2",
+      "feature": "lead forms: /contact 15- and 5-field, demo-request 8-field (/service, /pricing modal)",
+      "class": "F",
+      "rows": [
+        "f-form-formpreset-764966109-no-action-js-wired-8-fields",
+        "f-form-contact-us-form-no-action-js-wired-15-fields",
+        "f-form-contact-us-form-no-action-js-wired-5-fields"
+      ],
+      "pages": 4,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "owner": "D2 lead-form backend (Marketo / Zendesk lead API) — interim: UI + client validation, valid submit shows \"no backend connected\", nothing is sent. form-flow cannot pass until an endpoint exists (it requires the filled submit to POST), so no replay check.",
+      "verifiedBy": "flows.mjs: /contact #contact-us-form 15 fields / 3 required — empty submit refused (3 invalid, 0 requests), filled submit → \"Thanks! This preview has no form backend connected, so nothing was sent.\" (0 POST). /service #contact-sales modal (opened via a #contact-sales link) 8 fields — empty refused (1 invalid), filled → \"Thank you. No form backend is connected yet, so nothing was sent.\" (0 POST). DEFECT: /demo fm-form modal (6-step demo request, 0 required fields) — EMPTY submit shows the \"no backend connected\" notice (no validation, no step progression)."
+    },
+    {
+      "id": "forms-trial-d2",
+      "feature": "trial email teasers (home hero, /service hero, 1-field forms)",
+      "class": "F",
+      "rows": [
+        "f-form-sc-d0574c0f-2-no-action-js-wired-1-fields",
+        "f-form-hero-trial-teaser-no-action-js-wired-1-fields",
+        "f-form-formpreset-1057092251-no-action-js-wired-1-fields"
+      ],
+      "pages": 14,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "owner": "D2 trial-signup hand-off — interim: submit hands off to https://www.zendesk.com/register/, nothing captured on the new host. Hand-off is a GET navigation, which form-flow does not count, so no replay check.",
+      "verifiedBy": "flows.mjs (hand-off navigations intercepted, never sent): / hp-hero — empty refused (0 navigations), filled → https://www.zendesk.com/register/ (email not forwarded); /service sv-hero — empty refused (1 invalid), filled → https://www.zendesk.com/register/?email=probe%40example.com; 0 POST on both."
+    },
+    {
+      "id": "forms-newsletter-d2",
+      "feature": "newsletter sign-ups: gen-B footer (article pages) and /blog subscribe",
+      "class": "F",
+      "rows": [],
+      "pages": 70,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "owner": "D2 newsletter backend — deferred. Footer is frozen foundation (open request in rollout/foundation-requests.md: #zb-newsletter-email has no required, empty submit passes silently).",
+      "verifiedBy": "/customer/canva footer .zb-newsletter-form (novalidate, 0 required): empty submit → no error, no notice, 0 requests (passes silently); filled → nothing shown. /blog bl-hero subscribe: empty refused (1 invalid); filled → no notice at all (silent, 0 requests)."
+    },
+    {
+      "id": "video-wistia",
+      "feature": "video: hosted player (Wistia popover)",
+      "class": "V",
+      "rows": [
+        "v-video-hosted-player"
+      ],
+      "pages": 60,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "flows.mjs: /service play → 960px dialog, iframe fast.wistia.net/embed/iframe/izivwbhm2u?autoPlay=true; wistia 200 ×38 (embed-cloudfront ×21 media segments, distillery 204 ×2); Escape closes. /customer/canva \"Watch the video\" → 960px dialog z5pqgubflf, embed-cloudfront 200 ×19; Escape closes.",
+      "checks": [
+        {
+          "type": "video-plays",
+          "path": "/service",
+          "trigger": ".sv-hero .sv-play",
+          "iframeSelector": "dialog[open] iframe[src*=\"wistia\"]",
+          "playbackHost": "wistia"
+        },
+        {
+          "type": "video-plays",
+          "path": "/customer/canva",
+          "trigger": ".zb-story-hero p[role=button]",
+          "iframeSelector": "dialog[open] iframe[src*=\"wistia\"]",
+          "playbackHost": "wistia"
+        }
+      ]
+    },
+    {
+      "id": "demo-storylane",
+      "feature": "Storylane interactive demos (/service inline demo, /demo hub)",
+      "class": "V",
+      "rows": [
+        "t-unknown-third-party-host-js-storylane-io",
+        "t-unknown-third-party-host-app-storylane-io",
+        "t-unknown-third-party-host-assets-storylane-io",
+        "t-unknown-third-party-host-app-pages-storylane-io",
+        "t-unknown-third-party-host-api-storylane-io",
+        "t-unknown-third-party-host-app-content-storylane-io"
+      ],
+      "pages": 3,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "/service iframe 1102x620 app.storylane.io/demo/htqk95bthcym: app 200, assets 200 ×33, app-pages 200 ×14, api 204 ×4, app-content 200 ×5. /demo hub iframe 1392x682 zendesk.storylane.io: assets 200 ×47, api 204 ×6. See feature storylane-hub-tags for the hub's own tag stack.",
+      "checks": [
+        {
+          "type": "video-plays",
+          "path": "/service",
+          "trigger": ".sv-embed iframe[src*=\"storylane\"]",
+          "iframeSelector": "iframe[src*=\"storylane\"]",
+          "playbackHost": "storylane"
+        },
+        {
+          "type": "video-plays",
+          "path": "/demo",
+          "iframeSelector": "iframe[src*=\"storylane\"]",
+          "playbackHost": "storylane"
+        }
+      ]
+    },
+    {
+      "id": "demo-reprise",
+      "feature": "Reprise interactive demos (/employee-experience)",
+      "class": "T",
+      "rows": [
+        "t-unknown-third-party-host-app-getreprise-com",
+        "t-unknown-third-party-host-static-reprise-com"
+      ],
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "/employee-experience: 2 iframes app.getreprise.com/launch/… (760x800); app.getreprise.com 200 ×2, static.reprise.com 200 ×2. Passthrough of the public demo URLs, no owner decision needed (no tags, no keys).",
+      "checks": [
+        {
+          "type": "video-plays",
+          "path": "/employee-experience",
+          "trigger": "iframe[src*=\"getreprise\"]",
+          "iframeSelector": "iframe[src*=\"getreprise\"]",
+          "playbackHost": "reprise"
+        }
+      ]
+    },
+    {
+      "id": "settled-dom",
+      "feature": "Next.js client framework / __NEXT_DATA__ payload → settled DOM",
+      "class": "CR",
+      "rows": [
+        "a-cms-app-settings-object-next-data",
+        "cr-client-framework-next"
+      ],
+      "pages": 100,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "no consumer after migration; 0 uncaught errors on 9 representative pages (flows.mjs tags pass: 0 errors on 10 pages). /demo excluded: its Storylane hub iframe throws 2 × \"Unexpected end of JSON input\" from cdn.cookielaw.org otSDKStub (did=undefined) — vendor iframe, see storylane-hub-tags.",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/",
+            "/service",
+            "/customer/canva",
+            "/blog",
+            "/contact",
+            "/company",
+            "/pricing",
+            "/marketplace",
+            "/marketplace/apps"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geo-d6",
+      "feature": "first-party data file GET /app/geo.json",
+      "class": "D",
+      "rows": [
+        "d-first-party-data-file-get-app-geo-json"
+      ],
+      "pages": 94,
+      "disposition": "data-fed",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "owner": "D6 geo endpoint — interim: default region (US/USD) as authored; owner provides a geo source on the new host (CDN geo header or same-origin route).",
+      "verifiedBy": "0 requests to /app/geo.json on 10 pages; /pricing renders USD as authored ($19, $55, $115, $149 …). No per-visitor region switching (not reproducible without the endpoint)."
+    },
+    {
+      "id": "marketplace-search-d9",
+      "feature": "marketplace app search box (JS-submitted)",
+      "class": "S",
+      "rows": [
+        "s-site-search-form-js-submitted"
+      ],
+      "pages": 1,
+      "disposition": "index-backed",
+      "reproducibility": "self",
+      "status": "interim",
+      "owner": "D9 marketplace search — interim: the box submits to the source marketplace search; owner says whether the catalogue moves. No site search exists (0/100 pages), so no search-query check.",
+      "verifiedBy": "flows.mjs: /marketplace bl-hero form GET → https://www.zendesk.com/marketplace/apps/, input name=query; Enter on \"slack\" navigates to https://www.zendesk.com/marketplace/apps/?query=slack (intercepted). 0 site-search controls.",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/marketplace",
+          "selector": ".bl-hero form[action=\"https://www.zendesk.com/marketplace/apps/\"][method=get] input[name=query]",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "marketplace-icon-hosts",
+      "feature": "marketplace app icon hosts (*.apps.zdusercontent.com, du3qakkv2rjkz.cloudfront.net)",
+      "class": "T",
+      "rows": [
+        "t-unknown-third-party-host-83833-apps-zdusercontent-com",
+        "t-unknown-third-party-host-1090004-apps-zdusercontent-com",
+        "t-unknown-third-party-host-1206069-apps-zdusercontent-com",
+        "t-unknown-third-party-host-1417-apps-zdusercontent-com",
+        "t-unknown-third-party-host-93859-apps-zdusercontent-com",
+        "t-unknown-third-party-host-976804-apps-zdusercontent-com",
+        "t-unknown-third-party-host-206405-apps-zdusercontent-com",
+        "t-unknown-third-party-host-767198-apps-zdusercontent-com",
+        "t-unknown-third-party-host-1104879-apps-zdusercontent-com",
+        "t-unknown-third-party-host-1201465-apps-zdusercontent-com",
+        "t-unknown-third-party-host-1040322-apps-zdusercontent-com",
+        "t-unknown-third-party-host-du3qakkv2rjkz-cloudfront-net"
+      ],
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "icons ingested as first-party media: /marketplace 29 tile images on the origin, 0 requests to the 12 icon hosts.",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/marketplace",
+          "selector": ".bl-group .bl-tile-media img",
+          "min": 29
+        },
+        {
+          "type": "martech",
+          "path": "/marketplace",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "1040322.apps.zdusercontent.com",
+            "1090004.apps.zdusercontent.com",
+            "1104879.apps.zdusercontent.com",
+            "1201465.apps.zdusercontent.com",
+            "1206069.apps.zdusercontent.com",
+            "1417.apps.zdusercontent.com",
+            "206405.apps.zdusercontent.com",
+            "767198.apps.zdusercontent.com",
+            "83833.apps.zdusercontent.com",
+            "93859.apps.zdusercontent.com",
+            "976804.apps.zdusercontent.com",
+            "du3qakkv2rjkz.cloudfront.net"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        },
+        {
+          "type": "martech",
+          "path": "/marketplace/apps",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "1040322.apps.zdusercontent.com",
+            "1090004.apps.zdusercontent.com",
+            "1104879.apps.zdusercontent.com",
+            "1201465.apps.zdusercontent.com",
+            "1206069.apps.zdusercontent.com",
+            "1417.apps.zdusercontent.com",
+            "206405.apps.zdusercontent.com",
+            "767198.apps.zdusercontent.com",
+            "83833.apps.zdusercontent.com",
+            "93859.apps.zdusercontent.com",
+            "976804.apps.zdusercontent.com",
+            "du3qakkv2rjkz.cloudfront.net"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "martech-tags-d1",
+      "feature": "tag manager, analytics, ad / retargeting pixels and unknown third-party tag hosts (contract off)",
+      "class": "T",
+      "rows": [
+        "a-unknown-third-party-host-alb-reddit-com",
+        "a-unknown-third-party-host-www-google-com",
+        "a-unknown-third-party-host-cdn-segment-com",
+        "a-unknown-third-party-host-px-ads-linkedin-com",
+        "a-unknown-third-party-host-c-6sc-co",
+        "a-unknown-third-party-host-ipv6-6sc-co",
+        "a-unknown-third-party-host-api-vector-co",
+        "a-unknown-third-party-host-app-clearbit-com",
+        "a-unknown-third-party-host-api-segment-io",
+        "t-tag-manager-google-tag-manager",
+        "t-unknown-third-party-host-www-zndsk-com",
+        "t-unknown-third-party-host-www-redditstatic-com",
+        "t-marketing-ad-retargeting-pixel",
+        "t-unknown-third-party-host-d1eipm3vz40hy0-cloudfront-net",
+        "t-analytics-google-analytics-ads",
+        "t-unknown-third-party-host-j-6sc-co",
+        "t-unknown-third-party-host-adservice-google-com",
+        "t-unknown-third-party-host-tag-clearbitscripts-com",
+        "t-unknown-third-party-host-s-dpmsrv-com",
+        "t-marketing-marketo-munchkin",
+        "t-unknown-third-party-host-cdn-cr-relay-com",
+        "t-unknown-third-party-host-s-static-innovid-com",
+        "t-unknown-third-party-host-b-6sc-co",
+        "t-unknown-third-party-host-d2v83son8kay5v-cloudfront-net",
+        "t-unknown-third-party-host-cdn-vector-co",
+        "t-unknown-third-party-host-rtr-innovid-com",
+        "t-unknown-third-party-host-api-cr-relay-com",
+        "t-unknown-third-party-host-x-clearbitjs-com",
+        "t-unknown-third-party-host-www-linkedin-com",
+        "t-unknown-third-party-host-a-dpmsrv-com",
+        "t-unknown-third-party-host-collector-43043-us-tvsquared-com",
+        "t-unknown-third-party-host-a-usbrowserspeed-com",
+        "t-unknown-third-party-host-px4-ads-linkedin-com",
+        "t-unknown-third-party-host-www-facebook-com",
+        "t-unknown-third-party-host-pixel-mathtag-com",
+        "t-unknown-third-party-host-dsum-sec-casalemedia-com",
+        "t-unknown-third-party-host-x-bidswitch-net",
+        "t-unknown-third-party-host-simage2-pubmatic-com",
+        "t-unknown-third-party-host-analytics-newscred-com",
+        "t-unknown-third-party-host-s3-amazonaws-com",
+        "t-unknown-third-party-host-sync-connectad-io",
+        "t-unknown-third-party-host-onetag-sys-com",
+        "a-unknown-third-party-host-epsilon-6sense-com",
+        "a-unknown-third-party-host-www-google-cn",
+        "t-unknown-third-party-host-dcs-ssp-cadent-com",
+        "a-cms-app-settings-object-datalayer"
+      ],
+      "pages": 100,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "D1 martech carry-over — enable GTM-Z4DV in stardust/martech-contract.json (every part enabled:false), confirm GA4 G-FBP7C61M6Z / G-E0K02KWP7Y / G-WEDV4EN8N0, Ads AW-972607400, Floodlight DC-15086586 / DC-13351067 and the GTM-fired pixels; D8 Web SDK stays off. dataLayer (row 2) is created by scripts/martech.js only when a gtm route is enabled.",
+      "verifiedBy": "48 tag hosts gated on 10 pages: 0 requested (flows.mjs: only storylane / reprise / Google Fonts cross-site, window.dataLayer undefined on 10/10 pages).",
+      "checks": [
+        {
+          "type": "martech",
+          "path": "/",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "819-rrq-060.mktoresp.com",
+            "a.dpmsrv.com",
+            "a.usbrowserspeed.com",
+            "ade.googlesyndication.com",
+            "adservice.google.com",
+            "alb.reddit.com",
+            "analytics.newscred.com",
+            "api.cr-relay.com",
+            "api.segment.io",
+            "api.vector.co",
+            "app.clearbit.com",
+            "b.6sc.co",
+            "c.6sc.co",
+            "cdn.cr-relay.com",
+            "cdn.segment.com",
+            "cdn.vector.co",
+            "collector-43043.us.tvsquared.com",
+            "d1eipm3vz40hy0.cloudfront.net",
+            "d2v83son8kay5v.cloudfront.net",
+            "dcs.ssp.cadent.com",
+            "dsum-sec.casalemedia.com",
+            "epsilon.6sense.com",
+            "ipv6.6sc.co",
+            "j.6sc.co",
+            "munchkin.marketo.net",
+            "onetag-sys.com",
+            "pagead2.googlesyndication.com",
+            "pixel.mathtag.com",
+            "px.ads.linkedin.com",
+            "px4.ads.linkedin.com",
+            "rtr.innovid.com",
+            "s-static.innovid.com",
+            "s.dpmsrv.com",
+            "s3.amazonaws.com",
+            "simage2.pubmatic.com",
+            "sync.connectad.io",
+            "tag.clearbitscripts.com",
+            "www.facebook.com",
+            "www.google-analytics.com",
+            "www.google.cn",
+            "www.google.com",
+            "www.googleadservices.com",
+            "www.googletagmanager.com",
+            "www.linkedin.com",
+            "www.redditstatic.com",
+            "www.zndsk.com",
+            "x.bidswitch.net",
+            "x.clearbitjs.com"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        },
+        {
+          "type": "martech",
+          "path": "/service",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "819-rrq-060.mktoresp.com",
+            "a.dpmsrv.com",
+            "a.usbrowserspeed.com",
+            "ade.googlesyndication.com",
+            "adservice.google.com",
+            "alb.reddit.com",
+            "analytics.newscred.com",
+            "api.cr-relay.com",
+            "api.segment.io",
+            "api.vector.co",
+            "app.clearbit.com",
+            "b.6sc.co",
+            "c.6sc.co",
+            "cdn.cr-relay.com",
+            "cdn.segment.com",
+            "cdn.vector.co",
+            "collector-43043.us.tvsquared.com",
+            "d1eipm3vz40hy0.cloudfront.net",
+            "d2v83son8kay5v.cloudfront.net",
+            "dcs.ssp.cadent.com",
+            "dsum-sec.casalemedia.com",
+            "epsilon.6sense.com",
+            "ipv6.6sc.co",
+            "j.6sc.co",
+            "munchkin.marketo.net",
+            "onetag-sys.com",
+            "pagead2.googlesyndication.com",
+            "pixel.mathtag.com",
+            "px.ads.linkedin.com",
+            "px4.ads.linkedin.com",
+            "rtr.innovid.com",
+            "s-static.innovid.com",
+            "s.dpmsrv.com",
+            "s3.amazonaws.com",
+            "simage2.pubmatic.com",
+            "sync.connectad.io",
+            "tag.clearbitscripts.com",
+            "www.facebook.com",
+            "www.google-analytics.com",
+            "www.google.cn",
+            "www.google.com",
+            "www.googleadservices.com",
+            "www.googletagmanager.com",
+            "www.linkedin.com",
+            "www.redditstatic.com",
+            "www.zndsk.com",
+            "x.bidswitch.net",
+            "x.clearbitjs.com"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        },
+        {
+          "type": "martech",
+          "path": "/customer/canva",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "819-rrq-060.mktoresp.com",
+            "a.dpmsrv.com",
+            "a.usbrowserspeed.com",
+            "ade.googlesyndication.com",
+            "adservice.google.com",
+            "alb.reddit.com",
+            "analytics.newscred.com",
+            "api.cr-relay.com",
+            "api.segment.io",
+            "api.vector.co",
+            "app.clearbit.com",
+            "b.6sc.co",
+            "c.6sc.co",
+            "cdn.cr-relay.com",
+            "cdn.segment.com",
+            "cdn.vector.co",
+            "collector-43043.us.tvsquared.com",
+            "d1eipm3vz40hy0.cloudfront.net",
+            "d2v83son8kay5v.cloudfront.net",
+            "dcs.ssp.cadent.com",
+            "dsum-sec.casalemedia.com",
+            "epsilon.6sense.com",
+            "ipv6.6sc.co",
+            "j.6sc.co",
+            "munchkin.marketo.net",
+            "onetag-sys.com",
+            "pagead2.googlesyndication.com",
+            "pixel.mathtag.com",
+            "px.ads.linkedin.com",
+            "px4.ads.linkedin.com",
+            "rtr.innovid.com",
+            "s-static.innovid.com",
+            "s.dpmsrv.com",
+            "s3.amazonaws.com",
+            "simage2.pubmatic.com",
+            "sync.connectad.io",
+            "tag.clearbitscripts.com",
+            "www.facebook.com",
+            "www.google-analytics.com",
+            "www.google.cn",
+            "www.google.com",
+            "www.googleadservices.com",
+            "www.googletagmanager.com",
+            "www.linkedin.com",
+            "www.redditstatic.com",
+            "www.zndsk.com",
+            "x.bidswitch.net",
+            "x.clearbitjs.com"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        },
+        {
+          "type": "martech",
+          "path": "/blog",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "819-rrq-060.mktoresp.com",
+            "a.dpmsrv.com",
+            "a.usbrowserspeed.com",
+            "ade.googlesyndication.com",
+            "adservice.google.com",
+            "alb.reddit.com",
+            "analytics.newscred.com",
+            "api.cr-relay.com",
+            "api.segment.io",
+            "api.vector.co",
+            "app.clearbit.com",
+            "b.6sc.co",
+            "c.6sc.co",
+            "cdn.cr-relay.com",
+            "cdn.segment.com",
+            "cdn.vector.co",
+            "collector-43043.us.tvsquared.com",
+            "d1eipm3vz40hy0.cloudfront.net",
+            "d2v83son8kay5v.cloudfront.net",
+            "dcs.ssp.cadent.com",
+            "dsum-sec.casalemedia.com",
+            "epsilon.6sense.com",
+            "ipv6.6sc.co",
+            "j.6sc.co",
+            "munchkin.marketo.net",
+            "onetag-sys.com",
+            "pagead2.googlesyndication.com",
+            "pixel.mathtag.com",
+            "px.ads.linkedin.com",
+            "px4.ads.linkedin.com",
+            "rtr.innovid.com",
+            "s-static.innovid.com",
+            "s.dpmsrv.com",
+            "s3.amazonaws.com",
+            "simage2.pubmatic.com",
+            "sync.connectad.io",
+            "tag.clearbitscripts.com",
+            "www.facebook.com",
+            "www.google-analytics.com",
+            "www.google.cn",
+            "www.google.com",
+            "www.googleadservices.com",
+            "www.googletagmanager.com",
+            "www.linkedin.com",
+            "www.redditstatic.com",
+            "www.zndsk.com",
+            "x.bidswitch.net",
+            "x.clearbitjs.com"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        },
+        {
+          "type": "martech",
+          "path": "/contact",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "819-rrq-060.mktoresp.com",
+            "a.dpmsrv.com",
+            "a.usbrowserspeed.com",
+            "ade.googlesyndication.com",
+            "adservice.google.com",
+            "alb.reddit.com",
+            "analytics.newscred.com",
+            "api.cr-relay.com",
+            "api.segment.io",
+            "api.vector.co",
+            "app.clearbit.com",
+            "b.6sc.co",
+            "c.6sc.co",
+            "cdn.cr-relay.com",
+            "cdn.segment.com",
+            "cdn.vector.co",
+            "collector-43043.us.tvsquared.com",
+            "d1eipm3vz40hy0.cloudfront.net",
+            "d2v83son8kay5v.cloudfront.net",
+            "dcs.ssp.cadent.com",
+            "dsum-sec.casalemedia.com",
+            "epsilon.6sense.com",
+            "ipv6.6sc.co",
+            "j.6sc.co",
+            "munchkin.marketo.net",
+            "onetag-sys.com",
+            "pagead2.googlesyndication.com",
+            "pixel.mathtag.com",
+            "px.ads.linkedin.com",
+            "px4.ads.linkedin.com",
+            "rtr.innovid.com",
+            "s-static.innovid.com",
+            "s.dpmsrv.com",
+            "s3.amazonaws.com",
+            "simage2.pubmatic.com",
+            "sync.connectad.io",
+            "tag.clearbitscripts.com",
+            "www.facebook.com",
+            "www.google-analytics.com",
+            "www.google.cn",
+            "www.google.com",
+            "www.googleadservices.com",
+            "www.googletagmanager.com",
+            "www.linkedin.com",
+            "www.redditstatic.com",
+            "www.zndsk.com",
+            "x.bidswitch.net",
+            "x.clearbitjs.com"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        },
+        {
+          "type": "martech",
+          "path": "/company",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "819-rrq-060.mktoresp.com",
+            "a.dpmsrv.com",
+            "a.usbrowserspeed.com",
+            "ade.googlesyndication.com",
+            "adservice.google.com",
+            "alb.reddit.com",
+            "analytics.newscred.com",
+            "api.cr-relay.com",
+            "api.segment.io",
+            "api.vector.co",
+            "app.clearbit.com",
+            "b.6sc.co",
+            "c.6sc.co",
+            "cdn.cr-relay.com",
+            "cdn.segment.com",
+            "cdn.vector.co",
+            "collector-43043.us.tvsquared.com",
+            "d1eipm3vz40hy0.cloudfront.net",
+            "d2v83son8kay5v.cloudfront.net",
+            "dcs.ssp.cadent.com",
+            "dsum-sec.casalemedia.com",
+            "epsilon.6sense.com",
+            "ipv6.6sc.co",
+            "j.6sc.co",
+            "munchkin.marketo.net",
+            "onetag-sys.com",
+            "pagead2.googlesyndication.com",
+            "pixel.mathtag.com",
+            "px.ads.linkedin.com",
+            "px4.ads.linkedin.com",
+            "rtr.innovid.com",
+            "s-static.innovid.com",
+            "s.dpmsrv.com",
+            "s3.amazonaws.com",
+            "simage2.pubmatic.com",
+            "sync.connectad.io",
+            "tag.clearbitscripts.com",
+            "www.facebook.com",
+            "www.google-analytics.com",
+            "www.google.cn",
+            "www.google.com",
+            "www.googleadservices.com",
+            "www.googletagmanager.com",
+            "www.linkedin.com",
+            "www.redditstatic.com",
+            "www.zndsk.com",
+            "x.bidswitch.net",
+            "x.clearbitjs.com"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        },
+        {
+          "type": "martech",
+          "path": "/pricing",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "819-rrq-060.mktoresp.com",
+            "a.dpmsrv.com",
+            "a.usbrowserspeed.com",
+            "ade.googlesyndication.com",
+            "adservice.google.com",
+            "alb.reddit.com",
+            "analytics.newscred.com",
+            "api.cr-relay.com",
+            "api.segment.io",
+            "api.vector.co",
+            "app.clearbit.com",
+            "b.6sc.co",
+            "c.6sc.co",
+            "cdn.cr-relay.com",
+            "cdn.segment.com",
+            "cdn.vector.co",
+            "collector-43043.us.tvsquared.com",
+            "d1eipm3vz40hy0.cloudfront.net",
+            "d2v83son8kay5v.cloudfront.net",
+            "dcs.ssp.cadent.com",
+            "dsum-sec.casalemedia.com",
+            "epsilon.6sense.com",
+            "ipv6.6sc.co",
+            "j.6sc.co",
+            "munchkin.marketo.net",
+            "onetag-sys.com",
+            "pagead2.googlesyndication.com",
+            "pixel.mathtag.com",
+            "px.ads.linkedin.com",
+            "px4.ads.linkedin.com",
+            "rtr.innovid.com",
+            "s-static.innovid.com",
+            "s.dpmsrv.com",
+            "s3.amazonaws.com",
+            "simage2.pubmatic.com",
+            "sync.connectad.io",
+            "tag.clearbitscripts.com",
+            "www.facebook.com",
+            "www.google-analytics.com",
+            "www.google.cn",
+            "www.google.com",
+            "www.googleadservices.com",
+            "www.googletagmanager.com",
+            "www.linkedin.com",
+            "www.redditstatic.com",
+            "www.zndsk.com",
+            "x.bidswitch.net",
+            "x.clearbitjs.com"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        },
+        {
+          "type": "martech",
+          "path": "/marketplace",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "819-rrq-060.mktoresp.com",
+            "a.dpmsrv.com",
+            "a.usbrowserspeed.com",
+            "ade.googlesyndication.com",
+            "adservice.google.com",
+            "alb.reddit.com",
+            "analytics.newscred.com",
+            "api.cr-relay.com",
+            "api.segment.io",
+            "api.vector.co",
+            "app.clearbit.com",
+            "b.6sc.co",
+            "c.6sc.co",
+            "cdn.cr-relay.com",
+            "cdn.segment.com",
+            "cdn.vector.co",
+            "collector-43043.us.tvsquared.com",
+            "d1eipm3vz40hy0.cloudfront.net",
+            "d2v83son8kay5v.cloudfront.net",
+            "dcs.ssp.cadent.com",
+            "dsum-sec.casalemedia.com",
+            "epsilon.6sense.com",
+            "ipv6.6sc.co",
+            "j.6sc.co",
+            "munchkin.marketo.net",
+            "onetag-sys.com",
+            "pagead2.googlesyndication.com",
+            "pixel.mathtag.com",
+            "px.ads.linkedin.com",
+            "px4.ads.linkedin.com",
+            "rtr.innovid.com",
+            "s-static.innovid.com",
+            "s.dpmsrv.com",
+            "s3.amazonaws.com",
+            "simage2.pubmatic.com",
+            "sync.connectad.io",
+            "tag.clearbitscripts.com",
+            "www.facebook.com",
+            "www.google-analytics.com",
+            "www.google.cn",
+            "www.google.com",
+            "www.googleadservices.com",
+            "www.googletagmanager.com",
+            "www.linkedin.com",
+            "www.redditstatic.com",
+            "www.zndsk.com",
+            "x.bidswitch.net",
+            "x.clearbitjs.com"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        },
+        {
+          "type": "martech",
+          "path": "/employee-experience",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "819-rrq-060.mktoresp.com",
+            "a.dpmsrv.com",
+            "a.usbrowserspeed.com",
+            "ade.googlesyndication.com",
+            "adservice.google.com",
+            "alb.reddit.com",
+            "analytics.newscred.com",
+            "api.cr-relay.com",
+            "api.segment.io",
+            "api.vector.co",
+            "app.clearbit.com",
+            "b.6sc.co",
+            "c.6sc.co",
+            "cdn.cr-relay.com",
+            "cdn.segment.com",
+            "cdn.vector.co",
+            "collector-43043.us.tvsquared.com",
+            "d1eipm3vz40hy0.cloudfront.net",
+            "d2v83son8kay5v.cloudfront.net",
+            "dcs.ssp.cadent.com",
+            "dsum-sec.casalemedia.com",
+            "epsilon.6sense.com",
+            "ipv6.6sc.co",
+            "j.6sc.co",
+            "munchkin.marketo.net",
+            "onetag-sys.com",
+            "pagead2.googlesyndication.com",
+            "pixel.mathtag.com",
+            "px.ads.linkedin.com",
+            "px4.ads.linkedin.com",
+            "rtr.innovid.com",
+            "s-static.innovid.com",
+            "s.dpmsrv.com",
+            "s3.amazonaws.com",
+            "simage2.pubmatic.com",
+            "sync.connectad.io",
+            "tag.clearbitscripts.com",
+            "www.facebook.com",
+            "www.google-analytics.com",
+            "www.google.cn",
+            "www.google.com",
+            "www.googleadservices.com",
+            "www.googletagmanager.com",
+            "www.linkedin.com",
+            "www.redditstatic.com",
+            "www.zndsk.com",
+            "x.bidswitch.net",
+            "x.clearbitjs.com"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        },
+        {
+          "type": "martech",
+          "path": "/customer/madeiramadeira",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "819-rrq-060.mktoresp.com",
+            "a.dpmsrv.com",
+            "a.usbrowserspeed.com",
+            "ade.googlesyndication.com",
+            "adservice.google.com",
+            "alb.reddit.com",
+            "analytics.newscred.com",
+            "api.cr-relay.com",
+            "api.segment.io",
+            "api.vector.co",
+            "app.clearbit.com",
+            "b.6sc.co",
+            "c.6sc.co",
+            "cdn.cr-relay.com",
+            "cdn.segment.com",
+            "cdn.vector.co",
+            "collector-43043.us.tvsquared.com",
+            "d1eipm3vz40hy0.cloudfront.net",
+            "d2v83son8kay5v.cloudfront.net",
+            "dcs.ssp.cadent.com",
+            "dsum-sec.casalemedia.com",
+            "epsilon.6sense.com",
+            "ipv6.6sc.co",
+            "j.6sc.co",
+            "munchkin.marketo.net",
+            "onetag-sys.com",
+            "pagead2.googlesyndication.com",
+            "pixel.mathtag.com",
+            "px.ads.linkedin.com",
+            "px4.ads.linkedin.com",
+            "rtr.innovid.com",
+            "s-static.innovid.com",
+            "s.dpmsrv.com",
+            "s3.amazonaws.com",
+            "simage2.pubmatic.com",
+            "sync.connectad.io",
+            "tag.clearbitscripts.com",
+            "www.facebook.com",
+            "www.google-analytics.com",
+            "www.google.cn",
+            "www.google.com",
+            "www.googleadservices.com",
+            "www.googletagmanager.com",
+            "www.linkedin.com",
+            "www.redditstatic.com",
+            "www.zndsk.com",
+            "x.bidswitch.net",
+            "x.clearbitjs.com"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consent-onetrust-d1",
+      "feature": "consent: OneTrust CMP (+ its runtime-injected iframe)",
+      "class": "T",
+      "rows": [
+        "t-consent-onetrust",
+        "v-iframe-without-src-runtime-injected-embed"
+      ],
+      "pages": 100,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "D1 — OneTrust arrives via GTM (OT.CMP template); consent.cmp stays off unless the CMP moves out of GTM (domain script c84f307d-…).",
+      "verifiedBy": "0 requests to cdn.cookielaw.org / geolocation.onetrust.com on 10 pages; 0 onetrust-text-resize iframes.",
+      "checks": [
+        {
+          "type": "martech",
+          "path": "/",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "cdn.cookielaw.org",
+            "geolocation.onetrust.com"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        },
+        {
+          "type": "martech",
+          "path": "/pricing",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "cdn.cookielaw.org",
+            "geolocation.onetrust.com"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        },
+        {
+          "type": "martech",
+          "path": "/customer/canva",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "cdn.cookielaw.org",
+            "geolocation.onetrust.com"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chat-widget-d7",
+      "feature": "Zendesk messaging widget (static.zdassets.com, web-assets.zendesk.com)",
+      "class": "T",
+      "rows": [
+        "t-chat-live-chat-widget-first-party-subdomain-needs-a-cname-",
+        "t-chat-live-chat-widget"
+      ],
+      "pages": 100,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "D7 (part of D1) — widget key and whether it stays; first-party subdomain needs a CNAME / allow-list on the new host.",
+      "verifiedBy": "0 requests to static.zdassets.com / web-assets.zendesk.com on 10 pages.",
+      "checks": [
+        {
+          "type": "martech",
+          "path": "/",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "static.zdassets.com",
+            "web-assets.zendesk.com"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        },
+        {
+          "type": "martech",
+          "path": "/service",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "static.zdassets.com",
+            "web-assets.zendesk.com"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        },
+        {
+          "type": "martech",
+          "path": "/pricing",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "static.zdassets.com",
+            "web-assets.zendesk.com"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rum-sentry-d1",
+      "feature": "RUM / error monitoring (Sentry)",
+      "class": "T",
+      "rows": [
+        "t-rum-error-monitoring",
+        "t-unknown-third-party-host-browser-sentry-cdn-com"
+      ],
+      "pages": 100,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "D1 — Sentry DSN loads from the source app bundle; owner decides whether RUM moves (EDS ships its own RUM).",
+      "verifiedBy": "0 requests to *.ingest.sentry.io / browser.sentry-cdn.com on 10 pages.",
+      "checks": [
+        {
+          "type": "martech",
+          "path": "/",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "browser.sentry-cdn.com",
+            "o1025743.ingest.sentry.io"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        },
+        {
+          "type": "martech",
+          "path": "/service",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "browser.sentry-cdn.com",
+            "o1025743.ingest.sentry.io"
+          ],
+          "productionHosts": [
+            "www.zendesk.com"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "storylane-hub-tags",
+      "feature": "Storylane hub on /demo fires its own GTM-Z4DV inside the iframe",
+      "class": "T",
+      "rows": [],
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "owner": "D1 — the zendesk.storylane.io hub workspace injects GTM-Z4DV + OneTrust itself, independent of the site contract; owner decides whether the hub keeps its tags on the new host (configured in Storylane, not in this repo).",
+      "environmentLimit": "a martech gate check aborts the cross-site iframe before it loads, so it would pass vacuously; recorded here instead of as a check.",
+      "verifiedBy": "flows/demo probe on /demo (iframe frame zendesk.storylane.io/hub/mainhub-b2c-b2b-en-us): www.googletagmanager.com gtm.js?id=GTM-Z4DV, cdn.cookielaw.org otSDKStub (did=undefined → 2 uncaught \"Unexpected end of JSON input\"), www.google-analytics.com G-FBP7C61M6Z 204, pagead2.googlesyndication.com Ads 972607400, ade.googlesyndication.com Floodlight 15086586, www.redditstatic.com + alb.reddit.com pixel — all without consent on the new host."
+    }
+  ]
+}
