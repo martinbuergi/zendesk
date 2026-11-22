@@ -1,0 +1,35 @@
+{
+  "variantName": "fm-quotes",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "customer-testimonial-carousel",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "one row per story: portrait image | customer logo + blockquote + name + role + story link",
+    "buttonCount": 0,
+    "imageCount": 8
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "customer testimonial carousels with portraits",
+      "rotating quotes with company-logo tabs"
+    ],
+    "notSuitableFor": [
+      "a single static quote",
+      "quotes without customer logos"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/free-trial"
+    ],
+    "reuseCount": 1
+  },
+  "description": "A one-slide-at-a-time customer testimonial carousel with portrait, quote, name, role and story link, navigated by arrows and customer-logo tabs."
+}

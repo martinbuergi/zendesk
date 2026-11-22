@@ -1,0 +1,44 @@
+{
+  "variantName": "zb-stats",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "headline-stat-figures",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one row per stat: figure paragraph | caption paragraph",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "headline result metrics in customer stories",
+      "two to four big figures with short captions"
+    ],
+    "notSuitableFor": [
+      "labelled company facts (use zb-facts)",
+      "charts or detailed data tables"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/customer/action-property-management",
+      "/customer/asaas",
+      "/customer/babbel",
+      "/customer/ballys",
+      "/customer/benevity",
+      "/customer/betmgm-brasil",
+      "/customer/bgl",
+      "/customer/britbox",
+      "/customer/canva",
+      "/customer/catapult"
+    ],
+    "reuseCount": 58
+  },
+  "description": "A row of big headline figures with short captions highlighting customer results, two or more per row."
+}

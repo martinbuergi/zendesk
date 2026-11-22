@@ -1,0 +1,56 @@
+{
+  "variantName": "bl-promo",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "balanced",
+    "purpose": "listing-promo-card",
+    "imagePattern": "small"
+  },
+  "contentPattern": {
+    "structure": "one row per card: optional image | heading + text | primary (strong) and secondary (em) CTA links",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "text-only",
+      "label": "Text Only"
+    },
+    {
+      "class": "band",
+      "label": "Band"
+    },
+    {
+      "class": "pair",
+      "label": "Pair"
+    },
+    {
+      "class": "legacy",
+      "label": "Legacy"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "a promotional card with a CTA between listing sections",
+      "a full-bleed closing promo band",
+      "two promo cards side by side"
+    ],
+    "notSuitableFor": [
+      "a grid of many content cards",
+      "the page-opening hero"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/marketplace",
+      "/industries",
+      "/customer",
+      "/newsroom"
+    ],
+    "reuseCount": 4
+  },
+  "description": "One or more promo cards with a heading, short text, optional image and call-to-action buttons, to promote an offer or resource within a listing page."
+}

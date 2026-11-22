@@ -1,0 +1,61 @@
+{
+  "variantName": "zb-article",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "customer-story-body-prose",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "one cell of rich text: paragraphs, h2-h4 sub-heads, lists, images, optional bare Wistia URL paragraph for video",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "body-md",
+      "label": "Body Medium"
+    },
+    {
+      "class": "para-images",
+      "label": "Paragraph Images"
+    },
+    {
+      "class": "img-lsep",
+      "label": "Image Line Separator"
+    },
+    {
+      "class": "split-sections",
+      "label": "Split Sections"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "long-form customer story body text",
+      "article prose with inline images and Wistia videos"
+    ],
+    "notSuitableFor": [
+      "card grids or teasers",
+      "short promotional copy"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/customer/action-property-management",
+      "/customer/asaas",
+      "/customer/babbel",
+      "/customer/ballys",
+      "/customer/benevity",
+      "/customer/betmgm-brasil",
+      "/customer/bgl",
+      "/customer/britbox",
+      "/customer/canva",
+      "/customer/catapult"
+    ],
+    "reuseCount": 59
+  },
+  "description": "The customer-story body: rich-text prose with sub-heads, lists, images and inline Wistia videos in a centred reading column, optionally split into alternating image/text bands."
+}

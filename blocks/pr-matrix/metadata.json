@@ -1,0 +1,35 @@
+{
+  "variantName": "pr-matrix",
+  "baseBlock": "table",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "plan-feature-comparison",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "header row with toggle label and plan name + Buy now per plan; category rows with h3; feature rows with name + description | one value per plan",
+    "buttonCount": 3,
+    "imageCount": 0
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "plan or tier feature comparison tables",
+      "large comparison grids shown in a modal"
+    ],
+    "notSuitableFor": [
+      "simple data tables shown inline on the page",
+      "pricing cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/pricing"
+    ],
+    "reuseCount": 1
+  },
+  "description": "Shows a full plan-by-feature comparison table with category groups and a \"Show differences only\" filter, opened in a modal from the pricing page."
+}

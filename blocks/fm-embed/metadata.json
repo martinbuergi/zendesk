@@ -1,0 +1,35 @@
+{
+  "variantName": "fm-embed",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "full-width-iframe-embed",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one cell: a single link whose href is the iframe source and whose text is the iframe title",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "embedding a third-party interactive demo hub (e.g. Storylane)",
+      "full-width iframe content on a form page"
+    ],
+    "notSuitableFor": [
+      "video players with poster images",
+      "embeds that need consent or lazy-load placeholders"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/demo"
+    ],
+    "reuseCount": 1
+  },
+  "description": "A full-width iframe that renders an authored link (e.g. a Storylane demo hub) as embedded interactive content on form pages."
+}

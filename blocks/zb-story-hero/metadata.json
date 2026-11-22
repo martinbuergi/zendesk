@@ -1,0 +1,44 @@
+{
+  "variantName": "zb-story-hero",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "customer-story-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "one row: back link + logo + h1 + deck + share links list + CTA + video link | portrait image",
+    "buttonCount": 2,
+    "imageCount": 2
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "top of customer story pages",
+      "case-study heroes with logo, share links and video popover"
+    ],
+    "notSuitableFor": [
+      "generic marketing heroes without a customer",
+      "pages without a portrait image"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/customer/action-property-management",
+      "/customer/asaas",
+      "/customer/babbel",
+      "/customer/ballys",
+      "/customer/benevity",
+      "/customer/betmgm-brasil",
+      "/customer/bgl",
+      "/customer/britbox",
+      "/customer/canva",
+      "/customer/catapult"
+    ],
+    "reuseCount": 59
+  },
+  "description": "The customer-story hero with back link, customer logo, headline, deck, share icons, CTA and optional video popover beside a portrait image."
+}

@@ -1,0 +1,35 @@
+{
+  "variantName": "bl-subnav",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "blog-sticky-sub-navigation",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "brand link row, then a nested list of category links with sub-category lists",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "a sticky microsite sub-navigation under the global header",
+      "category menus with dropdown sub-categories"
+    ],
+    "notSuitableFor": [
+      "in-page anchor navigation",
+      "the global site header"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/blog"
+    ],
+    "reuseCount": 1
+  },
+  "description": "A sticky blog sub-navigation bar with a brand link and category dropdowns (a toggled panel on small screens), to let readers browse blog categories."
+}

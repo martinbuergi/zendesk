@@ -1,0 +1,36 @@
+{
+  "variantName": "sv-promo",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "balanced",
+    "purpose": "report-promo-card",
+    "imagePattern": "small"
+  },
+  "contentPattern": {
+    "structure": "one row: picture | h2 + optional text + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "promoting an analyst report or award",
+      "single image and CTA promo card in the page body"
+    ],
+    "notSuitableFor": [
+      "multiple promos side by side",
+      "page-opening heroes"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/employee-service",
+      "/service"
+    ],
+    "reuseCount": 2
+  },
+  "description": "Shows a rounded forest-green card with a badge or report image, title and CTA, for promoting a report or recognition within service pages."
+}

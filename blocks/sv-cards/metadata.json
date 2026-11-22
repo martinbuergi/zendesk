@@ -1,0 +1,96 @@
+{
+  "variantName": "sv-cards",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "icon-feature-cards",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "one row per card: icon picture | h3 + text + optional link",
+    "buttonCount": 0,
+    "imageCount": 4
+  },
+  "options": [
+    {
+      "class": "cols-3",
+      "label": "Cols 3"
+    },
+    {
+      "class": "media",
+      "label": "Media"
+    },
+    {
+      "class": "split",
+      "label": "Split"
+    },
+    {
+      "class": "stats",
+      "label": "Stats"
+    },
+    {
+      "class": "counter",
+      "label": "Counter"
+    },
+    {
+      "class": "logos",
+      "label": "Logos"
+    },
+    {
+      "class": "plans",
+      "label": "Plans"
+    },
+    {
+      "class": "posts",
+      "label": "Posts"
+    },
+    {
+      "class": "legacy",
+      "label": "Legacy"
+    },
+    {
+      "class": "tint-cream",
+      "label": "Tint Cream"
+    },
+    {
+      "class": "tint-forest",
+      "label": "Tint Forest"
+    },
+    {
+      "class": "tint-grey",
+      "label": "Tint Grey"
+    },
+    {
+      "class": "tint-white",
+      "label": "Tint White"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "icon feature or value-proposition cards",
+      "stat and counter rows (stats variant)",
+      "logo and blog post grids (logos, posts variants)"
+    ],
+    "notSuitableFor": [
+      "scrolling card carousels",
+      "pricing plan cards with prices"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/employee-service",
+      "/partner",
+      "/platform",
+      "/professional-services",
+      "/repeatcustomer",
+      "/sell",
+      "/service",
+      "/why-zendesk"
+    ],
+    "reuseCount": 8
+  },
+  "description": "Shows a row of centered cards with an icon, title, text and optional link (with variants for stats, logos, posts and media), for presenting key value points on service and program pages."
+}

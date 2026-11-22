@@ -1,0 +1,48 @@
+{
+  "variantName": "sv-links",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "icon-link-grid",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "one row per link: icon token | one link with bold title + description",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "subnav",
+      "label": "Subnav"
+    },
+    {
+      "class": "blog",
+      "label": "Blog"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "grids of capability or product links with icons",
+      "microsite sub-navigation bar (subnav variant)"
+    ],
+    "notSuitableFor": [
+      "cards with images and long text",
+      "global site header"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/cxtrends",
+      "/employee-service",
+      "/repeatcustomer",
+      "/service",
+      "/web-widget"
+    ],
+    "reuseCount": 5
+  },
+  "description": "Shows a three-column grid of icon link cards with a title and one-line description (or, with subnav, a sticky page sub-navigation bar), for pointing to related capabilities on service pages."
+}

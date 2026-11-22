@@ -1,0 +1,58 @@
+{
+  "variantName": "bl-latest",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "latest-stories-grid",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "title row, then one row per card: image | linked title + description (+ optional tag links), then a pagination list row",
+    "buttonCount": 0,
+    "imageCount": 8
+  },
+  "options": [
+    {
+      "class": "filters",
+      "label": "Filters"
+    },
+    {
+      "class": "no-title",
+      "label": "No Title"
+    },
+    {
+      "class": "themes",
+      "label": "Themes"
+    },
+    {
+      "class": "legacy",
+      "label": "Legacy"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "a paginated grid of latest stories",
+      "a directory results grid beside a filter sidebar",
+      "customer story listings"
+    ],
+    "notSuitableFor": [
+      "a single highlighted story",
+      "a short curated set of category cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/blog",
+      "/newsroom",
+      "/customer",
+      "/marketplace/partners",
+      "/marketplace/themes",
+      "/marketplace/apps"
+    ],
+    "reuseCount": 6
+  },
+  "description": "A titled multi-column grid of story cards followed by pagination, to list the latest articles or directory results on a listing page."
+}

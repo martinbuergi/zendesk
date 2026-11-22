@@ -1,0 +1,51 @@
+{
+  "variantName": "co-teaser",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "text-and-image-teaser",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "one row: optional eyebrow + heading + paragraphs + CTA links | image (further rows become a cream card)",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "options": [
+    {
+      "class": "hero",
+      "label": "Hero"
+    },
+    {
+      "class": "reverse",
+      "label": "Reverse"
+    },
+    {
+      "class": "video",
+      "label": "Video"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "a page-lead hero with text beside a photo",
+      "alternating text and image sections",
+      "a text section with a playable video thumbnail"
+    ],
+    "notSuitableFor": [
+      "grids of several items",
+      "image-free call-to-action bands"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/company",
+      "/trust-center",
+      "/what-is-zendesk"
+    ],
+    "reuseCount": 3
+  },
+  "description": "A text column with heading, copy and CTAs beside a rounded photo or video, to introduce a page or tell one part of its story."
+}

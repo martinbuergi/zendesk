@@ -1,0 +1,37 @@
+{
+  "variantName": "pr-faq",
+  "baseBlock": "accordion",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "pricing-faq-accordion",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "head row with h2, then one row per item: question h5 | answer paragraphs and lists",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "frequently asked questions on pricing or product pages",
+      "single-open question and answer lists",
+      "long answers with lists and links"
+    ],
+    "notSuitableFor": [
+      "accordions that need an image per item",
+      "short navigation link lists"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/free-trial",
+      "/pricing"
+    ],
+    "reuseCount": 2
+  },
+  "description": "Shows a section title beside a single-open accordion of questions and answers, for FAQ sections on pricing and trial pages."
+}

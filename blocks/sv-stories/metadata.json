@@ -1,0 +1,67 @@
+{
+  "variantName": "sv-stories",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "customer-stories-carousel",
+    "imagePattern": "logo"
+  },
+  "contentPattern": {
+    "structure": "one row per slide: logo + stat figures and labels | quote + name + role + story link",
+    "buttonCount": 0,
+    "imageCount": 4
+  },
+  "options": [
+    {
+      "class": "single",
+      "label": "Single"
+    },
+    {
+      "class": "logos",
+      "label": "Logos"
+    },
+    {
+      "class": "legacy",
+      "label": "Legacy"
+    },
+    {
+      "class": "tint-cream",
+      "label": "Tint Cream"
+    },
+    {
+      "class": "tint-grey",
+      "label": "Tint Grey"
+    },
+    {
+      "class": "tint-white",
+      "label": "Tint White"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "customer testimonials with stats",
+      "autoplaying quote carousels with logo tabs",
+      "single featured customer quote (single variant)"
+    ],
+    "notSuitableFor": [
+      "resource or article card rows",
+      "logo-only strips"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/employee-experience",
+      "/employee-service",
+      "/platform",
+      "/professional-services",
+      "/sell",
+      "/service",
+      "/why-zendesk"
+    ],
+    "reuseCount": 7
+  },
+  "description": "Shows an autoplaying carousel of customer stories, each with a logo, key stats and a quote with attribution and story link, for social proof on service and program pages."
+}

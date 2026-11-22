@@ -1,0 +1,72 @@
+{
+  "producer": "excat-replica-adapter",
+  "source": {
+    "tool": "stardust",
+    "version": "0.42.2",
+    "flow": "replica",
+    "mode": "rollout"
+  },
+  "originUrl": "https://www.zendesk.com",
+  "previewBase": "https://main--3055ed88--aemcoder.aem.page/blog",
+  "convertedAt": "2026-11-22T18:14:36.458Z",
+  "counts": {
+    "pages": 100,
+    "templates": 13,
+    "blockVariants": 65
+  },
+  "templateNames": {
+    "index": {
+      "name": "homepage",
+      "description": "The Zendesk homepage."
+    },
+    "blog": {
+      "name": "blog-hub",
+      "description": "Blog landing page with topic navigation, featured and latest posts."
+    },
+    "article": {
+      "name": "customer-story",
+      "description": "Customer success stories: story hero, quotes, key facts, stats and article body."
+    },
+    "customer-canva": {
+      "name": "customer-story-featured",
+      "description": "Featured customer story (Canva) with a richer, custom layout."
+    },
+    "listing": {
+      "name": "listing",
+      "description": "Index pages listing customers, industries, marketplace apps, partners, themes and news."
+    },
+    "program": {
+      "name": "product-landing",
+      "description": "Product and program landing pages (employee service, platform, partner, sell, CX trends, and more)."
+    },
+    "service": {
+      "name": "service-landing",
+      "description": "Main AI customer service product landing page."
+    },
+    "form": {
+      "name": "form-page",
+      "description": "Lead-capture and account pages: demo, free trial, Instapage forms, login and register."
+    },
+    "contact": {
+      "name": "contact",
+      "description": "Contact page with contact-reason tiles, form and office locations."
+    },
+    "pricing": {
+      "name": "pricing",
+      "description": "Pricing plans, comparison matrix and pricing FAQ."
+    },
+    "company": {
+      "name": "company",
+      "description": "About Zendesk company page."
+    },
+    "static": {
+      "name": "info-page",
+      "description": "Informational pages: sitemap, trust center, what is Zendesk."
+    },
+    "unique": {
+      "name": "utility-page",
+      "description": "One-off utility pages: intro tour, help center closed, blog ads output."
+    }
+  },
+  "screenshots": null
+}

@@ -1,0 +1,36 @@
+{
+  "variantName": "hp-res",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "resource-link-cards",
+    "imagePattern": "small"
+  },
+  "contentPattern": {
+    "structure": "heading as default content before the block; one row per card: image | type eyebrow (optional code tag) + title + link",
+    "buttonCount": 4,
+    "imageCount": 4
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "Additional resources rail of linked content cards",
+      "Related reports, guides or articles"
+    ],
+    "notSuitableFor": [
+      "Cards with long descriptions or multiple CTAs",
+      "Product feature comparisons"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index",
+      "/free-trial"
+    ],
+    "reuseCount": 2
+  },
+  "description": "Additional-resources rail with a heading over linked cards, each showing an image, a resource type eyebrow with icon and optional tag, a title and a Learn more link."
+}

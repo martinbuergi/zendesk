@@ -1,0 +1,35 @@
+{
+  "variantName": "co-carousel",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "locations-carousel",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "one row per card: image | title paragraph (optional kind paragraph before it)",
+    "buttonCount": 0,
+    "imageCount": 22
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "a sliding row of office locations or places",
+      "many short image cards with a caption"
+    ],
+    "notSuitableFor": [
+      "cards with long text or CTAs",
+      "a full-width hero slider"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/company"
+    ],
+    "reuseCount": 1
+  },
+  "description": "A sliding carousel of photo cards with short captions, to showcase many items such as office locations in a compact row."
+}

@@ -1,0 +1,59 @@
+{
+  "variantName": "fm-hero",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "form-page-lead-section",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "lead row: eyebrow + h1 + intro text; one row per side contact card: h3 + text + optional arrow link; adopts the section fm-form",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "center",
+      "label": "Center"
+    },
+    {
+      "class": "modal",
+      "label": "Modal"
+    },
+    {
+      "class": "backdrop",
+      "label": "Backdrop"
+    },
+    {
+      "class": "instapage",
+      "label": "Instapage"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "top of contact, demo, login and registration pages",
+      "pairing a heading and intro with a lead form and contact cards"
+    ],
+    "notSuitableFor": [
+      "marketing heroes with large imagery",
+      "pages without a form"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/contact",
+      "/demo",
+      "/instapage-form-demo",
+      "/instapage-form-trial-teaser-sell",
+      "/instapage-form-trial-teaser-suite",
+      "/instapage-form-trial-teaser-suite-inline",
+      "/login",
+      "/register"
+    ],
+    "reuseCount": 8
+  },
+  "description": "The lead section of form pages: eyebrow, heading and intro beside the page form, with optional contact cards, rendered as a split layout, centred column or modal dialog."
+}

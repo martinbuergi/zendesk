@@ -1,0 +1,35 @@
+{
+  "variantName": "fm-logos",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "customer-logo-marquee",
+    "imagePattern": "logo"
+  },
+  "contentPattern": {
+    "structure": "one cell: h2 label + one logo image per customer",
+    "buttonCount": 0,
+    "imageCount": 8
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "social-proof logo strip under a hero",
+      "scrolling customer logo marquee"
+    ],
+    "notSuitableFor": [
+      "logos that need individual links or captions",
+      "static logo grids with many rows"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/free-trial"
+    ],
+    "reuseCount": 1
+  },
+  "description": "A customer-logo strip with a label on the left and an auto-scrolling marquee of company logos, used as social proof under the hero."
+}

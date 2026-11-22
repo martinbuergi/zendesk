@@ -1,0 +1,35 @@
+{
+  "variantName": "hp-logos",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "customer-logo-strip",
+    "imagePattern": "logo"
+  },
+  "contentPattern": {
+    "structure": "one cell: h2 label + one image per customer logo",
+    "buttonCount": 0,
+    "imageCount": 8
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "Customer or partner logo strip for social proof",
+      "Row of brand logos under a hero"
+    ],
+    "notSuitableFor": [
+      "Logos that need links or descriptions",
+      "Large imagery or photos"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 1
+  },
+  "description": "Customer-logo strip with a short label heading above a row of company logos, used as social proof."
+}

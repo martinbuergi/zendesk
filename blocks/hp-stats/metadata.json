@@ -1,0 +1,35 @@
+{
+  "variantName": "hp-stats",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "animated-key-figures",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "heading as default content before the block; one row per stat: figure (e.g. 22K+) | label",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "Row of headline metrics with animated odometer figures",
+      "Key numbers supporting a claim"
+    ],
+    "notSuitableFor": [
+      "Stats that need descriptions or images",
+      "Tabular data"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 1
+  },
+  "description": "Centred heading over a row of animated odometer figures with labels, used to highlight key business metrics."
+}

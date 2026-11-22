@@ -1,0 +1,35 @@
+{
+  "variantName": "fm-promo",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "balanced",
+    "purpose": "inline-promo-banner",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one cell: heading + text + CTA paragraph",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "mid-page promo pointing to pricing or another page",
+      "short dark card with a single CTA"
+    ],
+    "notSuitableFor": [
+      "promos with imagery",
+      "multiple promos side by side"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/free-trial"
+    ],
+    "reuseCount": 1
+  },
+  "description": "A rounded dark-green promo card with a title and text on the left and a CTA on the right, used mid-page to point visitors to pricing or plans."
+}

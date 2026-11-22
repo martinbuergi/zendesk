@@ -1,0 +1,35 @@
+{
+  "variantName": "fm-cta",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "closing-trial-cta-band",
+    "imagePattern": "logo"
+  },
+  "contentPattern": {
+    "structure": "one cell: heading + primary CTA + check line + sign-in text line + review-site badge images",
+    "buttonCount": 1,
+    "imageCount": 4
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "closing free-trial call to action at the foot of a form or landing page",
+      "centred dark band with one primary CTA and trust badges"
+    ],
+    "notSuitableFor": [
+      "multi-column feature promos",
+      "in-body content with several equal CTAs"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/free-trial"
+    ],
+    "reuseCount": 1
+  },
+  "description": "A dark closing band with a centred heading, primary trial CTA, check-marked reassurance line, sign-in line and a row of review-site badges, used to close form and trial pages."
+}

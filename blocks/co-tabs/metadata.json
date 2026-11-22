@@ -1,0 +1,35 @@
+{
+  "variantName": "co-tabs",
+  "baseBlock": "tabs",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "sticky-section-sidebar-nav",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "one row per tab: icon token | one link paragraph to the heading that starts the tab group",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "a sticky sidebar that navigates long pages of co-accordion sections",
+      "in-page section navigation with icons"
+    ],
+    "notSuitableFor": [
+      "classic switchable tab panels",
+      "site-wide navigation"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/trust-center"
+    ],
+    "reuseCount": 1
+  },
+  "description": "A sticky sidebar of icon links that adopts the following accordion sections and tracks the scroll position, to navigate the topic groups of a long page."
+}

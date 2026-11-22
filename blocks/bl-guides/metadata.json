@@ -1,0 +1,51 @@
+{
+  "variantName": "bl-guides",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "popular-guides-link-list",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one row: heading + intro text | list of guide links",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "box",
+      "label": "Box"
+    },
+    {
+      "class": "grouped",
+      "label": "Grouped"
+    },
+    {
+      "class": "dated",
+      "label": "Dated"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "a popular guides or topics link list beside a short intro",
+      "grouped regional link lists",
+      "dated press release link lists"
+    ],
+    "notSuitableFor": [
+      "image-led content cards",
+      "primary page navigation"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/marketplace",
+      "/blog",
+      "/newsroom"
+    ],
+    "reuseCount": 3
+  },
+  "description": "An intro heading and text beside a multi-column list of links, to point readers to popular guides or topics from a listing page."
+}

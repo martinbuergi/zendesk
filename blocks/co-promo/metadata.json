@@ -1,0 +1,35 @@
+{
+  "variantName": "co-promo",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "balanced",
+    "purpose": "body-promo-card",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one cell: title heading (+ optional paragraphs) + CTA paragraph",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "a single rounded promo card with one CTA inside the page body",
+      "pointing readers to a related section such as the newsroom"
+    ],
+    "notSuitableFor": [
+      "the closing page CTA band",
+      "promos that need images"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/company"
+    ],
+    "reuseCount": 1
+  },
+  "description": "A rounded dark promo card with a title and one call-to-action button, to point readers to a related destination within the page body."
+}

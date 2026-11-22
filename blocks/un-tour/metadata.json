@@ -1,0 +1,35 @@
+{
+  "variantName": "un-tour",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "guided-product-tour-embed",
+    "imagePattern": "logo"
+  },
+  "contentPattern": {
+    "structure": "row 1: logo image link | Replay link + trial CTA; row 2: one link whose href is the tour iframe source",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "full-page interactive product tours (e.g. Reprise)",
+      "embedded demos with a minimal top bar and trial CTA"
+    ],
+    "notSuitableFor": [
+      "plain video embeds",
+      "pages that keep the standard site header"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/intro-tour"
+    ],
+    "reuseCount": 1
+  },
+  "description": "A guided product-tour page: a white bar with logo, replay link and trial CTA above a grey stage holding the framed 16:9 tour iframe."
+}

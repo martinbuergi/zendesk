@@ -1,0 +1,35 @@
+{
+  "variantName": "hp-hero",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "homepage-hero-with-trial-signup",
+    "imagePattern": "background"
+  },
+  "contentPattern": {
+    "structure": "rows classified by content: copy (eyebrow + h1 + lede) | trial (note, placeholders, field hint, submit CTA, consent) | media (photo + product fallback image) | stage (static frame image + link to Rive animation)",
+    "buttonCount": 1,
+    "imageCount": 3
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "Homepage hero with headline and free-trial email signup",
+      "Hero with a background photo and product animation"
+    ],
+    "notSuitableFor": [
+      "Simple interior page banners",
+      "Heroes without a signup form"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 1
+  },
+  "description": "Homepage hero with eyebrow, headline and lede, a free-trial work-email signup teaser, a background photo and a Rive product animation with pause control, used to open the homepage and drive trial signups."
+}

@@ -1,0 +1,35 @@
+{
+  "variantName": "co-logos",
+  "baseBlock": "custom",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "customer-logo-row",
+    "imagePattern": "logo"
+  },
+  "contentPattern": {
+    "structure": "one row per logo: one cell with the logo image",
+    "buttonCount": 0,
+    "imageCount": 5
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "a row of customer or partner logos under a heading",
+      "social proof strips"
+    ],
+    "notSuitableFor": [
+      "logos that need captions or links",
+      "photo galleries"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/what-is-zendesk"
+    ],
+    "reuseCount": 1
+  },
+  "description": "A centred row of customer logos under a heading, to show social proof from well-known customers."
+}

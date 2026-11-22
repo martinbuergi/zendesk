@@ -1,0 +1,35 @@
+{
+  "variantName": "pr-logos",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "customer-logo-marquee",
+    "imagePattern": "logo"
+  },
+  "contentPattern": {
+    "structure": "head row with h2, then a row of logo images",
+    "buttonCount": 0,
+    "imageCount": 7
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "customer or partner logo strips",
+      "social proof rows that scroll continuously"
+    ],
+    "notSuitableFor": [
+      "logos that need links or captions",
+      "static logo grids"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/pricing"
+    ],
+    "reuseCount": 1
+  },
+  "description": "Shows a heading over a continuously scrolling marquee of customer logos, for social proof on the pricing page."
+}

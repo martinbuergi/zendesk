@@ -1,0 +1,35 @@
+{
+  "variantName": "pr-head",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "pricing-page-header",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one cell: label paragraph + list of product tab links + h1 title with optional accent run",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "pricing page head with product switcher tabs",
+      "page title paired with links to sibling pages"
+    ],
+    "notSuitableFor": [
+      "in-page tabbed content panels",
+      "marketing heroes with media"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/pricing"
+    ],
+    "reuseCount": 1
+  },
+  "description": "Shows a \"View pricing for\" row of product tab links above the page title, for heading pricing pages and switching between product pricing pages."
+}

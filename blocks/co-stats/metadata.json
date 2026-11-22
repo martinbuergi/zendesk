@@ -1,0 +1,35 @@
+{
+  "variantName": "co-stats",
+  "baseBlock": "columns",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "split-text-with-stats",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "split row (heading | list or paragraphs), full-width copy row, then one row per stat: figure | label",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "an explanatory split section followed by key figures",
+      "company facts with a row of statistics"
+    ],
+    "notSuitableFor": [
+      "charts or data tables",
+      "image-led sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/what-is-zendesk"
+    ],
+    "reuseCount": 1
+  },
+  "description": "A split heading and text section followed by a centred row of key statistics, to explain a topic and back it up with figures."
+}

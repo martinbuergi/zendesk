@@ -1,0 +1,36 @@
+{
+  "variantName": "pr-modal",
+  "baseBlock": "modal",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "feature-explainer-dialog",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one row per modal: modal key | modal content (h2, paragraphs, list, optional picture)",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature explainers opened from plan feature lists",
+      "add-on details opened by #modal links",
+      "hidden content shown in a dialog on demand"
+    ],
+    "notSuitableFor": [
+      "content that should be visible at page load",
+      "forms"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/pricing"
+    ],
+    "reuseCount": 1
+  },
+  "description": "Holds hidden explainer content keyed by name and shows it in a dialog when a matching #modal link or feature trigger is clicked, for feature and add-on details on the pricing page."
+}

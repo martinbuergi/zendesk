@@ -1,0 +1,46 @@
+{
+  "variantName": "sv-form",
+  "baseBlock": "form",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "lead-capture-form",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "head row with title + intro; one row per field: label | type | field name | options; final row with privacy notice + submit label",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "modal",
+      "label": "Modal"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "contact sales lead forms",
+      "report download or event registration forms in a dialog (modal variant)"
+    ],
+    "notSuitableFor": [
+      "newsletter sign-up in a hero",
+      "forms that need a connected backend submission"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/cxtrends",
+      "/employee-service",
+      "/platform",
+      "/pricing",
+      "/professional-services",
+      "/service",
+      "/why-zendesk"
+    ],
+    "reuseCount": 7
+  },
+  "description": "Shows a lead form with title, intro, a two-column field grid, privacy notice and submit, usually as a dialog opened by contact-sales links, for capturing sales leads."
+}

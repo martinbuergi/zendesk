@@ -1,0 +1,35 @@
+{
+  "variantName": "fm-offices",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "office-address-directory",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one row per office: h6 office name (+ MAP link) + address/link paragraphs; section title from preceding default content",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "worldwide office or location directories",
+      "grids of short address blocks"
+    ],
+    "notSuitableFor": [
+      "locations needing maps or images",
+      "long descriptive content per item"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/contact"
+    ],
+    "reuseCount": 1
+  },
+  "description": "A four-up directory of office addresses, each with a heading, map link, address lines and local site link, used on the contact page."
+}

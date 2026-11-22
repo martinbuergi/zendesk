@@ -1,0 +1,35 @@
+{
+  "variantName": "pr-final",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "closing-call-to-action",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one cell: h2 + optional body text + primary and outlined CTA",
+    "buttonCount": 2,
+    "imageCount": 0
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "closing call-to-action band at the end of a page",
+      "centered heading with one or two buttons on a dark ground"
+    ],
+    "notSuitableFor": [
+      "content with images or media",
+      "mid-page feature teasers"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/pricing"
+    ],
+    "reuseCount": 1
+  },
+  "description": "Shows a centered heading and call-to-action buttons on a dark band with a green glow, for closing a pricing page with a final prompt to try or contact sales."
+}

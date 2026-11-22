@@ -74,7 +74,13 @@
         "customer-zendesk-for-employee-service"
       ],
       "pageCount": 58,
-      "blocks": [],
+      "blocks": [
+        "zb-story-hero",
+        "zb-quotes",
+        "zb-facts",
+        "zb-stats",
+        "zb-article"
+      ],
       "delivery": {
         "verified": 58,
         "deployed": 0,
@@ -90,10 +96,12 @@
       ],
       "pageCount": 1,
       "blocks": [
-        "accordion-faq",
-        "card-grid",
-        "carousel",
-        "sticker-badge"
+        "bl-subnav",
+        "bl-hero",
+        "bl-group",
+        "bl-guides",
+        "hp-teaser",
+        "bl-latest"
       ],
       "delivery": {
         "verified": 1,
@@ -110,9 +118,10 @@
       ],
       "pageCount": 1,
       "blocks": [
-        "accordion-faq",
-        "carousel",
-        "link-card"
+        "co-teaser",
+        "co-carousel",
+        "co-promo",
+        "co-cta"
       ],
       "delivery": {
         "verified": 1,
@@ -129,7 +138,9 @@
       ],
       "pageCount": 1,
       "blocks": [
-        "form-choice-tiles"
+        "fm-hero",
+        "fm-form",
+        "fm-offices"
       ],
       "delivery": {
         "verified": 1,
@@ -146,13 +157,11 @@
       ],
       "pageCount": 1,
       "blocks": [
-        "card-grid",
-        "customer-story-stats",
-        "logo-row",
-        "newsletter-signup-legacy",
-        "pull-quote",
-        "stat-row",
-        "video-link"
+        "zb-story-hero",
+        "zb-quotes",
+        "zb-facts",
+        "zb-stats",
+        "zb-article"
       ],
       "delivery": {
         "verified": 1,
@@ -179,7 +188,20 @@
         "register"
       ],
       "pageCount": 12,
-      "blocks": [],
+      "blocks": [
+        "fm-embed",
+        "fm-hero",
+        "fm-form",
+        "sv-hero",
+        "fm-logos",
+        "fm-features",
+        "fm-quotes",
+        "hp-duo",
+        "fm-promo",
+        "pr-faq",
+        "hp-res",
+        "fm-cta"
+      ],
       "delivery": {
         "verified": 12,
         "deployed": 0,
@@ -195,14 +217,19 @@
       ],
       "pageCount": 1,
       "blocks": [
-        "accordion-faq",
-        "additional-resources",
-        "card-grid",
-        "carousel",
-        "link-card",
-        "logo-row",
-        "stat-row",
-        "sticker-badge"
+        "hp-hero",
+        "hp-logos",
+        "hp-pillars",
+        "hp-rll",
+        "hp-stats",
+        "hp-split",
+        "hp-teaser",
+        "hp-aifirst",
+        "hp-duo",
+        "hp-quotes",
+        "hp-res",
+        "hp-cta",
+        "hp-faq"
       ],
       "delivery": {
         "verified": 1,
@@ -224,7 +251,14 @@
         "newsroom"
       ],
       "pageCount": 7,
-      "blocks": [],
+      "blocks": [
+        "bl-hero",
+        "bl-group",
+        "bl-filters",
+        "bl-latest",
+        "bl-promo",
+        "bl-guides"
+      ],
       "delivery": {
         "verified": 7,
         "deployed": 0,
@@ -240,11 +274,15 @@
       ],
       "pageCount": 1,
       "blocks": [
-        "accordion-faq",
-        "card-grid",
-        "logo-row",
-        "marketplace-filter-bar",
-        "sticker-badge"
+        "pr-head",
+        "pr-plans",
+        "pr-modal",
+        "pr-split",
+        "pr-logos",
+        "pr-faq",
+        "pr-final",
+        "pr-matrix",
+        "sv-form"
       ],
       "delivery": {
         "verified": 1,
@@ -269,7 +307,19 @@
         "why-zendesk"
       ],
       "pageCount": 10,
-      "blocks": [],
+      "blocks": [
+        "sv-links",
+        "sv-hero",
+        "sv-accordion",
+        "sv-columns",
+        "sv-form",
+        "sv-embed",
+        "sv-stories",
+        "sv-carousel",
+        "sv-cta",
+        "sv-promo",
+        "sv-cards"
+      ],
       "delivery": {
         "verified": 10,
         "deployed": 0,
@@ -285,12 +335,17 @@
       ],
       "pageCount": 1,
       "blocks": [
-        "accordion-faq",
-        "card-grid",
-        "carousel",
-        "link-card",
-        "stat-row",
-        "video-link"
+        "sv-hero",
+        "sv-promo",
+        "sv-accordion",
+        "sv-stories",
+        "sv-cards",
+        "sv-links",
+        "sv-embed",
+        "sv-columns",
+        "sv-carousel",
+        "sv-cta",
+        "sv-form"
       ],
       "delivery": {
         "verified": 1,
@@ -308,7 +363,16 @@
         "what-is-zendesk"
       ],
       "pageCount": 3,
-      "blocks": [],
+      "blocks": [
+        "co-linklist",
+        "co-teaser",
+        "co-tabs",
+        "co-accordion",
+        "co-cta",
+        "co-logos",
+        "co-stats",
+        "co-cards"
+      ],
       "delivery": {
         "verified": 3,
         "deployed": 0,
@@ -325,7 +389,11 @@
         "intro-tour"
       ],
       "pageCount": 3,
-      "blocks": [],
+      "blocks": [
+        "un-raw",
+        "sv-hero",
+        "un-tour"
+      ],
       "delivery": {
         "verified": 3,
         "deployed": 0,

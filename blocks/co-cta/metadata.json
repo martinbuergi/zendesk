@@ -1,0 +1,42 @@
+{
+  "variantName": "co-cta",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "closing-cta-band",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one cell: heading (+ optional paragraphs) + CTA paragraph",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "lg",
+      "label": "Large"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "a closing call-to-action band at the end of a page",
+      "a single prominent heading with one button"
+    ],
+    "notSuitableFor": [
+      "content with images",
+      "multiple competing offers"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/company",
+      "/trust-center",
+      "/what-is-zendesk"
+    ],
+    "reuseCount": 3
+  },
+  "description": "A dark closing band with a centred heading and a call-to-action button, to drive a final action at the end of a page."
+}

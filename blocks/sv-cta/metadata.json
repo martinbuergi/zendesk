@@ -1,0 +1,61 @@
+{
+  "variantName": "sv-cta",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "closing-call-to-action",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one cell: eyebrow + h2 + optional text + CTAs",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "small",
+      "label": "Small"
+    },
+    {
+      "class": "ghost-cta",
+      "label": "Ghost CTA"
+    },
+    {
+      "class": "legacy",
+      "label": "Legacy"
+    },
+    {
+      "class": "tint-beige",
+      "label": "Tint Beige"
+    },
+    {
+      "class": "tint-yellow",
+      "label": "Tint Yellow"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "closing call-to-action band at the end of a page",
+      "short centered prompt with one or two buttons"
+    ],
+    "notSuitableFor": [
+      "long body copy",
+      "feature lists or cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/employee-experience",
+      "/partner",
+      "/platform",
+      "/professional-services",
+      "/service",
+      "/why-zendesk"
+    ],
+    "reuseCount": 6
+  },
+  "description": "Shows a centered eyebrow, display heading and buttons on a dark band, for the closing call to action on service and program pages."
+}

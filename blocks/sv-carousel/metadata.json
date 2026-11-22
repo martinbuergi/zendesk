@@ -1,0 +1,52 @@
+{
+  "variantName": "sv-carousel",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "resource-card-carousel",
+    "imagePattern": "small"
+  },
+  "contentPattern": {
+    "structure": "one row per card: picture | kind label + title link",
+    "buttonCount": 0,
+    "imageCount": 6
+  },
+  "options": [
+    {
+      "class": "legacy",
+      "label": "Legacy"
+    },
+    {
+      "class": "tint-grey",
+      "label": "Tint Grey"
+    },
+    {
+      "class": "tint-white",
+      "label": "Tint White"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "related reports and articles",
+      "resource card rows with prev/next controls"
+    ],
+    "notSuitableFor": [
+      "customer quotes and testimonials",
+      "hero slideshows"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/employee-experience",
+      "/employee-service",
+      "/partner",
+      "/platform",
+      "/service"
+    ],
+    "reuseCount": 5
+  },
+  "description": "Shows a sliding row of linked resource cards with image, kind label and title, for pointing to related reports and articles on service pages."
+}

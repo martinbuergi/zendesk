@@ -1,0 +1,40 @@
+{
+  "variantName": "co-linklist",
+  "baseBlock": "columns",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "sitemap-link-columns",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one row per column: h3 + bulleted list of links",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "legacy",
+      "label": "Legacy"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "a sitemap of headed link lists",
+      "large directories of grouped links"
+    ],
+    "notSuitableFor": [
+      "primary navigation",
+      "content with images or descriptions"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/sitemap"
+    ],
+    "reuseCount": 1
+  },
+  "description": "Columns of headed bulleted link lists, to present a sitemap or a large grouped directory of links."
+}

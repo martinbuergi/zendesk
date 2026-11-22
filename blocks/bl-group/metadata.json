@@ -1,0 +1,63 @@
+{
+  "variantName": "bl-group",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "category-story-carousel",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "head row (heading + View more link), then one row per card: image | linked title + description (+ optional tag links)",
+    "buttonCount": 1,
+    "imageCount": 4
+  },
+  "options": [
+    {
+      "class": "grid",
+      "label": "Grid"
+    },
+    {
+      "class": "features",
+      "label": "Features"
+    },
+    {
+      "class": "themes",
+      "label": "Themes"
+    },
+    {
+      "class": "logos",
+      "label": "Logos"
+    },
+    {
+      "class": "no-head",
+      "label": "No Head"
+    },
+    {
+      "class": "legacy",
+      "label": "Legacy"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "a blog category row of story cards with a View more link",
+      "static tile grids on listing hubs",
+      "logo strips on listing pages"
+    ],
+    "notSuitableFor": [
+      "a single featured story",
+      "long paginated listings"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/marketplace",
+      "/blog",
+      "/customer"
+    ],
+    "reuseCount": 3
+  },
+  "description": "A titled group of story cards with a View more link, shown as a carousel or a static tile grid, to surface the latest content of one category on a listing hub."
+}

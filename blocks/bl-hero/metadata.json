@@ -1,0 +1,72 @@
+{
+  "variantName": "bl-hero",
+  "baseBlock": "hero",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "listing-hero-with-featured-stories",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "lead story row (image | linked title + text), picks head row (h1 + h2), one row per pick (image | linked title), subscribe row (heading, text, placeholder, button label, hint)",
+    "buttonCount": 1,
+    "imageCount": 7
+  },
+  "options": [
+    {
+      "class": "hub",
+      "label": "Hub"
+    },
+    {
+      "class": "links",
+      "label": "Links"
+    },
+    {
+      "class": "directory",
+      "label": "Directory"
+    },
+    {
+      "class": "lead",
+      "label": "Lead"
+    },
+    {
+      "class": "legacy",
+      "label": "Legacy"
+    },
+    {
+      "class": "tint-sand",
+      "label": "Tint Sand"
+    },
+    {
+      "class": "tint-aqua",
+      "label": "Tint Aqua"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "the top of a blog or listing hub with a lead story and editor picks",
+      "a centred hub intro with search and link list",
+      "a directory header with breadcrumb and title"
+    ],
+    "notSuitableFor": [
+      "article page headers",
+      "a simple single-image banner"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/blog",
+      "/marketplace",
+      "/industries",
+      "/customer",
+      "/newsroom",
+      "/marketplace/themes",
+      "/marketplace/apps",
+      "/marketplace/partners"
+    ],
+    "reuseCount": 8
+  },
+  "description": "The opening band of a listing page, showing a lead story, editor picks and a subscribe card (or a hub, directory or featured-story intro in its variants), to introduce the hub and its top content."
+}

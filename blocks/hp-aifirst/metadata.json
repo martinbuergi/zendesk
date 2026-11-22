@@ -1,0 +1,36 @@
+{
+  "variantName": "hp-aifirst",
+  "baseBlock": "tabs",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "capability-tabs-showcase",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "section head (h2 + text + primary/secondary CTA) as default content before the block; one row per capability: h3 title | image | text",
+    "buttonCount": 2,
+    "imageCount": 5
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "Product capability showcase with switchable tabs",
+      "Feature walkthrough with one screenshot per item",
+      "Dark full-bleed band introducing a platform"
+    ],
+    "notSuitableFor": [
+      "Single feature with one image",
+      "Long-form FAQ content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 1
+  },
+  "description": "Dark full-bleed band with a centred heading and CTAs over capability items shown as vertical tabs with images on desktop and as an accordion on mobile, used to showcase product capabilities."
+}

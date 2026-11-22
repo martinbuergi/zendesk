@@ -1,0 +1,41 @@
+{
+  "variantName": "pr-plans",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "pricing-plan-cards",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "optional billing cadence row; one row per plan: sticker + h3 + description + price + CTAs | lead + feature list; optional footer h4 row",
+    "buttonCount": 7,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "addons",
+      "label": "Add-ons"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "pricing plan cards with prices and feature lists",
+      "featured add-on cards (addons variant)",
+      "highlighting a most popular plan"
+    ],
+    "notSuitableFor": [
+      "generic content or teaser cards",
+      "detailed feature comparison tables"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/pricing"
+    ],
+    "reuseCount": 1
+  },
+  "description": "Shows pricing plan cards with name, price, CTAs and feature lists (or, with the addons variant, a row of add-on cards), for presenting plans on the pricing page."
+}

@@ -1,0 +1,35 @@
+{
+  "variantName": "hp-quotes",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "customer-testimonial-carousel",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "section head (h2 + text) as default content before the block; one row per testimonial: logo image | stat figure + caption pairs | quote + name + role + story link | photo image",
+    "buttonCount": 4,
+    "imageCount": 5
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "Customer testimonial carousel with results stats",
+      "Case-study highlights with quote, photo and story link"
+    ],
+    "notSuitableFor": [
+      "A single static quote",
+      "Content without customer quotes"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 1
+  },
+  "description": "Testimonial carousel showing one customer at a time with logo, result stats, quote, attribution, story link and photo, used for social proof."
+}

@@ -1,0 +1,49 @@
+{
+  "variantName": "zb-quotes",
+  "baseBlock": "quote",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "customer-pull-quotes",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one row per quote: quote text | name + role | optional stat figure + caption pairs",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "single",
+      "label": "Single"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "customer pull quotes within a story",
+      "one or two attributed testimonials side by side"
+    ],
+    "notSuitableFor": [
+      "carousel testimonials with images",
+      "anonymous or unattributed statements"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/customer/action-property-management",
+      "/customer/asaas",
+      "/customer/babbel",
+      "/customer/ballys",
+      "/customer/benevity",
+      "/customer/betmgm-brasil",
+      "/customer/bgl",
+      "/customer/britbox",
+      "/customer/canva",
+      "/customer/catapult"
+    ],
+    "reuseCount": 58
+  },
+  "description": "Attributed customer pull quotes, two per row from tablet up (or one centred), each with the quote, speaker name and role and optional supporting stats."
+}

@@ -1,0 +1,41 @@
+{
+  "variantName": "hp-cta",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "balanced",
+    "purpose": "conversion-call-to-action",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one cell: h2 heading + optional text + primary (strong) and secondary (em) CTA",
+    "buttonCount": 2,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "banner",
+      "label": "Banner"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "Closing call-to-action at the end of a page",
+      "Pricing or trial prompt with two buttons",
+      "Forest-band launch banner (banner option)"
+    ],
+    "notSuitableFor": [
+      "Content with images or multiple items",
+      "Long explanatory text"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 1
+  },
+  "description": "Centred call-to-action with a heading, optional text and primary/secondary buttons, shown as a cream rounded card or, with the banner option, as a dark forest band with a launch icon."
+}

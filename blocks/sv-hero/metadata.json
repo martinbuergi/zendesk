@@ -1,0 +1,106 @@
+{
+  "variantName": "sv-hero",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "program-page-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "one row: eyebrow + h1 + lede + CTAs or trial email form | media picture",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "options": [
+    {
+      "class": "trial",
+      "label": "Trial"
+    },
+    {
+      "class": "notice",
+      "label": "Notice"
+    },
+    {
+      "class": "image",
+      "label": "Image"
+    },
+    {
+      "class": "video",
+      "label": "Video"
+    },
+    {
+      "class": "bg-video",
+      "label": "Background Video"
+    },
+    {
+      "class": "text",
+      "label": "Text"
+    },
+    {
+      "class": "logos",
+      "label": "Logos"
+    },
+    {
+      "class": "reverse",
+      "label": "Reverse"
+    },
+    {
+      "class": "small",
+      "label": "Small"
+    },
+    {
+      "class": "landscape",
+      "label": "Landscape"
+    },
+    {
+      "class": "ghost-cta",
+      "label": "Ghost CTA"
+    },
+    {
+      "class": "legacy",
+      "label": "Legacy"
+    },
+    {
+      "class": "tint-beige",
+      "label": "Tint Beige"
+    },
+    {
+      "class": "tint-white",
+      "label": "Tint White"
+    },
+    {
+      "class": "tint-yellow",
+      "label": "Tint Yellow"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "top of service and program pages",
+      "free-trial sign-up heroes (trial variant)",
+      "hero with image or video media"
+    ],
+    "notSuitableFor": [
+      "mid-page teasers",
+      "pricing page heads with product tabs"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/cxtrends",
+      "/employee-experience",
+      "/employee-service",
+      "/free-trial",
+      "/help-center-closed",
+      "/partner",
+      "/platform",
+      "/professional-services",
+      "/repeatcustomer",
+      "/sell"
+    ],
+    "reuseCount": 13
+  },
+  "description": "Shows the page-opening eyebrow, h1, lede and CTAs or a free-trial email form beside an image or video, for introducing service and program pages."
+}

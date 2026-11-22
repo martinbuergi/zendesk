@@ -1,0 +1,35 @@
+{
+  "variantName": "un-raw",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "raw-text-feed-output",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one cell: the raw feed text verbatim in paragraphs",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "legacy pages that output raw JSON or plain text",
+      "unstyled verbatim text dumps"
+    ],
+    "notSuitableFor": [
+      "any designed marketing content",
+      "structured data meant to be rendered as UI"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/blog-ads-api-output"
+    ],
+    "reuseCount": 1
+  },
+  "description": "An unstyled block that shows authored raw text (such as a JSON feed) verbatim as plain body text, for legacy non-HTML pages."
+}

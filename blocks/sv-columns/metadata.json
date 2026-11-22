@@ -1,0 +1,112 @@
+{
+  "variantName": "sv-columns",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "multi-column-content",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one row: lead h2 cell + one cell per column (h3 + text + link)",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "media",
+      "label": "Media"
+    },
+    {
+      "class": "text",
+      "label": "Text"
+    },
+    {
+      "class": "reverse",
+      "label": "Reverse"
+    },
+    {
+      "class": "grid",
+      "label": "Grid"
+    },
+    {
+      "class": "tabs",
+      "label": "Tabs"
+    },
+    {
+      "class": "event",
+      "label": "Event"
+    },
+    {
+      "class": "modal",
+      "label": "Modal"
+    },
+    {
+      "class": "banner",
+      "label": "Banner"
+    },
+    {
+      "class": "badges",
+      "label": "Badges"
+    },
+    {
+      "class": "dark",
+      "label": "Dark"
+    },
+    {
+      "class": "legacy",
+      "label": "Legacy"
+    },
+    {
+      "class": "tint-beige",
+      "label": "Tint Beige"
+    },
+    {
+      "class": "tint-cream",
+      "label": "Tint Cream"
+    },
+    {
+      "class": "tint-forest",
+      "label": "Tint Forest"
+    },
+    {
+      "class": "tint-grey",
+      "label": "Tint Grey"
+    },
+    {
+      "class": "tint-white",
+      "label": "Tint White"
+    },
+    {
+      "class": "tint-yellow",
+      "label": "Tint Yellow"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "rounded card with a lead heading and text columns",
+      "text and media split sections (media/text variants)",
+      "tabbed panels, event countdowns or hidden detail dialogs (tabs, event, modal variants)"
+    ],
+    "notSuitableFor": [
+      "repeating icon cards",
+      "full-page heroes"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/cxtrends",
+      "/employee-experience",
+      "/employee-service",
+      "/platform",
+      "/professional-services",
+      "/sell",
+      "/service",
+      "/why-zendesk"
+    ],
+    "reuseCount": 8
+  },
+  "description": "Shows a rounded card with a lead heading and equal text columns (with variants for media splits, tabs, events and modal details), for grouped supporting content on service and program pages."
+}

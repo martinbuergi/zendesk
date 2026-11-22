@@ -1,0 +1,82 @@
+{
+  "variantName": "sv-embed",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "interactive-demo-embed",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one cell: embed link paragraph (link text = iframe title)",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "desktop",
+      "label": "Desktop"
+    },
+    {
+      "class": "video",
+      "label": "Video"
+    },
+    {
+      "class": "reverse",
+      "label": "Reverse"
+    },
+    {
+      "class": "legacy",
+      "label": "Legacy"
+    },
+    {
+      "class": "tint-beige",
+      "label": "Tint Beige"
+    },
+    {
+      "class": "tint-cream",
+      "label": "Tint Cream"
+    },
+    {
+      "class": "tint-forest",
+      "label": "Tint Forest"
+    },
+    {
+      "class": "tint-grey",
+      "label": "Tint Grey"
+    },
+    {
+      "class": "tint-white",
+      "label": "Tint White"
+    },
+    {
+      "class": "tint-yellow",
+      "label": "Tint Yellow"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "guided product tours (Storylane)",
+      "third-party iframe embeds",
+      "video with text split (video variant)"
+    ],
+    "notSuitableFor": [
+      "plain images",
+      "forms"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/employee-experience",
+      "/employee-service",
+      "/platform",
+      "/professional-services",
+      "/sell",
+      "/service"
+    ],
+    "reuseCount": 6
+  },
+  "description": "Shows a framed third-party embed such as an interactive product tour (or a video beside text with the video variant), for hands-on product demos on service pages."
+}

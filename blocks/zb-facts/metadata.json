@@ -1,0 +1,57 @@
+{
+  "variantName": "zb-facts",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "company-fact-cards",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one row per fact: h2 label | value paragraph",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "one-up",
+      "label": "One Up"
+    },
+    {
+      "class": "two-up",
+      "label": "Two Up"
+    },
+    {
+      "class": "three-up",
+      "label": "Three Up"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "company facts on customer stories (founded, customer since, users)",
+      "short label + value fact rows"
+    ],
+    "notSuitableFor": [
+      "large headline statistics (use zb-stats)",
+      "facts that need descriptions or images"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/customer/action-property-management",
+      "/customer/asaas",
+      "/customer/babbel",
+      "/customer/ballys",
+      "/customer/benevity",
+      "/customer/betmgm-brasil",
+      "/customer/bgl",
+      "/customer/britbox",
+      "/customer/canva",
+      "/customer/catapult"
+    ],
+    "reuseCount": 58
+  },
+  "description": "A row of fact cards, each pairing a small label with a value (e.g. company founded, customer since), shown at the top of customer stories."
+}

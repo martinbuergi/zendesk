@@ -1,0 +1,36 @@
+{
+  "variantName": "hp-duo",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "two-up-product-cards",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "heading as default content before the block; one row per card: image | h3 title + text + primary/secondary CTA",
+    "buttonCount": 4,
+    "imageCount": 2
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "Two side-by-side product or offering cards",
+      "Comparing two solutions with their own CTAs"
+    ],
+    "notSuitableFor": [
+      "More than two or three items",
+      "Text-only content without images"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index",
+      "/free-trial"
+    ],
+    "reuseCount": 2
+  },
+  "description": "Centred heading over a two-up grid of cream cards, each with an image, title, text and CTAs, used to present two related products or offerings."
+}

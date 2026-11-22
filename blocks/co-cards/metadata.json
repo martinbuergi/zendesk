@@ -1,0 +1,35 @@
+{
+  "variantName": "co-cards",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "resource-card-grid",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "one row per card: image | h3 title + text + link",
+    "buttonCount": 3,
+    "imageCount": 3
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "a three-up grid of resource or offer cards",
+      "image cards with a title, text and Learn more link"
+    ],
+    "notSuitableFor": [
+      "long story listings with pagination",
+      "logo-only rows"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/what-is-zendesk"
+    ],
+    "reuseCount": 1
+  },
+  "description": "A grid of image cards each with a title, short text and a link, to point visitors to related resources under a centred section heading."
+}

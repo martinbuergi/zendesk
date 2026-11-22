@@ -1,0 +1,48 @@
+{
+  "variantName": "bl-filters",
+  "baseBlock": "custom",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "listing-filter-controls",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "optional heading row, then one row per filter: label | list of options (label-only rows are actions or field labels)",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "aside",
+      "label": "Aside"
+    },
+    {
+      "class": "bar",
+      "label": "Bar"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "directory sidebar filters beside a listing grid",
+      "dropdown filter bar above a story listing",
+      "static facet lists with option counts"
+    ],
+    "notSuitableFor": [
+      "working search or form submission",
+      "site navigation menus"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/customer",
+      "/marketplace/apps",
+      "/marketplace/themes",
+      "/marketplace/partners"
+    ],
+    "reuseCount": 4
+  },
+  "description": "Static listing filter controls, shown as a collapsible sidebar of facet groups or a dropdown bar above a listing, to present the available filter options next to a grid of items."
+}

@@ -1,0 +1,35 @@
+{
+  "variantName": "hp-pillars",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "balanced",
+    "purpose": "promo-with-product-pillars",
+    "imagePattern": "small"
+  },
+  "contentPattern": {
+    "structure": "first row lead: lockup image | intro text + primary CTA; following rows one per pillar: image | h3 title + text + secondary CTA",
+    "buttonCount": 4,
+    "imageCount": 4
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "Promo card introducing a campaign with related product pillars",
+      "Lead message beside a short list of linked features"
+    ],
+    "notSuitableFor": [
+      "Single promotional message without a list",
+      "Large image galleries"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 1
+  },
+  "description": "Dark promo card with a lead panel (lockup image, intro text and primary CTA) beside a list of product pillars, each with an image, title, text and link."
+}

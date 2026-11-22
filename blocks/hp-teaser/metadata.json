@@ -1,0 +1,36 @@
+{
+  "variantName": "hp-teaser",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "balanced",
+    "purpose": "promo-teaser-card",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "one row: image | h2 heading + text | primary CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "Promoting a report, event or download",
+      "Single dark promo card with one CTA"
+    ],
+    "notSuitableFor": [
+      "Multiple promos or lists",
+      "Content without an image"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index",
+      "/blog"
+    ],
+    "reuseCount": 2
+  },
+  "description": "Dark forest promo card with a square image, heading, short text and a primary CTA, used to promote a report or campaign."
+}

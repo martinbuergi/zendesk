@@ -1,0 +1,41 @@
+{
+  "variantName": "hp-split",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "balanced",
+    "purpose": "text-image-split",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "one row: optional eyebrow (with code tag) + h2/h3 heading + text + primary/secondary CTA | image",
+    "buttonCount": 2,
+    "imageCount": 1
+  },
+  "options": [
+    {
+      "class": "wide",
+      "label": "Wide"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "Feature or announcement with text beside an image",
+      "Report or award highlight with a CTA",
+      "Light text on a forest section"
+    ],
+    "notSuitableFor": [
+      "Multiple items or cards",
+      "Content without an image"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 1
+  },
+  "description": "Text column with optional eyebrow, heading, text and CTAs beside an image column, used to highlight a feature, announcement or report; the wide option uses a wider copy column and square image."
+}

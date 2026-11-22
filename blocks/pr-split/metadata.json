@@ -1,0 +1,45 @@
+{
+  "variantName": "pr-split",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "spacious",
+    "purpose": "media-text-teaser",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "one row: eyebrow + h2 + text + CTAs | image",
+    "buttonCount": 2,
+    "imageCount": 1
+  },
+  "options": [
+    {
+      "class": "dark",
+      "label": "Dark"
+    },
+    {
+      "class": "reverse",
+      "label": "Reverse"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "text and image teasers for programs or tools",
+      "promoting a new product with a tag eyebrow",
+      "alternating media and text rows"
+    ],
+    "notSuitableFor": [
+      "multi-column feature grids",
+      "video media"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/pricing"
+    ],
+    "reuseCount": 1
+  },
+  "description": "Shows a heading, text and buttons beside a rounded image, optionally on a dark band or with the image first, for teasers of programs and tools on the pricing page."
+}

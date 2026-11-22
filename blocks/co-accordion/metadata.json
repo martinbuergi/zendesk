@@ -1,0 +1,41 @@
+{
+  "variantName": "co-accordion",
+  "baseBlock": "accordion",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "headed-accordion-with-data-tables",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "item row (h3 title | optional panel prose), then rows of label (h4) | text for the item table, optional one-cell prose rows",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "lead",
+      "label": "Lead"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "trust or compliance sections with expandable items",
+      "FAQ-style content with two-column detail tables",
+      "tab groups adopted by co-tabs"
+    ],
+    "notSuitableFor": [
+      "short content that should always be visible",
+      "image-led content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/trust-center"
+    ],
+    "reuseCount": 1
+  },
+  "description": "A headed accordion whose expandable items hold prose and two-column detail tables, to organise dense trust and compliance information into scannable sections."
+}

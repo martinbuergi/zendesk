@@ -1,0 +1,76 @@
+{
+  "variantName": "sv-accordion",
+  "baseBlock": "accordion",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "benefits-accordion-with-media",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "one row per item: title h3 | body text + picture",
+    "buttonCount": 0,
+    "imageCount": 4
+  },
+  "options": [
+    {
+      "class": "plain",
+      "label": "Plain"
+    },
+    {
+      "class": "faq",
+      "label": "FAQ"
+    },
+    {
+      "class": "intro",
+      "label": "Intro"
+    },
+    {
+      "class": "reverse",
+      "label": "Reverse"
+    },
+    {
+      "class": "legacy",
+      "label": "Legacy"
+    },
+    {
+      "class": "tint-cream",
+      "label": "Tint Cream"
+    },
+    {
+      "class": "tint-grey",
+      "label": "Tint Grey"
+    },
+    {
+      "class": "tint-white",
+      "label": "Tint White"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "product benefits with a swapping image per item",
+      "FAQ lists (faq variant)",
+      "text-only accordions (plain variant)"
+    ],
+    "notSuitableFor": [
+      "pricing FAQ with a side title column",
+      "content that must all be visible at once"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/cxtrends",
+      "/employee-experience",
+      "/employee-service",
+      "/platform",
+      "/professional-services",
+      "/sell",
+      "/service",
+      "/why-zendesk"
+    ],
+    "reuseCount": 8
+  },
+  "description": "Shows a single-open accordion of benefits next to a media column that swaps to the open item's image, for explaining product benefits on service and program pages."
+}

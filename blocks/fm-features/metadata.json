@@ -1,0 +1,35 @@
+{
+  "variantName": "fm-features",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "icon-feature-cards",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "one row per card: icon image | h3 title + text; section heading/lede from preceding default content",
+    "buttonCount": 0,
+    "imageCount": 3
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "three-up \"what is included\" benefit lists",
+      "short icon + title + text feature summaries"
+    ],
+    "notSuitableFor": [
+      "cards with CTAs or large photos",
+      "long-form feature descriptions"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/free-trial"
+    ],
+    "reuseCount": 1
+  },
+  "description": "A centred grid of icon cards, each with a small icon, title and short text, used to list what a trial or offer includes."
+}

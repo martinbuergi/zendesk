@@ -1,0 +1,78 @@
+{
+  "variantName": "fm-form",
+  "baseBlock": "form",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "balanced",
+    "purpose": "lead-capture-form",
+    "imagePattern": "none"
+  },
+  "contentPattern": {
+    "structure": "one row per field: label (+ hint) | type + flags | field name | options list; then consent text row and submit label row",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "options": [
+    {
+      "class": "hidden",
+      "label": "Hidden"
+    },
+    {
+      "class": "login",
+      "label": "Login"
+    },
+    {
+      "class": "modal",
+      "label": "Modal"
+    },
+    {
+      "class": "instapage",
+      "label": "Instapage"
+    },
+    {
+      "class": "teaser",
+      "label": "Teaser"
+    },
+    {
+      "class": "halves",
+      "label": "Halves"
+    },
+    {
+      "class": "inline",
+      "label": "Inline"
+    },
+    {
+      "class": "loose",
+      "label": "Loose"
+    }
+  ],
+  "memberVariantIds": [],
+  "reuseGuidance": {
+    "suitableFor": [
+      "contact-sales, demo and trial lead forms",
+      "login or registration forms",
+      "newsletter and webinar sign-up forms"
+    ],
+    "notSuitableFor": [
+      "forms that need a real submission backend without further wiring",
+      "multi-page wizards with conditional logic"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/contact",
+      "/demo",
+      "/instapage-form-contact",
+      "/instapage-form-content",
+      "/instapage-form-demo",
+      "/instapage-form-newsletter",
+      "/instapage-form-trial-teaser-sell",
+      "/instapage-form-trial-teaser-suite",
+      "/instapage-form-trial-teaser-suite-inline",
+      "/instapage-form-webinar"
+    ],
+    "reuseCount": 12
+  },
+  "description": "A configurable lead form built from authored field rows (label, type, name, options) with consent text and a submit button, used on contact, demo, trial, login and sign-up pages."
+}
