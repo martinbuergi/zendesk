@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-20T09:26:42.896Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-20T09:32:40.246Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-20T09:35:08.272Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "iter3: pixel 0.49% PASS, dh 0, clipped 0, overflow ok, 0 yellow; sole red = hero input placeholder: live source flips between visits (content-diff-iter1.txt source 'Enter work email' = extract + frozen baseline; content-diff-iter3.txt source 'name@company.com') - live A/B variant, build keeps the baseline value",
+          "at": "2026-11-20T09:35:25.528Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-20T12-46-04-394Z",
+          "at": "2026-11-20T12:46:04.395Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-20T13-08-27-496Z",
+          "at": "2026-11-20T13:08:27.496Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T03-21-27-122Z",
+          "at": "2026-11-21T03:21:27.126Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T03-54-46-643Z",
+          "at": "2026-11-21T03:54:46.647Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T13-51-11-864Z",
+          "at": "2026-11-21T13:51:11.873Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T18-38-44-573Z",
+          "at": "2026-11-21T18:38:44.574Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

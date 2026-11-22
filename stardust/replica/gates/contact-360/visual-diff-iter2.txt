@@ -1,0 +1,335 @@
+[live-session] waiting to pace live navigations to www.zendesk.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 741 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/contact-360/vdiff-iter2/
+
+build red flags (advisory): 
+  • IMAGERY GAP: source renders 13 images, build renders 0. The build renders far fewer images than the source — confirm intended (CSS backgrounds) vs missing assets.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 5058,
+  "textLen": 5198,
+  "images": [
+   {
+    "src": "zendesk-logo.png",
+    "natural": "660x127",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1795169918011",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "1x1.gif?action=ct-init&hash=4c523741&advertiserId=3594&errorName=&errorCause=&errorMessage=&url=https%3A%2F%2Fwww.zendesk.com%2Fcontact%2F",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=5217919&tm=gtm002&Ver=2&mid=bef61396-07a1-494d-93d4-fdfd193ed2b1&bo=2&sid=5eefa640e4c911f1bd9fcd7660c987e7&vid=5eefcac0e4c911f1adc4a3b478b8324d&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=Contact%20us&p=https%3A%2F%2Fwww.zendesk.com%2Fcontact%2F&r=&lt=546&evt=pageLoad&sv=2&asc=G&cdb=AQET&rn=718353",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "cs?pid=d177d942cb8207b52f57818feb9bb79a7b77ce6e0ed688e3af36875661b9be1d&r=https%3A%2F%2Fs.dpmsrv.com%2Fblank.png&puid=dpmpixc%5B1478%5Da%5BNA%5Ds%5B01a1f877-1d28-7396-9907-9b15d6757a05%5D",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "seg?member=827&consent=1&add=35557257,35557258",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "img?mt_id=2373595&mt_adid=431650",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "img?mt_id=2373594&mt_adid=431650",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "?adv=f6ba480&ct=0:vkv8rin&fmt=3",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "?adv=f6ba480&ct=0:lnrijku&fmt=3",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "img?mt_id=2770488&mt_adid=434212&mt_exem=&mt_excl=&v1=eng&v2=Engagement&v3=&s1=1&s2=&s3=",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "?adv=zlzb4gk&ct=0:dci0ww7&fmt=3&td1=eng&td2=1&td3=Engagement",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Get in touch with sales",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Product & account support",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Talk with us",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our offices around the world",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Contact Us",
+    "color": "rgb(17, 17, 13)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "Textstyle__TextRoot-sc-1qs4xfy-0",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "sc-9709aa77-0",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "Textstyle__TextRoot-sc-1qs4xfy-0",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "Textstyle__TextRoot-sc-1qs4xfy-0",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "StyledCol-sc-inuw62-0",
+    "width": 344,
+    "left": 8
+   },
+   {
+    "sel": "Textstyle__TextRoot-sc-1qs4xfy-0",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "Textstyle__TextRoot-sc-1qs4xfy-0",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "Textstyle__TextRoot-sc-1qs4xfy-0",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "Textstyle__TextRoot-sc-1qs4xfy-0",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "Textstyle__TextRoot-sc-1qs4xfy-0",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "Textstyle__TextRoot-sc-1qs4xfy-0",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "Textstyle__TextRoot-sc-1qs4xfy-0",
+    "width": 328,
+    "left": 16
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 5058,
+  "textLen": 5197,
+  "images": [],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Get in touch with sales",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Product & account support",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Talk with us",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "22px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our offices around the world",
+    "color": "rgb(17, 17, 13)",
+    "fontSize": "30px",
+    "family": "Vanilla Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Contact Us",
+    "color": "rgb(17, 17, 13)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "za-text",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "ct-field",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "za-text",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "za-text",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "za-col",
+    "width": 352,
+    "left": 4
+   },
+   {
+    "sel": "za-text",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "za-text",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "za-text",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "za-text",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "za-text",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "za-text",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "za-text",
+    "width": 328,
+    "left": 16
+   }
+  ]
+ }
+}

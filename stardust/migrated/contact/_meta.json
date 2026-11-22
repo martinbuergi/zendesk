@@ -1,0 +1,124 @@
+{
+  "slug": "contact",
+  "type": "form",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "form-choice-tiles",
+    "fm-hero",
+    "fm-form",
+    "fm-offices"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "ct-wrap"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": "4e8b04436e48",
+    "css": "6522953e4893"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Contact us",
+    "description": "Got questions? Email or contact our office at 1 (888) 851-9456.",
+    "canonical": "https://www.zendesk.com/contact/",
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Contact us",
+    "description": "Got questions? Email or contact our office at 1 (888) 851-9456.",
+    "url": "https://www.zendesk.com/contact/"
+  },
+  "migratedAt": "2026-11-20T11:43:22Z",
+  "designMdSha": "84a4a03d7364",
+  "designJsonSha": "28069f8740fe",
+  "sourceCurrentSha": "3da9237f2d4a",
+  "sourceProposedSha": "616e2bf4d511",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/register/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/company/agreements-and-terms/privacy-policy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/privacy-policy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/au/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/dk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/in/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/in/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/it/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/sg/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/se/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/terms-of-use/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/cookie-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/trust-center/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "contact/index.html",
+  "outputPathDefault": null,
+  "sidecar": "contact/_meta.json",
+  "driverVersion": "1"
+}

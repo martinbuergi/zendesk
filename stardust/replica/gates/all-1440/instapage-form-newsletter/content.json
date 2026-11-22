@@ -1,0 +1,278 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-21T17:57:31.790Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/instapage-form-newsletter/",
+  "at": "2026-11-21T17:57:17.396Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 900,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-9709aa77-0.hTAHlP > div.StyledField-sc-12gzfsu-0.iRSmTf > label#:r1:--label",
+    "x": 5,
+    "y": 0,
+    "w": 1430,
+    "h": 24,
+    "text": "Work email"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.FormFieldstyle__FormFieldWrapper-sc-1tygcda-7.hHdcVj > div.StyledInputGroup-sc-kjh1f0-0.gaKCjd > button.Linkstyle__LinkRoot-sc-1cm3ukq-2.bbMVeg",
+    "x": 1301,
+    "y": 32,
+    "w": 134,
+    "h": 48,
+    "text": "subscribe"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-9709aa77-7.jeOGBo > div.sc-9709aa77-0.hTAHlP > p.Textstyle__TextRoot-sc-c9um69-0.fcFNFD",
+    "x": 5,
+    "y": 104,
+    "w": 1430,
+    "h": 18,
+    "text": "By submitting, I agree to Zendesk's ."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-9709aa77-0.hTAHlP > p.Textstyle__TextRoot-sc-c9um69-0.fcFNFD > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0",
+    "x": 223,
+    "y": 104,
+    "w": 88,
+    "h": 17,
+    "text": "privacy notice",
+    "href": "/company/agreements-and-terms/privacy-notice/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 5,
+    "controls": 2,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/instapage-form-newsletter",
+  "at": "2026-11-21T17:57:31.696Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 900,
+  "root": "main",
+  "items": [
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.fm-tipwrap > span.fm-field-in > label#fm-owner-email--label",
+    "x": 5,
+    "y": 0,
+    "w": 1296,
+    "h": 24,
+    "text": "Work email"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.fm-grid > div.fm-field.fm-field-full > p",
+    "x": 5,
+    "y": 104,
+    "w": 1430,
+    "h": 18,
+    "text": "By submitting, I agree to Zendesk's ."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.fm-field.fm-field-full > p > a",
+    "x": 223,
+    "y": 102,
+    "w": 88,
+    "h": 21,
+    "text": "privacy notice",
+    "href": "/company/agreements-and-terms/privacy-notice/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form#contact-us-form > div.fm-actions > button.za-btn.za-btn-primary",
+    "x": 1301,
+    "y": 32,
+    "w": 134,
+    "h": 48,
+    "text": "subscribe"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 6,
+    "controls": 2,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 5,
+    "y": 4,
+    "w": 83,
+    "h": 16
+   },
+   {
+    "x": 1327,
+    "y": 47,
+    "w": 82,
+    "h": 18
+   },
+   {
+    "x": 5,
+    "y": 104,
+    "w": 218,
+    "h": 17
+   },
+   {
+    "x": 223,
+    "y": 104,
+    "w": 88,
+    "h": 17
+   },
+   {
+    "x": 311,
+    "y": 104,
+    "w": 3,
+    "h": 17
+   }
+  ],
+  "eds": [
+   {
+    "x": 5,
+    "y": 4,
+    "w": 83,
+    "h": 16
+   },
+   {
+    "x": 5,
+    "y": 104,
+    "w": 218,
+    "h": 17
+   },
+   {
+    "x": 223,
+    "y": 104,
+    "w": 88,
+    "h": 17
+   },
+   {
+    "x": 311,
+    "y": 104,
+    "w": 3,
+    "h": 17
+   },
+   {
+    "x": 1327,
+    "y": 47,
+    "w": 82,
+    "h": 18
+   }
+  ]
+ }
+}

@@ -1,0 +1,169 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-20T13:41:00.178Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.zendesk.com",
+    "eds": "https://main--3055ed88--aemcoder.aem.page",
+    "edsHostOverride": "https://main--3055ed88--aemcoder.aem.page",
+    "only": [
+      "blog"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 1,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 1,
+    "failUnits": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 1,
+    "failOffsets": 0,
+    "referenceUnstable": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "blog",
+      "path": "/blog",
+      "template": "blog",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 11.96,
+      "textPct": 17.93,
+      "heightDelta": -19,
+      "originH": 7872,
+      "edsH": 7891,
+      "alignedPct": 0.61,
+      "alignedUsed": true,
+      "totalShift": 21,
+      "steps": [
+        {
+          "y": 191,
+          "shift": 8,
+          "cumulative": 8
+        },
+        {
+          "y": 224,
+          "shift": 8,
+          "cumulative": 16
+        },
+        {
+          "y": 3155,
+          "shift": 2,
+          "cumulative": 18
+        },
+        {
+          "y": 3443,
+          "shift": -1,
+          "cumulative": 17
+        },
+        {
+          "y": 3820,
+          "shift": 1,
+          "cumulative": 18
+        },
+        {
+          "y": 4471,
+          "shift": 1,
+          "cumulative": 19
+        }
+      ],
+      "offsetBound": 79,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "failing": [
+        "content"
+      ],
+      "unwaived": [
+        "content"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "content MISSING 7 / HIDDEN 0"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 7,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 22,
+        "variable": [
+          "[data-nav-item=\"global-promo-eyebrow-root\"]",
+          "[data-aem-id=\"aem.components.GlobalHeader\"]",
+          "[data-aem-id=\"aem.components.GlobalFooter\"]"
+        ]
+      },
+      "units": {
+        "units": 0,
+        "within": 0,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 2,
+        "requiredOff": 0
+      },
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/blog-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "2000-2500:17.8%",
+        "2500-3000:16.6%",
+        "3000-3500:16.8%",
+        "3500-4000:18.4%",
+        "4000-4500:22.1%",
+        "6000-6500:19.9%"
+      ],
+      "error": null
+    }
+  ]
+}

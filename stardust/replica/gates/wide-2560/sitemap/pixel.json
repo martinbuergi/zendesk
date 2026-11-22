@@ -1,0 +1,135 @@
+{
+  "a": "stardust/replica/gates/wide-2560/sitemap/origin.png",
+  "b": "stardust/replica/gates/wide-2560/sitemap/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 3076,
+    "mode": "overlap"
+  },
+  "heightDelta": 24,
+  "differingPixels": 129650,
+  "pct": 1.65,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/wide-2560/sitemap/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 1.3
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 2.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3076,
+      "pct": 3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.83,
+    "differingPixels": 65795,
+    "compared": {
+      "width": 2560,
+      "height": 3100,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 257,
+        "shift": -24,
+        "cumulative": -24
+      }
+    ],
+    "maxOffset": 24,
+    "totalShift": 24,
+    "insertedRows": 0,
+    "deletedRows": 24,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 4.9,
+        "unaligned": 1.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.2,
+        "unaligned": 1.4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 2.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 1.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 1.3
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 2.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3100,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/wide-2560/sitemap/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 31,
+    "totalShift": 24,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/sitemap"
+  }
+}

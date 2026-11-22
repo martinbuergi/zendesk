@@ -1,0 +1,190 @@
+{
+  "a": "stardust/replica/gates/all-1440/customer-zendesk-for-employee-service/origin.png",
+  "b": "stardust/replica/gates/all-1440/customer-zendesk-for-employee-service/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 5909,
+    "mode": "overlap"
+  },
+  "heightDelta": 24,
+  "differingPixels": 95103,
+  "pct": 1.12,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/customer-zendesk-for-employee-service/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 4.02,
+  "textBoxes": 208,
+  "textPixels": 1444344,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 1.8
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 4.9
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 2.7
+    },
+    {
+      "y0": 5500,
+      "y1": 5909,
+      "pct": 4.1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.49,
+    "differingPixels": 41661,
+    "compared": {
+      "width": 1440,
+      "height": 5933,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 4374,
+        "shift": -24,
+        "cumulative": -24
+      }
+    ],
+    "maxOffset": 24,
+    "totalShift": 24,
+    "insertedRows": 0,
+    "deletedRows": 24,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 5.4,
+        "unaligned": 1.8
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 4.9
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 2.7
+      },
+      {
+        "y0": 5500,
+        "y1": 5933,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/customer-zendesk-for-employee-service/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 59,
+    "totalShift": 24,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/customer/zendesk-for-employee-service"
+  }
+}

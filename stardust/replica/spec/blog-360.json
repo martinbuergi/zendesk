@@ -1,0 +1,540 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-20T09:52:42.604Z",
+  "url": "https://www.zendesk.com/blog/",
+  "width": 360,
+  "main": "main",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://www.zendesk.com/blog/",
+  "width": 360,
+  "viewport": 360,
+  "docHeight": 9373,
+  "scrollWidth": 360,
+  "root": "main",
+  "rootFallback": false,
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "\"Vanilla Sans\", Arial, sans-serif",
+    "n": 124
+   }
+  ],
+  "loadedFaces": [
+   "Vanilla Sans 400 normal",
+   "Vanilla Sans 500 normal",
+   "Vanilla Sans 600 normal",
+   "Vanilla Sans 700 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "15/21.75 600 Vanilla Sans",
+    "fontSize": 15,
+    "lineHeight": 21.75,
+    "fontWeight": "600",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 30,
+    "roles": {
+     "h3": 23,
+     "h4": 1,
+     "h5": 6
+    },
+    "sample": "Zendesk Bridge brings trusted service wherever work happens"
+   },
+   {
+    "key": "13/18.2 400 Vanilla Sans",
+    "fontSize": 13,
+    "lineHeight": 18.2,
+    "fontWeight": "400",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 22,
+    "roles": {
+     "p": 1,
+     "link": 21
+    },
+    "sample": "Explore the future of AI Management"
+   },
+   {
+    "key": "16/22 600 Vanilla Sans",
+    "fontSize": 16,
+    "lineHeight": 22,
+    "fontWeight": "600",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 16,
+    "roles": {
+     "link": 16
+    },
+    "sample": "Customer service"
+   },
+   {
+    "key": "14/17.5 400 Vanilla Sans",
+    "fontSize": 14,
+    "lineHeight": 17.5,
+    "fontWeight": "400",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 11,
+    "roles": {
+     "link": 11
+    },
+    "sample": "Pricing"
+   },
+   {
+    "key": "14/14 600 Vanilla Sans",
+    "fontSize": 14,
+    "lineHeight": 14,
+    "fontWeight": "600",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 10,
+    "roles": {
+     "link": 10
+    },
+    "sample": "AI customer service"
+   },
+   {
+    "key": "22/27.5 500 Vanilla Sans",
+    "fontSize": 22,
+    "lineHeight": 27.5,
+    "fontWeight": "500",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 8,
+    "roles": {
+     "h2": 8
+    },
+    "sample": "Zendesk Insights"
+   },
+   {
+    "key": "14/normal 400 Vanilla Sans",
+    "fontSize": 14,
+    "lineHeight": "normal",
+    "fontWeight": "400",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 6,
+    "roles": {
+     "link": 6
+    },
+    "sample": "Terms of Use"
+   },
+   {
+    "key": "30/34.5 500 Vanilla Sans",
+    "fontSize": 30,
+    "lineHeight": 34.5,
+    "fontWeight": "500",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "h3": 2,
+     "h2": 2
+    },
+    "sample": "Introducing Zendesk Outcome AI™: better outcomes wherever service begins"
+   },
+   {
+    "key": "15/21.75 400 Vanilla Sans",
+    "fontSize": 15,
+    "lineHeight": 21.75,
+    "fontWeight": "400",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 4,
+    "roles": {
+     "link": 1,
+     "p": 3
+    },
+    "sample": "Powered by the Autonomous Service Workforce, the Outcome AI™ Platform gives AI …"
+   },
+   {
+    "key": "18/28 600 Vanilla Sans",
+    "fontSize": 18,
+    "lineHeight": 28,
+    "fontWeight": "600",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "button": 1,
+     "link": 1
+    },
+    "sample": "Subscribe"
+   },
+   {
+    "key": "16/16 600 Vanilla Sans",
+    "fontSize": 16,
+    "lineHeight": 16,
+    "fontWeight": "600",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "link": 2
+    },
+    "sample": "1"
+   },
+   {
+    "key": "36/37.8 500 Vanilla Sans",
+    "fontSize": 36,
+    "lineHeight": 37.8,
+    "fontWeight": "500",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "h2": 1
+    },
+    "sample": "Editor’s picks"
+   },
+   {
+    "key": "16/23 600 Vanilla Sans",
+    "fontSize": 16,
+    "lineHeight": 23,
+    "fontWeight": "600",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "link": 1
+    },
+    "sample": "View demo"
+   },
+   {
+    "key": "16/23 700 Vanilla Sans",
+    "fontSize": 16,
+    "lineHeight": 23,
+    "fontWeight": "700",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "link": 1
+    },
+    "sample": "Blog"
+   },
+   {
+    "key": "16/23 400 Vanilla Sans",
+    "fontSize": 16,
+    "lineHeight": 23,
+    "fontWeight": "400",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "link": 1
+    },
+    "sample": "Zendesk"
+   },
+   {
+    "key": "16/21 400 Vanilla Sans",
+    "fontSize": 16,
+    "lineHeight": 21,
+    "fontWeight": "400",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "field": 1
+    },
+    "sample": "Work email"
+   },
+   {
+    "key": "16/16 400 Vanilla Sans",
+    "fontSize": 16,
+    "lineHeight": 16,
+    "fontWeight": "400",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "li": 1
+    },
+    "sample": "…"
+   },
+   {
+    "key": "16/26 600 Vanilla Sans",
+    "fontSize": 16,
+    "lineHeight": 26,
+    "fontWeight": "600",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "link": 1
+    },
+    "sample": "Next"
+   },
+   {
+    "key": "14/23.5 600 Vanilla Sans",
+    "fontSize": 14,
+    "lineHeight": 23.5,
+    "fontWeight": "600",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "link": 1
+    },
+    "sample": "Download now"
+   },
+   {
+    "key": "13/18.2 700 Vanilla Sans",
+    "fontSize": 13,
+    "lineHeight": 18.2,
+    "fontWeight": "700",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "span": 1
+    },
+    "sample": "CX Trends 2027"
+   },
+   {
+    "key": "12/12 700 Vanilla Sans uppercase",
+    "fontSize": 12,
+    "lineHeight": 12,
+    "fontWeight": "700",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "uppercase",
+    "n": 1,
+    "roles": {
+     "h1": 1
+    },
+    "sample": "Zendesk Blog"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(17, 17, 13)",
+    "n": 96
+   },
+   {
+    "color": "rgb(255, 255, 255)",
+    "n": 21
+   },
+   {
+    "color": "rgb(245, 245, 242)",
+    "n": 8
+   }
+  ],
+  "container": {
+   "left": 10,
+   "right": 8,
+   "content": 342,
+   "leftCommon": {
+    "x": 16,
+    "n": 60
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"main","y":0,"h":110,"background":"rgb(17, 17, 13)","paddingTop":16,"paddingBottom":16,"selectorHint":"div.sc-c5fa0909-6.fsXSfT","firstText":"CX Trends 2027"},
+  {"i":1,"region":"main","y":110,"h":60,"background":"rgb(255, 255, 255)","paddingTop":0,"paddingBottom":0,"selectorHint":"div#header-780805927.sc-93bde466-5.exVbKg","firstText":"View demo"},
+  {"i":2,"region":"main","y":170,"h":56,"background":"none","paddingTop":0,"paddingBottom":0,"selectorHint":"div.sc-809397e2-0.glJVBt","firstText":"Blog"},
+  {"i":3,"region":"main","y":161,"h":1318,"background":"rgb(255, 255, 255)","paddingTop":32,"paddingBottom":48,"selectorHint":"section#teaser-12bfb47939.sc-f23d7fd5-11.eKGAwU","firstText":"Introducing Zendesk Outcome AI™: better outcomes wherever s…"},
+  {"i":4,"region":"main","y":1479,"h":3887,"background":"rgb(255, 255, 255)","paddingTop":48,"paddingBottom":48,"selectorHint":"section#blog-story-category-listing-1995158695.sc-f23d7fd5-11.kLnTED","firstText":"Zendesk Insights"},
+  {"i":5,"region":"main","y":5366,"h":928,"background":"rgb(245, 245, 242)","paddingTop":48,"paddingBottom":48,"selectorHint":"section#blog-editors-picks-1023113396.sc-f23d7fd5-11.fzASFR","firstText":"Popular guides"},
+  {"i":6,"region":"main","y":6294,"h":544,"background":"rgb(255, 255, 255)","paddingTop":48,"paddingBottom":48,"selectorHint":"section#teaser-ef6abf30ab.sc-f23d7fd5-11.kLnTED","firstText":"The new CX Trends 2027 report is here"},
+  {"i":7,"region":"main","y":6838,"h":1524,"background":"rgb(255, 255, 255)","paddingTop":48,"paddingBottom":48,"selectorHint":"section.sc-f23d7fd5-11.kLnTED","firstText":"Latest stories"},
+  {"i":8,"region":"main","y":8362,"h":1011,"background":"rgb(17, 17, 13)","paddingTop":40,"paddingBottom":40,"selectorHint":"div.sc-70d743a6-5.kXmWFW","firstText":"Products"}
+ ],
+ "nodes": [
+  {"section":0,"region":"main","kind":"text","tag":"span","role":null,"text":"CX Trends 2027","x":108,"y":16,"w":113,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":0,"region":"main","kind":"text","tag":"p","role":null,"text":"Explore the future of AI Management","x":56,"y":42,"w":216,"h":18,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1},
+  {"section":0,"region":"main","kind":"control","tag":"a","role":"link","text":"Download now","x":108,"y":68,"w":112,"h":26,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":23.5,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":1,"href":"https://www.zendesk.com/cxtrends//?utm_source=webpromo&utm_medium=eyebrow&utm_campaign=FY27_-_Q4_-_AMER_-_Content_-_CX_Trends_2027_Global_Report_US_English"},
+  {"section":0,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":312,"y":37,"w":32,"h":32,"fit":"fill"},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":16,"y":86,"w":90,"h":59,"fit":"fill","href":"/"},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"View demo","x":187,"y":118,"w":115,"h":43,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(17, 17, 13)","lines":1,"href":"/demo/"},
+  {"section":1,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":314,"y":124,"w":32,"h":32,"fit":"fill"},
+  {"section":2,"region":"main","kind":"text","tag":"span","role":"link","text":"Blog","x":10,"y":181,"w":120,"h":33,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23,"fontWeight":"700","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/"},
+  {"section":2,"region":"main","kind":"text","tag":"em","role":"link","text":"Zendesk","x":20,"y":187,"w":62,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/"},
+  {"section":2,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":300,"y":182,"w":32,"h":32,"fit":"fill"},
+  {"section":3,"region":"main","kind":"image","tag":"img","role":"link","text":"Introducing Zendesk Outcome AI™: better outcomes wherever service begins","x":16,"y":258,"w":328,"h":246,"fit":"cover","natural":[800,333],"src":"https://web-assets.zendesk.com/is/image/zendesk/Header-final2?fmt=avif-alpha&qlt=65&wid=800","href":"/blog/product-news/introducing-zendesk-outcome-ai/"},
+  {"section":3,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Introducing Zendesk Outcome AI™: better outcomes wherever service begins","x":16,"y":528,"w":328,"h":138,"fontFamily":"Vanilla Sans","fontSize":30,"lineHeight":34.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":4,"href":"/blog/product-news/introducing-zendesk-outcome-ai/"},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":"link","text":"Powered by the Autonomous Service Workforce, the Outcome AI™ Platform gives AI …","x":16,"y":690,"w":328,"h":87,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":4,"href":"/blog/product-news/introducing-zendesk-outcome-ai/"},
+  {"section":3,"region":"main","kind":"text","tag":"span","role":"h1","text":"Zendesk Blog","x":16,"y":809,"w":111,"h":20,"fontFamily":"Vanilla Sans","fontSize":12,"lineHeight":12,"fontWeight":"700","letterSpacing":0.75,"textTransform":"uppercase","textAlign":"center","color":"rgb(17, 17, 13)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Editor’s picks","x":16,"y":837,"w":328,"h":38,"fontFamily":"Vanilla Sans","fontSize":36,"lineHeight":37.8,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":3,"region":"main","kind":"image","tag":"img","role":"link","text":"Zendesk Bridge brings trusted service wherever work happens","x":16,"y":898,"w":79,"h":79,"fit":"cover","natural":[200,84],"src":"https://web-assets.zendesk.com/is/image/zendesk/Bridge-Header?fmt=avif-alpha&qlt=65&wid=200","href":"/blog/product-news/zendesk-bridge/"},
+  {"section":3,"region":"main","kind":"control","tag":"a","role":"h3","text":"Zendesk Bridge brings trusted service wherever work happens","x":16,"y":898,"w":315,"h":79,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3,"href":"/blog/product-news/zendesk-bridge/"},
+  {"section":3,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":128,"y":1028,"w":24,"h":24,"fit":"fill"},
+  {"section":3,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":208,"y":1028,"w":24,"h":24,"fit":"fill"},
+  {"section":3,"region":"main","kind":"text","tag":"h4","role":"h4","text":"Subscribe to the blog","x":40,"y":1132,"w":280,"h":22,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":3,"region":"main","kind":"text","tag":"p","role":null,"text":"The best source of information for customer service, sales tips, guides, and in…","x":40,"y":1166,"w":280,"h":65,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3},
+  {"section":3,"region":"main","kind":"control","tag":"input","role":"field","text":"Work email","x":40,"y":1247,"w":280,"h":48,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":21,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":3,"region":"main","kind":"control","tag":"button","role":"button","text":"Subscribe","x":40,"y":1303,"w":280,"h":48,"fontFamily":"Vanilla Sans","fontSize":18,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(17, 17, 13)","lines":1},
+  {"section":4,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Zendesk Insights","x":16,"y":1527,"w":174,"h":28,"fontFamily":"Vanilla Sans","fontSize":22,"lineHeight":27.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":"link","text":"How headless software raises the bar for what we build","x":16,"y":1579,"w":235,"h":176,"fit":"cover","natural":[480,200],"src":"https://web-assets.zendesk.com/is/image/zendesk/headless-software-raises-the-build-bar-header?fmt=avif-alpha&qlt=65&wid=480","href":"/blog/zendesk-insights/expertise/headless-software-raises-the-build-bar/"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"How headless software raises the bar for what we build","x":16,"y":1771,"w":235,"h":44,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2,"href":"/blog/zendesk-insights/expertise/headless-software-raises-the-build-bar/"},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":"link","text":"AI agents have changed how users access software. The ripple effect is that pro…","x":16,"y":1826,"w":235,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":6,"href":"/blog/zendesk-insights/expertise/headless-software-raises-the-build-bar/"},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":"link","text":"How we’re rebuilding the Zendesk data platform","x":267,"y":1579,"w":235,"h":176,"fit":"cover","natural":[1500,625],"src":"https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/blog/zendesk-insights/innovation/rebuilding-zendesk-data-platform/rebuilding-zendesk-data-platform-hea…","href":"/blog/zendesk-insights/innovation/rebuilding-zendesk-data-platform/"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"How we’re rebuilding the Zendesk data platform","x":267,"y":1771,"w":235,"h":44,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2,"href":"/blog/zendesk-insights/innovation/rebuilding-zendesk-data-platform/"},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":"link","text":"How we're modernizing the foundations of Zendesk analytics to make business dat…","x":267,"y":1826,"w":235,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4,"href":"/blog/zendesk-insights/innovation/rebuilding-zendesk-data-platform/"},
+  {"section":4,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":128,"y":1950,"w":24,"h":24,"fit":"fill"},
+  {"section":4,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":208,"y":1950,"w":24,"h":24,"fit":"fill"},
+  {"section":4,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Product news","x":16,"y":2038,"w":140,"h":28,"fontFamily":"Vanilla Sans","fontSize":22,"lineHeight":27.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":"link","text":"Why Zendesk built a unified retrieval platform for AI","x":16,"y":2090,"w":235,"h":176,"fit":"cover","natural":[1500,625],"src":"https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/blog/product-news/outcome-ai-platform/Outcomes-header.png","href":"/blog/product-news/unified-retrieval-platform/"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Why Zendesk built a unified retrieval platform for AI","x":16,"y":2282,"w":235,"h":44,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2,"href":"/blog/product-news/unified-retrieval-platform/"},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":"link","text":"Learn how Zendesk's Unified Retrieval Platform provides a shared foundation for…","x":16,"y":2337,"w":235,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":5,"href":"/blog/product-news/unified-retrieval-platform/"},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":"link","text":"Zendesk brings trusted service to Microsoft Copilot Cowork","x":267,"y":2090,"w":235,"h":176,"fit":"cover","natural":[1600,900],"src":"https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/blog/global/hero/Photos_People_EmployeesAtOffice_6.jpg","href":"/blog/product-news/zendesk-bridge-for-microsoft-cowork/"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Zendesk brings trusted service to Microsoft Copilot Cowork","x":267,"y":2282,"w":235,"h":44,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2,"href":"/blog/product-news/zendesk-bridge-for-microsoft-cowork/"},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":"link","text":"Bring Zendesk workflows into the Microsoft Copilot Cowork experience and give a…","x":267,"y":2337,"w":235,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":6,"href":"/blog/product-news/zendesk-bridge-for-microsoft-cowork/"},
+  {"section":4,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":128,"y":2461,"w":24,"h":24,"fit":"fill"},
+  {"section":4,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":208,"y":2461,"w":24,"h":24,"fit":"fill"},
+  {"section":4,"region":"main","kind":"text","tag":"h2","role":"h2","text":"AI and automation","x":16,"y":2549,"w":186,"h":28,"fontFamily":"Vanilla Sans","fontSize":22,"lineHeight":27.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":"link","text":"Autonomous AI agents","x":16,"y":2601,"w":235,"h":176,"fit":"cover","natural":[1600,900],"src":"https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/blog/global/hero/Photos_People_EmployeesOnIpad_3.jpg","href":"/blog/ai/workflow-automation/autonomous-service-agents/"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Autonomous AI agents","x":16,"y":2793,"w":235,"h":22,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/ai/workflow-automation/autonomous-service-agents/"},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":"link","text":"Learn how autonomous AI agents resolve service requests, take action across sys…","x":16,"y":2827,"w":235,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4,"href":"/blog/ai/workflow-automation/autonomous-service-agents/"},
+  {"section":4,"region":"main","kind":"control","tag":"a","role":"link","text":"AI customer service","x":16,"y":2915,"w":153,"h":32,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":14,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/tag/ai-customer-service/"},
+  {"section":4,"region":"main","kind":"control","tag":"a","role":"link","text":"Workflow","x":16,"y":2955,"w":87,"h":32,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":14,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/tag/workflow/"},
+  {"section":4,"region":"main","kind":"control","tag":"a","role":"link","text":"AI and automation","x":16,"y":2995,"w":144,"h":32,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":14,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/tag/ai-automation/"},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":"link","text":"Self-improving AI agents","x":267,"y":2601,"w":235,"h":176,"fit":"cover","natural":[480,270],"src":"https://web-assets.zendesk.com/is/image/zendesk/self-improving-hero?fmt=avif-alpha&qlt=65&wid=480","href":"/blog/ai/agentic-ai/self-improving-ai-agents/"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Self-improving AI agents","x":267,"y":2793,"w":235,"h":22,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/ai/agentic-ai/self-improving-ai-agents/"},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":"link","text":"Learn how self-improving AI agents use feedback and customer interactions to im…","x":267,"y":2827,"w":235,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4,"href":"/blog/ai/agentic-ai/self-improving-ai-agents/"},
+  {"section":4,"region":"main","kind":"control","tag":"a","role":"link","text":"AI agents","x":267,"y":2915,"w":85,"h":32,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":14,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/tag/ai-agents/"},
+  {"section":4,"region":"main","kind":"control","tag":"a","role":"link","text":"AI and automation","x":267,"y":2955,"w":144,"h":32,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":14,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/tag/ai/"},
+  {"section":4,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":128,"y":3075,"w":24,"h":24,"fit":"fill"},
+  {"section":4,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":208,"y":3075,"w":24,"h":24,"fit":"fill"},
+  {"section":4,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Customer service","x":16,"y":3163,"w":179,"h":28,"fontFamily":"Vanilla Sans","fontSize":22,"lineHeight":27.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":"link","text":"Zendesk Named a Leader in the 2026 Gartner® Magic Quadrant™","x":16,"y":3215,"w":235,"h":176,"fit":"cover","natural":[1000,750],"src":"https://web-assets.zendesk.com/is/image/zendesk/Generic_Post_Thumbnail","href":"/blog/customer-service/gartner-2026-gartner-magic-quadrant/"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Zendesk Named a Leader in the 2026 Gartner® Magic Quadrant™","x":16,"y":3407,"w":235,"h":44,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2,"href":"/blog/customer-service/gartner-2026-gartner-magic-quadrant/"},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":"link","text":"Customer success plan","x":267,"y":3215,"w":235,"h":176,"fit":"cover","natural":[1600,900],"src":"https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/blog/global/hero/Photos_People_EmployeesInOffice_3.jpg","href":"/blog/customer-service/customer-success/customer-success-plan/"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Customer success plan","x":267,"y":3407,"w":235,"h":22,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/customer-service/customer-success/customer-success-plan/"},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":"link","text":"A practical customer success plan guide: what to include, how to build it, and …","x":267,"y":3441,"w":235,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4,"href":"/blog/customer-service/customer-success/customer-success-plan/"},
+  {"section":4,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":128,"y":3610,"w":24,"h":24,"fit":"fill"},
+  {"section":4,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":208,"y":3610,"w":24,"h":24,"fit":"fill"},
+  {"section":4,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Employee service","x":16,"y":3698,"w":178,"h":28,"fontFamily":"Vanilla Sans","fontSize":22,"lineHeight":27.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":"link","text":"What is ITIL? The ultimate guide to the IT Infrastructure Library","x":16,"y":3749,"w":235,"h":176,"fit":"cover","natural":[480,240],"src":"https://web-assets.zendesk.com/is/image/zendesk/chatbot_automation_hero-1?fmt=avif-alpha&qlt=65&wid=480","href":"/blog/employee-service/itsm/what-is-itil/"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"What is ITIL? The ultimate guide to the IT Infrastructure Library","x":16,"y":3941,"w":235,"h":44,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2,"href":"/blog/employee-service/itsm/what-is-itil/"},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":"link","text":"ITIL explained simply: how the framework improves service reliability, SLAs, an…","x":16,"y":3997,"w":235,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4,"href":"/blog/employee-service/itsm/what-is-itil/"},
+  {"section":4,"region":"main","kind":"control","tag":"a","role":"link","text":"IT","x":16,"y":4086,"w":36,"h":32,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":14,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/tag/it/"},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":"link","text":"Employee onboarding","x":267,"y":3749,"w":235,"h":176,"fit":"cover","natural":[480,240],"src":"https://web-assets.zendesk.com/is/image/zendesk/heroimageofthreepeoplewearingheadsets-1?fmt=avif-alpha&qlt=65&wid=480","href":"/blog/employee-service/hrsm/employee-onboarding/"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Employee onboarding","x":267,"y":3941,"w":235,"h":22,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/employee-service/hrsm/employee-onboarding/"},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":"link","text":"Explore what employee onboarding is, how long it lasts, and how to build a repe…","x":267,"y":3975,"w":235,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4,"href":"/blog/employee-service/hrsm/employee-onboarding/"},
+  {"section":4,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":128,"y":4166,"w":24,"h":24,"fit":"fill"},
+  {"section":4,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":208,"y":4166,"w":24,"h":24,"fit":"fill"},
+  {"section":4,"region":"main","kind":"text","tag":"h2","role":"h2","text":"CCaaS","x":16,"y":4254,"w":68,"h":28,"fontFamily":"Vanilla Sans","fontSize":22,"lineHeight":27.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":"link","text":"Call center tips","x":16,"y":4305,"w":235,"h":176,"fit":"cover","natural":[480,321],"src":"https://web-assets.zendesk.com/is/image/zendesk/Photos_People_ContactCenterAgent-1?fmt=avif-alpha&qlt=65&wid=480","href":"/blog/ccaas/call-center/10-best-call-center-etiquette-tips-support-agents/"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Call center tips","x":16,"y":4497,"w":235,"h":22,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/ccaas/call-center/10-best-call-center-etiquette-tips-support-agents/"},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":"link","text":"Follow these call center tips to improve customer satisfaction, reduce agent bu…","x":16,"y":4531,"w":235,"h":55,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3,"href":"/blog/ccaas/call-center/10-best-call-center-etiquette-tips-support-agents/"},
+  {"section":4,"region":"main","kind":"control","tag":"a","role":"link","text":"Successful call center","x":16,"y":4602,"w":167,"h":32,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":14,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/tag/successful-call-center/"},
+  {"section":4,"region":"main","kind":"control","tag":"a","role":"link","text":"Productivity","x":16,"y":4642,"w":104,"h":32,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":14,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/tag/productivity/"},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":"link","text":"What is a call center?","x":267,"y":4305,"w":235,"h":176,"fit":"cover","natural":[1152,769],"src":"https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/blog/ccaas/call-center/what-is-a-call-center-revamp-may26/what-is-a-call-center-hero-26.png","href":"/blog/ccaas/call-center/ultimate-guide-call-centers/"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"What is a call center?","x":267,"y":4497,"w":235,"h":22,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/ccaas/call-center/ultimate-guide-call-centers/"},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":"link","text":"Call centers handle inbound and outbound calls at scale. See how they work, key…","x":267,"y":4531,"w":235,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4,"href":"/blog/ccaas/call-center/ultimate-guide-call-centers/"},
+  {"section":4,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":128,"y":4722,"w":24,"h":24,"fit":"fill"},
+  {"section":4,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":208,"y":4722,"w":24,"h":24,"fit":"fill"},
+  {"section":4,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Tools and templates","x":16,"y":4810,"w":205,"h":28,"fontFamily":"Vanilla Sans","fontSize":22,"lineHeight":27.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":"link","text":"Free and customizable feedback form templates","x":16,"y":4861,"w":235,"h":176,"fit":"cover","natural":[480,240],"src":"https://web-assets.zendesk.com/is/image/zendesk/feedback_forms_hero_optimized?fmt=avif-alpha&qlt=65&wid=480","href":"/blog/tools-and-templates/feedback-forms/"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Free and customizable feedback form templates","x":16,"y":5053,"w":235,"h":44,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2,"href":"/blog/tools-and-templates/feedback-forms/"},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":"link","text":"Feedback forms help you collect opinions from customers, stakeholders, and empl…","x":16,"y":5109,"w":235,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4,"href":"/blog/tools-and-templates/feedback-forms/"},
+  {"section":4,"region":"main","kind":"control","tag":"a","role":"link","text":"Customer feedback","x":16,"y":5198,"w":153,"h":32,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":14,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/tag/customer-feedback/"},
+  {"section":4,"region":"main","kind":"image","tag":"img","role":"link","text":"Customer service email templates","x":267,"y":4861,"w":235,"h":176,"fit":"cover","natural":[480,321],"src":"https://web-assets.zendesk.com/is/image/zendesk/Photos_Still_HandWithPhone_3-1?fmt=avif-alpha&qlt=65&wid=480","href":"/blog/tools-and-templates/customer-service-email-templates/"},
+  {"section":4,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Customer service email templates","x":267,"y":5053,"w":235,"h":44,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2,"href":"/blog/tools-and-templates/customer-service-email-templates/"},
+  {"section":4,"region":"main","kind":"text","tag":"p","role":"link","text":"Use these customer service email templates to provide faster and more consisten…","x":267,"y":5109,"w":235,"h":55,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3,"href":"/blog/tools-and-templates/customer-service-email-templates/"},
+  {"section":4,"region":"main","kind":"control","tag":"a","role":"link","text":"Customer service","x":267,"y":5179,"w":140,"h":32,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":14,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/tag/customer-service/"},
+  {"section":4,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":128,"y":5278,"w":24,"h":24,"fit":"fill"},
+  {"section":4,"region":"main","kind":"image","tag":"svg","role":"button","text":"","x":208,"y":5278,"w":24,"h":24,"fit":"fill"},
+  {"section":5,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Popular guides","x":16,"y":5414,"w":328,"h":35,"fontFamily":"Vanilla Sans","fontSize":30,"lineHeight":34.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":5,"region":"main","kind":"text","tag":"p","role":null,"text":"Want to take a deeper dive? Choose a topic.","x":16,"y":5472,"w":328,"h":22,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Customer service","x":16,"y":5510,"w":156,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":22,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/customer-service/support/what-is-customer-service/"},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Ticketing system","x":16,"y":5556,"w":152,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":22,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/customer-service/ticketing-system/ticketing-system/"},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Help desk","x":16,"y":5602,"w":98,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":22,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/customer-service/help-desk/help-desk/"},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Chatbots","x":16,"y":5648,"w":93,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":22,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/ai/chatbots/what-is-a-chatbot/"},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Messaging platform","x":16,"y":5694,"w":175,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":22,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/messaging-and-chat/software/messaging-partner-guide/"},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Call center","x":16,"y":5740,"w":104,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":22,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/ccaas/call-center/ultimate-guide-call-centers/"},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Knowledge base","x":16,"y":5786,"w":147,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":22,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/help-center/knowledge-base/knowledge-base/"},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Live chat support","x":16,"y":5832,"w":154,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":22,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/messaging-and-chat/live-chat/live-chat-better-everyone/"},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Customer experience","x":16,"y":5878,"w":185,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":22,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/customer-experience/relationships/why-companies-should-invest-in-the-customer-experience/"},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Customer analytics","x":16,"y":5924,"w":170,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":22,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/analytics-and-data/customer-analytics/customer-analytics/"},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Employee experience","x":16,"y":5970,"w":184,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":22,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/employee-service/hrsm/employee-experience/"},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Customer retention","x":16,"y":6016,"w":171,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":22,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/customer-experience/retention/customer-retention/"},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Sales CRM","x":16,"y":6062,"w":103,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":22,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/sales/sales-crm/"},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Banking customer experience","x":16,"y":6108,"w":248,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":22,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/customer-experience/expectations/customer-experience-in-banking/"},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Customer feedback","x":16,"y":6154,"w":172,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":22,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/customer-experience/feedback/customer-feedback-hear-voice-customer/"},
+  {"section":5,"region":"main","kind":"control","tag":"a","role":"link","text":"Retail customer engagement","x":16,"y":6200,"w":241,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":22,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/industries/retail-and-ecommerce/ultimate-guide-cx-retail/retail-customer-engagement/"},
+  {"section":6,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":108,"y":6374,"w":144,"h":144,"fit":"fill","natural":[144,144],"src":"data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27144%27%20height=%27144%27/%3e"},
+  {"section":6,"region":"main","kind":"image","tag":"img","role":null,"text":"","x":108,"y":6374,"w":144,"h":144,"fit":"cover","natural":[256,256],"src":"https://web-assets.zendesk.com/cdn-cgi/image/width=256,q=45,f=auto/zendesk/pages/cx-trends/events/on-demand/CX%20Trends%202026.png"},
+  {"section":6,"region":"main","kind":"text","tag":"h2","role":"h2","text":"The new CX Trends 2027 report is here","x":40,"y":6550,"w":280,"h":55,"fontFamily":"Vanilla Sans","fontSize":22,"lineHeight":27.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(245, 245, 242)","lines":2},
+  {"section":6,"region":"main","kind":"text","tag":"p","role":null,"text":"Discover the five trends defining the era of AI Management and what they mean f…","x":40,"y":6613,"w":280,"h":65,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(255, 255, 255)","lines":3},
+  {"section":6,"region":"main","kind":"control","tag":"a","role":"link","text":"Download now","x":40,"y":6710,"w":280,"h":48,"fontFamily":"Vanilla Sans","fontSize":18,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(17, 17, 13)","lines":1,"href":"https://www.zendesk.com/cxtrends/?utm_source=webpromo&utm_medium=banner&utm_campaign=FY27_-_Q4_-_AMER_-_Content_-_CX_Trends_2027_Global_Report_US_English"},
+  {"section":7,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Latest stories","x":16,"y":6886,"w":328,"h":35,"fontFamily":"Vanilla Sans","fontSize":30,"lineHeight":34.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(17, 17, 13)","lines":1},
+  {"section":7,"region":"main","kind":"image","tag":"img","role":"link","text":"Graphic with the text Building beyond the interface","x":16,"y":6993,"w":148,"h":111,"fit":"cover","natural":[480,200],"src":"https://web-assets.zendesk.com/is/image/zendesk/headless-software-raises-the-build-bar-header?fmt=avif-alpha&qlt=65&wid=480","href":"/blog/zendesk-insights/expertise/headless-software-raises-the-build-bar/"},
+  {"section":7,"region":"main","kind":"text","tag":"h3","role":"h3","text":"How headless software raises the bar for what we build","x":16,"y":7120,"w":148,"h":65,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3,"href":"/blog/zendesk-insights/expertise/headless-software-raises-the-build-bar/"},
+  {"section":7,"region":"main","kind":"text","tag":"p","role":"link","text":"AI agents have changed how users access software. The ripple effect is that pro…","x":16,"y":7197,"w":148,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":9,"href":"/blog/zendesk-insights/expertise/headless-software-raises-the-build-bar/"},
+  {"section":7,"region":"main","kind":"image","tag":"img","role":"link","text":"Blog Assets_2026_Bridge Campaign_H2 - 9","x":196,"y":6993,"w":148,"h":111,"fit":"cover","natural":[1500,625],"src":"https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/blog/zendesk-insights/innovation/rebuilding-zendesk-data-platform/rebuilding-zendesk-data-platform-hea…","href":"/blog/zendesk-insights/innovation/rebuilding-zendesk-data-platform/"},
+  {"section":7,"region":"main","kind":"text","tag":"h3","role":"h3","text":"How we’re rebuilding the Zendesk data platform","x":196,"y":7120,"w":148,"h":65,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3,"href":"/blog/zendesk-insights/innovation/rebuilding-zendesk-data-platform/"},
+  {"section":7,"region":"main","kind":"text","tag":"p","role":"link","text":"How we're modernizing the foundations of Zendesk analytics to make business dat…","x":196,"y":7197,"w":148,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":6,"href":"/blog/zendesk-insights/innovation/rebuilding-zendesk-data-platform/"},
+  {"section":7,"region":"main","kind":"image","tag":"img","role":"link","text":"Header graphic with the text Zendesk, wherever work happens.","x":16,"y":7302,"w":148,"h":111,"fit":"cover","natural":[1500,625],"src":"https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/blog/zendesk-insights/expertise/bringing-zendesk-to-the-ai-interfaces-where-work-happens/bringing-zend…","href":"/blog/zendesk-insights/expertise/bringing-zendesk-to-the-ai-interfaces-where-work-happens/"},
+  {"section":7,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Bringing Zendesk to the AI interfaces where work happens","x":16,"y":7429,"w":148,"h":65,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3,"href":"/blog/zendesk-insights/expertise/bringing-zendesk-to-the-ai-interfaces-where-work-happens/"},
+  {"section":7,"region":"main","kind":"text","tag":"p","role":"link","text":"How Zendesk Bridge brings service context and capabilities to the AI interfaces…","x":16,"y":7506,"w":148,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":5,"href":"/blog/zendesk-insights/expertise/bringing-zendesk-to-the-ai-interfaces-where-work-happens/"},
+  {"section":7,"region":"main","kind":"image","tag":"img","role":"link","text":"Blog Assets_2026_Bridge Campaign_H2 - 6","x":196,"y":7302,"w":148,"h":111,"fit":"cover","natural":[1500,625],"src":"https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/blog/product-news/outcome-ai-platform/Outcomes-header.png","href":"/blog/product-news/unified-retrieval-platform/"},
+  {"section":7,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Why Zendesk built a unified retrieval platform for AI","x":196,"y":7429,"w":148,"h":65,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3,"href":"/blog/product-news/unified-retrieval-platform/"},
+  {"section":7,"region":"main","kind":"text","tag":"p","role":"link","text":"Learn how Zendesk's Unified Retrieval Platform provides a shared foundation for…","x":196,"y":7506,"w":148,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":8,"href":"/blog/product-news/unified-retrieval-platform/"},
+  {"section":7,"region":"main","kind":"image","tag":"img","role":"link","text":"Image showing pixels in green, purple","x":16,"y":7611,"w":148,"h":111,"fit":"cover","natural":[480,200],"src":"https://web-assets.zendesk.com/is/image/zendesk/ai-pricing-evolution-header?fmt=avif-alpha&qlt=65&wid=480","href":"/blog/zendesk-insights/innovation/ai-pricing-evolution/"},
+  {"section":7,"region":"main","kind":"text","tag":"h3","role":"h3","text":"We changed AI pricing three times before we had it right","x":16,"y":7738,"w":148,"h":87,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4,"href":"/blog/zendesk-insights/innovation/ai-pricing-evolution/"},
+  {"section":7,"region":"main","kind":"text","tag":"p","role":"link","text":"What happens when your AI products evolve faster than your pricing model? Here'…","x":16,"y":7837,"w":148,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":6,"href":"/blog/zendesk-insights/innovation/ai-pricing-evolution/"},
+  {"section":7,"region":"main","kind":"image","tag":"img","role":"link","text":"Image showing pixels in green, purple","x":196,"y":7611,"w":148,"h":111,"fit":"cover","natural":[480,200],"src":"https://web-assets.zendesk.com/is/image/zendesk/ai-pricing-evolution-header?fmt=avif-alpha&qlt=65&wid=480","href":"/blog/zendesk-insights/expertise/new-economics-customer-service-growth/"},
+  {"section":7,"region":"main","kind":"text","tag":"h3","role":"h3","text":"What you need to know about the new economics of customer service","x":196,"y":7738,"w":148,"h":87,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4,"href":"/blog/zendesk-insights/expertise/new-economics-customer-service-growth/"},
+  {"section":7,"region":"main","kind":"text","tag":"p","role":"link","text":"When AI makes service more affordable, new demand emerges and more becomes poss…","x":196,"y":7837,"w":148,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":8,"href":"/blog/zendesk-insights/expertise/new-economics-customer-service-growth/"},
+  {"section":7,"region":"main","kind":"image","tag":"img","role":"link","text":"Zendesk brings trusted service to Microsoft Copilot Cowork","x":16,"y":7941,"w":148,"h":111,"fit":"cover","natural":[1600,900],"src":"https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/blog/global/hero/Photos_People_EmployeesAtOffice_6.jpg","href":"/blog/product-news/zendesk-bridge-for-microsoft-cowork/"},
+  {"section":7,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Zendesk brings trusted service to Microsoft Copilot Cowork","x":16,"y":8068,"w":148,"h":87,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4,"href":"/blog/product-news/zendesk-bridge-for-microsoft-cowork/"},
+  {"section":7,"region":"main","kind":"text","tag":"p","role":"link","text":"Bring Zendesk workflows into the Microsoft Copilot Cowork experience and give a…","x":16,"y":8167,"w":148,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":10,"href":"/blog/product-news/zendesk-bridge-for-microsoft-cowork/"},
+  {"section":7,"region":"main","kind":"image","tag":"img","role":"link","text":"Graphic with pixels of purple and black","x":196,"y":7941,"w":148,"h":111,"fit":"cover","natural":[1500,625],"src":"https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/blog/zendesk-insights/expertise/service-ai-for-capital-projects/custom-agents-new-header.png","href":"/blog/zendesk-insights/expertise/service-ai-for-capital-projects/"},
+  {"section":7,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Accelerate capital projects with an E2E service AI platform","x":196,"y":8068,"w":148,"h":65,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3,"href":"/blog/zendesk-insights/expertise/service-ai-for-capital-projects/"},
+  {"section":7,"region":"main","kind":"text","tag":"p","role":"link","text":"Capital projects involve more than financial decisions. Discover how AI can hel…","x":196,"y":8146,"w":148,"h":73,"fontFamily":"Vanilla Sans","fontSize":13,"lineHeight":18.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":8,"href":"/blog/zendesk-insights/expertise/service-ai-for-capital-projects/"},
+  {"section":7,"region":"main","kind":"control","tag":"a","role":"link","text":"1","x":92,"y":8286,"w":22,"h":29,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":16,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"#"},
+  {"section":7,"region":"main","kind":"text","tag":"li","role":null,"text":"…","x":122,"y":8293,"w":10,"h":16,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":16,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":7,"region":"main","kind":"control","tag":"a","role":"link","text":"233","x":140,"y":8286,"w":44,"h":29,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":16,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/page/233/"},
+  {"section":7,"region":"main","kind":"control","tag":"a","role":"link","text":"Next","x":193,"y":8290,"w":75,"h":21,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":26,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/blog/page/2/"},
+  {"section":7,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":236,"y":8288,"w":24,"h":24,"fit":"fill","href":"/blog/page/2/"},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"h5","text":"Products","x":32,"y":8579,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(245, 245, 242)","lines":1},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":8598,"w":21,"h":24,"fit":"fill"},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"Pricing","x":32,"y":8642,"w":45,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/pricing/"},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"Zendesk for customer service","x":186,"y":8642,"w":139,"h":38,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2,"href":"/service/"},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"Zendesk for employee service","x":32,"y":8694,"w":140,"h":38,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2,"href":"/employee-service/"},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"Zendesk for contact center","x":186,"y":8694,"w":127,"h":38,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2,"href":"/service/contact-center/"},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"Integrations","x":32,"y":8746,"w":77,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/marketplace/"},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"System status","x":186,"y":8746,"w":91,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"https://status.zendesk.com/"},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"Sign in","x":32,"y":8778,"w":43,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/login/"},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"Demo","x":186,"y":8778,"w":39,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/demo/"},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"Zendesk for Enterprise","x":32,"y":8810,"w":75,"h":38,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2,"href":"/business/enterprise/"},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"Zendesk for Small Business","x":186,"y":8810,"w":114,"h":38,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":2,"href":"/business/smb/"},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"Zendesk for Startups","x":32,"y":8862,"w":133,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":17.5,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/business/startups/"},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"h5","text":"Features","x":32,"y":8906,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(245, 245, 242)","lines":1},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":8925,"w":21,"h":24,"fit":"fill"},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"h5","text":"Resources","x":32,"y":8969,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(245, 245, 242)","lines":1},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":8988,"w":21,"h":24,"fit":"fill"},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"h5","text":"Company","x":32,"y":9031,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(245, 245, 242)","lines":1},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":9050,"w":21,"h":24,"fit":"fill"},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"h5","text":"Compare","x":32,"y":9094,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(245, 245, 242)","lines":1},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":9113,"w":21,"h":24,"fit":"fill"},
+  {"section":8,"region":"main","kind":"control","tag":"button","role":"h5","text":"Popular topics","x":32,"y":9157,"w":263,"h":62,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21.75,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"left","color":"rgb(245, 245, 242)","lines":1},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":307,"y":9176,"w":21,"h":24,"fit":"fill"},
+  {"section":8,"region":"main","kind":"text","tag":"h3","role":"h3","text":"How can we help? Contact us.","x":16,"y":8402,"w":328,"h":78,"fontFamily":"Vanilla Sans","fontSize":30,"lineHeight":34.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(245, 245, 242)","lines":2},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":40,"y":8510,"w":32,"h":32,"fit":"fill","href":"https://www.twitter.com/zendesk"},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":88,"y":8510,"w":32,"h":32,"fit":"fill","href":"https://www.facebook.com/zendesk"},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":136,"y":8510,"w":32,"h":32,"fit":"fill","href":"https://www.linkedin.com/company/zendesk"},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":184,"y":8510,"w":40,"h":32,"fit":"fill","href":"https://www.youtube.com/zendesk"},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":240,"y":8510,"w":32,"h":32,"fit":"fill","href":"https://www.instagram.com/zendesk"},
+  {"section":8,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":288,"y":8510,"w":32,"h":32,"fit":"fill","href":"https://www.tiktok.com/@zendesk"},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"Terms of Use","x":38,"y":9255,"w":83,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/company/agreements-and-terms/terms-of-use/"},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"Privacy Notice","x":133,"y":9255,"w":90,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/company/agreements-and-terms/privacy-notice/"},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"Cookie Notice","x":235,"y":9255,"w":87,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/company/agreements-and-terms/cookie-notice/"},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"Do Not Sell or Share My Personal Information","x":38,"y":9285,"w":283,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"#onetrust-show-cookie-settings"},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"Trust Center","x":68,"y":9315,"w":79,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/trust-center/"},
+  {"section":8,"region":"main","kind":"control","tag":"a","role":"link","text":"© 2026 Zendesk, Inc.","x":160,"y":9315,"w":132,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(255, 255, 255)","lines":1,"href":"/company/legal/"}
+ ]
+}

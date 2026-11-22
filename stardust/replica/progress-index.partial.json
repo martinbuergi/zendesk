@@ -1,0 +1,98 @@
+{
+  "type": "landing",
+  "slug": "index",
+  "liveUrl": "https://www.zendesk.com/",
+  "prototype": "stardust/prototypes/index-proposed.html",
+  "css": [
+    "stardust/prototypes/fonts.css",
+    "stardust/prototypes/canon-a.css",
+    "stardust/prototypes/index.css"
+  ],
+  "js": [
+    "stardust/prototypes/canon-a.js",
+    "stardust/prototypes/index.js"
+  ],
+  "contentRoot": "main",
+  "sourceSpec": {
+    "1440": "0 sections with a height delta, page height 12505 = 12505; exit 2 only on node pairing (next/image sizer placeholder imgs on live, odometer digit spans, links inside the closed FAQ)",
+    "360": "0 sections with a height delta, page height 14844 = 14844; exit 2 for the same pairing artefacts"
+  },
+  "gates": {
+    "1440": {
+      "rounds": 3,
+      "counted": 3,
+      "pixel": 0.49,
+      "dh": 0,
+      "contentDiff": "0 yellow / 1 red (hero email placeholder — live flips between 'Enter work email' and 'name@company.com' between visits: content-diff-iter1 vs iter3; frozen baseline renders 'Enter work email')",
+      "clipped": 0,
+      "overflow": false,
+      "units": "none declared",
+      "chromeParity": "footer quiet after fixes (wrapper/footer split, LinkText spans); header with --region (live has no header landmark): 3 span-vs-a pairs fixed after the last round, logo box 97x69 vs 84x60 pixel-identical; crops header 99.92 %, footer 98.64 %",
+      "capProbe": "PASS (2560, 0 of 17 rows failed)",
+      "verdict": "residual (accept-residual recorded at the cap)"
+    },
+    "360": {
+      "rounds": 3,
+      "counted": 2,
+      "pixel": 0.33,
+      "dh": 0,
+      "contentDiff": "0 red / 0 yellow / 32 advisory",
+      "clipped": 0,
+      "overflow": false,
+      "units": "none declared",
+      "chromeParity": "quiet; header crop 98.84 %, footer crop 100.00 %",
+      "capProbe": "PASS (run once at 2560)",
+      "verdict": "PASS"
+    }
+  },
+  "chromeParity": "gen-A header (desktop >=970 + mobile) and footer authored in canon-a.css; footer quiet at 360, 1440 deltas fixed after the capped round; header needs --region header=\"body>div:nth-of-type(1)>div>div:nth-of-type(3)|#za-hdr-d\" (live has no landmark)",
+  "residuals": [
+    "1440 hero email placeholder: live A/B / per-visit variance ('Enter work email' vs 'name@company.com'); build: 'Enter work email' >=768, 'name@company.com' below (matches both frozen baselines)",
+    "Footer legal link: OneTrust rewrites 'Cookie settings' to 'Do Not Sell or Share My Personal Information' after load; build carries the rendered (baseline) text",
+    "1440 hero band 500-1000 (3.9 % aligned): Rive hero animation frame + third-party chat launcher on live — not page content",
+    "source-spec compare exit 2 on pairing artefacts only (live next/image sizer imgs, odometer digit spans now generated content, collapsed FAQ links)",
+    "1440 rounds closed at the cap before the final motion/chrome tweaks (header LinkText spans, slide track, stuck header, keyframe names, card hover colour); not re-gated at 1440 — 360 confirmation after them: 0.33 %, Δh 0, 0/0, clipped 0",
+    "visual-diff advisory: AI-first accordion images in collapsed panels lazy (not loaded) — live renders 1x1 placeholders there",
+    "Hero trial form: UI rebuilt, no submit backend (interim tier per dynamic-features.md)"
+  ],
+  "motion": {
+    "observed": [
+      "testimonials Next: slick track travel 1038px @1440, settle 211ms, infinite clones",
+      "#resources card hover: background + colour to rgba(17,17,13,.7), img filter, 300ms",
+      "scroll-timeline entrances: expandAccordion (AI-first), scaleIn/scaleOut (RLL dot)",
+      "header stuck state (kOPZoh): logo transform/fill transitions",
+      "sections gain 'active' on entering the viewport",
+      "RLL blocks: active glow (box-shadow 300ms) moves with scroll",
+      "odometer reels roll on entering (transform 1.2s)"
+    ],
+    "implemented": [
+      "testimonial slide track (translateX, 150ms) + slick-style clones, Prev/Next/dots",
+      "resources card hover colour/background/filter 300ms",
+      "keyframes expandAccordion / scaleIn / scaleOut (view timelines)",
+      "canon-a.js header .is-stuck on pin",
+      "section 'active' class via IntersectionObserver",
+      "viewport-dependent hero placeholder"
+    ],
+    "dead": [
+      "AI-first tab click (no sampled change)",
+      "FAQ summary click (no sampled change)",
+      "hover on duo cards, platform CTA, footer links (no measured diff)"
+    ],
+    "notImplemented": [
+      "RLL scroll-driven active-glow swap (static state = frozen reference: block 2 active; a scroll-driven swap would change stitched captures at 1440, which is closed)",
+      "odometer roll-in (static final figures = reference)",
+      "RLL dot colour class swap (values not captured)"
+    ]
+  },
+  "captureState": [
+    { "what": "Hero trial teaser form", "restoreAtDelivery": "connect to /register/ trial flow per dynamic-features.md" },
+    { "what": "Hero Rive animation (static fallback frame)", "restoreAtDelivery": "embed /content/dam/zendesk/pages/home/rive/Hero-20260520__en_us.riv runtime" },
+    { "what": "OneTrust cookie-settings link", "restoreAtDelivery": "OneTrust SDK owns the link text (ot-sdk-show-settings)" }
+  ],
+  "sharedModules": {
+    "canon-a.css": ["tokens", "base", "eyebrow/tag", "buttons", "text link + LinkRoot (.za-linkroot)", "hidden Garden icons (.za-ext, .za-rot)", "container/section shells + 12-col grid", "promo bar", "gen-A header (desktop + mobile, stuck state)", "gen-A footer (columns + mobile accordion, Contact us LinkText)"],
+    "canon-a.js": ["promo dismiss", "footer accordion", "header stuck state"],
+    "index.css": ["hero + trial teaser", "logo row", "AI Summit pillars", "resolution learning loop", "odometer stats", "split rows", "CX Trends teaser", "AI-first tabs/accordion", "duo cards", "testimonials carousel", "resources carousel", "pricing card", "footer CTA", "FAQ details"]
+  },
+  "passed": false
+}

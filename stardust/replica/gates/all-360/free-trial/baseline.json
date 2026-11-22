@@ -1,0 +1,60 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-21T02:36:12.305Z",
+  "url": "https://www.zendesk.com/free-trial/",
+  "width": 360,
+  "vh": 900,
+  "height": 9333,
+  "settle": true,
+  "chunks": 11,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 5,
+    "late": 0
+  },
+  "primed": true,
+  "prime": {
+    "height": 9333,
+    "pct": 0.1,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    9333,
+    9333
+  ],
+  "noiseFloor": 0.1,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [
+    {
+      "y": 952,
+      "h": 76,
+      "pct": 36.7
+    }
+  ],
+  "variableShare": 0.81,
+  "maskArg": "952:76",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-21T02:36:50.895Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

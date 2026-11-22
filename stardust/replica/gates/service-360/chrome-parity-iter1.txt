@@ -1,0 +1,33 @@
+chrome-parity: --live-cache stardust/replica/gates/service-360/chrome-live.json was probed for a different url/width/regions/overlay state — re-probing live
+[live-session] waiting to pace live navigations to www.zendesk.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.zendesk.com/service/
+  build: http://localhost:8791/service-proposed.html
+
+■ header: ✓ parity — 3 paired of 3/3 texts, 1/1 icons
+  region live:  div.sc-c5fa0909-6.fsXSfT[role=complementary] — auto-detected (no usable <header> landmark), box 0,0 360×128; selector #__next > div > div:nth-of-type(1)
+  region build: div.za-promo[role=complementary] — auto-detected (no usable <header> landmark), box 0,0 360×128; selector body > div:nth-of-type(1)
+
+■ footer: 17 delta(s) — 25 paired of 25/25 texts, 12/12 icons
+  region live:  footer#footer-1719023883.sc-70d743a6-4.eqsTBx — outermost <footer>, box 0,8107 360×931; selector #footer-1719023883
+  region build: footer#footer.za-container — outermost <footer>, box 0,8107 360×931; selector #footer
+  PAIR         "Pricing"  tag <span> → <a>; borderRadius 0px → 4px; textDecorationLine none → underline
+  PAIR         "Zendesk for customer service"  tag <span> → <a>; borderRadius 0px → 4px; textDecorationLine none → underline
+  PAIR         "Zendesk for employee service"  tag <span> → <a>; borderRadius 0px → 4px; textDecorationLine none → underline
+  PAIR         "Zendesk for contact center"  tag <span> → <a>; borderRadius 0px → 4px; textDecorationLine none → underline
+  PAIR         "Integrations"  tag <span> → <a>; borderRadius 0px → 4px; textDecorationLine none → underline
+  PAIR         "System status"  tag <span> → <a>; borderRadius 0px → 4px; textDecorationLine none → underline
+  PAIR         "Sign in"  tag <span> → <a>; borderRadius 0px → 4px; textDecorationLine none → underline
+  PAIR         "Demo"  tag <span> → <a>; borderRadius 0px → 4px; textDecorationLine none → underline
+  PAIR         "Zendesk for Enterprise"  tag <span> → <a>; borderRadius 0px → 4px; textDecorationLine none → underline
+  PAIR         "Zendesk for Small Business"  tag <span> → <a>; borderRadius 0px → 4px; textDecorationLine none → underline
+  PAIR         "Zendesk for Startups"  tag <span> → <a>; borderRadius 0px → 4px; textDecorationLine none → underline
+  PAIR         "Contact us."  tag <span> → <a>; paddingBottom 0px → 6px; borderRadius 0px → 4px; Δh +6px (39→45)
+  PAIR         "Terms of Use"  tag <span> → <a>; borderRadius 0px → 4px; textDecorationLine none → underline
+  PAIR         "Privacy Notice"  tag <span> → <a>; borderRadius 0px → 4px; textDecorationLine none → underline
+  PAIR         "Cookie Notice"  tag <span> → <a>; borderRadius 0px → 4px; textDecorationLine none → underline
+  PAIR         "Trust Center"  tag <span> → <a>; borderRadius 0px → 4px; textDecorationLine none → underline
+  PAIR         "© 2026 Zendesk, Inc."  tag <span> → <a>; borderRadius 0px → 4px; textDecorationLine none → underline
+  advisory     REST STATE: 50 live / 0 build text(s) inside panels not shown at rest left out (live: aria-hidden 50; build: none) — --strict-names counts them
+
+✗ 17 delta(s), 1 advisory group(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

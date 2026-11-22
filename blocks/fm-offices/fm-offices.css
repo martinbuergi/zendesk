@@ -1,0 +1,98 @@
+/* fm-offices — office directory (live .kPWOqp head 8/12 centred; 4-up .jYCqKZ rows; h6 .eQATMY).
+   Values from the prototype's contact.css. Breakpoints are the source's: 768 / 1150 / 1600. */
+
+.fm-offices {
+  background-color: var(--za-cream);
+}
+
+.fm-offices .fm-rel {
+  position: relative;
+}
+
+.fm-offices .fm-head {
+  align-items: center;
+  justify-content: center;
+}
+
+.fm-offices .fm-head-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.fm-offices .fm-head-col h2 {
+  margin: 0 0 24px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.15;
+}
+
+.fm-offices .fm-list {
+  margin-top: var(--za-row-gap);
+}
+
+.fm-offices .fm-orow + .fm-orow {
+  margin-top: var(--za-row-gap);
+}
+
+.fm-offices .fm-text :is(h3, h4, h5, h6) {
+  margin: 0 0 12px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.fm-offices .fm-text p {
+  margin: 0 0 16px;
+}
+
+/* inline underlined link (.bPCQQB) */
+.fm-offices .fm-text a {
+  margin: -0.15em 0;
+  border-radius: 4px;
+  padding: 0.15em 0;
+  color: var(--za-ink);
+  font-weight: 600;
+  text-decoration: underline 1px;
+  text-underline-offset: 0.15em;
+  transition: 100ms linear;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fm-offices .fm-text a:hover {
+  color: var(--za-ink);
+  text-decoration: underline 1px;
+}
+
+.fm-offices .fm-text a:visited {
+  color: var(--za-matcha);
+}
+
+@media (width >= 768px) {
+  .fm-offices .fm-head-col h2 { font-size: 34px; }
+
+  .fm-offices .fm-head-col {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+  }
+
+  .fm-offices .fm-office {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .fm-offices .fm-text :is(h3, h4, h5, h6) {
+    margin-bottom: 16px;
+  }
+}
+
+@media (width >= 1150px) {
+  .fm-offices .fm-head-col h2 { font-size: 42px; }
+  .fm-offices .fm-text :is(h3, h4, h5, h6) { font-size: 16px; }
+}
+
+@media (width >= 1600px) {
+  .fm-offices .fm-head-col h2 { font-size: 53px; }
+  .fm-offices .fm-text :is(h3, h4, h5, h6) { font-size: 20px; }
+}

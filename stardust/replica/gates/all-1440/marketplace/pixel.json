@@ -1,0 +1,265 @@
+{
+  "a": "stardust/replica/gates/all-1440/marketplace/origin.png",
+  "b": "stardust/replica/gates/all-1440/marketplace/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 7553,
+    "mode": "overlap"
+  },
+  "heightDelta": 73,
+  "differingPixels": 980110,
+  "pct": 9.01,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/marketplace/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 15.99,
+  "textBoxes": 287,
+  "textPixels": 902977,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 3.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 3.5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 2.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 19.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 19.6
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 3.3
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 1.5
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 1.1
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 26.9
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 39.4
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 3.7
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 3.2
+    },
+    {
+      "y0": 7500,
+      "y1": 7553,
+      "pct": 2.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 5.02,
+    "differingPixels": 552155,
+    "compared": {
+      "width": 1440,
+      "height": 7638,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 892,
+        "shift": -7,
+        "cumulative": -7
+      },
+      {
+        "y": 1013,
+        "shift": -2,
+        "cumulative": -9
+      },
+      {
+        "y": 1987,
+        "shift": -29,
+        "cumulative": -38
+      },
+      {
+        "y": 2698,
+        "shift": -13,
+        "cumulative": -51
+      },
+      {
+        "y": 4595,
+        "shift": 4,
+        "cumulative": -47
+      },
+      {
+        "y": 5503,
+        "shift": 8,
+        "cumulative": -39
+      },
+      {
+        "y": 5846,
+        "shift": -33,
+        "cumulative": -72
+      },
+      {
+        "y": 6632,
+        "shift": -1,
+        "cumulative": -73
+      }
+    ],
+    "maxOffset": 73,
+    "totalShift": 97,
+    "insertedRows": 12,
+    "deletedRows": 85,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 4.7,
+        "unaligned": 3.6
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 3.7,
+        "unaligned": 4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 6.4,
+        "unaligned": 3.7
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 4,
+        "unaligned": 3.5
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 4.2,
+        "unaligned": 2.1
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 16.8,
+        "unaligned": 19.7
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 17.8,
+        "unaligned": 19.6
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 3.2,
+        "unaligned": 3.3
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 2.3,
+        "unaligned": 1.5
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0.8,
+        "unaligned": 1.1
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 11.3,
+        "unaligned": 26.9
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0.4,
+        "unaligned": 39.4
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0.2,
+        "unaligned": 3.7
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0,
+        "unaligned": 3.2
+      },
+      {
+        "y0": 7500,
+        "y1": 7626,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/marketplace/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 76,
+    "totalShift": 97,
+    "pass": false
+  },
+  "reason": "offsets: 8 step(s), 97px total — −7px at y=892, −2px at y=1013, −29px at y=1987, −13px at y=2698, +4px at y=4595, +8px at y=5503, … 2 more (bound 76px)"
+}

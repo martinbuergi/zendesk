@@ -1,0 +1,51 @@
+{
+  "round": "iter4",
+  "width": 1440,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/pricing-1440/diff-iter4.png",
+    "json": "stardust/replica/gates/pricing-1440/pixel-iter4.json",
+    "pct": 0.25,
+    "alignedPct": 0.25,
+    "alignedUsed": false,
+    "totalShift": 0,
+    "steps": [],
+    "offsetBound": null,
+    "maskedRows": 56,
+    "noiseFloor": 0.02,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-20T10:54:25.497Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": "2932:56"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/pricing-1440/content-diff-iter4.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/pricing-1440/visual-diff-iter4.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/pricing-1440/chrome-parity-iter4.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/pricing-1440/clip-iter4.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/pricing-1440/units-iter4.txt"
+    }
+  },
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-20T11:20:35.601Z"
+}

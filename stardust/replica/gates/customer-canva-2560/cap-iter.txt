@@ -1,0 +1,15 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.zendesk.com/customer/canva/
+  other    3 capped box(es) outside the section tier (in the JSON) — e.g. 1316px #wistia_chrome_23
+  modules  4 sections: capped 1120 ×4 · full-bleed ×0
+  contentMaxWidth 1120px (module) · shellMaxWidth fluid · root #main-content
+build  http://localhost:8791/customer-canva-proposed.html
+  modules  4 sections: capped 1120 ×4 · full-bleed ×0
+  contentMaxWidth 1120px (module) · shellMaxWidth fluid · root #main-content
+rows
+  ✓ content cap: live 1120px = build 1120px (±20, shared module cap)
+  ✓ module 1/4: 1120px = 1120px
+  ✓ module 2/4: 1120px = 1120px
+  ✓ module 3/4: 1120px = 1120px
+  ✓ module 4/4: 1120px = 1120px
+cap-probe: PASS at 2560 — 0 of 5 rows failed (evidence stardust/replica/gates/customer-canva-2560/cap-iter.json)

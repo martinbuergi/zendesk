@@ -1,0 +1,57 @@
+{
+ "url": "https://main--3055ed88--aemcoder.aem.page/cxtrends",
+ "at": "2026-11-21T13:35:35.563Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 0,
+  "textNodes": 59,
+  "controls": 49,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.sv-event-card",
+   "path": "div.za-col.sv-split-text > div.sv-split-ctas > p.button-wrapper > a.button.secondary",
+   "text": "download the report",
+   "cutMin": 75,
+   "cutMax": 75
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.sv-event-card",
+   "path": "div.za-col.sv-split-text > div.sv-split-ctas > p.button-wrapper > a.button.secondary",
+   "text": "download the report",
+   "cutMin": 55,
+   "cutMax": 55
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 1,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 8,
+   "textNodes": 67,
+   "controls": 51,
+   "total": 1
+  }
+ }
+}

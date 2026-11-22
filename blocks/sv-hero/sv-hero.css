@@ -1,0 +1,775 @@
+/* sv-hero — program hero (live .eKGAwU teaser: text 6/12 + media 5/12 offset 1).
+   Values from stardust/prototypes/service.css (lifted from the live CSSOM). */
+
+/* the hero slides under the sticky header bar (.cwMKbe --headerHeight) */
+.sv-hero {
+  --sv-hh: 65px;
+
+  margin-top: calc(-1 * var(--sv-hh));
+}
+
+.sv-hero::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: var(--sv-hh);
+}
+
+@media (width >= 1150px) {
+  .sv-hero { --sv-hh: 115px; }
+}
+
+.sv-hero .sv-rel { position: relative; }
+
+.sv-hero .sv-hero-glow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(150% 140% at 22% 0%, transparent 65%, rgb(209 244 112 / 60%) 80%, rgb(209 244 112 / 80%) 100%);
+}
+
+.sv-hero .sv-hero-row {
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+}
+
+.sv-hero .sv-hero-text {
+  order: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.sv-hero .sv-hero-media { order: 1; }
+
+@media (width >= 768px) {
+  .sv-hero .sv-hero-row { gap: 0; }
+
+  .sv-hero .sv-hero-text {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 36px;
+  }
+
+  .sv-hero .sv-hero-media {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+    margin-left: 8.3333%;
+  }
+
+  .sv-hero.sv-hero-no-media .sv-hero-text {
+    flex-basis: 66.6667%;
+    max-width: 66.6667%;
+  }
+}
+
+.sv-hero .za-eyebrow { font-stretch: condensed; }
+
+.sv-hero .za-eyebrow p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.sv-hero .sv-lead { display: flow-root; }
+
+.sv-hero .sv-hero-ctas {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  gap: 12px;
+  padding-top: 8px;
+}
+
+@media (width >= 768px) {
+  .sv-hero .sv-hero-ctas {
+    flex-direction: row;
+    align-items: baseline;
+  }
+}
+
+/* free-trial form (.jKRiLF / .cMCvel / .hErKRy) */
+.sv-hero .sv-trial {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+
+@media (width >= 768px) {
+  .sv-hero .sv-trial { max-width: 600px; }
+}
+
+.sv-hero .sv-trial-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+}
+
+.sv-hero .sv-trial-note,
+.sv-hero .sv-small {
+  color: var(--za-ink);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+@media (width >= 1150px) {
+  .sv-hero .sv-trial-note,
+  .sv-hero .sv-small { font-size: 14px; }
+}
+
+.sv-hero .sv-trial-note p,
+.sv-hero .sv-small p {
+  margin: 0 0 16px;
+  color: inherit;
+  font: inherit;
+}
+
+.sv-hero .sv-trial-note { grid-column: 1 / 3; }
+
+.sv-hero .sv-trial-check { margin-right: 0.27em; }
+
+.sv-hero .sv-trial-check svg {
+  display: inline;
+  vertical-align: baseline;
+  margin-bottom: -2px;
+}
+
+.sv-hero .sv-trial-fields {
+  grid-column: 1 / 3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sv-hero .sv-input {
+  display: block;
+  width: 100%;
+  min-height: 48px;
+  margin: 0;
+  padding: 12px;
+  appearance: none;
+  border: none;
+  border-radius: 12px;
+  background: rgb(17 17 13 / 5%);
+  box-shadow: rgb(17 17 13 / 47%) 0 0 0 1px inset;
+  color: var(--za-ink);
+  font-family: var(--za-font);
+  font-size: 16px;
+  line-height: 21px;
+  transition: border-color 0.25s ease-in-out, box-shadow 0.1s ease-in-out, background-color 0.25s ease-in-out;
+}
+
+.sv-hero .sv-input::placeholder {
+  color: var(--za-ink);
+  opacity: 1;
+}
+
+.sv-hero .sv-input:hover { background: rgb(17 17 13 / 11%); }
+
+.sv-hero .sv-input:focus {
+  outline: none;
+  box-shadow: rgb(17 17 13) 0 0 0 2px inset;
+}
+
+@media (width >= 768px) {
+  .sv-hero .sv-input {
+    min-width: 250px;
+    font-size: 15px;
+  }
+}
+
+@media (width >= 1150px) {
+  .sv-hero .sv-trial-fields { flex-direction: row; }
+
+  .sv-hero .sv-trial-field {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .sv-hero .sv-trial-cta { flex: 0 0 auto; }
+}
+
+.sv-hero .sv-trial-btn {
+  width: 100%;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.sv-hero .sv-trial-btn :is(p, strong) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.sv-hero .sv-tip { display: none; }
+
+.sv-hero .sv-trial-more {
+  grid-column: 1 / 3;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 800ms, opacity 900ms;
+}
+
+.sv-hero .sv-trial-more.expanded {
+  max-height: 240px;
+  margin-top: 8px;
+  opacity: 1;
+}
+
+.sv-hero .sv-small a {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.sv-hero .sv-ext { display: none; }
+
+/* video link (.dZpDSO square, radius 40) + play button (.kmKFhe/.bqGXEY 80px) */
+.sv-hero .sv-video,
+.sv-hero .sv-hero-img {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.sv-hero .sv-video { cursor: pointer; }
+
+.sv-hero .sv-video picture,
+.sv-hero .sv-hero-img picture { display: contents; }
+
+.sv-hero .sv-video img,
+.sv-hero .sv-hero-img img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sv-hero .sv-video p { margin: 0; }
+
+.sv-hero .sv-video::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(17 17 13 / 0%);
+  transition: background-color 100ms linear;
+}
+
+.sv-hero .sv-video:hover::before { background-color: rgb(17 17 13 / 8%); }
+
+.sv-hero .sv-play {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+  line-height: 0;
+}
+
+.sv-hero .sv-play a:any-link {
+  position: relative;
+  display: inline-block;
+  padding: 16px;
+  border: none;
+  border-radius: 100%;
+  background-color: var(--za-ink);
+  color: var(--za-white);
+  font-size: 0;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.sv-hero .sv-play a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--za-ink);
+  border-radius: 100%;
+  background-color: var(--za-ink);
+  transform-origin: center center;
+  transition: background-color 100ms linear, border 100ms linear, transform 100ms linear;
+}
+
+.sv-hero .sv-play svg {
+  position: relative;
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+
+.sv-hero .sv-video:hover .sv-play a::before { transform: scale(1.1); }
+
+.sv-hero .sv-video:active .sv-play a::before { transform: scale(1.15); }
+
+/* Wistia popover (embed-passthrough, same media id) */
+.sv-hero-popover {
+  width: min(960px, 92vw);
+  max-width: none;
+  padding: 0;
+  border: none;
+  border-radius: 16px;
+  background: var(--za-ink);
+  overflow: visible;
+}
+
+.sv-hero-popover::backdrop { background: rgb(17 17 13 / 80%); }
+
+.sv-hero-popover-frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+}
+
+.sv-hero-popover-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 16px;
+}
+
+.sv-hero-popover-close {
+  position: absolute;
+  right: 0;
+  top: -44px;
+  padding: 8px;
+  border: none;
+  background: transparent;
+  color: var(--za-white);
+  line-height: 0;
+  cursor: pointer;
+}
+
+/* ---------- program siblings ---------- */
+
+/* mp4 media (live autoplay hero video) */
+.sv-hero .sv-hero-mp4 video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* `logos`: trusted-by strip under the hero row */
+.sv-hero .sv-hero-logos {
+  position: relative;
+  text-align: center;
+}
+
+.sv-hero .sv-hero-logos-h :is(h2, h3, p) {
+  margin: 0 0 24px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.sv-hero .sv-hero-logo-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px 24px;
+}
+
+.sv-hero .sv-hero-logo p { margin: 0; }
+
+.sv-hero .sv-hero-logo img {
+  display: block;
+  width: auto;
+  height: 40px;
+}
+
+/* gen B (legacy Basestyle family): Sharp Sans / Proxima Nova, tinted hero, 174/64 padding,
+   no glow; the legacy header overlaps the band (body.legacy > header margin -128px) */
+.sv-hero.legacy {
+  margin-top: 0;
+  padding: 174px 0 64px;
+  background-color: var(--zb-grey-100);
+}
+
+.sv-hero.legacy::before,
+.sv-hero.legacy .sv-hero-glow { display: none; }
+
+.sv-hero.tint-beige { background-color: rgb(236 224 206); }
+.sv-hero.tint-yellow { background-color: rgb(254 248 220); }
+.sv-hero.tint-white { background-color: var(--za-white); }
+
+.sv-hero.legacy .za-container {
+  max-width: var(--zb-container);
+  padding: 0 var(--zb-gutter);
+}
+
+.sv-hero.legacy :is(h1, h2, h3) {
+  margin: 0 0 16px;
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.sv-hero.legacy .za-eyebrow,
+.sv-hero.legacy .za-eyebrow :is(h1, h2, h3, p),
+.sv-hero.legacy .sv-hero-logos-h :is(h2, h3, p) {
+  margin: 0 0 8px;
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.sv-hero.legacy .sv-lead p {
+  margin: 0 0 24px;
+  color: var(--zb-teal-800);
+  font-family: var(--zb-font-body);
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.sv-hero.legacy .sv-hero-ctas { padding-top: 0; }
+
+.sv-hero.legacy .sv-hero-ctas p { margin: 0; }
+
+.sv-hero.legacy .sv-hero-logos { margin: 72px 0 4px; }
+
+.sv-hero.legacy .sv-hero-logo-list { margin-top: 32px; }
+
+.sv-hero.legacy .sv-hero-logo img { height: 56px; }
+
+.sv-hero.legacy .sv-hero-img + .sv-hero-img {
+  position: absolute;
+  left: 0;
+  bottom: -54px;
+  width: 58%;
+}
+
+.sv-hero.legacy .sv-hero-media { position: relative; }
+
+.sv-hero.legacy .sv-hero-img img,
+.sv-hero.legacy .sv-hero-mp4 video { border-radius: 0; }
+
+@media (width >= 768px) {
+  .sv-hero.legacy :is(h1, h2, h3) {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+
+@media (width >= 1200px) {
+  .sv-hero.legacy :is(h1, h2, h3) {
+    font-size: 72px;
+    line-height: 80px;
+  }
+}
+
+/* `image` (gen A): text 5/12, a wider media column 6/12 */
+@media (width >= 768px) {
+  .sv-hero.image:not(.legacy) .sv-hero-text {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+  }
+
+  .sv-hero.image:not(.legacy) .sv-hero-media {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: 8.3333%;
+  }
+}
+
+/* stylelint-disable no-duplicate-selectors, no-descending-specificity -- mobile-first layer: the narrow value overrides the shared rule above, (width >= 768px) restores it */
+
+/* gen B below 768px (live Basestyle mobile): full-width stacked buttons, the first picture at 2/3
+   width on the right with the overlay card at the left edge, 40px logos wrapping from the left */
+.sv-hero.legacy { padding-bottom: 24px; }
+
+.sv-hero.legacy .sv-hero-ctas {
+  align-items: stretch;
+  gap: 16px;
+}
+
+.sv-hero.legacy .sv-hero-img:first-child:has(+ .sv-hero-img) {
+  width: 66.6667%;
+  margin-left: auto;
+}
+
+.sv-hero.legacy .sv-hero-logos { margin: 86px 0 0; }
+
+.sv-hero.legacy .sv-hero-logo-list {
+  justify-content: flex-start;
+  gap: 12px 40px;
+}
+
+.sv-hero.legacy .sv-hero-logo img { height: 40px; }
+
+@media (width >= 768px) {
+  .sv-hero.legacy { padding-bottom: 64px; }
+
+  .sv-hero.legacy .sv-hero-ctas {
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .sv-hero.legacy .sv-hero-img:first-child:has(+ .sv-hero-img) {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .sv-hero.legacy .sv-hero-img + .sv-hero-img {
+    left: -18%;
+    bottom: -8%;
+    width: 50%;
+  }
+
+  .sv-hero.legacy .sv-hero-logos { margin: 72px 0 4px; }
+
+  /* live /employee-experience/ at 1440: logos at their own size (opentable 45, xerox 32),
+     five a row 77 px apart, the sixth wrapping left 12 px below */
+  .sv-hero.legacy .sv-hero-logo-list {
+    justify-content: space-between;
+    gap: 12px 64px;
+  }
+
+  .sv-hero.legacy .sv-hero-logo img { height: auto; }
+}
+
+/* the legacy logos hero (live /employee-experience/ at 1440): a 444 px lead at 20/28 */
+@media (width >= 1150px) {
+  .sv-hero.legacy.logos .sv-lead { max-width: 444px; }
+  .sv-hero.legacy.logos .sv-lead p { font-size: 20px; }
+}
+
+/* `bg-video` (live /cxtrends/): the .mp4 fills the band behind the content instead of the glow */
+.sv-hero.bg-video .sv-hero-glow {
+  overflow: hidden;
+  background: none;
+}
+
+.sv-hero.bg-video .sv-hero-glow .sv-hero-mp4,
+.sv-hero.bg-video .sv-hero-glow video {
+  width: 100%;
+  height: 100%;
+}
+
+.sv-hero.bg-video .sv-hero-glow video { object-fit: cover; }
+
+.sv-hero.tint-white .sv-hero-glow { display: none; }
+
+/* an eyebrow picture (lockup) above the heading */
+.sv-hero .za-eyebrow:has(img) {
+  margin-bottom: 0;
+  line-height: 0;
+}
+
+.sv-hero .za-eyebrow img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: 35px;
+  margin-bottom: 32px;
+}
+
+/* `bg-video` below 768: live reserves the video's control bar under the content */
+.sv-hero.bg-video { padding-bottom: 78px; }
+
+/* `small`: the h2-size display heading (live heading variant h2) */
+.sv-hero.small h1 {
+  font-size: 30px;
+  line-height: 1.15;
+}
+
+/* `landscape`: a 4:3 media box */
+.sv-hero.landscape :is(.sv-video, .sv-hero-img) { aspect-ratio: 4 / 3; }
+
+/* `reverse` (live /web-widget/): media first, the video at its own ratio, square corners */
+.sv-hero.reverse .sv-hero-img:has(.sv-hero-mp4) {
+  aspect-ratio: auto;
+  border-radius: 0;
+}
+
+/* gen B `text` hero (live /repeatcustomer/): heading only, a rule under it */
+.sv-hero.text.legacy { padding-bottom: 50px; }
+
+.sv-hero.text.legacy h1 { margin-bottom: 24px; }
+
+.sv-hero.text.legacy .za-container::after {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 50px;
+  background-color: var(--zb-teal-900);
+}
+
+/* gen A `logos` strip below 768 (live /why-zendesk/): a rule 48px under the row, a small centered
+   heading, 56px logos wrapping centered */
+.sv-hero.logos:not(.legacy) .sv-hero-logos {
+  margin-top: 48px;
+  padding-top: 48px;
+  border-top: 1px solid rgb(17 17 13 / 20%);
+}
+
+.sv-hero.logos:not(.legacy) .sv-hero-logos-h :is(h2, h3, p) {
+  margin: 0 0 9px;
+  padding: 0 24px;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: normal;
+}
+
+.sv-hero.logos:not(.legacy) .sv-hero-logo-list {
+  justify-content: center;
+  gap: 12px 16px;
+}
+
+.sv-hero.logos:not(.legacy) .sv-hero-logo img { height: 56px; }
+
+@media (width >= 768px) {
+  .sv-hero .za-eyebrow img {
+    height: 50px;
+    margin-bottom: 50px;
+  }
+
+  .sv-hero.small h1 { font-size: 34px; }
+
+  .sv-hero.bg-video { padding-bottom: var(--za-section-pad); }
+
+  .sv-hero.reverse .sv-hero-media {
+    order: -1;
+    margin-left: 0;
+  }
+
+  .sv-hero.reverse .sv-hero-text {
+    order: 0;
+    margin-left: 8.3333%;
+    padding-right: 12px;
+    padding-left: 36px;
+  }
+
+  .sv-hero.text.legacy.sv-hero-no-media .sv-hero-text {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .sv-hero.text.legacy .za-container::after { margin-top: 64px; }
+
+  /* gen A `logos` strip (live /why-zendesk/): a rule 64px under the row, then the heading (3/12)
+     beside the logos (48px, at most 140px wide) spread across the rest */
+  .sv-hero.logos:not(.legacy) .sv-hero-logos {
+    display: flex;
+    align-items: center;
+    margin-top: 64px;
+    padding-top: 64px;
+    border-top: 1px solid rgb(17 17 13 / 20%);
+    text-align: left;
+  }
+
+  .sv-hero.logos:not(.legacy) .sv-hero-logos-h {
+    flex: 0 0 270px;
+    padding-right: 12px;
+  }
+
+  .sv-hero.logos:not(.legacy) .sv-hero-logos-h :is(h2, h3, p) {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+  }
+
+  .sv-hero.logos:not(.legacy) .sv-hero-logo-list {
+    flex: 1 1 auto;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 0;
+    padding: 0 4px 0 16px;
+  }
+
+  .sv-hero.logos:not(.legacy) .sv-hero-logo img {
+    max-width: 140px;
+    height: 48px;
+    object-fit: contain;
+  }
+}
+
+@media (width >= 1150px) {
+  .sv-hero.small h1 { font-size: 42px; }
+
+  /* under the blog sub-bar (sv-links subnav blog) the band starts below both bars */
+  main > .section:has(.sv-links.subnav.blog) + .section .sv-hero.legacy { padding-top: 57px; }
+}
+
+@media (width >= 1600px) {
+  .sv-hero.small h1 { font-size: 53px; }
+}
+
+/* `ghost-cta` (live link group with an empty second slot, e.g. /professional-services/): below 768
+   the stacked group still lays out the empty 31px slot under the button */
+.sv-hero.ghost-cta .sv-hero-ctas::after {
+  content: "";
+  display: block;
+  height: 31px;
+}
+
+@media (width >= 768px) {
+  .sv-hero.ghost-cta .sv-hero-ctas::after { display: none; }
+}
+
+/* `notice` (unique sibling /help-center-closed/, cluster-unique): one lead group (live p gap 16,
+   40 to the CTA), the CTA full width below 768 (live 328 px at 360); the promo strip's empty CTA
+   slot is the header block's (foundation-final) */
+.sv-hero.notice .sv-lead:has(+ .sv-lead) p { margin-bottom: 0; }
+.sv-hero.notice .sv-hero-ctas { align-items: stretch; }
+.sv-hero.notice .sv-hero-ctas a.button { display: block; }
+
+@media (width >= 768px) {
+  .sv-hero.notice .sv-hero-ctas { align-items: flex-start; }
+  .sv-hero.notice .sv-hero-ctas a.button { display: inline-block; }
+}
+
+/* the legacy logos hero below 768px (live /employee-experience/ at 360): 8px above the stacked
+   buttons, logos at their own size 12/36 apart (253px block), 32px band bottom */
+@media (width < 768px) {
+  .sv-hero.legacy.logos { padding-bottom: 32px; }
+
+  .sv-hero.legacy.logos .sv-hero-ctas { padding-top: 8px; }
+
+  .sv-hero.legacy.logos .sv-hero-logo-list { gap: 12px 36px; }
+
+  .sv-hero.legacy.logos .sv-hero-logo img { height: auto; }
+}
+
+/* the legacy video hero below 768px (live /sell/ at 360): eyebrow 8 above the title, title 24
+   above an 18/26 lead, the button 8px under the lead's 24px margin, 32px band bottom */
+@media (width < 768px) {
+  .sv-hero.legacy.video { padding-bottom: 32px; }
+
+  .sv-hero.legacy.video .za-eyebrow { margin-bottom: 0; }
+
+  .sv-hero.legacy.video h1 { margin-bottom: 24px; }
+
+  .sv-hero.legacy.video .sv-lead { margin-bottom: 0; }
+
+  .sv-hero.legacy.video .sv-lead p { line-height: 26px; }
+
+  .sv-hero.legacy.video .sv-hero-ctas { padding-top: 8px; }
+}

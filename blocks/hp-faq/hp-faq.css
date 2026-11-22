@@ -1,0 +1,262 @@
+/* stylelint-disable no-descending-specificity -- state and hover rules follow their base rules */
+
+/* hp-faq — FAQ band: show/hide toggle + dark accordion */
+.hp-faq .hp-faq-title :is(h2, h3) {
+  margin: 0 0 24px;
+  color: var(--za-cream);
+}
+
+.hp-faq .hp-faq-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hp-faq .hp-faq-rule {
+  flex-shrink: 1;
+  width: 100%;
+  height: 1px;
+  margin: 8px 0;
+  background-color: rgb(255 255 255 / 13%);
+}
+
+.hp-faq .hp-faq-toggle .hp-faq-rule:first-child {
+  margin-right: 8px;
+}
+
+.hp-faq :is(.hp-faq-show, .hp-faq-hide) {
+  flex-shrink: 0;
+}
+
+.hp-faq :is(.hp-faq-show, .hp-faq-hide) p {
+  min-height: calc(1.25em + 8px);
+  margin: 0 8px 0 0;
+  color: var(--za-white);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28.5px;
+  white-space: nowrap;
+}
+
+.hp-faq .hp-faq-chev {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  color: var(--za-white);
+  transition: transform 0.2s;
+}
+
+.hp-faq .hp-faq-chev svg {
+  display: block;
+}
+
+.hp-faq .hp-faq-hide {
+  display: none;
+}
+
+/* closed: the panel content is skipped like a closed <details> (::details-content), laid out
+   over the band instead of below it so it never reaches into the footer */
+.hp-faq .hp-faq-details {
+  position: relative;
+}
+
+.hp-faq .hp-faq-acc {
+  position: absolute;
+  top: -48px;
+  left: 0;
+  right: 0;
+  display: block;
+  content-visibility: hidden;
+}
+
+.hp-faq .hp-faq-details.is-open .hp-faq-hide {
+  display: block;
+}
+
+.hp-faq .hp-faq-details.is-open .hp-faq-acc {
+  position: static;
+  content-visibility: visible;
+}
+
+.hp-faq .hp-faq-details.is-open .hp-faq-show {
+  display: none;
+}
+
+.hp-faq .hp-faq-details.is-open .hp-faq-toggle {
+  margin-bottom: 44px;
+}
+
+.hp-faq .hp-faq-details.is-open .hp-faq-chev {
+  transform: rotate(-180deg);
+}
+
+/* Garden-style accordion (dark) */
+.hp-faq .hp-acc-item {
+  border-top: 1px solid rgb(255 255 255 / 10%);
+}
+
+.hp-faq .hp-acc-item:first-child {
+  border-top-color: transparent;
+}
+
+.hp-faq .hp-acc-item.is-open .hp-acc-head {
+  box-shadow: var(--za-lime) 0 2px 0 0 inset;
+}
+
+.hp-faq .hp-acc-head {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.hp-faq .hp-acc-title {
+  flex: 1 1 auto;
+  width: 100%;
+  padding: 20px 0;
+  text-align: left;
+}
+
+.hp-faq .hp-acc-title :is(h3, h4, h5) {
+  margin: 0;
+  color: var(--za-cream);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.hp-faq .hp-acc-btn {
+  flex-shrink: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--za-cream);
+  line-height: 0;
+  cursor: pointer;
+}
+
+.hp-faq .hp-acc-btn svg {
+  width: 21px;
+  height: 24px;
+  transition: transform 0.25s ease-in-out;
+}
+
+.hp-faq .hp-acc-item.is-open .hp-acc-btn svg {
+  transform: rotate(180deg);
+}
+
+.hp-faq .hp-acc-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  padding: 0 16px;
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 1.25;
+  transition: padding 0.25s ease-in-out, grid-template-rows 0.25s ease-in-out;
+}
+
+.hp-faq .hp-acc-item.is-open .hp-acc-panel {
+  grid-template-rows: 1fr;
+  padding: 0 16px 24px;
+}
+
+.hp-faq .hp-acc-inner {
+  overflow: hidden;
+}
+
+.hp-faq .hp-faq-answer {
+  padding-bottom: 32px;
+  color: var(--za-white);
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.hp-faq .hp-faq-answer p {
+  margin: 0 0 16px;
+  color: inherit;
+}
+
+.hp-faq .hp-faq-answer > :last-child {
+  margin-bottom: 0;
+}
+
+/* inline link (Garden anchor + LinkRoot): semibold, 0.15em box padding, 1px underline */
+.hp-faq .hp-faq-answer a {
+  margin: -0.15em 0;
+  padding: 0.15em 0;
+  color: var(--za-white);
+  font-weight: 600;
+  text-decoration: underline 1px;
+  text-underline-offset: 0.15em;
+}
+
+.hp-faq .hp-faq-answer ul {
+  margin: 0 0 32px;
+  padding: 0;
+  list-style: none;
+}
+
+.hp-faq .hp-faq-answer li {
+  position: relative;
+  margin: 12px 0;
+  padding-left: 32px;
+}
+
+.hp-faq .hp-faq-answer li::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background-color: currentcolor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 23c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11m5.788-14.384-6.944 8.888-4.55-4.529a1 1 0 0 1 1.412-1.417l2.95 2.938 5.556-7.112a1 1 0 1 1 1.576 1.232'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+@media (width >= 768px) {
+  .hp-faq .hp-acc-head {
+    padding: 0 20px;
+  }
+
+  .hp-faq .hp-acc-panel {
+    padding: 0 32px 0 20px;
+  }
+
+  .hp-faq .hp-acc-item.is-open .hp-acc-panel {
+    padding: 0 32px 24px 20px;
+  }
+
+  .hp-faq .hp-faq-answer {
+    padding-bottom: 0;
+  }
+
+  .hp-faq .hp-faq-answer > p:last-child {
+    margin-bottom: 16px;
+  }
+
+  .hp-faq .hp-faq-answer > ul:last-child {
+    margin-bottom: 32px;
+  }
+}
+
+@media (width >= 1150px) {
+  .hp-faq .hp-acc-title :is(h3, h4, h5) {
+    font-size: 16px;
+  }
+
+  .hp-faq .hp-faq-answer {
+    font-size: 16px;
+  }
+
+  .hp-faq .hp-acc-panel {
+    padding: 0 48px 0 20px;
+  }
+
+  .hp-faq .hp-acc-item.is-open .hp-acc-panel {
+    padding: 0 48px 24px 20px;
+  }
+}

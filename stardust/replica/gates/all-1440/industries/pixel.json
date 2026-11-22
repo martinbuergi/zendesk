@@ -1,0 +1,129 @@
+{
+  "a": "stardust/replica/gates/all-1440/industries/origin.png",
+  "b": "stardust/replica/gates/all-1440/industries/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2912,
+    "mode": "overlap"
+  },
+  "heightDelta": 7,
+  "differingPixels": 68171,
+  "pct": 1.63,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/industries/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 8.11,
+  "textBoxes": 112,
+  "textPixels": 473609,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 3.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 3.3
+    },
+    {
+      "y0": 2500,
+      "y1": 2912,
+      "pct": 2.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.88,
+    "differingPixels": 36837,
+    "compared": {
+      "width": 1440,
+      "height": 2920,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1796,
+        "shift": -8,
+        "cumulative": -8
+      },
+      {
+        "y": 2796,
+        "shift": 1,
+        "cumulative": -7
+      }
+    ],
+    "maxOffset": 8,
+    "totalShift": 9,
+    "insertedRows": 1,
+    "deletedRows": 8,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1,
+        "unaligned": 1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 3.9,
+        "unaligned": 3.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 3.3
+      },
+      {
+        "y0": 2500,
+        "y1": 2919,
+        "pct": 0.2,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/industries/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 29,
+    "totalShift": 9,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/industries"
+  }
+}

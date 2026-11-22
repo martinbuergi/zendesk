@@ -1,0 +1,159 @@
+[live-session] waiting to pace live navigations to www.zendesk.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 964 ms
+
+Content diff @ 360px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 419 text nodes — 19 headings, 11 eyebrows, 28 CTAs, 361 body; 53 img
+  build: 360 text nodes — 20 headings, 11 eyebrows, 22 CTAs, 307 body; 47 img
+  editable texts (outermost h*/p/ul/ol): source 121 / build 81
+  attributes (placeholder/aria-label/title): source 26 / build 29; icons: source 53 / build 41
+  accepted (invisible, nothing lost): 4 SAME IMAGE — "data:image/gif… ↔ Privacy.webp", "data:image/gif… ↔ Sales.webp", "data:image/gif… ↔ Sparkle.webp", "data:image/gif… ↔ CustomerSupportTeams.webp"
+root "header": absent on both sides (no <header> / [role="banner"] outside the main root(s)) — not compared
+root "footer"
+  source: 143 text nodes — 14 headings, 0 eyebrows, 129 CTAs, 0 body; 0 img
+  build: 143 text nodes — 14 headings, 0 eyebrows, 129 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 20 / build 20
+  attributes (placeholder/aria-label/title): source 35 / build 13; icons: source 40 / build 12
+
+Findings: 127 (23 structural 🔴)
+Tiers: looks-same 🔴 23 · nothing-lost 🟡 22 · accepted 🟢 18 (owner 14, auto 4) · advisory 82
+  🔴 MISSING CTA [footer]: source cta "Cookie settings" → #onetrust-show-cookie-settings has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "system status" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "help center" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "academy" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "careers" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "accessibility plan" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "zendesk foundation" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "cx trends 2026" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "product updates" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "system status" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "help center" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "academy" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "careers" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "accessibility plan" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "zendesk foundation" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "cx trends 2026" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "product updates" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "twitter" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "facebook" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "linkedin" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "youtube" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "instagram" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [footer]: source inline svg (opens in a new tab) (0×0) at "tiktok" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟠 EXTRA [main]: build heading "See it in action" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Do Not Sell or Share My Personal Information" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY [main]: source body "50"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "%"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "AI resolution rate in chat channel"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "30"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "%"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "AI resolution rate across all channels"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "“Agents don’t want to answer the same question o"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Bhav Raju"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Director of Customer Service at NOBULL"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "30-40"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "%"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Automation Rate"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "18-20"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "%"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Increase in self-service score"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "“There’s a wealth of information in these AI age"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Noah Kardos-Fein"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Director of Digital Support at Vimeo"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "80"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "%"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Automation rate on messaging"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "500"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "$"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "K+"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Annual cost savings from AI"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "“Zendesk AI agents are a game changer. It has tu"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Corrine Porcaro"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Senior Director of Service Quality at Best Egg"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "47"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "%"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "AI automation rate"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "27"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "%"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Decrease in full resolution time"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "“Zendesk is one of the coolest tools I’ve ever u"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Jesse Moore Perrin"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Head of Customer Care and Operations at BritBox"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "50"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "%"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "AI resolution rate in chat channel"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "30"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "%"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "AI resolution rate across all channels"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "“Agents don’t want to answer the same question o"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Bhav Raju"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Director of Customer Service at NOBULL"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "30-40"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "%"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Automation Rate"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "18-20"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "%"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Increase in self-service score"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "“There’s a wealth of information in these AI age"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Noah Kardos-Fein"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Director of Digital Support at Vimeo"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [main]: build body "Take a guided tour of our customer service solut" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EDITABLE COUNT [main]: build has 81 outermost editable element(s) vs 121 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="Previous testimonial" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="Next testimonial" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="Best Egg testimonial" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="BritBox testimonial" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="Nobull testimonial" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="Vimeo testimonial" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <iframe> title="Zendesk customer service guided tour" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at "elevate experiences with self-learning a" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at "elevate experiences with self-learning a" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at "elevate experiences with self-learning a" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at "elevate experiences with self-learning a" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 16 16 / 1 shape(s) (0×0) at "elevate experiences with self-learning a" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 16 16 / 1 shape(s) (0×0) at "accelerate issue resolution" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 16 16 / 1 shape(s) (0×0) at "continuously optimize with data and insi" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 16 16 / 1 shape(s) (0×0) at "secure control that builds customer trus" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 ICON MOVED [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "select 1-9 10-49 50-99 100-249 250-499 5" is at "previous testimonial" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "select afghanistan albania algeria ameri" is at "next testimonial" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ICON [footer]: source inline svg 0 0 16 16 / 1 shape(s) (0×0) at "products" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [footer]: source inline svg 0 0 16 16 / 1 shape(s) (0×0) at "features" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [footer]: source inline svg 0 0 16 16 / 1 shape(s) (0×0) at "resources" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [footer]: source inline svg 0 0 16 16 / 1 shape(s) (0×0) at "company" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [footer]: source inline svg 0 0 16 16 / 1 shape(s) (0×0) at "compare" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [footer]: source inline svg 0 0 16 16 / 1 shape(s) (0×0) at "popular topics" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟢 MISSING CTA [main] accepted (stardust/replica/accepted.json): service: slick loop clones on the live customer-stories carousel duplicate each slide's link; the build renders every slide (and its link) once — clones carry no text per recreation-procedure § Carousels (loop clones are presentational)
+  🟢 MISSING CTA [main] accepted (stardust/replica/accepted.json): service: slick loop clones of the Vimeo slide (live renders it 3x: real + 2 clones); the build renders it once — clones carry no text per recreation-procedure § Carousels
+  🟢 MISSING CTA [main] accepted (stardust/replica/accepted.json): service: slick loop clones on the live customer-stories carousel duplicate each slide's link; the build renders every slide (and its link) once — clones carry no text per recreation-procedure § Carousels (loop clones are presentational)
+  🟢 MISSING CTA [main] accepted (stardust/replica/accepted.json): service: slick loop clones on the live customer-stories carousel duplicate each slide's link; the build renders every slide (and its link) once — clones carry no text per recreation-procedure § Carousels (loop clones are presentational)
+  🟢 MISSING CTA [main] accepted (stardust/replica/accepted.json): service: slick loop clones on the live customer-stories carousel duplicate each slide's link; the build renders every slide (and its link) once — clones carry no text per recreation-procedure § Carousels (loop clones are presentational)
+  🟢 MISSING CTA [main] accepted (stardust/replica/accepted.json): service: slick loop clones of the Vimeo slide (live renders it 3x: real + 2 clones); the build renders it once — clones carry no text per recreation-procedure § Carousels
+  🟢 MISSING ARIA-LABEL [main] accepted (stardust/replica/accepted.json): service: the live logo tabs carry the literal templating bug aria-label 'undefined testimonial'; the build names each tab '<customer> testimonial' (role parity: semantics may improve)
+  🟢 MISSING ARIA-LABEL [main] accepted (stardust/replica/accepted.json): service: the live logo tabs carry the literal templating bug aria-label 'undefined testimonial'; the build names each tab '<customer> testimonial' (role parity: semantics may improve)
+  🟢 MISSING ARIA-LABEL [main] accepted (stardust/replica/accepted.json): service: the live logo tabs carry the literal templating bug aria-label 'undefined testimonial'; the build names each tab '<customer> testimonial' (role parity: semantics may improve)
+  🟢 MISSING ARIA-LABEL [main] accepted (stardust/replica/accepted.json): service: the live logo tabs carry the literal templating bug aria-label 'undefined testimonial'; the build names each tab '<customer> testimonial' (role parity: semantics may improve)
+  🟢 MISSING ICON [main] accepted (stardust/replica/accepted.json): service @<768: the live logo-tab nav is display:none below 768 and its lazy logos never leave the 1x1 data:gif placeholder; the build ships the real logo files in the same hidden tabs
+  🟢 MISSING ICON [main] accepted (stardust/replica/accepted.json): service @<768: the live logo-tab nav is display:none below 768 and its lazy logos never leave the 1x1 data:gif placeholder; the build ships the real logo files in the same hidden tabs
+  🟢 MISSING ICON [main] accepted (stardust/replica/accepted.json): service @<768: the live logo-tab nav is display:none below 768 and its lazy logos never leave the 1x1 data:gif placeholder; the build ships the real logo files in the same hidden tabs
+  🟢 MISSING ICON [main] accepted (stardust/replica/accepted.json): service @<768: the live logo-tab nav is display:none below 768 and its lazy logos never leave the 1x1 data:gif placeholder; the build ships the real logo files in the same hidden tabs

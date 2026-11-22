@@ -1,0 +1,310 @@
+{
+  "a": "stardust/replica/gates/all-360/customer-babbel/origin.png",
+  "b": "stardust/replica/gates/all-360/customer-babbel/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 10881,
+    "mode": "overlap"
+  },
+  "heightDelta": -41,
+  "differingPixels": 324405,
+  "pct": 8.28,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/customer-babbel/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 12.93,
+  "textBoxes": 323,
+  "textPixels": 1233419,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 4.9
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 8.2
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 10.8
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 18.2
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 8
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 8.3
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 22.7
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 8
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 23.5
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 8.6
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 8.1
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 8.1
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 16.1
+    },
+    {
+      "y0": 10000,
+      "y1": 10500,
+      "pct": 6.9
+    },
+    {
+      "y0": 10500,
+      "y1": 10881,
+      "pct": 24.3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.48,
+    "differingPixels": 18865,
+    "compared": {
+      "width": 360,
+      "height": 10922,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 3690,
+        "shift": 20,
+        "cumulative": 20
+      },
+      {
+        "y": 9650,
+        "shift": 1,
+        "cumulative": 21
+      },
+      {
+        "y": 9745,
+        "shift": 20,
+        "cumulative": 41
+      }
+    ],
+    "maxOffset": 41,
+    "totalShift": 41,
+    "insertedRows": 41,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1.1,
+        "unaligned": 1.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 4,
+        "unaligned": 4.9
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 8.2
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 10.8
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 18.2
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0,
+        "unaligned": 8
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0,
+        "unaligned": 8.3
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0.1,
+        "unaligned": 22.7
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0,
+        "unaligned": 8
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 0.4,
+        "unaligned": 23.5
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 0,
+        "unaligned": 8.6
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 0,
+        "unaligned": 8.1
+      },
+      {
+        "y0": 9000,
+        "y1": 9500,
+        "pct": 0,
+        "unaligned": 8.1
+      },
+      {
+        "y0": 9500,
+        "y1": 10000,
+        "pct": 4.4,
+        "unaligned": 16.1
+      },
+      {
+        "y0": 10000,
+        "y1": 10500,
+        "pct": 0,
+        "unaligned": 6.9
+      },
+      {
+        "y0": 10500,
+        "y1": 10881,
+        "pct": 0,
+        "unaligned": 24.3
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/customer-babbel/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 109,
+    "totalShift": 41,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/customer/babbel"
+  }
+}

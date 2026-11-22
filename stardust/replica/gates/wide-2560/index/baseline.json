@@ -1,0 +1,75 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-21T15:41:00.064Z",
+  "url": "https://www.zendesk.com/",
+  "width": 2560,
+  "vh": 900,
+  "height": 14570,
+  "settle": true,
+  "chunks": 17,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 6,
+    "late": 0
+  },
+  "primed": true,
+  "prime": {
+    "height": 14570,
+    "pct": 0.03,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    14570,
+    14570
+  ],
+  "noiseFloor": 0.23,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [
+    {
+      "y": 792,
+      "h": 276,
+      "pct": 14.4
+    },
+    {
+      "y": 3792,
+      "h": 176,
+      "pct": 3.8
+    },
+    {
+      "y": 4232,
+      "h": 36,
+      "pct": 1.2
+    },
+    {
+      "y": 4392,
+      "h": 116,
+      "pct": 1.9
+    }
+  ],
+  "variableShare": 4.15,
+  "maskArg": "792:276,3792:176,4232:36,4392:116",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-21T15:42:13.758Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

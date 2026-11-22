@@ -1,0 +1,79 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-21T13:35:35.593Z",
+ "content": {
+  "totals": {
+   "missingHeadings": 0,
+   "hiddenHeadings": 0,
+   "extraHeadings": 0,
+   "missingLinks": 0,
+   "hiddenLinks": 0,
+   "movedLinks": 0,
+   "extraLinks": 6,
+   "missingButtons": 4,
+   "hiddenButtons": 0,
+   "controlState": 7,
+   "countDeltas": 0,
+   "findings": 37,
+   "structural": 0,
+   "missing": 0,
+   "hidden": 0
+  },
+  "variable": [],
+  "reason": "program microsite (sv-links subnav, nav | /nav-none): live renders its footer INSIDE <main> while the EDS footer block sits outside main (frozen footer), so a main-vs-main probe reports the whole live footer as MISSING; both sides are probed whole-page (body=body) so chrome is compared like-for-like.",
+  "tier": "chrome"
+ },
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 0,
+   "textNodes": 59,
+   "controls": 49,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.sv-event-card",
+    "path": "div.za-col.sv-split-text > div.sv-split-ctas > p.button-wrapper > a.button.secondary",
+    "text": "download the report",
+    "cutMin": 75,
+    "cutMax": 75
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.sv-event-card",
+    "path": "div.za-col.sv-split-text > div.sv-split-ctas > p.button-wrapper > a.button.secondary",
+    "text": "download the report",
+    "cutMin": 55,
+    "cutMax": 55
+   }
+  ],
+  "origin": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 1,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 8,
+   "textNodes": 67,
+   "controls": 51,
+   "total": 1
+  },
+  "source": "content-presence"
+ }
+}

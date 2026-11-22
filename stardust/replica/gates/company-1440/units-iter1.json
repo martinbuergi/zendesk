@@ -1,0 +1,860 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-20T10:33:04.842Z",
+  "tol": 4,
+  "n": 22,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/company/",
+  "at": "2026-11-20T10:32:49.135Z",
+  "docH": 5012
+ },
+ "eds": {
+  "url": "http://localhost:8791/company-proposed.html",
+  "at": "2026-11-20T10:33:04.736Z",
+  "docH": 5012
+ },
+ "results": [
+  {
+   "sel": "#teaser-f67eba53a7 [role=group] > a=#teaser-f67eba53a7 .co-card",
+   "family": "gen-a-location-card",
+   "required": true,
+   "originMatches": 22,
+   "edsMatches": 22,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div > div > a#button-db7fd2da4a"
+     },
+     "eds": {
+      "path": "div.co-car__track > div.co-car__slide > a#button-db7fd2da4a"
+     },
+     "rows": [
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188,
+        "sel": "img.co-ii__sizer",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/500",
+        "eds": "16/0/500"
+       }
+      },
+      {
+       "key": "image:img#image-ed701fc074#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188,
+        "sel": "img#image-ed701fc074",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/500",
+        "eds": "16/0/500"
+       }
+      },
+      {
+       "key": "box:div.LinkCardstyle__LinkCardContent-sc-1nxo9pt-2.ihgjRr#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 189,
+        "w": 251,
+        "h": 103
+       },
+       "eds": {
+        "x": 1,
+        "y": 189,
+        "w": 251,
+        "h": 103,
+        "sel": "div.co-card__content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/500",
+        "eds": "16/16/500"
+       }
+      },
+      {
+       "key": "text:hq san francisco",
+       "role": "text",
+       "text": "hq san francisco",
+       "edsText": "hq san francisco",
+       "byPosition": false,
+       "origin": {
+        "x": 25,
+        "y": 229,
+        "w": 203,
+        "h": 23
+       },
+       "eds": {
+        "x": 25,
+        "y": 229,
+        "w": 203,
+        "h": 23,
+        "sel": "p.co-card__title",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/23/600",
+        "eds": "16/23/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 169,
+       "y": 2309,
+       "w": 253,
+       "h": 294
+      },
+      "eds": {
+       "x": 169,
+       "y": 2309,
+       "w": 253,
+       "h": 293
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div > div > a#button-7f04d943bc"
+     },
+     "eds": {
+      "path": "div.co-car__track > div.co-car__slide > a#button-7f04d943bc"
+     },
+     "rows": [
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188,
+        "sel": "img.co-ii__sizer",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/500",
+        "eds": "16/0/500"
+       }
+      },
+      {
+       "key": "image:img#image-75d41ae2f2#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188,
+        "sel": "img#image-75d41ae2f2",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/500",
+        "eds": "16/0/500"
+       }
+      },
+      {
+       "key": "box:div.LinkCardstyle__LinkCardContent-sc-1nxo9pt-2.ihgjRr#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 189,
+        "w": 251,
+        "h": 103
+       },
+       "eds": {
+        "x": 1,
+        "y": 189,
+        "w": 251,
+        "h": 103,
+        "sel": "div.co-card__content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/500",
+        "eds": "16/16/500"
+       }
+      },
+      {
+       "key": "text:austin",
+       "role": "text",
+       "text": "austin",
+       "edsText": "austin",
+       "byPosition": false,
+       "origin": {
+        "x": 25,
+        "y": 229,
+        "w": 203,
+        "h": 23
+       },
+       "eds": {
+        "x": 25,
+        "y": 229,
+        "w": 203,
+        "h": 23,
+        "sel": "p.co-card__title",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/23/600",
+        "eds": "16/23/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 446,
+       "y": 2309,
+       "w": 253,
+       "h": 294
+      },
+      "eds": {
+       "x": 446,
+       "y": 2309,
+       "w": 253,
+       "h": 293
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div > div > a#button-b7bff95ffa"
+     },
+     "eds": {
+      "path": "div.co-car__track > div.co-car__slide > a#button-b7bff95ffa"
+     },
+     "rows": [
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188,
+        "sel": "img.co-ii__sizer",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/500",
+        "eds": "16/0/500"
+       }
+      },
+      {
+       "key": "image:img#image-d2e881ecdb#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188,
+        "sel": "img#image-d2e881ecdb",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/500",
+        "eds": "16/0/500"
+       }
+      },
+      {
+       "key": "box:div.LinkCardstyle__LinkCardContent-sc-1nxo9pt-2.ihgjRr#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 189,
+        "w": 251,
+        "h": 103
+       },
+       "eds": {
+        "x": 1,
+        "y": 189,
+        "w": 251,
+        "h": 103,
+        "sel": "div.co-card__content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/500",
+        "eds": "16/16/500"
+       }
+      },
+      {
+       "key": "text:bangalore",
+       "role": "text",
+       "text": "bangalore",
+       "edsText": "bangalore",
+       "byPosition": false,
+       "origin": {
+        "x": 25,
+        "y": 229,
+        "w": 203,
+        "h": 23
+       },
+       "eds": {
+        "x": 25,
+        "y": 229,
+        "w": 203,
+        "h": 23,
+        "sel": "p.co-card__title",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/23/600",
+        "eds": "16/23/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 723,
+       "y": 2309,
+       "w": 253,
+       "h": 294
+      },
+      "eds": {
+       "x": 723,
+       "y": 2309,
+       "w": 253,
+       "h": 293
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div > div > a#button-09a8f85720"
+     },
+     "eds": {
+      "path": "div.co-car__track > div.co-car__slide > a#button-09a8f85720"
+     },
+     "rows": [
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188,
+        "sel": "img.co-ii__sizer",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/500",
+        "eds": "16/0/500"
+       }
+      },
+      {
+       "key": "image:img#image-9ce8f38308#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188,
+        "sel": "img#image-9ce8f38308",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/500",
+        "eds": "16/0/500"
+       }
+      },
+      {
+       "key": "box:div.LinkCardstyle__LinkCardContent-sc-1nxo9pt-2.ihgjRr#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 189,
+        "w": 251,
+        "h": 103
+       },
+       "eds": {
+        "x": 1,
+        "y": 189,
+        "w": 251,
+        "h": 103,
+        "sel": "div.co-card__content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/500",
+        "eds": "16/16/500"
+       }
+      },
+      {
+       "key": "text:berlin",
+       "role": "text",
+       "text": "berlin",
+       "edsText": "berlin",
+       "byPosition": false,
+       "origin": {
+        "x": 25,
+        "y": 229,
+        "w": 203,
+        "h": 23
+       },
+       "eds": {
+        "x": 25,
+        "y": 229,
+        "w": 203,
+        "h": 23,
+        "sel": "p.co-card__title",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/23/600",
+        "eds": "16/23/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1000,
+       "y": 2309,
+       "w": 253,
+       "h": 294
+      },
+      "eds": {
+       "x": 1000,
+       "y": 2309,
+       "w": 253,
+       "h": 293
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div > div > a#button-af79c7866a"
+     },
+     "eds": {
+      "path": "div.co-car__track > div.co-car__slide > a#button-af79c7866a"
+     },
+     "rows": [
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188,
+        "sel": "img.co-ii__sizer",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/500",
+        "eds": "16/0/500"
+       }
+      },
+      {
+       "key": "image:img#image-13aff47112#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 251,
+        "h": 188,
+        "sel": "img#image-13aff47112",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/500",
+        "eds": "16/0/500"
+       }
+      },
+      {
+       "key": "box:div.LinkCardstyle__LinkCardContent-sc-1nxo9pt-2.ihgjRr#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 189,
+        "w": 251,
+        "h": 103
+       },
+       "eds": {
+        "x": 1,
+        "y": 189,
+        "w": 251,
+        "h": 103,
+        "sel": "div.co-card__content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/500",
+        "eds": "16/16/500"
+       }
+      },
+      {
+       "key": "text:copenhagen",
+       "role": "text",
+       "text": "copenhagen",
+       "edsText": "copenhagen",
+       "byPosition": false,
+       "origin": {
+        "x": 25,
+        "y": 229,
+        "w": 203,
+        "h": 23
+       },
+       "eds": {
+        "x": 25,
+        "y": 229,
+        "w": 203,
+        "h": 23,
+        "sel": "p.co-card__title",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/23/600",
+        "eds": "16/23/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1277,
+       "y": 2309,
+       "w": 253,
+       "h": 294
+      },
+      "eds": {
+       "x": 1277,
+       "y": 2309,
+       "w": 253,
+       "h": 293
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 5,
+  "within": 20,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

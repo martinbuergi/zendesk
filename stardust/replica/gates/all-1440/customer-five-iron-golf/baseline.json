@@ -1,0 +1,54 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-20T20:13:11.126Z",
+  "url": "https://www.zendesk.com/customer/five-iron-golf/",
+  "width": 1440,
+  "vh": 900,
+  "height": 7245,
+  "settle": true,
+  "chunks": 9,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 4,
+    "late": 1
+  },
+  "primed": true,
+  "prime": {
+    "height": 7245,
+    "pct": 0,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    7245,
+    7245
+  ],
+  "noiseFloor": 0,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [],
+  "variableShare": 0,
+  "maskArg": "",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-20T20:13:52.257Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

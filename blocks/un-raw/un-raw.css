@@ -1,0 +1,28 @@
+/* un-raw — live /blog-ads-api-output/: no header / footer, user-agent defaults only
+   (body margin 8px, 16px Times, line-height normal, black on white, words wrap at spaces). */
+
+.un-raw {
+  margin: 8px;
+  color: rgb(0 0 0);
+  font-family: "Times New Roman", times, serif;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.un-raw .un-raw-text p {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  overflow-wrap: normal;
+}
+
+body:has(.un-raw) main .section {
+  margin: 0;
+  padding: 0;
+}
+
+body:has(.un-raw) main .un-raw-wrapper {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}

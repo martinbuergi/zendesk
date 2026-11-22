@@ -1,0 +1,84 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-21T18:00:58.627Z",
+ "content": {
+  "totals": {
+   "missingHeadings": 1,
+   "hiddenHeadings": 0,
+   "extraHeadings": 1,
+   "missingLinks": 0,
+   "hiddenLinks": 0,
+   "movedLinks": 0,
+   "extraLinks": 0,
+   "missingButtons": 0,
+   "hiddenButtons": 0,
+   "controlState": 0,
+   "countDeltas": 2,
+   "findings": 6,
+   "structural": 1,
+   "missing": 1,
+   "hidden": 0
+  },
+  "variable": [
+   "div.sc-c38018e9-0=.bl-latest-head",
+   "div.StyledInnerPanel-sc-8nbueg-0=.bl-filters-panel"
+  ],
+  "reason": "marketplace directory (cluster-listing): the live result count and the filter option counts come from the live apps catalogue (Algolia, changes daily; D3 interim: authored as captured); compared as counts.",
+  "tier": "chrome"
+ },
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 2,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 1,
+   "textNodes": 213,
+   "controls": 120,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "TEXT CLAMPED",
+    "advisory": true,
+    "n": 2,
+    "clipper": "p",
+    "path": "div.bl-tile > a.bl-tile-body > div.bl-tile-text.bl-tile-text-2 > p",
+    "text": "automate bulk suspended ticket process. manage spam with the",
+    "cutMin": null,
+    "cutMax": null
+   }
+  ],
+  "origin": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 2,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 0,
+   "textNodes": 245,
+   "controls": 130,
+   "total": 0
+  },
+  "source": "content-presence"
+ },
+ "units": {
+  "verdict": {
+   "units": 0,
+   "within": 0,
+   "off": 0,
+   "hidden": 0,
+   "missing": 0,
+   "errors": 2,
+   "requiredOff": 0
+  },
+  "required": false
+ }
+}

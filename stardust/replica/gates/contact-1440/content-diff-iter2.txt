@@ -1,0 +1,21 @@
+[live-session] waiting to pace live navigations to www.zendesk.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 689 ms
+
+Content diff @ 1440px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 581 text nodes — 32 headings, 1 eyebrows, 49 CTAs, 499 body; 0 img
+  build: 583 text nodes — 32 headings, 1 eyebrows, 49 CTAs, 501 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 70 / build 70
+  attributes (placeholder/aria-label/title): source 52 / build 52; icons: source 53 / build 53
+root "header": absent on both sides (no <header> / [role="banner"] outside the main root(s)) — not compared
+root "footer"
+  source: 6 text nodes — 0 headings, 0 eyebrows, 6 CTAs, 0 body; 0 img
+  build: 6 text nodes — 0 headings, 0 eyebrows, 6 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 2 / build 2; icons: source 1 / build 1
+
+Findings: 4 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 4
+  🟡 EXTRA [main]: build body "Select" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "Select" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 ICON MOVED [main]: source inline svg 0 0 24 24 / 1 shape(s) (0×0) at "select afghanistan albania algeria ameri" is at "select select afghanistan albania algeri" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [main]: source inline svg 0 0 24 24 / 1 shape(s) (24×24) at "select afghanistan albania algeria ameri" is at "select select afghanistan albania algeri" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.

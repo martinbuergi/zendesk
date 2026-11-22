@@ -1,0 +1,46 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-21T16:04:47.089Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 1,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 1,
+   "textNodes": 242,
+   "controls": 187,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "TEXT CLAMPED",
+    "advisory": true,
+    "n": 1,
+    "clipper": "p",
+    "path": "div.bl-card > a.bl-card-link > div.bl-card-desc > p",
+    "text": "2,000 global it leaders and employees shared their insights ",
+    "cutMin": null,
+    "cutMax": null
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ },
+ "units": {
+  "verdict": {
+   "units": 0,
+   "within": 0,
+   "off": 0,
+   "hidden": 0,
+   "missing": 0,
+   "errors": 2,
+   "requiredOff": 0
+  },
+  "required": false
+ }
+}

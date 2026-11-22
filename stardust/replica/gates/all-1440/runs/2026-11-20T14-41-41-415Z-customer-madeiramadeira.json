@@ -1,0 +1,815 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-20T14:41:41.415Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.zendesk.com",
+    "eds": "https://main--3055ed88--aemcoder.aem.page",
+    "edsHostOverride": "https://main--3055ed88--aemcoder.aem.page",
+    "only": [
+      "customer-madeiramadeira",
+      "customer-serasa-experian",
+      "customer-nortek",
+      "customer-resurs-bank",
+      "customer-mimecast",
+      "customer-dfin",
+      "customer-koho",
+      "customer-bgl"
+    ]
+  },
+  "totals": {
+    "pages": 8,
+    "pass": 1,
+    "pixelOnlyPass": 1,
+    "overridePass": 0,
+    "fail": 7,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 5,
+    "failHeight": 2,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 1,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 0,
+    "failOffsets": 5,
+    "referenceUnstable": 0,
+    "passWithOverrides": 1
+  },
+  "rows": [
+    {
+      "slug": "customer-bgl",
+      "path": "/customer/bgl/",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 10.62,
+      "textPct": 14.44,
+      "heightDelta": -256,
+      "originH": 6338,
+      "edsH": 6594,
+      "alignedPct": 5.57,
+      "alignedUsed": true,
+      "totalShift": 256,
+      "steps": [
+        {
+          "y": 2925,
+          "shift": 46,
+          "cumulative": 46
+        },
+        {
+          "y": 3932,
+          "shift": 49,
+          "cumulative": 95
+        },
+        {
+          "y": 4468,
+          "shift": 114,
+          "cumulative": 209
+        },
+        {
+          "y": 5437,
+          "shift": 47,
+          "cumulative": 256
+        }
+      ],
+      "offsetBound": 63,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel"
+      ],
+      "unwaived": [
+        "pixel"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "offsets: 4 step(s), 256px total — +46px at y=2925, +49px at y=3932, +114px at y=4468, +47px at y=5437 (bound 63px)"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 5,
+        "variable": []
+      },
+      "units": {
+        "units": 10,
+        "within": 22,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/customer-bgl",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "3000-3500:31.1%",
+        "4500-5000:34.4%",
+        "5000-5500:34.9%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "customer-dfin",
+      "path": "/customer/dfin/",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 6.52,
+      "textPct": 12.94,
+      "heightDelta": -463,
+      "originH": 6909,
+      "edsH": 7372,
+      "alignedPct": 6.52,
+      "alignedUsed": false,
+      "totalShift": 0,
+      "steps": [],
+      "offsetBound": null,
+      "pixelPass": true,
+      "heightPass": false,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "height"
+      ],
+      "unwaived": [
+        "height"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "Δh -463px > 5% of 6909"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 9,
+        "variable": []
+      },
+      "units": {
+        "units": 9,
+        "within": 20,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/customer-dfin",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "3000-3500:25%",
+        "3500-4000:32.2%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "customer-koho",
+      "path": "/customer/koho/",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 7.38,
+      "textPct": 10.79,
+      "heightDelta": -247,
+      "originH": 4875,
+      "edsH": 5122,
+      "alignedPct": 7.38,
+      "alignedUsed": false,
+      "totalShift": 0,
+      "steps": [],
+      "offsetBound": null,
+      "pixelPass": true,
+      "heightPass": false,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "height"
+      ],
+      "unwaived": [
+        "height"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "Δh -247px > 5% of 4875"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 4,
+        "variable": []
+      },
+      "units": {
+        "units": 9,
+        "within": 20,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/customer-koho",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "2000-2500:19.1%",
+        "2500-3000:34.7%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "customer-madeiramadeira",
+      "path": "/customer/madeiramadeira/",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 18.29,
+      "textPct": 20.07,
+      "heightDelta": -379,
+      "originH": 8727,
+      "edsH": 9106,
+      "alignedPct": 8.65,
+      "alignedUsed": true,
+      "totalShift": 379,
+      "steps": [
+        {
+          "y": 2422,
+          "shift": 65,
+          "cumulative": 65
+        },
+        {
+          "y": 3683,
+          "shift": 77,
+          "cumulative": 142
+        },
+        {
+          "y": 5010,
+          "shift": 29,
+          "cumulative": 171
+        },
+        {
+          "y": 6948,
+          "shift": 92,
+          "cumulative": 263
+        },
+        {
+          "y": 7943,
+          "shift": 116,
+          "cumulative": 379
+        }
+      ],
+      "offsetBound": 87,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel"
+      ],
+      "unwaived": [
+        "pixel"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "offsets: 5 step(s), 379px total — +65px at y=2422, +77px at y=3683, +29px at y=5010, +92px at y=6948, +116px at y=7943 (bound 87px)"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 5,
+        "variable": []
+      },
+      "units": {
+        "units": 9,
+        "within": 20,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/customer-madeiramadeira",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "2500-3000:39.3%",
+        "3500-4000:32.3%",
+        "4000-4500:43.4%",
+        "5000-5500:44.2%",
+        "5500-6000:30.4%",
+        "6000-6500:17.7%",
+        "6500-7000:48.2%",
+        "7000-7500:22.3%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "customer-mimecast",
+      "path": "/customer/mimecast/",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 8.01,
+      "textPct": 10,
+      "heightDelta": -60,
+      "originH": 7522,
+      "edsH": 7582,
+      "alignedPct": 0.82,
+      "alignedUsed": true,
+      "totalShift": 60,
+      "steps": [
+        {
+          "y": 2828,
+          "shift": 15,
+          "cumulative": 15
+        },
+        {
+          "y": 4247,
+          "shift": 15,
+          "cumulative": 30
+        },
+        {
+          "y": 5366,
+          "shift": 15,
+          "cumulative": 45
+        },
+        {
+          "y": 6335,
+          "shift": 15,
+          "cumulative": 60
+        }
+      ],
+      "offsetBound": 75,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 4,
+        "variable": []
+      },
+      "units": {
+        "units": 9,
+        "within": 20,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/customer-mimecast",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "3500-4000:15.6%",
+        "5000-5500:20.3%",
+        "5500-6000:19.1%",
+        "6000-6500:26.5%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "customer-nortek",
+      "path": "/customer/nortek/",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 13.85,
+      "textPct": 14.33,
+      "heightDelta": -157,
+      "originH": 6261,
+      "edsH": 6418,
+      "alignedPct": 4,
+      "alignedUsed": true,
+      "totalShift": 157,
+      "steps": [
+        {
+          "y": 2235,
+          "shift": 34,
+          "cumulative": 34
+        },
+        {
+          "y": 3267,
+          "shift": 49,
+          "cumulative": 83
+        },
+        {
+          "y": 4234,
+          "shift": 25,
+          "cumulative": 108
+        },
+        {
+          "y": 5360,
+          "shift": 49,
+          "cumulative": 157
+        }
+      ],
+      "offsetBound": 63,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel",
+        "units"
+      ],
+      "unwaived": [
+        "pixel",
+        "units"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "offsets: 4 step(s), 157px total — +34px at y=2235, +49px at y=3267, +25px at y=4234, +49px at y=5360 (bound 63px)",
+        "units off 0 hidden 0 missing 0"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 5,
+        "variable": []
+      },
+      "units": {
+        "units": 5,
+        "within": 12,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 1,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/customer-nortek",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "2500-3000:23%",
+        "3000-3500:17.3%",
+        "3500-4000:36%",
+        "4000-4500:18.5%",
+        "4500-5000:38.6%",
+        "5000-5500:16%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "customer-resurs-bank",
+      "path": "/customer/resurs-bank/",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 10.61,
+      "textPct": 16,
+      "heightDelta": -123,
+      "originH": 6284,
+      "edsH": 6407,
+      "alignedPct": 5.19,
+      "alignedUsed": true,
+      "totalShift": 123,
+      "steps": [
+        {
+          "y": 2902,
+          "shift": 53,
+          "cumulative": 53
+        },
+        {
+          "y": 3630,
+          "shift": 62,
+          "cumulative": 115
+        },
+        {
+          "y": 4635,
+          "shift": 7,
+          "cumulative": 122
+        },
+        {
+          "y": 5365,
+          "shift": 1,
+          "cumulative": 123
+        }
+      ],
+      "offsetBound": 63,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel"
+      ],
+      "unwaived": [
+        "pixel"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "offsets: 4 step(s), 123px total — +53px at y=2902, +62px at y=3630, +7px at y=4635, +1px at y=5365 (bound 63px)"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 4,
+        "variable": []
+      },
+      "units": {
+        "units": 8,
+        "within": 18,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/customer-resurs-bank",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "2500-3000:16.1%",
+        "3500-4000:31.1%",
+        "4000-4500:19.7%",
+        "4500-5000:21.7%",
+        "5000-5500:20.1%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "customer-serasa-experian",
+      "path": "/customer/serasa-experian/",
+      "template": "article",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 8.3,
+      "textPct": 10.74,
+      "heightDelta": -119,
+      "originH": 5713,
+      "edsH": 5832,
+      "alignedPct": 5.51,
+      "alignedUsed": true,
+      "totalShift": 119,
+      "steps": [
+        {
+          "y": 2398,
+          "shift": 41,
+          "cumulative": 41
+        },
+        {
+          "y": 4009,
+          "shift": 30,
+          "cumulative": 71
+        },
+        {
+          "y": 4929,
+          "shift": 48,
+          "cumulative": 119
+        }
+      ],
+      "offsetBound": 57,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": true,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel"
+      ],
+      "unwaived": [
+        "pixel"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "offsets: 3 step(s), 119px total — +41px at y=2398, +30px at y=4009, +48px at y=4929 (bound 57px)"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 5,
+        "variable": []
+      },
+      "units": {
+        "units": 9,
+        "within": 20,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 0,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-1440/customer-serasa-experian",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "2500-3000:31.7%",
+        "3500-4000:29.6%"
+      ],
+      "error": null
+    }
+  ]
+}

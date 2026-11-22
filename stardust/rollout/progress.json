@@ -1,0 +1,750 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [],
+      "pages": 0,
+      "startedAt": "2026-11-20T11:47:15.621Z",
+      "endedAt": "2026-11-20T12:18:26.092Z",
+      "blocks": 2,
+      "gates": {
+        "1440": {
+          "chromeParity": "header 10/10 quiet, footer 75/75 quiet, 0 deltas (vs live home, 404 shell)"
+        },
+        "chrome": "0 deltas"
+      },
+      "verdict": "foundation: chrome docs 7/7 live, lint clean, fonts 10 faces, header gen-A+gen-B, requests folded 6; foundation gate chrome-parity 1440 0 deltas"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "archetype": "index",
+      "pages": 1,
+      "startedAt": "2026-11-20T12:18:40.505Z",
+      "endedAt": "2026-11-20T13:13:21.244Z",
+      "blocks": 13,
+      "gates": {
+        "360": {
+          "archetype": "0.65% dh 0"
+        },
+        "1440": {
+          "archetype": "0.56% dh 0"
+        },
+        "crop": "header 0.59%/0.67%, footer 1.16%/0.22%",
+        "chrome": "0 deltas (1440)"
+      },
+      "verdict": "archetype-landing: page live, blocks 13 (hp-*), gate 1440 0.56% Δh 0 / 360 0.65% Δh 0, clipped 0, missing 0, crop header 0.59%/0.67% footer 1.16%/0.22%, chrome 0 deltas, requests 1; residual: Rive hero needs same-origin .riv (plays after cut-over), 3 uncaptured images"
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "archetype": "blog",
+      "pages": 1,
+      "startedAt": "2026-11-20T13:14:32.835Z",
+      "endedAt": "2026-11-20T13:53:29.203Z",
+      "blocks": 6,
+      "gates": {
+        "360": {
+          "archetype": "0.38% dh 0"
+        },
+        "1440": {
+          "archetype": "0.41% dh -3"
+        },
+        "crop": "header 0.53%/footer 0.01% (360 0.10%/0.00%)",
+        "chrome": "0 deltas"
+      },
+      "verdict": "archetype-listing: page live, blocks 6 (bl-subnav, bl-hero, bl-group, bl-guides, bl-latest + reused hp-teaser), gate 1440 0.41% Δh -3 / 360 0.38% Δh 0, clipped 0 at 1440 / 11 at 360 (allowance 11, live 4-line clamp), missing 0, crop header 0.53%/footer 0.01% (360: 0.10%/0.00%), chrome 0 deltas, requests 0"
+    },
+    "archetype-static": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "static"
+      ],
+      "archetype": "company",
+      "pages": 1,
+      "startedAt": "2026-11-20T13:14:32.835Z",
+      "endedAt": "2026-11-20T13:33:48.819Z",
+      "blocks": 4,
+      "gates": {
+        "360": {
+          "archetype": "0.15% dh 0"
+        },
+        "1440": {
+          "archetype": "0.04% dh 0"
+        },
+        "crop": "header 0.00%/footer 0.00%",
+        "chrome": "0 deltas"
+      },
+      "verdict": "archetype-static: page live, blocks 4 (co-teaser, co-carousel, co-promo, co-cta), gate 1440 0.04% Δh 0 / 360 0.15% Δh 0, clipped 0, missing 0, crop header 0.00%/footer 0.00%, chrome 0 deltas, requests 0"
+    },
+    "archetype-unique": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "unique"
+      ],
+      "archetype": "pricing",
+      "pages": 1,
+      "startedAt": "2026-11-20T13:14:32.835Z",
+      "endedAt": "2026-11-20T14:08:28.856Z",
+      "blocks": 9,
+      "gates": {
+        "360": {
+          "archetype": "0.67% dh -1"
+        },
+        "1440": {
+          "archetype": "0.39% dh 0"
+        },
+        "crop": "header 0%/footer 0.06%",
+        "chrome": "0 deltas"
+      },
+      "verdict": "archetype-unique: page live, blocks 9 (pr-head, pr-plans, pr-modal, pr-split, pr-logos, pr-faq, pr-final, pr-matrix, sv-form reused), gate 1440 0.39% Δh 0 / 360 0.67% Δh -1, clipped 0, missing 0, crop header 0%/footer 0.06%, chrome 0 deltas, requests 0"
+    },
+    "archetype-form": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "form"
+      ],
+      "archetype": "contact",
+      "pages": 1,
+      "startedAt": "2026-11-20T13:33:58.584Z",
+      "endedAt": "2026-11-20T13:50:53.170Z",
+      "blocks": 3,
+      "gates": {
+        "360": {
+          "archetype": "0.13% dh 0"
+        },
+        "1440": {
+          "archetype": "0.06% dh 0"
+        },
+        "crop": "header 0.00%/footer 0.00%",
+        "chrome": "0 deltas"
+      },
+      "verdict": "archetype-form: page live, blocks 3 (fm-hero, fm-form, fm-offices), gate 1440 0.06% Δh 0 / 360 0.13% Δh 0, clipped 0, missing 0, crop header 0.00%/footer 0.00%, chrome 0 deltas, requests 0"
+    },
+    "archetype-program": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "program"
+      ],
+      "archetype": "service",
+      "pages": 1,
+      "startedAt": "2026-11-20T12:18:40.505Z",
+      "endedAt": "2026-11-20T12:59:08.780Z",
+      "blocks": 11,
+      "gates": {
+        "360": {
+          "archetype": "0.56% dh 18"
+        },
+        "1440": {
+          "archetype": "0.26% dh 0"
+        },
+        "crop": "1440 header 1.51%/footer 1.16%; 360 header 20.22% (promo-strip content differs per page — foundation request) / footer 0%",
+        "chrome": "1440 0; 360 7 (promo strip)"
+      },
+      "verdict": "archetype-program: page live, blocks 11, gate 1440 0.26% Δh 0 / 360 0.56% Δh 18, clipped 0, missing 0, crop header 1.51%/footer 1.16% at 1440 (360 header 20.22% promo-strip residual), chrome 7 deltas at 360, requests 1"
+    },
+    "archetype-article": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "article"
+      ],
+      "archetype": "customer-canva",
+      "pages": 1,
+      "startedAt": "2026-11-20T12:18:40.505Z",
+      "endedAt": "2026-11-20T12:51:53.769Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "archetype": "0.10% dh 0"
+        },
+        "1440": {
+          "archetype": "0.03% dh 0"
+        },
+        "crop": "header 100%/footer 100% (360 header 99.31%)",
+        "chrome": "2 header deltas (logo name, foundation request)"
+      },
+      "verdict": "archetype-article: page live, blocks 5 (zb-story-hero, zb-quotes, zb-facts, zb-stats, zb-article), gate 1440 0.03% Δh 0 / 360 0.10% Δh 0, clipped 0, missing 0, crop header 100.00%/footer 100.00%, chrome 2 deltas, requests 2"
+    },
+    "cluster-listing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "listing"
+      ],
+      "archetype": "blog",
+      "pages": 7,
+      "slugs": [
+        "marketplace",
+        "customer",
+        "newsroom",
+        "industries",
+        "marketplace-apps",
+        "marketplace-partners",
+        "marketplace-themes"
+      ],
+      "startedAt": "2026-11-20T22:57:52.000Z",
+      "endedAt": "2026-11-21T01:50:56.000Z",
+      "blocks": 6,
+      "gates": {
+        "360": {
+          "worst": "14.59% (marketplace)",
+          "pass": "4/7"
+        },
+        "1440": {
+          "worst": "5.35% (marketplace)",
+          "pass": "5/7"
+        },
+        "crop": "header 0.88% / footer 0% (marketplace)",
+        "chrome": "7 deltas (marketplace header: link-only Apps/Connectors/Themes/Partners menus, no chevrons — dropdown contents not in the capture)"
+      },
+      "residuals": {
+        "marketplace@1440": "5.35% pixel, offsets 77>76px — live-randomized catalogue rails (featured apps / themes / partners re-shuffle per visit; authored as captured, D3)",
+        "marketplace-themes@1440": "5.31% pixel, offsets 143>45px — theme card text block and badge strips vs live cards (per-row steps)",
+        "marketplace@360": "14.59% pixel — same live-randomized rails + theme screenshots, resources photo band",
+        "customer@360": "4.73% pixel, offsets 158>71px — featured story title wraps (-56px, gen-B font metrics), logo carousel/promo spacing",
+        "marketplace-partners@360": "3.79% pixel, offsets 123>111px — open Region filter group (+69px) and partner card text vs the live accordion",
+        "content": "directories' result-count heading moves daily on live (2013 captured vs 2031) — overrides.json waives content for marketplace-apps/-partners/-themes; rails/filter counts compared as counts via presence.json",
+        "h1": "newsroom + 3 directories have no h1 on live — carried deviation",
+        "davids-model": "customer: D1 video link inside bl-hero (popover play control, same Wistia src)"
+      },
+      "requests": 0,
+      "verdict": "cluster-listing: pages 7/7 live, blocks 6, gate 1440 5.35% / 360 14.59% (worst marketplace), requests 0"
+    },
+    "cluster-static": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "static"
+      ],
+      "archetype": "company",
+      "pages": 3,
+      "slugs": [
+        "trust-center",
+        "sitemap",
+        "what-is-zendesk"
+      ],
+      "startedAt": "2026-11-20T20:27:03.882Z",
+      "endedAt": "2026-11-20T21:32:53.701Z",
+      "blocks": 10,
+      "gates": {
+        "360": {
+          "worst": "2.97% (trust-center)"
+        },
+        "1440": {
+          "worst": "1.93% (trust-center)"
+        },
+        "crop": "header 0% / footer 1.34% (what-is-zendesk)",
+        "chrome": "0 deltas"
+      },
+      "residuals": [
+        "sitemap: no h1 (live has none) — carried deviation",
+        "trust-center: 3 delivery-lint P1 one-cta-per-p (inline bold links in source paragraphs)",
+        "trust-center: 57px empty Legal heading dropped",
+        "hero eyebrow role swap in render vs EDS (EDS matches live)"
+      ],
+      "verdict": "cluster-static: pages 3/3 live, blocks 10, gate 1440 1.93% / 360 2.97% (worst trust-center), requests 0"
+    },
+    "cluster-form-1": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "form"
+      ],
+      "archetype": "contact",
+      "pages": 6,
+      "slugs": [
+        "login",
+        "register",
+        "demo",
+        "instapage-form-demo",
+        "instapage-form-contact",
+        "instapage-form-trial-teaser-sell"
+      ],
+      "startedAt": "2026-11-21T00:06:26.000Z",
+      "endedAt": "2026-11-21T01:09:37.000Z",
+      "blocks": 3,
+      "gates": {
+        "360": {
+          "worst": "2.67% (instapage-form-trial-teaser-sell)",
+          "pass": "6/6"
+        },
+        "1440": {
+          "worst": "1.11% (instapage-form-trial-teaser-sell)",
+          "pass": "6/6"
+        },
+        "crop": "header 1.12% / footer 2.77% (login; footer delta = live messaging-widget launcher, D7 off)",
+        "chrome": "2 deltas (login header: promo text Δx -8px, foundation promo centring)",
+        "archetype": "contact re-gated after block edits: 1440 0.06% / 360 0.13% PASS"
+      },
+      "residuals": [
+        "instapage-form-demo/-contact/-trial-teaser-sell: no h1 (live has none) — delivery-lint P0 h1, carried deviation",
+        "multi-step forms (register 7 steps, demo/instapage-form-demo 6, instapage-form-contact 2): only step 1 shown, later-step fields authored with the hidden flag (interim D2: UI + client validation, no backend)",
+        "login 'Forgot your subdomain?' has no href on live (JS action) — authored to https://www.zendesk.com/login/ (D5 interim)",
+        "chrome: legal-footer wordmark and /login/ promo copy margin shipped as scoped overrides in fm-hero.css; /demo/ mobile CTA lime (live outlined) + no hamburger — foundation requests",
+        "register 1440: live autofocuses the email field (focus ring); EDS does not"
+      ],
+      "requests": 2,
+      "verdict": "cluster-form-1: pages 6/6 live, blocks 3, gate 1440 1.11% / 360 2.67% (worst page), requests 2"
+    },
+    "cluster-form-2": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "form"
+      ],
+      "archetype": "contact",
+      "pages": 6,
+      "slugs": [
+        "instapage-form-webinar",
+        "instapage-form-trial-teaser-suite",
+        "instapage-form-trial-teaser-suite-inline",
+        "instapage-form-newsletter",
+        "instapage-form-content",
+        "free-trial"
+      ],
+      "startedAt": "2026-11-21T01:52:23.146Z",
+      "endedAt": "2026-11-21T03:05:26.591Z",
+      "blocks": 6,
+      "gates": {
+        "360": {
+          "worst": "3.57% Δh 71px (free-trial)",
+          "pass": "6/6"
+        },
+        "1440": {
+          "worst": "1.72% Δh 67px (free-trial)",
+          "pass": "6/6"
+        },
+        "crop": "header 0.45% / footer 1.24% (free-trial)",
+        "chrome": "footer 75/75 texts; header 6 deltas from extra /nav Language item (foundation request)",
+        "archetype": "contact re-gated after fm-form edits: 1440 0.06% / 360 0.13% PASS"
+      },
+      "residuals": [
+        "instapage-form-* and free-trial: no h1, as live (carried deviation)",
+        "instapage-form-webinar: step 1 only (D2 interim); Country shows Select placeholder (live geo-preselects in JS)",
+        "free-trial: hp-duo checklist without check-circle icons; logo marquee glow approximated",
+        "free-trial: block-roundtrip role-swap on fm-quotes/pr-faq/hp-res vs flattened sibling render; live gate MISSING 0 HIDDEN 0; EW 88/88",
+        "free-trial header: extra /nav Language item",
+        "gate-evidence sidecars not written for --only runs; verdicts in coverage"
+      ],
+      "requests": 1,
+      "verdict": "cluster-form-2: pages 6/6 live, blocks 6, gate 1440 1.72% / 360 3.57% (worst free-trial), requests 1"
+    },
+    "cluster-program-1": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "program"
+      ],
+      "archetype": "service",
+      "pages": 5,
+      "slugs": [
+        "employee-experience",
+        "partner",
+        "employee-service",
+        "sell",
+        "platform"
+      ],
+      "startedAt": "2026-11-20T17:02:05.862Z",
+      "endedAt": "2026-11-20T20:18:33.135Z",
+      "blocks": 11,
+      "gates": {
+        "360": {
+          "worst": "9.93% (sell)",
+          "pass": "2/5"
+        },
+        "1440": {
+          "worst": "8.5% (employee-experience)",
+          "pass": "5/5"
+        },
+        "crop": "header 0% / footer 1.24% (partner)",
+        "chrome": "0 deltas (partner)"
+      },
+      "residuals": {
+        "employee-experience@360": "7.94% pixel, offsets 345>90 px — 102 px live campaign strip absent in legacy header (foundation request)",
+        "employee-service@360": "3.54% pixel, offsets 242>135 px — 18 px promo copy + accumulated small spacing",
+        "sell@360": "9.93% pixel, offsets 558>106 px, +420 px — live mobile logo carousel and round closing image not reproduced"
+      },
+      "requests": 1,
+      "verdict": "cluster-program-1: pages 5/5 live, blocks 11, gate 1440 8.5% (employee-experience) / 360 9.93% (sell), 3 residuals at 360 after round cap, requests 1"
+    },
+    "cluster-program-2": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "program"
+      ],
+      "archetype": "service",
+      "pages": 5,
+      "slugs": [
+        "repeatcustomer",
+        "why-zendesk",
+        "web-widget",
+        "professional-services",
+        "cxtrends"
+      ],
+      "startedAt": "2026-11-20T21:33:09.503Z",
+      "endedAt": "2026-11-21T00:05:18.000Z",
+      "blocks": 9,
+      "gates": {
+        "360": {
+          "worst": "4.5% (cxtrends)",
+          "pass": "5/5"
+        },
+        "1440": {
+          "worst": "6.63% (professional-services)",
+          "pass": "5/5"
+        },
+        "crop": "header 0% / footer 0.47% (why-zendesk)",
+        "chrome": "0 deltas (why-zendesk)"
+      },
+      "residuals": {},
+      "requests": 2,
+      "verdict": "cluster-program-2: pages 5/5 live, blocks 9, gate 1440 6.63% / 360 4.5% (worst page), requests 2"
+    },
+    "cluster-unique": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "unique"
+      ],
+      "archetype": "pricing",
+      "pages": 3,
+      "slugs": [
+        "intro-tour",
+        "help-center-closed",
+        "blog-ads-api-output"
+      ],
+      "startedAt": "2026-11-21T01:52:23.146Z",
+      "endedAt": "2026-11-21T02:59:16.824Z",
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "worst": "1.35% (help-center-closed)",
+          "pass": "3/3"
+        },
+        "1440": {
+          "worst": "0.18% (help-center-closed)",
+          "pass": "3/3"
+        },
+        "crop": "header 0.03% / footer 1.74% (help-center-closed 1440, published)",
+        "chrome": "1 delta (help-center-closed desktop bar: live nav static vs EDS sticky; frozen header)",
+        "archetype": "pricing untouched (pr-* unit checks scoped to /pricing/ in units.json)"
+      },
+      "residuals": [
+        "intro-tour and blog-ads-api-output have no h1, as live (delivery-lint P0 accepted)",
+        "help-center-closed 360: slim header has no menu toggle (cluster-form-1 request)",
+        "un-tour minimal legal footer and help-center-closed promo strip height ride on scoped overrides until foundation requests are applied",
+        "coverage blocks.json has no rows for un-tour/un-raw (re-run blocks inventory at C-final)"
+      ],
+      "requests": 2,
+      "verdict": "cluster-unique: pages 3/3 live, blocks 2, gate 1440 0.18% / 360 1.35% (worst help-center-closed), requests 2"
+    },
+    "cluster-article-1": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "article"
+      ],
+      "archetype": "customer-canva",
+      "pages": 8,
+      "slugs": [
+        "customer-madeiramadeira",
+        "customer-serasa-experian",
+        "customer-nortek",
+        "customer-resurs-bank",
+        "customer-mimecast",
+        "customer-dfin",
+        "customer-koho",
+        "customer-bgl"
+      ],
+      "startedAt": "2026-11-20T14:05:48.037Z",
+      "endedAt": "2026-11-20T16:20:46.029Z",
+      "blocks": 3,
+      "gates": {
+        "360": {
+          "worst": "0.23% (serasa-experian)",
+          "archetype": "0.10%"
+        },
+        "1440": {
+          "worst": "0.15% (madeiramadeira)",
+          "archetype": "0.03%"
+        },
+        "crop": "header/footer 100% (koho)",
+        "chrome": "2 deltas (logo name, foundation request 1)"
+      },
+      "verdict": "cluster-article-1: pages 8/8 live, blocks 3 (zb-facts, zb-stats, zb-article changed), gate 1440 0.15% / 360 0.23% (worst page madeiramadeira at 1440, serasa-experian at 360), requests 0; nortek units check waived (no fact cards on live either, overrides.json)"
+    },
+    "cluster-article-2": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "article"
+      ],
+      "archetype": "customer-canva",
+      "pages": 8,
+      "slugs": [
+        "customer-deputy",
+        "customer-qantas-loyalty",
+        "customer-perk-es",
+        "customer-asaas",
+        "customer-recargapay",
+        "customer-liberty-tax",
+        "customer-motiva",
+        "customer-star21"
+      ],
+      "startedAt": "2026-11-20T16:21:43.064Z",
+      "endedAt": "2026-11-20T17:38:44.929Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "worst": "0.20% (motiva)",
+          "archetype": "0.10%"
+        },
+        "1440": {
+          "worst": "0.10% (liberty-tax)",
+          "archetype": "0.03%"
+        },
+        "crop": "header/footer 100% (deputy)",
+        "chrome": "2 deltas (logo name, as cluster-article-1)"
+      },
+      "verdict": "cluster-article-2: pages 8/8 live, blocks 5, gate 1440 0.10% (liberty-tax) / 360 0.20% (motiva), requests 0"
+    },
+    "cluster-article-3": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "article"
+      ],
+      "archetype": "customer-canva",
+      "pages": 8,
+      "slugs": [
+        "customer-petstock",
+        "customer-thoughtworks",
+        "customer-solo-by-myob",
+        "customer-givedirectly",
+        "customer-uneo",
+        "customer-trodo",
+        "customer-sealy-of-australia",
+        "customer-betmgm-brasil"
+      ],
+      "startedAt": "2026-11-20T17:38:51.013Z",
+      "endedAt": "2026-11-20T18:41:48.202Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "worst": "0.74% (petstock)"
+        },
+        "1440": {
+          "worst": "0.5% (petstock)"
+        },
+        "crop": "header/footer 0% (thoughtworks)",
+        "chrome": "2 deltas (logo name)"
+      },
+      "verdict": "cluster-article-3: pages 8/8 live, blocks 5, gate 1440 0.5% / 360 0.74% (worst page petstock), requests 0"
+    },
+    "cluster-article-4": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "article"
+      ],
+      "archetype": "customer-canva",
+      "pages": 8,
+      "slugs": [
+        "customer-the-smith-family",
+        "customer-catapult",
+        "customer-lucid-software-es",
+        "customer-coco-republic",
+        "customer-envato",
+        "customer-docebo",
+        "customer-tbauctions",
+        "customer-furnished-finder"
+      ],
+      "startedAt": "2026-11-20T18:45:28.070Z",
+      "endedAt": "2026-11-20T20:07:44.975Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "worst": "0.26% (coco-republic)"
+        },
+        "1440": {
+          "worst": "0.37% (docebo)"
+        },
+        "crop": "header/footer 0% (catapult)",
+        "chrome": "2 known deltas (logo name, footer y)"
+      },
+      "verdict": "cluster-article-4: pages 8/8 live, blocks 5, gate 1440 0.37% / 360 0.26% (worst docebo / coco-republic), requests 0"
+    },
+    "cluster-article-5": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "article"
+      ],
+      "archetype": "customer-canva",
+      "pages": 8,
+      "slugs": [
+        "customer-lucid-software-ai",
+        "customer-pure-insurance",
+        "customer-five-iron-golf",
+        "customer-github-es",
+        "customer-tesu",
+        "customer-inshur",
+        "customer-odeon-cinemas",
+        "customer-britbox"
+      ],
+      "startedAt": "2026-11-20T20:07:54.791Z",
+      "endedAt": "2026-11-20T21:23:17.041Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "worst": "0.77% (five-iron-golf)"
+        },
+        "1440": {
+          "worst": "0.18% (five-iron-golf)"
+        },
+        "crop": "header/footer 0% (lucid-software-ai)",
+        "chrome": "2 known deltas (logo aria-label)"
+      },
+      "verdict": "cluster-article-5: pages 8/8 live, blocks 5, gate 1440 0.18% / 360 0.77% (worst five-iron-golf), requests 0"
+    },
+    "cluster-article-6": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "article"
+      ],
+      "archetype": "customer-canva",
+      "pages": 8,
+      "slugs": [
+        "customer-sinch-engage",
+        "customer-zendesk-for-employee-service",
+        "customer-irc-video",
+        "customer-motel-rocks",
+        "customer-privy",
+        "customer-liberty-qa",
+        "customer-qualia",
+        "customer-miko"
+      ],
+      "startedAt": "2026-11-20T20:27:03.882Z",
+      "endedAt": "2026-11-20T21:39:26.842Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "worst": "0.92% (zendesk-for-employee-service)"
+        },
+        "1440": {
+          "worst": "0.49% (zendesk-for-employee-service)"
+        },
+        "crop": "header/footer 0% (privy)",
+        "chrome": "2 known deltas (logo aria-label)"
+      },
+      "residuals": [
+        "irc-video: units waiver (no quotes/stats on live), D1 video URL in block marked @ew-exempt (scripts.js frozen)"
+      ],
+      "verdict": "cluster-article-6: pages 8/8 live, blocks 5, gate 1440 0.49% / 360 0.92% (worst zendesk-for-employee-service), requests 0"
+    },
+    "cluster-article-7": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "article"
+      ],
+      "archetype": "customer-canva",
+      "pages": 8,
+      "slugs": [
+        "customer-ballys",
+        "customer-dupage-county",
+        "customer-yape",
+        "customer-babbel",
+        "customer-starshipit",
+        "customer-action-property-management",
+        "customer-easyfundraising",
+        "customer-shearcomfort"
+      ],
+      "startedAt": "2026-11-20T21:23:35.797Z",
+      "endedAt": "2026-11-20T22:57:00.000Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "worst": "1.06% (yape)"
+        },
+        "1440": {
+          "worst": "1.06% (yape)"
+        },
+        "crop": "header/footer 0% (easyfundraising)",
+        "chrome": "2 known deltas (logo aria-label)"
+      },
+      "verdict": "cluster-article-7: pages 8/8 live, blocks 5, gate 1440 1.06% / 360 1.06% (worst yape), requests 0"
+    },
+    "cluster-article-8": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "article"
+      ],
+      "archetype": "customer-canva",
+      "pages": 2,
+      "slugs": [
+        "customer-benevity",
+        "customer-quickmd"
+      ],
+      "startedAt": "2026-11-20T21:39:38.573Z",
+      "endedAt": "2026-11-20T22:01:10.229Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "worst": "0.21% (benevity)"
+        },
+        "1440": {
+          "worst": "0.1% (benevity)"
+        },
+        "crop": "header/footer 0% (benevity)",
+        "chrome": "2 known deltas (logo aria-label)"
+      },
+      "verdict": "cluster-article-8: pages 2/2 live, blocks 5, gate 1440 0.1% / 360 0.21% (worst benevity), requests 0"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [],
+      "pages": 100,
+      "todo": [
+        "DONE 2026-11-21: article meta double-escape re-PUT + published for dfin, motel-rocks, uneo (verified 3/3); others single-escaped",
+        "E2 link audit: 59 customer stories link Back-to-customer-stories to https://www.zendesk.com/customer/ — localize to /customer (hub live) in the link-audit pass",
+        "step 1 (C-final contract order): apply the 12 foundation-requests.md lines once, retire scoped overrides, re-gate affected archetypes at both widths; step 2: gate-all --skip-existing at 1440 and 360, --wide once, update-coverage --gate",
+        "step 1 DONE: foundation requests applied 9/12 (deferred 2 newsletter backend, 7 blog-family header, 9 slim mobile CTA/menu); 7/7 archetypes re-gated pass (1440 worst 0.56% index / 360 worst 0.67% pricing); employee-experience 360 still fails 7.03% offsets 243px (pre-existing); foundation re-frozen",
+        "step 2 DONE 2026-11-21: gate-all 360 complete, --wide report, update-coverage --gate 1440 & 360 (100/100 matched, 0 flips)"
+      ],
+      "startedAt": "2026-11-21T03:05:45.898Z",
+      "endedAt": "2026-11-21T17:18:12.385Z",
+      "gates": {
+        "360": "96 pass + 4 documented overrides = 100/100 delivered",
+        "1440": "96 pass + 4 documented overrides = 100/100 delivered",
+        "wide": "2560: 78/100 within threshold (report)"
+      },
+      "verdict": "gate-all: 1440 100/100 delivered (96 pass, 4 overrides), 360 100/100 delivered (96 pass, 4 overrides); wide 2560px: 5 page(s) over 10% or off in height — trust-center 9.49% Δh -1030px, marketplace-themes 25.51% Δh 704px, free-trial 9.25% Δh 465px, demo 34.59% Δh 90px, register 82.84% Δh 0px; coverage --gate 1440+360 applied, 0 flips"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [],
+      "pages": 100,
+      "startedAt": "2026-11-21T17:20:23.633Z",
+      "endedAt": "2026-11-21T17:20:23.633Z",
+      "verdict": "final: foundation-freeze check clean (25 files); requests applied 9/12 at C-final (3 deferred: newsletter backend, blog-family header, slim mobile CTA/menu); 7/7 archetypes re-gated; gate-all 1440+360 100/100 delivered; 93 sibling coverage paths aligned to delivered slashless paths (done-check pages_not_live 93 -> 0)"
+    }
+  }
+}

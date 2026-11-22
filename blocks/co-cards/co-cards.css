@@ -1,0 +1,105 @@
+/* co-cards — cream resource card grid (live Card: media 4:3, title 26, text, animated text link) */
+.co-cards.za-section {
+  background-color: var(--za-cream);
+}
+
+.co-cards .co-head {
+  justify-content: center;
+}
+
+.co-cards .co-head-col {
+  text-align: center;
+}
+
+.co-cards .co-text p {
+  margin: 0 0 16px;
+}
+
+.co-cards .co-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 48px;
+}
+
+.co-cards .co-card-media {
+  margin-bottom: 16px;
+  line-height: 0;
+}
+
+.co-cards .co-card-media p {
+  margin: 0;
+}
+
+.co-cards .co-card-media picture {
+  display: block;
+}
+
+.co-cards .co-card-media img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.co-cards .co-card-body :is(h2, h3, h4) {
+  padding-right: 16px;
+}
+
+.co-cards .co-card-body p {
+  margin: 0 0 16px;
+  padding-right: 16px;
+  color: var(--za-ink);
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.co-cards .co-card-link p {
+  margin: 0;
+}
+
+/* animated text link (live Linkstyle LinkText: 18 / 28.5 600, 1 px two-tone underline) */
+.co-cards .co-card-link a:any-link {
+  display: inline-block;
+  padding-bottom: 3px;
+  background-image: linear-gradient(90deg, rgb(17 17 13 / 70%) 0%, rgb(17 17 13 / 70%) 40%, transparent 40%, transparent 60%, rgb(17 17 13) 60%, rgb(17 17 13) 100%);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 250% 1px;
+  color: var(--za-ink);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28.5px;
+  transition: background-position 600ms var(--za-ease);
+}
+
+.co-cards .co-card-link a:any-link:hover {
+  background-position: 0% 100%;
+}
+
+@media (width >= 768px) {
+  .co-cards .co-head-col {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+  }
+
+  .co-cards .co-cards-col {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .co-cards .co-card {
+    margin-bottom: 0;
+  }
+
+  .co-cards .co-card-media {
+    margin-bottom: 24px;
+  }
+}
+
+@media (width >= 1150px) {
+  .co-cards .co-card-body p {
+    font-size: 16px;
+  }
+}

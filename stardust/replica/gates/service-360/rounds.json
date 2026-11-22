@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-20T09:41:07.105Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-20T09:42:56.575Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-20T09:52:47.303Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "service@360 iter3: pixel 0.17%, dh 0, units PASS, clipped 0, overflow ok; header crop 99.14%, footer crop 99.91%; main root 0 red / 0 nothing-lost. Remaining FAIL inputs are canon-a footer only (22 external-glyph icons + aria-labels, 'Cookie settings' link, 17 chrome-parity span/decoration deltas) — requested in stardust/replica/canon-requests.md; evidence content-diff-iter3.txt, chrome-parity-iter3.txt",
+          "at": "2026-11-20T09:53:01.600Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-20T12-54-36-568Z",
+          "at": "2026-11-20T12:54:36.569Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-20T19-20-36-511Z",
+          "at": "2026-11-20T19:20:36.513Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-20T19-34-46-486Z",
+          "at": "2026-11-20T19:34:46.488Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-20T19-50-10-165Z",
+          "at": "2026-11-20T19:50:10.167Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T00-01-56-285Z",
+          "at": "2026-11-21T00:01:56.285Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T03-33-44-505Z",
+          "at": "2026-11-21T03:33:44.511Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T03-45-18-405Z",
+          "at": "2026-11-21T03:45:18.410Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T04-09-29-639Z",
+          "at": "2026-11-21T04:09:29.643Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T08-10-02-335Z",
+          "at": "2026-11-21T08:10:02.342Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T09-14-02-480Z",
+          "at": "2026-11-21T09:14:02.482Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T09-56-11-022Z",
+          "at": "2026-11-21T09:56:11.034Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

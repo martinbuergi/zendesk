@@ -1,0 +1,451 @@
+/* sv-accordion — benefits accordion + media (live .gRaSNj) */
+
+/* centered section head (.kPWOqp row + .iQsVyi 8/12 col) */
+.sv-accordion .sv-head {
+  justify-content: center;
+  align-items: center;
+}
+
+.sv-accordion .sv-head-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sv-accordion .za-eyebrow { font-stretch: condensed; }
+
+.sv-accordion .za-eyebrow p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.sv-accordion .sv-lead { display: flow-root; }
+
+.sv-accordion .sv-accm-row { justify-content: space-between; }
+
+.sv-accordion .sv-accm-media { display: none; }
+
+@media (width >= 768px) {
+  .sv-accordion .sv-head-col {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+  }
+
+  .sv-accordion .sv-accm-media {
+    display: block;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .sv-accordion .sv-accm-list {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+  }
+
+  .sv-accordion.sv-accordion-plain .sv-accm-row { justify-content: center; }
+
+  .sv-accordion.sv-accordion-plain .sv-accm-list {
+    flex-basis: 66.6667%;
+    max-width: 66.6667%;
+  }
+}
+
+.sv-accordion .sv-accm-img {
+  display: none;
+  line-height: 0;
+}
+
+.sv-accordion .sv-accm-img.is-active {
+  display: flex;
+  justify-content: center;
+}
+
+.sv-accordion .sv-accm-img p,
+.sv-accordion .sv-acc-mmedia p { margin: 0; }
+
+.sv-accordion .sv-accm-img picture,
+.sv-accordion .sv-acc-mmedia picture { display: contents; }
+
+.sv-accordion .sv-accm-img img,
+.sv-accordion .sv-acc-mmedia img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.sv-accordion .sv-acc { border-top: 1px solid rgb(60 60 46); }
+
+.sv-accordion .sv-acc-head {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.sv-accordion .sv-acc-title {
+  flex: 1 1 100%;
+  cursor: pointer;
+  min-width: 0;
+  padding: 20px 0;
+  text-align: left;
+}
+
+.sv-accordion .sv-acc-title :is(h2, h3, h4, p) {
+  margin: 0;
+  color: var(--za-ink);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.sv-accordion .sv-acc-btn {
+  flex: 0 1 auto;
+  display: block;
+  min-width: 0;
+  width: 24px;
+  height: 24px;
+  color: var(--za-ink);
+  line-height: 0;
+  transition: transform 250ms;
+}
+
+.sv-accordion .sv-acc-btn svg {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.sv-accordion .sv-acc-item.is-open .sv-acc-btn { transform: rotate(180deg); }
+
+.sv-accordion .sv-acc-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  overflow: hidden;
+  padding: 0 16px;
+  border-bottom: 1px solid rgb(60 60 46);
+  font-size: 16px;
+  line-height: 1.25;
+  transition: padding 0.25s ease-in-out, grid-template-rows 0.25s ease-in-out;
+}
+
+.sv-accordion .sv-acc-item:last-child .sv-acc-panel { border-bottom: none; }
+
+.sv-accordion .sv-acc-item.is-open .sv-acc-panel {
+  grid-template-rows: 1fr;
+  padding-bottom: 24px;
+}
+
+.sv-accordion .sv-acc-inner {
+  overflow: hidden;
+  visibility: hidden;
+  font-size: inherit;
+  line-height: inherit;
+  transition: visibility 0.25s;
+}
+
+.sv-accordion .sv-acc-item.is-open .sv-acc-inner { visibility: visible; }
+
+.sv-accordion .sv-acc-inner .za-text { margin-bottom: 16px; }
+
+.sv-accordion .sv-acc-mmedia {
+  display: block;
+  margin-top: 32px;
+  line-height: 0;
+}
+
+@media (width >= 768px) {
+  .sv-accordion .sv-acc-head { padding: 0 20px; }
+
+  .sv-accordion .sv-acc-panel { padding: 0 48px 0 20px; }
+
+  .sv-accordion .sv-acc-mmedia { display: none; }
+}
+
+@media (width >= 1150px) {
+  .sv-accordion .sv-acc-title :is(h2, h3, h4, p) { font-size: 16px; }
+}
+
+/* ---------- program siblings ---------- */
+
+/* band colours (tint-<name> variants, measured per page) */
+.sv-accordion.tint-white { background-color: var(--za-white); }
+.sv-accordion.tint-grey { background-color: var(--zb-grey-100); }
+.sv-accordion.tint-cream { background-color: var(--za-cream); }
+
+@media (width >= 768px) {
+  /* `reverse`: list left, media right */
+  .sv-accordion.reverse .sv-accm-media { order: 2; }
+
+  /* `faq`: heading column left, list right (no media) */
+  .sv-accordion.faq .za-container {
+    display: grid;
+    grid-template-columns: 41.6667% 1fr;
+    align-items: start;
+  }
+
+  .sv-accordion.faq .za-container > * + * { margin-top: 0; }
+
+  .sv-accordion.faq .sv-head { justify-content: flex-start; }
+
+  .sv-accordion.faq .sv-head-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .sv-accordion.faq .sv-accm-list {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* aside card under the accordion (legacy "Sell on the go") */
+.sv-accordion .sv-acc-aside {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px 32px;
+  padding: 40px 32px;
+  background-color: var(--za-white);
+}
+
+.sv-accordion .sv-acc-aside p { margin: 0 0 8px; }
+
+.sv-accordion .sv-acc-aside-media img {
+  display: block;
+  width: 88px;
+  height: auto;
+}
+
+.sv-accordion .sv-acc-aside-text { flex: 1 1 300px; }
+
+@media (width >= 768px) {
+  .sv-accordion .sv-acc-aside { padding: 40px 120px; }
+}
+
+/* gen B (legacy Basestyle family) */
+.sv-accordion.legacy .za-container {
+  max-width: var(--zb-container);
+  padding: 0 var(--zb-gutter);
+}
+
+.sv-accordion.legacy .sv-head-col > h2,
+.sv-accordion.legacy .sv-acc-aside h2 {
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+}
+
+.sv-accordion.legacy .sv-acc-aside h2 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.sv-accordion.legacy .za-eyebrow,
+.sv-accordion.legacy .za-eyebrow :is(h2, p) {
+  margin: 0 0 8px;
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.sv-accordion.legacy .sv-acc { border-top-color: var(--zb-teal-900); }
+
+.sv-accordion.legacy .sv-acc-title :is(h3, h4, h5, p) {
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.sv-accordion.legacy :is(.sv-acc-inner, .sv-acc-aside) p {
+  color: var(--zb-teal-800);
+  font-family: var(--zb-font-body);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.sv-accordion.legacy .sv-acc-head { border-color: var(--zb-grey-300); }
+
+@media (width >= 768px) {
+  .sv-accordion.legacy .sv-head-col > h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+@media (width >= 1200px) {
+  .sv-accordion.legacy .sv-head-col > h2 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
+
+.sv-accordion.legacy .sv-acc-aside { margin-top: 180px; }
+
+/* `faq`: head left aligned at every width (live) */
+.sv-accordion.faq .sv-head { justify-content: flex-start; }
+
+.sv-accordion.faq .sv-head-col {
+  align-items: flex-start;
+  text-align: left;
+}
+
+/* an item's overlay picture shows only in the stacked legacy layout (below) */
+.sv-accordion :is(.sv-accm-img, .sv-acc-mmedia) > :nth-child(n + 2) { display: none; }
+
+/* stylelint-disable no-duplicate-selectors, no-descending-specificity -- mobile-first layer: the narrow value overrides the shared rule above, (width >= 768px) restores it */
+
+/* legacy below 768px (`sv-acc-stacked`, set by JS): every item open, picture first, no chevrons;
+   live Basestyle mobile rhythm: head → picture 56, picture → title 24, title → text 20, items 36 apart */
+.sv-accordion.sv-acc-stacked .za-eyebrow :is(h2, p) { margin-bottom: 0; }
+
+.sv-accordion.sv-acc-stacked .sv-accm { margin-top: 8px; }
+
+.sv-accordion.sv-acc-stacked .sv-acc { border-top: 0; }
+
+.sv-accordion.sv-acc-stacked .sv-acc-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.sv-accordion.sv-acc-stacked .sv-acc-item + .sv-acc-item { margin-top: 36px; }
+
+.sv-accordion.sv-acc-stacked :is(.sv-acc-panel, .sv-acc-inner) {
+  display: contents;
+  overflow: visible;
+}
+
+.sv-accordion.sv-acc-stacked .sv-acc-head {
+  padding: 0;
+  border: 0;
+  cursor: default;
+}
+
+.sv-accordion.sv-acc-stacked .sv-acc-title {
+  padding: 0 0 20px;
+  cursor: default;
+}
+
+.sv-accordion.sv-acc-stacked .sv-acc-btn { display: none; }
+
+.sv-accordion.sv-acc-stacked .sv-acc-title :is(h3, h4, h5, p) {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.sv-accordion.sv-acc-stacked .sv-acc-mmedia {
+  order: -1;
+  margin: 0 0 24px;
+}
+
+.sv-accordion.sv-acc-stacked .sv-acc-inner .za-text { margin: 0; }
+
+.sv-accordion.sv-acc-stacked .sv-acc-inner .za-text p { margin: 0 0 8px; }
+
+.sv-accordion.sv-acc-stacked .sv-acc-inner .za-text p:last-child { margin-bottom: 0; }
+
+.sv-accordion.sv-acc-stacked .sv-acc-aside {
+  flex-direction: column;
+  margin-top: 40px;
+  padding: 40px 24px;
+  text-align: center;
+}
+
+.sv-accordion.sv-acc-stacked .sv-acc-aside-media img { width: 125px; }
+
+.sv-accordion.sv-acc-stacked .sv-acc-aside-text { flex: none; }
+
+.sv-accordion.legacy.sv-acc-stacked .sv-acc-aside h2 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+/* main picture 2/3 wide on the right, overlay card at the left edge reaching 54px below it */
+.sv-accordion.sv-acc-stacked .sv-acc-mmedia:has(> :nth-child(2)) {
+  position: relative;
+  margin-bottom: 78px;
+}
+
+.sv-accordion.sv-acc-stacked .sv-acc-mmedia:has(> :nth-child(2)) > :first-child {
+  width: 66.6667%;
+  margin-left: auto;
+}
+
+.sv-accordion.sv-acc-stacked .sv-acc-mmedia > :nth-child(2) {
+  position: absolute;
+  left: 0;
+  bottom: -54px;
+  display: block;
+  width: 58%;
+}
+
+/* `faq` below 768 (live): the list right under the head, an open answer 40px above the next item;
+   answer links semibold at every width */
+.sv-accordion.faq .za-container > * + * { margin-top: 0; }
+
+.sv-accordion.faq .sv-acc-item.is-open .sv-acc-panel { padding-bottom: 40px; }
+
+.sv-accordion.faq .sv-acc-panel a:any-link { font-weight: 600; }
+
+@media (width >= 768px) {
+  .sv-accordion.faq .sv-acc-item.is-open .sv-acc-panel { padding-bottom: 24px; }
+}
+
+/* stacked legacy list below 768px (live /employee-experience/ at 360): 32px band top, head → list
+   56, items 32 apart with a 10px text tail, 64px under the list */
+@media (width < 768px) {
+  .sv-accordion.legacy.sv-acc-stacked:not(.intro) { padding: 32px 0 64px; }
+
+  .sv-accordion.legacy.sv-acc-stacked:not(.intro) .sv-accm { margin-top: 56px; }
+
+  .sv-accordion.legacy.sv-acc-stacked:not(.intro) .sv-acc-item + .sv-acc-item { margin-top: 32px; }
+
+  .sv-accordion.legacy.sv-acc-stacked:not(.intro) .sv-acc-inner .za-text p:last-child {
+    margin-bottom: 10px;
+  }
+}
+
+/* stacked legacy `intro` list below 768px (live /sell/ at 360): 64/32 band, head → list 56,
+   text 10 above a 26px link line, items 32 apart; the aside 96 under the list, 32px padding,
+   picture 32 above the title, 16px body lines */
+@media (width < 768px) {
+  .sv-accordion.legacy.sv-acc-stacked.intro { padding: 64px 0 32px; }
+
+  .sv-accordion.legacy.sv-acc-stacked.intro .sv-accm { margin-top: 56px; }
+
+  .sv-accordion.legacy.sv-acc-stacked.intro .sv-acc-item + .sv-acc-item { margin-top: 32px; }
+
+  .sv-accordion.legacy.sv-acc-stacked.intro .sv-acc-inner .za-text p { margin-bottom: 10px; }
+
+  .sv-accordion.legacy.sv-acc-stacked.intro .sv-acc-inner .za-text p:last-child:has(> a) {
+    margin-bottom: 0;
+    line-height: 26px;
+  }
+
+  .sv-accordion.legacy.sv-acc-stacked.intro .sv-acc-aside {
+    gap: 32px;
+    margin-top: 96px;
+    padding: 32px 24px;
+  }
+
+  .sv-accordion.legacy.sv-acc-stacked.intro .sv-acc-aside-media p { margin: 0; }
+
+  .sv-accordion.legacy.sv-acc-stacked.intro .sv-acc-aside h2 { margin-bottom: 8px; }
+
+  .sv-accordion.legacy.sv-acc-stacked.intro .sv-acc-aside-text p {
+    margin: 0;
+    line-height: 16px;
+  }
+}

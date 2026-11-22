@@ -1,0 +1,68 @@
+{
+  "accepted": [
+    {
+      "kind": "MISSING CTA",
+      "text": "Read customer story",
+      "root": "main",
+      "reason": "service: slick loop clones on the live customer-stories carousel duplicate each slide's link; the build renders every slide (and its link) once — clones carry no text per recreation-procedure § Carousels (loop clones are presentational)"
+    },
+    {
+      "kind": "MISSING CTA",
+      "text": "Learn more",
+      "root": "main",
+      "reason": "service: slick loop clones of the Vimeo slide (live renders it 3x: real + 2 clones); the build renders it once — clones carry no text per recreation-procedure § Carousels"
+    },
+    {
+      "kind": "MISSING ARIA-LABEL",
+      "text": "undefined testimonial",
+      "root": "main",
+      "reason": "service: the live logo tabs carry the literal templating bug aria-label 'undefined testimonial'; the build names each tab '<customer> testimonial' (role parity: semantics may improve)"
+    },
+    {
+      "kind": "MISSING ICON",
+      "text": "undefined testimonial",
+      "root": "main",
+      "reason": "service @<768: the live logo-tab nav is display:none below 768 and its lazy logos never leave the 1x1 data:gif placeholder; the build ships the real logo files in the same hidden tabs"
+    },
+    {
+      "kind": "MISSING CTA",
+      "text": "Cookie settings",
+      "root": "footer",
+      "reason": "company @360 (also seen on service-360): OneTrust rewrites the footer legal link #onetrust-show-cookie-settings from 'Cookie settings' to 'Do Not Sell or Share My Personal Information' after load; whether the live capture lands before or after the rewrite is nondeterministic (index/blog baselines show the rewritten text, company-360/service-360 the original). The canon footer carries the rewritten text (index baseline) - nondeterministic live element, permanent residual"
+    },
+    {
+      "kind": "EXTRA",
+      "text": "Do Not Sell or Share My Personal Information",
+      "root": "footer",
+      "reason": "company @360 (also seen on service-360): OneTrust rewrites the footer legal link #onetrust-show-cookie-settings from 'Cookie settings' to 'Do Not Sell or Share My Personal Information' after load; whether the live capture lands before or after the rewrite is nondeterministic (index/blog baselines show the rewritten text, company-360/service-360 the original). The canon footer carries the rewritten text (index baseline) - nondeterministic live element, permanent residual"
+    },
+    {
+      "probe": "chrome-parity",
+      "kind": "MISSING",
+      "text": "Cookie settings",
+      "root": "footer",
+      "reason": "company @360 (also seen on service-360): OneTrust rewrites the footer legal link #onetrust-show-cookie-settings from 'Cookie settings' to 'Do Not Sell or Share My Personal Information' after load; whether the live capture lands before or after the rewrite is nondeterministic (index/blog baselines show the rewritten text, company-360/service-360 the original). The canon footer carries the rewritten text (index baseline) - nondeterministic live element, permanent residual"
+    },
+    {
+      "probe": "chrome-parity",
+      "kind": "EXTRA",
+      "text": "Do Not Sell or Share My Personal Informa",
+      "root": "footer",
+      "reason": "company @360 (also seen on service-360): OneTrust rewrites the footer legal link #onetrust-show-cookie-settings from 'Cookie settings' to 'Do Not Sell or Share My Personal Information' after load; whether the live capture lands before or after the rewrite is nondeterministic (index/blog baselines show the rewritten text, company-360/service-360 the original). The canon footer carries the rewritten text (index baseline) - nondeterministic live element, permanent residual"
+    },
+    {
+      "probe": "chrome-parity",
+      "kind": "PAIR",
+      "text": "Trust Center",
+      "root": "footer",
+      "reason": "company @360 (also seen on service-360): OneTrust rewrites the footer legal link #onetrust-show-cookie-settings from 'Cookie settings' to 'Do Not Sell or Share My Personal Information' after load; whether the live capture lands before or after the rewrite is nondeterministic (index/blog baselines show the rewritten text, company-360/service-360 the original). The canon footer carries the rewritten text (index baseline) - nondeterministic live element, permanent residual (the shorter live text re-wraps the legal row: Trust Center moves up/left)"
+    },
+    {
+      "probe": "chrome-parity",
+      "kind": "PAIR",
+      "text": "© 2026 Zendesk, Inc.",
+      "root": "footer",
+      "reason": "company @360 (also seen on service-360): OneTrust rewrites the footer legal link #onetrust-show-cookie-settings from 'Cookie settings' to 'Do Not Sell or Share My Personal Information' after load; whether the live capture lands before or after the rewrite is nondeterministic (index/blog baselines show the rewritten text, company-360/service-360 the original). The canon footer carries the rewritten text (index baseline) - nondeterministic live element, permanent residual (the shorter live text re-centres the copyright line)"
+    }
+  ]
+}

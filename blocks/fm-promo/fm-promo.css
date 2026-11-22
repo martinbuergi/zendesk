@@ -1,0 +1,81 @@
+/* fm-promo — form-template body promo (live /free-trial/ #teaser-3fd06df4b4 forest card) */
+.fm-promo .fm-promo-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  border-radius: 40px;
+  padding: 2rem 1.5rem;
+  background-color: var(--za-forest);
+  text-align: center;
+}
+
+.fm-promo .fm-promo-body {
+  flex: 1 1 100%;
+}
+
+.fm-promo .fm-promo-body :is(h2, h3, p) {
+  margin: 0 0 8px;
+  color: var(--za-cream);
+}
+
+.fm-promo .fm-promo-body :is(h2, h3) {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.fm-promo .fm-promo-body :is(h2, h3, p):last-child {
+  margin-bottom: 0;
+}
+
+.fm-promo .fm-promo-links {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.fm-promo .fm-promo-links p {
+  width: 100%;
+  margin: 0;
+}
+
+.fm-promo .fm-promo-links a:any-link {
+  width: 100%;
+}
+
+@media (width >= 768px) {
+  .fm-promo .fm-promo-card {
+    flex-wrap: nowrap;
+    padding: 64px;
+    text-align: inherit;
+  }
+
+  .fm-promo .fm-promo-body :is(h2, h3) {
+    font-size: 23px;
+  }
+
+  .fm-promo .fm-promo-links {
+    flex-direction: row;
+    align-items: baseline;
+    width: auto;
+  }
+
+  .fm-promo .fm-promo-links p,
+  .fm-promo .fm-promo-links a:any-link {
+    width: auto;
+  }
+}
+
+@media (width >= 1150px) {
+  .fm-promo .fm-promo-card {
+    padding: 64px 96px;
+  }
+
+  .fm-promo .fm-promo-body :is(h2, h3) {
+    font-size: 26px;
+  }
+}

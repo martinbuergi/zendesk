@@ -1,0 +1,67 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-20T17:55:26.518Z",
+  "tol": 4,
+  "n": 12,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/employee-service/",
+  "at": "2026-11-20T17:33:57.935Z",
+  "docH": 11064
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/employee-service",
+  "at": "2026-11-20T17:55:26.376Z",
+  "docH": 10894
+ },
+ "results": [
+  {
+   "sel": "#grid-1214588886 [class*=Cardstyle__CardRoot]=.sv-cards .sv-why-card",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 20,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 20 DOM matches)"
+  },
+  {
+   "sel": "#linkgroup-910799028 a=.sv-links .sv-cap a",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 12,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 12 DOM matches)"
+  },
+  {
+   "sel": "#teaser-fc7e164e83 .slick-current a=.sv-carousel .sv-res-slide:first-child .sv-res-card",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 1,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 1 DOM matches)"
+  },
+  {
+   "sel": "#benefits [class*=AccordionHeader]=.sv-accordion .sv-acc-head",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 12,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 12 DOM matches)"
+  }
+ ],
+ "verdict": {
+  "units": 0,
+  "within": 0,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 4,
+  "requiredOff": 0
+ }
+}

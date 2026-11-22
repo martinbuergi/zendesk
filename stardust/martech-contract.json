@@ -1,0 +1,147 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-20T11:46:11.842Z",
+  "input": "stardust/.work/dynamics/b2/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "www.zendesk.com"
+ ],
+ "consent": {
+  "cmp": {
+   "vendor": "OneTrust",
+   "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+   "attrs": {
+    "data-domain-script": "c84f307d-a465-4571-bbcb-8adbdf57a7ae"
+   },
+   "groups": "OnetrustActiveGroups",
+   "event": "OneTrustGroupsUpdated",
+   "viaTagManager": false,
+   "enabled": false
+  },
+  "model": "owner-decision",
+  "categories": [],
+  "ruleSets": 0,
+  "consentMode": {
+   "pages": 0,
+   "of": 7,
+   "libraries": [
+    "tags/www.googletagmanager.com-gtm-GTM-Z4DV.js"
+   ]
+  }
+ },
+ "routes": [
+  {
+   "id": "google-tag-manager",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtm.js?id=GTM-Z4DV",
+   "boot": "gtm",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  }
+ ],
+ "otherTags": [
+  "analytics: Google Analytics / Ads",
+  "marketing: ad / retargeting pixel",
+  "chat: live chat widget"
+ ],
+ "tagManagers": [
+  "Google Tag Manager"
+ ],
+ "dataLayers": [
+  "dataLayer"
+ ],
+ "tagNotes": {
+  "Google Tag Manager": {
+   "rules": [
+    {
+     "name": "OneTrust CMP (community template OT.CMP, tag_id 3205) — injects cdn.cookielaw.org/scripttemplates/otSDKStub.js?did=<Domain>, sets Google Consent Mode defaults per region (e.g. us-ca: analytics/ad storage off by default)",
+     "paths": [],
+     "selectors": [],
+     "events": [
+      "gtm.init_consent"
+     ],
+     "consentGroups": [
+      "C0002",
+      "C0003",
+      "C0004"
+     ],
+     "from": "martech/tags/www.googletagmanager.com-gtm-GTM-Z4DV.js · tag_id 3205, vtp_URL cdn.cookielaw.org, vtp_gcmMapping"
+    },
+    {
+     "name": "GA4 event tags (__gaawe ×63) for measurement ids G-FBP7C61M6Z, G-E0K02KWP7Y, G-WEDV4EN8N0",
+     "paths": [],
+     "selectors": [],
+     "events": [
+      "dataLayer custom events"
+     ],
+     "consentGroups": [
+      "C0002"
+     ],
+     "from": "martech/tags/www.googletagmanager.com-gtm-GTM-Z4DV.js · __gaawe / __googtag entries"
+    },
+    {
+     "name": "Google Ads (AW-972607400) conversion + Floodlight (DC-15086586, DC-13351067) tags (__awct ×15, __flc ×39)",
+     "paths": [],
+     "selectors": [],
+     "events": [
+      "trial_created and other dataLayer events"
+     ],
+     "consentGroups": [
+      "C0004"
+     ],
+     "from": "martech/tags/www.googletagmanager.com-gtm-GTM-Z4DV.js · __awct / __flc entries; macro test _re \",C0004,\""
+    },
+    {
+     "name": "Custom HTML tags (__html ×58) calling window.alloy(\"sendEvent\" …) for Target propositions and alloy(\"getIdentity\")",
+     "paths": [],
+     "selectors": [],
+     "events": [],
+     "consentGroups": [],
+     "from": "martech/tags/www.googletagmanager.com-gtm-GTM-Z4DV.js · vtp_html containing window.alloy"
+    },
+    {
+     "name": "Third-party pixels via custom templates/HTML: LinkedIn Insight, Bing UET (__baut), Meta, Reddit, 6sense, Clearbit, Vector, cr-relay, Innovid, TVSquared, Contentsquare, Yandex, AppNexus",
+     "paths": [],
+     "selectors": [],
+     "events": [],
+     "consentGroups": [],
+     "from": "martech/tags/www.googletagmanager.com-gtm-GTM-Z4DV.js · host strings in the library"
+    }
+   ],
+   "dataElements": [
+    {
+     "name": "OnetrustActiveGroups (consent groups string)",
+     "selectors": [],
+     "source": "window.OnetrustActiveGroups",
+     "from": "martech/tags/www.googletagmanager.com-gtm-GTM-Z4DV.js · split(\":\") over C000x groups"
+    }
+   ],
+   "notes": [
+    {
+     "text": "OneTrust is injected BY GTM (not inline) — consent.cmp stays disabled; enabling the GTM route brings the CMP. data-domain-script c84f307d-a465-4571-bbcb-8adbdf57a7ae read from the rendered /customer/canva/ script list (stardust/current/_dynamics.json).",
+     "from": "stardust/current/_dynamics.json pages[\"/customer/canva/\"].scripts"
+    },
+    {
+     "text": "Adobe Experience Platform Web SDK is self-hosted at https://www.zendesk.com/scripts/adobe-websdk.js on 7/7 probed pages (edge.adobedc.net interact on 95/100, Adobe Target pre-hide rules assets.adobetarget.com on 95/100). On EDS /scripts/ is the code path, so this file will not exist on the new host. orgId / datastream not read (direct fetch hit Cloudflare 403). Owner decision: aem-martech plugin (aemMartech) vs copying the file into the repo.",
+     "from": "stardust/current/_dynamics.json pages[*].scripts + reach.endpoints"
+    },
+    {
+     "text": "Sentry RUM (o1025743.ingest.sentry.io) and Segment (cdn.segment.com/api.segment.io) load from the source app bundle, not GTM — not routed; owner to confirm whether they continue.",
+     "from": "stardust/current/dynamic-features.generated.md rows t-rum-error-monitoring, a-unknown-third-party-host-cdn-segment-com"
+    }
+   ]
+  }
+ },
+ "rewrite": {
+  "library": null,
+  "rules": [],
+  "dataElements": [],
+  "dataLayer": [],
+  "dataLayerPaths": []
+ },
+ "aemMartech": null,
+ "target": null
+}

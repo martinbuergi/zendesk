@@ -1,0 +1,487 @@
+/* stylelint-disable no-descending-specificity -- arrow-link and inline-link rules target disjoint anchors */
+
+/* fm-hero — form-template lead section (live contact teaser: eyebrow .hyqvHl, h1 .rXRvV,
+   form 6/12 + spacer 1/12 + contact cards 5/12). Values from the prototype's contact.css.
+   Breakpoints are the source's: 768 / 1150 / 1600. */
+
+.fm-hero {
+  --fm-hh: 65px;
+
+  background: var(--za-white);
+}
+
+/* the lead section slides under the sticky header (.cwMKbe --headerHeight) */
+.fm-hero.za-section {
+  margin-top: calc(-1 * var(--fm-hh));
+}
+
+.fm-hero.za-section::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: var(--fm-hh);
+}
+
+@media (width >= 1150px) {
+  .fm-hero {
+    --fm-hh: 115px;
+  }
+}
+
+.fm-hero .fm-rel {
+  position: relative;
+}
+
+.fm-hero .fm-eyebrow {
+  display: inline-flex;
+  font-stretch: condensed;
+}
+
+.fm-hero .fm-eyebrow p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.fm-hero h1 {
+  margin: 0 0 24px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.15;
+}
+
+.fm-hero h3 {
+  margin: 0 0 24px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+@media (width >= 768px) {
+  .fm-hero h1 { font-size: 34px; }
+  .fm-hero h3 { font-size: 23px; }
+
+  .fm-hero .fm-col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .fm-hero .fm-col-1 {
+    flex: 0 0 8.3333%;
+    max-width: 8.3333%;
+  }
+
+  .fm-hero .fm-col-5 {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+  }
+}
+
+@media (width >= 1150px) {
+  .fm-hero h1 { font-size: 42px; }
+  .fm-hero h3 { font-size: 26px; }
+}
+
+@media (width >= 1600px) {
+  .fm-hero h1 { font-size: 53px; }
+  .fm-hero h3 { font-size: 33px; }
+}
+
+.fm-hero .fm-text p {
+  margin: 0 0 16px;
+}
+
+.fm-hero .fm-siderow {
+  justify-content: flex-end;
+}
+
+.fm-hero .fm-siderow + .fm-siderow {
+  margin-top: var(--za-row-gap);
+}
+
+/* arrow link (.lcYUJf LinkRoot + .cvVZfl arrow) */
+.fm-hero .fm-cta {
+  margin: 0;
+}
+
+.fm-hero .fm-cta a {
+  min-height: calc(1.25em + 8px);
+  color: var(--za-ink);
+  font-stretch: expanded;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: calc(1.25em + 6px);
+  transition: 600ms var(--za-ease);
+  -webkit-font-smoothing: antialiased;
+}
+
+.fm-hero .fm-arrowlink-t {
+  padding-bottom: 0.2em;
+  background-image: linear-gradient(90deg, rgb(17 17 13 / 70%) 0%, rgb(17 17 13 / 70%) 40%, transparent 40%, transparent 60%, rgb(17 17 13) 60%, rgb(17 17 13) 100%);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 250% 1px;
+  transition: background-position 600ms var(--za-ease);
+}
+
+.fm-hero .fm-cta a:hover {
+  color: rgb(17 17 13 / 70%);
+}
+
+.fm-hero .fm-cta a:hover .fm-arrowlink-t {
+  background-position: 0% 100%;
+}
+
+.fm-hero .fm-arrow {
+  position: relative;
+  bottom: 0.1em;
+  display: inline-block;
+  aspect-ratio: 1 / 1;
+  min-width: 16px;
+  margin: 0 8px;
+}
+
+.fm-hero .fm-arrow svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* inline underlined link (.bPCQQB) */
+.fm-hero .fm-text a {
+  margin: -0.15em 0;
+  border-radius: 4px;
+  padding: 0.15em 0;
+  color: var(--za-ink);
+  font-weight: 600;
+  text-decoration: underline 1px;
+  text-underline-offset: 0.15em;
+  transition: 100ms linear;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fm-hero .fm-text a:hover {
+  color: var(--za-ink);
+  text-decoration: underline 1px;
+}
+
+.fm-hero .fm-text a:visited {
+  color: var(--za-matcha);
+}
+
+/* ---------- sibling shapes (cluster-form-1; live probes stardust/.work/cluster-form-1/probe) ---------- */
+
+.fm-hero .fm-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-bottom: -2px;
+  background-color: currentcolor;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+}
+
+.fm-hero .fm-logo {
+  margin: 0;
+}
+
+.fm-hero .fm-logo a {
+  display: block;
+  width: 100px;
+  height: 36px;
+  margin: 0 auto;
+}
+
+.fm-hero .fm-logo .icon,
+.fm-hero .fm-logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* center (login: 5/12 centred column, side links under a 1px rule, matcha corner glow) */
+.fm-hero.center {
+  background: radial-gradient(150% 140% at 22% 0%, transparent 65%, rgb(209 244 112 / 60%) 80%, rgb(209 244 112 / 80%) 100%), var(--za-white);
+}
+
+.fm-hero.center .fm-row {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 16px;
+}
+
+.fm-hero.center .fm-col-1 {
+  display: none;
+}
+
+.fm-hero.center .fm-siderow {
+  justify-content: center;
+  text-align: center;
+}
+
+.fm-hero.center .fm-siderow .fm-text {
+  margin: 0;
+}
+
+/* LinkRoot underline (1px rule under the text box, not text-decoration) */
+.fm-hero.center .fm-siderow .fm-text a {
+  display: inline-block;
+  margin: 0;
+  padding: 0 0 2px;
+  background: linear-gradient(currentcolor, currentcolor) 0 100% / 100% 1px no-repeat;
+  text-decoration: none;
+}
+
+.fm-hero.center .fm-siderow .fm-text a:hover {
+  text-decoration: none;
+}
+
+.fm-hero.center .fm-siderow + .fm-siderow {
+  margin-top: var(--za-row-gap);
+  border-top: 1px solid rgb(17 17 13 / 9%);
+  padding-top: var(--za-row-gap);
+}
+
+.fm-hero.center .fm-cta-button {
+  margin: 0;
+}
+
+.fm-hero.center .fm-cta-button a {
+  width: 100%;
+}
+
+.fm-hero.center .fm-siderow .fm-text p {
+  margin: 0 0 12px;
+  font-size: 14px;
+  line-height: 23.5px;
+}
+
+.fm-hero.center .fm-siderow .fm-text p:last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 768px) {
+  .fm-hero.center .fm-col-6,
+  .fm-hero.center .fm-col-5 {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+  }
+
+  .fm-hero.center .fm-siderow .fm-text p {
+    display: inline-block;
+    margin: 0 5.5px;
+  }
+}
+
+/* modal (live open-on-load lead dialog: 80 % black scrim, 700px card, radius 16) */
+.fm-hero.modal {
+  background: none;
+}
+
+.fm-hero.modal .fm-rel {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: none;
+  padding: 8px;
+  background: rgb(0 0 0 / 80%);
+}
+
+.fm-hero.modal .fm-dialog {
+  overflow: auto;
+  width: 100%;
+  max-width: 700px;
+  max-height: calc(100vh - 16px);
+  border-radius: 16px;
+  padding: 56px 24px;
+  background: var(--za-white);
+  box-shadow: rgb(0 0 0 / 15%) 0 10px 50px 20px;
+}
+
+.fm-hero.modal h1 {
+  margin: 0 0 24px;
+  color: var(--za-ink);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.fm-hero.modal h4 {
+  margin: 0 0 12px;
+  color: var(--za-ink);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.fm-hero.modal .fm-logo,
+.fm-hero.modal .fm-col-5,
+.fm-hero.modal .fm-backdrop {
+  display: none;
+}
+
+/* backdrop (register): below 768 a plain tinted page — logo, card, side links */
+.fm-hero.backdrop .fm-rel {
+  position: static;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 43px 16px 45px;
+  background: rgb(245 245 242);
+}
+
+.fm-hero.backdrop .fm-logo {
+  display: block;
+  margin-bottom: 21px;
+}
+
+.fm-hero.backdrop .fm-dialog {
+  max-height: none;
+  padding: 24px;
+  box-shadow: rgb(0 0 0 / 8%) 0 16px 28px 0;
+}
+
+.fm-hero.backdrop .fm-col-5 {
+  display: block;
+  width: auto;
+  margin-top: 40px;
+  padding: 0;
+  text-align: center;
+}
+
+.fm-hero.backdrop .fm-col-5 .fm-text p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.fm-hero.backdrop .fm-col-5 .fm-text a {
+  font-weight: 400;
+  text-decoration: none;
+}
+
+@media (width >= 768px) {
+  .fm-hero.modal h1 {
+    font-size: 26px;
+  }
+
+  .fm-hero.modal h4 {
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+
+  .fm-hero.modal .fm-dialog {
+    padding: 56px 40px;
+  }
+
+  .fm-hero.backdrop .fm-rel {
+    position: fixed;
+    justify-content: center;
+    min-height: 0;
+    padding: 8px;
+    background: rgb(0 0 0 / 80%);
+  }
+
+  .fm-hero.backdrop .fm-backdrop {
+    position: fixed;
+    inset: 0;
+    display: block;
+  }
+
+  .fm-hero.backdrop .fm-backdrop img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 0;
+  }
+
+  .fm-hero.backdrop .fm-dialog {
+    max-width: 692px;
+    box-shadow: rgb(0 0 0 / 15%) 0 10px 50px 20px;
+  }
+
+  .fm-hero.backdrop .fm-logo,
+  .fm-hero.backdrop .fm-col-5 {
+    display: none;
+  }
+}
+
+/* instapage (bare embedded-form pages: no section chrome, 5px inset, Sharp Sans / Proxima Nova) */
+.fm-hero.instapage.za-section {
+  margin-top: 0;
+  padding: 0;
+}
+
+.fm-hero.instapage.za-section::before {
+  display: none;
+}
+
+.fm-hero.instapage .fm-rel {
+  max-width: none;
+  padding: 0 5px;
+}
+
+.fm-hero.instapage .fm-row {
+  display: block;
+  margin: 0;
+}
+
+.fm-hero.instapage .fm-col-6 {
+  max-width: none;
+  padding: 0;
+}
+
+.fm-hero.instapage .fm-col-1,
+.fm-hero.instapage .fm-col-5 {
+  display: none;
+}
+
+.fm-hero.instapage .fm-form.instapage {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.fm-hero.instapage h5 {
+  margin: 0 0 24px;
+  color: rgb(3 54 61);
+  font-family: var(--zb-font-head);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.fm-hero.instapage .fm-text p {
+  margin: 13px 0;
+  color: rgb(23 73 77);
+  font-family: var(--zb-font-body);
+  font-size: 13px;
+  line-height: 18px;
+}
+
+@media (width >= 768px) {
+  .fm-hero.instapage h5 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .fm-hero.instapage .fm-col-6 {
+    flex: none;
+    max-width: none;
+  }
+
+  .fm-hero.instapage .fm-text p {
+    margin: 14px 0;
+    font-size: 14px;
+  }
+}
+
+/* /demo/ legal footer sits on the 245 245 242 tint (the logo-less centred footer itself is the
+   foundation's /footer-legal-plain doc) */
+body:has(.fm-hero.modal:not(.backdrop)) .footer .za-ftr-slim {
+  background-color: rgb(245 245 242);
+}

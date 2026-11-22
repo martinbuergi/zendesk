@@ -1,0 +1,148 @@
+/* zb-quotes — gen-B pull-quote pair (canon-b .zb-quotes / .zb-quote) */
+
+/* the soft section the quotes + facts sit on (canon .zb-section--soft) */
+main > .section.zb-quotes-container {
+  padding: 32px 0;
+  background: var(--zb-grey-100);
+}
+
+.zb-quotes {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.zb-quotes .zb-quotes-row { background: var(--zb-white); }
+
+.zb-quotes .zb-quotes-col {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 8px;
+}
+
+.zb-quotes .zb-quotes-quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 0 32px;
+  text-align: center;
+}
+
+.zb-quotes .zb-quotes-quote blockquote {
+  margin: 32px 0;
+  color: var(--zb-teal-800);
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.zb-quotes .zb-quotes-quote :is(blockquote, cite) p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.zb-quotes cite {
+  display: block;
+  font-style: normal;
+}
+
+.zb-quotes .zb-quotes-name {
+  margin: 8px 0 4px;
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.zb-quotes .zb-quotes-role {
+  margin: 13px 0;
+  color: var(--zb-teal-800);
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.zb-quotes .zb-quotes-stats {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -8px;
+  padding: 32px 0 0;
+}
+
+.zb-quotes .zb-quotes-stat {
+  flex: 1 1 0;
+  padding: 0 8px;
+  text-align: center;
+}
+
+.zb-quotes .zb-quotes-figure {
+  margin: 0 0 4px;
+  color: var(--zb-blue-600);
+  font-family: var(--zb-font-head);
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 700;
+}
+
+.zb-quotes .zb-quotes-text {
+  color: var(--zb-teal-800);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.zb-quotes .zb-quotes-stats :is(.zb-quotes-figure, .zb-quotes-text) p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+@media (width >= 480px) {
+  .zb-quotes .zb-quotes-quote blockquote {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media (width >= 768px) {
+  main > .section.zb-quotes-container { padding: 64px 0; }
+
+  .zb-quotes .zb-quotes-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  /* variant single: live centres one quote in an 8-of-12 column */
+  .zb-quotes.single .zb-quotes-row { justify-content: center; }
+
+  .zb-quotes.single .zb-quotes-col {
+    flex-basis: 66.6667%;
+    max-width: 66.6667%;
+  }
+
+  .zb-quotes .zb-quotes-quote blockquote {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .zb-quotes .zb-quotes-name {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .zb-quotes .zb-quotes-role {
+    margin: 14px 0;
+    font-size: 14px;
+  }
+
+  .zb-quotes .zb-quotes-figure {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+@media (width >= 1200px) {
+  .zb-quotes .zb-quotes-figure {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}

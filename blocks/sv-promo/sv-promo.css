@@ -1,0 +1,100 @@
+/* sv-promo — forest body-promo card (live .fvooCG, radius 40) */
+.sv-promo .sv-promo-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 2rem 1.5rem;
+  border-radius: 40px;
+  background-color: var(--za-forest);
+  text-align: center;
+}
+
+.sv-promo .sv-promo-img {
+  flex: 0 1 400px;
+  border-radius: 16px;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.sv-promo .sv-promo-img p { margin: 0; }
+
+.sv-promo .sv-promo-img img {
+  width: 144px;
+  height: 144px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.sv-promo .sv-promo-body { flex: 1 1 100%; }
+
+.sv-promo .sv-promo-title :is(h2, h3, h4) {
+  margin: 0;
+  color: var(--za-cream);
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+.sv-promo .sv-promo-text { color: var(--za-cream); }
+
+.sv-promo .sv-promo-text p { margin: 16px 0 0; }
+
+.sv-promo .sv-promo-cta {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.sv-promo .sv-promo-cta p {
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+.sv-promo .sv-promo-cta a:any-link {
+  width: 100%;
+  transition: color 600ms var(--za-ease);
+}
+
+@media (width >= 768px) {
+  .sv-promo .sv-promo-card {
+    flex-wrap: nowrap;
+    padding: 64px;
+    text-align: inherit;
+  }
+
+  .sv-promo .sv-promo-img { max-width: 144px; }
+
+  .sv-promo .sv-promo-title :is(h2, h3, h4) { font-size: 23px; }
+
+  .sv-promo .sv-promo-cta {
+    flex-direction: row;
+    align-items: baseline;
+    width: auto;
+  }
+
+  .sv-promo .sv-promo-cta p,
+  .sv-promo .sv-promo-cta a:any-link { width: auto; }
+}
+
+@media (width >= 1150px) {
+  .sv-promo .sv-promo-card { padding: 64px 96px; }
+
+  .sv-promo .sv-promo-title :is(h2, h3, h4) { font-size: 26px; }
+}
+
+@media (width >= 1600px) {
+  .sv-promo .sv-promo-title :is(h2, h3, h4) { font-size: 33px; }
+}
+
+/* below 768px (live /employee-service/ at 360): body 8px under the title, no trailing margin
+   (the CTA 32px under the text) */
+@media (width < 768px) {
+  .sv-promo .sv-promo-text { margin-bottom: 0; }
+
+  .sv-promo .sv-promo-text p { margin-top: 8px; }
+}

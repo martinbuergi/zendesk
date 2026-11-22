@@ -1,0 +1,85 @@
+{
+  "a": "stardust/replica/gates/all-360/instapage-form-webinar/origin.png",
+  "b": "stardust/replica/gates/all-360/instapage-form-webinar/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 900,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 4283,
+  "pct": 1.32,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/instapage-form-webinar/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 11.6,
+  "textBoxes": 11,
+  "textPixels": 22070,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.2
+    },
+    {
+      "y0": 500,
+      "y1": 900,
+      "pct": 2.7
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.7,
+    "differingPixels": 2258,
+    "compared": {
+      "width": 360,
+      "height": 901,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 497,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 899,
+        "shift": -1,
+        "cumulative": 0
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 2,
+    "insertedRows": 1,
+    "deletedRows": 1,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.4,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 500,
+        "y1": 900,
+        "pct": 1.1,
+        "unaligned": 2.7
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/instapage-form-webinar/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 9,
+    "totalShift": 2,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/instapage-form-webinar"
+  }
+}

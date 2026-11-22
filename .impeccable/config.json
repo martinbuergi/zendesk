@@ -1,0 +1,23 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "stardust/.work/index-tools/index.src.html"
+        ],
+        "createdAt": "2026-11-20T08:45:15.453Z",
+        "reason": "agent decision (replica run): file is a scratch copy of the live source page used by the recreation instruments; type scale is the source's own and replica forbids design changes"
+      },
+      {
+        "rule": "overused-font",
+        "value": "arial",
+        "createdAt": "2026-11-20T12:15:43.511Z",
+        "reason": "replica run: same-design migration; arial is the measured computed font of the live zendesk.com legacy header button (UA default for button), reproduced verbatim"
+      }
+    ]
+  }
+}

@@ -1,0 +1,214 @@
+[live-session] waiting to pace live navigations to www.zendesk.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 360px, tol 4px — https://www.zendesk.com/pricing/ vs http://localhost:8791/pricing-proposed.html
+unit 1 of gen-a-plan-card (required) #plans .Cardstyle__CardRoot-sc-12jokda-2=.pr-plans .pr-card: origin 20,402 320×571 vs served 20,402 320×571 → Δx 0 Δy 0 Δw 0 Δh 0; 14 elements: 14 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "support team" | 24,32 272×30 | 24,32 272×30 | 0 | 0 | 0 | 0 | ✓ |
+| text "for teams that have outgrown a share" | 24,82 272×36 | 24,82 272×36 | 0 | 0 | 0 | 0 | ✓ |
+| text "$19" | 24,138 32×28 | 24,138 32×28 | 0 | 0 | 0 | 0 | ✓ |
+| text "agent/month paid yearly" | 60,146 145×17 | 60,146 145×17 | 0 | 0 | 0 | 0 | ✓ |
+| link "start free trial" | 24,186 272×44 | 24,186 272×44 | 0 | 0 | 0 | 0 | ✓ |
+| link "buy now" | 24,242 272×44 | 24,242 272×44 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:hr.Dividerstyle__DividerRoot-sc-" | 24,314 272×1 | 24,314 272×1 | 0 | 0 | 0 | 0 | ✓ |
+| text "starting with the basics" | 24,335 272×18 | 24,335 272×18 | 0 | 0 | 0 | 0 | ✓ |
+| button "email and ticketing system" | 24,370 158×18 | 24,370 158×18 | 0 | 0 | 0 | 0 | ✓ |
+| button "ticket routing" | 24,400 81×18 | 24,400 81×18 | 0 | 0 | 0 | 0 | ✓ |
+| button "prebuilt analytics dashboards" | 24,430 175×18 | 24,430 175×18 | 0 | 0 | 0 | 0 | ✓ |
+| button "pre-written responses" | 24,460 131×18 | 24,460 131×18 | 0 | 0 | 0 | 0 | ✓ |
+| button "customer context" | 24,490 106×18 | 24,490 106×18 | 0 | 0 | 0 | 0 | ✓ |
+| button "automations and triggers" | 24,521 151×18 | 24,521 151×18 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of gen-a-plan-card (required) #plans .Cardstyle__CardRoot-sc-12jokda-2=.pr-plans .pr-card: origin 20,993 320×576 vs served 20,993 320×576 → Δx 0 Δy 0 Δw 0 Δh 0; 20 elements: 20 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "suite team" | 24,32 272×30 | 24,32 272×30 | 0 | 0 | 0 | 0 | ✓ |
+| text "for teams ready to unify support cha" | 24,82 272×36 | 24,82 272×36 | 0 | 0 | 0 | 0 | ✓ |
+| text "$55" | 24,138 36×28 | 24,138 36×28 | 0 | 0 | 0 | 0 | ✓ |
+| text "agent/month paid yearly" | 64,146 145×17 | 64,146 145×17 | 0 | 0 | 0 | 0 | ✓ |
+| link "start free trial" | 24,186 272×44 | 24,186 272×44 | 0 | 0 | 0 | 0 | ✓ |
+| link "buy now" | 24,242 272×44 | 24,242 272×44 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:hr.Dividerstyle__DividerRoot-sc-" | 24,314 272×1 | 24,314 272×1 | 0 | 0 | 0 | 0 | ✓ |
+| text "support team features, plus:" | 24,335 272×18 | 24,335 272×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "ai" | 24,370 35×20 | 24,370 35×20 | 0 | 0 | 0 | 0 | ✓ |
+| button "ai agents" | 67,370 56×18 | 67,370 56×18 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 28,374 12×12 | 28,374 12×12 | 0 | 0 | 0 | 0 | ✓ |
+| text "ai" | 24,402 35×20 | 24,402 35×20 | 0 | 0 | 0 | 0 | ✓ |
+| button "knowledge base" | 67,402 97×18 | 67,402 97×18 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#2" | 28,406 12×12 | 28,406 12×12 | 0 | 0 | 0 | 0 | ✓ |
+| text "ai" | 24,434 35×20 | 24,434 35×20 | 0 | 0 | 0 | 0 | ✓ |
+| button "action builder" | 67,434 82×18 | 67,434 82×18 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#3" | 28,438 12×12 | 28,438 12×12 | 0 | 0 | 0 | 0 | ✓ |
+| button "omnichannel routing" | 24,466 125×18 | 24,466 125×18 | 0 | 0 | 0 | 0 | ✓ |
+| button "messaging and live chat" | 24,496 142×18 | 24,496 142×18 | 0 | 0 | 0 | 0 | ✓ |
+| button "telephony" | 24,526 61×18 | 24,526 61×18 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of gen-a-plan-card (required) #plans .Cardstyle__CardRoot-sc-12jokda-2=.pr-plans .pr-card: origin 20,1589 320×600 vs served 20,1589 320×600 → Δx 0 Δy 0 Δw 0 Δh 0; 23 elements: 23 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "most popular" | 98,-12 125×28 | 98,-12 125×28 | 0 | 0 | 0 | 0 | ✓ |
+| heading "suite professional" | 26,34 268×30 | 26,34 268×30 | 0 | 0 | 0 | 0 | ✓ |
+| text "for teams optimizing support operati" | 26,84 268×55 | 26,84 268×55 | 0 | 0 | 0 | 0 | ✓ |
+| text "$115" | 26,159 39×28 | 26,159 39×28 | 0 | 0 | 0 | 0 | ✓ |
+| text "agent/month paid yearly" | 69,167 145×17 | 69,167 145×17 | 0 | 0 | 0 | 0 | ✓ |
+| link "start free trial" | 26,207 268×44 | 26,207 268×44 | 0 | 0 | 0 | 0 | ✓ |
+| link "buy now" | 26,263 268×44 | 26,263 268×44 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:hr.Dividerstyle__DividerRoot-sc-" | 26,335 268×1 | 26,335 268×1 | 0 | 0 | 0 | 0 | ✓ |
+| text "suite team features, plus:" | 26,356 268×18 | 26,356 268×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "ai" | 26,390 35×20 | 26,390 35×20 | 0 | 0 | 0 | 0 | ✓ |
+| button "admin copilot" | 69,390 83×18 | 69,390 83×18 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 30,394 12×12 | 30,394 12×12 | 0 | 0 | 0 | 0 | ✓ |
+| text "ai" | 26,422 35×20 | 26,422 35×20 | 0 | 0 | 0 | 0 | ✓ |
+| button "app builder" | 69,422 68×18 | 69,422 68×18 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#2" | 30,426 12×12 | 30,426 12×12 | 0 | 0 | 0 | 0 | ✓ |
+| text "ai" | 26,454 35×20 | 26,454 35×20 | 0 | 0 | 0 | 0 | ✓ |
+| button "writing tools" | 69,454 78×18 | 69,454 78×18 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#3" | 30,458 12×12 | 30,458 12×12 | 0 | 0 | 0 | 0 | ✓ |
+| text "ai" | 26,486 35×20 | 26,486 35×20 | 0 | 0 | 0 | 0 | ✓ |
+| button "quick reports" | 69,486 83×18 | 69,486 83×18 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#4" | 30,490 12×12 | 30,490 12×12 | 0 | 0 | 0 | 0 | ✓ |
+| button "skills-based routing" | 26,518 117×18 | 26,518 117×18 | 0 | 0 | 0 | 0 | ✓ |
+| button "ivr phone tree" | 26,548 86×18 | 26,548 86×18 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of gen-a-plan-card (required) #plans .Cardstyle__CardRoot-sc-12jokda-2=.pr-plans .pr-card: origin 20,2209 320×531 vs served 20,2209 320×531 → Δx 0 Δy 0 Δw 0 Δh 0; 18 elements: 18 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "suite enterprise + copilot" | 24,32 272×60 | 24,32 272×60 | 0 | 0 | 0 | 0 | ✓ |
+| text "for teams needing advanced security," | 24,112 272×55 | 24,112 272×55 | 0 | 0 | 0 | 0 | ✓ |
+| link "contact us" | 24,207 272×43 | 24,207 272×43 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:span.Linkstyle__LinkText-sc-1n8u" | 40,217 240×23 | 40,217 240×23 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:hr.Dividerstyle__DividerRoot-sc-" | 24,270 272×1 | 24,270 272×1 | 0 | 0 | 0 | 0 | ✓ |
+| text "suite professional features, plus:" | 24,291 272×18 | 24,291 272×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "ai" | 24,325 35×20 | 24,325 35×20 | 0 | 0 | 0 | 0 | ✓ |
+| button "intelligent triage" | 67,325 99×18 | 67,325 99×18 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 28,329 12×12 | 28,329 12×12 | 0 | 0 | 0 | 0 | ✓ |
+| text "ai" | 24,357 35×20 | 24,357 35×20 | 0 | 0 | 0 | 0 | ✓ |
+| button "auto assist" | 67,357 66×18 | 67,357 66×18 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#2" | 28,361 12×12 | 28,361 12×12 | 0 | 0 | 0 | 0 | ✓ |
+| text "ai" | 24,389 35×20 | 24,389 35×20 | 0 | 0 | 0 | 0 | ✓ |
+| button "generative ai for voice" | 67,389 132×18 | 67,389 132×18 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#3" | 28,393 12×12 | 28,393 12×12 | 0 | 0 | 0 | 0 | ✓ |
+| button "approval workflows" | 24,421 115×18 | 24,421 115×18 | 0 | 0 | 0 | 0 | ✓ |
+| button "sandbox environment" | 24,451 131×18 | 24,451 131×18 | 0 | 0 | 0 | 0 | ✓ |
+| button "custom agent roles" | 24,481 116×18 | 24,481 116×18 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of gen-a-addon-card (required) #addons .Cardstyle__CardRoot-sc-12jokda-2=.pr-addons .pr-card: origin 20,2954 320×264 vs served 20,2954 320×264 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "copilot" | 24,32 272×30 | 24,32 272×30 | 0 | 0 | 0 | 0 | ✓ |
+| text "ai assistance that empowers your ent" | 24,82 272×36 | 24,82 272×36 | 0 | 0 | 0 | 0 | ✓ |
+| text "$50" | 24,138 37×28 | 24,138 37×28 | 0 | 0 | 0 | 0 | ✓ |
+| text "agent/month paid yearly" | 65,146 145×17 | 65,146 145×17 | 0 | 0 | 0 | 0 | ✓ |
+| link "learn more" | 24,208 85×24 | 24,208 85×24 | 0 | 0 | 0 | 0 | ✓ |
+| text "learn more" | 24,208 85×24 | 24,208 85×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of gen-a-addon-card (required) #addons .Cardstyle__CardRoot-sc-12jokda-2=.pr-addons .pr-card: origin 20,3239 320×294 vs served 20,3239 320×294 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "workforce engagement bundle" | 24,32 272×60 | 24,32 272×60 | 0 | 0 | 0 | 0 | ✓ |
+| text "elevate customer service quality and" | 24,112 272×36 | 24,112 272×36 | 0 | 0 | 0 | 0 | ✓ |
+| text "$50" | 24,168 37×28 | 24,168 37×28 | 0 | 0 | 0 | 0 | ✓ |
+| text "agent/month paid yearly" | 65,176 145×17 | 65,176 145×17 | 0 | 0 | 0 | 0 | ✓ |
+| link "learn more" | 24,238 85×24 | 24,238 85×24 | 0 | 0 | 0 | 0 | ✓ |
+| text "learn more" | 24,238 85×24 | 24,238 85×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of gen-a-addon-card (required) #addons .Cardstyle__CardRoot-sc-12jokda-2=.pr-addons .pr-card: origin 20,3553 320×264 vs served 20,3553 320×264 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "contact center" | 24,32 272×30 | 24,32 272×30 | 0 | 0 | 0 | 0 | ✓ |
+| text "power complex contact centers with e" | 24,82 272×36 | 24,82 272×36 | 0 | 0 | 0 | 0 | ✓ |
+| text "$83" | 24,138 36×28 | 24,138 36×28 | 0 | 0 | 0 | 0 | ✓ |
+| text "agent/month paid yearly" | 64,146 145×17 | 64,146 145×17 | 0 | 0 | 0 | 0 | ✓ |
+| link "learn more" | 24,208 85×24 | 24,208 85×24 | 0 | 0 | 0 | 0 | ✓ |
+| text "learn more" | 24,208 85×24 | 24,208 85×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of gen-a-pricing-faq-row (required) #faqs .Accordionstyle__AccordionSection-sc-1baakjb-5=.pr-acc__item: origin 16,6335 328×660 vs served 16,6335 328×660 → Δx 0 Δy 0 Δw 0 Δh 0; 15 elements: 15 within 4px, 0 off, 0 hidden, 0 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "how is zendesk pricing structured?" | 0,1 328×62 | 0,1 328×62 | 0 | 0 | 0 | 0 | ✓ |
+| button "how is zendesk pricing structured?" | 16,1 263×62 | 16,1 263×62 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 291,20 21×24 | 291,20 21×24 | 0 | 0 | 0 | 0 | ✓ |
+| heading "how is zendesk pricing structured?" | 16,21 263×22 | 16,21 263×22 | 0 | 0 | 0 | 0 | ✓ |
+| text "zendesk pricing is primarily seat-ba" | 16,63 296×87 | 16,63 296×87 | 0 | 0 | 0 | 0 | ✓ |
+| text "base subscription: pricing is determ" | 48,166 264×87 | 48,166 264×87 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#2" | 16,168 16×16 | 16,169 16×16 | 0 | +1 | 0 | 0 | ✓ |
+| text "usage-based features: certain featur" | 48,265 264×109 | 48,265 264×109 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#3" | 16,267 16×16 | 16,268 16×16 | 0 | +1 | 0 | 0 | ✓ |
+| text "add-ons: optional products and advan" | 48,386 264×65 | 48,386 264×65 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#4" | 16,388 16×16 | 16,388 16×16 | 0 | 0 | 0 | 0 | ✓ |
+| text "annual vs. monthly billing: annual s" | 48,463 264×87 | 48,463 264×87 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#5" | 16,465 16×16 | 16,466 16×16 | 0 | +1 | 0 | 0 | ✓ |
+| link "contact sales" | 16,581 97×24 | 16,581 97×24 | 0 | 0 | 0 | 0 | ✓ |
+| text "to learn more." | 16,582 296×22 | 16,582 296×22 | 0 | 0 | 0 | 0 | ✓ |
+| text "contact sales" | — | 16,583 97×19 | | | | | 🟡 extra |
+unit 2 of gen-a-pricing-faq-row (required) #faqs .Accordionstyle__AccordionSection-sc-1baakjb-5=.pr-acc__item: origin 16,6994 328×85 vs served 16,6994 328×85 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "what is the difference between suppo" | 0,1 328×84 | 0,1 328×84 | 0 | 0 | 0 | 0 | ✓ |
+| button "what is the difference between suppo" | 16,1 263×84 | 16,1 263×84 | 0 | 0 | 0 | 0 | ✓ |
+| heading "what is the difference between suppo" | 16,21 263×44 | 16,21 263×44 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 291,31 21×24 | 291,31 21×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of gen-a-pricing-faq-row (required) #faqs .Accordionstyle__AccordionSection-sc-1baakjb-5=.pr-acc__item: origin 16,7079 328×63 vs served 16,7079 328×63 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "how does pricing for ai agents work?" | 0,1 328×62 | 0,1 328×62 | 0 | 0 | 0 | 0 | ✓ |
+| button "how does pricing for ai agents work?" | 16,1 263×62 | 16,1 263×62 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 291,20 21×24 | 291,20 21×24 | 0 | 0 | 0 | 0 | ✓ |
+| heading "how does pricing for ai agents work?" | 16,21 263×22 | 16,21 263×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of gen-a-pricing-faq-row (required) #faqs .Accordionstyle__AccordionSection-sc-1baakjb-5=.pr-acc__item: origin 16,7141 328×63 vs served 16,7141 328×63 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "what are forethought ai agents?" | 0,1 328×62 | 0,1 328×62 | 0 | 0 | 0 | 0 | ✓ |
+| button "what are forethought ai agents?" | 16,1 263×62 | 16,1 263×62 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 291,20 21×24 | 291,20 21×24 | 0 | 0 | 0 | 0 | ✓ |
+| heading "what are forethought ai agents?" | 16,21 263×22 | 16,21 263×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of gen-a-pricing-faq-row (required) #faqs .Accordionstyle__AccordionSection-sc-1baakjb-5=.pr-acc__item: origin 16,7204 328×85 vs served 16,7204 328×85 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "what add-ons are available and how a" | 0,1 328×84 | 0,1 328×84 | 0 | 0 | 0 | 0 | ✓ |
+| button "what add-ons are available and how a" | 16,1 263×84 | 16,1 263×84 | 0 | 0 | 0 | 0 | ✓ |
+| heading "what add-ons are available and how a" | 16,21 263×44 | 16,21 263×44 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 291,31 21×24 | 291,31 21×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 6 of gen-a-pricing-faq-row (required) #faqs .Accordionstyle__AccordionSection-sc-1baakjb-5=.pr-acc__item: origin 16,7289 328×63 vs served 16,7289 328×63 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "how can i purchase zendesk?" | 0,1 328×62 | 0,1 328×62 | 0 | 0 | 0 | 0 | ✓ |
+| button "how can i purchase zendesk?" | 16,1 263×62 | 16,1 263×62 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 291,20 21×24 | 291,20 21×24 | 0 | 0 | 0 | 0 | ✓ |
+| heading "how can i purchase zendesk?" | 16,21 263×22 | 16,21 263×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 7 of gen-a-pricing-faq-row (required) #faqs .Accordionstyle__AccordionSection-sc-1baakjb-5=.pr-acc__item: origin 16,7351 328×85 vs served 16,7351 328×85 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "can i purchase enterprise plans onli" | 0,1 328×84 | 0,1 328×84 | 0 | 0 | 0 | 0 | ✓ |
+| button "can i purchase enterprise plans onli" | 16,1 263×84 | 16,1 263×84 | 0 | 0 | 0 | 0 | ✓ |
+| heading "can i purchase enterprise plans onli" | 16,21 263×44 | 16,21 263×44 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 291,31 21×24 | 291,31 21×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 8 of gen-a-pricing-faq-row (required) #faqs .Accordionstyle__AccordionSection-sc-1baakjb-5=.pr-acc__item: origin 16,7436 328×85 vs served 16,7436 328×85 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "how long are your contracts? can i u" | 0,1 328×84 | 0,1 328×84 | 0 | 0 | 0 | 0 | ✓ |
+| button "how long are your contracts? can i u" | 16,1 263×84 | 16,1 263×84 | 0 | 0 | 0 | 0 | ✓ |
+| heading "how long are your contracts? can i u" | 16,21 263×44 | 16,21 263×44 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 291,31 21×24 | 291,31 21×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 9 of gen-a-pricing-faq-row (required) #faqs .Accordionstyle__AccordionSection-sc-1baakjb-5=.pr-acc__item: origin 16,7520 328×63 vs served 16,7520 328×63 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "how does the free trial work?" | 0,1 328×62 | 0,1 328×62 | 0 | 0 | 0 | 0 | ✓ |
+| button "how does the free trial work?" | 16,1 263×62 | 16,1 263×62 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 291,20 21×24 | 291,20 21×24 | 0 | 0 | 0 | 0 | ✓ |
+| heading "how does the free trial work?" | 16,21 263×22 | 16,21 263×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 10 of gen-a-pricing-faq-row (required) #faqs .Accordionstyle__AccordionSection-sc-1baakjb-5=.pr-acc__item: origin 16,7583 328×63 vs served 16,7583 328×63 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "how do i estimate my total cost?" | 0,1 328×62 | 0,1 328×62 | 0 | 0 | 0 | 0 | ✓ |
+| button "how do i estimate my total cost?" | 16,1 263×62 | 16,1 263×62 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 291,20 21×24 | 291,20 21×24 | 0 | 0 | 0 | 0 | ✓ |
+| heading "how do i estimate my total cost?" | 16,21 263×22 | 16,21 263×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 11 of gen-a-pricing-faq-row (required) #faqs .Accordionstyle__AccordionSection-sc-1baakjb-5=.pr-acc__item: origin 16,7646 328×85 vs served 16,7646 328×85 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "does zendesk integrate with other ap" | 0,1 328×84 | 0,1 328×84 | 0 | 0 | 0 | 0 | ✓ |
+| button "does zendesk integrate with other ap" | 16,1 263×84 | 16,1 263×84 | 0 | 0 | 0 | 0 | ✓ |
+| heading "does zendesk integrate with other ap" | 16,21 263×44 | 16,21 263×44 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 291,31 21×24 | 291,31 21×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 12 of gen-a-pricing-faq-row (required) #faqs .Accordionstyle__AccordionSection-sc-1baakjb-5=.pr-acc__item: origin 16,7730 328×63 vs served 16,7730 328×63 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "how do you protect customer data?" | 0,1 328×62 | 0,1 328×62 | 0 | 0 | 0 | 0 | ✓ |
+| button "how do you protect customer data?" | 16,1 263×62 | 16,1 263×62 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 291,20 21×24 | 291,20 21×24 | 0 | 0 | 0 | 0 | ✓ |
+| heading "how do you protect customer data?" | 16,21 263×22 | 16,21 263×22 | 0 | 0 | 0 | 0 | ✓ |
+Units: 19 compared; elements within 152, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/pricing-360/units-iter5.json

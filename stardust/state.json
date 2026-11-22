@@ -1,0 +1,4383 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-11-20T17:01:33Z",
+    "stardustVersion": "0.42.2"
+  },
+  "site": {
+    "originUrl": "https://www.zendesk.com",
+    "deployUrl": null,
+    "extractedAt": "2026-11-20T07:24:50.118Z",
+    "pageCap": 100,
+    "totalDiscovered": 100,
+    "crawled": 100,
+    "scope": "pages-list (stardust/.labs/site-plan.pages)",
+    "captureGaps": []
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-20T07:24:50.118Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.zendesk.com/",
+      "title": "AI-Powered Customer Service Platform | Zendesk",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:12:24.209Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-20T09:51:06Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T11:43:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": "stardust/migrated/index.html"
+    },
+    {
+      "slug": "marketplace",
+      "url": "https://www.zendesk.com/marketplace/",
+      "title": "Zendesk Marketplace - Find Apps, Integrations & Partners",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:12:17.615Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:30:54Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:31:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/marketplace.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer",
+      "url": "https://www.zendesk.com/customer/",
+      "title": "Customers - What Companies Use to Service You | Zendesk",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:12:17.618Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:30:54Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:31:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "trust-center",
+      "url": "https://www.zendesk.com/trust-center/",
+      "title": "Security, Privacy and Legal | Zendesk Trust Center",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:12:32.304Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:15:15Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:16:17Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:16:25Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/trust-center.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/trust-center/index.html"
+    },
+    {
+      "slug": "pricing",
+      "url": "https://www.zendesk.com/pricing/",
+      "title": "Zendesk Pricing Plans | Starting from $19/month",
+      "type": "unique",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:12:33.536Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-20T11:22:58Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T11:43:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/pricing.json",
+      "prototypePath": "stardust/prototypes/pricing-proposed.html",
+      "migratedPath": "stardust/migrated/pricing/index.html"
+    },
+    {
+      "slug": "blog",
+      "url": "https://www.zendesk.com/blog/",
+      "title": "Customer experience, support and sales blog | Zendesk",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:12:36.280Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-20T10:34:22Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T11:43:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blog.json",
+      "prototypePath": "stardust/prototypes/blog-proposed.html",
+      "migratedPath": "stardust/migrated/blog/index.html"
+    },
+    {
+      "slug": "contact",
+      "url": "https://www.zendesk.com/contact/",
+      "title": "Contact us",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:12:41.387Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-20T10:21:37Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T11:43:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/contact.json",
+      "prototypePath": "stardust/prototypes/contact-proposed.html",
+      "migratedPath": "stardust/migrated/contact/index.html"
+    },
+    {
+      "slug": "login",
+      "url": "https://www.zendesk.com/login/",
+      "title": "Login | Zendesk",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:12:39.941Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:47:30Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:49:09Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/login.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "register",
+      "url": "https://www.zendesk.com/register/",
+      "title": "Register",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:12:42.351Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:47:30Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:49:09Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/register.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "newsroom",
+      "url": "https://www.zendesk.com/newsroom/",
+      "title": "Zendesk Newsroom",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:12:49.027Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:30:54Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:31:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/newsroom.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "employee-experience",
+      "url": "https://www.zendesk.com/employee-experience/",
+      "title": "Internal Help Desk Software for Employees | Zendesk",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:12:53.017Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:02:20Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:06:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/employee-experience.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/employee-experience/index.html"
+    },
+    {
+      "slug": "service",
+      "url": "https://www.zendesk.com/service/",
+      "title": "AI-powered customer service software | Zendesk",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:12:55.110Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-20T09:57:31Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T11:43:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/service.json",
+      "prototypePath": "stardust/prototypes/service-proposed.html",
+      "migratedPath": "stardust/migrated/service/index.html"
+    },
+    {
+      "slug": "demo",
+      "url": "https://www.zendesk.com/demo/",
+      "title": "Zendesk Demo | Watch a Quick Help Desk Software Demo",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:12:57.241Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:47:30Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:49:09Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/demo.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "industries",
+      "url": "https://www.zendesk.com/industries/",
+      "title": "Looking for a CRM solution for your specific industry? | Zendesk",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:04.083Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:30:54Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:31:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/industries.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "partner",
+      "url": "https://www.zendesk.com/partner/",
+      "title": "Partner with Zendesk | Sell, deploy, and build custom solutions",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:06.942Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:02:20Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:06:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/partner.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/partner/index.html"
+    },
+    {
+      "slug": "employee-service",
+      "url": "https://www.zendesk.com/employee-service/",
+      "title": "Zendesk: AI-Powered Employee Service Solution",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:10.404Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:02:20Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:06:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/employee-service.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/employee-service/index.html"
+    },
+    {
+      "slug": "sitemap",
+      "url": "https://www.zendesk.com/sitemap/",
+      "title": "The Zendesk Sitemap for Quick Navigation",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:13.604Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:15:15Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:16:17Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:16:25Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/sitemap.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/sitemap/index.html"
+    },
+    {
+      "slug": "sell",
+      "url": "https://www.zendesk.com/sell/",
+      "title": "Zendesk CRM for Sales | All-in-One Sales Platform Zendesk Sell",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:17.292Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:02:20Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:06:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/sell.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/sell/index.html"
+    },
+    {
+      "slug": "instapage-form-demo",
+      "url": "https://www.zendesk.com/instapage-form-demo/",
+      "title": "Instapage Form: Demo",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:17.290Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:47:30Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:49:09Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/instapage-form-demo.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "platform",
+      "url": "https://www.zendesk.com/platform/",
+      "title": "Develop custom experiences with the Zendesk Platform | Zendesk Sunshine",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:24.825Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:02:20Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:06:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/platform.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/platform/index.html"
+    },
+    {
+      "slug": "instapage-form-contact",
+      "url": "https://www.zendesk.com/instapage-form-contact/",
+      "title": "Instapage Form: Contact",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:24.821Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:47:30Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:49:09Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/instapage-form-contact.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "repeatcustomer",
+      "url": "https://www.zendesk.com/repeatcustomer/",
+      "title": "The Repeat Customer podcast",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:27.743Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:36:13Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:38:09Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/repeatcustomer.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "instapage-form-trial-teaser-sell",
+      "url": "https://www.zendesk.com/instapage-form-trial-teaser-sell/",
+      "title": "Instapage Form: Trial Teaser Sell",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:31.403Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:47:30Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:49:09Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/instapage-form-trial-teaser-sell.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "what-is-zendesk",
+      "url": "https://www.zendesk.com/what-is-zendesk/",
+      "title": "What is Zendesk? Powerful customer experience software",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:36.000Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:15:15Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:16:17Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:16:25Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/what-is-zendesk.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/what-is-zendesk/index.html"
+    },
+    {
+      "slug": "intro-tour",
+      "url": "https://www.zendesk.com/intro-tour/",
+      "title": "Take a quick tour",
+      "type": "unique",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:34.544Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:59:37Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T17:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/intro-tour.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "instapage-form-webinar",
+      "url": "https://www.zendesk.com/instapage-form-webinar/",
+      "title": "Instapage Form: Webinar",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:38.100Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:53:48Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:54:35Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/instapage-form-webinar.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "instapage-form-trial-teaser-suite",
+      "url": "https://www.zendesk.com/instapage-form-trial-teaser-suite/",
+      "title": "Instapage Form: Trial Teaser Suite",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:40.613Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:53:48Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:54:35Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/instapage-form-trial-teaser-suite.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "instapage-form-trial-teaser-suite-inline",
+      "url": "https://www.zendesk.com/instapage-form-trial-teaser-suite-inline/",
+      "title": "Instapage Form: Trial Teaser Suite Inline",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:42.101Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:53:48Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:54:35Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/instapage-form-trial-teaser-suite-inline.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "instapage-form-newsletter",
+      "url": "https://www.zendesk.com/instapage-form-newsletter/",
+      "title": "Instapage Form: Newsletter",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:44.132Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:53:48Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:54:35Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/instapage-form-newsletter.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "instapage-form-content",
+      "url": "https://www.zendesk.com/instapage-form-content/",
+      "title": "Instapage Form: Content",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:46.965Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:53:48Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:54:35Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/instapage-form-content.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "help-center-closed",
+      "url": "https://www.zendesk.com/help-center-closed/",
+      "title": "Help Center Closed",
+      "type": "unique",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:49.781Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:59:37Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T17:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/help-center-closed.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "company",
+      "url": "https://www.zendesk.com/company/",
+      "title": "About Zendesk",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:53.925Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-20T10:42:19Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T11:43:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/company.json",
+      "prototypePath": "stardust/prototypes/company-proposed.html",
+      "migratedPath": "stardust/migrated/company/index.html"
+    },
+    {
+      "slug": "why-zendesk",
+      "url": "https://www.zendesk.com/why-zendesk/",
+      "title": "Why Zendesk | The AI Service Platform Built for Real Resolutions",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:58.727Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:36:13Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:38:09Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/why-zendesk.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "web-widget",
+      "url": "https://www.zendesk.com/web-widget/",
+      "title": "Web Widget",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:59.027Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:36:13Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:38:09Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/web-widget.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blog-ads-api-output",
+      "url": "https://www.zendesk.com/blog-ads-api-output/",
+      "title": null,
+      "type": "unique",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:13:59.599Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:59:37Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T17:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blog-ads-api-output.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "professional-services",
+      "url": "https://www.zendesk.com/professional-services/",
+      "title": "Zendesk professional Services",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:14:10.926Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:36:13Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:38:09Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/professional-services.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "free-trial",
+      "url": "https://www.zendesk.com/free-trial/",
+      "title": "Zendesk Free Trial | AI Customer & Employee Service",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:14:12.653Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:53:48Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:54:35Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/free-trial.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "cxtrends",
+      "url": "https://www.zendesk.com/cxtrends/",
+      "title": "Zendesk CX Trends Report 2027",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:14:12.650Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:36:13Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:38:09Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/cxtrends.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "marketplace-apps",
+      "url": "https://www.zendesk.com/marketplace/apps/",
+      "title": "Zendesk App Marketplace - Find Apps, Integrations & Partners",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:14:22.033Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:30:54Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:31:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/marketplace-apps.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "marketplace-partners",
+      "url": "https://www.zendesk.com/marketplace/partners/",
+      "title": "Looking for Zendesk consulting, solution & implementation partners?",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:14:22.626Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:30:54Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:31:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/marketplace-partners.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "marketplace-themes",
+      "url": "https://www.zendesk.com/marketplace/themes/",
+      "title": "Freshen up your help center with new Zendesk Help Center Themes",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:14:23.518Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T16:30:54Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T16:31:51Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/marketplace-themes.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-madeiramadeira",
+      "url": "https://www.zendesk.com/customer/madeiramadeira/",
+      "title": "MadeiraMadeira transforms CX with Zendesk AI agents",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:14:33.248Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T13:56:02Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:04:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-madeiramadeira.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/customer/madeiramadeira/index.html"
+    },
+    {
+      "slug": "customer-serasa-experian",
+      "url": "https://www.zendesk.com/customer/serasa-experian/",
+      "title": "Serasa Experian expands digital customer service with Zendesk AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:14:34.003Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T13:56:02Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:04:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-serasa-experian.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/customer/serasa-experian/index.html"
+    },
+    {
+      "slug": "customer-nortek",
+      "url": "https://www.zendesk.com/customer/nortek/",
+      "title": "How Nortek is using AI to make more time for customers",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:14:35.053Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T13:56:02Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:04:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-nortek.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/customer/nortek/index.html"
+    },
+    {
+      "slug": "customer-resurs-bank",
+      "url": "https://www.zendesk.com/customer/resurs-bank/",
+      "title": "Resurs Bank partners with Synerity to bring AI-powered support to Nordic customers",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:14:44.501Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T13:56:02Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:04:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-resurs-bank.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/customer/resurs-bank/index.html"
+    },
+    {
+      "slug": "customer-mimecast",
+      "url": "https://www.zendesk.com/customer/mimecast/",
+      "title": "Mimecast transforms customer support with Zendesk AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:14:45.548Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T13:56:02Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:04:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-mimecast.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/customer/mimecast/index.html"
+    },
+    {
+      "slug": "customer-dfin",
+      "url": "https://www.zendesk.com/customer/dfin/",
+      "title": "DFIN unifies service and drives 80 percent first-call resolution with Zendesk",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:14:46.118Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T13:56:02Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:04:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-dfin.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/customer/dfin/index.html"
+    },
+    {
+      "slug": "customer-canva",
+      "url": "https://www.zendesk.com/customer/canva/",
+      "title": "Canva turns customer insights into action with Zendesk",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:14:55.589Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-20T08:47:07Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-20T08:47:07Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T11:43:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-canva.json",
+      "prototypePath": "stardust/prototypes/customer-canva-proposed.html",
+      "migratedPath": "stardust/migrated/customer/canva/index.html"
+    },
+    {
+      "slug": "customer-koho",
+      "url": "https://www.zendesk.com/customer/koho/",
+      "title": "KOHO saves $8M with Forethought Voice",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:14:56.052Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T13:56:02Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:04:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-koho.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/customer/koho/index.html"
+    },
+    {
+      "slug": "customer-bgl",
+      "url": "https://www.zendesk.com/customer/bgl/",
+      "title": "BGL handles rapid growth with Zendesk AI-powered customer support",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:14:57.165Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T13:56:02Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:04:39Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-bgl.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/customer/bgl/index.html"
+    },
+    {
+      "slug": "customer-deputy",
+      "url": "https://www.zendesk.com/customer/deputy/",
+      "title": "Deputy builds an AI-first support experience with Zendesk",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:15:06.672Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:08:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:09:01Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-deputy.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-qantas-loyalty",
+      "url": "https://www.zendesk.com/customer/qantas-loyalty/",
+      "title": "Qantas Loyalty soars past automation goals with Zendesk AI Agents",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:15:07.118Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:08:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:09:01Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-qantas-loyalty.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-perk-es",
+      "url": "https://www.zendesk.com/customer/perk-es/",
+      "title": "Perk scales employee service with Zendesk + HiBob without losing the human touch",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:15:08.725Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:08:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:09:01Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-perk-es.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-asaas",
+      "url": "https://www.zendesk.com/customer/asaas/",
+      "title": "Asaas transforms complexity into confidence with Zendesk Copilot",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:15:17.905Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:08:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:09:01Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-asaas.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-recargapay",
+      "url": "https://www.zendesk.com/customer/recargapay/",
+      "title": "RecargaPay transforms Support With Zendesk Copilot",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:15:18.493Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:08:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:09:01Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-recargapay.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-liberty-tax",
+      "url": "https://www.zendesk.com/customer/liberty-tax/",
+      "title": "Liberty Tax scales seasonal support with Zendesk AI agents",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:15:19.811Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:08:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:09:01Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-liberty-tax.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-motiva",
+      "url": "https://www.zendesk.com/customer/motiva/",
+      "title": "How Motiva is building an omnichannel operation with Zendesk AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:15:30.629Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:08:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:09:01Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-motiva.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-star21",
+      "url": "https://www.zendesk.com/customer/star21/",
+      "title": "Star21 innovates faster with Zendesk App Builder",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:15:29.651Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:08:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:09:01Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-star21.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-petstock",
+      "url": "https://www.zendesk.com/customer/petstock/",
+      "title": "Petstock modernizes telephony with Zendesk Contact Center",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:15:31.808Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:10:07Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:10:36Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-petstock.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-thoughtworks",
+      "url": "https://www.zendesk.com/customer/thoughtworks/",
+      "title": "Thoughtworks transforms employee service with AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:15:42.822Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:10:07Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:10:36Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-thoughtworks.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-solo-by-myob",
+      "url": "https://www.zendesk.com/customer/solo-by-myob/",
+      "title": "Lean team, big impact: Solo by MYOB's service-first playbook",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:15:42.822Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:10:07Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:10:36Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-solo-by-myob.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-givedirectly",
+      "url": "https://www.zendesk.com/customer/givedirectly/",
+      "title": "GiveDirectly speeds up disaster response with Zendesk",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:15:43.749Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:10:07Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:10:36Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-givedirectly.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-uneo",
+      "url": "https://www.zendesk.com/customer/uneo/",
+      "title": "Zendesk delivers a 360° customer experience for Unéo",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:15:53.214Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:10:07Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:10:36Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-uneo.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-trodo",
+      "url": "https://www.zendesk.com/customer/trodo/",
+      "title": "Trodo drives the future of automated CX with Zendesk AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:15:55.579Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:10:07Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:10:36Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-trodo.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-sealy-of-australia",
+      "url": "https://www.zendesk.com/customer/sealy-of-australia/",
+      "title": "Sealy of Australia scales CX with Zendesk AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:15:55.577Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:10:07Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:10:36Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-sealy-of-australia.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-betmgm-brasil",
+      "url": "https://www.zendesk.com/customer/betmgm-brasil/",
+      "title": "BetMGM Brasil doubles down on the player experience with Zendesk AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:16:05.112Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:10:07Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:10:36Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-betmgm-brasil.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-the-smith-family",
+      "url": "https://www.zendesk.com/customer/the-smith-family/",
+      "title": "The Smith Family builds trust with Zendesk Contact Center",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:16:06.201Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:11:46Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:12:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-the-smith-family.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-catapult",
+      "url": "https://www.zendesk.com/customer/catapult/",
+      "title": "Catapult offers elite CX performance with Zendesk AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:16:07.325Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:11:46Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:12:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-catapult.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-lucid-software-es",
+      "url": "https://www.zendesk.com/customer/lucid-software-es/",
+      "title": "Lucid Software builds trust at scale with Zendesk for Employee Service",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:16:16.649Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:11:46Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:12:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-lucid-software-es.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-coco-republic",
+      "url": "https://www.zendesk.com/customer/coco-republic/",
+      "title": "Coco Republic elevates luxury service with Contact Center",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:16:17.371Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:11:46Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:12:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-coco-republic.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-envato",
+      "url": "https://www.zendesk.com/customer/envato/",
+      "title": "Envato cuts first reply time with Zendesk AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:16:18.359Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:11:46Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:12:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-envato.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-docebo",
+      "url": "https://www.zendesk.com/customer/docebo/",
+      "title": "Docebo enhances B2B CX with Zendesk AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:16:27.575Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:11:46Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:12:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-docebo.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-tbauctions",
+      "url": "https://www.zendesk.com/customer/tbauctions/",
+      "title": "TBAuctions speeds customer support with Zendesk Advanced AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:16:30.212Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:11:46Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:12:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-tbauctions.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-furnished-finder",
+      "url": "https://www.zendesk.com/customer/furnished-finder/",
+      "title": "Inside Furnished Finder’s human-centered approach to AI in customer support",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:16:30.226Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:11:46Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:12:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-furnished-finder.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-lucid-software-ai",
+      "url": "https://www.zendesk.com/customer/lucid-software-ai/",
+      "title": "Lucid Software scales support for 100 million users with Zendesk AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:16:38.999Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:14:17Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:15:22Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-lucid-software-ai.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-pure-insurance",
+      "url": "https://www.zendesk.com/customer/pure-insurance/",
+      "title": "How PURE Insurance scales internal support to 16+ teams with Zendesk",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:16:40.225Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:14:17Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:15:22Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-pure-insurance.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-five-iron-golf",
+      "url": "https://www.zendesk.com/customer/five-iron-golf/",
+      "title": "Five Iron Golf unifies customer conversations with Zendesk Contact Center",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:16:42.178Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:14:17Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:15:22Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-five-iron-golf.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-github-es",
+      "url": "https://www.zendesk.com/customer/github-es/",
+      "title": "GitHub makes Zendesk the foundation of elevated employee service",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:16:51.082Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:14:17Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:15:22Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-github-es.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-tesu",
+      "url": "https://www.zendesk.com/customer/tesu/",
+      "title": "TESU transforms student support with Zendesk AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:16:52.092Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:14:17Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:15:22Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-tesu.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-inshur",
+      "url": "https://www.zendesk.com/customer/inshur/",
+      "title": "The policy behind the promise: INSHUR’s CX transformation with Zendesk",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:16:53.543Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:14:17Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:15:22Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-inshur.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-odeon-cinemas",
+      "url": "https://www.zendesk.com/customer/odeon-cinemas/",
+      "title": "ODEON Cinemas delivers boffo results with Zendesk AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:17:02.855Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:14:17Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:15:22Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-odeon-cinemas.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-britbox",
+      "url": "https://www.zendesk.com/customer/britbox/",
+      "title": "How BritBox maintains white-glove CX with Zendesk AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:17:03.987Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:14:17Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:15:22Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-britbox.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-sinch-engage",
+      "url": "https://www.zendesk.com/customer/sinch-engage/",
+      "title": "Leading cloud comms company sees major CX gains with Zendesk",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:17:05.025Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:17:37Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:18:23Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-sinch-engage.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-zendesk-for-employee-service",
+      "url": "https://www.zendesk.com/customer/zendesk-for-employee-service/",
+      "title": "Zendesk facilitates 54% of internal tickets with AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:17:14.535Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:17:37Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:18:23Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-zendesk-for-employee-service.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-irc-video",
+      "url": "https://www.zendesk.com/customer/irc-video/",
+      "title": "IRC Video",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:17:13.688Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:17:37Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:18:23Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-irc-video.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-motel-rocks",
+      "url": "https://www.zendesk.com/customer/motel-rocks/",
+      "title": "Motel sees self-service climb by 3X and faster ticket handling with Zendesk AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:17:15.647Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:17:37Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:18:23Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-motel-rocks.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-privy",
+      "url": "https://www.zendesk.com/customer/privy/",
+      "title": "Privy scales customer service with Zendesk AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:17:25.547Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:17:37Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:18:23Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-privy.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-liberty-qa",
+      "url": "https://www.zendesk.com/customer/liberty-qa/",
+      "title": "How Liberty uses Zendesk QA to provide luxury customer service",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:17:27.126Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:17:37Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:18:23Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-liberty-qa.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-qualia",
+      "url": "https://www.zendesk.com/customer/qualia/",
+      "title": "How Qualia uses GenAI to radically elevate its CX",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:17:27.120Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:17:37Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:18:23Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-qualia.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-miko",
+      "url": "https://www.zendesk.com/customer/miko/",
+      "title": "Miko uses AI to scale CX for high growth and assist busy agents",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:17:36.752Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:17:37Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:18:24Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-miko.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-ballys",
+      "url": "https://www.zendesk.com/customer/ballys/",
+      "title": "Bally's",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:17:39.065Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:19:33Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:20:14Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-ballys.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-dupage-county",
+      "url": "https://www.zendesk.com/customer/dupage-county/",
+      "title": "DuPage County modernizes employee support and CX with Zendesk AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:17:39.070Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:19:33Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:20:14Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-dupage-county.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-yape",
+      "url": "https://www.zendesk.com/customer/yape/",
+      "title": "Yape enhances its CX with Zendesk AI Copilot for faster and more efficient resolutions",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:17:47.959Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:19:33Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:20:14Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-yape.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-babbel",
+      "url": "https://www.zendesk.com/customer/babbel/",
+      "title": "Zendesk AI speaks Babbel’s language",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:17:50.022Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:19:33Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:20:14Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-babbel.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-starshipit",
+      "url": "https://www.zendesk.com/customer/starshipit/",
+      "title": "Starshipit",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:17:52.083Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:19:33Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:20:14Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-starshipit.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-action-property-management",
+      "url": "https://www.zendesk.com/customer/action-property-management/",
+      "title": "Zendesk AI helps Action Property Management homeowners love where they live",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:17:59.670Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:19:33Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:20:14Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-action-property-management.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-easyfundraising",
+      "url": "https://www.zendesk.com/customer/easyfundraising/",
+      "title": "How easyfundraising's six-person team supports millions with Zendesk AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:18:01.516Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:19:33Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:20:14Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-easyfundraising.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-shearcomfort",
+      "url": "https://www.zendesk.com/customer/shearcomfort/",
+      "title": "ShearComfort finds AI to be a perfect fit for exceptional CX",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:18:03.102Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:19:33Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:20:14Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-shearcomfort.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-benevity",
+      "url": "https://www.zendesk.com/customer/benevity/",
+      "title": "Benevity transforms ticket triaging with Zendesk AI",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:18:10.626Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:21:06Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:21:44Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-benevity.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-quickmd",
+      "url": "https://www.zendesk.com/customer/quickmd/",
+      "title": "QuickMD achieves faster resolutions with Zendesk",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-20T07:18:12.237Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-20T14:21:06Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T14:21:44Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-quickmd.json",
+      "prototypePath": null,
+      "migratedPath": null
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-20T17:01:09Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/marketplace/",
+        "outputPath": "marketplace/index.html",
+        "slug": "marketplace",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/",
+        "outputPath": "customer/index.html",
+        "slug": "customer",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/trust-center/",
+        "outputPath": "trust-center/index.html",
+        "slug": "trust-center",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/pricing/",
+        "outputPath": "pricing/index.html",
+        "slug": "pricing",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog/",
+        "outputPath": "blog/index.html",
+        "slug": "blog",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/contact/",
+        "outputPath": "contact/index.html",
+        "slug": "contact",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/login/",
+        "outputPath": "login/index.html",
+        "slug": "login",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/register/",
+        "outputPath": "register/index.html",
+        "slug": "register",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/newsroom/",
+        "outputPath": "newsroom/index.html",
+        "slug": "newsroom",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/employee-experience/",
+        "outputPath": "employee-experience/index.html",
+        "slug": "employee-experience",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/service/",
+        "outputPath": "service/index.html",
+        "slug": "service",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/demo/",
+        "outputPath": "demo/index.html",
+        "slug": "demo",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/industries/",
+        "outputPath": "industries/index.html",
+        "slug": "industries",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/partner/",
+        "outputPath": "partner/index.html",
+        "slug": "partner",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/employee-service/",
+        "outputPath": "employee-service/index.html",
+        "slug": "employee-service",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/sitemap/",
+        "outputPath": "sitemap/index.html",
+        "slug": "sitemap",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/sell/",
+        "outputPath": "sell/index.html",
+        "slug": "sell",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/instapage-form-demo/",
+        "outputPath": "instapage-form-demo/index.html",
+        "slug": "instapage-form-demo",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/platform/",
+        "outputPath": "platform/index.html",
+        "slug": "platform",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/instapage-form-contact/",
+        "outputPath": "instapage-form-contact/index.html",
+        "slug": "instapage-form-contact",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/repeatcustomer/",
+        "outputPath": "repeatcustomer/index.html",
+        "slug": "repeatcustomer",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/instapage-form-trial-teaser-sell/",
+        "outputPath": "instapage-form-trial-teaser-sell/index.html",
+        "slug": "instapage-form-trial-teaser-sell",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/what-is-zendesk/",
+        "outputPath": "what-is-zendesk/index.html",
+        "slug": "what-is-zendesk",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/intro-tour/",
+        "outputPath": "intro-tour/index.html",
+        "slug": "intro-tour",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/instapage-form-webinar/",
+        "outputPath": "instapage-form-webinar/index.html",
+        "slug": "instapage-form-webinar",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/instapage-form-trial-teaser-suite/",
+        "outputPath": "instapage-form-trial-teaser-suite/index.html",
+        "slug": "instapage-form-trial-teaser-suite",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/instapage-form-trial-teaser-suite-inline/",
+        "outputPath": "instapage-form-trial-teaser-suite-inline/index.html",
+        "slug": "instapage-form-trial-teaser-suite-inline",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/instapage-form-newsletter/",
+        "outputPath": "instapage-form-newsletter/index.html",
+        "slug": "instapage-form-newsletter",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/instapage-form-content/",
+        "outputPath": "instapage-form-content/index.html",
+        "slug": "instapage-form-content",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/help-center-closed/",
+        "outputPath": "help-center-closed/index.html",
+        "slug": "help-center-closed",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/company/",
+        "outputPath": "company/index.html",
+        "slug": "company",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/why-zendesk/",
+        "outputPath": "why-zendesk/index.html",
+        "slug": "why-zendesk",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/web-widget/",
+        "outputPath": "web-widget/index.html",
+        "slug": "web-widget",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog-ads-api-output/",
+        "outputPath": "blog-ads-api-output/index.html",
+        "slug": "blog-ads-api-output",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/professional-services/",
+        "outputPath": "professional-services/index.html",
+        "slug": "professional-services",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/free-trial/",
+        "outputPath": "free-trial/index.html",
+        "slug": "free-trial",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/cxtrends/",
+        "outputPath": "cxtrends/index.html",
+        "slug": "cxtrends",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/marketplace/apps/",
+        "outputPath": "marketplace/apps/index.html",
+        "slug": "marketplace-apps",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/marketplace/partners/",
+        "outputPath": "marketplace/partners/index.html",
+        "slug": "marketplace-partners",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/marketplace/themes/",
+        "outputPath": "marketplace/themes/index.html",
+        "slug": "marketplace-themes",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/madeiramadeira/",
+        "outputPath": "customer/madeiramadeira/index.html",
+        "slug": "customer-madeiramadeira",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/serasa-experian/",
+        "outputPath": "customer/serasa-experian/index.html",
+        "slug": "customer-serasa-experian",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/nortek/",
+        "outputPath": "customer/nortek/index.html",
+        "slug": "customer-nortek",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/resurs-bank/",
+        "outputPath": "customer/resurs-bank/index.html",
+        "slug": "customer-resurs-bank",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/mimecast/",
+        "outputPath": "customer/mimecast/index.html",
+        "slug": "customer-mimecast",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/dfin/",
+        "outputPath": "customer/dfin/index.html",
+        "slug": "customer-dfin",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/canva/",
+        "outputPath": "customer/canva/index.html",
+        "slug": "customer-canva",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/koho/",
+        "outputPath": "customer/koho/index.html",
+        "slug": "customer-koho",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/bgl/",
+        "outputPath": "customer/bgl/index.html",
+        "slug": "customer-bgl",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/deputy/",
+        "outputPath": "customer/deputy/index.html",
+        "slug": "customer-deputy",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/qantas-loyalty/",
+        "outputPath": "customer/qantas-loyalty/index.html",
+        "slug": "customer-qantas-loyalty",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/perk-es/",
+        "outputPath": "customer/perk-es/index.html",
+        "slug": "customer-perk-es",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/asaas/",
+        "outputPath": "customer/asaas/index.html",
+        "slug": "customer-asaas",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/recargapay/",
+        "outputPath": "customer/recargapay/index.html",
+        "slug": "customer-recargapay",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/liberty-tax/",
+        "outputPath": "customer/liberty-tax/index.html",
+        "slug": "customer-liberty-tax",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/motiva/",
+        "outputPath": "customer/motiva/index.html",
+        "slug": "customer-motiva",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/star21/",
+        "outputPath": "customer/star21/index.html",
+        "slug": "customer-star21",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/petstock/",
+        "outputPath": "customer/petstock/index.html",
+        "slug": "customer-petstock",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/thoughtworks/",
+        "outputPath": "customer/thoughtworks/index.html",
+        "slug": "customer-thoughtworks",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/solo-by-myob/",
+        "outputPath": "customer/solo-by-myob/index.html",
+        "slug": "customer-solo-by-myob",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/givedirectly/",
+        "outputPath": "customer/givedirectly/index.html",
+        "slug": "customer-givedirectly",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/uneo/",
+        "outputPath": "customer/uneo/index.html",
+        "slug": "customer-uneo",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/trodo/",
+        "outputPath": "customer/trodo/index.html",
+        "slug": "customer-trodo",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/sealy-of-australia/",
+        "outputPath": "customer/sealy-of-australia/index.html",
+        "slug": "customer-sealy-of-australia",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/betmgm-brasil/",
+        "outputPath": "customer/betmgm-brasil/index.html",
+        "slug": "customer-betmgm-brasil",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/the-smith-family/",
+        "outputPath": "customer/the-smith-family/index.html",
+        "slug": "customer-the-smith-family",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/catapult/",
+        "outputPath": "customer/catapult/index.html",
+        "slug": "customer-catapult",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/lucid-software-es/",
+        "outputPath": "customer/lucid-software-es/index.html",
+        "slug": "customer-lucid-software-es",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/coco-republic/",
+        "outputPath": "customer/coco-republic/index.html",
+        "slug": "customer-coco-republic",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/envato/",
+        "outputPath": "customer/envato/index.html",
+        "slug": "customer-envato",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/docebo/",
+        "outputPath": "customer/docebo/index.html",
+        "slug": "customer-docebo",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/tbauctions/",
+        "outputPath": "customer/tbauctions/index.html",
+        "slug": "customer-tbauctions",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/furnished-finder/",
+        "outputPath": "customer/furnished-finder/index.html",
+        "slug": "customer-furnished-finder",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/lucid-software-ai/",
+        "outputPath": "customer/lucid-software-ai/index.html",
+        "slug": "customer-lucid-software-ai",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/pure-insurance/",
+        "outputPath": "customer/pure-insurance/index.html",
+        "slug": "customer-pure-insurance",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/five-iron-golf/",
+        "outputPath": "customer/five-iron-golf/index.html",
+        "slug": "customer-five-iron-golf",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/github-es/",
+        "outputPath": "customer/github-es/index.html",
+        "slug": "customer-github-es",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/tesu/",
+        "outputPath": "customer/tesu/index.html",
+        "slug": "customer-tesu",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/inshur/",
+        "outputPath": "customer/inshur/index.html",
+        "slug": "customer-inshur",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/odeon-cinemas/",
+        "outputPath": "customer/odeon-cinemas/index.html",
+        "slug": "customer-odeon-cinemas",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/britbox/",
+        "outputPath": "customer/britbox/index.html",
+        "slug": "customer-britbox",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/sinch-engage/",
+        "outputPath": "customer/sinch-engage/index.html",
+        "slug": "customer-sinch-engage",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/zendesk-for-employee-service/",
+        "outputPath": "customer/zendesk-for-employee-service/index.html",
+        "slug": "customer-zendesk-for-employee-service",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/irc-video/",
+        "outputPath": "customer/irc-video/index.html",
+        "slug": "customer-irc-video",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/motel-rocks/",
+        "outputPath": "customer/motel-rocks/index.html",
+        "slug": "customer-motel-rocks",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/privy/",
+        "outputPath": "customer/privy/index.html",
+        "slug": "customer-privy",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/liberty-qa/",
+        "outputPath": "customer/liberty-qa/index.html",
+        "slug": "customer-liberty-qa",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/qualia/",
+        "outputPath": "customer/qualia/index.html",
+        "slug": "customer-qualia",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/miko/",
+        "outputPath": "customer/miko/index.html",
+        "slug": "customer-miko",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/ballys/",
+        "outputPath": "customer/ballys/index.html",
+        "slug": "customer-ballys",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/dupage-county/",
+        "outputPath": "customer/dupage-county/index.html",
+        "slug": "customer-dupage-county",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/yape/",
+        "outputPath": "customer/yape/index.html",
+        "slug": "customer-yape",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/babbel/",
+        "outputPath": "customer/babbel/index.html",
+        "slug": "customer-babbel",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/starshipit/",
+        "outputPath": "customer/starshipit/index.html",
+        "slug": "customer-starshipit",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/action-property-management/",
+        "outputPath": "customer/action-property-management/index.html",
+        "slug": "customer-action-property-management",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/easyfundraising/",
+        "outputPath": "customer/easyfundraising/index.html",
+        "slug": "customer-easyfundraising",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/shearcomfort/",
+        "outputPath": "customer/shearcomfort/index.html",
+        "slug": "customer-shearcomfort",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/benevity/",
+        "outputPath": "customer/benevity/index.html",
+        "slug": "customer-benevity",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/quickmd/",
+        "outputPath": "customer/quickmd/index.html",
+        "slug": "customer-quickmd",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 611,
+    "bundledAssets": [
+      "blog.css",
+      "blog.js",
+      "blog/Bridge-Header_3d323030.avif",
+      "blog/Bridge_BG_MOF_Flower_1x1_02_3d323030.avif",
+      "blog/CX_Trends_2026.avif",
+      "blog/Call_center_customer_satisfaction_3d343830.avif",
+      "blog/Generic_Post_Thumbnail.jpg",
+      "blog/Header-final2_3d383030.avif",
+      "blog/Industry-agents-new-header.avif",
+      "blog/Outcomes-header.avif",
+      "blog/Photos_People_ContactCenterAgent-1_3d343830.avif",
+      "blog/Photos_People_ContactCenterAgents_5-2_3d343830.avif",
+      "blog/Photos_People_EmployeesAtOffice_6.avif",
+      "blog/Photos_People_EmployeesInOffice_3.avif",
+      "blog/Photos_People_EmployeesOnIpad_3.avif",
+      "blog/Photos_Still_HandWithPhone_3-1_3d343830.avif",
+      "blog/Specialized-agents-banner.avif",
+      "blog/ai-pricing-evolution-header_3d343830.avif",
+      "blog/bringing-zendesk-to-the-ai-interfaces-where-work-happens-header.avif",
+      "blog/chatbot_automation_hero-1_3d343830.avif",
+      "blog/chief-people-officer-future-of-employee-service.avif",
+      "blog/claude-hero.avif",
+      "blog/cloud_call_center_hero-1_3d343830.avif",
+      "blog/custom-agents-new-header.avif",
+      "blog/customerservicevscustomerexperience.avif",
+      "blog/feedback_forms_hero_optimized_3d343830.avif",
+      "blog/headless-software-raises-the-build-bar-header_3d343830.avif",
+      "blog/heroimageforchangemanagementmodelsshowsatransparentcube_3d343830.avif",
+      "blog/heroimageofthreepeoplewearingheadsets-1_3d343830.avif",
+      "blog/itsm_trends_hero_optimized.avif",
+      "blog/outcome_based_pricing_hero_3d343830.avif",
+      "blog/rebuilding-zendesk-data-platform-header2.avif",
+      "blog/self-improving-hero_3d343830.avif",
+      "blog/what-is-a-call-center-hero-26.avif",
+      "blog/what-is-itam-hero.avif",
+      "canon-a.css",
+      "canon-a.js",
+      "canon-b.css",
+      "company.css",
+      "company.js",
+      "company/Hero-4.avif",
+      "company/Photo_Desk.avif",
+      "company/Photo_Foundation.avif",
+      "company/Photo_Loc_Austin.avif",
+      "company/Photo_Loc_Bangalore.avif",
+      "company/Photo_Loc_Berlin.avif",
+      "company/Photo_Loc_Copenhagen.avif",
+      "company/Photo_Loc_Dublin.avif",
+      "company/Photo_Loc_Krakow.avif",
+      "company/Photo_Loc_Lisbon.avif",
+      "company/Photo_Loc_London.avif",
+      "company/Photo_Loc_Madison.avif",
+      "company/Photo_Loc_Manila.avif",
+      "company/Photo_Loc_Melbourne.avif",
+      "company/Photo_Loc_Mexico_City.avif",
+      "company/Photo_Loc_Montpellier.avif",
+      "company/Photo_Loc_Montreal.avif",
+      "company/Photo_Loc_Novi_Sad.avif",
+      "company/Photo_Loc_Paris.avif",
+      "company/Photo_Loc_Pune.avif",
+      "company/Photo_Loc_San_Francisco.avif",
+      "company/Photo_Loc_Sao_Paulo.avif",
+      "company/Photo_Loc_Singapore.avif",
+      "company/Photo_Loc_Tallinn.avif",
+      "company/Photo_Loc_Tokyo.avif",
+      "company/Photo_Usergroups.avif",
+      "contact.css",
+      "contact.js",
+      "customer-action-property-management/ActionPropertyMgmt_Brick.png",
+      "customer-action-property-management/ActionPropertyMgmt_Elderly.png",
+      "customer-action-property-management/ActionPropertyMgmt_Package.png",
+      "customer-action-property-management/ActionPropertyMgmt_Pool.png",
+      "customer-action-property-management/ActionPropertyMgmt_Security.png",
+      "customer-action-property-management/Action_Horizontal_Logo.png",
+      "customer-action-property-management/Action_Mother_Resize.png",
+      "customer-asaas/asaas_01.jpg",
+      "customer-asaas/asaas_02.jpg",
+      "customer-asaas/asaas_03.jpg",
+      "customer-asaas/asaas_logo.png",
+      "customer-babbel/Babbel_ChrisBoyd_1200.png",
+      "customer-babbel/Babbel_Desks_1200-.png",
+      "customer-babbel/Babbel_Header_Resize.png",
+      "customer-babbel/Babbel_Laptop_1200.png",
+      "customer-babbel/Babbel_Learn_1200.png",
+      "customer-babbel/Babbel_Logo.png",
+      "customer-babbel/Babbel_Purple_Screen_1200.png",
+      "customer-ballys/Ballys_Hero.png",
+      "customer-ballys/bally_2.png",
+      "customer-ballys/bally_3.png",
+      "customer-ballys/ballys_1.png",
+      "customer-ballys/ballys_4.png",
+      "customer-ballys/ballys_logo.png",
+      "customer-benevity/Benevity_DoGooder_Resize.png",
+      "customer-benevity/Benevity_Employee_Mtg.png",
+      "customer-benevity/Benevity_Logo.png",
+      "customer-benevity/Benevity_MainStage.png",
+      "customer-benevity/Benevity_Right_Thing.png",
+      "customer-benevity/Benevity_Women_Rooftop.png",
+      "customer-betmgm-brasil/BetMGM_Brasil_01.jpg",
+      "customer-betmgm-brasil/BetMGM_Brasil_02.jpg",
+      "customer-betmgm-brasil/BetMGM_Brasil_03.jpg",
+      "customer-betmgm-brasil/BetMGM_Brasil_04.jpg",
+      "customer-betmgm-brasil/BetMGM_Brasil_05.jpg",
+      "customer-betmgm-brasil/BetMGM_Brasil_Logo.jpg",
+      "customer-bgl/BGL_01.jpg",
+      "customer-bgl/BGL_02.jpg",
+      "customer-bgl/BGL_03.jpg",
+      "customer-bgl/BGL_logo.png",
+      "customer-britbox/BRITBOX_Logo.png",
+      "customer-britbox/BritBox_Agatha_Resize.png",
+      "customer-britbox/BritBox_BlueLights_Resize.png",
+      "customer-britbox/BritBox_CruelLove_Resize.png",
+      "customer-britbox/BritBox_Joan_Resize.png",
+      "customer-britbox/BritBox_Outrageous.png",
+      "customer-canva.css",
+      "customer-canva/Canva2.jpg",
+      "customer-canva/Canva_Logo2.png",
+      "customer-catapult/Catapult_Bball_Resize.png",
+      "customer-catapult/Catapult_Focus-Rugby-UI-Desktop.png",
+      "customer-catapult/Catapult_Hub_Basketball.png",
+      "customer-catapult/Catapult_Pro_Video_Suite.png",
+      "customer-catapult/Catapult_TransferPortal.png",
+      "customer-catapult/Catapult_horizontal_logo.png",
+      "customer-coco-republic/Coco_Republic_01.jpg",
+      "customer-coco-republic/Coco_Republic_02.jpg",
+      "customer-coco-republic/Coco_Republic_03.jpg",
+      "customer-coco-republic/Coco_Republic_logo.png",
+      "customer-deputy/deputy_A.png",
+      "customer-deputy/deputy_B.png",
+      "customer-deputy/deputy_C.png",
+      "customer-deputy/deputy_D.png",
+      "customer-deputy/deputy_E.png",
+      "customer-deputy/deputy_logo.png",
+      "customer-dfin/DFIN_A.jpg",
+      "customer-dfin/DFIN_B.jpg",
+      "customer-dfin/DFIN_logo.jpg",
+      "customer-docebo/Docebo_Green_Sweater.png",
+      "customer-docebo/Docebo_Logo.png",
+      "customer-docebo/Docebo_Matt_Resize.png",
+      "customer-docebo/Docebo_Orange_Dress_Group.png",
+      "customer-docebo/Docebo_Woman_Cafe.png",
+      "customer-dupage-county/DuPage_Admin_Bldg.png",
+      "customer-dupage-county/DuPage_Bldg_421_Wide_Resize.png",
+      "customer-dupage-county/DuPage_Bush_Resize.png",
+      "customer-dupage-county/DuPage_Campus_Statue.png",
+      "customer-dupage-county/DuPage_Illinois_Prairie_Path.png",
+      "customer-dupage-county/DuPage_Logo.png",
+      "customer-easyfundraising/Easyfundraising_Logo.png",
+      "customer-easyfundraising/easyfundraising_BigCheck.png",
+      "customer-easyfundraising/easyfundraising_CoffeeShop.png",
+      "customer-easyfundraising/easyfundraising_blueboard.png",
+      "customer-easyfundraising/easyfundraising_cycle_Resize.png",
+      "customer-envato/envato_01.jpg",
+      "customer-envato/envato_02.jpg",
+      "customer-envato/envato_03.jpg",
+      "customer-envato/envato_logo.png",
+      "customer-five-iron-golf/5_iron_golf_logo.png",
+      "customer-five-iron-golf/five_iron_golf_01.jpg",
+      "customer-five-iron-golf/five_iron_golf_02.jpg",
+      "customer-five-iron-golf/five_iron_golf_03.jpg",
+      "customer-five-iron-golf/five_iron_golf_04.jpg",
+      "customer-five-iron-golf/five_iron_golf_05.jpg",
+      "customer-furnished-finder/Furnished_Finder_01.png",
+      "customer-furnished-finder/Furnished_Finder_02.png",
+      "customer-furnished-finder/Furnished_Finder_03.png",
+      "customer-furnished-finder/Furnished_Finder_04.png",
+      "customer-furnished-finder/Furnished_Finder_logo.jpg",
+      "customer-github-es/GitHub_Logo_Aug_2025.png",
+      "customer-github-es/Github_Hero_Resize.png",
+      "customer-github-es/Github_Laptops.png",
+      "customer-github-es/Github_Lights.png",
+      "customer-github-es/Github_Office.png",
+      "customer-givedirectly/givedirectly_1A.jpg",
+      "customer-givedirectly/givedirectly_2B.jpg",
+      "customer-givedirectly/logo_GiveDirectly.png",
+      "customer-inshur/INSHUR-logo-300x145.png",
+      "customer-inshur/inshur_1.jpg",
+      "customer-inshur/inshur_2.jpg",
+      "customer-inshur/inshur_3.jpg",
+      "customer-inshur/inshur_4.jpg",
+      "customer-inshur/inshur_5.jpg",
+      "customer-inshur/inshur_banner.jpg",
+      "customer-irc-video/IRC_Refugee_Resize.png",
+      "customer-irc-video/irc-logo.png",
+      "customer-koho/KOHO_01.jpg",
+      "customer-koho/KOHO_02.jpg",
+      "customer-koho/KOHO_logo.jpg",
+      "customer-liberty-qa/Liberty_-QA_Shopper_Resize.png",
+      "customer-liberty-qa/Liberty_Bag.png",
+      "customer-liberty-qa/Liberty_QA_CX_Reps.png",
+      "customer-liberty-qa/Liberty_bags_flowers.png",
+      "customer-liberty-qa/Liberty_building_horiz.png",
+      "customer-liberty-qa/Liberty_logo.png",
+      "customer-liberty-tax/liberty_tax_01.jpg",
+      "customer-liberty-tax/liberty_tax_02.jpg",
+      "customer-liberty-tax/liberty_tax_03.jpg",
+      "customer-liberty-tax/liberty_tax_05.jpg",
+      "customer-liberty-tax/liberty_tax_a.jpg",
+      "customer-liberty-tax/liberty_tax_logo.jpg",
+      "customer-lucid-software-ai/Lucid_AI_01.jpg",
+      "customer-lucid-software-ai/Lucid_AI_02.jpg",
+      "customer-lucid-software-ai/Lucid_logo.png",
+      "customer-lucid-software-es/Lucid_ES_01.jpg",
+      "customer-lucid-software-es/Lucid_ES_02.jpg",
+      "customer-lucid-software-es/Lucid_logo.png",
+      "customer-madeiramadeira/MadeiraMadeira_01.jpg",
+      "customer-madeiramadeira/MadeiraMadeira_02.jpg",
+      "customer-madeiramadeira/MadeiraMadeira_03.jpg",
+      "customer-madeiramadeira/MadeiraMadeira_04.jpg",
+      "customer-madeiramadeira/MadeiraMadeira_logo.png",
+      "customer-madeiramadeira/MadeiraMaderia_05.jpg",
+      "customer-miko/Miko_-Chess_Resize.png",
+      "customer-miko/Miko_Chess_Amaze.png",
+      "customer-miko/Miko_Electronic_Chess.png",
+      "customer-miko/Miko_Lilac_Boy_Girl.png",
+      "customer-miko/Miko_Logo_png.png",
+      "customer-mimecast/mimecast_01.jpg",
+      "customer-mimecast/mimecast_02.jpg",
+      "customer-mimecast/mimecast_03.jpg",
+      "customer-mimecast/mimecast_04.jpg",
+      "customer-mimecast/mimecast_05.jpg",
+      "customer-mimecast/mimecast_logo.png",
+      "customer-motel-rocks/MOTEL_Moto_Resize.png",
+      "customer-motel-rocks/Motel_Rocks_2_women.png",
+      "customer-motel-rocks/Motel_Rocks_Staff.png",
+      "customer-motel-rocks/Motel_rocks_logo.png",
+      "customer-motiva/01K_7158_66a.jpg",
+      "customer-motiva/01K_7240_75_60.jpg",
+      "customer-motiva/Banco-de-Imagem_Fotos-AutoBAn_CCR-Rodovias_20231.JPG",
+      "customer-motiva/Banco-de-Imagem_Fotos-CCR-Costeira_Grupo-CCR_2024-2-1.png",
+      "customer-motiva/Hero-Motiva.jpg",
+      "customer-motiva/Logo-Motiva.png",
+      "customer-nortek/Nortek-Logo.jpg",
+      "customer-nortek/hero-image.jpg",
+      "customer-nortek/image1.png",
+      "customer-nortek/image2.png",
+      "customer-nortek/image5.png",
+      "customer-odeon-cinemas/ODEON_01.jpg",
+      "customer-odeon-cinemas/ODEON_02.jpg",
+      "customer-odeon-cinemas/ODEON_03.jpg",
+      "customer-odeon-cinemas/ODEON_04.jpg",
+      "customer-odeon-cinemas/ODEON_05.jpg",
+      "customer-odeon-cinemas/ODEON_logo.png",
+      "customer-perk-es/Perk-ES_02.png",
+      "customer-perk-es/Perk-ES_03.png",
+      "customer-perk-es/Perk-ES_04.png",
+      "customer-perk-es/Perk-ES_05.png",
+      "customer-perk-es/Perk-ES_06.png",
+      "customer-perk-es/Perk-ES_07.png",
+      "customer-perk-es/Perk-ES_08.png",
+      "customer-perk-es/Perk_logo_500.png",
+      "customer-petstock/petstock_01.jpg",
+      "customer-petstock/petstock_02.jpg",
+      "customer-petstock/petstock_03.jpg",
+      "customer-petstock/petstock_04.jpg",
+      "customer-petstock/petstock_05.jpg",
+      "customer-petstock/petstock_logo.png",
+      "customer-privy/privy_02.jpg",
+      "customer-privy/privy_04.jpg",
+      "customer-privy/privy_05.jpg",
+      "customer-privy/privy_A.jpg",
+      "customer-privy/privy_B.jpg",
+      "customer-privy/privy_C.jpg",
+      "customer-privy/privy_logo.png",
+      "customer-pure-insurance/PURE_Car_Adobe_1200.png",
+      "customer-pure-insurance/PURE_Couple_Adobe_1200.png",
+      "customer-pure-insurance/PURE_Stocksy_Pool.png",
+      "customer-pure-insurance/PURE_Yacht_Resize.png",
+      "customer-pure-insurance/Pure_Logo_Feb_2026.png",
+      "customer-qantas-loyalty/Qantas_Loyalty_01.jpg",
+      "customer-qantas-loyalty/Qantas_Loyalty_02.jpg",
+      "customer-qantas-loyalty/Qantas_Loyalty_03.jpg",
+      "customer-qantas-loyalty/Qantas_Loyalty_logo.jpg",
+      "customer-qualia/Qualia_Employee_Resize.png",
+      "customer-qualia/Qualia_House.png",
+      "customer-qualia/Qualia_Lady_Phone.png",
+      "customer-qualia/Qualia_logo-dark.png",
+      "customer-quickmd/QuickMD_01.jpg",
+      "customer-quickmd/QuickMD_02.jpg",
+      "customer-quickmd/QuickMD_03.jpg",
+      "customer-quickmd/QuickMD_04.jpg",
+      "customer-quickmd/QuickMD_logo.png",
+      "customer-recargapay/recargapay_a.jpg",
+      "customer-recargapay/recargapay_logo.jpg",
+      "customer-resurs-bank/2609_Resurs_app-login-DK.jpg",
+      "customer-resurs-bank/Resurs_camera_moment.jpg",
+      "customer-resurs-bank/Resurs_woman_working_sofa.png",
+      "customer-resurs-bank/exec-06a64bf5-075c-487b-b98d-66edd6879992.png",
+      "customer-resurs-bank/resurs_rgb_black.png",
+      "customer-sealy-of-australia/Sealy_of_Australia_01.jpg",
+      "customer-sealy-of-australia/Sealy_of_Australia_02.jpg",
+      "customer-sealy-of-australia/Sealy_of_Australia_03.jpg",
+      "customer-sealy-of-australia/Sealy_of_Australia_04.jpg",
+      "customer-sealy-of-australia/Sealy_of_Australia_05.jpg",
+      "customer-sealy-of-australia/Sealy_of_Australia_06.jpg",
+      "customer-sealy-of-australia/Sealy_of_Australia_logo.png",
+      "customer-serasa-experian/Logo-Serasa.png",
+      "customer-serasa-experian/Serasa-1.avif",
+      "customer-serasa-experian/Serasa-2.jpeg",
+      "customer-serasa-experian/co-pia-de-Serasa-3.png",
+      "customer-shearcomfort/ShearComfort_Black_Gray_Resize.png",
+      "customer-shearcomfort/ShearComfort_Cordura_Custom_Seat_Covers.png",
+      "customer-shearcomfort/ShearComfort_Jeep_Resize.png",
+      "customer-shearcomfort/ShearComfort_Logo_Website.png",
+      "customer-sinch-engage/SInch_Agent.png",
+      "customer-sinch-engage/Sinch_5people.png",
+      "customer-sinch-engage/Sinch_Logo.png",
+      "customer-sinch-engage/Sinch_Whiteboard.png",
+      "customer-sinch-engage/Sinch_Woman_Resize.png",
+      "customer-solo-by-myob/Solo_by_MYOB_01.jpg",
+      "customer-solo-by-myob/Solo_by_MYOB_02.jpg",
+      "customer-solo-by-myob/Solo_by_MYOB_03.jpg",
+      "customer-solo-by-myob/Solo_by_MYOB_04.jpg",
+      "customer-solo-by-myob/Solo_by_MYOB_05.jpg",
+      "customer-solo-by-myob/Solo_by_MYOB_logo.png",
+      "customer-star21/Star21_01.jpg",
+      "customer-star21/Star21_02.jpg",
+      "customer-star21/Star21_03.jpg",
+      "customer-star21/Star21_04.jpg",
+      "customer-star21/Star21_05.jpg",
+      "customer-star21/star21_logo.png",
+      "customer-starshipit/Starshipit_Header.png",
+      "customer-starshipit/Starshipit_Logo.png",
+      "customer-starshipit/Starshipit_Lorna-Jane_Warehouse.png",
+      "customer-starshipit/Starshipit_Lorna-Jane_Warehouse_2.png",
+      "customer-starshipit/Starshipit_Suprette_Store.png",
+      "customer-starshipit/Starshipit_Suprette_Warehouse.png",
+      "customer-tbauctions/TBAuctions_01.jpg",
+      "customer-tbauctions/TBAuctions_02.jpg",
+      "customer-tbauctions/TBAuctions_03.jpg",
+      "customer-tbauctions/TBAuctions_04.jpg",
+      "customer-tbauctions/TBAuctions_05.jpg",
+      "customer-tbauctions/TBAuctions_black_logo.png",
+      "customer-tesu/TESU_01.jpg",
+      "customer-tesu/TESU_02.jpg",
+      "customer-tesu/TESU_03.jpg",
+      "customer-tesu/TESU_04.jpg",
+      "customer-tesu/TESU_logo.png",
+      "customer-the-smith-family/the_smith_family_01.jpg",
+      "customer-the-smith-family/the_smith_family_02.jpg",
+      "customer-the-smith-family/the_smith_family_03.jpg",
+      "customer-the-smith-family/the_smith_family_04.jpg",
+      "customer-the-smith-family/the_smith_family_05.jpg",
+      "customer-the-smith-family/the_smith_family_logo.png",
+      "customer-thoughtworks/thoughtworks_01.jpg",
+      "customer-thoughtworks/thoughtworks_02.jpg",
+      "customer-thoughtworks/thoughtworks_03.jpg",
+      "customer-thoughtworks/thoughtworks_04.jpg",
+      "customer-thoughtworks/thoughtworks_05.jpg",
+      "customer-thoughtworks/thoughtworks_logo.png",
+      "customer-trodo/trodo_01.jpg",
+      "customer-trodo/trodo_02.jpg",
+      "customer-trodo/trodo_logo.png",
+      "customer-uneo/uneo_01.jpg",
+      "customer-uneo/uneo_02.jpg",
+      "customer-uneo/uneo_03.jpg",
+      "customer-uneo/uneo_logo.png",
+      "customer-yape/Yape_Bags_Resize.png",
+      "customer-yape/Yape_Grasses.png",
+      "customer-yape/Yape_Phone_Crowd.png",
+      "customer-yape/Yape_Trade_Show.png",
+      "customer-yape/Yape_logo.png",
+      "customer-zendesk-for-employee-service/Zendesk-for-ES_01.jpg",
+      "customer-zendesk-for-employee-service/Zendesk-for-ES_02.jpg",
+      "customer-zendesk-for-employee-service/Zendesk_logo.png",
+      "customer/--2.png",
+      "customer/-.png",
+      "customer/BRITBOX_Logo.png",
+      "customer/Babbel_Header_Resize.png",
+      "customer/Babbel_Logo.png",
+      "customer/Docebo_Logo.png",
+      "customer/Dunlop-Logo_All-Black.png",
+      "customer/Dunlop_Torso_Resize.png",
+      "customer/Fortnum_Flag_Resize.png",
+      "customer/Fortnum_Logo.png",
+      "customer/FourSeasons.png",
+      "customer/IRC-CEO_Mtg_Resize.png",
+      "customer/IRC-ceo_logo.png",
+      "customer/LATAM_Airplane_Resize.png",
+      "customer/Photoshoot_BrandRefresh2023_Portraits_2701.png",
+      "customer/Siemens.png",
+      "customer/StanleyBlackDecker.png",
+      "customer/TeamSystem_Boat_Resize.png",
+      "customer/TeamSystem_Logo.png",
+      "customer/Tesco.png",
+      "customer/aws-logo.png",
+      "customer/footer-2x.png",
+      "customer/grubhub.png",
+      "customer/latam-airlines-Logo.png",
+      "customer/liberty_tax_logo.jpg",
+      "customer/polaris.png",
+      "favicon.ico",
+      "fonts.css",
+      "fonts/PNB.woff2",
+      "fonts/PNR.woff2",
+      "fonts/PNSB.woff2",
+      "fonts/SHSN.woff2",
+      "fonts/SHSNBold.woff2",
+      "fonts/SHSNMedium.woff2",
+      "fonts/VanillaSans-Bold.woff2",
+      "fonts/VanillaSans-Medium.woff2",
+      "fonts/VanillaSans-Regular.woff2",
+      "fonts/VanillaSans-SemiBold.woff2",
+      "index.css",
+      "index.js",
+      "index/3Pillars_Background_L_XL-1.avif",
+      "index/AI_Summit_26_lockup_center.png",
+      "index/Box_Default.avif",
+      "index/CX_Trends_2026.avif",
+      "index/Discord_Default.avif",
+      "index/Github_Default.avif",
+      "index/Hero-image_V01.avif",
+      "index/Hero_Homepage__en_us.webp",
+      "index/Logos_Marketplace.avif",
+      "index/Lush_Default.avif",
+      "index/Next_Default.avif",
+      "index/Next_Image_Testimonials_2x.avif",
+      "index/Openly_Large.avif",
+      "index/Photo_ZendeskForethought.avif",
+      "index/ProductImagery_AIAgentBuilder_AIAgent_ProductImagery__en_us.avif",
+      "index/ProductImagery_AIAgent_Messaging_CustomEntityIntent__en_us.avif",
+      "index/ProductImagery_AIAgents_Insights__en_us.avif",
+      "index/ProductImagery_ContactCenter__en_us.avif",
+      "index/ProductImagery_EmployeeService__en_us.avif",
+      "index/ProductImagery_Intent_VoiceAIAgents__en_us.avif",
+      "index/ProductImagery_QualityAssurance_AIAgent_ProductImagery__en_us.avif",
+      "index/RLL_ProductImagery_01__en_gb.avif",
+      "index/RLL_ProductImagery_02__en_gb.avif",
+      "index/RLL_ProductImagery_03__en_gb.avif",
+      "index/Resources_Article_Customer_Support.avif",
+      "index/Resources_Guide_Zendesk_AI.avif",
+      "index/Resources_Product_Platform.avif",
+      "index/Resources_Report_CX_Trends.avif",
+      "index/Siemens_Default.avif",
+      "index/Tesco_Default.avif",
+      "index/Uber_Default.avif",
+      "index/Vimeo_Default.avif",
+      "index/Vimeo_Image_Testimonials_2x.avif",
+      "index/Vimeo_Large.avif",
+      "index/ZAIS25_3Pillars_ITAM.avif",
+      "index/ZAIS25_3Pillars_VoiceAIAgents-2.avif",
+      "index/ZAIS25_3Pillars_VoiceAIAgents.avif",
+      "index/footer-cta-icon-42.png",
+      "index/gartner2026.webp",
+      "index/hero-anim-frame.png",
+      "index/rll-anim-1.png",
+      "index/rll-anim-2.png",
+      "index/rll-anim-3.png",
+      "marketplace-apps/logo-10.png",
+      "marketplace-apps/logo-11.png",
+      "marketplace-apps/logo-12.png",
+      "marketplace-apps/logo-13.png",
+      "marketplace-apps/logo-14.png",
+      "marketplace-apps/logo-15.png",
+      "marketplace-apps/logo-16.png",
+      "marketplace-apps/logo-17.png",
+      "marketplace-apps/logo-18.png",
+      "marketplace-apps/logo-19.png",
+      "marketplace-apps/logo-2.png",
+      "marketplace-apps/logo-20.png",
+      "marketplace-apps/logo-21.png",
+      "marketplace-apps/logo-22.png",
+      "marketplace-apps/logo-23.png",
+      "marketplace-apps/logo-24.png",
+      "marketplace-apps/logo-3.png",
+      "marketplace-apps/logo-4.png",
+      "marketplace-apps/logo-5.png",
+      "marketplace-apps/logo-6.png",
+      "marketplace-apps/logo-7.png",
+      "marketplace-apps/logo-8.png",
+      "marketplace-apps/logo-9.png",
+      "marketplace-apps/logo.png",
+      "marketplace-partners/-E3-83-AD-E3-82-B3-E3-82-99-E3-82-BF-E3-83-86_-E6-B7-B1-E7-B7-91.jpg",
+      "marketplace-partners/250.png",
+      "marketplace-partners/2__8_.png",
+      "marketplace-partners/729-lockup-partner-page.png",
+      "marketplace-partners/APPAMONDO_CLOUD_COL.png",
+      "marketplace-partners/Avatar_verde__1_.png",
+      "marketplace-partners/BCRCX_logotipo.png",
+      "marketplace-partners/CARE.png",
+      "marketplace-partners/CRMSceneLogo.jpg",
+      "marketplace-partners/Cloudmotion-social-share.png",
+      "marketplace-partners/DEMETER_White_Background.png",
+      "marketplace-partners/DMIT-Logo-for-Website.png",
+      "marketplace-partners/Faye_Logo_Blueberry_png.png",
+      "marketplace-partners/Gravity_CX-logo_-_Color__Grey_500x359_-_No_Tag.png",
+      "marketplace-partners/Happirel-logo-med-payoff.jpg",
+      "marketplace-partners/Logo.png",
+      "marketplace-partners/LogoBeSimpleSOLOTRIANGOLI.jpg",
+      "marketplace-partners/R2_Envoy_ZendeskAppsLogo_128x128.png",
+      "marketplace-partners/advocx_logo.png",
+      "marketplace-partners/cloudhuset_bomaerke_color.png",
+      "marketplace-partners/concentrix-logo-png_seeklogo-617711.png",
+      "marketplace-partners/helphouse_logo_2018_256.png",
+      "marketplace-partners/helping_oficial.png",
+      "marketplace-partners/logo-atlantis-dx.png",
+      "marketplace-themes/ada-hero.png",
+      "marketplace-themes/braden-hero.png",
+      "marketplace-themes/braxton-hero.png",
+      "marketplace-themes/diziana_arcturus_gen_2.0__theme_hero.png",
+      "marketplace-themes/diziana_drogo_gen_2.0__theme_hero.png",
+      "marketplace-themes/diziana_panatha_gen_2.0__theme_hero.png",
+      "marketplace-themes/diziana_quell_gen_2.0__theme_hero.png",
+      "marketplace-themes/diziana_sagma_gen_2.0__theme_hero.png",
+      "marketplace-themes/hero-flatrock.png",
+      "marketplace-themes/hero-ourfeed.png",
+      "marketplace-themes/hero.png",
+      "marketplace-themes/hero_cool_right.png",
+      "marketplace-themes/hudson-hero.png",
+      "marketplace-themes/indigo-hero.png",
+      "marketplace-themes/kai-hero.png",
+      "marketplace-themes/leopold-hero.png",
+      "marketplace-themes/lotus-one-hero.png",
+      "marketplace-themes/mink-hero.png",
+      "marketplace-themes/rosetta-hero.png",
+      "marketplace-themes/ruby-hero.png",
+      "marketplace-themes/snap-heroImg.png",
+      "marketplace-themes/sprout-heroImg.png",
+      "marketplace-themes/thora-hero.png",
+      "marketplace-themes/xavier-hero.png",
+      "marketplace/--2.png",
+      "marketplace/--3.png",
+      "marketplace/--4.png",
+      "marketplace/-.png",
+      "marketplace/01_eleven-featured-image.png",
+      "marketplace/AppsTile.png",
+      "marketplace/ConnectorsTile.png",
+      "marketplace/Copy_of_horatio_-_icon_-_02.png",
+      "marketplace/PartnersTile.png",
+      "marketplace/ThemesTile.png",
+      "marketplace/diziana_mabonte_theme_hero.png",
+      "marketplace/diziana_xeron_theme_hero.png",
+      "marketplace/hero-short.jpg",
+      "marketplace/hero.png",
+      "marketplace/image-2.png",
+      "marketplace/image.png",
+      "marketplace/img-ecommerce-lp-hero-2x.jpg",
+      "marketplace/logo-10.png",
+      "marketplace/logo-11.png",
+      "marketplace/logo-2.png",
+      "marketplace/logo-3.png",
+      "marketplace/logo-4.png",
+      "marketplace/logo-5.png",
+      "marketplace/logo-6.png",
+      "marketplace/logo-7.png",
+      "marketplace/logo-8.png",
+      "marketplace/logo-9.png",
+      "marketplace/logo.png",
+      "marketplace/logo_caption_red_440.png",
+      "marketplace/mark-ccg.png",
+      "marketplace/marketplace-guide-image.jpeg",
+      "marketplace/thumbnail-2.png",
+      "marketplace/thumbnail.png",
+      "newsroom/-.png",
+      "newsroom/CXTrends27.jpg",
+      "newsroom/Gartner-2026-5.png",
+      "newsroom/Photos_People_ContactCenterAgents1.jpg",
+      "newsroom/SAthumbnail2.jpeg",
+      "newsroom/ZAIS2026.png",
+      "newsroom/aswt.png",
+      "newsroom/email-alerts.jpg",
+      "newsroom/exec-5535e6eb-3d19-4167-90a6-bca1cfe94b40.png",
+      "newsroom/media-resources.jpg",
+      "newsroom/rachitasundar_1024-2.png",
+      "newsroom/zdmsbridgenail.jpeg",
+      "pricing.css",
+      "pricing.js",
+      "pricing/Airbnb_Default.avif",
+      "pricing/BlockFrame_ROI_Calculator__en_us.png",
+      "pricing/Discord_Default.avif",
+      "pricing/Grubhub_Default.avif",
+      "pricing/OpenTable_Default.avif",
+      "pricing/Photo_ZendeskForethought.avif",
+      "pricing/Photos_People_Relate_2025_Retail_4x3_01.avif",
+      "pricing/Shopify_Default.avif",
+      "pricing/Slack_Default.avif",
+      "pricing/Squarespace_Default.avif",
+      "service.css",
+      "service.js",
+      "service/AIAgentBuilder_AIAgent_ProductImagery__en_us.avif",
+      "service/AutomationPotential_AIAgent_ProductImagery__en_us.avif",
+      "service/Bestegg_Default.svg",
+      "service/CXT26-Trend05-Detail03-SCB.avif",
+      "service/CustomerService_Quick_answers_for_agents_ProductImagery__en_us.avif",
+      "service/CustomerSupportTeams.webp",
+      "service/NOBULL_Default.avif",
+      "service/Photos_People_Relate_2025_TravelConsumer_1x1_01.avif",
+      "service/Photos_People_TwoBusinessLeadersDiscussing.avif",
+      "service/Photos_People_ZAIS24_Admin_1x1_03.avif",
+      "service/Photos_People_ZAIS24_CXLeader.avif",
+      "service/Privacy.webp",
+      "service/ProductImagery_ADPP_DataMasking_ProductImagery__en_us.avif",
+      "service/Sales.webp",
+      "service/Sparkle.webp",
+      "service/Vimeo_Default.avif",
+      "service/britbox_Default.svg",
+      "service/gartner-white.avif",
+      "service/hero.avif",
+      "service/image4.avif",
+      "trust-center/Photo_Hero-12.avif",
+      "trust-center/TrustCenter_Certifications_Badges_UpdateJune26.png",
+      "what-is-zendesk/Cottonon_Large.avif",
+      "what-is-zendesk/Photo_Card_001.avif",
+      "what-is-zendesk/Photo_Card_002.avif",
+      "what-is-zendesk/Photo_Card_003.avif",
+      "what-is-zendesk/Photo_Hero.png",
+      "what-is-zendesk/Photo_Video_Thumbnail.avif",
+      "what-is-zendesk/ReaGroup_Large.avif",
+      "what-is-zendesk/Showpo_Large.avif",
+      "what-is-zendesk/Uber_Large.avif",
+      "what-is-zendesk/Xero_Large.avif"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 59
+      },
+      {
+        "slug": "blog",
+        "file": "stardust/migrated/blog/index.html",
+        "assetsBundled": 39
+      },
+      {
+        "slug": "contact",
+        "file": "stardust/migrated/contact/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "company",
+        "file": "stardust/migrated/company/index.html",
+        "assetsBundled": 33
+      },
+      {
+        "slug": "pricing",
+        "file": "stardust/migrated/pricing/index.html",
+        "assetsBundled": 17
+      },
+      {
+        "slug": "service",
+        "file": "stardust/migrated/service/index.html",
+        "assetsBundled": 26
+      },
+      {
+        "slug": "customer-canva",
+        "file": "stardust/migrated/customer/canva/index.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "customer-madeiramadeira",
+        "file": "stardust/migrated/customer/madeiramadeira/index.html",
+        "assetsBundled": 20
+      },
+      {
+        "slug": "customer-serasa-experian",
+        "file": "stardust/migrated/customer/serasa-experian/index.html",
+        "assetsBundled": 18
+      },
+      {
+        "slug": "customer-nortek",
+        "file": "stardust/migrated/customer/nortek/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "customer-resurs-bank",
+        "file": "stardust/migrated/customer/resurs-bank/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "customer-mimecast",
+        "file": "stardust/migrated/customer/mimecast/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "customer-dfin",
+        "file": "stardust/migrated/customer/dfin/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "customer-koho",
+        "file": "stardust/migrated/customer/koho/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "customer-bgl",
+        "file": "stardust/migrated/customer/bgl/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "employee-experience",
+        "file": "stardust/migrated/employee-experience/index.html",
+        "assetsBundled": 17
+      },
+      {
+        "slug": "partner",
+        "file": "stardust/migrated/partner/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "employee-service",
+        "file": "stardust/migrated/employee-service/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "sell",
+        "file": "stardust/migrated/sell/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "platform",
+        "file": "stardust/migrated/platform/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "customer-deputy",
+        "file": "stardust/migrated/customer/deputy/index.html",
+        "assetsBundled": 20
+      },
+      {
+        "slug": "customer-qantas-loyalty",
+        "file": "stardust/migrated/customer/qantas-loyalty/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "customer-perk-es",
+        "file": "stardust/migrated/customer/perk-es/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "customer-asaas",
+        "file": "stardust/migrated/customer/asaas/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "customer-recargapay",
+        "file": "stardust/migrated/customer/recargapay/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "customer-liberty-tax",
+        "file": "stardust/migrated/customer/liberty-tax/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "customer-motiva",
+        "file": "stardust/migrated/customer/motiva/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "customer-star21",
+        "file": "stardust/migrated/customer/star21/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "customer-petstock",
+        "file": "stardust/migrated/customer/petstock/index.html",
+        "assetsBundled": 20
+      },
+      {
+        "slug": "customer-thoughtworks",
+        "file": "stardust/migrated/customer/thoughtworks/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "customer-solo-by-myob",
+        "file": "stardust/migrated/customer/solo-by-myob/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "customer-givedirectly",
+        "file": "stardust/migrated/customer/givedirectly/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "customer-uneo",
+        "file": "stardust/migrated/customer/uneo/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "customer-trodo",
+        "file": "stardust/migrated/customer/trodo/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "customer-sealy-of-australia",
+        "file": "stardust/migrated/customer/sealy-of-australia/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "customer-betmgm-brasil",
+        "file": "stardust/migrated/customer/betmgm-brasil/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "customer-the-smith-family",
+        "file": "stardust/migrated/customer/the-smith-family/index.html",
+        "assetsBundled": 20
+      },
+      {
+        "slug": "customer-catapult",
+        "file": "stardust/migrated/customer/catapult/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "customer-lucid-software-es",
+        "file": "stardust/migrated/customer/lucid-software-es/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "customer-coco-republic",
+        "file": "stardust/migrated/customer/coco-republic/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "customer-envato",
+        "file": "stardust/migrated/customer/envato/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "customer-docebo",
+        "file": "stardust/migrated/customer/docebo/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "customer-tbauctions",
+        "file": "stardust/migrated/customer/tbauctions/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "customer-furnished-finder",
+        "file": "stardust/migrated/customer/furnished-finder/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "customer-lucid-software-ai",
+        "file": "stardust/migrated/customer/lucid-software-ai/index.html",
+        "assetsBundled": 17
+      },
+      {
+        "slug": "customer-pure-insurance",
+        "file": "stardust/migrated/customer/pure-insurance/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "customer-five-iron-golf",
+        "file": "stardust/migrated/customer/five-iron-golf/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "customer-github-es",
+        "file": "stardust/migrated/customer/github-es/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "customer-tesu",
+        "file": "stardust/migrated/customer/tesu/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "customer-inshur",
+        "file": "stardust/migrated/customer/inshur/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "customer-odeon-cinemas",
+        "file": "stardust/migrated/customer/odeon-cinemas/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "customer-britbox",
+        "file": "stardust/migrated/customer/britbox/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "trust-center",
+        "file": "stardust/migrated/trust-center/index.html",
+        "assetsBundled": 19
+      },
+      {
+        "slug": "sitemap",
+        "file": "stardust/migrated/sitemap/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "what-is-zendesk",
+        "file": "stardust/migrated/what-is-zendesk/index.html",
+        "assetsBundled": 17
+      },
+      {
+        "slug": "customer-sinch-engage",
+        "file": "stardust/migrated/customer/sinch-engage/index.html",
+        "assetsBundled": 19
+      },
+      {
+        "slug": "customer-zendesk-for-employee-service",
+        "file": "stardust/migrated/customer/zendesk-for-employee-service/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "customer-irc-video",
+        "file": "stardust/migrated/customer/irc-video/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "customer-motel-rocks",
+        "file": "stardust/migrated/customer/motel-rocks/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "customer-privy",
+        "file": "stardust/migrated/customer/privy/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "customer-liberty-qa",
+        "file": "stardust/migrated/customer/liberty-qa/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "customer-qualia",
+        "file": "stardust/migrated/customer/qualia/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "customer-miko",
+        "file": "stardust/migrated/customer/miko/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "customer-ballys",
+        "file": "stardust/migrated/customer/ballys/index.html",
+        "assetsBundled": 20
+      },
+      {
+        "slug": "customer-dupage-county",
+        "file": "stardust/migrated/customer/dupage-county/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "customer-yape",
+        "file": "stardust/migrated/customer/yape/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "customer-babbel",
+        "file": "stardust/migrated/customer/babbel/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "customer-starshipit",
+        "file": "stardust/migrated/customer/starshipit/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "customer-action-property-management",
+        "file": "stardust/migrated/customer/action-property-management/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "customer-easyfundraising",
+        "file": "stardust/migrated/customer/easyfundraising/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "customer-shearcomfort",
+        "file": "stardust/migrated/customer/shearcomfort/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "customer-benevity",
+        "file": "stardust/migrated/customer/benevity/index.html",
+        "assetsBundled": 20
+      },
+      {
+        "slug": "customer-quickmd",
+        "file": "stardust/migrated/customer/quickmd/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "marketplace",
+        "file": "stardust/migrated/marketplace/index.html",
+        "assetsBundled": 50
+      },
+      {
+        "slug": "customer",
+        "file": "stardust/migrated/customer/index.html",
+        "assetsBundled": 32
+      },
+      {
+        "slug": "newsroom",
+        "file": "stardust/migrated/newsroom/index.html",
+        "assetsBundled": 18
+      },
+      {
+        "slug": "industries",
+        "file": "stardust/migrated/industries/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "marketplace-apps",
+        "file": "stardust/migrated/marketplace/apps/index.html",
+        "assetsBundled": 30
+      },
+      {
+        "slug": "marketplace-partners",
+        "file": "stardust/migrated/marketplace/partners/index.html",
+        "assetsBundled": 30
+      },
+      {
+        "slug": "marketplace-themes",
+        "file": "stardust/migrated/marketplace/themes/index.html",
+        "assetsBundled": 30
+      },
+      {
+        "slug": "repeatcustomer",
+        "file": "stardust/migrated/repeatcustomer/index.html",
+        "assetsBundled": 17
+      },
+      {
+        "slug": "why-zendesk",
+        "file": "stardust/migrated/why-zendesk/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "web-widget",
+        "file": "stardust/migrated/web-widget/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "professional-services",
+        "file": "stardust/migrated/professional-services/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "cxtrends",
+        "file": "stardust/migrated/cxtrends/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "login",
+        "file": "stardust/migrated/login/index.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "register",
+        "file": "stardust/migrated/register/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "demo",
+        "file": "stardust/migrated/demo/index.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "instapage-form-demo",
+        "file": "stardust/migrated/instapage-form-demo/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "instapage-form-contact",
+        "file": "stardust/migrated/instapage-form-contact/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "instapage-form-trial-teaser-sell",
+        "file": "stardust/migrated/instapage-form-trial-teaser-sell/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "instapage-form-webinar",
+        "file": "stardust/migrated/instapage-form-webinar/index.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "instapage-form-trial-teaser-suite",
+        "file": "stardust/migrated/instapage-form-trial-teaser-suite/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "instapage-form-trial-teaser-suite-inline",
+        "file": "stardust/migrated/instapage-form-trial-teaser-suite-inline/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "instapage-form-newsletter",
+        "file": "stardust/migrated/instapage-form-newsletter/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "instapage-form-content",
+        "file": "stardust/migrated/instapage-form-content/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "free-trial",
+        "file": "stardust/migrated/free-trial/index.html",
+        "assetsBundled": 5
+      },
+      {
+        "slug": "intro-tour",
+        "file": "stardust/migrated/intro-tour/index.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "help-center-closed",
+        "file": "stardust/migrated/help-center-closed/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "blog-ads-api-output",
+        "file": "stardust/migrated/blog-ads-api-output/index.html",
+        "assetsBundled": 6
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-20T17:01:09Z",
+      "rendered": [
+        "intro-tour",
+        "help-center-closed",
+        "blog-ads-api-output"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

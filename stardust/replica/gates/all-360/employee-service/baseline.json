@@ -1,0 +1,65 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-20T18:30:52.318Z",
+  "url": "https://www.zendesk.com/employee-service/",
+  "width": 360,
+  "vh": 900,
+  "height": 13493,
+  "settle": true,
+  "chunks": 15,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 5,
+    "late": 0
+  },
+  "primed": true,
+  "prime": {
+    "height": 13493,
+    "pct": 0.06,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    13493,
+    13493
+  ],
+  "noiseFloor": 0.09,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [
+    {
+      "y": 12372,
+      "h": 56,
+      "pct": 31.4
+    },
+    {
+      "y": 13392,
+      "h": 76,
+      "pct": 11.4
+    }
+  ],
+  "variableShare": 0.98,
+  "maskArg": "12372:56,13392:76",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-20T18:31:43.183Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

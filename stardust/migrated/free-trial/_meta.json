@@ -1,0 +1,260 @@
+{
+  "slug": "free-trial",
+  "type": "form",
+  "renderBranch": "A'",
+  "template": "contact",
+  "modules": [
+    "fm-form",
+    "fm-hero",
+    "ct-logos",
+    "fm-offices",
+    "ct-quotes",
+    "ct-prose",
+    "ct-faq",
+    "sv-hero",
+    "fm-logos",
+    "fm-features",
+    "fm-quotes",
+    "hp-duo",
+    "fm-promo",
+    "pr-faq",
+    "hp-res",
+    "fm-cta"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "ct-wrap"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": "eb12288bdf84",
+    "css": "6522953e4893"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "encoder-gap",
+      "encoder": "stardust/rollout/encoders/archetype-form/encode.py",
+      "scratch": "stardust/.work/render/form/enc/free-trial.html",
+      "exit": 0,
+      "blocks": [
+        "fm-form",
+        "fm-hero",
+        "fm-offices"
+      ],
+      "wordsNotCarried": 0,
+      "wordsTotal": 1340,
+      "gap": "",
+      "iframesDropped": 0,
+      "imgsDropped": 45
+    },
+    {
+      "kind": "delivery-chrome",
+      "metaRows": {
+        "nav": "/nav",
+        "footer": "/footer"
+      },
+      "note": "full site header/footer on the live page: encode with --meta-row nav=/nav --meta-row footer=/footer (encoder defaults are /nav-slim, /footer-legal); ct-logos/ct-quotes/ct-faq/ct-prose sections encode as default content and card grids as fm-offices — all 45 images are not carried by the archetype encoder (logos, testimonial logos/portrait, card art, badges): delivery needs logos/testimonials/cards/accordion blocks or an image-capable encoder pass"
+    }
+  ],
+  "metadata": {
+    "title": "Zendesk Free Trial | AI Customer &amp; Employee Service",
+    "description": "Start your 14-day free trial of Zendesk’s AI-powered platform for customer and employee service. Launch AI agents, automate workflows, and scale support fast.",
+    "canonical": "https://www.zendesk.com/free-trial/",
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Zendesk Free Trial | AI Customer &amp; Employee Service",
+    "description": "Start your 14-day free trial of Zendesk’s AI-powered platform for customer and employee service. Launch AI agents, automate workflows, and scale support fast.",
+    "url": "https://www.zendesk.com/free-trial/"
+  },
+  "migratedAt": "2026-11-20T16:53:48Z",
+  "designMdSha": "84a4a03d7364",
+  "designJsonSha": "28069f8740fe",
+  "sourceCurrentSha": "261b39b97277",
+  "sourceProposedSha": "08fab0302786",
+  "fidelityTier": "sibling",
+  "archetypeSource": "contact",
+  "archetypeSha": "616e2bf4d511",
+  "variants": [
+    "ct-form--mid ct-sections ct-lead--lifted ct-hero--media ct-logos ct-cards ct-quotes ct-prose ct-faq ct-sitechrome"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "stardust/.work/render/form/variance.json (12 siblings vs /contact/, exit 2): 1 → 12 matches; 1 → 3 distinct style families among matches (a second visual family = a variant class); rect{h 1024 → 856}; heading h1 vanilla sans 42px/48.3px 500 rgb(17, 17, 13) → h2 vanilla sans 42px/48.3px 500 rgb(17, 17, 13); image null → [object Object]; rect{w 539 → 515, h 556 → 84}; 5 → 1 matches; 2 → 1 distinct style families among matches (a second visual family = a variant class); rect{w 539 → 293}; \"h1\" matches 1 on the archetype, 0 on the sibling -> variants ct-form--mid, ct-sections, ct-lead--lifted, ct-hero--media, ct-logos, ct-cards, ct-quotes, ct-prose, ct-faq, ct-sitechrome",
+    "content-count": "count.py: source {'headings': 24, 'body': 65, 'ctas': 47, 'hrefs': 25, 'images': 45, 'words': 1340} vs render {'headings': 24, 'body': 82, 'ctas': 47, 'hrefs': 25, 'images': 45, 'words': 1340}; drops none; words missing 0; hrefs compared as resolved targets (driver depth-relative rewrite); <noscript> fallback imgs not counted (same src as the lazy img) (stardust/.work/render/form/counts.jsonl); capture-JSON headings only in the full site header/footer outside main (chrome, not lost): ['Products', 'Features', 'Resources', 'Company', 'Compare', 'Popular topics', 'How can we help? Contact us.']",
+    "content-fidelity": "sibling-form/build.py: headings, text (block-level boundaries), CTA labels+hrefs, images (src/alt), form schema (names/types/labels/options/placeholders/validation text) verbatim from the hydrated capture; word multiset diff 0; image src multiset equal; deviations declared"
+  },
+  "contentDeviations": [
+    {
+      "kind": "module",
+      "source": "section #teaser-41a5620055-2 (Trusted by 100,000+ companies): logo strip, 16 images (marquee: the live set repeats twice)",
+      "target": "section.ct-logos: heading + images verbatim (incl. the marquee repeat)",
+      "reason": "no logo module in the archetype; the encoder carries the heading only (delivery: logos block, images via da-media-upload)"
+    },
+    {
+      "kind": "module",
+      "source": "section #teaser-5954bbc433 (What’s included in your Zendesk free trial): 3-card grid",
+      "target": "section.ct-cards on the archetype office grid (.ct-head + .ct-offices > .ct-office cells) -> fm-offices",
+      "reason": "closest contact module; card images are not carried by the encoder (delivery: cards block or fm-offices image cell)"
+    },
+    {
+      "kind": "module",
+      "source": "section #testimonials (Customer stories): testimonial carousel, 9 quotes (carousel clones included)",
+      "target": "section.ct-quotes: logo tabs, blockquote, name, role, story link — in source order, verbatim",
+      "reason": "no testimonial module in the archetype; encoder carries quotes/names/links as default content, images dropped (delivery: testimonials block)"
+    },
+    {
+      "kind": "module",
+      "source": "section #employee_service_contact_center (Extend the power of AI-first service across your entire organization.): 2-card grid",
+      "target": "section.ct-cards on the archetype office grid (.ct-head + .ct-offices > .ct-office cells) -> fm-offices",
+      "reason": "closest contact module; card images are not carried by the encoder (delivery: cards block or fm-offices image cell)"
+    },
+    {
+      "kind": "module",
+      "source": "section #teaser-3fd06df4b4 (AI support for businesses of all sizes): 3 item(s)",
+      "target": "section.ct-prose (default content)",
+      "reason": "no fm- module for non-form content in the archetype; the encoder emits default content"
+    },
+    {
+      "kind": "module",
+      "source": "section #teaser-e3eee01622 (Frequently asked questions): accordion, 11 questions",
+      "target": "section.ct-faq: heading > button question + answer paragraphs (all answers open, verbatim)",
+      "reason": "no accordion module in the archetype (contact); the encoder carries it as default content (delivery: accordion/faq block)"
+    },
+    {
+      "kind": "module",
+      "source": "section #resources (Additional resources): 4-card grid (whole-card links)",
+      "target": "section.ct-cards on the archetype office grid (.ct-head + .ct-offices > .ct-office cells) -> fm-offices",
+      "reason": "closest contact module; card images are not carried by the encoder (delivery: cards block or fm-offices image cell); a whole-card anchor becomes text lines + its href on the CTA line"
+    },
+    {
+      "kind": "module",
+      "source": "section #teaser-cec89a28d8 (The #1 AI support platform for any team size): 8 item(s)",
+      "target": "section.ct-prose (default content)",
+      "reason": "no fm- module for non-form content in the archetype; the encoder emits default content"
+    },
+    {
+      "kind": "chrome",
+      "source": "full site header outside main (mega-menu, 90 links, 8 menu headings)",
+      "target": "archetype header kept in the render (canon chrome)",
+      "reason": "the live page carries the FULL site nav, not the slim contact nav (delivery: metadata nav=/nav, not /nav-slim)"
+    },
+    {
+      "kind": "chrome",
+      "source": "full site footer outside main (129 links, 14 column headings)",
+      "target": "archetype footer kept in the render (canon chrome)",
+      "reason": "the live page carries the FULL site footer, not the legal footer (delivery: metadata footer=/footer, not /footer-legal)"
+    }
+  ],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/company/agreements-and-terms/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/conservice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/rain/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/heliosx/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/next/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/conservice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/rain/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/heliosx/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/next/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/conservice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/service/messaging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/service/voice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/service/ai/ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/service/ai/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/service/knowledge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/service/workforce-management/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/service/ai/ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/why-zendesk/customers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/ai/zendesk-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/customer-service/support/what-is-customer-service/customer-support-vs-customer-service/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/terms-of-use/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/cookie-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "free-trial/index.html",
+  "outputPathDefault": null,
+  "sidecar": "free-trial/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-20T11:43:55.752Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.zendesk.com/",
+    "da": {
+      "org": "aemcoder",
+      "site": "3055ed88",
+      "ref": "main"
+    },
+    "liveHost": "main--3055ed88--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 100,
+    "discovered": 100,
+    "capped": false,
+    "pageCap": 100
+  },
+  "lastRun": {
+    "at": "2026-11-21T18:57:58.712Z",
+    "pages": {
+      "total": 100,
+      "verified": 100,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 14,
+      "converted": 14,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

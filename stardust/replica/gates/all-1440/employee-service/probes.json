@@ -1,0 +1,79 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-21T13:25:41.325Z",
+ "content": {
+  "totals": {
+   "missingHeadings": 0,
+   "hiddenHeadings": 0,
+   "extraHeadings": 0,
+   "missingLinks": 0,
+   "hiddenLinks": 0,
+   "movedLinks": 0,
+   "extraLinks": 0,
+   "missingButtons": 1,
+   "hiddenButtons": 0,
+   "controlState": 10,
+   "countDeltas": 2,
+   "findings": 39,
+   "structural": 0,
+   "missing": 0,
+   "hidden": 0
+  },
+  "variable": [],
+  "reason": null,
+  "tier": "chrome"
+ },
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 16,
+   "textNodes": 219,
+   "controls": 141,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.sv-carousel.block",
+    "path": "div.sv-res-list > div.sv-res-track > div.sv-res-slide > a.sv-res-card",
+    "text": "articlethe ai advantage: how smart automation gives it teams",
+    "cutMin": 106,
+    "cutMax": 106
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "a.sv-res-card",
+    "path": "a.sv-res-card > div.sv-res-content > div.sv-res-title > p",
+    "text": "the ai advantage: how smart automation gives it teams their ",
+    "cutMin": 71,
+    "cutMax": 71
+   }
+  ],
+  "origin": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 15,
+   "textNodes": 218,
+   "controls": 142,
+   "total": 0
+  },
+  "source": "content-presence"
+ }
+}

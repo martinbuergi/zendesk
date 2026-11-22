@@ -1,0 +1,126 @@
+/* hp-cta — pricing card (default) and footer launch banner (banner) */
+.hp-cta .hp-cta-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 48px;
+  padding: 32px 24px;
+  border-radius: 40px;
+  background-color: var(--za-cream);
+  text-align: center;
+}
+
+.hp-cta .hp-center-row {
+  align-items: center;
+  justify-content: center;
+  width: calc(100% + 24px);
+}
+
+.hp-cta .hp-cta-col {
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.hp-cta .hp-cta-title :is(h2, h3),
+.hp-cta .za-text p {
+  padding: 0 8px;
+}
+
+.hp-cta .hp-linkgroup {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.hp-cta .hp-linkgroup p,
+.hp-cta .hp-linkgroup a.button {
+  width: 100%;
+  margin: 0;
+}
+
+/* banner: no card, cream heading led by the launch icon, on-dark secondary */
+.hp-cta.banner .hp-cta-card {
+  padding: 0;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.hp-cta.banner .hp-center-row {
+  width: auto;
+  margin: 0;
+}
+
+.hp-cta.banner .hp-cta-col {
+  padding: 0;
+}
+
+.hp-cta.banner .hp-cta-title :is(h2, h3) {
+  margin: 0 0 24px;
+  color: var(--za-cream);
+}
+
+.hp-cta.banner .hp-cta-title :is(h2, h3)::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.25em;
+  background: url("./launch-icon.png") center / contain no-repeat;
+  vertical-align: top;
+}
+
+.hp-cta.banner a.button.secondary {
+  color: var(--za-white);
+}
+
+.hp-cta.banner a.button.secondary::before {
+  border-color: rgb(255 255 255 / 32%);
+}
+
+.hp-cta.banner a.button.secondary:hover::before {
+  background-color: rgb(255 255 255 / 7%);
+}
+
+@media (width >= 768px) {
+  .hp-cta .hp-cta-card {
+    margin-bottom: 0;
+  }
+
+  .hp-cta .hp-cta-col {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+  }
+
+  .hp-cta.banner .hp-cta-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .hp-cta .hp-linkgroup {
+    flex-direction: row;
+    align-items: baseline;
+    width: auto;
+  }
+
+  .hp-cta .hp-linkgroup p,
+  .hp-cta .hp-linkgroup a.button {
+    width: auto;
+  }
+}
+
+@media (width >= 1600px) {
+  .hp-cta .hp-cta-card {
+    padding: 40px;
+  }
+
+  .hp-cta.banner .hp-cta-card {
+    padding: 0;
+  }
+}

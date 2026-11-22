@@ -1,0 +1,289 @@
+/* bl-promo — listing promo cards: dark text-only card, closing band, gen-B image teaser, gen-B pair */
+/* stylelint-disable no-descending-specificity -- variants scoped by class */
+.bl-promo p {
+  margin: 0;
+}
+
+.bl-promo .bl-promo-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.bl-promo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* text-only (gen A): forest card, heading + text, lime CTA */
+main .section.cream .bl-promo {
+  background: var(--za-cream);
+}
+
+.bl-promo.text-only .bl-promo-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 24px;
+  padding: 32px 24px;
+  text-align: center;
+  border-radius: 40px;
+  background: var(--za-forest);
+}
+
+.bl-promo.text-only .bl-promo-copy :is(h2, h3) {
+  margin: 0 0 8px;
+  color: var(--za-cream);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 27.5px;
+}
+
+.bl-promo.text-only .bl-promo-cta {
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bl-promo.text-only .bl-promo-cta a.button {
+  width: 100%;
+}
+
+
+.bl-promo.text-only .bl-promo-copy :is(h2, h3):last-child {
+  margin-bottom: 0;
+}
+
+.bl-promo.text-only .bl-promo-copy p {
+  color: var(--za-white);
+  font-size: 16px;
+  line-height: 23.2px;
+}
+
+.bl-promo .bl-promo-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+/* band: full-bleed dark closing band, centred */
+.bl-promo.band {
+  background: radial-gradient(70% 90% at 50% 100%, rgb(53 94 52 / 90%) 0%, rgb(17 17 13 / 0%) 100%), rgb(17 17 13);
+}
+
+.bl-promo.band .bl-promo-card {
+  align-items: center;
+  gap: 0;
+  padding: 0;
+  border-radius: 0;
+  background: none;
+  text-align: center;
+}
+
+.bl-promo.band .bl-promo-copy :is(h2, h3),
+.bl-promo.band .bl-promo-copy :is(h2, h3):last-child {
+  max-width: 727px;
+  margin: 0 0 24px;
+  font-size: 30px;
+  line-height: 1.15;
+}
+
+.bl-promo.band .bl-promo-cta {
+  justify-content: center;
+  align-self: stretch;
+  padding-top: 8px;
+}
+
+.bl-promo.band a.button.secondary,
+.bl-promo.band .bl-promo-cta em a {
+  color: var(--za-white);
+}
+
+.bl-promo.band a.button.secondary::before {
+  border-color: rgb(255 255 255 / 30%);
+}
+
+/* gen-B image teaser (customer stories: Put Zendesk to the test) */
+.bl-promo.legacy {
+  font-family: var(--zb-font-body);
+}
+
+.bl-promo.legacy:not(.pair) {
+  padding: 32px 0;
+  background: rgb(243 240 238);
+}
+
+.bl-promo.legacy .bl-promo-cards {
+  max-width: var(--zb-container);
+  padding: 0 var(--zb-gutter);
+}
+
+.bl-promo.legacy:not(.pair) .bl-promo-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 32px;
+  align-items: center;
+}
+
+.bl-promo.legacy .bl-promo-copy :is(h2, h3, h4) {
+  margin: 0 0 24px;
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.bl-promo.legacy .bl-promo-copy p {
+  margin: 16px 0;
+  color: var(--zb-teal-800);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.bl-promo.legacy .bl-promo-cta {
+  flex-direction: column;
+  padding-top: 8px;
+}
+
+.bl-promo.legacy .bl-promo-cta a.button {
+  width: 100%;
+}
+
+/* stacked (live /customer/ @360): CTAs 24px under the copy — p margin 16 + cta padding 8, not the 32px card gap */
+@media (width < 768px) {
+  .bl-promo.legacy:not(.pair) .bl-promo-cta {
+    margin-top: -32px;
+  }
+}
+
+/* gen-B pair (newsroom): two aqua cards stacked beside the press list */
+.bl-promo.pair {
+  padding: 0;
+  background: none;
+}
+
+.bl-promo.pair .bl-promo-cards {
+  padding: 0;
+}
+
+.bl-promo.pair .bl-promo-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-content: center;
+  column-gap: 16px;
+  min-height: 373px;
+  padding: 40px;
+  background: rgb(214 238 242);
+}
+
+.bl-promo.pair .bl-promo-copy,
+.bl-promo.pair .bl-promo-cta {
+  grid-column: 1;
+}
+
+.bl-promo.pair .bl-promo-img {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: center;
+}
+
+.bl-promo.pair .bl-promo-copy :is(h2, h3, h4) {
+  margin: 0 0 24px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.bl-promo.pair .bl-promo-cta {
+  padding-top: 0;
+}
+
+@media (width >= 768px) {
+  .bl-promo.text-only:not(.band) .bl-promo-card {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 64px 96px;
+    text-align: left;
+  }
+
+  .bl-promo.text-only .bl-promo-copy :is(h2, h3) {
+    font-size: 26px;
+    line-height: 32.5px;
+  }
+
+  .bl-promo.text-only .bl-promo-cta {
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .bl-promo.text-only .bl-promo-cta a.button {
+    width: auto;
+  }
+
+  .bl-promo.band .bl-promo-cta {
+    align-self: center;
+    padding-top: 0;
+  }
+
+  .bl-promo.text-only:not(.band) .bl-promo-copy {
+    flex: 1;
+  }
+
+  .bl-promo.band .bl-promo-copy :is(h2, h3),
+  .bl-promo.band .bl-promo-copy :is(h2, h3):last-child {
+    font-size: 42px;
+    line-height: 48.3px;
+  }
+
+  .bl-promo.legacy .bl-promo-cta {
+    flex-direction: row;
+  }
+
+  .bl-promo.legacy:not(.pair) {
+    padding: 64px 0;
+  }
+
+  .bl-promo.pair .bl-promo-copy :is(h2, h3, h4) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .bl-promo.legacy .bl-promo-cta a.button {
+    width: auto;
+  }
+
+  .bl-promo.legacy:not(.pair) .bl-promo-card {
+    grid-template-columns: 50% minmax(0, 1fr);
+    grid-template-rows: 1fr auto auto 1fr;
+    gap: 0;
+  }
+
+  .bl-promo.legacy:not(.pair) .bl-promo-copy {
+    grid-row: 2;
+  }
+
+  .bl-promo.legacy:not(.pair) .bl-promo-cta {
+    grid-row: 3;
+  }
+
+  .bl-promo.legacy:not(.pair) .bl-promo-copy,
+  .bl-promo.legacy:not(.pair) .bl-promo-cta {
+    grid-column: 2;
+    margin-left: 92px;
+  }
+
+  .bl-promo.legacy:not(.pair) .bl-promo-img {
+    grid-row: 1 / span 4;
+  }
+
+  .bl-promo.legacy:not(.pair) .bl-promo-img img {
+    width: 444px;
+  }
+
+  .bl-promo.legacy .bl-promo-copy :is(h2, h3) {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}

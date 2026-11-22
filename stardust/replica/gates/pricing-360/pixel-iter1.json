@@ -1,0 +1,389 @@
+{
+  "a": "stardust/replica/gates/pricing-360/live.png",
+  "b": "stardust/replica/gates/pricing-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 9191,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 57753,
+  "pct": 1.76,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/pricing-360/diff-iter1.png",
+  "masks": [
+    {
+      "yA": 5332,
+      "h": 76,
+      "yB": 5332
+    }
+  ],
+  "maskedRows": 76,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 4.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 2.4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 1.6
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 1.6
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 1.4
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 1.3
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 3.2
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 0.9
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 0.1
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 0.9
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 1.3
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 2
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 2.7
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 2
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 0.6
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 2.9
+    },
+    {
+      "y0": 9000,
+      "y1": 9191,
+      "pct": 2.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.2,
+    "differingPixels": 39513,
+    "compared": {
+      "width": 360,
+      "height": 9128,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1889,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 2153,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 2646,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 4080,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 4125,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 4827,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 5636,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 5682,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 6333,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 6401,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 6443,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 6503,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 6645,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 6800,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 7031,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 7143,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 7241,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 7353,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 7459,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 7522,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 7669,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 7732,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 8463,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 8847,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 8974,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 25,
+    "insertedRows": 13,
+    "deletedRows": 12,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 4.5,
+        "unaligned": 4.5
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 1.3,
+        "unaligned": 1.3
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1.6,
+        "unaligned": 2.4
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 1,
+        "unaligned": 1.6
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1.1,
+        "unaligned": 1.6
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 1.7,
+        "unaligned": 1.4
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 1.2,
+        "unaligned": 1.3
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.4,
+        "unaligned": 3.2
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.6,
+        "unaligned": 0.9
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0.5,
+        "unaligned": 0.9
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0.8,
+        "unaligned": 1.3
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 1.9,
+        "unaligned": 2
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 2.1,
+        "unaligned": 2.7
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 2,
+        "unaligned": 2
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 0.4,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 0.4,
+        "unaligned": 2.9
+      },
+      {
+        "y0": 9000,
+        "y1": 9191,
+        "pct": 0,
+        "unaligned": 2.8
+      }
+    ],
+    "diff": "stardust/replica/gates/pricing-360/diff-iter1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 8,
+    "totalShift": 25,
+    "pass": false
+  },
+  "reason": "offsets: 25 step(s), 25px total — −1px at y=1889, +1px at y=2153, +1px at y=2646, −1px at y=4080, +1px at y=4125, −1px at y=4827, … 19 more (bound 8px)"
+}

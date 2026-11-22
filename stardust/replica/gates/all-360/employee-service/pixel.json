@@ -1,0 +1,407 @@
+{
+  "a": "stardust/replica/gates/all-360/employee-service/origin.png",
+  "b": "stardust/replica/gates/all-360/employee-service/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 13473,
+    "mode": "overlap"
+  },
+  "heightDelta": 20,
+  "differingPixels": 702220,
+  "pct": 14.62,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/employee-service/diff.png",
+  "masks": [
+    {
+      "yA": 12372,
+      "h": 56,
+      "yB": 12372
+    },
+    {
+      "yA": 13392,
+      "h": 76,
+      "yB": 13392
+    }
+  ],
+  "maskedRows": 132,
+  "textPct": 19.23,
+  "textBoxes": 250,
+  "textPixels": 1014438,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 17.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 30.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 16.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 15.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 25.6
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 27.6
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 18.9
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 25.8
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 6.8
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 6.4
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 8.3
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 14.9
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 7.5
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 11.5
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 6.4
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 6.4
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 6.7
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 7.1
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 7.7
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 8
+    },
+    {
+      "y0": 10000,
+      "y1": 10500,
+      "pct": 31.4
+    },
+    {
+      "y0": 10500,
+      "y1": 11000,
+      "pct": 5.4
+    },
+    {
+      "y0": 11000,
+      "y1": 11500,
+      "pct": 7.1
+    },
+    {
+      "y0": 11500,
+      "y1": 12000,
+      "pct": 23.1
+    },
+    {
+      "y0": 12000,
+      "y1": 12500,
+      "pct": 37.6
+    },
+    {
+      "y0": 12500,
+      "y1": 13000,
+      "pct": 7.8
+    },
+    {
+      "y0": 13000,
+      "y1": 13473,
+      "pct": 3.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.67,
+    "differingPixels": 80562,
+    "compared": {
+      "width": 360,
+      "height": 13386,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 58,
+        "shift": -18,
+        "cumulative": -18
+      },
+      {
+        "y": 7189,
+        "shift": -2,
+        "cumulative": -20
+      },
+      {
+        "y": 9838,
+        "shift": -2,
+        "cumulative": -22
+      },
+      {
+        "y": 9974,
+        "shift": -3,
+        "cumulative": -25
+      },
+      {
+        "y": 10356,
+        "shift": 1,
+        "cumulative": -24
+      },
+      {
+        "y": 11929,
+        "shift": -8,
+        "cumulative": -32
+      },
+      {
+        "y": 12061,
+        "shift": -12,
+        "cumulative": -44
+      },
+      {
+        "y": 12372,
+        "shift": 44,
+        "cumulative": 0
+      },
+      {
+        "y": 12442,
+        "shift": -20,
+        "cumulative": -20
+      }
+    ],
+    "maxOffset": 44,
+    "totalShift": 110,
+    "insertedRows": 45,
+    "deletedRows": 65,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 5.8,
+        "unaligned": 17.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 2.4,
+        "unaligned": 30.4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.4,
+        "unaligned": 16.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.4,
+        "unaligned": 15.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.7,
+        "unaligned": 25.6
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.2,
+        "unaligned": 27.6
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 1.2,
+        "unaligned": 18.9
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.2,
+        "unaligned": 25.8
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.3,
+        "unaligned": 6.8
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.3,
+        "unaligned": 6.4
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0.5,
+        "unaligned": 8.3
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 2.5,
+        "unaligned": 14.9
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 1.5,
+        "unaligned": 7.5
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 2,
+        "unaligned": 11.5
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 1.3,
+        "unaligned": 6.4
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 0.7,
+        "unaligned": 6.4
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 0,
+        "unaligned": 6.7
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 0,
+        "unaligned": 7.1
+      },
+      {
+        "y0": 9000,
+        "y1": 9500,
+        "pct": 0.1,
+        "unaligned": 7.7
+      },
+      {
+        "y0": 9500,
+        "y1": 10000,
+        "pct": 1.8,
+        "unaligned": 8
+      },
+      {
+        "y0": 10000,
+        "y1": 10500,
+        "pct": 2.1,
+        "unaligned": 31.4
+      },
+      {
+        "y0": 10500,
+        "y1": 11000,
+        "pct": 1,
+        "unaligned": 5.4
+      },
+      {
+        "y0": 11000,
+        "y1": 11500,
+        "pct": 0.9,
+        "unaligned": 7.1
+      },
+      {
+        "y0": 11500,
+        "y1": 12000,
+        "pct": 2,
+        "unaligned": 23.1
+      },
+      {
+        "y0": 12000,
+        "y1": 12500,
+        "pct": 16.6,
+        "unaligned": 37.6
+      },
+      {
+        "y0": 12500,
+        "y1": 13000,
+        "pct": 0,
+        "unaligned": 7.8
+      },
+      {
+        "y0": 13000,
+        "y1": 13493,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/employee-service/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 135,
+    "totalShift": 110,
+    "pass": true
+  },
+  "reason": null,
+  "maskReason": "self-varying rows of the frozen reference (noise floor 0.09%)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/employee-service"
+  }
+}

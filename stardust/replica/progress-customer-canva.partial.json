@@ -1,0 +1,100 @@
+{
+  "type": "article",
+  "slug": "customer-canva",
+  "liveUrl": "https://www.zendesk.com/customer/canva/",
+  "prototype": "stardust/prototypes/customer-canva-proposed.html",
+  "css": [
+    "stardust/prototypes/fonts.css",
+    "stardust/prototypes/canon-b.css",
+    "stardust/prototypes/customer-canva.css"
+  ],
+  "contentRoot": "main",
+  "gates": {
+    "360": {
+      "rounds": 2,
+      "counted": 1,
+      "pixel": 0.07,
+      "dh": 0,
+      "contentDiff": "0 red / 0 yellow / 54 advisory (EXTRA: desktop primary/secondary nav — live renders it only at >=768 and omits it from the DOM at 360; the build ships it display:none)",
+      "clipped": 0,
+      "overflow": false,
+      "units": "8 compared, 0 off",
+      "chromeParity": "quiet; header crop 99.31% (glyph AA), footer crop 100.00%",
+      "capProbe": "PASS (run once at 2560)",
+      "verdict": "PASS"
+    },
+    "1440": {
+      "rounds": 4,
+      "counted": 2,
+      "pixel": 0.03,
+      "dh": 0,
+      "contentDiff": "0 red / 0 yellow / 0 advisory",
+      "clipped": 0,
+      "overflow": false,
+      "units": "8 compared, 0 off",
+      "chromeParity": "quiet; header crop 100.00%, footer crop 100.00%",
+      "capProbe": "PASS (2560, 0 of 5 rows failed)",
+      "verdict": "PASS"
+    }
+  },
+  "chromeParity": "gen-B legacy header + footer authored in canon-b.css; chrome-parity quiet at 1440 and 360; header contract (stardust/chrome/header-contract-legacy.json): sticky scroll state (top -29px desktop / -1px mobile), Company + primary hover dropdowns, mobile drawer (accordion: Products, Pricing, Solutions, Demo, Resources, Company, Contact; Free trial + Sign in) mounted on toggle click",
+  "residuals": [
+    "visual-diff advisory IMAGERY GAP 17 vs 2: live extras are third-party (Wistia popover thumbnail, chat widget, tracking pixels, OneTrust logos) — not page content",
+    "Watch the video: Wistia popover (media z5pqgubflf) not wired — button carries data-video=wistia:z5pqgubflf; dynamics row (embed) for delivery",
+    "Newsletter form: UI rebuilt, no submit backend (interim tier per dynamic-features.md)",
+    "Mobile drawer accordion internals styled from contract screenshots (not gated by pixel; closed state is what the gate sees)",
+    "Hero image + logo fetched directly from the CloudFront CDN (200) into assets/customer-canva/"
+  ],
+  "motion": {
+    "observed": [
+      "header sticky scroll-state (class swap kufEWs->hHkIaE, position relative->sticky, top -29px @1440 / -1px @360)",
+      "hover color -> rgb(6,97,90) 0.25s: secondary nav link, back link, share icons, video link, legal links",
+      "hover background -> rgb(6,97,90) 0.25s: primary buttons (Free trial, Find my solution, Subscribe)",
+      "section 'active' class on enter (no style change observed)",
+      "mobile drawer open on toggle click (contract)"
+    ],
+    "implemented": [
+      "header .is-stuck sticky state (JS, threshold = secondary-bar height)",
+      "all hover color/background transitions above, 0.25s",
+      "mobile drawer toggle + accordion (JS)"
+    ],
+    "dead": [
+      "hover on primary-nav labels (no diff)",
+      "hover on header Demo button (no diff)",
+      "hover on footer column links (no diff)",
+      "section 'active' class (no visual effect measured)"
+    ]
+  },
+  "captureState": [
+    {
+      "what": "Wistia 'Watch the video' popover",
+      "restoreAtDelivery": "wire Wistia popover embed z5pqgubflf (same src) at delivery"
+    },
+    {
+      "what": "Newsletter subscribe form",
+      "restoreAtDelivery": "connect to the form backend per dynamic-features.md"
+    }
+  ],
+  "sharedModules": {
+    "canon-b.css": [
+      "tokens",
+      "base + Garden 12-col grid",
+      "buttons",
+      "legacy header (desktop + mobile + drawer)",
+      "legacy footer + newsletter",
+      "social block",
+      "back link",
+      "logo row",
+      "link group + video link",
+      "pull-quote pair",
+      "fact cards",
+      "stats row",
+      "article body 9/12",
+      "hover states"
+    ],
+    "customer-canva.css": [
+      "story hero (6/12 text + 5/12 offset-1 image)"
+    ]
+  },
+  "passed": true
+}

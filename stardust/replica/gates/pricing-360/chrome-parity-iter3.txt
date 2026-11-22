@@ -1,0 +1,18 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.zendesk.com/pricing/ (live side from cache stardust/replica/gates/pricing-360/chrome-live.json, probed 2026-11-20T11:00:33.067Z — delete the file to re-probe)
+  build: http://localhost:8791/pricing-proposed.html
+
+■ header: ✓ parity — 1 paired of 1/1 texts, 2/2 icons
+  region live:  #__next>div>div:nth-of-type(1) — given by --region, box 0,0 360×60
+  region build: #za-hdr-m — given by --region, box 0,0 360×60
+
+■ footer: ✓ parity — 24 paired of 25/25 texts, 12/12 icons
+  region live:  footer#footer-1719023883.sc-70d743a6-4.eqsTBx — outermost <footer>, box 0,8221 360×931; selector #footer-1719023883
+  region build: footer#footer — outermost <footer>, box 0,8221 360×931; selector #footer
+  🟢 PAIR         "Trust Center"  Δx -128px (196→68); Δy +30px (882→912)  — accepted: company @360 (also seen on service-360): OneTrust rewrites the footer legal link #onetrust-show-cookie-settings from 'Cookie settings' to 'Do Not Sell or Share My Personal Information' after load; whether the live capture lands before or after the rewrite is nondeterministic (index/blog baselines show the rewritten text, company-360/service-360 the original). The canon footer carries the rewritten text (index baseline) - nondeterministic live element, permanent residual (the shorter live text re-wraps the legal row: Trust Center moves up/left)
+  🟢 PAIR         "© 2026 Zendesk, Inc."  Δx +46px (114→160)  — accepted: company @360 (also seen on service-360): OneTrust rewrites the footer legal link #onetrust-show-cookie-settings from 'Cookie settings' to 'Do Not Sell or Share My Personal Information' after load; whether the live capture lands before or after the rewrite is nondeterministic (index/blog baselines show the rewritten text, company-360/service-360 the original). The canon footer carries the rewritten text (index baseline) - nondeterministic live element, permanent residual (the shorter live text re-centres the copyright line)
+  🟢 MISSING      "Cookie settings"  live <span> "Cookie settings" has no build element with the same text  — accepted: company @360 (also seen on service-360): OneTrust rewrites the footer legal link #onetrust-show-cookie-settings from 'Cookie settings' to 'Do Not Sell or Share My Personal Information' after load; whether the live capture lands before or after the rewrite is nondeterministic (index/blog baselines show the rewritten text, company-360/service-360 the original). The canon footer carries the rewritten text (index baseline) - nondeterministic live element, permanent residual
+  🟢 EXTRA        "Do Not Sell or Share My Personal Informa"  build <a> "Do Not Sell or Share My Personal Information" has no live source  — accepted: company @360 (also seen on service-360): OneTrust rewrites the footer legal link #onetrust-show-cookie-settings from 'Cookie settings' to 'Do Not Sell or Share My Personal Information' after load; whether the live capture lands before or after the rewrite is nondeterministic (index/blog baselines show the rewritten text, company-360/service-360 the original). The canon footer carries the rewritten text (index baseline) - nondeterministic live element, permanent residual
+  advisory     REST STATE: 50 live / 0 build text(s) inside panels not shown at rest left out (live: aria-hidden 50; build: none) — --strict-names counts them
+
+✓ chrome parity within tolerance, 1 advisory group(s), 4 accepted — run crop-compare (pass bar item 5) to confirm in pixels.

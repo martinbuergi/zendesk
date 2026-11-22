@@ -1,0 +1,93 @@
+{
+  "slug": "blog-ads-api-output",
+  "type": "unique",
+  "renderBranch": "A'",
+  "template": "pricing",
+  "modules": [
+    "pr-data"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "za-section"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": null,
+    "css": "6522953e4893"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "data-endpoint",
+      "records": 8,
+      "note": "deliver as JSON data (sheet or static file), not as a DA page; the rendered page is the verbatim content carrier"
+    }
+  ],
+  "metadata": {
+    "title": "blog-ads-api-output",
+    "description": null,
+    "canonical": null,
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "blog-ads-api-output",
+    "url": "https://www.zendesk.com/blog-ads-api-output/"
+  },
+  "migratedAt": "2026-11-20T17:01:09Z",
+  "designMdSha": "84a4a03d7364",
+  "designJsonSha": "28069f8740fe",
+  "sourceCurrentSha": "7c4ae742d4ec",
+  "sourceProposedSha": "3521ce345c61",
+  "fidelityTier": "sibling",
+  "archetypeSource": "pricing",
+  "archetypeSha": "026208a619ab",
+  "variants": [
+    "pr-data",
+    "pr-bare"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "stardust/.work/render/unique/variance.json (sibling-variance.mjs pricing vs 3 siblings, 1440, exit 2: every probe varies — unique pages share no layout; deltas carried as variant classes, see variants[])",
+    "content-count": "stardust/.work/render/unique/counts.jsonl (count.py: capture regions vs migrated main sections — drops none, words missing 0)",
+    "content-fidelity": "verbatim from stardust/current/pages/blog-ads-api-output.html via stardust/rollout/encoders/sibling-unique/build.py; every non-archetype module declared in contentDeviations[]"
+  },
+  "contentDeviations": [
+    {
+      "kind": "module",
+      "source": "non-HTML body: JSON data feed (8 records, 2960 chars), no title/headings/chrome",
+      "target": "section.pr-data > pre > code (JSON (raw serialisation, verbatim))",
+      "reason": "the URL serves a machine-readable feed (blog ad / promoted-post records), not a page; no archetype module — carried verbatim as preformatted text, nothing dropped"
+    },
+    {
+      "kind": "dynamic-dependency",
+      "source": "/blog-ads-api-output/ JSON feed consumed client-side by the blog (ads rail)",
+      "target": "static snapshot of the captured records",
+      "reason": "no dynamic-features.md row covers this endpoint (unclassified); delivery should serve it as data (EDS sheet /blog-ads-api-output.json or static JSON) rather than a page [disposition=unclassified; row=None; endpoint=GET https://www.zendesk.com/blog-ads-api-output/]"
+    },
+    {
+      "kind": "chrome",
+      "source": "source has no header/footer (raw feed)",
+      "target": "render without canon header/footer",
+      "reason": "verbatim"
+    },
+    {
+      "kind": "metadata",
+      "source": "no <title> (raw feed)",
+      "target": "<title>blog-ads-api-output</title>",
+      "reason": "driver strict metadata requires a title; the URL slug is used — no copy invented"
+    }
+  ],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "blog-ads-api-output/index.html",
+  "outputPathDefault": null,
+  "sidecar": "blog-ads-api-output/_meta.json",
+  "driverVersion": "1"
+}

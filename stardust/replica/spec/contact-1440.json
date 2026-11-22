@@ -1,0 +1,300 @@
+{
+ "_provenance": {
+  "writtenBy": "skills/replica/scripts/source-spec.mjs",
+  "writtenAt": "2026-11-20T09:58:29.153Z",
+  "url": "https://www.zendesk.com/contact/",
+  "width": 1440,
+  "main": "main",
+  "locale": "en-US"
+ },
+ "page": {
+  "url": "https://www.zendesk.com/contact/",
+  "width": 1440,
+  "viewport": 1440,
+  "docHeight": 2902,
+  "scrollWidth": 1440,
+  "root": "main",
+  "rootFallback": false,
+  "rootWrapsChrome": false,
+  "tier": "chrome"
+ },
+ "tokens": {
+  "fonts": [
+   {
+    "stack": "\"Vanilla Sans\", Arial, sans-serif",
+    "n": 84
+   }
+  ],
+  "loadedFaces": [
+   "Vanilla Sans 400 normal",
+   "Vanilla Sans 500 normal",
+   "Vanilla Sans 600 normal",
+   "Vanilla Sans 700 normal"
+  ],
+  "textStyles": [
+   {
+    "key": "16/23.2 600 Vanilla Sans",
+    "fontSize": 16,
+    "lineHeight": 23.2,
+    "fontWeight": "600",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 41,
+    "roles": {
+     "h6": 28,
+     "link": 13
+    },
+    "sample": "Global HQ - MAP"
+   },
+   {
+    "key": "16/23.2 400 Vanilla Sans",
+    "fontSize": 16,
+    "lineHeight": 23.2,
+    "fontWeight": "400",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 24,
+    "roles": {
+     "p": 24
+    },
+    "sample": "We’ll help you find the right solutions and pricing for your business. Fill out…"
+   },
+   {
+    "key": "14/normal 400 Vanilla Sans",
+    "fontSize": 14,
+    "lineHeight": "normal",
+    "fontWeight": "400",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 6,
+    "roles": {
+     "link": 6
+    },
+    "sample": "Terms of Use"
+   },
+   {
+    "key": "15/18.75 500 Vanilla Sans",
+    "fontSize": 15,
+    "lineHeight": 18.75,
+    "fontWeight": "500",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 5,
+    "roles": {
+     "label": 5
+    },
+    "sample": "Work email"
+   },
+   {
+    "key": "15/21 400 Vanilla Sans",
+    "fontSize": 15,
+    "lineHeight": 21,
+    "fontWeight": "400",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 5,
+    "roles": {
+     "field": 5
+    },
+    "sample": "Work email"
+   },
+   {
+    "key": "42/48.3 500 Vanilla Sans",
+    "fontSize": 42,
+    "lineHeight": 48.3,
+    "fontWeight": "500",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "h1": 1,
+     "h2": 1
+    },
+    "sample": "Get in touch with sales"
+   },
+   {
+    "key": "26/32.5 500 Vanilla Sans",
+    "fontSize": 26,
+    "lineHeight": 32.5,
+    "fontWeight": "500",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 2,
+    "roles": {
+     "h3": 2
+    },
+    "sample": "Product & account support"
+   },
+   {
+    "key": "18/28 600 Vanilla Sans",
+    "fontSize": 18,
+    "lineHeight": 28,
+    "fontWeight": "600",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "button": 1
+    },
+    "sample": "Send message"
+   },
+   {
+    "key": "18/28.5 600 Vanilla Sans",
+    "fontSize": 18,
+    "lineHeight": 28.5,
+    "fontWeight": "600",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "link": 1
+    },
+    "sample": "Visit Help Center"
+   },
+   {
+    "key": "14/18.2 700 Vanilla Sans uppercase",
+    "fontSize": 14,
+    "lineHeight": 18.2,
+    "fontWeight": "700",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "uppercase",
+    "n": 1,
+    "roles": {
+     "p": 1
+    },
+    "sample": "Contact Us"
+   },
+   {
+    "key": "14/19.6 400 Vanilla Sans",
+    "fontSize": 14,
+    "lineHeight": 19.6,
+    "fontWeight": "400",
+    "fontFamily": "Vanilla Sans",
+    "textTransform": "none",
+    "n": 1,
+    "roles": {
+     "p": 1
+    },
+    "sample": "By submitting my personal data, I consent to Zendesk collecting, processing, an…"
+   }
+  ],
+  "colours": [
+   {
+    "color": "rgb(17, 17, 13)",
+    "n": 89
+   }
+  ],
+  "container": {
+   "left": 169,
+   "right": 168,
+   "content": 1103,
+   "leftCommon": {
+    "x": 169,
+    "n": 27
+   }
+  }
+ },
+ "truncated": {
+  "text": 0,
+  "image": 0
+ },
+ "sections": [
+  {"i":0,"region":"main","y":-24,"h":1024,"background":"rgb(255, 255, 255)","paddingTop":88,"paddingBottom":88,"selectorHint":"section#teaser-fa15c27e19.sc-f23d7fd5-11.kLnTED","firstText":"Contact Us"},
+  {"i":1,"region":"main","y":1000,"h":1833,"background":"rgb(245, 245, 242)","paddingTop":88,"paddingBottom":88,"selectorHint":"section#teaser-64cd7269a7.sc-f23d7fd5-11.fzASFR","firstText":"Our offices around the world"},
+  {"i":2,"region":"footer","y":2834,"h":68,"background":"rgb(255, 255, 255)","paddingTop":24,"paddingBottom":24,"selectorHint":"footer#footer-689004117.sc-512deb61-0.bRykKL","firstText":"Terms of Use"}
+ ],
+ "nodes": [
+  {"section":0,"region":"main","kind":"text","tag":"p","role":null,"text":"Contact Us","x":169,"y":179,"w":93,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":18.2,"fontWeight":"700","letterSpacing":0.75,"textTransform":"uppercase","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":0,"region":"main","kind":"text","tag":"h1","role":"h1","text":"Get in touch with sales","x":169,"y":206,"w":539,"h":48,"fontFamily":"Vanilla Sans","fontSize":42,"lineHeight":48.3,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":0,"region":"main","kind":"text","tag":"p","role":null,"text":"We’ll help you find the right solutions and pricing for your business. Fill out…","x":169,"y":278,"w":539,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2},
+  {"section":0,"region":"main","kind":"text","tag":"label","role":null,"text":"Work email","x":169,"y":340,"w":539,"h":19,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":18.75,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":0,"region":"main","kind":"control","tag":"input","role":"field","text":"Work email","x":169,"y":371,"w":539,"h":48,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":0,"region":"main","kind":"text","tag":"label","role":null,"text":"First name","x":169,"y":443,"w":258,"h":19,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":18.75,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":0,"region":"main","kind":"control","tag":"input","role":"field","text":"FirstName","x":169,"y":474,"w":258,"h":48,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":0,"region":"main","kind":"text","tag":"label","role":null,"text":"Last name","x":451,"y":443,"w":258,"h":19,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":18.75,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":0,"region":"main","kind":"control","tag":"input","role":"field","text":"LastName","x":451,"y":474,"w":258,"h":48,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":0,"region":"main","kind":"text","tag":"label","role":null,"text":"Message","x":169,"y":546,"w":539,"h":19,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":18.75,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":0,"region":"main","kind":"control","tag":"textarea","role":"field","text":"question","x":169,"y":577,"w":539,"h":66,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":0,"region":"main","kind":"text","tag":"label","role":null,"text":"Country","x":169,"y":667,"w":539,"h":19,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":18.75,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":0,"region":"main","kind":"control","tag":"select","role":"field","text":"United States","x":169,"y":697,"w":539,"h":48,"fontFamily":"Vanilla Sans","fontSize":15,"lineHeight":21,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":0,"region":"main","kind":"image","tag":"svg","role":null,"text":"","x":668,"y":709,"w":24,"h":24,"fit":"fill"},
+  {"section":0,"region":"main","kind":"text","tag":"p","role":null,"text":"By submitting my personal data, I consent to Zendesk collecting, processing, an…","x":169,"y":769,"w":539,"h":39,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":19.6,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2},
+  {"section":0,"region":"main","kind":"control","tag":"button","role":"button","text":"Send message","x":169,"y":848,"w":539,"h":48,"fontFamily":"Vanilla Sans","fontSize":18,"lineHeight":28,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(17, 17, 13)","lines":1},
+  {"section":0,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Product & account support","x":826,"y":206,"w":445,"h":33,"fontFamily":"Vanilla Sans","fontSize":26,"lineHeight":32.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":0,"region":"main","kind":"text","tag":"p","role":null,"text":"Always open for business. Find answers to common questions in our knowledge bas…","x":826,"y":262,"w":445,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2},
+  {"section":0,"region":"main","kind":"control","tag":"a","role":"link","text":"Visit Help Center","x":826,"y":326,"w":180,"h":23,"fontFamily":"Vanilla Sans","fontSize":18,"lineHeight":28.5,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"https://support.zendesk.com"},
+  {"section":0,"region":"main","kind":"image","tag":"svg","role":"link","text":"","x":974,"y":326,"w":24,"h":24,"fit":"fill","href":"https://support.zendesk.com"},
+  {"section":0,"region":"main","kind":"text","tag":"h3","role":"h3","text":"Talk with us","x":826,"y":417,"w":445,"h":33,"fontFamily":"Vanilla Sans","fontSize":26,"lineHeight":32.5,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":0,"region":"main","kind":"text","tag":"p","role":null,"text":"Give us a call at 1-888-851-9456 Available Mon-Fri, 8am-6pm ET (Excluding holid…","x":826,"y":473,"w":445,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2},
+  {"section":1,"region":"main","kind":"text","tag":"h2","role":"h2","text":"Our offices around the world","x":444,"y":1088,"w":551,"h":48,"fontFamily":"Vanilla Sans","fontSize":42,"lineHeight":48.3,"fontWeight":"500","letterSpacing":0,"textTransform":"none","textAlign":"center","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Global HQ - MAP","x":169,"y":1225,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"181 Fremont St. San Francisco, CA 94105 zendesk.com","x":169,"y":1264,"w":258,"h":70,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Australia - MAP","x":451,"y":1225,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Level13, 550 Bourke Street, Melbourne, Victoria, 3000 Australia","x":451,"y":1264,"w":258,"h":70,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"zendesk.com/au","x":451,"y":1348,"w":123,"h":26,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"https://www.zendesk.com/au/"},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Brazil - MAP","x":732,"y":1225,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Av. Dr. Chucri Zaidan, 920 - 14th floor, Marketplace Tower I São Paulo - SP 045…","x":732,"y":1264,"w":258,"h":93,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"zendesk.com.br","x":732,"y":1371,"w":119,"h":26,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"https://www.zendesk.com.br"},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Denmark - MAP","x":1014,"y":1225,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Njalsgade 72C, 2 2300 København S Denmark","x":1014,"y":1264,"w":258,"h":70,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"zendesk.com/dk","x":1014,"y":1348,"w":124,"h":26,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"https://www.zendesk.com/dk/"},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"France - MAP","x":169,"y":1476,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Morning Trocadero 7 Rue de Magdebourg 75016 Paris France zendesk.fr","x":169,"y":1515,"w":258,"h":116,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":5},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Germany - MAP","x":451,"y":1476,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Paul-Lincke-Ufer 39/40 | Hof 4 Aufgang 7, 2nd floor, 10999 Berlin-Kreuzberg, Ge…","x":451,"y":1515,"w":258,"h":93,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"India, Bangalore - MAP","x":732,"y":1476,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"43, Residency Rd Shanthala Nagar, Ashok Nagar Bengaluru, Karnataka 560025 India…","x":732,"y":1515,"w":258,"h":116,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":5},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"India, Pune - MAP","x":1014,"y":1476,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Zendesk Technologies Private Limited, Abil Boulevard, North Main Road, Koregaon…","x":1014,"y":1515,"w":258,"h":139,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":6},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"zendesk.com/in","x":1014,"y":1669,"w":119,"h":26,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"https://www.zendesk.com/in/"},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Ireland - MAP","x":169,"y":1773,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"55 Charlemont Pl Saint Kevin's, Dublin D02 F985, Ireland","x":169,"y":1813,"w":258,"h":70,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Italy - MAP","x":451,"y":1773,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Via San Marco 21 20121 - Milano Italy zendesk.com/it","x":451,"y":1813,"w":258,"h":93,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Japan - MAP","x":732,"y":1773,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"〒104-0031 東京都中央区京橋 2-2-1 京橋エドグラン zendesk.co.jp","x":732,"y":1813,"w":258,"h":93,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Republic of Korea - MAP","x":1014,"y":1773,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"373 Gangnam-daero, Seocho-dong, Seocho-gu, Seoul, South Korea zendesk.kr","x":1014,"y":1813,"w":258,"h":93,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Netherlands - MAP","x":169,"y":1985,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Strawinskylaan 4117 4th Floor 1077 ZX Amsterdam, Netherlands zendesk.nl","x":169,"y":2025,"w":258,"h":70,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Philippines - MAP","x":451,"y":1985,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"5th Ave, Taguig, Metro Manila, Philippines ask.philippines@zendesk.com","x":451,"y":2025,"w":258,"h":70,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Poland - MAP","x":732,"y":1985,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Marii Konopnickiej 29, 30-302 Kraków, Poland","x":732,"y":2025,"w":258,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"United Kingdom - MAP","x":1014,"y":1985,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"30 Eastbourne Terrace Paddington, London W2 6LA, UK zendesk.co.uk","x":1014,"y":2025,"w":258,"h":93,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Singapore - MAP","x":169,"y":2197,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"9 Straits View Marina One West Tower #10-08 Singapore 018937 zendesk.com/sg","x":169,"y":2236,"w":258,"h":93,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":4},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Spain","x":451,"y":2197,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"zendesk.es","x":451,"y":2235,"w":84,"h":26,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"https://www.zendesk.es"},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Sweden","x":732,"y":2197,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"zendesk.com/se","x":732,"y":2235,"w":122,"h":26,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"https://www.zendesk.com/se/"},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"USA, Madison - MAP","x":1014,"y":2197,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"25 W Main St Madison, WI 53703","x":1014,"y":2236,"w":258,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Thailand","x":169,"y":2409,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"ask.thailand@zendesk.com","x":169,"y":2447,"w":207,"h":26,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"mailto:ask.thailand@zendesk.com"},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Indonesia","x":451,"y":2409,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"ask.indonesia@zendesk.com","x":451,"y":2447,"w":219,"h":26,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"mailto:ask.indonesia@zendesk.com"},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Malaysia","x":732,"y":2409,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"ask.malaysia@zendesk.com","x":732,"y":2447,"w":213,"h":26,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"mailto:ask.malaysia@zendesk.com"},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Greater China Region Sales Support","x":1014,"y":2409,"w":258,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"zendesk.tw","x":1014,"y":2470,"w":85,"h":26,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"https://www.zendesk.tw"},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"zendesk.hk","x":1014,"y":2493,"w":85,"h":26,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"https://www.zendesk.hk"},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"ask.gcr@zendesk.com","x":1014,"y":2517,"w":170,"h":26,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"mailto:ask.gcr@zendesk.com"},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Vietnam","x":169,"y":2621,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"control","tag":"a","role":"link","text":"Contact Sales","x":169,"y":2659,"w":103,"h":26,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"#contact-us-form"},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Portugal, Lisbon - MAP","x":451,"y":2621,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"WeWork, R. Alexandre Herculano 50 6th Floor 1250-011 Lisboa Portugal","x":451,"y":2660,"w":258,"h":70,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":3},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"Estonia, Tallinn - MAP","x":732,"y":2621,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"Vana-Lõuna tn 39-1, 10134","x":732,"y":2660,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"h6","role":"h6","text":"US, Austin, Texas - MAP","x":1014,"y":2621,"w":258,"h":23,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"600","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1},
+  {"section":1,"region":"main","kind":"text","tag":"p","role":null,"text":"405 Comal St., Floor 6 Austin, TX 78702","x":1014,"y":2660,"w":258,"h":46,"fontFamily":"Vanilla Sans","fontSize":16,"lineHeight":23.2,"fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":2},
+  {"section":2,"region":"footer","kind":"image","tag":"svg","role":"link","text":"","x":169,"y":2858,"w":100,"h":20,"fit":"fill","href":"/"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"Terms of Use","x":455,"y":2859,"w":83,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/company/agreements-and-terms/terms-of-use/"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"Privacy Notice","x":551,"y":2859,"w":90,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/company/agreements-and-terms/privacy-notice/"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"Cookie Notice","x":653,"y":2859,"w":87,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/company/agreements-and-terms/cookie-notice/"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"Do Not Sell or Share My Personal Information","x":752,"y":2859,"w":283,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"#onetrust-show-cookie-settings"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"Trust Center","x":1048,"y":2859,"w":79,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/trust-center/"},
+  {"section":2,"region":"footer","kind":"control","tag":"a","role":"link","text":"© 2026 Zendesk, Inc.","x":1139,"y":2859,"w":132,"h":18,"fontFamily":"Vanilla Sans","fontSize":14,"lineHeight":"normal","fontWeight":"400","letterSpacing":0,"textTransform":"none","textAlign":"start","color":"rgb(17, 17, 13)","lines":1,"href":"/company/legal/"}
+ ]
+}

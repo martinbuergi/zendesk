@@ -1,0 +1,444 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-20T07:13:46.965Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "instapage-form-content",
+  "url": "https://www.zendesk.com/instapage-form-content/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-20T07:13:46.965Z",
+  "finalUrl": "https://www.zendesk.com/instapage-form-content/",
+  "title": "Instapage Form: Content",
+  "description": "Content form",
+  "og": {
+    "title": "Instapage Form: Content",
+    "description": "Content form",
+    "image": "https://web-assets.zendesk.com/images/social-share/zendesk-champions-of-customer-service-7.png",
+    "type": "website"
+  },
+  "headings": [],
+  "body": [],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Download now",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.zendesk.com/instapage-form-content/#main-content",
+    "https://www.zendesk.com/company/agreements-and-terms/privacy-policy/"
+  ],
+  "media": {
+    "imgs": [],
+    "allImgCount": 0,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 1,
+    "distinctHeadings": 0,
+    "mainTextLen": 366,
+    "realImageCount": 0,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage",
+    "pageSize": {
+      "w": 1440,
+      "h": 900
+    }
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "assets.adobetarget.com",
+        "path": "/pre-hide-rules/zendesk/production/v1/zendesk.com/rules.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 190,
+        "hits": 1,
+        "example": "https://assets.adobetarget.com/pre-hide-rules/zendesk/production/v1/zendesk.com/rules.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "o1025743.ingest.sentry.io",
+        "path": "/api/{n}/envelope/",
+        "query": [
+          "sentry_client",
+          "sentry_key",
+          "sentry_version"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://o1025743.ingest.sentry.io/api/6184663/envelope/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "edge.adobedc.net",
+        "path": "/ee/or2/v1/interact",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://edge.adobedc.net/ee/or2/v1/interact",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.zendesk.com",
+        "path": "/app/geo.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.zendesk.com/app/geo.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "alb.reddit.com",
+        "path": "/rp",
+        "query": [
+          "event",
+          "id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://alb.reddit.com/rp",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.googleadservices.com",
+        "path": "/ccm/conversion/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "bttype",
+          "category",
+          "cv",
+          "dma",
+          "ec_mode",
+          "ecsid2",
+          "em",
+          "emd",
+          "en",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcl_ctr",
+          "gtm",
+          "guid",
+          "hn",
+          "label",
+          "npa",
+          "oid",
+          "oidsrc",
+          "pscdl",
+          "random",
+          "rcb",
+          "rdp",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 35,
+        "hits": 1,
+        "example": "https://www.googleadservices.com/ccm/conversion/972607400/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "dma",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "rdp",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/rmkt/collect/972607400/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.googleadservices.com",
+        "path": "/pagead/conversion/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "bttype",
+          "category",
+          "cv",
+          "dma",
+          "ec_mode",
+          "ecsid2",
+          "em",
+          "emd",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcl_ctr",
+          "gtm",
+          "guid",
+          "hn",
+          "label",
+          "npa",
+          "oid",
+          "oidsrc",
+          "pscdl",
+          "random",
+          "rcb",
+          "rdp",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1158,
+        "hits": 1,
+        "example": "https://www.googleadservices.com/pagead/conversion/972607400/",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.googletagmanager.com",
+        "count": 4
+      },
+      {
+        "host": "unpkg.com",
+        "count": 2
+      },
+      {
+        "host": "www.zndsk.com",
+        "count": 1
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "count": 1
+      },
+      {
+        "host": "www.redditstatic.com",
+        "count": 1
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [
+      {
+        "id": "__NEXT_DATA__",
+        "type": "application/json",
+        "bytes": 62456,
+        "topLevelKeys": [
+          "props",
+          "page",
+          "query",
+          "buildId",
+          "assetPrefix",
+          "isFallback",
+          "gsp",
+          "appGip",
+          "locale",
+          "locales",
+          "defaultLocale",
+          "domainLocales"
+        ]
+      }
+    ],
+    "globalState": [
+      "__NEXT_DATA__",
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "next"
+    ],
+    "forms": [
+      {
+        "action": "https://www.zendesk.com/instapage-form-content/",
+        "hasAction": false,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 6,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "owner.email",
+          "address.phone",
+          "account.name",
+          "account.help_desk_size"
+        ],
+        "search": false
+      }
+    ],
+    "ariaLiveRegions": 1,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 1,
+      "thirdPartyEndpoints": 8,
+      "thirdPartyScriptHosts": 6,
+      "inlineDataBlobs": 1,
+      "forms": 1,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/instapage-form-content.png",
+  "renderedHtml": "pages/instapage-form-content.html",
+  "slots": {
+    "type": "form",
+    "_source": {
+      "from": "pages/<slug>.json headings/body/ctas/media/dynamic.forms (chrome headings excluded)",
+      "inferred": true
+    },
+    "form-headline": null,
+    "intro": null,
+    "forms": [
+      {
+        "action": "https://www.zendesk.com/instapage-form-content/",
+        "method": "get",
+        "fieldCount": 6,
+        "fieldNames": [
+          "FirstName",
+          "LastName",
+          "owner.email",
+          "address.phone",
+          "account.name",
+          "account.help_desk_size"
+        ]
+      }
+    ],
+    "submit-label": null
+  }
+}

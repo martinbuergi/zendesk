@@ -1,0 +1,256 @@
+{
+  "a": "stardust/replica/gates/all-360/customer-benevity/origin.png",
+  "b": "stardust/replica/gates/all-360/customer-benevity/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 8682,
+    "mode": "overlap"
+  },
+  "heightDelta": 2,
+  "differingPixels": 12586,
+  "pct": 0.4,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/customer-benevity/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 0.4,
+  "textBoxes": 265,
+  "textPixels": 1019295,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.3
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 0.3
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 0
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 0
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 0
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 0.4
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 0
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 0
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 3
+    },
+    {
+      "y0": 8500,
+      "y1": 8682,
+      "pct": 3.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.21,
+    "differingPixels": 6692,
+    "compared": {
+      "width": 360,
+      "height": 8684,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 8267,
+        "shift": -2,
+        "cumulative": -2
+      }
+    ],
+    "maxOffset": 2,
+    "totalShift": 2,
+    "insertedRows": 0,
+    "deletedRows": 2,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1.5,
+        "unaligned": 1.5
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 1,
+        "unaligned": 3
+      },
+      {
+        "y0": 8500,
+        "y1": 8684,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/customer-benevity/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 87,
+    "totalShift": 2,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/customer/benevity"
+  }
+}

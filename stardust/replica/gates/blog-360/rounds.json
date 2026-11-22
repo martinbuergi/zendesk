@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-20T10:20:14.446Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-20T10:24:21.865Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-20T10:30:35.645Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "iter3 FAIL was offset count only (14 x 1px from a clip-probe workaround: 18.25px desc line-height); workaround reverted to the iter1 values. Uncounted build-side re-check vs the frozen baseline: 0.28%, dh 0, 0 offset steps. Residual: clip-probe 11 'text clipped' = 4-line line-clamp boxes of 72.8px (13px x 1.4) on card descriptions, same clamp as live",
+          "at": "2026-11-20T10:33:12.581Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-20T13-47-57-717Z",
+          "at": "2026-11-20T13:47:57.718Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-21T01-49-15-463Z",
+          "at": "2026-11-21T01:49:15.464Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-21T03-33-44-505Z",
+          "at": "2026-11-21T03:33:44.506Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T03-45-18-405Z",
+          "at": "2026-11-21T03:45:18.406Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T04-09-29-639Z",
+          "at": "2026-11-21T04:09:29.640Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-21T06-53-58-233Z",
+          "at": "2026-11-21T06:53:58.234Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

@@ -1,0 +1,87 @@
+/* pr-final — closing CTA band (gWxblo ink + hBsfsS moss glow) */
+.pr-final.za-section {
+  background-color: var(--za-ink);
+}
+
+.pr-final .pr-final-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(115% 115% at 50% 100%, rgb(53 94 52) 10%, transparent 100%);
+}
+
+.pr-final .pr-final-inner {
+  position: relative;
+}
+
+.pr-final .pr-final-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pr-final .pr-final-h :is(h1, h2, h3) {
+  margin: 0 0 24px;
+  color: var(--za-cream);
+}
+
+.pr-final .pr-final-text,
+.pr-final .pr-final-text p {
+  color: var(--za-white);
+}
+
+.pr-final .pr-final-btns {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  padding-top: 8px;
+}
+
+.pr-final .pr-final-btns p {
+  width: 100%;
+  margin: 0;
+}
+
+.pr-final .pr-final-btns a.button {
+  width: 100%;
+}
+
+.pr-final a.button.secondary {
+  color: var(--za-white);
+}
+
+.pr-final a.button.secondary::before {
+  border-color: rgb(255 255 255 / 32%);
+}
+
+.pr-final a.button.secondary:hover::before {
+  background-color: rgb(255 255 255 / 7%);
+}
+
+@media (width >= 768px) {
+  .pr-final .pr-final-col {
+    max-width: calc(50% + 12px);
+    padding: 0 12px;
+  }
+
+  .pr-final .pr-final-btns {
+    flex-direction: row;
+    align-items: baseline;
+    width: auto;
+  }
+
+  .pr-final .pr-final-btns p,
+  .pr-final .pr-final-btns a.button {
+    width: auto;
+  }
+}
+
+@media (width >= 1150px) {
+  .pr-final .pr-final-col {
+    max-width: 563px;
+  }
+}

@@ -1,0 +1,320 @@
+[live-session] waiting to pace live navigations to www.zendesk.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 527 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/customer-canva-1440/vdiff-iter1/
+
+build red flags (advisory): 
+  • IMAGERY GAP: source renders 17 images, build renders 2. The build renders far fewer images than the source — confirm intended (CSS backgrounds) vs missing assets.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4872,
+  "textLen": 8049,
+  "images": [
+   {
+    "src": "Canva_Logo2.png",
+    "natural": "1920x615",
+    "rendered": "119x38",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Canva2.jpg",
+    "natural": "818x1024",
+    "rendered": "444x556",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "c5225b0fa6a716db93e10b745b293d7b84db0e34.webp?image_crop_resized=1920x1080",
+    "natural": "720x405",
+    "rendered": "1280x720",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "34x34",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "zendesk-logo.png",
+    "natural": "660x127",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1795163498899",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "1x1.gif?action=ct-init&hash=4c523741&advertiserId=3594&errorName=&errorCause=&errorMessage=&url=https%3A%2F%2Fwww.zendesk.com%2Fcustomer%2Fcanva%2F",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=5217919&tm=gtm002&Ver=2&mid=c8a7ae2f-d1c6-489c-b836-e461c7c7ceab&bo=2&sid=ce877150e4bc11f1bbd7376822830137&vid=ce87a790e4bc11f1867541ef54fbc536&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=Canva%20turns%20customer%20insights%20into%20action%20with%20Zendesk&p=https%3A%2F%2Fwww.zendesk.com%2Fcustomer%2Fcanva%2F&r=&lt=3298&evt=pageLoad&sv=2&asc=G&cdb=AQET&rn=434732",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "cs?pid=d177d942cb8207b52f57818feb9bb79a7b77ce6e0ed688e3af36875661b9be1d&r=https%3A%2F%2Fs.dpmsrv.com%2Fblank.png&puid=dpmpixc%5B1478%5Da%5BNA%5Ds%5B01a1f815-2a87-7e6a-98f9-dd5cdd4469c7%5D",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "seg?member=827&consent=1&add=35557257,35557258",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "img?mt_id=2373595&mt_adid=431650",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "img?mt_id=2373594&mt_adid=431650",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "?adv=f6ba480&ct=0:vkv8rin&fmt=3",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "?adv=f6ba480&ct=0:lnrijku&fmt=3",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "img?mt_id=2770488&mt_adid=434212&mt_exem=&mt_excl=&v1=eng&v2=Engagement&v3=&s1=1&s2=&s3=",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "?adv=zlzb4gk&ct=0:dci0ww7&fmt=3&td1=eng&td2=1&td3=Engagement",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Canva turns customer insights in",
+    "color": "rgb(3, 54, 61)",
+    "fontSize": "72px",
+    "family": "Sharp Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Company founded",
+    "color": "rgb(3, 54, 61)",
+    "fontSize": "14px",
+    "family": "Sharp Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Zendesk customer since",
+    "color": "rgb(3, 54, 61)",
+    "fontSize": "14px",
+    "family": "Sharp Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Users worldwide",
+    "color": "rgb(3, 54, 61)",
+    "fontSize": "14px",
+    "family": "Sharp Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Designs created",
+    "color": "rgb(3, 54, 61)",
+    "fontSize": "14px",
+    "family": "Sharp Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "StyledRow-sc-xjsdg1-0",
+    "width": 1104,
+    "left": 168
+   },
+   {
+    "sel": "StyledRow-sc-xjsdg1-0",
+    "width": 1104,
+    "left": 168
+   },
+   {
+    "sel": "StyledRow-sc-xjsdg1-0",
+    "width": 1104,
+    "left": 168
+   },
+   {
+    "sel": "StyledRow-sc-xjsdg1-0",
+    "width": 1104,
+    "left": 168
+   },
+   {
+    "sel": "StyledRow-sc-xjsdg1-0",
+    "width": 1104,
+    "left": 168
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4872,
+  "textLen": 8049,
+  "images": [
+   {
+    "src": "Canva_Logo2.png",
+    "natural": "1920x615",
+    "rendered": "119x38",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Canva2.jpg",
+    "natural": "818x1024",
+    "rendered": "444x556",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Canva turns customer insights in",
+    "color": "rgb(3, 54, 61)",
+    "fontSize": "72px",
+    "family": "Sharp Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Company founded",
+    "color": "rgb(3, 54, 61)",
+    "fontSize": "14px",
+    "family": "Sharp Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Zendesk customer since",
+    "color": "rgb(3, 54, 61)",
+    "fontSize": "14px",
+    "family": "Sharp Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Users worldwide",
+    "color": "rgb(3, 54, 61)",
+    "fontSize": "14px",
+    "family": "Sharp Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Designs created",
+    "color": "rgb(3, 54, 61)",
+    "fontSize": "14px",
+    "family": "Sharp Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "zb-row",
+    "width": 1104,
+    "left": 168
+   },
+   {
+    "sel": "zb-row",
+    "width": 1104,
+    "left": 168
+   },
+   {
+    "sel": "zb-row",
+    "width": 1104,
+    "left": 168
+   },
+   {
+    "sel": "zb-row",
+    "width": 1104,
+    "left": 168
+   },
+   {
+    "sel": "zb-row",
+    "width": 1104,
+    "left": 168
+   }
+  ]
+ }
+}

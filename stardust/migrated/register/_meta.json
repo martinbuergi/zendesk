@@ -1,0 +1,102 @@
+{
+  "slug": "register",
+  "type": "form",
+  "renderBranch": "A'",
+  "template": "contact",
+  "modules": [
+    "form-choice-tiles",
+    "fm-form",
+    "fm-hero"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "ct-wrap"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": null,
+    "css": "6522953e4893"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "encoder-gap",
+      "encoder": "stardust/rollout/encoders/archetype-form/encode.py",
+      "scratch": "stardust/.work/render/form/enc/register.html",
+      "exit": 0,
+      "blocks": [
+        "fm-form",
+        "fm-hero"
+      ],
+      "wordsNotCarried": 34,
+      "wordsTotal": 137,
+      "gap": "with with Please enter a valid address This field is required and and employees employees .zendesk.com To To support support our our customers customers Assist their questions, issues, requests. requests. Help IT, HR, workplace",
+      "iframesDropped": 0,
+      "imgsDropped": 1
+    }
+  ],
+  "metadata": {
+    "title": "Register",
+    "description": "Register today, and start your free Zendesk trial",
+    "canonical": "https://www.zendesk.com/register/",
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Register",
+    "description": "Register today, and start your free Zendesk trial",
+    "url": "https://www.zendesk.com/register/"
+  },
+  "migratedAt": "2026-11-20T16:47:35Z",
+  "designMdSha": "84a4a03d7364",
+  "designJsonSha": "28069f8740fe",
+  "sourceCurrentSha": "21fe6369d139",
+  "sourceProposedSha": "d0e529533ec8",
+  "fidelityTier": "sibling",
+  "archetypeSource": "contact",
+  "archetypeSha": "616e2bf4d511",
+  "variants": [
+    "ct-compact ct-form--mid ct-tint ct-lead--lifted ct-siderow--links ct-hero--media ct-bare"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "media-reconcile"
+  ],
+  "gateEvidence": {
+    "variance-probe": "stardust/.work/render/form/variance.json (12 siblings vs /contact/, exit 2): 0 vs 1 top-level sections (archetype: -; sibling: Basestyle__BaseRoot-sc-3zktjg-1.jcGBqf) — a different template family or an extra/missing section; rect{h 1024 → 900}; backgroundColor rgb(255, 255, 255) → rgb(245, 245, 242); padding 88px 0px 88px 0px → 45px 0px 45px 0px; heading h1 vanilla sans 42px/48.3px 500 rgb(17, 17, 13) → h1 vanilla sans 26px/32.5px 500 rgb(17, 17, 13); before content:\"\" bg:none 1440x115 → null; rect{w 539 → 612, h 556 → 354}; heading null → h1 vanilla sans 26px/32.5px 500 rgb(17, 17, 13); 5 → 1 matches; 2 → 1 distinct style families among matches (a second visual famil -> variants ct-compact, ct-form--mid, ct-tint, ct-lead--lifted, ct-siderow--links, ct-hero--media, ct-bare",
+    "content-count": "count.py: source {'headings': 2, 'body': 3, 'ctas': 3, 'hrefs': 2, 'images': 1, 'words': 137} vs render {'headings': 2, 'body': 4, 'ctas': 3, 'hrefs': 2, 'images': 1, 'words': 137}; drops none; words missing 0 (stardust/.work/render/form/counts.jsonl)",
+    "content-fidelity": "sibling-form/build.py: headings, text (block-level boundaries), CTA labels+hrefs, form schema (names/types/labels/options/placeholders/tooltips/validation text) verbatim from the hydrated capture; word multiset diff 0; deviations declared",
+    "pixel-gate-1440": "gate-all published origin main--3055ed88--aemcoder.aem.page @1440: pixel 0.42 [0]%, Δh 0px, clipped 0, MISSING 0 / HIDDEN 0 → PASS (cf1-g3.log; 2026-11-21T01-04-30-357Z-login.json)",
+    "pixel-gate-360": "gate-all published origin main--3055ed88--aemcoder.aem.page @360: pixel 1.29 [1.24]%, Δh 0px, clipped 0, MISSING 0 / HIDDEN 0 → PASS (cf1-g360b.log; 2026-11-21T00-55-39-557Z-login.json)",
+    "media-reconcile": "media-reconcile content/register.html --deploy-host main--3055ed88--aemcoder.aem.live: 1 hosted"
+  },
+  "contentDeviations": [
+    {
+      "kind": "chrome",
+      "source": "live page has no site header/footer (bare form page)",
+      "target": "render without canon header/footer",
+      "reason": "verbatim: the source carries no chrome (delivery: nav/footer metadata off or an empty fragment)"
+    }
+  ],
+  "assetsBundled": 5,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/company/agreements-and-terms/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "register/index.html",
+  "outputPathDefault": null,
+  "sidecar": "register/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,745 @@
+/* sv-cards — "Why choose" icon cards (live .fOIWOy) */
+.sv-cards.za-section { background-color: transparent; }
+
+.sv-cards .sv-head {
+  justify-content: center;
+  align-items: center;
+}
+
+.sv-cards .sv-head-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sv-cards .za-eyebrow { font-stretch: condensed; }
+
+.sv-cards .za-eyebrow p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.sv-cards .sv-lead { display: flow-root; }
+
+.sv-cards .sv-why-col {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.sv-cards .sv-why-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 48px;
+  padding: 0;
+  text-align: center;
+}
+
+.sv-cards .sv-why-media {
+  align-self: stretch;
+  margin-bottom: 16px;
+  line-height: 0;
+  text-align: center;
+}
+
+.sv-cards .sv-why-media .sv-ii {
+  position: relative;
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  vertical-align: top;
+}
+
+.sv-cards .sv-why-media p { margin: 0; }
+
+.sv-cards .sv-why-media .sv-ii-sizer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.sv-cards .sv-why-media picture { display: contents; }
+
+.sv-cards .sv-why-media img:not(.sv-ii-sizer) {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+.sv-cards .sv-why-title :is(h2, h3, h4) { padding: 0 8px; }
+
+.sv-cards .sv-why-text { flex-grow: 1; }
+
+.sv-cards .sv-why-text p { padding: 0 8px; }
+
+.sv-cards .sv-why-text a:any-link {
+  color: var(--za-ink);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+@media (width >= 768px) {
+  .sv-cards .sv-head-col {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+  }
+
+  .sv-cards .sv-why-col {
+    flex: 1 1 0;
+    max-width: 100%;
+  }
+
+  .sv-cards .sv-why-card {
+    height: 100%;
+    margin-bottom: 0;
+  }
+
+  .sv-cards .sv-why-media { margin-bottom: 24px; }
+}
+
+/* stylelint-disable no-descending-specificity -- sibling variants layer over the archetype rules */
+
+/* ---------- program siblings ---------- */
+
+/* band colours (tint-<name> variants, measured per page) */
+.sv-cards.tint-white { background-color: var(--za-white); }
+.sv-cards.tint-grey { background-color: var(--zb-grey-100); }
+.sv-cards.tint-cream { background-color: var(--za-cream); }
+.sv-cards.tint-forest { background-color: var(--za-forest); }
+
+/* text-only cards (no icon): cream boxes, left aligned */
+.sv-cards:is(.split, .stats) .sv-why-card:not(:has(.sv-why-media)) {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px;
+  border-radius: 20px;
+  background-color: var(--za-cream);
+  text-align: left;
+}
+
+.sv-cards:is(.split, .stats) .sv-why-card:not(:has(.sv-why-media)) :is(h3, h4, p) { padding: 0; }
+
+.sv-cards:is(.split, .stats) .sv-why-card:not(:has(.sv-why-media)) .sv-why-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sv-cards:is(.split, .stats) .sv-why-text p:last-child:has(> a:only-child) { margin: auto 0 0; }
+
+/* stats row: figure + label */
+.sv-cards .sv-why-stats {
+  justify-content: center;
+  margin-top: 96px;
+  text-align: center;
+}
+
+.sv-cards .sv-why-stat p { margin: 0; }
+
+.sv-cards .sv-why-fig p,
+.sv-cards .sv-why-fig strong {
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 1.2;
+}
+
+.sv-cards .sv-why-label p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* head with a picture: picture | text */
+.sv-cards.split .sv-head-col {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  align-items: center;
+  text-align: left;
+}
+
+.sv-cards.split .sv-head-col > :has(picture, img) { margin-bottom: 32px; }
+
+.sv-cards.split .sv-head-col img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+@media (width >= 768px) {
+  .sv-cards.split .sv-head-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    grid-template-columns: 49% 1fr;
+    column-gap: 12.8%;
+  }
+
+  .sv-cards.split .sv-head-col > * { grid-column: 2; }
+
+  .sv-cards.split .sv-head-col > :has(picture, img) {
+    grid-column: 1;
+    grid-row: 1 / span 4;
+    margin: 0;
+  }
+}
+
+/* media cards: large picture box, left-aligned title + text */
+.sv-cards.media .sv-why-card {
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.sv-cards.media .sv-why-media { align-self: stretch; }
+
+.sv-cards.media .sv-why-media .sv-ii,
+.sv-cards.media .sv-why-media img:not(.sv-ii-sizer) {
+  width: 100%;
+  height: auto;
+}
+
+.sv-cards.media .sv-why-media .sv-ii-sizer { display: none; }
+
+.sv-cards.media .sv-why-media img:not(.sv-ii-sizer) { border-radius: 16px; }
+
+.sv-cards.media .sv-why-title :is(h3, h4) {
+  padding: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.sv-cards.media .sv-why-text p { padding: 0; }
+
+/* logos band (forest): head text + picture, logo row */
+.sv-cards.logos :is(h2, p, .za-eyebrow) { color: var(--za-white); }
+
+.sv-cards.logos .sv-head-col { text-align: left; }
+
+.sv-cards.logos .sv-why-row {
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 48px;
+  overflow: hidden;
+}
+
+.sv-cards.logos .sv-why-col { flex: 0 0 auto; }
+
+.sv-cards.logos .sv-why-card { margin: 0; }
+
+.sv-cards.logos .sv-why-media { margin: 0; }
+
+.sv-cards.logos .sv-why-media .sv-ii,
+.sv-cards.logos .sv-why-media img:not(.sv-ii-sizer) {
+  width: auto;
+  height: 32px;
+}
+
+.sv-cards.logos .sv-why-media .sv-ii-sizer { display: none; }
+
+@media (width >= 768px) {
+  .sv-cards.logos.split .sv-head-col {
+    grid-template-columns: 50% 1fr;
+    column-gap: 0;
+  }
+
+  .sv-cards.logos.split .sv-head-col > * { grid-column: 1; }
+
+  .sv-cards.logos.split .sv-head-col > :has(picture, img) {
+    grid-column: 2;
+    grid-row: 1 / span 4;
+  }
+}
+
+/* foot CTA */
+.sv-cards .sv-why-foot {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.sv-cards .sv-why-foot p { margin: 0; }
+
+/* gen B (legacy Basestyle family) */
+.sv-cards.legacy .za-container {
+  max-width: var(--zb-container);
+  padding: 0 var(--zb-gutter);
+}
+
+.sv-cards.legacy :is(h2, h3) {
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+}
+
+.sv-cards.legacy .za-eyebrow,
+.sv-cards.legacy .za-eyebrow :is(h2, p) {
+  margin: 0 0 8px;
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.sv-cards.legacy :is(h4, h5) {
+  margin: 0 0 16px;
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.sv-cards.legacy h5 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.sv-cards.legacy p {
+  color: var(--zb-teal-800);
+  font-family: var(--zb-font-body);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.sv-cards.legacy.stats .sv-why-card:not(:has(.sv-why-media)) {
+  border-radius: 0;
+  border-bottom: 4px solid rgb(236 224 206);
+  background-color: var(--zb-grey-100);
+}
+
+.sv-cards.legacy .sv-why-fig :is(p, strong) {
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+.sv-cards.legacy .sv-why-label p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.sv-cards.plans .sv-why-card {
+  justify-content: flex-start;
+  padding: 42px 24px;
+  border: 1px solid var(--zb-grey-300);
+  background-color: var(--za-white);
+}
+
+.sv-cards.plans .sv-why-card.sv-why-featured { border: 3px solid var(--zb-teal-900); }
+
+.sv-cards.plans .sv-why-text h5 { font-weight: 400; }
+
+@media (width >= 768px) {
+  .sv-cards.legacy :is(h2, h3) {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+@media (width >= 1200px) {
+  .sv-cards.legacy :is(h2, h3) {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
+
+/* a heading's inline element boundary kept from the live markup (upright, unstyled) */
+.sv-cards :is(h1, h2, h3, h4, h5) em { font-style: normal; }
+
+/* gen B section rhythm: 64px band padding at >= 768 (live Basestyle) */
+@media (width >= 768px) {
+  .sv-cards.legacy.za-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}
+
+.sv-cards.legacy .sv-why-stats { margin-top: 54px; }
+
+/* stylelint-disable no-duplicate-selectors -- mobile-first layer: the narrow value overrides the shared rule above, (width >= 768px) restores it */
+
+/* below 768px (live mobile): gen A stats in two columns (an odd last stat spans both), 48/54
+   figures; gen B 34/42 stat figures stacked tight, 20/28 card titles, 18/26 sub-titles,
+   compact plan cards */
+.sv-cards.stats:not(.legacy) .sv-why-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  margin-top: 40px;
+}
+
+.sv-cards.stats:not(.legacy) .sv-why-stats .sv-why-col:nth-child(odd):last-child { grid-column: 1 / -1; }
+
+.sv-cards.stats:not(.legacy) .sv-why-fig :is(p, strong) {
+  font-size: 48px;
+  line-height: 54px;
+}
+
+.sv-cards.stats:not(.legacy) .sv-why-label p {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.sv-cards.stats:not(.legacy) .sv-stat-ch { font-size: 0.5em; }
+
+.sv-cards.legacy .sv-why-stats { margin-top: 0; }
+
+.sv-cards.legacy .sv-why-fig { margin-bottom: 4px; }
+
+.sv-cards.legacy .sv-why-fig :is(p, strong) {
+  font-size: 34px;
+  line-height: 42px;
+}
+
+.sv-cards.legacy h4 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.sv-cards.legacy h5 {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.sv-cards.plans .sv-why-card {
+  margin-bottom: 24px;
+  padding: 32px 24px;
+}
+
+@media (width >= 768px) {
+  .sv-cards.stats:not(.legacy) .sv-why-stats {
+    display: flex;
+    margin-top: 96px;
+  }
+
+  .sv-cards.stats:not(.legacy) .sv-why-fig :is(p, strong) {
+    font-size: 56px;
+    line-height: 1.2;
+  }
+
+  .sv-cards.stats:not(.legacy) .sv-why-label p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .sv-cards.stats:not(.legacy) .sv-stat-ch { font-size: inherit; }
+
+  .sv-cards.legacy .sv-why-stats { margin-top: 54px; }
+
+  .sv-cards.legacy .sv-why-fig { margin-bottom: 0; }
+
+  .sv-cards.legacy .sv-why-fig :is(p, strong) {
+    font-size: 56px;
+    line-height: 64px;
+  }
+
+  .sv-cards.legacy h4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .sv-cards.legacy h5 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .sv-cards.plans .sv-why-card {
+    margin-bottom: 0;
+    padding: 42px 24px;
+  }
+}
+
+/* gen A below 768px (live mobile): section-head buttons full width */
+.sv-cards:not(.legacy) .sv-head-col > :has(> p.button-wrapper) { align-self: stretch; }
+
+.sv-cards:not(.legacy) .sv-head-col p.button-wrapper a.button {
+  display: block;
+  width: 100%;
+}
+
+@media (width >= 768px) {
+  .sv-cards:not(.legacy) .sv-head-col > :has(> p.button-wrapper) { align-self: auto; }
+
+  .sv-cards:not(.legacy) .sv-head-col p.button-wrapper a.button {
+    display: inline-block;
+    width: auto;
+  }
+}
+
+/* gen A `media` cards below 768px (live mobile): 15px titles 12px above the text, no trailing
+   paragraph margin (cards 64px apart) */
+.sv-cards.media .sv-why-title :is(h3, h4) {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.sv-cards.media .sv-why-text p:last-child { margin-bottom: 0; }
+
+@media (width >= 768px) {
+  .sv-cards.media .sv-why-title :is(h3, h4) {
+    margin-bottom: 24px;
+    font-size: 16px;
+  }
+
+  .sv-cards.media .sv-why-text p:last-child { margin-bottom: 16px; }
+}
+
+/* gen B below 768px: text cards 22px apart with no trailing paragraph margin, foot button full width */
+.sv-cards.legacy.stats .sv-why-card:not(:has(.sv-why-media)) { margin-bottom: 22px; }
+
+.sv-cards.legacy.stats .sv-why-text p:last-child { margin-bottom: 0; }
+
+.sv-cards.legacy .sv-why-foot p.button-wrapper { flex: 1 1 100%; }
+
+@media (width >= 768px) {
+  .sv-cards.legacy.stats .sv-why-card:not(:has(.sv-why-media)) { margin-bottom: 0; }
+
+  .sv-cards.legacy.stats .sv-why-text p:last-child { margin-bottom: 16px; }
+
+  .sv-cards.legacy .sv-why-foot p.button-wrapper { flex: 0 1 auto; }
+}
+
+/* `posts` (gen B post grid, live /repeatcustomer/): each card one linked picture (square, cover) and
+   linked title; the season heading is a small caps eyebrow; one card per row below 768, four at >= 768 */
+.sv-cards.legacy.posts.za-section {
+  padding-top: 0;
+  padding-bottom: 32px;
+}
+
+.sv-cards.posts .za-row-gap > * + * { margin-top: 0; }
+
+.sv-cards.posts .sv-head { margin: 0 -8px; }
+
+.sv-cards.posts .sv-head-col {
+  flex: 0 0 100%;
+  align-items: flex-start;
+  max-width: 100%;
+  padding: 0 8px;
+  text-align: left;
+}
+
+.sv-cards.legacy.posts .sv-head-col :is(h2, h3) {
+  margin: 0 0 8px;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.sv-cards.posts .sv-why-row { margin: 0 -8px; }
+
+.sv-cards.posts .sv-why-col {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 24px;
+  padding: 0 8px;
+}
+
+.sv-cards.posts .sv-why-card {
+  align-items: stretch;
+  justify-content: flex-start;
+  height: 100%;
+  margin: 0;
+  padding: 24px;
+  text-align: left;
+}
+
+.sv-cards.posts .sv-why-media { margin: 0 0 16px; }
+
+.sv-cards.posts .sv-why-media .sv-ii {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+}
+
+.sv-cards.posts .sv-why-media .sv-ii-sizer { display: none; }
+
+.sv-cards.posts .sv-why-media img:not(.sv-ii-sizer) {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sv-cards.legacy.posts .sv-why-title :is(h4, h5) {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+
+.sv-cards.posts .sv-why-title a:any-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (width >= 768px) {
+  .sv-cards.legacy.posts.za-section { padding-bottom: 64px; }
+
+  .sv-cards.posts .sv-why-col {
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-bottom: 0;
+  }
+}
+
+/* `stats counter` (gen A animated counters, live /why-zendesk/ #datapoints): centered figures in
+   one column below 768, one row at >= 768; green 72px figures, label 14px below */
+.sv-cards.stats.counter .sv-why-row:empty { display: none; }
+
+.sv-cards.stats.counter .sv-why-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin: 0;
+}
+
+.sv-cards.stats.counter .sv-why-col {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 100%;
+  min-height: 150px;
+  padding: 0;
+  text-align: center;
+}
+
+.sv-cards.stats.counter .sv-why-fig { margin-bottom: 14px; }
+
+.sv-cards.stats.counter .sv-why-fig :is(p, strong) {
+  margin: 0;
+  color: rgb(112 163 42);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+}
+
+.sv-cards.stats.counter .sv-stat-ch { font-size: inherit; }
+
+.sv-cards.stats.counter .sv-why-label p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+@media (width >= 768px) {
+  .sv-cards.stats.counter .sv-why-stats {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0;
+  }
+
+  .sv-cards.stats.counter .sv-why-col {
+    flex: 1 1 auto;
+    min-height: 0;
+    padding: 0 40px;
+  }
+
+  .sv-cards.stats.counter .sv-why-fig :is(p, strong) {
+    font-size: 72px;
+    line-height: 1.1;
+  }
+
+  .sv-cards.stats.counter .sv-why-label p {
+    font-size: 16px;
+    line-height: 1.45;
+  }
+}
+
+/* below 768px (live /platform/ at 360): gen A icon cards end on the paragraph margin (240px
+   cards); live /sell/ at 360: stats cards 190px with a 2px gold rule, 24 apart, 56 under the
+   head and above the figures; plan cards 246px, shadow only, the sticker on the top edge */
+@media (width < 768px) {
+  .sv-cards.cols-3:not(.legacy, .stats, .split, .media) .sv-why-text { margin-bottom: 0; }
+
+  .sv-cards.legacy:is(.stats, .plans).za-section {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .sv-cards.legacy:is(.stats, .plans) .sv-head + * { margin-top: 56px; }
+
+  .sv-cards.legacy:is(.stats, .plans) .za-eyebrow { margin-bottom: 0; }
+
+  .sv-cards.legacy:is(.stats, .plans) .sv-why-text { margin-bottom: 0; }
+
+  .sv-cards.legacy.stats .sv-why-card:not(:has(.sv-why-media)) {
+    margin-bottom: 24px;
+    border-bottom: 2px solid rgb(195 143 0);
+  }
+
+  .sv-cards.legacy.stats .sv-why-stats { margin-top: 32px; }
+
+  .sv-cards.legacy.plans .sv-why-card {
+    position: relative;
+    border: 0;
+    box-shadow: rgb(0 0 0 / 8%) 0 2px 4px 0;
+  }
+
+  .sv-cards.legacy.plans .sv-why-featured .sv-why-text > p:first-child {
+    position: absolute;
+    top: -11px;
+    left: 50%;
+    padding: 2px 8px;
+    background-color: var(--zb-teal-900);
+    color: var(--za-white);
+    font-family: var(--zb-font-head);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+    transform: translateX(-50%);
+  }
+
+  .sv-cards.legacy.plans .sv-why-foot { margin-top: 32px; }
+}
+
+/* below 768px: live /professional-services/ at 360 keeps its icon-card text in a wrapper with a
+   16px tail and an empty 16px text box under the head; live /partner/ split cards: picture 48
+   under the lead and above the cards, 32/24 card padding, 16px right inset, an 18/30.5 link */
+@media (width < 768px) {
+  main:has(.sv-hero.landscape.ghost-cta) .sv-cards.cols-3 .sv-head + * { margin-top: 64px; }
+
+  main:has(.sv-hero.landscape.ghost-cta) .sv-cards.cols-3 .sv-why-text { margin-bottom: 16px; }
+
+  .sv-cards.split:not(.legacy, .logos) .sv-head-col > :has(picture, img) { margin: 32px 0 0; }
+
+  .sv-cards.split:not(.legacy, .logos) .sv-head-col > :has(picture, img) p { margin: 0; }
+
+  .sv-cards.split:not(.legacy, .logos) .sv-why-card:not(:has(.sv-why-media)) {
+    padding: 32px 24px;
+  }
+
+  .sv-cards.split:not(.legacy, .logos) .sv-why-card :is(h3, p) { padding-right: 16px; }
+
+  .sv-cards.split:not(.legacy, .logos) .sv-why-text { margin-bottom: 0; }
+
+  .sv-cards.split:not(.legacy, .logos) .sv-why-text p:last-child:has(> a:only-child) {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30.5px;
+  }
+}

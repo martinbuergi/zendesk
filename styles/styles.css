@@ -10,74 +10,187 @@
  * governing permissions and limitations under the License.
  */
 
+/* stylelint-disable no-descending-specificity -- two canon layers (gen A / gen B) */
+
+/*
+ * FONT LICENSING REQUIRED BEFORE GOING LIVE
+ * Vanilla Sans (Zendesk brand face), Sharp Sans No1 (Lucas Sharp / Sharp Type)
+ * and Proxima Nova (Mark Simonson Studio) are proprietary faces self-hosted
+ * under fonts/ for fidelity. Confirm the webfont / embedding licence for the
+ * served domain before publishing to aem.live; the remove path is in
+ * fonts/LICENSING.md.
+ *
+ * Foundation for the zendesk.com replica. Two design generations:
+ *   gen A (za-*): every page type except customer stories (canon-a)
+ *   gen B (zb-*): legacy customer stories, body.legacy (theme: legacy)
+ * Source breakpoints, mobile-first: 481 / 768 / 970 / 1150 / 1600 (gen A),
+ * 768 / 1200 (gen B).
+ */
+
 :root {
-  /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  /* gen A palette (canon-a) */
+  --za-ink: rgb(17 17 13);
+  --za-white: rgb(255 255 255);
+  --za-cream: rgb(245 245 242);
+  --za-lime: rgb(209 244 112);
+  --za-forest: rgb(32 53 36);
+  --za-moss: rgb(53 94 52);
+  --za-matcha: rgb(112 163 42);
+  --za-graphite: rgb(66 67 62);
+  --za-hairline: rgb(213 213 210);
+  --za-font: "Vanilla Sans", vanilla-sans-fallback, arial, sans-serif;
+  --za-ease: cubic-bezier(0.7, 0, 0.3, 1);
+  --za-content: 1150px;
+  --za-gutter: 16px;
+  --za-section-pad: 48px;
+  --za-row-gap: 48px;
+  --za-radius: 20px;
 
-  /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  /* gen B palette (canon-b, legacy customer stories) */
+  --zb-teal-900: #03363d;
+  --zb-teal-800: #17494d;
+  --zb-grey-600: #68737d;
+  --zb-blue-600: #3d8dae;
+  --zb-grey-100: #f8f9f9;
+  --zb-grey-300: #c2c8cc;
+  --zb-white: #fff;
+  --zb-hover: #06615a;
+  --zb-font-body: "Proxima Nova", proxima-nova-fallback, arial, sans-serif;
+  --zb-font-head: "Sharp Sans", sharp-sans-fallback, arial, sans-serif;
+  --zb-container: 1120px;
+  --zb-gutter: 16px;
 
-  /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
+  /* boilerplate names, mapped to the brand */
+  --background-color: var(--za-white);
+  --text-color: rgb(0 0 0);
+  --link-color: var(--za-ink);
+  --body-font-family: var(--za-font);
+  --heading-font-family: var(--za-font);
 
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
-
-  /* nav height */
-  --nav-height: 64px;
+  /* chrome reservation: promo strip + sticky bar (measured on the prototypes) */
+  --nav-height: 170px;
 }
 
-/* fallback fonts */
+/* metric-matched local fallbacks (fonttools, vs Liberation Sans / Arial) */
 @font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
+  font-family: vanilla-sans-fallback;
+  src: local("Arial"), local("Liberation Sans"), local("Arimo");
+  size-adjust: 100.43%;
+  ascent-override: 98.87%;
+  descent-override: 28.58%;
+  line-gap-override: 0%;
 }
 
 @font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
-  src: local('Arial');
+  font-family: sharp-sans-fallback;
+  src: local("Arial"), local("Liberation Sans"), local("Arimo");
+  size-adjust: 102.25%;
+  ascent-override: 111.1%;
+  descent-override: 27.48%;
+  line-gap-override: 0%;
 }
 
-@media (width >= 900px) {
+@font-face {
+  font-family: proxima-nova-fallback;
+  src: local("Arial"), local("Liberation Sans"), local("Arimo");
+  size-adjust: 98.47%;
+  ascent-override: 92.11%;
+  descent-override: 29.65%;
+  line-gap-override: 0%;
+}
+
+@media (width >= 481px) {
   :root {
-    /* body sizes */
-    --body-font-size-m: 18px;
-    --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
-
-    /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
+    --za-section-pad: 56px;
+    --za-row-gap: 56px;
+    --nav-height: 182px;
   }
+}
+
+@media (width >= 768px) {
+  :root {
+    --za-gutter: 24px;
+    --za-section-pad: 64px;
+  }
+}
+
+@media (width >= 970px) {
+  :root { --nav-height: 220px; }
+}
+
+@media (width >= 1150px) {
+  :root {
+    --za-section-pad: 88px;
+    --za-row-gap: 64px;
+    --nav-height: 168px;
+  }
+}
+
+@media (width >= 1600px) {
+  :root {
+    --za-content: 1600px;
+    --za-gutter: 40px;
+    --za-section-pad: 104px;
+    --za-row-gap: 72px;
+    --za-radius: 40px;
+  }
+}
+
+/* chrome variants (page metadata, readable before the header loads) */
+:root:has(meta[name="promo"][content="off" i]) { --nav-height: 60px; }
+
+@media (width >= 481px) {
+  :root:has(meta[name="promo"][content="off" i]) { --nav-height: 72px; }
+}
+
+@media (width >= 970px) {
+  :root:has(meta[name="promo"][content="off" i]) { --nav-height: 110px; }
+}
+
+:root:has(meta[name="nav"][content*="nav-slim"]) { --nav-height: 60px; }
+
+@media (width >= 481px) {
+  :root:has(meta[name="nav"][content*="nav-slim"]) { --nav-height: 72px; }
+}
+
+@media (width >= 970px) {
+  :root:has(meta[name="nav"][content*="nav-slim"]) { --nav-height: 91px; }
+}
+
+/* `nav: none` (a page with only its own sticky header): no global header, nothing reserved */
+:root:has(meta[name="nav"][content$="nav-none"]) body > header,
+:root:has(meta[name="nav"][content="none" i]) body > header {
+  display: none;
+}
+
+/* ---------- base (structural layer kept from the boilerplate) ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 110px;
+}
+
+@media (width >= 768px) {
+  html { scroll-padding-top: 90px; }
 }
 
 body {
   display: none;
   margin: 0;
+  overflow-x: hidden;
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: var(--body-font-family);
-  font-size: var(--body-font-size-m);
-  line-height: 1.6;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-smoothing: antialiased;
 }
 
 body.appear {
@@ -98,52 +211,31 @@ footer .footer[data-block-status="loaded"] {
   visibility: visible;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
-  font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
-  scroll-margin: 40px;
+/* once loaded, the chrome boxes dissolve so the sticky bars stick to the page (not to <header>) */
+body > header .header-wrapper,
+body > header .header.block {
+  display: contents;
 }
 
-h1 { font-size: var(--heading-font-size-xxl); }
-h2 { font-size: var(--heading-font-size-xl); }
-h3 { font-size: var(--heading-font-size-l); }
-h4 { font-size: var(--heading-font-size-m); }
-h5 { font-size: var(--heading-font-size-s); }
-h6 { font-size: var(--heading-font-size-xs); }
-
-p,
-dl,
-ol,
-ul,
-pre,
-blockquote {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
+body > header:has(.header[data-block-status="loaded"]) {
+  display: contents;
 }
 
-code,
-pre {
-  font-size: var(--body-font-size-s);
+img,
+figure,
+video {
+  max-width: 100%;
 }
 
-pre {
-  padding: 16px;
-  border-radius: 8px;
-  background-color: var(--light-color);
-  overflow-x: auto;
-  white-space: pre;
+img {
+  display: block;
+  height: auto;
 }
 
-main > div {
-  margin: 40px 16px;
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 input,
@@ -153,135 +245,9 @@ button {
   font: inherit;
 }
 
-/* links */
-a:any-link {
-  color: var(--link-color);
+a {
+  color: inherit;
   text-decoration: none;
-  overflow-wrap: break-word;
-}
-
-a:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
-}
-
-/* buttons */
-p.button-wrapper {
-  margin: 12px 0;
-}
-
-a.button:any-link,
-button.button {
-  box-sizing: border-box;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
-  margin: 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
-  font: inherit;
-  font-weight: 500;
-  line-height: 1.25;
-  text-decoration: none;
-  cursor: pointer;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-a.button[aria-disabled="true"],
-button.button:disabled {
-  cursor: not-allowed;
-  pointer-events: none;
-}
-
-a.button.primary,
-button.button.primary {
-  border-color: var(--text-color);
-  background-color: var(--text-color);
-  color: var(--background-color);
-}
-
-a.button.primary:hover,
-a.button.primary:focus-visible,
-button.button.primary:hover,
-button.button.primary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--dark-color);
-  color: var(--light-color);
-}
-
-a.button.primary[aria-disabled="true"],
-a.button.primary[aria-disabled="true"]:hover,
-a.button.primary[aria-disabled="true"]:focus-visible,
-button.button.primary:disabled,
-button.button.primary:disabled:hover,
-button.button.primary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary,
-button.button.secondary {
-  border-color: var(--text-color);
-  background-color: transparent;
-  color: var(--text-color);
-}
-
-a.button.secondary:hover,
-a.button.secondary:focus-visible,
-button.button.secondary:hover,
-button.button.secondary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary[aria-disabled="true"],
-a.button.secondary[aria-disabled="true"]:hover,
-a.button.secondary[aria-disabled="true"]:focus-visible,
-button.button.secondary:disabled,
-button.button.secondary:disabled:hover,
-button.button.secondary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-/* high-impact call-to-action */
-a.button.accent,
-button.button.accent {
-  border-color: var(--link-color);
-  background-color: var(--link-color);
-  color: var(--background-color);
-}
-
-a.button.accent:hover,
-a.button.accent:focus-visible,
-button.button.accent:hover,
-button.button.accent:focus-visible {
-  border-color: var(--link-hover-color);
-  background-color: var(--link-hover-color);
-}
-
-a.button.accent[aria-disabled="true"],
-a.button.accent[aria-disabled="true"]:hover,
-a.button.accent[aria-disabled="true"]:focus-visible,
-button.button.accent:disabled,
-button.button.accent:disabled:hover,
-button.button.accent:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-main img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
 }
 
 .icon {
@@ -290,36 +256,635 @@ main img {
   width: 24px;
 }
 
-.icon img {
+.icon img,
+.icon svg {
   height: 100%;
   width: 100%;
 }
 
-/* sections */
-main > .section {
-  margin: 40px 0;
+/* screen-reader-only text and skip link (canon za-sr / za-skip) */
+.za-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  border: 0;
+  white-space: nowrap;
 }
 
-main > .section > div {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 24px;
+/* hidden Garden icons: present for assistive tech, never rendered */
+svg.za-ext,
+svg.za-rot,
+.zb-ext {
+  display: none !important;
 }
 
-main > .section:first-of-type {
-  margin-top: 0;
+/* ---------- type (gen A) ---------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 24px;
+  color: var(--za-ink);
+  font-family: var(--heading-font-family);
+  scroll-margin: 40px;
 }
 
-@media (width >= 900px) {
-  main > .section > div {
-    padding: 0 32px;
+h1 {
+  font-weight: 500;
+  font-size: 43px;
+  line-height: 1.05;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.15;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+h4,
+h5,
+h6 {
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+@media (width >= 768px) {
+  h1 { font-size: 51px; }
+  h2 { font-size: 34px; }
+  h3 { font-size: 23px; }
+
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 16px;
   }
 }
 
-/* section metadata */
-main .section.light,
-main .section.highlight {
-  background-color: var(--light-color);
+@media (width >= 1150px) {
+  h1 { font-size: 68px; }
+  h2 { font-size: 42px; }
+  h3 { font-size: 26px; }
+
+  h4,
+  h5,
+  h6 {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1600px) {
+  h1 { font-size: 85px; }
+  h2 { font-size: 53px; }
+  h3 { font-size: 33px; }
+
+  h4,
+  h5,
+  h6 {
+    font-size: 20px;
+  }
+}
+
+/* body copy (canon .za-text; default-content prose uses it by descendant selector, EW10) */
+.za-text,
+main .default-content-wrapper p,
+main .default-content-wrapper li {
+  margin: 0 0 16px;
+  color: var(--za-ink);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.za-text-light { color: var(--za-white); }
+
+.za-text p {
+  margin: 0 0 16px;
+  color: inherit;
+  font: inherit;
+}
+
+@media (width >= 1150px) {
+  .za-text,
+  main .default-content-wrapper p,
+  main .default-content-wrapper li {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1600px) {
+  .za-text,
+  main .default-content-wrapper p,
+  main .default-content-wrapper li {
+    font-size: 20px;
+  }
+}
+
+/* eyebrow / supertitle + tag */
+.za-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 8px;
+  color: var(--za-ink);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+
+@media (width >= 768px) {
+  .za-eyebrow { font-size: 13px; }
+}
+
+@media (width >= 1150px) {
+  .za-eyebrow { font-size: 14px; }
+}
+
+@media (width >= 1600px) {
+  .za-eyebrow { font-size: 16px; }
+}
+
+.za-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-left: 10px;
+  padding: 0.35em 0.6em 0.3em;
+  border-radius: 4px;
+  background: var(--za-lime);
+  color: var(--za-ink);
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* ---------- buttons (gen A StyledButton: radius 16, ::before carries border + hover tint) ---------- */
+.za-btn,
+a.button:any-link,
+button.button {
+  position: relative;
+  display: inline-block;
+  min-height: calc(1.25em + 8px);
   margin: 0;
-  padding: 40px 0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 16px;
+  background: transparent;
+  color: var(--za-ink);
+  font-family: var(--za-font);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  isolation: isolate;
+}
+
+.za-btn::before,
+a.button:any-link::before,
+button.button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  display: block;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  transition: background-color 100ms linear, border 100ms linear;
+}
+
+.za-btn > span {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.za-btn:hover::before,
+a.button:any-link:hover::before,
+button.button:hover::before {
+  background-color: rgb(17 17 13 / 5%);
+}
+
+.za-btn:active::before,
+a.button:any-link:active::before,
+button.button:active::before {
+  background-color: rgb(17 17 13 / 11%);
+}
+
+.za-btn-primary,
+a.button.primary,
+a.button.accent,
+button.button.primary {
+  background-color: var(--za-lime);
+}
+
+.za-btn-secondary::before,
+a.button.secondary::before,
+button.button.secondary::before {
+  border-color: rgb(17 17 13 / 32%);
+}
+
+.za-btn-on-dark,
+main .section.forest a.button.secondary {
+  color: var(--za-white);
+}
+
+.za-btn-on-dark::before,
+main .section.forest a.button.secondary::before {
+  border-color: rgb(255 255 255 / 32%);
+}
+
+.za-btn-on-dark:hover::before,
+main .section.forest a.button.secondary:hover::before {
+  background-color: rgb(255 255 255 / 7%);
+}
+
+.za-btn-sm {
+  padding: 10px 16px;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.za-btn-block-sm { width: 100%; }
+
+@media (width >= 768px) {
+  .za-btn-block-sm { width: auto; }
+}
+
+p.button-wrapper {
+  margin: 0;
+}
+
+/* animated text-link underline (Linkstyle LinkText) + LinkRoot box */
+.za-link {
+  padding-bottom: 0.2em;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgb(17 17 13 / 70%) 0%,
+      rgb(17 17 13 / 70%) 40%,
+      transparent 40%,
+      transparent 60%,
+      rgb(17 17 13) 60%,
+      rgb(17 17 13) 100%
+    );
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 250% 1px;
+  color: var(--za-ink);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  transition: background-position 600ms var(--za-ease);
+}
+
+.za-link:hover { background-position: 0% 100%; }
+
+.za-linkroot {
+  display: inline-block;
+  min-height: calc(1.25em + 8px);
+  color: var(--za-ink);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: calc(1.25em + 6px);
+}
+
+.za-linkroot:hover .za-link,
+a:hover .za-linkroot .za-link {
+  background-position: 0% 100%;
+}
+
+/* ---------- container, grid, section shells (gen A) ---------- */
+.za-container,
+main > .section > .default-content-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: var(--za-gutter);
+  padding-right: var(--za-gutter);
+}
+
+@media (width >= 1150px) {
+  .za-container,
+  main > .section > .default-content-wrapper {
+    max-width: 1150px;
+  }
+}
+
+@media (width >= 1600px) {
+  .za-container,
+  main > .section > .default-content-wrapper {
+    max-width: 1600px;
+  }
+}
+
+.za-section {
+  position: relative;
+  overflow-x: clip;
+  padding-top: var(--za-section-pad);
+  padding-bottom: var(--za-section-pad);
+  background-color: var(--za-white);
+}
+
+.za-section-forest,
+main .section.forest {
+  background-color: var(--za-forest);
+}
+
+main .section.cream { background-color: var(--za-cream); }
+
+.za-section-rounded {
+  max-width: min(1920px, 100% - 32px);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.za-row-gap.za-row-gap > * + * { margin-top: var(--za-row-gap); }
+
+.za-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -12px;
+}
+
+.za-col {
+  width: 100%;
+  padding: 0 12px;
+}
+
+/* sections: blocks own their paint; the page-metadata section collapses */
+main > .section:empty {
+  display: none;
+}
+
+/* ---------- generation B (legacy customer stories: theme legacy) ---------- */
+body.legacy {
+  --background-color: var(--zb-grey-100);
+  --link-color: var(--zb-teal-800);
+  --body-font-family: var(--zb-font-body);
+  --heading-font-family: var(--zb-font-head);
+  --nav-height: 68px;
+
+  -moz-osx-font-smoothing: grayscale;
+  text-size-adjust: 100%;
+}
+
+body.legacy :is(h1, h2, h3, h4, h5, h6, p, blockquote, figure) {
+  margin: 0;
+}
+
+:where(body.legacy) a { border-radius: 4px; }
+
+/* the legacy header overlaps the first section (live: margin-bottom -128px) */
+body.legacy > header {
+  margin-bottom: -128px;
+}
+
+@media (width >= 768px) {
+  body.legacy { --nav-height: 110px; }
+}
+
+.zb-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 var(--zb-gutter);
+}
+
+@media (width >= 1200px) {
+  .zb-container { max-width: var(--zb-container); }
+}
+
+.zb-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -8px;
+}
+
+.zb-col {
+  flex: 1 1 0;
+  max-width: 100%;
+  padding: 0 8px;
+}
+
+.zb-eyebrow {
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.zb-h4 {
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+@media (width >= 768px) {
+  .zb-h4 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+@media (width >= 1200px) {
+  .zb-h4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.zb-text {
+  color: var(--zb-teal-800);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* gen B social block (footer + story hero share row) */
+.zb-social ul {
+  display: flex;
+  gap: 16px;
+}
+
+.zb-social li {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.zb-social a {
+  color: var(--zb-grey-600);
+  font-size: 32px;
+  line-height: 32px;
+  transition: color 0.25s ease-in-out;
+}
+
+.zb-social a:hover { color: var(--zb-hover); }
+
+.zb-social svg {
+  display: block;
+  width: 32px;
+  height: 32px;
+  fill: currentcolor;
+}
+
+.zb-social svg.zb-social-wide { width: 40px; }
+
+/* gen B buttons: 2px teal border, square corners, Sharp Sans */
+.zb-btn,
+body.legacy a.button:any-link,
+body.legacy button.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-height: 0;
+  border: 2px solid var(--zb-teal-800);
+  border-radius: 0;
+  background: transparent;
+  color: var(--zb-teal-800);
+  font-family: var(--zb-font-head);
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  isolation: auto;
+  transition:
+    background-color 0.25s ease-in-out,
+    color 0.25s ease-in-out,
+    border-color 0.25s ease-in-out,
+    outline-color 0.25s ease-in-out;
+}
+
+body.legacy a.button:any-link::before,
+body.legacy button.button::before {
+  content: none;
+}
+
+body.legacy a.button:any-link,
+body.legacy button.button {
+  padding: 8px 24px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.zb-btn-primary,
+body.legacy a.button.primary,
+body.legacy a.button.accent,
+body.legacy button.button.primary {
+  background: var(--zb-teal-800);
+  color: var(--zb-white);
+}
+
+.zb-btn-primary:hover,
+body.legacy a.button.primary:hover,
+body.legacy a.button.accent:hover {
+  border-color: var(--zb-hover);
+  background: var(--zb-hover);
+}
+
+.zb-btn-md {
+  min-width: 128px;
+  padding: 8px 24px 10px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.zb-btn-lg {
+  padding: 8px 24px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.zb-btn-sm {
+  padding: 4px 8px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* ---------- Experience Workspace edit mode (scoped to the inline editor only) ---------- */
+.prosemirror-editor p > :is(strong, em) > a:any-link,
+.prosemirror-editor p > a:any-link:has(> :is(strong, em):only-child) {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 16px;
+  color: var(--za-ink);
+  font-family: var(--za-font);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.prosemirror-editor p > a:any-link > :is(strong, em) {
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+.prosemirror-editor p > strong > a:any-link,
+.prosemirror-editor p > a:any-link:has(> strong:only-child) {
+  background-color: var(--za-lime);
+}
+
+.prosemirror-editor p > em > a:any-link,
+.prosemirror-editor p > a:any-link:has(> em:only-child) {
+  box-shadow: inset 0 0 0 1px rgb(17 17 13 / 32%);
+}
+
+a .prosemirror-editor a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body.legacy .prosemirror-editor p > strong > a:any-link,
+body.legacy .prosemirror-editor p > a:any-link:has(> strong:only-child) {
+  border-radius: 0;
+  background-color: var(--zb-teal-800);
+  color: var(--zb-white);
+  font-family: var(--zb-font-head);
+}
+
+main .section.forest .prosemirror-editor p > em > a:any-link {
+  color: var(--za-white);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 32%);
+}
+
+/* R-02: page-title heading for pages whose source has no h1 — visually hidden */
+main > .section.sr-heading {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
 }

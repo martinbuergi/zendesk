@@ -1,0 +1,103 @@
+/* co-promo — company body promo (live .fvooCG forest card; .fjBmsB children mb 8, last 0) */
+.co-promo.za-section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.co-promo .co-promo-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 2rem 1.5rem;
+  border-radius: 40px;
+  background-color: var(--za-forest);
+  text-align: center;
+}
+
+.co-promo .co-promo-body {
+  flex: 1 1 100%;
+}
+
+.co-promo .co-promo-body :is(h2, h3, p) {
+  margin: 0 0 8px;
+}
+
+.co-promo .co-promo-body :is(h2, h3) {
+  color: var(--za-cream);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.co-promo .co-promo-body p {
+  color: var(--za-cream);
+}
+
+.co-promo .co-promo-body :is(h2, h3, p):last-child {
+  margin-bottom: 0;
+}
+
+.co-promo .co-links {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 100%;
+  gap: 12px;
+}
+
+.co-promo .co-links p {
+  width: 100%;
+  margin: 0;
+}
+
+.co-promo .co-links a:any-link {
+  width: 100%;
+  transition: color 600ms var(--za-ease);
+}
+
+.co-promo .co-links a:any-link:hover,
+.co-promo .co-links a:any-link:focus-visible {
+  color: rgb(255 255 255 / 70%);
+}
+
+@media (width >= 768px) {
+  .co-promo .co-promo-card {
+    flex-wrap: nowrap;
+    padding: 64px;
+    text-align: inherit;
+  }
+
+  .co-promo .co-promo-body :is(h2, h3) {
+    font-size: 23px;
+  }
+
+  .co-promo .co-links {
+    flex-direction: row;
+    align-items: baseline;
+    align-self: inherit;
+    width: auto;
+  }
+
+  .co-promo .co-links p,
+  .co-promo .co-links a:any-link {
+    width: auto;
+  }
+}
+
+@media (width >= 1150px) {
+  .co-promo .co-promo-card {
+    padding: 64px 96px;
+  }
+
+  .co-promo .co-promo-body :is(h2, h3) {
+    font-size: 26px;
+  }
+}
+
+@media (width >= 1600px) {
+  .co-promo .co-promo-body :is(h2, h3) {
+    font-size: 33px;
+  }
+}

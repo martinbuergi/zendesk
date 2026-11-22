@@ -1,0 +1,55 @@
+[live-session] waiting to pace live navigations to www.zendesk.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 947 ms
+
+Content diff @ 360px (profile "generic", roots: #teaser-12bfb47939, #blog-story-category-listing-1995158695, #blog-editors-picks-1023113396, #teaser-ef6abf30ab, main section:not([id]):not(section section), header, footer)
+root "#teaser-12bfb47939"
+  source: 22 text nodes — 15 headings, 1 eyebrows, 0 CTAs, 6 body; 13 img
+  build: 20 text nodes — 15 headings, 1 eyebrows, 0 CTAs, 4 body; 13 img
+  editable texts (outermost h*/p/ul/ol): source 18 / build 18
+  attributes (placeholder/aria-label/title): source 11 / build 11; icons: source 2 / build 2
+root "#blog-story-category-listing-1995158695"
+  source: 99 text nodes — 35 headings, 0 eyebrows, 24 CTAs, 40 body; 28 img
+  build: 85 text nodes — 35 headings, 0 eyebrows, 24 CTAs, 26 body; 28 img
+  editable texts (outermost h*/p/ul/ol): source 61 / build 61
+  attributes (placeholder/aria-label/title): source 49 / build 49; icons: source 21 / build 21
+root "#blog-editors-picks-1023113396"
+  source: 18 text nodes — 1 headings, 0 eyebrows, 16 CTAs, 1 body; 0 img
+  build: 18 text nodes — 1 headings, 0 eyebrows, 16 CTAs, 1 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 3
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "#teaser-ef6abf30ab"
+  source: 3 text nodes — 1 headings, 0 eyebrows, 1 CTAs, 1 body; 2 img
+  build: 3 text nodes — 1 headings, 0 eyebrows, 1 CTAs, 1 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 2 / build 2; icons: source 1 / build 1
+root "main section:not([id]):not(section section)"
+  source: 25 text nodes — 9 headings, 0 eyebrows, 7 CTAs, 9 body; 8 img
+  build: 25 text nodes — 9 headings, 0 eyebrows, 7 CTAs, 9 body; 8 img
+  editable texts (outermost h*/p/ul/ol): source 18 / build 18
+  attributes (placeholder/aria-label/title): source 13 / build 13; icons: source 1 / build 1
+root "header": absent on both sides (no <header> / [role="banner"] outside the main root(s)) — not compared
+root "footer"
+  source: 143 text nodes — 14 headings, 0 eyebrows, 129 CTAs, 0 body; 0 img
+  build: 143 text nodes — 14 headings, 0 eyebrows, 129 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 20 / build 20
+  attributes (placeholder/aria-label/title): source 35 / build 35; icons: source 40 / build 40
+
+Findings: 18 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 18
+  🟡 MISSING BODY [#teaser-12bfb47939]: source body "Previous"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#teaser-12bfb47939]: source body "Next"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#blog-story-category-listing-1995158695]: source body "Previous"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#blog-story-category-listing-1995158695]: source body "Next"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#blog-story-category-listing-1995158695]: source body "Previous"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#blog-story-category-listing-1995158695]: source body "Next"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#blog-story-category-listing-1995158695]: source body "Previous"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#blog-story-category-listing-1995158695]: source body "Next"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#blog-story-category-listing-1995158695]: source body "Previous"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#blog-story-category-listing-1995158695]: source body "Next"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#blog-story-category-listing-1995158695]: source body "Previous"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#blog-story-category-listing-1995158695]: source body "Next"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#blog-story-category-listing-1995158695]: source body "Previous"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#blog-story-category-listing-1995158695]: source body "Next"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#blog-story-category-listing-1995158695]: source body "Previous"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#blog-story-category-listing-1995158695]: source body "2,000 global IT leaders and employees shared the"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#blog-story-category-listing-1995158695]: source body "Next"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [#blog-story-category-listing-1995158695]: build body "2,000 global IT leaders and employees shared the" has no source source — Build copy with no source — invented/placeholder; confirm intended.

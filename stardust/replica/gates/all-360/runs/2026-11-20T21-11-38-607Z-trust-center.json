@@ -1,0 +1,345 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-20T21:11:38.607Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.zendesk.com",
+    "eds": "https://main--3055ed88--aemcoder.aem.page",
+    "edsHostOverride": "https://main--3055ed88--aemcoder.aem.page",
+    "only": [
+      "trust-center",
+      "sitemap",
+      "what-is-zendesk"
+    ]
+  },
+  "totals": {
+    "pages": 3,
+    "pass": 2,
+    "pixelOnlyPass": 2,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "probeErrors": 0,
+    "failPixel": 1,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 0,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 0,
+    "failOffsets": 1,
+    "referenceUnstable": 0,
+    "passWithOverrides": 2
+  },
+  "rows": [
+    {
+      "slug": "sitemap",
+      "path": "/sitemap/",
+      "template": "static",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 5.89,
+      "textPct": 14.93,
+      "heightDelta": 24,
+      "originH": 4769,
+      "edsH": 4745,
+      "alignedPct": 0.67,
+      "alignedUsed": true,
+      "totalShift": 24,
+      "steps": [
+        {
+          "y": 168,
+          "shift": -24,
+          "cumulative": -24
+        }
+      ],
+      "offsetBound": 48,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 0,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/sitemap",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "4500-4745:24.1%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "trust-center",
+      "path": "/trust-center/",
+      "template": "static",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 10.21,
+      "textPct": 19.76,
+      "heightDelta": 298,
+      "originH": 18970,
+      "edsH": 18672,
+      "alignedPct": 5.32,
+      "alignedUsed": true,
+      "totalShift": 328,
+      "steps": [
+        {
+          "y": 7082,
+          "shift": -189,
+          "cumulative": -189
+        },
+        {
+          "y": 9793,
+          "shift": -16,
+          "cumulative": -205
+        },
+        {
+          "y": 14116,
+          "shift": 11,
+          "cumulative": -194
+        },
+        {
+          "y": 14340,
+          "shift": 1,
+          "cumulative": -193
+        },
+        {
+          "y": 14382,
+          "shift": -1,
+          "cumulative": -194
+        },
+        {
+          "y": 14557,
+          "shift": -15,
+          "cumulative": -209
+        },
+        {
+          "y": 15102,
+          "shift": -1,
+          "cumulative": -210
+        },
+        {
+          "y": 15147,
+          "shift": 1,
+          "cumulative": -209
+        },
+        {
+          "y": 15189,
+          "shift": -1,
+          "cumulative": -210
+        },
+        {
+          "y": 15380,
+          "shift": -21,
+          "cumulative": -231
+        },
+        {
+          "y": 15993,
+          "shift": -17,
+          "cumulative": -248
+        },
+        {
+          "y": 16089,
+          "shift": 1,
+          "cumulative": -247
+        }
+      ],
+      "offsetBound": 190,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel"
+      ],
+      "unwaived": [
+        "pixel"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [
+        "offsets: 16 step(s), 328px total — −189px at y=7082, −16px at y=9793, +11px at y=14116, +1px at y=14340, −1px at y=14382, −15px at y=14557, … 10 more (bound 190px)"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 26,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 120,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/trust-center",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "4000-4500:21.5%",
+        "11500-12000:15.1%",
+        "17000-17500:41.1%",
+        "17500-18000:74%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "what-is-zendesk",
+      "path": "/what-is-zendesk/",
+      "template": "static",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 7.02,
+      "textPct": 9.57,
+      "heightDelta": 12,
+      "originH": 6560,
+      "edsH": 6548,
+      "alignedPct": 0.5,
+      "alignedUsed": true,
+      "totalShift": 20,
+      "steps": [
+        {
+          "y": 2519,
+          "shift": 1,
+          "cumulative": 1
+        },
+        {
+          "y": 3651,
+          "shift": -16,
+          "cumulative": -15
+        },
+        {
+          "y": 4108,
+          "shift": 1,
+          "cumulative": -14
+        },
+        {
+          "y": 4609,
+          "shift": 1,
+          "cumulative": -13
+        },
+        {
+          "y": 5082,
+          "shift": 1,
+          "cumulative": -12
+        }
+      ],
+      "offsetBound": 66,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": true,
+      "failing": [],
+      "unwaived": [],
+      "passWithOverride": true,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [],
+      "reasons": [],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 0,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/all-360/what-is-zendesk",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "3500-4000:15.1%",
+        "4000-4500:22.4%",
+        "4500-5000:15.4%"
+      ],
+      "error": null
+    }
+  ]
+}

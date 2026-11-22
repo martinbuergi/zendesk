@@ -1,0 +1,232 @@
+/* hp-rll — resolution learning loop timeline */
+.hp-rll .hp-center-row {
+  align-items: center;
+  justify-content: center;
+}
+
+.hp-rll .hp-center-col {
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  text-align: center;
+}
+
+.hp-rll .hp-head-title :is(h2, h3) {
+  margin-bottom: 24px;
+}
+
+.hp-rll .hp-head-title em {
+  color: var(--za-matcha);
+  font-style: normal;
+}
+
+.hp-rll .hp-linkgroup {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.hp-rll .za-text + .hp-linkgroup,
+.hp-rll .hp-head-title + .hp-linkgroup {
+  padding-top: 8px;
+}
+
+.hp-rll .hp-linkgroup p,
+.hp-rll .hp-linkgroup a.button {
+  width: 100%;
+  margin: 0;
+}
+
+.hp-rll .hp-rll-track {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.hp-rll .hp-rll-line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1px;
+  height: 100%;
+  background-image: linear-gradient(rgb(17 17 13 / 0%) 0%, rgb(17 17 13 / 33%) 5%, rgb(17 17 13 / 33%) 95%, rgb(17 17 13 / 0%) 100%);
+  transform: translate(-50%, -50%);
+}
+
+/* below 768 the source shows no timeline dot and the static image (2:1 box, contain) */
+.hp-rll .hp-rll-dot {
+  position: sticky;
+  top: 50%;
+  z-index: 1;
+  display: none;
+  justify-content: center;
+  align-self: center;
+  width: 0;
+  height: 40px;
+}
+
+.hp-rll .hp-rll-dot-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: rgb(254 235 126);
+  color: var(--za-ink);
+  transition: background-color 0.3s var(--za-ease);
+}
+
+@supports (animation-range: entry) {
+  .hp-rll .hp-rll-dot {
+    animation: auto linear both hp-scale-in, auto linear both hp-scale-out;
+    animation-timeline: view(), view();
+    animation-range: entry cover 15%, cover 90% exit;
+  }
+}
+
+@keyframes hp-scale-in {
+  0% { transform: scale(0); }
+  100% { transform: scale(1); }
+}
+
+@keyframes hp-scale-out {
+  0% { scale: 1; }
+  100% { scale: 0; }
+}
+
+.hp-rll .hp-rll-block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 56px;
+  width: 100%;
+  margin: 80px auto;
+  padding: 24px;
+  overflow: hidden;
+  border: 1px solid rgb(17 17 13 / 11%);
+  border-radius: 40px;
+  background: rgb(17 17 13 / 5%);
+  backdrop-filter: blur(38px);
+  transition: box-shadow 0.3s var(--za-ease);
+}
+
+.hp-rll .hp-rll-title :is(h2, h3, h4) {
+  margin: 0;
+  text-wrap: balance;
+}
+
+.hp-rll .hp-rll-media {
+  width: 100%;
+  height: auto;
+}
+
+.hp-rll .hp-rll-media :is(p, picture) {
+  margin: 0;
+  line-height: 0;
+}
+
+.hp-rll .hp-rll-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hp-rll .hp-rll-anim {
+  display: none;
+}
+
+.hp-rll .hp-rll-anim img {
+  aspect-ratio: 17 / 8;
+}
+
+.hp-rll .hp-rll-still img {
+  aspect-ratio: 2 / 1;
+  object-fit: contain;
+}
+
+.hp-rll .hp-rll-single .hp-rll-anim {
+  display: block;
+}
+
+@media (width >= 481px) {
+  .hp-rll .hp-rll-block {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .hp-rll .hp-rll-title {
+    width: 50%;
+  }
+
+  .hp-rll .hp-rll-media {
+    width: 50%;
+  }
+}
+
+@media (width >= 768px) {
+  .hp-rll .hp-center-col {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+  }
+
+  .hp-rll .hp-linkgroup {
+    flex-direction: row;
+    align-items: baseline;
+    width: auto;
+  }
+
+  .hp-rll .hp-linkgroup p,
+  .hp-rll .hp-linkgroup a.button {
+    width: auto;
+  }
+
+  .hp-rll .hp-rll-dot {
+    display: flex;
+  }
+
+  .hp-rll .hp-rll-anim {
+    display: block;
+  }
+
+  .hp-rll .hp-rll-still {
+    display: none;
+  }
+
+  .hp-rll .hp-rll-block {
+    margin: 50px auto;
+    padding: 32px;
+  }
+
+  .hp-rll .hp-rll-block.is-active {
+    box-shadow: rgb(209 244 112 / 60%) 0 0 109px 0;
+  }
+}
+
+@media (width >= 1150px) {
+  .hp-rll .hp-rll-block {
+    margin: 68px auto;
+    padding: 40px;
+  }
+
+  .hp-rll .hp-rll-title {
+    width: 41.6666%;
+  }
+}
+
+@media (width >= 1600px) {
+  .hp-rll .hp-rll-block {
+    margin: 85px auto;
+  }
+
+  .hp-rll .hp-rll-media {
+    width: 41.6666%;
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "a": "stardust/replica/gates/all-360/professional-services/origin.png",
+  "b": "stardust/replica/gates/all-360/professional-services/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 7412,
+    "mode": "overlap"
+  },
+  "heightDelta": -10,
+  "differingPixels": 170721,
+  "pct": 6.4,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/professional-services/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 14.25,
+  "textBoxes": 138,
+  "textPixels": 611199,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 4.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 4.9
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 3.8
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 6
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 10.3
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 6.4
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 7
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 7.6
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 7.7
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 12.4
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 6.3
+    },
+    {
+      "y0": 7000,
+      "y1": 7412,
+      "pct": 4.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.51,
+    "differingPixels": 40325,
+    "compared": {
+      "width": 360,
+      "height": 7430,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 632,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 975,
+        "shift": -1,
+        "cumulative": -2
+      },
+      {
+        "y": 1001,
+        "shift": -1,
+        "cumulative": -3
+      },
+      {
+        "y": 1290,
+        "shift": 1,
+        "cumulative": -2
+      },
+      {
+        "y": 1332,
+        "shift": -1,
+        "cumulative": -3
+      },
+      {
+        "y": 1549,
+        "shift": 1,
+        "cumulative": -2
+      },
+      {
+        "y": 1913,
+        "shift": -1,
+        "cumulative": -3
+      },
+      {
+        "y": 2294,
+        "shift": 1,
+        "cumulative": -2
+      },
+      {
+        "y": 2450,
+        "shift": 1,
+        "cumulative": -1
+      },
+      {
+        "y": 3116,
+        "shift": 8,
+        "cumulative": 7
+      },
+      {
+        "y": 3211,
+        "shift": 2,
+        "cumulative": 9
+      },
+      {
+        "y": 3855,
+        "shift": 2,
+        "cumulative": 11
+      },
+      {
+        "y": 4423,
+        "shift": -1,
+        "cumulative": 10
+      },
+      {
+        "y": 6047,
+        "shift": 1,
+        "cumulative": 11
+      },
+      {
+        "y": 6190,
+        "shift": -1,
+        "cumulative": 10
+      },
+      {
+        "y": 6551,
+        "shift": 1,
+        "cumulative": 11
+      },
+      {
+        "y": 7295,
+        "shift": -1,
+        "cumulative": 10
+      }
+    ],
+    "maxOffset": 11,
+    "totalShift": 26,
+    "insertedRows": 18,
+    "deletedRows": 8,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 6.7,
+        "unaligned": 9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.8,
+        "unaligned": 4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1.1,
+        "unaligned": 4.9
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 1.4,
+        "unaligned": 4.9
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.6,
+        "unaligned": 3.8
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 2.4,
+        "unaligned": 6
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 2.4,
+        "unaligned": 10.3
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.6,
+        "unaligned": 6.4
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.9,
+        "unaligned": 7
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 1.6,
+        "unaligned": 7.6
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 1.8,
+        "unaligned": 7.7
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0.6,
+        "unaligned": 12.4
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0.2,
+        "unaligned": 6.3
+      },
+      {
+        "y0": 7000,
+        "y1": 7412,
+        "pct": 0.8,
+        "unaligned": 4.9
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/professional-services/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 74,
+    "totalShift": 26,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/professional-services"
+  }
+}

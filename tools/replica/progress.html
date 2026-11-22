@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration result</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  details.spectrum-panel > summary { cursor: pointer; list-style: none; }
+  details.spectrum-panel > summary::-webkit-details-marker { display: none; }
+  details.spectrum-panel > summary > h2 { margin: 0; font: inherit; }
+  details.spectrum-panel > summary > h2::before { content: "\25B8"; display: inline-block; width: 1em; margin-right: 6px; color: var(--spectrum-text-subdued); }
+  details.spectrum-panel[open] > summary > h2::before { content: "\25BE"; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table.pages td .spectrum-badge { word-break: normal; }
+  @media (max-width: 400px) { table.pages th, table.pages td { padding: 8px 4px; } }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  .panel-body h3 { margin: 16px 0 4px; }
+  ol.todo { padding-left: 20px; margin: 0 0 16px; }
+  ol.todo li { margin: 6px 0; }
+  ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
+  .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+  #blocks-used table.blocks { table-layout: fixed; }
+  #blocks-used table.blocks th:nth-child(1) { width: 26%; }
+  #blocks-used table.blocks th:nth-child(2) { width: 32%; }
+  #blocks-used td { overflow-wrap: break-word; vertical-align: top; }
+  #blocks-used td:last-child { overflow-wrap: anywhere; }
+  #blocks-used tr.group td { border-top: 1px solid var(--spectrum-gray-300); }
+  #blocks-used td.block { font-weight: 700; }
+  #blocks-used .block-pages { display: block; font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .variant { display: inline-block; padding: 0 6px; margin: 0 4px 2px 0; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-sm); font-family: var(--spectrum-font-code); }
+  #blocks-used .variant-inline { font-family: var(--spectrum-font-code); font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .default, #blocks-used .blocks-count { color: var(--spectrum-text-subdued); }
+  #blocks-used .default { font-style: italic; }
+  #blocks-used .blocks-count { margin: 0; }
+  #blocks-used button.more { padding: 0; border: 0; background: none; color: var(--spectrum-text-accent); font: inherit; cursor: pointer; text-decoration: underline; }
+  #blocks-used .blocks-popover { width: min(520px, 90vw); max-height: 80vh; overflow: auto; overflow-wrap: anywhere; padding: 16px 20px; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-lg); background-color: var(--spectrum-bg-layer-1); box-shadow: var(--spectrum-shadow-elevated); }
+  #blocks-used .blocks-popover::backdrop { background-color: color-mix(in srgb, var(--spectrum-gray-900) 35%, transparent); }
+  #blocks-used .popover-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  #blocks-used .popover-head h3 { margin: 0; }
+  #blocks-used ul.popover-pages { columns: 2; padding-left: 20px; margin: 12px 0 0; }
+  #blocks-used ul.popover-pages li { padding: 4px 0; break-inside: avoid; }
+  /* A browser without the popover API would show every page list inline; ':popover-open' is invalid there. */
+  @supports not selector(:popover-open) {
+    #blocks-used .blocks-popover, #blocks-used .more { display: none; }
+  }
+  #blocks-used .bp-radio { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  #blocks-used .bp-page, #blocks-used .bp-range { display: none; }
+  #blocks-used .pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+  #blocks-used .labels { display: flex; flex-wrap: wrap; gap: 4px; }
+  #blocks-used .bp-radio:focus-visible ~ .pager label { outline: 2px solid var(--spectrum-focus-ring); }
+  #bp-1:checked ~ table .bp-page-1 { display: table-row-group; }
+  #bp-1:checked ~ .pager .bp-range-1 { display: inline; }
+  #bp-1:checked ~ .pager label[for="bp-1"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-2:checked ~ table .bp-page-2 { display: table-row-group; }
+  #bp-2:checked ~ .pager .bp-range-2 { display: inline; }
+  #bp-2:checked ~ .pager label[for="bp-2"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-3:checked ~ table .bp-page-3 { display: table-row-group; }
+  #bp-3:checked ~ .pager .bp-range-3 { display: inline; }
+  #bp-3:checked ~ .pager label[for="bp-3"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-4:checked ~ table .bp-page-4 { display: table-row-group; }
+  #bp-4:checked ~ .pager .bp-range-4 { display: inline; }
+  #bp-4:checked ~ .pager label[for="bp-4"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-5:checked ~ table .bp-page-5 { display: table-row-group; }
+  #bp-5:checked ~ .pager .bp-range-5 { display: inline; }
+  #bp-5:checked ~ .pager label[for="bp-5"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-6:checked ~ table .bp-page-6 { display: table-row-group; }
+  #bp-6:checked ~ .pager .bp-range-6 { display: inline; }
+  #bp-6:checked ~ .pager label[for="bp-6"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-7:checked ~ table .bp-page-7 { display: table-row-group; }
+  #bp-7:checked ~ .pager .bp-range-7 { display: inline; }
+  #bp-7:checked ~ .pager label[for="bp-7"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-8:checked ~ table .bp-page-8 { display: table-row-group; }
+  #bp-8:checked ~ .pager .bp-range-8 { display: inline; }
+  #bp-8:checked ~ .pager label[for="bp-8"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-9:checked ~ table .bp-page-9 { display: table-row-group; }
+  #bp-9:checked ~ .pager .bp-range-9 { display: inline; }
+  #bp-9:checked ~ .pager label[for="bp-9"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-10:checked ~ table .bp-page-10 { display: table-row-group; }
+  #bp-10:checked ~ .pager .bp-range-10 { display: inline; }
+  #bp-10:checked ~ .pager label[for="bp-10"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-11:checked ~ table .bp-page-11 { display: table-row-group; }
+  #bp-11:checked ~ .pager .bp-range-11 { display: inline; }
+  #bp-11:checked ~ .pager label[for="bp-11"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-12:checked ~ table .bp-page-12 { display: table-row-group; }
+  #bp-12:checked ~ .pager .bp-range-12 { display: inline; }
+  #bp-12:checked ~ .pager label[for="bp-12"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-13:checked ~ table .bp-page-13 { display: table-row-group; }
+  #bp-13:checked ~ .pager .bp-range-13 { display: inline; }
+  #bp-13:checked ~ .pager label[for="bp-13"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration result</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://www.zendesk.com/" target="_blank" rel="noopener">https://www.zendesk.com/</a><br>Preview site: <a href="https://main--3055ed88--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--3055ed88--aemcoder.aem.page/</a><br>Finished: 2026-11-21 19:01 UTC</p>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>What's done</h2></summary>
+    <div class="panel-body">
+      <p>The migration is complete. All 100 pages are live on the new platform, match the current design at desktop and mobile widths, and keep their content, search data and interactive features. The analytics and consent setup has been carried over switched off, ready for your team to turn on.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Next steps</h2></summary>
+    <div class="panel-body">
+      <p>Your team can review the live pages and switch on analytics and consent when ready.</p>
+      <ol class="todo">
+        <li><strong>Make it yours.</strong> Move this result into your own site and GitHub repository: use <strong>Make it yours</strong> on this migration in AEM Coder.</li>
+        <li><strong>Review the pages</strong> on the <a href="https://main--3055ed88--aemcoder.aem.page/" target="_blank" rel="noopener">preview site</a>.</li>
+        <li><strong>Switch on analytics and tags</strong> when you are ready: see <em>Before you switch them on</em> under Analytics and tags.</li>
+      </ol>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Pages</h2></summary>
+    <div class="panel-body">
+      <p>This migration covers 100 pages. 100 of 100 are published on the preview site; 100 have passed the side-by-side check against the original.</p>
+      <details>
+        <summary>100 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://www.zendesk.com/" target="_blank" rel="noopener">https://www.zendesk.com/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/" target="_blank" rel="noopener">AI-Powered Customer Service Platform | Zendesk</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/marketplace/" target="_blank" rel="noopener">https://www.zendesk.com/marketplace/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/marketplace" target="_blank" rel="noopener">Zendesk Marketplace - Find Apps, Integrations &amp; Partners</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/" target="_blank" rel="noopener">https://www.zendesk.com/customer/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer" target="_blank" rel="noopener">Customers - What Companies Use to Service You | Zendesk</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/trust-center/" target="_blank" rel="noopener">https://www.zendesk.com/trust-center/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/trust-center" target="_blank" rel="noopener">Security, Privacy and Legal | Zendesk Trust Center</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/pricing/" target="_blank" rel="noopener">https://www.zendesk.com/pricing/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/pricing" target="_blank" rel="noopener">Zendesk Pricing Plans | Starting from $19/month</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/blog/" target="_blank" rel="noopener">https://www.zendesk.com/blog/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/blog" target="_blank" rel="noopener">Customer experience, support and sales blog | Zendesk</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/contact/" target="_blank" rel="noopener">https://www.zendesk.com/contact/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/contact" target="_blank" rel="noopener">Contact us</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/login/" target="_blank" rel="noopener">https://www.zendesk.com/login/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/login" target="_blank" rel="noopener">Login | Zendesk</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/register/" target="_blank" rel="noopener">https://www.zendesk.com/register/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/register" target="_blank" rel="noopener">Register</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/newsroom/" target="_blank" rel="noopener">https://www.zendesk.com/newsroom/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/newsroom" target="_blank" rel="noopener">Zendesk Newsroom</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/employee-experience/" target="_blank" rel="noopener">https://www.zendesk.com/employee-experience/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/employee-experience" target="_blank" rel="noopener">Internal Help Desk Software for Employees | Zendesk</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/service/" target="_blank" rel="noopener">https://www.zendesk.com/service/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/service" target="_blank" rel="noopener">AI-powered customer service software | Zendesk</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/demo/" target="_blank" rel="noopener">https://www.zendesk.com/demo/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/demo" target="_blank" rel="noopener">Zendesk Demo | Watch a Quick Help Desk Software Demo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/industries/" target="_blank" rel="noopener">https://www.zendesk.com/industries/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/industries" target="_blank" rel="noopener">Looking for a CRM solution for your specific industry? | Zendesk</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/partner/" target="_blank" rel="noopener">https://www.zendesk.com/partner/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/partner" target="_blank" rel="noopener">Partner with Zendesk | Sell, deploy, and build custom solutions</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/employee-service/" target="_blank" rel="noopener">https://www.zendesk.com/employee-service/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/employee-service" target="_blank" rel="noopener">Zendesk: AI-Powered Employee Service Solution</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/sitemap/" target="_blank" rel="noopener">https://www.zendesk.com/sitemap/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/sitemap" target="_blank" rel="noopener">The Zendesk Sitemap for Quick Navigation</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/sell/" target="_blank" rel="noopener">https://www.zendesk.com/sell/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/sell" target="_blank" rel="noopener">Zendesk CRM for Sales | All-in-One Sales Platform Zendesk Sell</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/instapage-form-demo/" target="_blank" rel="noopener">https://www.zendesk.com/instapage-form-demo/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-demo" target="_blank" rel="noopener">Instapage Form: Demo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/platform/" target="_blank" rel="noopener">https://www.zendesk.com/platform/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/platform" target="_blank" rel="noopener">Develop custom experiences with the Zendesk Platform | Zendesk Sunshine</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/instapage-form-contact/" target="_blank" rel="noopener">https://www.zendesk.com/instapage-form-contact/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-contact" target="_blank" rel="noopener">Instapage Form: Contact</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/repeatcustomer/" target="_blank" rel="noopener">https://www.zendesk.com/repeatcustomer/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/repeatcustomer" target="_blank" rel="noopener">The Repeat Customer podcast</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/instapage-form-trial-teaser-sell/" target="_blank" rel="noopener">https://www.zendesk.com/instapage-form-trial-teaser-sell/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-trial-teaser-sell" target="_blank" rel="noopener">Instapage Form: Trial Teaser Sell</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/what-is-zendesk/" target="_blank" rel="noopener">https://www.zendesk.com/what-is-zendesk/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/what-is-zendesk" target="_blank" rel="noopener">What is Zendesk? Powerful customer experience software</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/intro-tour/" target="_blank" rel="noopener">https://www.zendesk.com/intro-tour/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/intro-tour" target="_blank" rel="noopener">Take a quick tour</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/instapage-form-webinar/" target="_blank" rel="noopener">https://www.zendesk.com/instapage-form-webinar/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-webinar" target="_blank" rel="noopener">Instapage Form: Webinar</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/instapage-form-trial-teaser-suite/" target="_blank" rel="noopener">https://www.zendesk.com/instapage-form-trial-teaser-suite/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-trial-teaser-suite" target="_blank" rel="noopener">Instapage Form: Trial Teaser Suite</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/instapage-form-trial-teaser-suite-inline/" target="_blank" rel="noopener">https://www.zendesk.com/instapage-form-trial-teaser-suite-inline/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-trial-teaser-suite-inline" target="_blank" rel="noopener">Instapage Form: Trial Teaser Suite Inline</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/instapage-form-newsletter/" target="_blank" rel="noopener">https://www.zendesk.com/instapage-form-newsletter/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-newsletter" target="_blank" rel="noopener">Instapage Form: Newsletter</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/instapage-form-content/" target="_blank" rel="noopener">https://www.zendesk.com/instapage-form-content/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-content" target="_blank" rel="noopener">Instapage Form: Content</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/help-center-closed/" target="_blank" rel="noopener">https://www.zendesk.com/help-center-closed/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/help-center-closed" target="_blank" rel="noopener">Help Center Closed</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/company/" target="_blank" rel="noopener">https://www.zendesk.com/company/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/company" target="_blank" rel="noopener">About Zendesk</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/why-zendesk/" target="_blank" rel="noopener">https://www.zendesk.com/why-zendesk/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/why-zendesk" target="_blank" rel="noopener">Why Zendesk | The AI Service Platform Built for Real Resolutions</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/web-widget/" target="_blank" rel="noopener">https://www.zendesk.com/web-widget/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/web-widget" target="_blank" rel="noopener">Web Widget</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/blog-ads-api-output/" target="_blank" rel="noopener">https://www.zendesk.com/blog-ads-api-output/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/blog-ads-api-output" target="_blank" rel="noopener">blog-ads-api-output</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/professional-services/" target="_blank" rel="noopener">https://www.zendesk.com/professional-services/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/professional-services" target="_blank" rel="noopener">Zendesk professional Services</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/free-trial/" target="_blank" rel="noopener">https://www.zendesk.com/free-trial/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/free-trial" target="_blank" rel="noopener">Zendesk Free Trial | AI Customer &amp; Employee Service</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/cxtrends/" target="_blank" rel="noopener">https://www.zendesk.com/cxtrends/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/cxtrends" target="_blank" rel="noopener">Zendesk CX Trends Report 2027</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/marketplace/apps/" target="_blank" rel="noopener">https://www.zendesk.com/marketplace/apps/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/marketplace/apps" target="_blank" rel="noopener">Zendesk App Marketplace - Find Apps, Integrations &amp; Partners</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/marketplace/partners/" target="_blank" rel="noopener">https://www.zendesk.com/marketplace/partners/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/marketplace/partners" target="_blank" rel="noopener">Looking for Zendesk consulting, solution &amp; implementation partners?</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/marketplace/themes/" target="_blank" rel="noopener">https://www.zendesk.com/marketplace/themes/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/marketplace/themes" target="_blank" rel="noopener">Freshen up your help center with new Zendesk Help Center Themes</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/madeiramadeira/" target="_blank" rel="noopener">https://www.zendesk.com/customer/madeiramadeira/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/madeiramadeira" target="_blank" rel="noopener">MadeiraMadeira transforms CX with Zendesk AI agents</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/serasa-experian/" target="_blank" rel="noopener">https://www.zendesk.com/customer/serasa-experian/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/serasa-experian" target="_blank" rel="noopener">Serasa Experian expands digital customer service with Zendesk AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/nortek/" target="_blank" rel="noopener">https://www.zendesk.com/customer/nortek/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/nortek" target="_blank" rel="noopener">How Nortek is using AI to make more time for customers</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/resurs-bank/" target="_blank" rel="noopener">https://www.zendesk.com/customer/resurs-bank/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/resurs-bank" target="_blank" rel="noopener">Resurs Bank partners with Synerity to bring AI-powered support to Nordic customers</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/mimecast/" target="_blank" rel="noopener">https://www.zendesk.com/customer/mimecast/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/mimecast" target="_blank" rel="noopener">Mimecast transforms customer support with Zendesk AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/dfin/" target="_blank" rel="noopener">https://www.zendesk.com/customer/dfin/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/dfin" target="_blank" rel="noopener">DFIN unifies service and drives 80 percent first-call resolution with Zendesk</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/canva/" target="_blank" rel="noopener">https://www.zendesk.com/customer/canva/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/canva" target="_blank" rel="noopener">Canva turns customer insights into action with Zendesk</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/koho/" target="_blank" rel="noopener">https://www.zendesk.com/customer/koho/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/koho" target="_blank" rel="noopener">KOHO saves $8M with Forethought Voice</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/bgl/" target="_blank" rel="noopener">https://www.zendesk.com/customer/bgl/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/bgl" target="_blank" rel="noopener">BGL handles rapid growth with Zendesk AI-powered customer support</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/deputy/" target="_blank" rel="noopener">https://www.zendesk.com/customer/deputy/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/deputy" target="_blank" rel="noopener">Deputy builds an AI-first support experience with Zendesk</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/qantas-loyalty/" target="_blank" rel="noopener">https://www.zendesk.com/customer/qantas-loyalty/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/qantas-loyalty" target="_blank" rel="noopener">Qantas Loyalty soars past automation goals with Zendesk AI Agents</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/perk-es/" target="_blank" rel="noopener">https://www.zendesk.com/customer/perk-es/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/perk-es" target="_blank" rel="noopener">Perk scales employee service with Zendesk + HiBob without losing the human touch</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/asaas/" target="_blank" rel="noopener">https://www.zendesk.com/customer/asaas/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/asaas" target="_blank" rel="noopener">Asaas transforms complexity into confidence with Zendesk Copilot</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/recargapay/" target="_blank" rel="noopener">https://www.zendesk.com/customer/recargapay/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/recargapay" target="_blank" rel="noopener">RecargaPay transforms Support With Zendesk Copilot</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/liberty-tax/" target="_blank" rel="noopener">https://www.zendesk.com/customer/liberty-tax/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/liberty-tax" target="_blank" rel="noopener">Liberty Tax scales seasonal support with Zendesk AI agents</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/motiva/" target="_blank" rel="noopener">https://www.zendesk.com/customer/motiva/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/motiva" target="_blank" rel="noopener">How Motiva is building an omnichannel operation with Zendesk AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/star21/" target="_blank" rel="noopener">https://www.zendesk.com/customer/star21/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/star21" target="_blank" rel="noopener">Star21 innovates faster with Zendesk App Builder</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/petstock/" target="_blank" rel="noopener">https://www.zendesk.com/customer/petstock/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/petstock" target="_blank" rel="noopener">Petstock modernizes telephony with Zendesk Contact Center</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/thoughtworks/" target="_blank" rel="noopener">https://www.zendesk.com/customer/thoughtworks/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/thoughtworks" target="_blank" rel="noopener">Thoughtworks transforms employee service with AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/solo-by-myob/" target="_blank" rel="noopener">https://www.zendesk.com/customer/solo-by-myob/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/solo-by-myob" target="_blank" rel="noopener">Lean team, big impact: Solo by MYOB&#39;s service-first playbook</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/givedirectly/" target="_blank" rel="noopener">https://www.zendesk.com/customer/givedirectly/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/givedirectly" target="_blank" rel="noopener">GiveDirectly speeds up disaster response with Zendesk</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/uneo/" target="_blank" rel="noopener">https://www.zendesk.com/customer/uneo/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/uneo" target="_blank" rel="noopener">Zendesk delivers a 360° customer experience for Unéo</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/trodo/" target="_blank" rel="noopener">https://www.zendesk.com/customer/trodo/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/trodo" target="_blank" rel="noopener">Trodo drives the future of automated CX with Zendesk AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/sealy-of-australia/" target="_blank" rel="noopener">https://www.zendesk.com/customer/sealy-of-australia/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/sealy-of-australia" target="_blank" rel="noopener">Sealy of Australia scales CX with Zendesk AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/betmgm-brasil/" target="_blank" rel="noopener">https://www.zendesk.com/customer/betmgm-brasil/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/betmgm-brasil" target="_blank" rel="noopener">BetMGM Brasil doubles down on the player experience with Zendesk AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/the-smith-family/" target="_blank" rel="noopener">https://www.zendesk.com/customer/the-smith-family/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/the-smith-family" target="_blank" rel="noopener">The Smith Family builds trust with Zendesk Contact Center</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/catapult/" target="_blank" rel="noopener">https://www.zendesk.com/customer/catapult/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/catapult" target="_blank" rel="noopener">Catapult offers elite CX performance with Zendesk AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/lucid-software-es/" target="_blank" rel="noopener">https://www.zendesk.com/customer/lucid-software-es/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/lucid-software-es" target="_blank" rel="noopener">Lucid Software builds trust at scale with Zendesk for Employee Service</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/coco-republic/" target="_blank" rel="noopener">https://www.zendesk.com/customer/coco-republic/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/coco-republic" target="_blank" rel="noopener">Coco Republic elevates luxury service with Contact Center</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/envato/" target="_blank" rel="noopener">https://www.zendesk.com/customer/envato/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/envato" target="_blank" rel="noopener">Envato cuts first reply time with Zendesk AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/docebo/" target="_blank" rel="noopener">https://www.zendesk.com/customer/docebo/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/docebo" target="_blank" rel="noopener">Docebo enhances B2B CX with Zendesk AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/tbauctions/" target="_blank" rel="noopener">https://www.zendesk.com/customer/tbauctions/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/tbauctions" target="_blank" rel="noopener">TBAuctions speeds customer support with Zendesk Advanced AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/furnished-finder/" target="_blank" rel="noopener">https://www.zendesk.com/customer/furnished-finder/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/furnished-finder" target="_blank" rel="noopener">Inside Furnished Finder’s human-centered approach to AI in customer support</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/lucid-software-ai/" target="_blank" rel="noopener">https://www.zendesk.com/customer/lucid-software-ai/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/lucid-software-ai" target="_blank" rel="noopener">Lucid Software scales support for 100 million users with Zendesk AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/pure-insurance/" target="_blank" rel="noopener">https://www.zendesk.com/customer/pure-insurance/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/pure-insurance" target="_blank" rel="noopener">How PURE Insurance scales internal support to 16+ teams with Zendesk</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/five-iron-golf/" target="_blank" rel="noopener">https://www.zendesk.com/customer/five-iron-golf/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/five-iron-golf" target="_blank" rel="noopener">Five Iron Golf unifies customer conversations with Zendesk Contact Center</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/github-es/" target="_blank" rel="noopener">https://www.zendesk.com/customer/github-es/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/github-es" target="_blank" rel="noopener">GitHub makes Zendesk the foundation of elevated employee service</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/tesu/" target="_blank" rel="noopener">https://www.zendesk.com/customer/tesu/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/tesu" target="_blank" rel="noopener">TESU transforms student support with Zendesk AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/inshur/" target="_blank" rel="noopener">https://www.zendesk.com/customer/inshur/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/inshur" target="_blank" rel="noopener">The policy behind the promise: INSHUR’s CX transformation with Zendesk</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/odeon-cinemas/" target="_blank" rel="noopener">https://www.zendesk.com/customer/odeon-cinemas/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/odeon-cinemas" target="_blank" rel="noopener">ODEON Cinemas delivers boffo results with Zendesk AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/britbox/" target="_blank" rel="noopener">https://www.zendesk.com/customer/britbox/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/britbox" target="_blank" rel="noopener">How BritBox maintains white-glove CX with Zendesk AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/sinch-engage/" target="_blank" rel="noopener">https://www.zendesk.com/customer/sinch-engage/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/sinch-engage" target="_blank" rel="noopener">Leading cloud comms company sees major CX gains with Zendesk</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/zendesk-for-employee-service/" target="_blank" rel="noopener">https://www.zendesk.com/customer/zendesk-for-employee-service/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/zendesk-for-employee-service" target="_blank" rel="noopener">Zendesk facilitates 54% of internal tickets with AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/irc-video/" target="_blank" rel="noopener">https://www.zendesk.com/customer/irc-video/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/irc-video" target="_blank" rel="noopener">IRC Video</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/motel-rocks/" target="_blank" rel="noopener">https://www.zendesk.com/customer/motel-rocks/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/motel-rocks" target="_blank" rel="noopener">Motel sees self-service climb by 3X and faster ticket handling with Zendesk AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/privy/" target="_blank" rel="noopener">https://www.zendesk.com/customer/privy/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/privy" target="_blank" rel="noopener">Privy scales customer service with Zendesk AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/liberty-qa/" target="_blank" rel="noopener">https://www.zendesk.com/customer/liberty-qa/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/liberty-qa" target="_blank" rel="noopener">How Liberty uses Zendesk QA to provide luxury customer service</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/qualia/" target="_blank" rel="noopener">https://www.zendesk.com/customer/qualia/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/qualia" target="_blank" rel="noopener">How Qualia uses GenAI to radically elevate its CX</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/miko/" target="_blank" rel="noopener">https://www.zendesk.com/customer/miko/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/miko" target="_blank" rel="noopener">Miko uses AI to scale CX for high growth and assist busy agents</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/ballys/" target="_blank" rel="noopener">https://www.zendesk.com/customer/ballys/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/ballys" target="_blank" rel="noopener">Bally&#39;s</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/dupage-county/" target="_blank" rel="noopener">https://www.zendesk.com/customer/dupage-county/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/dupage-county" target="_blank" rel="noopener">DuPage County modernizes employee support and CX with Zendesk AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/yape/" target="_blank" rel="noopener">https://www.zendesk.com/customer/yape/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/yape" target="_blank" rel="noopener">Yape enhances its CX with Zendesk AI Copilot for faster and more efficient resolutions</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/babbel/" target="_blank" rel="noopener">https://www.zendesk.com/customer/babbel/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/babbel" target="_blank" rel="noopener">Zendesk AI speaks Babbel’s language</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/starshipit/" target="_blank" rel="noopener">https://www.zendesk.com/customer/starshipit/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/starshipit" target="_blank" rel="noopener">Starshipit</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/action-property-management/" target="_blank" rel="noopener">https://www.zendesk.com/customer/action-property-management/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/action-property-management" target="_blank" rel="noopener">Zendesk AI helps Action Property Management homeowners love where they live</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/easyfundraising/" target="_blank" rel="noopener">https://www.zendesk.com/customer/easyfundraising/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/easyfundraising" target="_blank" rel="noopener">How easyfundraising&#39;s six-person team supports millions with Zendesk AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/shearcomfort/" target="_blank" rel="noopener">https://www.zendesk.com/customer/shearcomfort/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/shearcomfort" target="_blank" rel="noopener">ShearComfort finds AI to be a perfect fit for exceptional CX</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/benevity/" target="_blank" rel="noopener">https://www.zendesk.com/customer/benevity/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/benevity" target="_blank" rel="noopener">Benevity transforms ticket triaging with Zendesk AI</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.zendesk.com/customer/quickmd/" target="_blank" rel="noopener">https://www.zendesk.com/customer/quickmd/</a></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/quickmd" target="_blank" rel="noopener">QuickMD achieves faster resolutions with Zendesk</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Page templates</h2></summary>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Customer stories</td><td>59</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Forms and sign-up pages</td><td>13</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Home page</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Hubs and directories</td><td>8</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Product and solution pages</td><td>11</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Company pages</td><td>4</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>One-of-a-kind pages (pricing, tours)</td><td>4</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" id="blocks-used">
+    <summary class="spectrum-panel-header"><h2>Blocks used</h2></summary>
+    <div class="panel-body">
+      <p>65 blocks in 173 variants across 100 pages. These are the building blocks your authors will work with.</p>
+      <input type="radio" name="blocks-page" id="bp-1" class="bp-radio" checked>
+      <input type="radio" name="blocks-page" id="bp-2" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-3" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-4" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-5" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-6" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-7" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-8" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-9" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-10" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-11" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-12" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-13" class="bp-radio">
+      <table class="blocks">
+        <thead><tr><th>Block</th><th>Variant</th><th>Pages</th></tr></thead>
+        <tbody class="bp-page bp-page-1">
+          <tr class="group"><td class="block" rowspan="5">zb-article<span class="block-pages">59 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/mimecast" target="_blank" rel="noopener">Mimecast transforms customer support with Zendesk AI</a>, <a href="https://main--3055ed88--aemcoder.aem.page/customer/canva" target="_blank" rel="noopener">Canva turns customer insights into action with Zendesk</a>, <a href="https://main--3055ed88--aemcoder.aem.page/customer/irc-video" target="_blank" rel="noopener">IRC Video</a></td></tr>
+          <tr><td><span class="variant">body-md</span></td><td><button class="more" popovertarget="blocks-pages-0-1">View 45 pages</button></td></tr>
+          <tr><td><span class="variant">body-md</span><span class="variant">para-images</span><span class="variant">img-lsep</span></td><td><button class="more" popovertarget="blocks-pages-0-2">View 5 pages</button></td></tr>
+          <tr><td><span class="variant">body-md</span><span class="variant">para-images</span></td><td><button class="more" popovertarget="blocks-pages-0-3">View 5 pages</button></td></tr>
+          <tr><td><span class="variant">split-sections</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/ballys" target="_blank" rel="noopener">Bally&#39;s</a></td></tr>
+          <tr class="group"><td class="block">zb-story-hero<span class="block-pages">59 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-1-0">View 59 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="3">zb-facts<span class="block-pages">58 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-2-0">View 44 pages</button></td></tr>
+          <tr><td><span class="variant">three-up</span></td><td><button class="more" popovertarget="blocks-pages-2-1">View 13 pages</button></td></tr>
+          <tr><td><span class="variant">one-up</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/asaas" target="_blank" rel="noopener">Asaas transforms complexity into confidence with Zendesk Copilot</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">zb-quotes<span class="block-pages">58 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-3-0">View 55 pages</button></td></tr>
+          <tr><td><span class="variant">single</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/qantas-loyalty" target="_blank" rel="noopener">Qantas Loyalty soars past automation goals with Zendesk AI Agents</a>, <a href="https://main--3055ed88--aemcoder.aem.page/customer/inshur" target="_blank" rel="noopener">The policy behind the promise: INSHUR’s CX transformation with Zendesk</a></td></tr>
+          <tr><td><span class="variant">no-facts</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer/nortek" target="_blank" rel="noopener">How Nortek is using AI to make more time for customers</a></td></tr>
+          <tr class="group"><td class="block">zb-stats<span class="block-pages">58 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-4-0">View 58 pages</button></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-2">
+          <tr class="group"><td class="block" rowspan="12">sv-hero<span class="block-pages">13 pages</span></td><td><span class="variant">trial</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/service" target="_blank" rel="noopener">AI-powered customer service software | Zendesk</a>, <a href="https://main--3055ed88--aemcoder.aem.page/free-trial" target="_blank" rel="noopener">Zendesk Free Trial | AI Customer &amp; Employee Service</a></td></tr>
+          <tr><td><span class="variant">video</span><span class="variant">small</span><span class="variant">landscape</span><span class="variant">bg-video</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/cxtrends" target="_blank" rel="noopener">Zendesk CX Trends Report 2027</a></td></tr>
+          <tr><td><span class="variant">landscape</span><span class="variant">ghost-cta</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/professional-services" target="_blank" rel="noopener">Zendesk professional Services</a></td></tr>
+          <tr><td><span class="variant">image</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/partner" target="_blank" rel="noopener">Partner with Zendesk | Sell, deploy, and build custom solutions</a></td></tr>
+          <tr><td><span class="variant">image</span><span class="variant">logos</span><span class="variant">legacy</span><span class="variant">tint-yellow</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/employee-experience" target="_blank" rel="noopener">Internal Help Desk Software for Employees | Zendesk</a></td></tr>
+          <tr><td><span class="variant">text</span><span class="variant">legacy</span><span class="variant">tint-white</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/repeatcustomer" target="_blank" rel="noopener">The Repeat Customer podcast</a></td></tr>
+          <tr><td><span class="variant">video</span><span class="variant">legacy</span><span class="variant">tint-beige</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/sell" target="_blank" rel="noopener">Zendesk CRM for Sales | All-in-One Sales Platform Zendesk Sell</a></td></tr>
+          <tr><td><span class="variant">trial</span><span class="variant">logos</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/why-zendesk" target="_blank" rel="noopener">Why Zendesk | The AI Service Platform Built for Real Resolutions</a></td></tr>
+          <tr><td><span class="variant">tint-white</span><span class="variant">notice</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/help-center-closed" target="_blank" rel="noopener">Help Center Closed</a></td></tr>
+          <tr><td><span class="variant">trial</span><span class="variant">video</span><span class="variant">reverse</span><span class="variant">small</span><span class="variant">tint-white</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/web-widget" target="_blank" rel="noopener">Web Widget</a></td></tr>
+          <tr><td><span class="variant">trial</span><span class="variant">video</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/employee-service" target="_blank" rel="noopener">Zendesk: AI-Powered Employee Service Solution</a></td></tr>
+          <tr><td><span class="variant">video</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/platform" target="_blank" rel="noopener">Develop custom experiences with the Zendesk Platform | Zendesk Sunshine</a></td></tr>
+          <tr class="group"><td class="block" rowspan="10">fm-form<span class="block-pages">12 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/contact" target="_blank" rel="noopener">Contact us</a></td></tr>
+          <tr><td><span class="variant">hidden</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/contact" target="_blank" rel="noopener">Contact us</a>, <a href="https://main--3055ed88--aemcoder.aem.page/demo" target="_blank" rel="noopener">Zendesk Demo | Watch a Quick Help Desk Software Demo</a></td></tr>
+          <tr><td><span class="variant">instapage</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-demo" target="_blank" rel="noopener">Instapage Form: Demo</a>, <a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-contact" target="_blank" rel="noopener">Instapage Form: Contact</a></td></tr>
+          <tr><td><span class="variant">instapage</span><span class="variant">teaser</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-trial-teaser-sell" target="_blank" rel="noopener">Instapage Form: Trial Teaser Sell</a>, <a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-trial-teaser-suite" target="_blank" rel="noopener">Instapage Form: Trial Teaser Suite</a></td></tr>
+          <tr><td><span class="variant">modal</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/register" target="_blank" rel="noopener">Register</a>, <a href="https://main--3055ed88--aemcoder.aem.page/demo" target="_blank" rel="noopener">Zendesk Demo | Watch a Quick Help Desk Software Demo</a></td></tr>
+          <tr><td><span class="variant">instapage</span><span class="variant">halves</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-content" target="_blank" rel="noopener">Instapage Form: Content</a></td></tr>
+          <tr><td><span class="variant">instapage</span><span class="variant">inline</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-newsletter" target="_blank" rel="noopener">Instapage Form: Newsletter</a></td></tr>
+          <tr><td><span class="variant">instapage</span><span class="variant">teaser</span><span class="variant">inline</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-trial-teaser-suite-inline" target="_blank" rel="noopener">Instapage Form: Trial Teaser Suite Inline</a></td></tr>
+          <tr><td><span class="variant">instapage</span><span class="variant">loose</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-webinar" target="_blank" rel="noopener">Instapage Form: Webinar</a></td></tr>
+          <tr><td><span class="variant">login</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/login" target="_blank" rel="noopener">Login | Zendesk</a></td></tr>
+          <tr class="group"><td class="block" rowspan="6">bl-hero<span class="block-pages">8 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/blog" target="_blank" rel="noopener">Customer experience, support and sales blog | Zendesk</a></td></tr>
+          <tr><td><span class="variant">directory</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/marketplace/apps" target="_blank" rel="noopener">Zendesk App Marketplace - Find Apps, Integrations &amp; Partners</a>, <a href="https://main--3055ed88--aemcoder.aem.page/marketplace/partners" target="_blank" rel="noopener">Looking for Zendesk consulting, solution &amp; implementation partners?</a>, <a href="https://main--3055ed88--aemcoder.aem.page/marketplace/themes" target="_blank" rel="noopener">Freshen up your help center with new Zendesk Help Center Themes</a></td></tr>
+          <tr><td><span class="variant">hub</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/marketplace" target="_blank" rel="noopener">Zendesk Marketplace - Find Apps, Integrations &amp; Partners</a></td></tr>
+          <tr><td><span class="variant">hub</span><span class="variant">links</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/industries" target="_blank" rel="noopener">Looking for a CRM solution for your specific industry? | Zendesk</a></td></tr>
+          <tr><td><span class="variant">lead</span><span class="variant">tint-aqua</span><span class="variant">legacy</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/newsroom" target="_blank" rel="noopener">Zendesk Newsroom</a></td></tr>
+          <tr><td><span class="variant">legacy</span><span class="variant">tint-sand</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer" target="_blank" rel="noopener">Customers - What Companies Use to Service You | Zendesk</a></td></tr>
+          <tr class="group"><td class="block" rowspan="5">fm-hero<span class="block-pages">8 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/contact" target="_blank" rel="noopener">Contact us</a></td></tr>
+          <tr><td><span class="variant">instapage</span></td><td><button class="more" popovertarget="blocks-pages-8-1">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">modal</span><span class="variant">backdrop</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/register" target="_blank" rel="noopener">Register</a></td></tr>
+          <tr><td><span class="variant">center</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/login" target="_blank" rel="noopener">Login | Zendesk</a></td></tr>
+          <tr><td><span class="variant">modal</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/demo" target="_blank" rel="noopener">Zendesk Demo | Watch a Quick Help Desk Software Demo</a></td></tr>
+          <tr class="group"><td class="block" rowspan="5">sv-accordion<span class="block-pages">8 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-9-0">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">faq</span></td><td><button class="more" popovertarget="blocks-pages-9-1">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">legacy</span><span class="variant">tint-grey</span><span class="variant">reverse</span><span class="variant">aside</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/sell" target="_blank" rel="noopener">Zendesk CRM for Sales | All-in-One Sales Platform Zendesk Sell</a></td></tr>
+          <tr><td><span class="variant">legacy</span><span class="variant">tint-grey</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/employee-experience" target="_blank" rel="noopener">Internal Help Desk Software for Employees | Zendesk</a></td></tr>
+          <tr><td><span class="variant">reverse</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/platform" target="_blank" rel="noopener">Develop custom experiences with the Zendesk Platform | Zendesk Sunshine</a> <span class="blocks-count">×2</span></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-3">
+          <tr class="group"><td class="block" rowspan="10">sv-cards<span class="block-pages">8 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/service" target="_blank" rel="noopener">AI-powered customer service software | Zendesk</a>, <a href="https://main--3055ed88--aemcoder.aem.page/employee-service" target="_blank" rel="noopener">Zendesk: AI-Powered Employee Service Solution</a>, <a href="https://main--3055ed88--aemcoder.aem.page/why-zendesk" target="_blank" rel="noopener">Why Zendesk | The AI Service Platform Built for Real Resolutions</a></td></tr>
+          <tr><td><span class="variant">cols-3</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/partner" target="_blank" rel="noopener">Partner with Zendesk | Sell, deploy, and build custom solutions</a>, <a href="https://main--3055ed88--aemcoder.aem.page/platform" target="_blank" rel="noopener">Develop custom experiences with the Zendesk Platform | Zendesk Sunshine</a>, <a href="https://main--3055ed88--aemcoder.aem.page/professional-services" target="_blank" rel="noopener">Zendesk professional Services</a></td></tr>
+          <tr><td><span class="variant">stats</span><span class="variant">legacy</span><span class="variant">cols-3</span><span class="variant">tint-white</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/sell" target="_blank" rel="noopener">Zendesk CRM for Sales | All-in-One Sales Platform Zendesk Sell</a></td></tr>
+          <tr><td><span class="variant">stats</span><span class="variant">cols-3</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/partner" target="_blank" rel="noopener">Partner with Zendesk | Sell, deploy, and build custom solutions</a></td></tr>
+          <tr><td><span class="variant">stats</span><span class="variant">counter</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/why-zendesk" target="_blank" rel="noopener">Why Zendesk | The AI Service Platform Built for Real Resolutions</a></td></tr>
+          <tr><td><span class="variant">plans</span><span class="variant">legacy</span><span class="variant">tint-grey</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/sell" target="_blank" rel="noopener">Zendesk CRM for Sales | All-in-One Sales Platform Zendesk Sell</a></td></tr>
+          <tr><td><span class="variant">legacy</span><span class="variant">tint-white</span><span class="variant">posts</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/repeatcustomer" target="_blank" rel="noopener">The Repeat Customer podcast</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">logos</span><span class="variant">tint-forest</span><span class="variant">split</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/employee-service" target="_blank" rel="noopener">Zendesk: AI-Powered Employee Service Solution</a></td></tr>
+          <tr><td><span class="variant">media</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/partner" target="_blank" rel="noopener">Partner with Zendesk | Sell, deploy, and build custom solutions</a></td></tr>
+          <tr><td><span class="variant">split</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/partner" target="_blank" rel="noopener">Partner with Zendesk | Sell, deploy, and build custom solutions</a></td></tr>
+          <tr class="group"><td class="block" rowspan="18">sv-columns<span class="block-pages">8 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/service" target="_blank" rel="noopener">AI-powered customer service software | Zendesk</a></td></tr>
+          <tr><td><span class="variant">media</span></td><td><button class="more" popovertarget="blocks-pages-11-1">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">media</span><span class="variant">reverse</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/employee-service" target="_blank" rel="noopener">Zendesk: AI-Powered Employee Service Solution</a>, <a href="https://main--3055ed88--aemcoder.aem.page/why-zendesk" target="_blank" rel="noopener">Why Zendesk | The AI Service Platform Built for Real Resolutions</a> <span class="blocks-count">×3</span>, <a href="https://main--3055ed88--aemcoder.aem.page/cxtrends" target="_blank" rel="noopener">Zendesk CX Trends Report 2027</a></td></tr>
+          <tr><td><span class="variant">media</span><span class="variant">badges</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/why-zendesk" target="_blank" rel="noopener">Why Zendesk | The AI Service Platform Built for Real Resolutions</a></td></tr>
+          <tr><td><span class="variant">text</span><span class="variant">banner</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/why-zendesk" target="_blank" rel="noopener">Why Zendesk | The AI Service Platform Built for Real Resolutions</a></td></tr>
+          <tr><td><span class="variant">dark</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/employee-service" target="_blank" rel="noopener">Zendesk: AI-Powered Employee Service Solution</a></td></tr>
+          <tr><td><span class="variant">text</span><span class="variant">event</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/cxtrends" target="_blank" rel="noopener">Zendesk CX Trends Report 2027</a></td></tr>
+          <tr><td><span class="variant">media</span><span class="variant">legacy</span><span class="variant">tint-white</span><span class="variant">grid</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/employee-experience" target="_blank" rel="noopener">Internal Help Desk Software for Employees | Zendesk</a></td></tr>
+          <tr><td><span class="variant">media</span><span class="variant">legacy</span><span class="variant">tint-beige</span><span class="variant">reverse</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/sell" target="_blank" rel="noopener">Zendesk CRM for Sales | All-in-One Sales Platform Zendesk Sell</a></td></tr>
+          <tr><td><span class="variant">tabs</span><span class="variant">legacy</span><span class="variant">tint-grey</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/employee-experience" target="_blank" rel="noopener">Internal Help Desk Software for Employees | Zendesk</a></td></tr>
+          <tr><td><span class="variant">text</span><span class="variant">legacy</span><span class="variant">tint-white</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/employee-experience" target="_blank" rel="noopener">Internal Help Desk Software for Employees | Zendesk</a></td></tr>
+          <tr><td><span class="variant">media</span><span class="variant">modal</span><span class="variant">modal-trend-1-details</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/cxtrends" target="_blank" rel="noopener">Zendesk CX Trends Report 2027</a></td></tr>
+          <tr><td><span class="variant">media</span><span class="variant">modal</span><span class="variant">modal-trend-2-details</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/cxtrends" target="_blank" rel="noopener">Zendesk CX Trends Report 2027</a></td></tr>
+          <tr><td><span class="variant">media</span><span class="variant">modal</span><span class="variant">modal-trend-3-details</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/cxtrends" target="_blank" rel="noopener">Zendesk CX Trends Report 2027</a></td></tr>
+          <tr><td><span class="variant">media</span><span class="variant">modal</span><span class="variant">modal-trend-4-details</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/cxtrends" target="_blank" rel="noopener">Zendesk CX Trends Report 2027</a></td></tr>
+          <tr><td><span class="variant">media</span><span class="variant">modal</span><span class="variant">modal-trend-5-details</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/cxtrends" target="_blank" rel="noopener">Zendesk CX Trends Report 2027</a></td></tr>
+          <tr><td><span class="variant">media</span><span class="variant">tint-cream</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/employee-service" target="_blank" rel="noopener">Zendesk: AI-Powered Employee Service Solution</a></td></tr>
+          <tr><td><span class="variant">text</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/platform" target="_blank" rel="noopener">Develop custom experiences with the Zendesk Platform | Zendesk Sunshine</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">sv-form<span class="block-pages">7 pages</span></td><td><span class="variant">modal</span></td><td><button class="more" popovertarget="blocks-pages-12-0">View 6 pages</button></td></tr>
+          <tr><td><span class="variant">modal</span><span class="variant">modal-download-report</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/cxtrends" target="_blank" rel="noopener">Zendesk CX Trends Report 2027</a></td></tr>
+          <tr><td><span class="variant">modal</span><span class="variant">modal-register-for-event</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/cxtrends" target="_blank" rel="noopener">Zendesk CX Trends Report 2027</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">sv-stories<span class="block-pages">7 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-13-0">View 5 pages</button></td></tr>
+          <tr><td><span class="variant">logos</span><span class="variant">legacy</span><span class="variant">tint-white</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/sell" target="_blank" rel="noopener">Zendesk CRM for Sales | All-in-One Sales Platform Zendesk Sell</a></td></tr>
+          <tr><td><span class="variant">single</span><span class="variant">legacy</span><span class="variant">tint-grey</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/employee-experience" target="_blank" rel="noopener">Internal Help Desk Software for Employees | Zendesk</a></td></tr>
+          <tr class="group"><td class="block" rowspan="5">bl-latest<span class="block-pages">6 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/blog" target="_blank" rel="noopener">Customer experience, support and sales blog | Zendesk</a></td></tr>
+          <tr><td><span class="variant">filters</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/marketplace/apps" target="_blank" rel="noopener">Zendesk App Marketplace - Find Apps, Integrations &amp; Partners</a>, <a href="https://main--3055ed88--aemcoder.aem.page/marketplace/partners" target="_blank" rel="noopener">Looking for Zendesk consulting, solution &amp; implementation partners?</a></td></tr>
+          <tr><td><span class="variant">filters</span><span class="variant">themes</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/marketplace/themes" target="_blank" rel="noopener">Freshen up your help center with new Zendesk Help Center Themes</a></td></tr>
+          <tr><td><span class="variant">legacy</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/newsroom" target="_blank" rel="noopener">Zendesk Newsroom</a></td></tr>
+          <tr><td><span class="variant">no-title</span><span class="variant">legacy</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer" target="_blank" rel="noopener">Customers - What Companies Use to Service You | Zendesk</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-4">
+          <tr class="group"><td class="block" rowspan="4">sv-cta<span class="block-pages">6 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/service" target="_blank" rel="noopener">AI-powered customer service software | Zendesk</a>, <a href="https://main--3055ed88--aemcoder.aem.page/platform" target="_blank" rel="noopener">Develop custom experiences with the Zendesk Platform | Zendesk Sunshine</a>, <a href="https://main--3055ed88--aemcoder.aem.page/why-zendesk" target="_blank" rel="noopener">Why Zendesk | The AI Service Platform Built for Real Resolutions</a></td></tr>
+          <tr><td><span class="variant">ghost-cta</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/professional-services" target="_blank" rel="noopener">Zendesk professional Services</a></td></tr>
+          <tr><td><span class="variant">image</span><span class="variant">legacy</span><span class="variant">tint-yellow</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/employee-experience" target="_blank" rel="noopener">Internal Help Desk Software for Employees | Zendesk</a></td></tr>
+          <tr><td><span class="variant">small</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/partner" target="_blank" rel="noopener">Partner with Zendesk | Sell, deploy, and build custom solutions</a></td></tr>
+          <tr class="group"><td class="block" rowspan="5">sv-embed<span class="block-pages">6 pages</span></td><td><span class="variant">desktop</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/service" target="_blank" rel="noopener">AI-powered customer service software | Zendesk</a>, <a href="https://main--3055ed88--aemcoder.aem.page/employee-service" target="_blank" rel="noopener">Zendesk: AI-Powered Employee Service Solution</a></td></tr>
+          <tr><td><span class="variant">video</span><span class="variant">legacy</span><span class="variant">tint-white</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/employee-experience" target="_blank" rel="noopener">Internal Help Desk Software for Employees | Zendesk</a>, <a href="https://main--3055ed88--aemcoder.aem.page/sell" target="_blank" rel="noopener">Zendesk CRM for Sales | All-in-One Sales Platform Zendesk Sell</a></td></tr>
+          <tr><td><span class="variant">video</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/platform" target="_blank" rel="noopener">Develop custom experiences with the Zendesk Platform | Zendesk Sunshine</a>, <a href="https://main--3055ed88--aemcoder.aem.page/professional-services" target="_blank" rel="noopener">Zendesk professional Services</a></td></tr>
+          <tr><td><span class="variant">video</span><span class="variant">legacy</span><span class="variant">tint-white</span><span class="variant">reverse</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/sell" target="_blank" rel="noopener">Zendesk CRM for Sales | All-in-One Sales Platform Zendesk Sell</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">video</span><span class="variant">legacy</span><span class="variant">tint-grey</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/sell" target="_blank" rel="noopener">Zendesk CRM for Sales | All-in-One Sales Platform Zendesk Sell</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">sv-carousel<span class="block-pages">5 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-17-0">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">legacy</span><span class="variant">tint-white</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/employee-experience" target="_blank" rel="noopener">Internal Help Desk Software for Employees | Zendesk</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">sv-links<span class="block-pages">5 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/service" target="_blank" rel="noopener">AI-powered customer service software | Zendesk</a>, <a href="https://main--3055ed88--aemcoder.aem.page/employee-service" target="_blank" rel="noopener">Zendesk: AI-Powered Employee Service Solution</a></td></tr>
+          <tr><td><span class="variant">subnav</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/web-widget" target="_blank" rel="noopener">Web Widget</a>, <a href="https://main--3055ed88--aemcoder.aem.page/cxtrends" target="_blank" rel="noopener">Zendesk CX Trends Report 2027</a></td></tr>
+          <tr><td><span class="variant">subnav</span><span class="variant">blog</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/repeatcustomer" target="_blank" rel="noopener">The Repeat Customer podcast</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">bl-filters<span class="block-pages">4 pages</span></td><td><span class="variant">aside</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/marketplace/apps" target="_blank" rel="noopener">Zendesk App Marketplace - Find Apps, Integrations &amp; Partners</a>, <a href="https://main--3055ed88--aemcoder.aem.page/marketplace/partners" target="_blank" rel="noopener">Looking for Zendesk consulting, solution &amp; implementation partners?</a>, <a href="https://main--3055ed88--aemcoder.aem.page/marketplace/themes" target="_blank" rel="noopener">Freshen up your help center with new Zendesk Help Center Themes</a></td></tr>
+          <tr><td><span class="variant">bar</span><span class="variant">legacy</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer" target="_blank" rel="noopener">Customers - What Companies Use to Service You | Zendesk</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-5">
+          <tr class="group"><td class="block" rowspan="4">bl-promo<span class="block-pages">4 pages</span></td><td><span class="variant">text-only</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/marketplace" target="_blank" rel="noopener">Zendesk Marketplace - Find Apps, Integrations &amp; Partners</a>, <a href="https://main--3055ed88--aemcoder.aem.page/industries" target="_blank" rel="noopener">Looking for a CRM solution for your specific industry? | Zendesk</a></td></tr>
+          <tr><td><span class="variant">text-only</span><span class="variant">band</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/industries" target="_blank" rel="noopener">Looking for a CRM solution for your specific industry? | Zendesk</a></td></tr>
+          <tr><td><span class="variant">legacy</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer" target="_blank" rel="noopener">Customers - What Companies Use to Service You | Zendesk</a></td></tr>
+          <tr><td><span class="variant">pair</span><span class="variant">legacy</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/newsroom" target="_blank" rel="noopener">Zendesk Newsroom</a></td></tr>
+          <tr class="group"><td class="block" rowspan="7">bl-group<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/blog" target="_blank" rel="noopener">Customer experience, support and sales blog | Zendesk</a> <span class="blocks-count">×7</span></td></tr>
+          <tr><td><span class="variant">grid</span><span class="variant">features</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/marketplace" target="_blank" rel="noopener">Zendesk Marketplace - Find Apps, Integrations &amp; Partners</a></td></tr>
+          <tr><td><span class="variant">grid</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/marketplace" target="_blank" rel="noopener">Zendesk Marketplace - Find Apps, Integrations &amp; Partners</a> <span class="blocks-count">×3</span></td></tr>
+          <tr><td><span class="variant">grid</span><span class="variant">no-head</span><span class="variant">legacy</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer" target="_blank" rel="noopener">Customers - What Companies Use to Service You | Zendesk</a></td></tr>
+          <tr><td><span class="variant">grid</span><span class="variant">no-head</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/marketplace" target="_blank" rel="noopener">Zendesk Marketplace - Find Apps, Integrations &amp; Partners</a></td></tr>
+          <tr><td><span class="variant">grid</span><span class="variant">themes</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/marketplace" target="_blank" rel="noopener">Zendesk Marketplace - Find Apps, Integrations &amp; Partners</a></td></tr>
+          <tr><td><span class="variant">logos</span><span class="variant">legacy</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/customer" target="_blank" rel="noopener">Customers - What Companies Use to Service You | Zendesk</a></td></tr>
+          <tr class="group"><td class="block" rowspan="4">bl-guides<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/blog" target="_blank" rel="noopener">Customer experience, support and sales blog | Zendesk</a></td></tr>
+          <tr><td><span class="variant">box</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/marketplace" target="_blank" rel="noopener">Zendesk Marketplace - Find Apps, Integrations &amp; Partners</a></td></tr>
+          <tr><td><span class="variant">grouped</span><span class="variant">box</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/marketplace" target="_blank" rel="noopener">Zendesk Marketplace - Find Apps, Integrations &amp; Partners</a></td></tr>
+          <tr><td><span class="variant">dated</span><span class="variant">legacy</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/newsroom" target="_blank" rel="noopener">Zendesk Newsroom</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">co-cta<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/company" target="_blank" rel="noopener">About Zendesk</a></td></tr>
+          <tr><td><span class="variant">lg</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/trust-center" target="_blank" rel="noopener">Security, Privacy and Legal | Zendesk Trust Center</a>, <a href="https://main--3055ed88--aemcoder.aem.page/what-is-zendesk" target="_blank" rel="noopener">What is Zendesk? Powerful customer experience software</a></td></tr>
+          <tr class="group"><td class="block" rowspan="4">co-teaser<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/company" target="_blank" rel="noopener">About Zendesk</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">hero</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/trust-center" target="_blank" rel="noopener">Security, Privacy and Legal | Zendesk Trust Center</a>, <a href="https://main--3055ed88--aemcoder.aem.page/what-is-zendesk" target="_blank" rel="noopener">What is Zendesk? Powerful customer experience software</a>, <a href="https://main--3055ed88--aemcoder.aem.page/company" target="_blank" rel="noopener">About Zendesk</a></td></tr>
+          <tr><td><span class="variant">reverse</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/company" target="_blank" rel="noopener">About Zendesk</a></td></tr>
+          <tr><td><span class="variant">video</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/what-is-zendesk" target="_blank" rel="noopener">What is Zendesk? Powerful customer experience software</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-6">
+          <tr class="group"><td class="block">hp-duo<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/" target="_blank" rel="noopener">AI-Powered Customer Service Platform | Zendesk</a>, <a href="https://main--3055ed88--aemcoder.aem.page/free-trial" target="_blank" rel="noopener">Zendesk Free Trial | AI Customer &amp; Employee Service</a></td></tr>
+          <tr class="group"><td class="block">hp-res<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/" target="_blank" rel="noopener">AI-Powered Customer Service Platform | Zendesk</a>, <a href="https://main--3055ed88--aemcoder.aem.page/free-trial" target="_blank" rel="noopener">Zendesk Free Trial | AI Customer &amp; Employee Service</a></td></tr>
+          <tr class="group"><td class="block">hp-teaser<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/" target="_blank" rel="noopener">AI-Powered Customer Service Platform | Zendesk</a>, <a href="https://main--3055ed88--aemcoder.aem.page/blog" target="_blank" rel="noopener">Customer experience, support and sales blog | Zendesk</a></td></tr>
+          <tr class="group"><td class="block">pr-faq<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/pricing" target="_blank" rel="noopener">Zendesk Pricing Plans | Starting from $19/month</a>, <a href="https://main--3055ed88--aemcoder.aem.page/free-trial" target="_blank" rel="noopener">Zendesk Free Trial | AI Customer &amp; Employee Service</a></td></tr>
+          <tr class="group"><td class="block">sv-promo<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/service" target="_blank" rel="noopener">AI-powered customer service software | Zendesk</a>, <a href="https://main--3055ed88--aemcoder.aem.page/employee-service" target="_blank" rel="noopener">Zendesk: AI-Powered Employee Service Solution</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-7">
+          <tr class="group"><td class="block">bl-subnav<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/blog" target="_blank" rel="noopener">Customer experience, support and sales blog | Zendesk</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">co-accordion<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/trust-center" target="_blank" rel="noopener">Security, Privacy and Legal | Zendesk Trust Center</a> <span class="blocks-count">×6</span></td></tr>
+          <tr><td><span class="variant">lead</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/trust-center" target="_blank" rel="noopener">Security, Privacy and Legal | Zendesk Trust Center</a> <span class="blocks-count">×4</span></td></tr>
+          <tr class="group"><td class="block">co-cards<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/what-is-zendesk" target="_blank" rel="noopener">What is Zendesk? Powerful customer experience software</a></td></tr>
+          <tr class="group"><td class="block">co-carousel<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/company" target="_blank" rel="noopener">About Zendesk</a></td></tr>
+          <tr class="group"><td class="block">co-linklist<span class="block-pages">1 page</span></td><td><span class="variant">legacy</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/sitemap" target="_blank" rel="noopener">The Zendesk Sitemap for Quick Navigation</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-8">
+          <tr class="group"><td class="block">co-logos<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/what-is-zendesk" target="_blank" rel="noopener">What is Zendesk? Powerful customer experience software</a></td></tr>
+          <tr class="group"><td class="block">co-promo<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/company" target="_blank" rel="noopener">About Zendesk</a></td></tr>
+          <tr class="group"><td class="block">co-stats<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/what-is-zendesk" target="_blank" rel="noopener">What is Zendesk? Powerful customer experience software</a></td></tr>
+          <tr class="group"><td class="block">co-tabs<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/trust-center" target="_blank" rel="noopener">Security, Privacy and Legal | Zendesk Trust Center</a></td></tr>
+          <tr class="group"><td class="block">fm-cta<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/free-trial" target="_blank" rel="noopener">Zendesk Free Trial | AI Customer &amp; Employee Service</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-9">
+          <tr class="group"><td class="block">fm-embed<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/demo" target="_blank" rel="noopener">Zendesk Demo | Watch a Quick Help Desk Software Demo</a></td></tr>
+          <tr class="group"><td class="block">fm-features<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/free-trial" target="_blank" rel="noopener">Zendesk Free Trial | AI Customer &amp; Employee Service</a></td></tr>
+          <tr class="group"><td class="block">fm-logos<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/free-trial" target="_blank" rel="noopener">Zendesk Free Trial | AI Customer &amp; Employee Service</a></td></tr>
+          <tr class="group"><td class="block">fm-offices<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/contact" target="_blank" rel="noopener">Contact us</a></td></tr>
+          <tr class="group"><td class="block">fm-promo<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/free-trial" target="_blank" rel="noopener">Zendesk Free Trial | AI Customer &amp; Employee Service</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-10">
+          <tr class="group"><td class="block">fm-quotes<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/free-trial" target="_blank" rel="noopener">Zendesk Free Trial | AI Customer &amp; Employee Service</a></td></tr>
+          <tr class="group"><td class="block">hp-aifirst<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/" target="_blank" rel="noopener">AI-Powered Customer Service Platform | Zendesk</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">hp-cta<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/" target="_blank" rel="noopener">AI-Powered Customer Service Platform | Zendesk</a></td></tr>
+          <tr><td><span class="variant">banner</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/" target="_blank" rel="noopener">AI-Powered Customer Service Platform | Zendesk</a></td></tr>
+          <tr class="group"><td class="block">hp-faq<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/" target="_blank" rel="noopener">AI-Powered Customer Service Platform | Zendesk</a></td></tr>
+          <tr class="group"><td class="block">hp-hero<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/" target="_blank" rel="noopener">AI-Powered Customer Service Platform | Zendesk</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-11">
+          <tr class="group"><td class="block">hp-logos<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/" target="_blank" rel="noopener">AI-Powered Customer Service Platform | Zendesk</a></td></tr>
+          <tr class="group"><td class="block">hp-pillars<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/" target="_blank" rel="noopener">AI-Powered Customer Service Platform | Zendesk</a></td></tr>
+          <tr class="group"><td class="block">hp-quotes<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/" target="_blank" rel="noopener">AI-Powered Customer Service Platform | Zendesk</a></td></tr>
+          <tr class="group"><td class="block">hp-rll<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/" target="_blank" rel="noopener">AI-Powered Customer Service Platform | Zendesk</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">hp-split<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/" target="_blank" rel="noopener">AI-Powered Customer Service Platform | Zendesk</a></td></tr>
+          <tr><td><span class="variant">wide</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/" target="_blank" rel="noopener">AI-Powered Customer Service Platform | Zendesk</a> <span class="blocks-count">×2</span></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-12">
+          <tr class="group"><td class="block">hp-stats<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/" target="_blank" rel="noopener">AI-Powered Customer Service Platform | Zendesk</a></td></tr>
+          <tr class="group"><td class="block">pr-final<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/pricing" target="_blank" rel="noopener">Zendesk Pricing Plans | Starting from $19/month</a></td></tr>
+          <tr class="group"><td class="block">pr-head<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/pricing" target="_blank" rel="noopener">Zendesk Pricing Plans | Starting from $19/month</a></td></tr>
+          <tr class="group"><td class="block">pr-logos<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/pricing" target="_blank" rel="noopener">Zendesk Pricing Plans | Starting from $19/month</a></td></tr>
+          <tr class="group"><td class="block">pr-matrix<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/pricing" target="_blank" rel="noopener">Zendesk Pricing Plans | Starting from $19/month</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-13">
+          <tr class="group"><td class="block">pr-modal<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/pricing" target="_blank" rel="noopener">Zendesk Pricing Plans | Starting from $19/month</a> <span class="blocks-count">×27</span></td></tr>
+          <tr class="group"><td class="block" rowspan="2">pr-plans<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/pricing" target="_blank" rel="noopener">Zendesk Pricing Plans | Starting from $19/month</a></td></tr>
+          <tr><td><span class="variant">addons</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/pricing" target="_blank" rel="noopener">Zendesk Pricing Plans | Starting from $19/month</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">pr-split<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/pricing" target="_blank" rel="noopener">Zendesk Pricing Plans | Starting from $19/month</a></td></tr>
+          <tr><td><span class="variant">dark</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/pricing" target="_blank" rel="noopener">Zendesk Pricing Plans | Starting from $19/month</a></td></tr>
+          <tr><td><span class="variant">reverse</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/pricing" target="_blank" rel="noopener">Zendesk Pricing Plans | Starting from $19/month</a></td></tr>
+          <tr class="group"><td class="block">un-raw<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/blog-ads-api-output" target="_blank" rel="noopener">blog-ads-api-output</a></td></tr>
+          <tr class="group"><td class="block">un-tour<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--3055ed88--aemcoder.aem.page/intro-tour" target="_blank" rel="noopener">Take a quick tour</a></td></tr>
+        </tbody>
+      </table>
+      <nav class="pager" aria-label="Pages of blocks"><span class="bp-range bp-range-1">Blocks 1–5 of 65</span><span class="bp-range bp-range-2">Blocks 6–10 of 65</span><span class="bp-range bp-range-3">Blocks 11–15 of 65</span><span class="bp-range bp-range-4">Blocks 16–20 of 65</span><span class="bp-range bp-range-5">Blocks 21–25 of 65</span><span class="bp-range bp-range-6">Blocks 26–30 of 65</span><span class="bp-range bp-range-7">Blocks 31–35 of 65</span><span class="bp-range bp-range-8">Blocks 36–40 of 65</span><span class="bp-range bp-range-9">Blocks 41–45 of 65</span><span class="bp-range bp-range-10">Blocks 46–50 of 65</span><span class="bp-range bp-range-11">Blocks 51–55 of 65</span><span class="bp-range bp-range-12">Blocks 56–60 of 65</span><span class="bp-range bp-range-13">Blocks 61–65 of 65</span><div class="labels"><label for="bp-1" class="spectrum-button spectrum-button--quiet">1</label><label for="bp-2" class="spectrum-button spectrum-button--quiet">2</label><label for="bp-3" class="spectrum-button spectrum-button--quiet">3</label><label for="bp-4" class="spectrum-button spectrum-button--quiet">4</label><label for="bp-5" class="spectrum-button spectrum-button--quiet">5</label><label for="bp-6" class="spectrum-button spectrum-button--quiet">6</label><label for="bp-7" class="spectrum-button spectrum-button--quiet">7</label><label for="bp-8" class="spectrum-button spectrum-button--quiet">8</label><label for="bp-9" class="spectrum-button spectrum-button--quiet">9</label><label for="bp-10" class="spectrum-button spectrum-button--quiet">10</label><label for="bp-11" class="spectrum-button spectrum-button--quiet">11</label><label for="bp-12" class="spectrum-button spectrum-button--quiet">12</label><label for="bp-13" class="spectrum-button spectrum-button--quiet">13</label></div></nav>
+      <div popover id="blocks-pages-0-1" class="blocks-popover" aria-labelledby="blocks-pages-0-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-1-title">zb-article <span class="variant-inline">body-md</span></h3>
+            <p class="blocks-count">Used on 45 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/madeiramadeira" target="_blank" rel="noopener">MadeiraMadeira transforms CX with Zendesk AI agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/dfin" target="_blank" rel="noopener">DFIN unifies service and drives 80 percent first-call resolution with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/koho" target="_blank" rel="noopener">KOHO saves $8M with Forethought Voice</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/bgl" target="_blank" rel="noopener">BGL handles rapid growth with Zendesk AI-powered customer support</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/deputy" target="_blank" rel="noopener">Deputy builds an AI-first support experience with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/qantas-loyalty" target="_blank" rel="noopener">Qantas Loyalty soars past automation goals with Zendesk AI Agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/perk-es" target="_blank" rel="noopener">Perk scales employee service with Zendesk + HiBob without losing the human touch</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/asaas" target="_blank" rel="noopener">Asaas transforms complexity into confidence with Zendesk Copilot</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/recargapay" target="_blank" rel="noopener">RecargaPay transforms Support With Zendesk Copilot</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/liberty-tax" target="_blank" rel="noopener">Liberty Tax scales seasonal support with Zendesk AI agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/motiva" target="_blank" rel="noopener">How Motiva is building an omnichannel operation with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/star21" target="_blank" rel="noopener">Star21 innovates faster with Zendesk App Builder</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/petstock" target="_blank" rel="noopener">Petstock modernizes telephony with Zendesk Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/thoughtworks" target="_blank" rel="noopener">Thoughtworks transforms employee service with AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/solo-by-myob" target="_blank" rel="noopener">Lean team, big impact: Solo by MYOB&#39;s service-first playbook</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/givedirectly" target="_blank" rel="noopener">GiveDirectly speeds up disaster response with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/uneo" target="_blank" rel="noopener">Zendesk delivers a 360° customer experience for Unéo</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/trodo" target="_blank" rel="noopener">Trodo drives the future of automated CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/sealy-of-australia" target="_blank" rel="noopener">Sealy of Australia scales CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/betmgm-brasil" target="_blank" rel="noopener">BetMGM Brasil doubles down on the player experience with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/the-smith-family" target="_blank" rel="noopener">The Smith Family builds trust with Zendesk Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/catapult" target="_blank" rel="noopener">Catapult offers elite CX performance with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/lucid-software-es" target="_blank" rel="noopener">Lucid Software builds trust at scale with Zendesk for Employee Service</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/coco-republic" target="_blank" rel="noopener">Coco Republic elevates luxury service with Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/envato" target="_blank" rel="noopener">Envato cuts first reply time with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/tbauctions" target="_blank" rel="noopener">TBAuctions speeds customer support with Zendesk Advanced AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/furnished-finder" target="_blank" rel="noopener">Inside Furnished Finder’s human-centered approach to AI in customer support</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/lucid-software-ai" target="_blank" rel="noopener">Lucid Software scales support for 100 million users with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/pure-insurance" target="_blank" rel="noopener">How PURE Insurance scales internal support to 16+ teams with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/five-iron-golf" target="_blank" rel="noopener">Five Iron Golf unifies customer conversations with Zendesk Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/github-es" target="_blank" rel="noopener">GitHub makes Zendesk the foundation of elevated employee service</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/tesu" target="_blank" rel="noopener">TESU transforms student support with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/inshur" target="_blank" rel="noopener">The policy behind the promise: INSHUR’s CX transformation with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/odeon-cinemas" target="_blank" rel="noopener">ODEON Cinemas delivers boffo results with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/sinch-engage" target="_blank" rel="noopener">Leading cloud comms company sees major CX gains with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/zendesk-for-employee-service" target="_blank" rel="noopener">Zendesk facilitates 54% of internal tickets with AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/motel-rocks" target="_blank" rel="noopener">Motel sees self-service climb by 3X and faster ticket handling with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/privy" target="_blank" rel="noopener">Privy scales customer service with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/liberty-qa" target="_blank" rel="noopener">How Liberty uses Zendesk QA to provide luxury customer service</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/qualia" target="_blank" rel="noopener">How Qualia uses GenAI to radically elevate its CX</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/miko" target="_blank" rel="noopener">Miko uses AI to scale CX for high growth and assist busy agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/dupage-county" target="_blank" rel="noopener">DuPage County modernizes employee support and CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/starshipit" target="_blank" rel="noopener">Starshipit</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/benevity" target="_blank" rel="noopener">Benevity transforms ticket triaging with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/quickmd" target="_blank" rel="noopener">QuickMD achieves faster resolutions with Zendesk</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-0-2" class="blocks-popover" aria-labelledby="blocks-pages-0-2-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-2-title">zb-article <span class="variant-inline">body-md para-images img-lsep</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-2" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/docebo" target="_blank" rel="noopener">Docebo enhances B2B CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/britbox" target="_blank" rel="noopener">How BritBox maintains white-glove CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/yape" target="_blank" rel="noopener">Yape enhances its CX with Zendesk AI Copilot for faster and more efficient resolutions</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/action-property-management" target="_blank" rel="noopener">Zendesk AI helps Action Property Management homeowners love where they live</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/easyfundraising" target="_blank" rel="noopener">How easyfundraising&#39;s six-person team supports millions with Zendesk AI</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-0-3" class="blocks-popover" aria-labelledby="blocks-pages-0-3-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-3-title">zb-article <span class="variant-inline">body-md para-images</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-3" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/serasa-experian" target="_blank" rel="noopener">Serasa Experian expands digital customer service with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/nortek" target="_blank" rel="noopener">How Nortek is using AI to make more time for customers</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/resurs-bank" target="_blank" rel="noopener">Resurs Bank partners with Synerity to bring AI-powered support to Nordic customers</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/babbel" target="_blank" rel="noopener">Zendesk AI speaks Babbel’s language</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/shearcomfort" target="_blank" rel="noopener">ShearComfort finds AI to be a perfect fit for exceptional CX</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-0" class="blocks-popover" aria-labelledby="blocks-pages-1-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-0-title">zb-story-hero <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 59 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/madeiramadeira" target="_blank" rel="noopener">MadeiraMadeira transforms CX with Zendesk AI agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/serasa-experian" target="_blank" rel="noopener">Serasa Experian expands digital customer service with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/nortek" target="_blank" rel="noopener">How Nortek is using AI to make more time for customers</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/resurs-bank" target="_blank" rel="noopener">Resurs Bank partners with Synerity to bring AI-powered support to Nordic customers</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/mimecast" target="_blank" rel="noopener">Mimecast transforms customer support with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/dfin" target="_blank" rel="noopener">DFIN unifies service and drives 80 percent first-call resolution with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/canva" target="_blank" rel="noopener">Canva turns customer insights into action with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/koho" target="_blank" rel="noopener">KOHO saves $8M with Forethought Voice</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/bgl" target="_blank" rel="noopener">BGL handles rapid growth with Zendesk AI-powered customer support</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/deputy" target="_blank" rel="noopener">Deputy builds an AI-first support experience with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/qantas-loyalty" target="_blank" rel="noopener">Qantas Loyalty soars past automation goals with Zendesk AI Agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/perk-es" target="_blank" rel="noopener">Perk scales employee service with Zendesk + HiBob without losing the human touch</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/asaas" target="_blank" rel="noopener">Asaas transforms complexity into confidence with Zendesk Copilot</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/recargapay" target="_blank" rel="noopener">RecargaPay transforms Support With Zendesk Copilot</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/liberty-tax" target="_blank" rel="noopener">Liberty Tax scales seasonal support with Zendesk AI agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/motiva" target="_blank" rel="noopener">How Motiva is building an omnichannel operation with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/star21" target="_blank" rel="noopener">Star21 innovates faster with Zendesk App Builder</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/petstock" target="_blank" rel="noopener">Petstock modernizes telephony with Zendesk Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/thoughtworks" target="_blank" rel="noopener">Thoughtworks transforms employee service with AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/solo-by-myob" target="_blank" rel="noopener">Lean team, big impact: Solo by MYOB&#39;s service-first playbook</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/givedirectly" target="_blank" rel="noopener">GiveDirectly speeds up disaster response with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/uneo" target="_blank" rel="noopener">Zendesk delivers a 360° customer experience for Unéo</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/trodo" target="_blank" rel="noopener">Trodo drives the future of automated CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/sealy-of-australia" target="_blank" rel="noopener">Sealy of Australia scales CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/betmgm-brasil" target="_blank" rel="noopener">BetMGM Brasil doubles down on the player experience with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/the-smith-family" target="_blank" rel="noopener">The Smith Family builds trust with Zendesk Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/catapult" target="_blank" rel="noopener">Catapult offers elite CX performance with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/lucid-software-es" target="_blank" rel="noopener">Lucid Software builds trust at scale with Zendesk for Employee Service</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/coco-republic" target="_blank" rel="noopener">Coco Republic elevates luxury service with Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/envato" target="_blank" rel="noopener">Envato cuts first reply time with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/docebo" target="_blank" rel="noopener">Docebo enhances B2B CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/tbauctions" target="_blank" rel="noopener">TBAuctions speeds customer support with Zendesk Advanced AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/furnished-finder" target="_blank" rel="noopener">Inside Furnished Finder’s human-centered approach to AI in customer support</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/lucid-software-ai" target="_blank" rel="noopener">Lucid Software scales support for 100 million users with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/pure-insurance" target="_blank" rel="noopener">How PURE Insurance scales internal support to 16+ teams with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/five-iron-golf" target="_blank" rel="noopener">Five Iron Golf unifies customer conversations with Zendesk Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/github-es" target="_blank" rel="noopener">GitHub makes Zendesk the foundation of elevated employee service</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/tesu" target="_blank" rel="noopener">TESU transforms student support with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/inshur" target="_blank" rel="noopener">The policy behind the promise: INSHUR’s CX transformation with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/odeon-cinemas" target="_blank" rel="noopener">ODEON Cinemas delivers boffo results with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/britbox" target="_blank" rel="noopener">How BritBox maintains white-glove CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/sinch-engage" target="_blank" rel="noopener">Leading cloud comms company sees major CX gains with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/zendesk-for-employee-service" target="_blank" rel="noopener">Zendesk facilitates 54% of internal tickets with AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/irc-video" target="_blank" rel="noopener">IRC Video</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/motel-rocks" target="_blank" rel="noopener">Motel sees self-service climb by 3X and faster ticket handling with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/privy" target="_blank" rel="noopener">Privy scales customer service with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/liberty-qa" target="_blank" rel="noopener">How Liberty uses Zendesk QA to provide luxury customer service</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/qualia" target="_blank" rel="noopener">How Qualia uses GenAI to radically elevate its CX</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/miko" target="_blank" rel="noopener">Miko uses AI to scale CX for high growth and assist busy agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/ballys" target="_blank" rel="noopener">Bally&#39;s</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/dupage-county" target="_blank" rel="noopener">DuPage County modernizes employee support and CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/yape" target="_blank" rel="noopener">Yape enhances its CX with Zendesk AI Copilot for faster and more efficient resolutions</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/babbel" target="_blank" rel="noopener">Zendesk AI speaks Babbel’s language</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/starshipit" target="_blank" rel="noopener">Starshipit</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/action-property-management" target="_blank" rel="noopener">Zendesk AI helps Action Property Management homeowners love where they live</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/easyfundraising" target="_blank" rel="noopener">How easyfundraising&#39;s six-person team supports millions with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/shearcomfort" target="_blank" rel="noopener">ShearComfort finds AI to be a perfect fit for exceptional CX</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/benevity" target="_blank" rel="noopener">Benevity transforms ticket triaging with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/quickmd" target="_blank" rel="noopener">QuickMD achieves faster resolutions with Zendesk</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-2-0" class="blocks-popover" aria-labelledby="blocks-pages-2-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-2-0-title">zb-facts <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 44 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-2-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/madeiramadeira" target="_blank" rel="noopener">MadeiraMadeira transforms CX with Zendesk AI agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/mimecast" target="_blank" rel="noopener">Mimecast transforms customer support with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/canva" target="_blank" rel="noopener">Canva turns customer insights into action with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/bgl" target="_blank" rel="noopener">BGL handles rapid growth with Zendesk AI-powered customer support</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/deputy" target="_blank" rel="noopener">Deputy builds an AI-first support experience with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/qantas-loyalty" target="_blank" rel="noopener">Qantas Loyalty soars past automation goals with Zendesk AI Agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/perk-es" target="_blank" rel="noopener">Perk scales employee service with Zendesk + HiBob without losing the human touch</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/recargapay" target="_blank" rel="noopener">RecargaPay transforms Support With Zendesk Copilot</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/liberty-tax" target="_blank" rel="noopener">Liberty Tax scales seasonal support with Zendesk AI agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/motiva" target="_blank" rel="noopener">How Motiva is building an omnichannel operation with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/thoughtworks" target="_blank" rel="noopener">Thoughtworks transforms employee service with AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/givedirectly" target="_blank" rel="noopener">GiveDirectly speeds up disaster response with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/trodo" target="_blank" rel="noopener">Trodo drives the future of automated CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/sealy-of-australia" target="_blank" rel="noopener">Sealy of Australia scales CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/the-smith-family" target="_blank" rel="noopener">The Smith Family builds trust with Zendesk Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/catapult" target="_blank" rel="noopener">Catapult offers elite CX performance with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/lucid-software-es" target="_blank" rel="noopener">Lucid Software builds trust at scale with Zendesk for Employee Service</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/envato" target="_blank" rel="noopener">Envato cuts first reply time with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/docebo" target="_blank" rel="noopener">Docebo enhances B2B CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/tbauctions" target="_blank" rel="noopener">TBAuctions speeds customer support with Zendesk Advanced AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/furnished-finder" target="_blank" rel="noopener">Inside Furnished Finder’s human-centered approach to AI in customer support</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/lucid-software-ai" target="_blank" rel="noopener">Lucid Software scales support for 100 million users with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/pure-insurance" target="_blank" rel="noopener">How PURE Insurance scales internal support to 16+ teams with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/five-iron-golf" target="_blank" rel="noopener">Five Iron Golf unifies customer conversations with Zendesk Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/github-es" target="_blank" rel="noopener">GitHub makes Zendesk the foundation of elevated employee service</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/tesu" target="_blank" rel="noopener">TESU transforms student support with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/inshur" target="_blank" rel="noopener">The policy behind the promise: INSHUR’s CX transformation with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/britbox" target="_blank" rel="noopener">How BritBox maintains white-glove CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/sinch-engage" target="_blank" rel="noopener">Leading cloud comms company sees major CX gains with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/zendesk-for-employee-service" target="_blank" rel="noopener">Zendesk facilitates 54% of internal tickets with AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/irc-video" target="_blank" rel="noopener">IRC Video</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/motel-rocks" target="_blank" rel="noopener">Motel sees self-service climb by 3X and faster ticket handling with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/privy" target="_blank" rel="noopener">Privy scales customer service with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/liberty-qa" target="_blank" rel="noopener">How Liberty uses Zendesk QA to provide luxury customer service</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/qualia" target="_blank" rel="noopener">How Qualia uses GenAI to radically elevate its CX</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/miko" target="_blank" rel="noopener">Miko uses AI to scale CX for high growth and assist busy agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/dupage-county" target="_blank" rel="noopener">DuPage County modernizes employee support and CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/yape" target="_blank" rel="noopener">Yape enhances its CX with Zendesk AI Copilot for faster and more efficient resolutions</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/babbel" target="_blank" rel="noopener">Zendesk AI speaks Babbel’s language</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/starshipit" target="_blank" rel="noopener">Starshipit</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/action-property-management" target="_blank" rel="noopener">Zendesk AI helps Action Property Management homeowners love where they live</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/easyfundraising" target="_blank" rel="noopener">How easyfundraising&#39;s six-person team supports millions with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/benevity" target="_blank" rel="noopener">Benevity transforms ticket triaging with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/quickmd" target="_blank" rel="noopener">QuickMD achieves faster resolutions with Zendesk</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-2-1" class="blocks-popover" aria-labelledby="blocks-pages-2-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-2-1-title">zb-facts <span class="variant-inline">three-up</span></h3>
+            <p class="blocks-count">Used on 13 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-2-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/serasa-experian" target="_blank" rel="noopener">Serasa Experian expands digital customer service with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/resurs-bank" target="_blank" rel="noopener">Resurs Bank partners with Synerity to bring AI-powered support to Nordic customers</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/dfin" target="_blank" rel="noopener">DFIN unifies service and drives 80 percent first-call resolution with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/koho" target="_blank" rel="noopener">KOHO saves $8M with Forethought Voice</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/star21" target="_blank" rel="noopener">Star21 innovates faster with Zendesk App Builder</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/petstock" target="_blank" rel="noopener">Petstock modernizes telephony with Zendesk Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/solo-by-myob" target="_blank" rel="noopener">Lean team, big impact: Solo by MYOB&#39;s service-first playbook</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/uneo" target="_blank" rel="noopener">Zendesk delivers a 360° customer experience for Unéo</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/betmgm-brasil" target="_blank" rel="noopener">BetMGM Brasil doubles down on the player experience with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/coco-republic" target="_blank" rel="noopener">Coco Republic elevates luxury service with Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/odeon-cinemas" target="_blank" rel="noopener">ODEON Cinemas delivers boffo results with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/ballys" target="_blank" rel="noopener">Bally&#39;s</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/shearcomfort" target="_blank" rel="noopener">ShearComfort finds AI to be a perfect fit for exceptional CX</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-3-0" class="blocks-popover" aria-labelledby="blocks-pages-3-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-3-0-title">zb-quotes <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 55 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-3-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/madeiramadeira" target="_blank" rel="noopener">MadeiraMadeira transforms CX with Zendesk AI agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/serasa-experian" target="_blank" rel="noopener">Serasa Experian expands digital customer service with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/resurs-bank" target="_blank" rel="noopener">Resurs Bank partners with Synerity to bring AI-powered support to Nordic customers</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/mimecast" target="_blank" rel="noopener">Mimecast transforms customer support with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/dfin" target="_blank" rel="noopener">DFIN unifies service and drives 80 percent first-call resolution with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/canva" target="_blank" rel="noopener">Canva turns customer insights into action with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/koho" target="_blank" rel="noopener">KOHO saves $8M with Forethought Voice</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/bgl" target="_blank" rel="noopener">BGL handles rapid growth with Zendesk AI-powered customer support</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/deputy" target="_blank" rel="noopener">Deputy builds an AI-first support experience with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/perk-es" target="_blank" rel="noopener">Perk scales employee service with Zendesk + HiBob without losing the human touch</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/asaas" target="_blank" rel="noopener">Asaas transforms complexity into confidence with Zendesk Copilot</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/recargapay" target="_blank" rel="noopener">RecargaPay transforms Support With Zendesk Copilot</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/liberty-tax" target="_blank" rel="noopener">Liberty Tax scales seasonal support with Zendesk AI agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/motiva" target="_blank" rel="noopener">How Motiva is building an omnichannel operation with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/star21" target="_blank" rel="noopener">Star21 innovates faster with Zendesk App Builder</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/petstock" target="_blank" rel="noopener">Petstock modernizes telephony with Zendesk Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/thoughtworks" target="_blank" rel="noopener">Thoughtworks transforms employee service with AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/solo-by-myob" target="_blank" rel="noopener">Lean team, big impact: Solo by MYOB&#39;s service-first playbook</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/givedirectly" target="_blank" rel="noopener">GiveDirectly speeds up disaster response with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/uneo" target="_blank" rel="noopener">Zendesk delivers a 360° customer experience for Unéo</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/trodo" target="_blank" rel="noopener">Trodo drives the future of automated CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/sealy-of-australia" target="_blank" rel="noopener">Sealy of Australia scales CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/betmgm-brasil" target="_blank" rel="noopener">BetMGM Brasil doubles down on the player experience with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/the-smith-family" target="_blank" rel="noopener">The Smith Family builds trust with Zendesk Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/catapult" target="_blank" rel="noopener">Catapult offers elite CX performance with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/lucid-software-es" target="_blank" rel="noopener">Lucid Software builds trust at scale with Zendesk for Employee Service</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/coco-republic" target="_blank" rel="noopener">Coco Republic elevates luxury service with Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/envato" target="_blank" rel="noopener">Envato cuts first reply time with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/docebo" target="_blank" rel="noopener">Docebo enhances B2B CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/tbauctions" target="_blank" rel="noopener">TBAuctions speeds customer support with Zendesk Advanced AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/furnished-finder" target="_blank" rel="noopener">Inside Furnished Finder’s human-centered approach to AI in customer support</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/lucid-software-ai" target="_blank" rel="noopener">Lucid Software scales support for 100 million users with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/pure-insurance" target="_blank" rel="noopener">How PURE Insurance scales internal support to 16+ teams with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/five-iron-golf" target="_blank" rel="noopener">Five Iron Golf unifies customer conversations with Zendesk Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/github-es" target="_blank" rel="noopener">GitHub makes Zendesk the foundation of elevated employee service</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/tesu" target="_blank" rel="noopener">TESU transforms student support with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/odeon-cinemas" target="_blank" rel="noopener">ODEON Cinemas delivers boffo results with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/britbox" target="_blank" rel="noopener">How BritBox maintains white-glove CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/sinch-engage" target="_blank" rel="noopener">Leading cloud comms company sees major CX gains with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/zendesk-for-employee-service" target="_blank" rel="noopener">Zendesk facilitates 54% of internal tickets with AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/motel-rocks" target="_blank" rel="noopener">Motel sees self-service climb by 3X and faster ticket handling with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/privy" target="_blank" rel="noopener">Privy scales customer service with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/liberty-qa" target="_blank" rel="noopener">How Liberty uses Zendesk QA to provide luxury customer service</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/qualia" target="_blank" rel="noopener">How Qualia uses GenAI to radically elevate its CX</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/miko" target="_blank" rel="noopener">Miko uses AI to scale CX for high growth and assist busy agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/ballys" target="_blank" rel="noopener">Bally&#39;s</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/dupage-county" target="_blank" rel="noopener">DuPage County modernizes employee support and CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/yape" target="_blank" rel="noopener">Yape enhances its CX with Zendesk AI Copilot for faster and more efficient resolutions</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/babbel" target="_blank" rel="noopener">Zendesk AI speaks Babbel’s language</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/starshipit" target="_blank" rel="noopener">Starshipit</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/action-property-management" target="_blank" rel="noopener">Zendesk AI helps Action Property Management homeowners love where they live</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/easyfundraising" target="_blank" rel="noopener">How easyfundraising&#39;s six-person team supports millions with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/shearcomfort" target="_blank" rel="noopener">ShearComfort finds AI to be a perfect fit for exceptional CX</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/benevity" target="_blank" rel="noopener">Benevity transforms ticket triaging with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/quickmd" target="_blank" rel="noopener">QuickMD achieves faster resolutions with Zendesk</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-4-0" class="blocks-popover" aria-labelledby="blocks-pages-4-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-4-0-title">zb-stats <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 58 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-4-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/madeiramadeira" target="_blank" rel="noopener">MadeiraMadeira transforms CX with Zendesk AI agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/serasa-experian" target="_blank" rel="noopener">Serasa Experian expands digital customer service with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/nortek" target="_blank" rel="noopener">How Nortek is using AI to make more time for customers</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/resurs-bank" target="_blank" rel="noopener">Resurs Bank partners with Synerity to bring AI-powered support to Nordic customers</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/mimecast" target="_blank" rel="noopener">Mimecast transforms customer support with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/dfin" target="_blank" rel="noopener">DFIN unifies service and drives 80 percent first-call resolution with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/canva" target="_blank" rel="noopener">Canva turns customer insights into action with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/koho" target="_blank" rel="noopener">KOHO saves $8M with Forethought Voice</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/bgl" target="_blank" rel="noopener">BGL handles rapid growth with Zendesk AI-powered customer support</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/deputy" target="_blank" rel="noopener">Deputy builds an AI-first support experience with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/qantas-loyalty" target="_blank" rel="noopener">Qantas Loyalty soars past automation goals with Zendesk AI Agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/perk-es" target="_blank" rel="noopener">Perk scales employee service with Zendesk + HiBob without losing the human touch</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/asaas" target="_blank" rel="noopener">Asaas transforms complexity into confidence with Zendesk Copilot</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/recargapay" target="_blank" rel="noopener">RecargaPay transforms Support With Zendesk Copilot</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/liberty-tax" target="_blank" rel="noopener">Liberty Tax scales seasonal support with Zendesk AI agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/motiva" target="_blank" rel="noopener">How Motiva is building an omnichannel operation with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/star21" target="_blank" rel="noopener">Star21 innovates faster with Zendesk App Builder</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/petstock" target="_blank" rel="noopener">Petstock modernizes telephony with Zendesk Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/thoughtworks" target="_blank" rel="noopener">Thoughtworks transforms employee service with AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/solo-by-myob" target="_blank" rel="noopener">Lean team, big impact: Solo by MYOB&#39;s service-first playbook</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/givedirectly" target="_blank" rel="noopener">GiveDirectly speeds up disaster response with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/uneo" target="_blank" rel="noopener">Zendesk delivers a 360° customer experience for Unéo</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/trodo" target="_blank" rel="noopener">Trodo drives the future of automated CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/sealy-of-australia" target="_blank" rel="noopener">Sealy of Australia scales CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/betmgm-brasil" target="_blank" rel="noopener">BetMGM Brasil doubles down on the player experience with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/the-smith-family" target="_blank" rel="noopener">The Smith Family builds trust with Zendesk Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/catapult" target="_blank" rel="noopener">Catapult offers elite CX performance with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/lucid-software-es" target="_blank" rel="noopener">Lucid Software builds trust at scale with Zendesk for Employee Service</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/coco-republic" target="_blank" rel="noopener">Coco Republic elevates luxury service with Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/envato" target="_blank" rel="noopener">Envato cuts first reply time with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/docebo" target="_blank" rel="noopener">Docebo enhances B2B CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/tbauctions" target="_blank" rel="noopener">TBAuctions speeds customer support with Zendesk Advanced AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/furnished-finder" target="_blank" rel="noopener">Inside Furnished Finder’s human-centered approach to AI in customer support</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/lucid-software-ai" target="_blank" rel="noopener">Lucid Software scales support for 100 million users with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/pure-insurance" target="_blank" rel="noopener">How PURE Insurance scales internal support to 16+ teams with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/five-iron-golf" target="_blank" rel="noopener">Five Iron Golf unifies customer conversations with Zendesk Contact Center</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/github-es" target="_blank" rel="noopener">GitHub makes Zendesk the foundation of elevated employee service</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/tesu" target="_blank" rel="noopener">TESU transforms student support with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/inshur" target="_blank" rel="noopener">The policy behind the promise: INSHUR’s CX transformation with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/odeon-cinemas" target="_blank" rel="noopener">ODEON Cinemas delivers boffo results with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/britbox" target="_blank" rel="noopener">How BritBox maintains white-glove CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/sinch-engage" target="_blank" rel="noopener">Leading cloud comms company sees major CX gains with Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/zendesk-for-employee-service" target="_blank" rel="noopener">Zendesk facilitates 54% of internal tickets with AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/motel-rocks" target="_blank" rel="noopener">Motel sees self-service climb by 3X and faster ticket handling with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/privy" target="_blank" rel="noopener">Privy scales customer service with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/liberty-qa" target="_blank" rel="noopener">How Liberty uses Zendesk QA to provide luxury customer service</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/qualia" target="_blank" rel="noopener">How Qualia uses GenAI to radically elevate its CX</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/miko" target="_blank" rel="noopener">Miko uses AI to scale CX for high growth and assist busy agents</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/ballys" target="_blank" rel="noopener">Bally&#39;s</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/dupage-county" target="_blank" rel="noopener">DuPage County modernizes employee support and CX with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/yape" target="_blank" rel="noopener">Yape enhances its CX with Zendesk AI Copilot for faster and more efficient resolutions</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/babbel" target="_blank" rel="noopener">Zendesk AI speaks Babbel’s language</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/starshipit" target="_blank" rel="noopener">Starshipit</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/action-property-management" target="_blank" rel="noopener">Zendesk AI helps Action Property Management homeowners love where they live</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/easyfundraising" target="_blank" rel="noopener">How easyfundraising&#39;s six-person team supports millions with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/shearcomfort" target="_blank" rel="noopener">ShearComfort finds AI to be a perfect fit for exceptional CX</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/benevity" target="_blank" rel="noopener">Benevity transforms ticket triaging with Zendesk AI</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/customer/quickmd" target="_blank" rel="noopener">QuickMD achieves faster resolutions with Zendesk</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-8-1" class="blocks-popover" aria-labelledby="blocks-pages-8-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-8-1-title">fm-hero <span class="variant-inline">instapage</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-8-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-demo" target="_blank" rel="noopener">Instapage Form: Demo</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-trial-teaser-sell" target="_blank" rel="noopener">Instapage Form: Trial Teaser Sell</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-trial-teaser-suite" target="_blank" rel="noopener">Instapage Form: Trial Teaser Suite</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/instapage-form-trial-teaser-suite-inline" target="_blank" rel="noopener">Instapage Form: Trial Teaser Suite Inline</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-9-0" class="blocks-popover" aria-labelledby="blocks-pages-9-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-9-0-title">sv-accordion <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-9-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/service" target="_blank" rel="noopener">AI-powered customer service software | Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/employee-service" target="_blank" rel="noopener">Zendesk: AI-Powered Employee Service Solution</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/platform" target="_blank" rel="noopener">Develop custom experiences with the Zendesk Platform | Zendesk Sunshine</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/cxtrends" target="_blank" rel="noopener">Zendesk CX Trends Report 2027</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-9-1" class="blocks-popover" aria-labelledby="blocks-pages-9-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-9-1-title">sv-accordion <span class="variant-inline">faq</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-9-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/employee-service" target="_blank" rel="noopener">Zendesk: AI-Powered Employee Service Solution</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/why-zendesk" target="_blank" rel="noopener">Why Zendesk | The AI Service Platform Built for Real Resolutions</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/professional-services" target="_blank" rel="noopener">Zendesk professional Services</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/cxtrends" target="_blank" rel="noopener">Zendesk CX Trends Report 2027</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-11-1" class="blocks-popover" aria-labelledby="blocks-pages-11-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-11-1-title">sv-columns <span class="variant-inline">media</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-11-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/employee-service" target="_blank" rel="noopener">Zendesk: AI-Powered Employee Service Solution</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/platform" target="_blank" rel="noopener">Develop custom experiences with the Zendesk Platform | Zendesk Sunshine</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/why-zendesk" target="_blank" rel="noopener">Why Zendesk | The AI Service Platform Built for Real Resolutions</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/professional-services" target="_blank" rel="noopener">Zendesk professional Services</a> <span class="blocks-count">×2</span></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-12-0" class="blocks-popover" aria-labelledby="blocks-pages-12-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-12-0-title">sv-form <span class="variant-inline">modal</span></h3>
+            <p class="blocks-count">Used on 6 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-12-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/pricing" target="_blank" rel="noopener">Zendesk Pricing Plans | Starting from $19/month</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/service" target="_blank" rel="noopener">AI-powered customer service software | Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/employee-service" target="_blank" rel="noopener">Zendesk: AI-Powered Employee Service Solution</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/platform" target="_blank" rel="noopener">Develop custom experiences with the Zendesk Platform | Zendesk Sunshine</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/why-zendesk" target="_blank" rel="noopener">Why Zendesk | The AI Service Platform Built for Real Resolutions</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/professional-services" target="_blank" rel="noopener">Zendesk professional Services</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-13-0" class="blocks-popover" aria-labelledby="blocks-pages-13-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-13-0-title">sv-stories <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-13-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/service" target="_blank" rel="noopener">AI-powered customer service software | Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/employee-service" target="_blank" rel="noopener">Zendesk: AI-Powered Employee Service Solution</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/platform" target="_blank" rel="noopener">Develop custom experiences with the Zendesk Platform | Zendesk Sunshine</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/why-zendesk" target="_blank" rel="noopener">Why Zendesk | The AI Service Platform Built for Real Resolutions</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/professional-services" target="_blank" rel="noopener">Zendesk professional Services</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-17-0" class="blocks-popover" aria-labelledby="blocks-pages-17-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-17-0-title">sv-carousel <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-17-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/service" target="_blank" rel="noopener">AI-powered customer service software | Zendesk</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/partner" target="_blank" rel="noopener">Partner with Zendesk | Sell, deploy, and build custom solutions</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/employee-service" target="_blank" rel="noopener">Zendesk: AI-Powered Employee Service Solution</a></li>
+          <li><a href="https://main--3055ed88--aemcoder.aem.page/platform" target="_blank" rel="noopener">Develop custom experiences with the Zendesk Platform | Zendesk Sunshine</a></li>
+        </ul>
+      </div>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Analytics and tags</h2><span class="spectrum-badge">Switched off</span></summary>
+    <div class="panel-body">
+      <p>We carried over 1 tag and OneTrust, <strong>switched off</strong>: nothing loads on the new site until you turn it on.</p>
+      <table>
+        <thead><tr><th>Found on www.zendesk.com</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Google Tag Manager</td><td><code>GTM-Z4DV</code></td></tr>
+          <tr><td>Consent manager</td><td>OneTrust, 0 cookie categories</td></tr>
+          <tr><td>Data layers</td><td><code>dataLayer</code></td></tr>
+          <tr><td>Loaded by your tags</td><td>Google Analytics / Ads, ad / retargeting pixel, live chat widget</td></tr>
+        </tbody>
+      </table>
+      <p>We read the Google Tag Manager container (5 rules, 1 data element).</p>
+      <h3>Before you switch them on</h3>
+      <ol class="todo">
+        <li><strong>Send 2 data-layer events from the new pages</strong> so the tags fire, for example <code>dataLayer custom events</code>, <code>trial_created and other dataLayer events</code>.</li>
+        <li><strong>Switch on OneTrust together with the tags.</strong> Some tags wait for consent (C0002, C0003, C0004).</li>
+      </ol>
+      <p class="meta">Full details for your developers: <code>stardust/martech-handoff.md</code> in the repository.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Journey</h2></summary>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </details>
+</main>
+</body>
+</html>

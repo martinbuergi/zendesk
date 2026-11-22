@@ -1,0 +1,158 @@
+{
+  "type": "program",
+  "slug": "service",
+  "liveUrl": "https://www.zendesk.com/service/",
+  "generation": "A (Vanilla Sans; _computed-styles fontFamily 50/50 \"Vanilla Sans\")",
+  "prototype": "stardust/prototypes/service-proposed.html",
+  "css": [
+    "stardust/prototypes/fonts.css",
+    "stardust/prototypes/canon-a.css",
+    "stardust/prototypes/service.css"
+  ],
+  "js": [
+    "stardust/prototypes/canon-a.js",
+    "stardust/prototypes/service.js"
+  ],
+  "contentRoot": "main",
+  "gates": {
+    "1440": {
+      "rounds": 3,
+      "pixel": 0.23,
+      "dh": 0,
+      "contentDiff": "main: 0 red / 0 nothing-lost (owner-accepted 9: slick loop-clone CTA duplicates + live 'undefined testimonial' aria-labels, stardust/replica/accepted.json); footer (canon-a): 22 red MISSING ICON + 22 nothing-lost MISSING ARIA-LABEL '(opens in a new tab)' -> canon-requests.md #2 | after canon sync: footer findings resolved (0 nothing-lost), see postCanonSync",
+      "clipped": 0,
+      "overflow": false,
+      "units": "21 compared, 0 off (gen-a-icon-card x4, gen-a-capability-link x12, gen-a-resource-card x1, gen-a-accordion-row x4)",
+      "chromeCrops": "header 99.91%, footer 98.69%",
+      "sourceSpec": "0 sections / 0 nodes off / 0 missing; 1 extra = canon footer h3 'Contact us.' (canon-requests.md #1)",
+      "capProbe": "PASS (2560, 0 of 11 rows failed)",
+      "verdict": "residual"
+    },
+    "360": {
+      "rounds": 3,
+      "pixel": 0.17,
+      "dh": 0,
+      "contentDiff": "main: 0 red / 0 nothing-lost (owner-accepted 14 incl. hidden <768 logo-tab placeholders); footer (canon-a): 22 external-glyph icons/aria-labels + MISSING CTA 'Cookie settings' -> canon-requests.md #2/#3 | after canon sync: footer findings resolved (0 nothing-lost), see postCanonSync",
+      "clipped": 0,
+      "overflow": false,
+      "units": "21 compared, 0 off",
+      "chromeCrops": "header 99.14%, footer 99.91%",
+      "sourceSpec": "0 sections / 0 nodes off / 0 missing; 1 extra = canon footer h3 'Contact us.'",
+      "capProbe": "PASS (run once at 2560)",
+      "verdict": "residual"
+    }
+  },
+  "chromeParity": "after the canon-a sync: chrome-parity quiet at 1440 and 360 (header + footer); counted rounds (iter3) predate the sync and carried 76/17 canon-footer deltas",
+  "residuals": [
+    "Counted gate rounds (iter1-3 per width) closed with accept-residual on canon-footer-only findings; the owner then landed the footer changes and the re-synced prototype measures clean on chrome-parity/content-diff (postCanonSync) \u2014 a counted confirmation round needs a rounds decision the ledger no longer allows (closed)",
+    "Customer-stories carousel: live slick renders loop clones with text (Vimeo x3, others x2); the build renders each slide once (clones carry no text) \u2014 MISSING BODY advisories + accepted MISSING CTA duplicates",
+    "Live logo tabs carry aria-label 'undefined testimonial'; build names '<customer> testimonial' (accepted.json)",
+    "Guided-tour section (Storylane iframe) is not rendered below 768 on live (JS-conditional); build hides it with @media (max-width: 767.98px) \u2014 the exact breakpoint between 360 and 1440 is unmeasured",
+    "Resources carousel slidesToShow at 768-1149 assumed 2.3 (4.3 @>=1150 and 1.4 @<768 measured)",
+    "Contact Sales modal (hidden form in main) authored as a hidden dialog with the captured fields/options; no submit backend (interim tier per dynamic-features.md); nothing opens it on live at rest",
+    "Hero free-trial form: UI rebuilt, no submit backend (interim tier); privacy notice reveals on email focus as live (.expanded)",
+    "Header sticky/stuck state (kOPZoh) and its logo fill transition are canon-a.js scope (not in service.js)",
+    "Live hero email placeholder drifted to 'Enter work email' after the gate rounds (captured: 'name@company.com'); build keeps the captured value \u2014 confirm at delivery"
+  ],
+  "motion": {
+    "observed": [
+      "customer-stories Next: slick track travel 918px, settle ~212ms (live)",
+      "resources Next: track travel 276px, transform 0.5s, clicks ignored mid-slide",
+      "customer-stories autoplay: active logo tab ::before progressBar 10s linear while in view, then next slide (classes kNUmSf/eYlcVI/cbWYUK)",
+      "hover resources card: background rgba(17,17,13,.05), color .7, img brightness(.9), 300ms",
+      "hover story link / arrow buttons: color -> rgba(17,17,13,.7) 600ms",
+      "slide fade: opacity 200ms (+200ms delay on active)",
+      "section 'active' class on enter (no visual change)",
+      "header stuck class + logo fill transition (canon)"
+    ],
+    "implemented": [
+      "testimonial track translateX(-100% x n) 200ms + opacity fade; prev/next, dots, logo tabs",
+      "resources track translateX(step) 500ms with a 500ms click lock; prev disabled at start",
+      "autoplay via IntersectionObserver + 10s timer; sv-progress bar on the active tab",
+      "card / link / arrow hover colours and tints as lifted from the live CSSOM",
+      "benefits accordion: single-open, swaps the desktop media, aria-expanded/hidden/inert"
+    ],
+    "dead": [
+      "accordion label click (no sampled travel on live; panel/media swap implemented from CSS/DOM)",
+      "hover on capability links, video link, protected links, free-trial button, promo button (no measured diff on live)",
+      "Contact Sales CTA hover (white -> white text colour, no visible change)",
+      "section 'active' class (no visual effect)",
+      "entrance 'blippity' (one element, logo-tab bar fade) \u2014 covered by the progress bar restart"
+    ],
+    "evidence": [
+      "stardust/replica/motion/service-live.json",
+      "stardust/replica/motion/service-build.json"
+    ]
+  },
+  "captureState": [
+    {
+      "what": "Customer-stories autoplay (10 s per slide) \u2014 gate captures show slide 1 (Best Egg)",
+      "restoreAtDelivery": "rotates every 10 s while in view, progress bar on the active logo tab (implemented in service.js; keep in the EDS block)"
+    },
+    {
+      "what": "Hero video link (Wistia popover izivwbhm2u) \u2014 static poster + play button",
+      "restoreAtDelivery": "wire the Wistia popover embed izivwbhm2u (same src) on the play button"
+    },
+    {
+      "what": "Storylane guided tour iframe",
+      "restoreAtDelivery": "same src https://app.storylane.io/demo/htqk95bthcym?embed=inline (embed-passthrough, dynamics rows 68-72)"
+    },
+    {
+      "what": "Free-trial form + Contact Sales modal form",
+      "restoreAtDelivery": "connect to the form backend per dynamic-features.md (interim tier)"
+    }
+  ],
+  "canonRequests": "stardust/replica/canon-requests.md #1-#3 (canon-a footer)",
+  "sharedModules": {
+    "canon-a.css": [
+      "tokens",
+      "base/type",
+      "buttons",
+      "container + section shells + grid",
+      "promo bar",
+      "gen-A header",
+      "gen-A footer"
+    ],
+    "service.css": [
+      "page shell (first section under the header, --headerHeight 65/115)",
+      "hero teaser (6/12 text + 5/12 video, lime glow) + free-trial form",
+      "forest body-promo card",
+      "accordion + media (benefits)",
+      "customer-stories carousel (logo, stats, quote, cite, logo tabs, dots)",
+      "icon cards (4-up)",
+      "capability link grid (3-up)",
+      "guided-tour iframe",
+      "cream 'protected by' card (3-col)",
+      "resources link-card carousel",
+      "closing CTA (ink + moss glow)",
+      "intrinsic-image wrapper, hidden Contact Sales modal"
+    ]
+  },
+  "pageOwnedPass": true,
+  "passed": true,
+  "postCanonSync": {
+    "what": "canon-a footer/header landed by the owner after the counted rounds closed (accept-residual at 1440/360); service chrome markup re-synced from the canon (index-proposed.html). Evidence below is uncounted (no gate round available), measured against the frozen baselines",
+    "sourceSpec": {
+      "1440": "0 sections / 0 nodes off / 0 missing / 0 extra",
+      "360": "0 / 0 / 0 / 0"
+    },
+    "chromeParity": {
+      "1440": "quiet (header 3/3, footer 75/75)",
+      "360": "quiet (header 3/3, footer 25/25; 1 advisory REST STATE)"
+    },
+    "pixelVsFrozenBaseline": {
+      "1440": "0.36% unaligned, dh 0",
+      "360": "0.16%, dh 0"
+    },
+    "chromeCrops": {
+      "1440": "header 99.91%, footer 98.69%",
+      "360": "header 99.14%, footer 100.00%"
+    },
+    "contentDiff": {
+      "1440": "1 red / 0 nothing-lost",
+      "360": "1 red / 0 nothing-lost",
+      "red": "MISSING PLACEHOLDER: live hero input now shows placeholder 'Enter work email' (captured page + gate rounds: 'name@company.com') \u2014 live content drift/variant; build keeps the captured value"
+    },
+    "evidence": "stardust/.work/service-tools/sync/ (build-*.png, diff-*.png, cd-*.txt)"
+  }
+}

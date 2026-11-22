@@ -1,0 +1,41 @@
+{
+  "type": "listing",
+  "slug": "blog",
+  "liveUrl": "https://www.zendesk.com/blog/",
+  "prototype": "stardust/prototypes/blog-proposed.html",
+  "css": ["stardust/prototypes/fonts.css", "stardust/prototypes/canon-a.css", "stardust/prototypes/blog.css"],
+  "js": ["stardust/prototypes/canon-a.js", "stardust/prototypes/blog.js"],
+  "contentRoot": "#teaser-12bfb47939,#blog-story-category-listing-1995158695,#blog-editors-picks-1023113396,#teaser-ef6abf30ab,main section:not([id]):not(section section)",
+  "contentRootNote": "live <main> wraps promo + both headers + sub-nav + footer; with --main main content-diff reported ~200 reds from the canon's missing hidden mobile-menu panel (canon request 4). Roots = the 5 page sections (same selectors on both sides); header/sub-nav/footer gated by chrome-parity (GATE_CHROME_REGION header=#container-62e15e442e>div:nth-of-type(3)|#za-hdr-d;subnav=.llLKNZ|#bl-subnav-d at 1440, header=#container-62e15e442e>div:nth-of-type(2)|#za-hdr-m;subnav=.glJVBt|#bl-subnav-m at 360). The index selector body>div:nth-of-type(1)>div>div:nth-of-type(3) does NOT match on /blog/.",
+  "sourceSpec": {
+    "1440": "0 sections off before the last tag-margin tweak (-3px, then 13.6px margin); exit 2 on pairing only: brand 'Zendesk Blog' (live reports em + span separately), CX Trends hidden next/image placeholder img, Ariglad/Gartner no-desc cards swapped pairing, canon 'Language' inner span",
+    "360": "+10px from tag margin, fixed after (13px); same pairing artefacts + canon View demo 15px (fixed)"
+  },
+  "gates": {
+    "1440": {"rounds": 3, "counted": 2, "pixel": 0.40, "dh": -3, "contentDiff": "0 red / 0 nothing-lost yellow / 2 advisory", "clipped": 0, "overflow": false, "capProbe": "PASS (2560, 0 of 10 rows failed, --main main)", "chromeParity": "header ✓, subnav ✓, footer ✓ 75/75; crops header 99.96 %, footer 97.58 % (canon ±1px steps)", "offsets": "4 steps, 5px (bound 8)", "verdict": "PASS"},
+    "360": {"rounds": 3, "counted": 3, "pixel": 0.28, "dh": 0, "contentDiff": "0 red / 0 nothing-lost yellow / 18 advisory", "clipped": "0 at iter2/iter3; final state 11 (line-clamp, see residuals)", "overflow": false, "capProbe": "PASS (run once at 2560)", "chromeParity": "header ✓, subnav ✓, footer ✓; crops header 99.46 %, footer 100.00 %", "verdict": "residual (accept-residual recorded at the cap; final uncounted build re-check 0.28 %, Δh 0, 0 offset steps)"}
+  },
+  "chromeParity": "canon-a header/footer reused; /blog/ deltas applied page-side: global header position relative + opaque white (sub-nav is the sticky bar), secondary-row LinkText span wraps icon+text, language links -> locale /blog/, mobile View demo 16px. Footer sits inside <main> as on live.",
+  "residuals": [
+    "360 clip-probe: 11 'text clipped' on listing/latest card descriptions = 4-line -webkit-line-clamp boxes of 72.8px (13px x 1.4), same clamp as live; a 18.25px line-height workaround cleared the probe but added 14 x 1px offset steps (iter3), reverted",
+    "1440 footer crop 97.58 % (bar 98 %): canon footer ±1px steps (canon request 6)",
+    "1440 Δh -3 / 4 x 1px offset steps from tag-row margin rounding (13.6px)",
+    "source-spec pairing-only mismatches (hidden next/image placeholder img in CX Trends promo, brand em/span split, no-desc card pairing swap)",
+    "content-diff scoped to page sections (canon mobile-menu panel absent — canon request 4); sub-nav dropdown links authored hidden",
+    "Hero lead + editor's picks: third-party chat launcher on live at 360 (not page content)",
+    "Subscribe form: UI rebuilt, no submit backend (interim tier per dynamic-features.md)"
+  ],
+  "motion": {
+    "observed": ["category carousel Next (360): slick track travel 247px, 500ms", "editor's picks slider Next (360): travel 328px, 500ms", "story card hover: link + img colour to rgba(17,17,13,.7), 100ms; title underline colour 100ms", "sections gain 'active' on entering the viewport", "sub-nav background-color 0.5s state swap (dYYyyC/eZJQhU), kOPZoh/hIDnGq header classes on scroll", "slick-active/slick-current class swaps"],
+    "implemented": ["slick-track translateX 500ms ease, Prev disabled at start / Next at end", "lead + card hover colour 100ms linear, title underline colour", "section 'active' via IntersectionObserver", "sub-nav background-color transition 0.5s", "slick-current/slick-active on slide change"],
+    "dead": ["tag hover (no measured diff on live)"],
+    "notImplemented": ["sub-nav scrolled-state class values (dYYyyC/eZJQhU target values not captured)", "kOPZoh/hIDnGq header classes (global header not sticky on /blog/)"]
+  },
+  "captureState": [
+    {"what": "Subscribe to the blog form", "restoreAtDelivery": "connect to the newsletter subscription endpoint per dynamic-features.md"},
+    {"what": "Sub-nav category dropdowns and mobile sub-nav menu (hover/toggle panels, static)", "restoreAtDelivery": "header/sub-nav block JS"},
+    {"what": "Latest stories pagination (page 1 of 233)", "restoreAtDelivery": "query-index driven listing"}
+  ],
+  "units": ["blog-story-card", "blog-latest-card (required:false, declared after the rounds closed)"],
+  "passed": false
+}

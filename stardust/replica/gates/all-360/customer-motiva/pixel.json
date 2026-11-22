@@ -1,0 +1,300 @@
+{
+  "a": "stardust/replica/gates/all-360/customer-motiva/origin.png",
+  "b": "stardust/replica/gates/all-360/customer-motiva/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 10960,
+    "mode": "overlap"
+  },
+  "heightDelta": 4,
+  "differingPixels": 239665,
+  "pct": 6.07,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/customer-motiva/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 12.88,
+  "textBoxes": 336,
+  "textPixels": 1340319,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 4.8
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 7.2
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 6.4
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 11.6
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 8.6
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 8.7
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 7.9
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 6.3
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 6.3
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 6.8
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 11.6
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 6.9
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 6.5
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 11.7
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 8.1
+    },
+    {
+      "y0": 10000,
+      "y1": 10500,
+      "pct": 6.8
+    },
+    {
+      "y0": 10500,
+      "y1": 10960,
+      "pct": 5.3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.2,
+    "differingPixels": 7980,
+    "compared": {
+      "width": 360,
+      "height": 10964,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2680,
+        "shift": -4,
+        "cumulative": -4
+      }
+    ],
+    "maxOffset": 4,
+    "totalShift": 4,
+    "insertedRows": 0,
+    "deletedRows": 4,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1.7,
+        "unaligned": 1.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 2,
+        "unaligned": 4.8
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 7.2
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 6.4
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.1,
+        "unaligned": 11.6
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.1,
+        "unaligned": 8.6
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 8.7
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0,
+        "unaligned": 7.9
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0,
+        "unaligned": 6.3
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0,
+        "unaligned": 6.3
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0,
+        "unaligned": 6.8
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 0.1,
+        "unaligned": 11.6
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 0,
+        "unaligned": 6.9
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 0,
+        "unaligned": 6.5
+      },
+      {
+        "y0": 9000,
+        "y1": 9500,
+        "pct": 0.1,
+        "unaligned": 11.7
+      },
+      {
+        "y0": 9500,
+        "y1": 10000,
+        "pct": 0,
+        "unaligned": 8.1
+      },
+      {
+        "y0": 10000,
+        "y1": 10500,
+        "pct": 0,
+        "unaligned": 6.8
+      },
+      {
+        "y0": 10500,
+        "y1": 10964,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/customer-motiva/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 110,
+    "totalShift": 4,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/customer/motiva"
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "a": "stardust/replica/gates/all-1440/free-trial/origin.png",
+  "b": "stardust/replica/gates/all-1440/free-trial/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 7239,
+    "mode": "overlap"
+  },
+  "heightDelta": 67,
+  "differingPixels": 1054946,
+  "pct": 10.2,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/free-trial/diff.png",
+  "masks": [
+    {
+      "yA": 712,
+      "h": 56,
+      "yB": 712
+    }
+  ],
+  "maskedRows": 56,
+  "textPct": 14.53,
+  "textBoxes": 178,
+  "textPixels": 907774,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 4.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 30.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 14.3
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 15.2
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 2.7
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 8.3
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 28.8
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 10.4
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 18.4
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 2.4
+    },
+    {
+      "y0": 7000,
+      "y1": 7239,
+      "pct": 5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.72,
+    "differingPixels": 179135,
+    "compared": {
+      "width": 1440,
+      "height": 7251,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1465,
+        "shift": -38,
+        "cumulative": -38
+      },
+      {
+        "y": 3131,
+        "shift": -15,
+        "cumulative": -53
+      },
+      {
+        "y": 3541,
+        "shift": -14,
+        "cumulative": -67
+      },
+      {
+        "y": 6313,
+        "shift": 1,
+        "cumulative": -66
+      },
+      {
+        "y": 7181,
+        "shift": -1,
+        "cumulative": -67
+      }
+    ],
+    "maxOffset": 67,
+    "totalShift": 69,
+    "insertedRows": 1,
+    "deletedRows": 68,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.5,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 8,
+        "unaligned": 1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 2.3,
+        "unaligned": 6.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.8,
+        "unaligned": 4.7
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.8,
+        "unaligned": 30.9
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 4.6,
+        "unaligned": 14.3
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 3.8,
+        "unaligned": 15.2
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.5,
+        "unaligned": 2.7
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.2,
+        "unaligned": 8.3
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 2.4,
+        "unaligned": 28.8
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0.5,
+        "unaligned": 10.4
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0.2,
+        "unaligned": 18.4
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0,
+        "unaligned": 2.4
+      },
+      {
+        "y0": 7000,
+        "y1": 7306,
+        "pct": 0.3,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/free-trial/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 73,
+    "totalShift": 69,
+    "pass": true
+  },
+  "reason": null,
+  "maskReason": "self-varying rows of the frozen reference (noise floor 0.07%)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/free-trial"
+  }
+}

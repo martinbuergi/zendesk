@@ -1,0 +1,21 @@
+chrome-parity: --live-cache stardust/replica/gates/blog-1440/chrome-live.json was probed for a different url/width/regions/overlay state — re-probing live
+[live-session] waiting to pace live navigations to www.zendesk.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.zendesk.com/blog/
+  build: http://localhost:8791/blog-proposed.html
+
+■ header: 6 delta(s) — 10 paired of 10/10 texts, 8/8 icons
+  region live:  #container-62e15e442e>div:nth-of-type(3) — given by --region, box 0,58 1440×110
+  region build: #za-hdr-d — given by --region, box 0,58 1440×110
+  REGION STYLE backgroundColor rgb(255, 255, 255) → rgba(255, 255, 255, 0.9)
+  REGION STYLE position relative → sticky (fixed/sticky chrome must stay fixed/sticky — seam symmetry)
+  PAIR         "Sign in"  Δx +24px (1108→1132); Δw -24px (67→43)
+  PAIR         "Contact us"  Δx +24px (1203→1227); Δw -24px (93→69)
+  PAIR         "Language"  Δx +24px (1324→1348); Δw -24px (88→64)
+  ICON         "Zendesk home"  icon #3 near "Zendesk home": Δw -3px (87→84); Δh -2px (62→60)
+
+■ footer: ✓ parity — 75 paired of 75/75 texts, 6/6 icons
+  region live:  footer#footer-1719023883.sc-70d743a6-4.eqsTBx — outermost <footer>, box 0,6834 1440×998; selector #footer-1719023883
+  region build: footer#footer — outermost <footer>, box 0,6834 1440×998; selector #footer
+
+✗ 6 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

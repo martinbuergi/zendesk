@@ -1,0 +1,97 @@
+{
+ "url": "https://main--3055ed88--aemcoder.aem.page/trust-center",
+ "at": "2026-11-21T14:04:14.876Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 11,
+  "offPage": 1,
+  "textNodes": 260,
+  "controls": 128,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 3,
+   "clipper": "div#co-acc-1-0-panel",
+   "path": "tbody > tr > td > p",
+   "text": "iso 42001 is the world’s first international standard for ma",
+   "cutMin": 2,
+   "cutMax": 7
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div#co-acc-1-0-panel",
+   "path": "tr > td > p > a",
+   "text": "fedramp marketplace",
+   "cutMin": 2,
+   "cutMax": 3
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div#co-acc-1-0-panel",
+   "path": "tr > td > p > a",
+   "text": "fedramp marketplace",
+   "cutMin": 2,
+   "cutMax": 3
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div#co-acc-1-0-panel",
+   "path": "tbody > tr > td > p",
+   "text": ". us government agency subscribers can request access to the",
+   "cutMin": 0,
+   "cutMax": 4
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div#co-acc-5-0-panel",
+   "path": "div#co-acc-5-0-panel > div.co-acc-inner > p > a",
+   "text": "https://www.zendesk.com/company/anz-privacy/",
+   "cutMin": 52,
+   "cutMax": 52
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div#co-acc-5-0-panel",
+   "path": "div#co-acc-5-0-panel > div.co-acc-inner > p > a",
+   "text": "https://www.zendesk.com/company/anz-privacy/",
+   "cutMin": 52,
+   "cutMax": 52
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 19,
+   "offPage": 0,
+   "textNodes": 259,
+   "controls": 128,
+   "total": 0
+  }
+ }
+}

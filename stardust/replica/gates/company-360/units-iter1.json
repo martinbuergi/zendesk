@@ -1,0 +1,368 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-20T10:35:45.021Z",
+  "tol": 4,
+  "n": 22,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/company/",
+  "at": "2026-11-20T10:35:29.309Z",
+  "docH": 5094
+ },
+ "eds": {
+  "url": "http://localhost:8791/company-proposed.html",
+  "at": "2026-11-20T10:35:44.934Z",
+  "docH": 5094
+ },
+ "results": [
+  {
+   "sel": "#teaser-f67eba53a7 [role=group] > a=#teaser-f67eba53a7 .co-card",
+   "family": "gen-a-location-card",
+   "required": true,
+   "originMatches": 22,
+   "edsMatches": 22,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div > div > a#button-db7fd2da4a"
+     },
+     "eds": {
+      "path": "div.co-car__track > div.co-car__slide > a#button-db7fd2da4a"
+     },
+     "rows": [
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 230,
+        "h": 172
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 230,
+        "h": 172,
+        "sel": "img.co-ii__sizer",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/500",
+        "eds": "16/0/500"
+       }
+      },
+      {
+       "key": "image:img#image-ed701fc074#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 230,
+        "h": 172
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 230,
+        "h": 172,
+        "sel": "img#image-ed701fc074",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/500",
+        "eds": "16/0/500"
+       }
+      },
+      {
+       "key": "box:div.LinkCardstyle__LinkCardContent-sc-1nxo9pt-2.ihgjRr#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 173,
+        "w": 230,
+        "h": 102
+       },
+       "eds": {
+        "x": 1,
+        "y": 173,
+        "w": 230,
+        "h": 102,
+        "sel": "div.co-card__content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/500",
+        "eds": "16/16/500"
+       }
+      },
+      {
+       "key": "text:hq san francisco",
+       "role": "text",
+       "text": "hq san francisco",
+       "edsText": "hq san francisco",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 213,
+        "w": 190,
+        "h": 22
+       },
+       "eds": {
+        "x": 21,
+        "y": 213,
+        "w": 190,
+        "h": 22,
+        "sel": "p.co-card__title",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/600",
+        "eds": "15/22/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2550,
+       "w": 232,
+       "h": 276
+      },
+      "eds": {
+       "x": 16,
+       "y": 2550,
+       "w": 232,
+       "h": 276
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div > div > a#button-7f04d943bc"
+     },
+     "eds": {
+      "path": "div.co-car__track > div.co-car__slide > a#button-7f04d943bc"
+     },
+     "rows": [
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 230,
+        "h": 172
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 230,
+        "h": 172,
+        "sel": "img.co-ii__sizer",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": true,
+       "type": {
+        "origin": "16/0/500",
+        "eds": "16/0/500"
+       }
+      },
+      {
+       "key": "image:img#image-75d41ae2f2#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 230,
+        "h": 172
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 230,
+        "h": 172,
+        "sel": "img#image-75d41ae2f2",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": true,
+       "type": {
+        "origin": "16/0/500",
+        "eds": "16/0/500"
+       }
+      },
+      {
+       "key": "box:div.LinkCardstyle__LinkCardContent-sc-1nxo9pt-2.ihgjRr#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 173,
+        "w": 230,
+        "h": 102
+       },
+       "eds": {
+        "x": 1,
+        "y": 173,
+        "w": 230,
+        "h": 102,
+        "sel": "div.co-card__content",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": true,
+       "type": {
+        "origin": "16/16/500",
+        "eds": "16/16/500"
+       }
+      },
+      {
+       "key": "text:austin",
+       "role": "text",
+       "text": "austin",
+       "edsText": "austin",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 213,
+        "w": 190,
+        "h": 22
+       },
+       "eds": {
+        "x": 21,
+        "y": 213,
+        "w": 190,
+        "h": 22,
+        "sel": "p.co-card__title",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": true,
+       "type": {
+        "origin": "15/22/600",
+        "eds": "15/22/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 264,
+       "y": 2550,
+       "w": 232,
+       "h": 276
+      },
+      "eds": {
+       "x": 264,
+       "y": 2550,
+       "w": 232,
+       "h": 276
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 0,
+      "off": 0,
+      "hidden": 4,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 2,
+  "within": 4,
+  "off": 0,
+  "hidden": 4,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 4
+ }
+}

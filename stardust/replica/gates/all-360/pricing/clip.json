@@ -1,0 +1,77 @@
+{
+ "url": "https://main--3055ed88--aemcoder.aem.page/pricing",
+ "at": "2026-11-21T13:57:16.539Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 4,
+  "offPage": 1,
+  "textNodes": 149,
+  "controls": 93,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.pr-head-scroll",
+   "path": "div.pr-head-scroll > ul > li > a",
+   "text": "employee service",
+   "cutMin": 44,
+   "cutMax": 44
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.pr-head-scroll",
+   "path": "div.pr-head-scroll > ul > li > a",
+   "text": "employee service",
+   "cutMin": 27,
+   "cutMax": 27
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.pr-head-scroll",
+   "path": "div.pr-head-scroll > ul > li > a",
+   "text": "contact center",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.pr-head-scroll",
+   "path": "div.pr-head-scroll > ul > li > a",
+   "text": "contact center",
+   "cutMin": 105,
+   "cutMax": 105
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 3,
+   "offPage": 1,
+   "textNodes": 148,
+   "controls": 93,
+   "total": 0
+  }
+ }
+}

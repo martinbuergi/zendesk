@@ -1,0 +1,333 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-20T11:44:12.726Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-21T01:05:33.667Z",
+  "blocks": [
+    {
+      "id": "accordion-faq",
+      "label": "accordion-faq",
+      "kind": "module",
+      "signature": "module:accordion-faq",
+      "source": null,
+      "usedByTemplates": [
+        "blog",
+        "company",
+        "index",
+        "pricing",
+        "service"
+      ],
+      "usedByPages": [
+        "blog",
+        "company",
+        "index",
+        "pricing",
+        "service"
+      ],
+      "instanceCount": 5,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "sv-accordion",
+        "blockPath": null,
+        "convertedAt": "2026-11-20T12:40:00.843Z"
+      }
+    },
+    {
+      "id": "additional-resources",
+      "label": "additional-resources",
+      "kind": "module",
+      "signature": "module:additional-resources",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "hp-res",
+        "blockPath": null,
+        "convertedAt": "2026-11-20T12:42:17.867Z"
+      }
+    },
+    {
+      "id": "card-grid",
+      "label": "card-grid",
+      "kind": "module",
+      "signature": "module:card-grid",
+      "source": null,
+      "usedByTemplates": [
+        "blog",
+        "customer-canva",
+        "index",
+        "pricing",
+        "service"
+      ],
+      "usedByPages": [
+        "blog",
+        "customer-canva",
+        "index",
+        "pricing",
+        "service"
+      ],
+      "instanceCount": 5,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "sv-cards",
+        "blockPath": null,
+        "convertedAt": "2026-11-20T12:40:00.897Z"
+      }
+    },
+    {
+      "id": "carousel",
+      "label": "carousel",
+      "kind": "module",
+      "signature": "module:carousel",
+      "source": null,
+      "usedByTemplates": [
+        "blog",
+        "company",
+        "index",
+        "service"
+      ],
+      "usedByPages": [
+        "blog",
+        "company",
+        "index",
+        "service"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "sv-carousel",
+        "blockPath": null,
+        "convertedAt": "2026-11-20T12:40:00.946Z"
+      }
+    },
+    {
+      "id": "customer-story-stats",
+      "label": "customer-story-stats",
+      "kind": "module",
+      "signature": "module:customer-story-stats",
+      "source": null,
+      "usedByTemplates": [
+        "customer-canva"
+      ],
+      "usedByPages": [
+        "customer-canva"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "zb-facts",
+        "blockPath": null,
+        "convertedAt": "2026-11-20T12:32:24.322Z"
+      }
+    },
+    {
+      "id": "form-choice-tiles",
+      "label": "form-choice-tiles",
+      "kind": "module",
+      "signature": "module:form-choice-tiles",
+      "source": null,
+      "usedByTemplates": [
+        "contact"
+      ],
+      "usedByPages": [
+        "contact"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "fm-form",
+        "blockPath": null,
+        "convertedAt": "2026-11-21T01:05:33.667Z"
+      }
+    },
+    {
+      "id": "link-card",
+      "label": "link-card",
+      "kind": "module",
+      "signature": "module:link-card",
+      "source": null,
+      "usedByTemplates": [
+        "company",
+        "index",
+        "service"
+      ],
+      "usedByPages": [
+        "company",
+        "index",
+        "service"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "sv-links",
+        "blockPath": null,
+        "convertedAt": "2026-11-20T12:40:00.996Z"
+      }
+    },
+    {
+      "id": "logo-row",
+      "label": "logo-row",
+      "kind": "module",
+      "signature": "module:logo-row",
+      "source": null,
+      "usedByTemplates": [
+        "customer-canva",
+        "index",
+        "pricing"
+      ],
+      "usedByPages": [
+        "customer-canva",
+        "index",
+        "pricing"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "hp-logos",
+        "blockPath": null,
+        "convertedAt": "2026-11-20T12:42:17.950Z"
+      }
+    },
+    {
+      "id": "marketplace-filter-bar",
+      "label": "marketplace-filter-bar",
+      "kind": "module",
+      "signature": "module:marketplace-filter-bar",
+      "source": null,
+      "usedByTemplates": [
+        "pricing"
+      ],
+      "usedByPages": [
+        "pricing"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "pr-head",
+        "blockPath": null,
+        "convertedAt": "2026-11-20T13:30:49.565Z"
+      }
+    },
+    {
+      "id": "newsletter-signup-legacy",
+      "label": "newsletter-signup-legacy",
+      "kind": "module",
+      "signature": "module:newsletter-signup-legacy",
+      "source": null,
+      "usedByTemplates": [
+        "customer-canva"
+      ],
+      "usedByPages": [
+        "customer-canva"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "footer",
+        "blockPath": null,
+        "convertedAt": "2026-11-20T12:32:24.417Z"
+      }
+    },
+    {
+      "id": "pull-quote",
+      "label": "pull-quote",
+      "kind": "module",
+      "signature": "module:pull-quote",
+      "source": null,
+      "usedByTemplates": [
+        "customer-canva"
+      ],
+      "usedByPages": [
+        "customer-canva"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "zb-quotes",
+        "blockPath": null,
+        "convertedAt": "2026-11-20T12:32:24.372Z"
+      }
+    },
+    {
+      "id": "stat-row",
+      "label": "stat-row",
+      "kind": "module",
+      "signature": "module:stat-row",
+      "source": null,
+      "usedByTemplates": [
+        "customer-canva",
+        "index",
+        "service"
+      ],
+      "usedByPages": [
+        "customer-canva",
+        "index",
+        "service"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "sv-stories",
+        "blockPath": null,
+        "convertedAt": "2026-11-20T12:40:01.041Z"
+      }
+    },
+    {
+      "id": "sticker-badge",
+      "label": "sticker-badge",
+      "kind": "module",
+      "signature": "module:sticker-badge",
+      "source": null,
+      "usedByTemplates": [
+        "blog",
+        "index",
+        "pricing"
+      ],
+      "usedByPages": [
+        "blog",
+        "index",
+        "pricing"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "hp-split",
+        "blockPath": null,
+        "convertedAt": "2026-11-20T12:42:18.012Z"
+      }
+    },
+    {
+      "id": "video-link",
+      "label": "video-link",
+      "kind": "module",
+      "signature": "module:video-link",
+      "source": null,
+      "usedByTemplates": [
+        "customer-canva",
+        "service"
+      ],
+      "usedByPages": [
+        "customer-canva",
+        "service"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "sv-hero",
+        "blockPath": null,
+        "convertedAt": "2026-11-20T12:40:01.098Z"
+      }
+    }
+  ]
+}

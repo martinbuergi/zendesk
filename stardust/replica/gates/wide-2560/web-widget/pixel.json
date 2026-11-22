@@ -1,0 +1,112 @@
+{
+  "a": "stardust/replica/gates/wide-2560/web-widget/origin.png",
+  "b": "stardust/replica/gates/wide-2560/web-widget/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 2302,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 120446,
+  "pct": 2.04,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/wide-2560/web-widget/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 2.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2302,
+      "pct": 0.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 2.04,
+    "differingPixels": 120446,
+    "compared": {
+      "width": 2560,
+      "height": 2302,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1.7,
+        "unaligned": 1.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 2.9,
+        "unaligned": 2.9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 2.7,
+        "unaligned": 2.7
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1.6,
+        "unaligned": 1.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2302,
+        "pct": 0.8,
+        "unaligned": 0.8
+      }
+    ],
+    "diff": null,
+    "reason": "aligned number not lower than the unaligned one",
+    "candidate": {
+      "pct": 2.09,
+      "steps": 1,
+      "totalShift": 1
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/web-widget"
+  }
+}

@@ -1,0 +1,57 @@
+{
+ "url": "https://main--3055ed88--aemcoder.aem.page/",
+ "at": "2026-11-21T18:40:48.706Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 3,
+  "offPage": 9,
+  "textNodes": 214,
+  "controls": 102,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "a.hp-rcard",
+   "path": "a.hp-rcard > div.hp-rcard-body > div.hp-rcard-title > p",
+   "text": "cx trends 2026",
+   "cutMin": 13,
+   "cutMax": 38
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.hp-res.block",
+   "path": "div.hp-res-carousel > div.hp-res-track > div.hp-res-slide > a.hp-rcard",
+   "text": "reportcx trends 2026learn more",
+   "cutMin": 141,
+   "cutMax": 141
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 4,
+   "offPage": 8,
+   "textNodes": 144,
+   "controls": 85,
+   "total": 0
+  }
+ }
+}

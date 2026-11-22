@@ -1,0 +1,13 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.zendesk.com/company/ (live side from cache stardust/replica/gates/company-1440/chrome-live.json, probed 2026-11-20T10:32:40.000Z — delete the file to re-probe)
+  build: http://localhost:8791/company-proposed.html
+
+■ header: ✓ parity — 10 paired of 10/10 texts, 8/8 icons
+  region live:  div#header-780805927.sc-93bde466-5.cxxcjL — auto-detected (no usable <header> landmark), box 0,0 1440×110; selector #__next > div > div:nth-of-type(2)
+  region build: div#za-hdr-d.za-hdr.za-hdr--desktop — auto-detected (no usable <header> landmark), box 0,0 1440×110; selector #za-hdr-d
+
+■ footer: ✓ parity — 75 paired of 75/75 texts, 6/6 icons
+  region live:  footer#footer-1719023883.sc-70d743a6-4.eqsTBx — outermost <footer>, box 0,3974 1440×998; selector #footer-1719023883
+  region build: footer#footer — outermost <footer>, box 0,3974 1440×998; selector #footer
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

@@ -1,0 +1,130 @@
+/* stylelint-disable no-descending-specificity -- state and hover rules follow their base rules */
+
+/* hp-duo — employee service / contact center cards */
+.hp-duo .hp-center-row {
+  align-items: center;
+  justify-content: center;
+}
+
+.hp-duo .hp-center-col {
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  text-align: center;
+}
+
+.hp-duo .hp-head-title :is(h2, h3) {
+  margin-bottom: 24px;
+}
+
+.hp-duo .hp-duo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.hp-duo .hp-duo-cell {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 12px;
+}
+
+.hp-duo .hp-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  margin-bottom: 48px;
+  overflow: hidden;
+  border-radius: 40px;
+  background-color: var(--za-cream);
+}
+
+.hp-duo .hp-card-media {
+  position: relative;
+  align-self: stretch;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.hp-duo .hp-card-media :is(p, picture) {
+  margin: 0;
+}
+
+.hp-duo .hp-card-media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hp-duo .hp-card-body {
+  width: 100%;
+  padding: 24px;
+}
+
+.hp-duo .hp-card-title :is(h2, h3, h4),
+.hp-duo .hp-card-body .za-text p {
+  padding-right: 16px;
+}
+
+.hp-duo .hp-card-body .za-text {
+  flex-grow: 1;
+}
+
+.hp-duo .hp-linkgroup {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.hp-duo .za-text + .hp-linkgroup {
+  padding-top: 8px;
+}
+
+.hp-duo .hp-linkgroup p,
+.hp-duo .hp-linkgroup a.button {
+  width: 100%;
+  margin: 0;
+}
+
+@media (width >= 768px) {
+  .hp-duo .hp-center-col {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+  }
+
+  .hp-duo .hp-duo-cell {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .hp-duo .hp-card {
+    height: 100%;
+    margin-bottom: 0;
+  }
+
+  .hp-duo .hp-card-body {
+    padding: 32px;
+  }
+
+  .hp-duo .hp-linkgroup {
+    flex-direction: row;
+    align-items: baseline;
+    width: auto;
+  }
+
+  .hp-duo .hp-linkgroup p,
+  .hp-duo .hp-linkgroup a.button {
+    width: auto;
+  }
+}

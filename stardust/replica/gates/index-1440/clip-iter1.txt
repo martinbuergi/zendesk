@@ -1,0 +1,5 @@
+clip-probe http://localhost:8791/index-proposed.html @ 1440px — docH 12505, 336 text nodes, 153 controls (HTTP 200, chrome)
+  🔴 TEXT HIDDEN            ×50    in div.hp-odo__col  div.hp-odo > div.hp-odo__col > div.hp-odo__reel > span  "0"  cut 92px
+  🔴 TEXT CLIPPED           ×20    in div.hp-odo__col  div.hp-odo > div.hp-odo__col > div.hp-odo__reel > span  "1"  cut 13–86px
+Clipped: 70 (text clipped 20, text hidden 50, controls hidden 0, controls clipped 0; advisory: clamped 0, collapsed 0, scroll-hidden 0, horizontal 0)
+json → stardust/replica/gates/index-1440/clip-iter1.json

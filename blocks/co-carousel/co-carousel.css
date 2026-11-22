@@ -1,0 +1,328 @@
+/* co-carousel — company locations carousel (live slick .gffFwE: slidesToShow 4 / 2.33 / 1.33,
+   track gap 16 / 24 / 32) with the centred section head (.kPWOqp row + .iQsVyi 8/12 column). */
+
+/* ---------- centred head ---------- */
+.co-carousel .co-head {
+  justify-content: center;
+  align-items: center;
+}
+
+.co-carousel .co-head-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.co-carousel .co-text {
+  display: flow-root;
+}
+
+.co-carousel .co-text p {
+  margin: 0 0 16px;
+}
+
+.co-carousel .co-links {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 12px;
+}
+
+.co-carousel .co-text + .co-links,
+.co-carousel .co-head-col :is(h2, h3) + .co-links {
+  padding-top: 8px;
+}
+
+.co-carousel .co-links p {
+  width: 100%;
+  margin: 0;
+}
+
+.co-carousel .co-links a:any-link {
+  width: 100%;
+  transition: color 600ms var(--za-ease);
+}
+
+.co-carousel .co-links a:any-link:hover,
+.co-carousel .co-links a:any-link:focus-visible {
+  color: rgb(17 17 13 / 70%);
+}
+
+/* ---------- carousel ---------- */
+.co-carousel .co-car {
+  position: relative;
+}
+
+.co-carousel .co-car-list {
+  position: relative;
+  overflow: visible;
+}
+
+.co-carousel .co-car-track {
+  --co-gap: 16px;
+  --co-show: 1.33;
+
+  display: flex;
+  gap: var(--co-gap);
+  transform: translateX(0);
+  transition: transform 500ms var(--za-ease);
+}
+
+/* slick sets each slide to ceil(list / show) px; the flex gap then shrinks all slides evenly */
+.co-carousel .co-car-slide {
+  flex: 0 0 calc(round(up, 100% / var(--co-show), 1px) - var(--co-gap) * (var(--co-n) - 1) / var(--co-n));
+  min-width: 0;
+}
+
+.co-carousel .co-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  background: var(--za-cream);
+  color: var(--za-ink);
+  font-family: var(--za-font);
+  font-weight: 500;
+  cursor: pointer;
+  transition: 300ms var(--za-ease);
+}
+
+.co-carousel .co-ii {
+  position: relative;
+  display: block;
+  width: 100%;
+  line-height: 0;
+}
+
+.co-carousel .co-ii p {
+  margin: 0;
+}
+
+.co-carousel .co-ii picture {
+  display: block;
+}
+
+.co-carousel .co-car-slick[hidden] {
+  display: none !important;
+}
+
+.co-carousel .co-card img {
+  transition: 300ms var(--za-ease);
+}
+
+.co-carousel .co-card img:not(.co-ii-sizer) {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.co-carousel .co-ii-sizer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.co-carousel .co-card-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%;
+  padding: 32px 20px;
+  background: var(--za-cream);
+  transition: 300ms var(--za-ease);
+}
+
+.co-carousel .co-card-kind {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 8px;
+  color: var(--za-ink);
+  font-stretch: condensed;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+
+.co-carousel .co-card-kind p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.co-carousel .co-card-title {
+  margin: 0 0 8px;
+  color: var(--za-ink);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.co-carousel .co-card-title p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.co-carousel .co-card:hover,
+.co-carousel .co-card:focus-visible,
+.co-carousel .co-card:hover .co-card-content,
+.co-carousel .co-card:focus-visible .co-card-content {
+  background: rgb(17 17 13 / 5%);
+}
+
+.co-carousel .co-card:hover,
+.co-carousel .co-card:focus-visible {
+  color: rgb(17 17 13 / 70%);
+}
+
+.co-carousel .co-card:hover img,
+.co-carousel .co-card:focus-visible img {
+  filter: brightness(0.9);
+}
+
+.co-carousel .co-card:active,
+.co-carousel .co-card:active .co-card-content {
+  background: rgb(17 17 13 / 11%);
+  transition: 100ms linear;
+}
+
+.co-carousel .co-card:active img {
+  filter: brightness(0.85);
+}
+
+.co-carousel .co-car-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin: 32px 0 0;
+  white-space: nowrap;
+}
+
+/* round icon button (.eAlObx: 56px, ::before tint) */
+.co-carousel .co-round {
+  position: relative;
+  display: block;
+  flex-shrink: 0;
+  padding: 16px;
+  border: none;
+  border-radius: 100%;
+  background: transparent;
+  color: var(--za-ink);
+  line-height: 0;
+  cursor: pointer;
+  transition: color 600ms var(--za-ease);
+}
+
+.co-carousel .co-round::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: rgb(17 17 13 / 5%);
+  transform-origin: center center;
+  transition: background-color 100ms linear, border 100ms linear, transform 100ms linear;
+}
+
+.co-carousel .co-round > span {
+  position: relative;
+  display: block;
+}
+
+.co-carousel .co-round svg {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.co-carousel .co-round:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.co-carousel .co-round:not(:disabled):hover {
+  color: rgb(17 17 13 / 70%);
+}
+
+.co-carousel .co-round:not(:disabled):hover::before {
+  background-color: rgb(17 17 13 / 11%);
+}
+
+.co-carousel .co-round:not(:disabled):active::before {
+  background-color: rgb(17 17 13 / 18%);
+}
+
+@media (width >= 768px) {
+  .co-carousel .co-head-col {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+  }
+
+  .co-carousel .co-links {
+    flex-direction: row;
+    align-items: baseline;
+    align-self: inherit;
+    width: auto;
+  }
+
+  .co-carousel .co-links p,
+  .co-carousel .co-links a:any-link {
+    width: auto;
+  }
+
+  .co-carousel .co-car-track {
+    --co-gap: 24px;
+    --co-show: 2.33;
+  }
+
+  .co-carousel .co-card-content {
+    padding: 32px 24px;
+  }
+
+  .co-carousel .co-round:not(:disabled):hover::before {
+    transform: scale(1.1);
+  }
+}
+
+@media (width >= 1150px) {
+  .co-carousel .co-car-track {
+    --co-show: 4;
+  }
+
+  .co-carousel .co-card-title {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1600px) {
+  .co-carousel .co-car-track {
+    --co-gap: 32px;
+  }
+
+  .co-carousel .co-card-title {
+    font-size: 20px;
+  }
+}

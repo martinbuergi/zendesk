@@ -1,0 +1,227 @@
+{
+  "a": "stardust/replica/gates/wide-2560/company/origin.png",
+  "b": "stardust/replica/gates/wide-2560/company/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 5995,
+    "mode": "overlap"
+  },
+  "heightDelta": -13,
+  "differingPixels": 844366,
+  "pct": 5.53,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/wide-2560/company/diff.png",
+  "masks": [
+    {
+      "yA": 5932,
+      "h": 36,
+      "yB": 5932
+    }
+  ],
+  "maskedRows": 36,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 5.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 4.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 6.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 4
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 16.5
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 6.1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 5.6
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 8
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 2
+    },
+    {
+      "y0": 5500,
+      "y1": 5995,
+      "pct": 1.6
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.57,
+    "differingPixels": 240492,
+    "compared": {
+      "width": 2560,
+      "height": 5966,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1037,
+        "shift": 7,
+        "cumulative": 7
+      },
+      {
+        "y": 1860,
+        "shift": 4,
+        "cumulative": 11
+      },
+      {
+        "y": 2692,
+        "shift": 3,
+        "cumulative": 14
+      },
+      {
+        "y": 3942,
+        "shift": 2,
+        "cumulative": 16
+      },
+      {
+        "y": 4519,
+        "shift": 2,
+        "cumulative": 18
+      },
+      {
+        "y": 4979,
+        "shift": -6,
+        "cumulative": 12
+      },
+      {
+        "y": 5995,
+        "shift": 1,
+        "cumulative": 13
+      }
+    ],
+    "maxOffset": 18,
+    "totalShift": 25,
+    "insertedRows": 19,
+    "deletedRows": 6,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1.5,
+        "unaligned": 1.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 3.6,
+        "unaligned": 3.6
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 4.2,
+        "unaligned": 5.7
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 2.1,
+        "unaligned": 4.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 1.5,
+        "unaligned": 6.8
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.6,
+        "unaligned": 4
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 16.5
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.6,
+        "unaligned": 6.1
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.8,
+        "unaligned": 5.6
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 1.7,
+        "unaligned": 8
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 1.5,
+        "unaligned": 2
+      },
+      {
+        "y0": 5500,
+        "y1": 5995,
+        "pct": 0.7,
+        "unaligned": 1.6
+      }
+    ],
+    "diff": "stardust/replica/gates/wide-2560/company/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 60,
+    "totalShift": 25,
+    "pass": true
+  },
+  "reason": null,
+  "maskReason": "self-varying rows of the frozen reference (noise floor 0.01%)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/company"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "round": "iter3",
+  "width": 360,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/blog-360/diff-iter3.png",
+    "json": "stardust/replica/gates/blog-360/pixel-iter3.json",
+    "pct": 1.56,
+    "alignedPct": 0.69,
+    "alignedUsed": true,
+    "totalShift": 14,
+    "steps": [
+      {
+        "y": 2884,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 3213,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 3831,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 5261,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 6660,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 6991,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 7145,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 7300,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 7454,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 7609,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 7763,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 7805,
+        "shift": -1,
+        "cumulative": 0
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 14 step(s), 14px total — +1px at y=2884, −1px at y=3213, +1px at y=3831, −1px at y=5261, +1px at y=6660, −1px at y=6991, … 8 more (bound 8px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-20T10:18:44.275Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/blog-360/content-diff-iter3.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/blog-360/visual-diff-iter3.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/blog-360/chrome-parity-iter3.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/blog-360/clip-iter3.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/blog-360/units-iter3.txt"
+    }
+  },
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-20T10:30:35.605Z"
+}

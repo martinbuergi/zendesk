@@ -1,0 +1,30 @@
+{
+  "round": "iter4",
+  "width": 360,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/pricing-360/diff-iter4.png",
+    "json": "stardust/replica/gates/pricing-360/pixel-iter4.json",
+    "pct": 0.26,
+    "alignedPct": 0.26,
+    "alignedUsed": false,
+    "totalShift": 0,
+    "steps": [],
+    "offsetBound": null,
+    "maskedRows": 76,
+    "noiseFloor": 0.08,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-20T10:59:05.388Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": "5332:76"
+  },
+  "probes": {},
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-20T11:14:48.101Z"
+}

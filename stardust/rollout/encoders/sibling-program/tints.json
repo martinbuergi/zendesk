@@ -1,0 +1,59 @@
+{
+ "_doc": "Per-section layout variants for program siblings, keyed by data-module index (0-based, document order): band colour (`tint-<name>`, measured on the live full-page capture stardust/current/assets/screenshots/<slug>.png — background runs at x=6) and media side (`reverse` = media on the left / list on the left for accordions). `dark` = the protect card painted forest with white ink (live /employee-service/). Emitted as variant classes on the block; the sv- block CSS paints them. Legacy pages default to the body grey (#f8f9f9), so their white bands are explicit. `<i>.media` = an editorial picture the live section paints as a CSS background (dropped by the render), appended as the section's media cell. `!<name>` drops a render variant (why-zendesk hero: the live 6/12 + 5/12 teaser, not the `image` 5/12 + 6/12). Hero-only: `small` (live heading variant h2), `landscape` (4:3 media box); columns: `banner` (forest CTA card).",
+ "sell": {
+  "0": "tint-beige",
+  "1": "tint-grey",
+  "2": "tint-white reverse",
+  "3": "tint-white",
+  "4": "tint-white reverse",
+  "5": "tint-grey reverse",
+  "6": "tint-white",
+  "7": "tint-grey",
+  "8": "tint-white",
+  "9": "tint-beige reverse"
+ },
+ "employee-experience": {
+  "0": "tint-yellow",
+  "1": "tint-white",
+  "2": "tint-grey",
+  "3": "tint-white",
+  "4": "tint-grey",
+  "5": "tint-white",
+  "6": "tint-grey",
+  "7": "tint-white",
+  "8": "tint-yellow"
+ },
+ "employee-service": {
+  "2": "reverse",
+  "5": "tint-cream",
+  "10": "dark",
+  "13": "tint-forest"
+ },
+ "platform": {
+  "6": "reverse",
+  "8": "reverse"
+ },
+ "cxtrends": {
+  "3.media": "https://web-assets.zendesk.com/cdn-cgi/image/q=65,f=auto,width=1600,fit=scale-down/zendesk/pages/cx-trends/shared/Blockframe_CXT27_Speaker.png",
+  "1": "small landscape",
+  "5": "reverse"
+ },
+ "why-zendesk": {
+  "0": "!image",
+  "1": "reverse",
+  "4": "reverse",
+  "6": "reverse",
+  "7": "banner"
+ },
+ "web-widget": {
+  "1": "reverse small tint-white"
+ },
+ "repeatcustomer": {
+  "0": "tint-white",
+  "1": "tint-white",
+  "2": "tint-white"
+ },
+ "professional-services": {
+  "0": "!image landscape"
+ }
+}

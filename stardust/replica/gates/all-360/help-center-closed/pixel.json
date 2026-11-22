@@ -1,0 +1,123 @@
+{
+  "a": "stardust/replica/gates/all-360/help-center-closed/origin.png",
+  "b": "stardust/replica/gates/all-360/help-center-closed/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 2048,
+    "mode": "overlap"
+  },
+  "heightDelta": 1,
+  "differingPixels": 14216,
+  "pct": 1.93,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/help-center-closed/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 2.95,
+  "textBoxes": 46,
+  "textPixels": 144374,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 2.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 2.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2048,
+      "pct": 1.7
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.35,
+    "differingPixels": 9988,
+    "compared": {
+      "width": 360,
+      "height": 2050,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1037,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 1321,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 1642,
+        "shift": -1,
+        "cumulative": -1
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 3,
+    "insertedRows": 1,
+    "deletedRows": 2,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 2,
+        "unaligned": 2
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 2.5,
+        "unaligned": 2.5
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.4,
+        "unaligned": 1.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.7,
+        "unaligned": 2.2
+      },
+      {
+        "y0": 2000,
+        "y1": 2049,
+        "pct": 0,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/help-center-closed/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 20,
+    "totalShift": 3,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--3055ed88--aemcoder.aem.page/help-center-closed"
+  }
+}

@@ -1,0 +1,84 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-21T18:02:00.936Z",
+ "content": {
+  "totals": {
+   "missingHeadings": 0,
+   "hiddenHeadings": 0,
+   "extraHeadings": 0,
+   "missingLinks": 0,
+   "hiddenLinks": 0,
+   "movedLinks": 0,
+   "extraLinks": 0,
+   "missingButtons": 0,
+   "hiddenButtons": 0,
+   "controlState": 0,
+   "countDeltas": 0,
+   "findings": 2,
+   "structural": 0,
+   "missing": 0,
+   "hidden": 0
+  },
+  "variable": [
+   "div.sc-c38018e9-0=.bl-latest-head",
+   "div.StyledInnerPanel-sc-8nbueg-0=.bl-filters-panel"
+  ],
+  "reason": "marketplace directory (cluster-listing): the live result count and the filter option counts come from the live partners catalogue (Algolia, changes daily; D3 interim: authored as captured); compared as counts.",
+  "tier": "chrome"
+ },
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 23,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 1,
+   "textNodes": 216,
+   "controls": 123,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "TEXT CLAMPED",
+    "advisory": true,
+    "n": 23,
+    "clipper": "p",
+    "path": "div.bl-tile > a.bl-tile-body > div.bl-tile-text.bl-tile-text-2 > p",
+    "text": "729 solutions is a premier zendesk implementation, consultin",
+    "cutMin": null,
+    "cutMax": null
+   }
+  ],
+  "origin": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 23,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 0,
+   "textNodes": 218,
+   "controls": 123,
+   "total": 0
+  },
+  "source": "content-presence"
+ },
+ "units": {
+  "verdict": {
+   "units": 0,
+   "within": 0,
+   "off": 0,
+   "hidden": 0,
+   "missing": 0,
+   "errors": 2,
+   "requiredOff": 0
+  },
+  "required": false
+ }
+}

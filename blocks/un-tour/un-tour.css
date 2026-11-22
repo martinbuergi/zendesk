@@ -1,0 +1,142 @@
+/* un-tour — live /intro-tour/ (legacy p-intro-tour). 1440: bar 96 (pad 16, container 1120),
+   logo 100 x 19 at x 176, Replay 18/29 Sharp Sans 600, CTA 48 high rgb(23 73 77) square;
+   stage pad 64 / 32, frame max 1280, 16:9, shadow 0 8 24 rgb(104 115 125 / 15%);
+   360: Replay hidden, CTA spans the right 2/3 column (213 px). */
+
+.un-tour {
+  --un-tour-green: rgb(23 73 77);
+  --un-tour-grey: rgb(248 249 249);
+
+  background-color: var(--un-tour-grey);
+  font-family: var(--zb-font-body);
+}
+
+.un-tour .un-tour-bar {
+  padding: 16px 0;
+  background-color: var(--za-white);
+}
+
+.un-tour .un-tour-inner {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 8px;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1120px;
+  min-height: 64px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.un-tour .un-tour-logo p {
+  margin: 0;
+  line-height: 0;
+}
+
+.un-tour .un-tour-logo a {
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+}
+
+.un-tour .un-tour-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.un-tour .un-tour-acts {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.un-tour .un-tour-acts p {
+  width: 100%;
+  margin: 0;
+}
+
+.un-tour .un-tour-acts p:has(.un-tour-replay) {
+  display: none;
+}
+
+.un-tour .un-tour-acts a.un-tour-replay {
+  display: block;
+  color: var(--un-tour-green);
+  font-family: var(--zb-font-head);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+  text-decoration: underline 2px;
+  text-underline-offset: 6px;
+}
+
+.un-tour .un-tour-acts a.button {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 0;
+  padding: 8px 24px;
+  border: 2px solid var(--un-tour-green);
+  border-radius: 0;
+  background-color: var(--un-tour-green);
+  color: var(--za-white);
+  font-family: var(--zb-font-head);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.un-tour .un-tour-acts a.button::before {
+  display: none;
+}
+
+.un-tour .un-tour-stage {
+  padding: 64px 32px;
+}
+
+.un-tour .un-tour-frame {
+  position: relative;
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: var(--un-tour-grey);
+  box-shadow: 0 8px 24px 0 rgb(104 115 125 / 15%);
+}
+
+.un-tour .un-tour-frame::after {
+  content: "";
+  display: block;
+  padding-bottom: 56.25%;
+}
+
+.un-tour .un-tour-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media (width >= 481px) {
+  .un-tour .un-tour-acts {
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .un-tour .un-tour-acts p {
+    width: auto;
+  }
+
+  .un-tour .un-tour-acts a.button {
+    width: auto;
+  }
+}
+
+@media (width >= 768px) {
+  .un-tour .un-tour-acts p:has(.un-tour-replay) {
+    display: block;
+  }
+}

@@ -1,0 +1,466 @@
+/* hp-hero — home hero (rounded shell capped at min(1920px, 100% - 32px)); values from the gated prototype */
+.hp-hero {
+  position: relative;
+  top: 16px;
+  max-width: 100%;
+  margin: 0 auto 16px;
+  overflow: hidden;
+  border-radius: 32px;
+  background-color: var(--za-white);
+  color: var(--za-ink);
+}
+
+.hp-hero .hp-hero-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 24px;
+}
+
+.hp-hero .hp-hero-row {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hp-hero .hp-hero-copy {
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: column;
+  align-items: stretch;
+  max-width: 100%;
+  text-align: left;
+}
+
+/* a flex wrapper blockifies the inline-flex eyebrow, as the source's flex column does */
+.hp-hero .hp-hero-eyebrow {
+  display: flex;
+  flex-direction: column;
+}
+
+.hp-hero .hp-hero-eyebrow :is(p, h1, h2) {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 8px;
+  color: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+
+.hp-hero .hp-hero-title :is(h1, h2) {
+  margin: 0 0 24px;
+  color: inherit;
+  font-size: 43px;
+  font-weight: 500;
+  line-height: 1.05;
+}
+
+.hp-hero .hp-hero-lede {
+  color: inherit;
+}
+
+/* trial teaser */
+.hp-hero .hp-trial {
+  position: relative;
+  width: 100%;
+  text-align: left;
+}
+
+.hp-hero .hp-trial-form {
+  position: relative;
+}
+
+.hp-hero .hp-trial-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+}
+
+.hp-hero .hp-trial-note {
+  grid-column: 1 / 3;
+  margin: 0 0 16px;
+  color: inherit;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.hp-hero .hp-trial-note svg {
+  display: inline-block;
+  margin-bottom: -2px;
+  vertical-align: baseline;
+}
+
+.hp-hero .hp-trial-note p {
+  display: inline;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.hp-hero .hp-trial-note svg + p::before {
+  content: " ";
+}
+
+.hp-hero .hp-trial-fields {
+  display: flex;
+  grid-column: 1 / 3;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hp-hero .hp-trial-field {
+  position: relative;
+}
+
+.hp-hero .hp-trial-input {
+  display: block;
+  width: 100%;
+  min-height: 48px;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  appearance: none;
+  background: var(--za-white);
+  box-shadow: var(--za-hairline) 0 0 0 1px inset;
+  color: var(--za-ink);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.hp-hero .hp-trial-input::placeholder {
+  color: rgb(46 46 35);
+  opacity: 1;
+}
+
+.hp-hero .hp-trial-input:hover {
+  box-shadow: var(--za-hairline) 0 0 0 2px inset;
+}
+
+/* Garden validation tooltip, mounted hidden */
+.hp-hero .hp-trial-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.hp-hero .hp-trial-tip p {
+  margin: 0;
+}
+
+.hp-hero .hp-trial-submit {
+  display: block;
+  width: 100%;
+}
+
+.hp-hero .hp-trial-submit p {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.hp-hero .hp-trial-consent {
+  grid-column: 1 / 3;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 800ms, opacity 900ms;
+}
+
+.hp-hero .hp-trial-consent p {
+  margin: 0;
+  color: inherit;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.hp-hero .hp-trial-consent a {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.hp-hero .hp-trial-form:focus-within .hp-trial-consent {
+  max-height: 240px;
+  margin-top: 8px;
+  opacity: 1;
+}
+
+/* media: photo in flow below the copy (< 768) */
+.hp-hero .hp-hero-media {
+  position: relative;
+  margin-top: var(--za-row-gap);
+  overflow: hidden;
+  border-radius: 32px;
+  line-height: 0;
+}
+
+.hp-hero .hp-hero-media::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-color: rgb(0 0 0 / 30%);
+  pointer-events: none;
+}
+
+.hp-hero .hp-hero-photo :is(p, picture) {
+  margin: 0;
+}
+
+.hp-hero .hp-hero-photo img {
+  display: block;
+  width: 100%;
+  height: 396px;
+  object-fit: cover;
+  object-position: 35% center;
+}
+
+.hp-hero .hp-hero-fallback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.hp-hero .hp-hero-fallback :is(p, picture) {
+  margin: 0;
+}
+
+.hp-hero .hp-hero-fallback img {
+  position: relative;
+  top: 50px;
+  z-index: 2;
+  display: block;
+  width: 75%;
+  height: 350px;
+  margin: 0 auto;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.hp-hero .hp-hero-anim {
+  display: none;
+}
+
+.hp-hero .hp-pause {
+  position: relative;
+  display: inline-block;
+  padding: 9px;
+  border: none;
+  border-radius: 100%;
+  background-color: var(--za-white);
+  color: var(--za-ink);
+  line-height: 26px;
+  cursor: pointer;
+}
+
+.hp-hero .hp-pause svg {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+@media (width >= 768px) {
+  .hp-hero {
+    max-width: min(1920px, 100% - 32px);
+    height: 690px;
+    background-color: var(--za-ink);
+    color: var(--za-white);
+  }
+
+  .hp-hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(to right, rgb(0 0 0 / 40%) 0%, rgb(0 0 0 / 25%) 35%, rgb(0 0 0 / 0%) 60%);
+    pointer-events: none;
+  }
+
+  /* the inner box stays static so the photo layer covers the whole shell */
+  .hp-hero .hp-hero-inner {
+    position: static;
+    justify-content: center;
+    height: 100%;
+    padding-top: 0;
+  }
+
+  .hp-hero .hp-hero-row {
+    position: relative;
+    z-index: 2;
+  }
+
+  .hp-hero .hp-hero-copy {
+    flex: 0 0 52.0833%;
+    max-width: 52.0833%;
+    padding-right: 36px;
+  }
+
+  .hp-hero .hp-hero-eyebrow :is(p, h1, h2) {
+    color: var(--za-cream);
+    font-size: 13px;
+  }
+
+  .hp-hero .hp-hero-title :is(h1, h2) {
+    color: var(--za-cream);
+    font-size: 51px;
+  }
+
+  .hp-hero .hp-hero-lede {
+    color: var(--za-white);
+  }
+
+  .hp-hero .hp-trial {
+    max-width: 600px;
+  }
+
+  .hp-hero .hp-trial-input {
+    min-width: 250px;
+    font-size: 15px;
+  }
+
+  /* the photo becomes the shell background (center / cover) */
+  .hp-hero .hp-hero-media {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .hp-hero .hp-hero-media::before,
+  .hp-hero .hp-hero-fallback {
+    display: none;
+  }
+
+  .hp-hero .hp-hero-photo,
+  .hp-hero .hp-hero-photo :is(p, picture) {
+    height: 100%;
+  }
+
+  .hp-hero .hp-hero-photo img {
+    height: 100%;
+    object-position: center center;
+  }
+
+  .hp-hero .hp-hero-anim {
+    display: block;
+  }
+
+  .hp-hero .hp-hero-canvas {
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    z-index: 2;
+    width: 32%;
+    height: 100%;
+    pointer-events: none;
+  }
+
+  .hp-hero .hp-hero-frame,
+  .hp-hero .hp-hero-frame :is(p, picture) {
+    height: 100%;
+    margin: 0;
+  }
+
+  .hp-hero .hp-hero-frame img,
+  .hp-hero .hp-hero-rive {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .hp-hero .hp-hero-rive {
+    position: absolute;
+    inset: 0;
+  }
+
+  .hp-hero .hp-hero-canvas.is-live .hp-hero-frame {
+    visibility: hidden;
+  }
+
+  .hp-hero .hp-hero-pause {
+    position: absolute;
+    right: -75px;
+    bottom: 25px;
+    z-index: 2;
+    pointer-events: auto;
+  }
+}
+
+@media (width >= 1150px) {
+  .hp-hero {
+    height: 772px;
+  }
+
+  .hp-hero .hp-hero-copy {
+    flex: 0 0 62.5%;
+    max-width: 62.5%;
+  }
+
+  .hp-hero .hp-hero-eyebrow :is(p, h1, h2) {
+    font-size: 14px;
+  }
+
+  .hp-hero .hp-hero-title :is(h1, h2) {
+    font-size: 68px;
+  }
+
+  .hp-hero .hp-hero-canvas {
+    width: 22%;
+  }
+
+  .hp-hero .hp-trial-note {
+    font-size: 14px;
+  }
+
+  .hp-hero .hp-trial-fields {
+    flex-direction: row;
+  }
+
+  .hp-hero .hp-trial-field {
+    flex: 10 1 250px;
+  }
+
+  .hp-hero .hp-trial-submit {
+    flex: 1 1 auto;
+  }
+}
+
+@media (width >= 1600px) {
+  .hp-hero {
+    height: 995px;
+  }
+
+  .hp-hero .hp-hero-copy {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 0;
+  }
+
+  .hp-hero .hp-hero-eyebrow :is(p, h1, h2) {
+    font-size: 16px;
+  }
+
+  .hp-hero .hp-hero-title :is(h1, h2) {
+    font-size: 85px;
+  }
+
+  .hp-hero .hp-hero-canvas {
+    right: 160px;
+  }
+
+  .hp-hero .hp-hero-pause {
+    right: -135px;
+  }
+}

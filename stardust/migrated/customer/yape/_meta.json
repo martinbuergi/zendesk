@@ -1,0 +1,418 @@
+{
+  "slug": "customer-yape",
+  "type": "article",
+  "renderBranch": "A'",
+  "template": "customer-canva",
+  "modules": [
+    "zb-story-hero",
+    "zb-quotes",
+    "zb-facts",
+    "zb-stats",
+    "zb-article"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "zb-story-hero-wrap",
+    "zb-section",
+    "zb-section",
+    "zb-section"
+  ],
+  "canonShas": {
+    "header": "446c8bad3020",
+    "footer": "df7241ab9696",
+    "css": "015e4b15a847"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Yape enhances its CX with Zendesk AI Copilot for faster and more efficient resolutions",
+    "description": "Peruvian fintech app Yape elevates its CX user satisfaction and agent efficiency with intelligent real-time assistance from Zendesk AI agents and Copilot.",
+    "canonical": "https://www.zendesk.com/customer/yape/",
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Yape enhances its CX with Zendesk AI Copilot for faster and more efficient resolutions",
+    "description": "Peruvian fintech app Yape elevates its CX user satisfaction and agent efficiency with intelligent real-time assistance from Zendesk AI agents and Copilot.",
+    "mainEntityOfPage": "https://www.zendesk.com/customer/yape/"
+  },
+  "migratedAt": "2026-11-20T14:19:34Z",
+  "designMdSha": "84a4a03d7364",
+  "designJsonSha": "28069f8740fe",
+  "sourceCurrentSha": "3a86dc4d257a",
+  "sourceProposedSha": "e1ba0aa2b6f8",
+  "fidelityTier": "sibling",
+  "archetypeSource": "customer-canva",
+  "archetypeSha": "4a9cbb126046",
+  "variants": [
+    "zb-story-hero cta-secondary"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "pixel-gate-1440",
+    "media-reconcile",
+    "delivery-lint",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "stardust/.work/render/article/variance.json (58 article siblings vs customer-canva @1440, probes hero/quote/fact/stat/logo): no computed-style delta; content-driven only — Basestyle__BaseRoot-sc-3zktjg-1.iEPMHG 652→660, Basestyle__BaseRoot-sc-3zktjg-1.dvTsIe 2996→2285; hero: rect{h 1076 → 1180}; image{w 119 → 38}; quote: rect{h 328 → 358}; fact: rect{h 132 → 110}; stat: 2 → 3 matches; stat: rect{w 536 → 352}; logo: image{w 119 → 38}; variants: zb-story-hero cta-secondary",
+    "content-count": "role counts capture main vs render main (sibling-article/build.py counts_main, re-checked on migrated index.html with lxml UTF-8 decode): headings 9/9, body 38/38, ctas 8/8, hrefs 8/8, images 5/5, words 775/775; drops none; archetype encoder accepted (exit 0, 5 blocks) → stardust/.work/render/article/enc/yape.html",
+    "content-fidelity": "verbatim injection from stardust/current/pages/customer-yape.html by stardust/rollout/encoders/sibling-article/build.py; word sequence capture main = render main (identical order and multiset); only edge whitespace, asset paths transformed; 0 contentDeviations",
+    "pixel-gate-1440": "gate-all published origin main--3055ed88--aemcoder.aem.page @1440: pixel 1.06 (7.05) [7.45]%, Δh -45px, clipped 0, MISSING 0 / HIDDEN 0, units off 0 hidden 0 missing 0 → PASS (ca7-g1440-r2.log)",
+    "media-reconcile": "5 hosted (customer-yape-media-reconcile.log)",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /customer/yape)",
+    "pixel-gate-360": "gate-all published origin main--3055ed88--aemcoder.aem.page @360: pixel 1.06 (4.53) [8.24]%, Δh -2px, clipped 0, MISSING 0 / HIDDEN 0, units off 0 hidden 0 missing 0 → PASS (ca7-g360-r2.log)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 8,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/login/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/newsroom/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/company/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/company/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/belonging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/sustainability/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/business/enterprise/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/smb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/startups/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/company/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/programs/zendesk-community/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/professional-services/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/developers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/newsroom/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/register/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/register/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/marketplace/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/business/enterprise/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/smb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/startups/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/company/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/programs/zendesk-community/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/professional-services/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/developers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/newsroom/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/newsroom/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/company/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/company/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/belonging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/sustainability/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/register/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/login/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/customer/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.zendesk.com/public/assets/sitemaps/en/feed.xml",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/service/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/industries/financial-services/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/contact-center/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/service/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/messaging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/voice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/community-forum/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/analytics/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ticketing-system/customer-service-management-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/help-desk-software/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/messaging/live-chat-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/knowledge-base-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/online-community-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/help-desk-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/quality-assurance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/workforce-management/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/customer-data-privacy-protection/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/company/events/#webinars",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/customer-experience/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/newsroom/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/company/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/company/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/belonging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/sustainability/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/ventures/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/enterprise/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/smb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/startups/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sell/crm/what-is-crm/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sell/crm/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/programs/experience-research-panel/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/terms-of-use/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/cookie-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "customer/yape/index.html",
+  "outputPathDefault": null,
+  "sidecar": "customer/yape/_meta.json",
+  "driverVersion": "1"
+}

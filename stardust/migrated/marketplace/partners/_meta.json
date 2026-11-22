@@ -1,0 +1,706 @@
+{
+  "slug": "marketplace-partners",
+  "type": "listing",
+  "renderBranch": "A'",
+  "template": "blog",
+  "modules": [
+    "bl-hero",
+    "bl-filters",
+    "bl-latest",
+    "bl-subnav"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "bl-root"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": "82a3dbc75361",
+    "css": "6522953e4893"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "encoder-gap",
+      "encoder": "stardust/rollout/encoders/archetype-listing/encode.mjs",
+      "scratch": "stardust/.work/render/listing/enc/marketplace-partners.html",
+      "wordsNotCarried": 1496,
+      "wordsTotal": 1658,
+      "imgsCarried": 24,
+      "imgsRendered": 24,
+      "need": "extend the archetype encoder before PUT: bl-card eyebrow/meta/cta/logo/rating lines, bl-group head h3/h5 + no-head groups, bl-hero copy (p, h5, crumbs, field, links, media) and lead without bl-lead__title, every hp-teaser (not only the first) with all CTAs, bl-guides sub-headings and dated items, bl-latest title/filters/count/load-more, and new blocks bl-filters (+ bl-latest aside)"
+    }
+  ],
+  "metadata": {
+    "title": "Looking for Zendesk consulting, solution &amp; implementation partners?",
+    "description": "Use the Zendesk Partner Directory to get training, set up macros and triggers, configure apps &amp;amp; more! Optimize your Zendesk solution with the Zendesk Partner Directory.",
+    "canonical": "https://www.zendesk.com/marketplace/partners/",
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Looking for Zendesk consulting, solution &amp; implementation partners?",
+    "description": "Use the Zendesk Partner Directory to get training, set up macros and triggers, configure apps &amp;amp; more! Optimize your Zendesk solution with the Zendesk Partner Directory.",
+    "url": "https://www.zendesk.com/marketplace/partners/"
+  },
+  "migratedAt": "2026-11-20T16:30:54Z",
+  "designMdSha": "84a4a03d7364",
+  "designJsonSha": "28069f8740fe",
+  "sourceCurrentSha": "43ec7a0bdb74",
+  "sourceProposedSha": "af3c4f6dc7a0",
+  "fidelityTier": "sibling",
+  "archetypeSource": "blog",
+  "archetypeSha": "69a741f91004",
+  "variants": [
+    "bl-hero crumbs",
+    "bl-hero no-h1",
+    "bl-hero directory",
+    "bl-latest filters",
+    "bl-subnav marketplace"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "pixel-gate-1440",
+    "media-reconcile"
+  ],
+  "gateEvidence": {
+    "variance-probe": "stardust/.work/render/listing/variance.json (7 listing siblings vs blog @1440, probes hero=main section / card=main a:has(img):has(h3) / heading=main h2; all 7 vary): deltas on card, heading, hero; hero rect{h 991 → 3136}; padding 48px 0px 88px 0px → 88px 0px 88px 0px; heading h3 vanilla sans 42px/48.3px 500 rgb(17, 17, 13) → h2 vanilla sans 42px/48.3px 500 rgb(17, 17, 13); image{w 421 → 52, h 316 → 52}; before content:; budgeted as variants: bl-hero crumbs; bl-hero no-h1; bl-hero directory; bl-latest filters; bl-subnav marketplace",
+    "content-count": "role counts capture main (stardust/current/pages/marketplace-partners.html, UTF-8) vs migrated content sections (sibling-listing/count.py): headings 61/61, body 55/111, ctas 66/66, hrefs 29/28, images 24/24, words 1658/1658; word multiset missing 0, extra 0 (hrefs -1 = javascript:void(0) filter toggles carried as buttons, contentDeviations link-to-button); archetype encoder accepted (exit 0, blocks bl-hero,bl-latest,bl-subnav,metadata) -> stardust/.work/render/listing/enc/marketplace-partners.html",
+    "content-fidelity": "verbatim injection from stardust/current/pages/marketplace-partners.html by stardust/rollout/encoders/sibling-listing/build.py; word multiset capture main = render content (0 missing, 0 extra); order kept per section; only edge whitespace, asset paths and JS pseudo-links transformed; 3 contentDeviations logged",
+    "pixel-gate-1440": "gate-all published origin main--3055ed88--aemcoder.aem.page @1440: pixel 3.34 (4.33) [16.43]%, Δh 32px, clipped 0, MISSING 0 / HIDDEN 0 → PASS (cl-gate1440-confirm.log)",
+    "pixel-gate-360": "FAIL: offsets 123px > bound 111 (accepted residual at the round cap: open Region filter group, partner card text) — gate-all published origin main--3055ed88--aemcoder.aem.page @360: pixel 3.79 (5.72) [16.74]%, Δh -49px (cl-gate360c.log)",
+    "media-reconcile": "all images hosted (cluster-listing-mr-marketplace-partners.log)",
+    "delivery-lint": "OPEN: 1 P0: no h1 (live has none — carried deviation) (delivery-lint --path /marketplace/partners)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "module",
+      "source": "directory filter column (keywords, Categories/Works With/Collections/Rating/Payment accordions, sort)",
+      "target": "bl-latest > aside.bl-filters (no archetype module)",
+      "reason": "the blog archetype has no filter module; carried verbatim inside bl-latest — delivery adds the filter UI (Algolia-backed, dynamic)"
+    },
+    {
+      "kind": "chrome",
+      "source": "marketplace sub-header (Marketplace, Apps, Connectors, Themes, Partners) replacing the global nav",
+      "target": "canon global header + bl-subnav (brand Marketplace, 4 items)",
+      "reason": "archetype chrome is the canon global header; the marketplace section nav is carried in the archetype bl-subnav slot"
+    },
+    {
+      "kind": "link-to-button",
+      "source": "29 <a href=\"javascript:void(0)\"> filter toggles",
+      "target": "<button type=\"button\" class=\"bl-filter\"> (same labels)",
+      "reason": "JS pseudo-links (client-side filter toggles) have no destination; carried as buttons with the same labels"
+    }
+  ],
+  "assetsBundled": 30,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.zendesk.com/cxtrends/?utm_source=webpromo&utm_medium=eyebrow&utm_campaign=FY27_-_Q4_-_AMER_-_Content_-_CX_Trends_2027_Global_Report_US_English",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/login/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.zendesk.com/it/blog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/dk/blog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/se/blog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/au/blog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/in/blog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/sg/blog/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/zendesk-bridge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/analytics/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/any-platform/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/contact-center/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/quality-assurance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/workforce-management/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/messaging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/employee-service/itsm/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/voice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/startups/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/retail/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/financial-services/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/technology/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/industries/media/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/programs/zendesk-community/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/company/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.zendesk.com/company/events/ai-summit-2026/?utm_medium=webpromo&utm_source=navigation&utm_campaign=AISummit_26_nav3_NA_2026Q3",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/register/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/marketplace/connectors/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/1930/729-solutions/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/3351/adelantecx-managed-ai-support-agent-for-ecommerce-shopify/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/4577/advocx/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/1093/aktie-now/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/885/appamondo/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/4995/atlantis-dx-gmbh/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/674/bcrcx---business-customer-relationship/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/2143/be-simple/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/5191/byteleaders-bv/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/1078/cloudhuset-as/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/2444/cloudmotion/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/5617/concentrix/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/6881/crm-scene/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/6635/cx-experts/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/6029/databeys/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/2062/demeter-i/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/4039/demeter-ict/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/2157/eclect-inc/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/1938/envoy/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/2412/faye/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/3049/gravity-cx/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/2968/happirel-ab/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/1005/helphouseio/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/marketplace/partners/2810/helping---spain-barcelona-madrid/?queryID=09f9f8fccdf2ce80f0c7de6722adb943",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/contact-center/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/login/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/business/enterprise/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/smb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/startups/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/specialized-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/messaging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/customer-data-privacy-protection/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/voice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/community-forum/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/analytics/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/workforce-management/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/quality-assurance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/live-chat/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/customer-portal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/developers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/ai/zendesk-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/professional-services/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/free-trial/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.zendesk.com/company/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/belonging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/sustainability/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/ventures/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/zendesk-vs-intercom/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/zendesk-vs-salesforce/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/zendesk-vs-freshdesk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/programs/experience-research-panel/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ticketing-system/customer-service-management-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/help-desk-software/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/messaging/live-chat-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/online-community-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/help-desk-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/client-portal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/knowledge-base-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/top-ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/contact-center/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/login/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/demo/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/business/enterprise/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/smb/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business/startups/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/ai-agents/specialized-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/copilot/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/messaging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/customer-data-privacy-protection/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/voice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/community-forum/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/analytics/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/workforce-management/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/quality-assurance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/live-chat/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/customer-portal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/developers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/ai/zendesk-ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/professional-services/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/free-trial/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.zendesk.com/company/careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/belonging/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/sustainability/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/ventures/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/zendesk-vs-intercom/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/zendesk-vs-salesforce/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/why-zendesk/zendesk-vs-freshdesk/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/programs/experience-research-panel/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ticketing-system/customer-service-management-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/help-desk-software/ticketing-system/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/messaging/live-chat-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/online-community-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/help-desk-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/client-portal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/knowledge/knowledge-base-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service/ai/top-ai-agents/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/terms-of-use/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/cookie-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "marketplace/partners/index.html",
+  "outputPathDefault": null,
+  "sidecar": "marketplace/partners/_meta.json",
+  "driverVersion": "1"
+}

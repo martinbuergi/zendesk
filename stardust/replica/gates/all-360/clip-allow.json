@@ -1,0 +1,6 @@
+{
+ "blog": {
+  "max": 11,
+  "reason": "story-card descriptions are 4-line -webkit-line-clamp boxes (13px x 1.4 = 72.8px), the same clamp as live: the origin probe counts 11 clipped/hidden texts on the same cards (6 textClipped + 5 textHidden); a line-height workaround cleared the probe but added 14 x 1px offset steps (replica iter3, reverted)"
+ }
+}

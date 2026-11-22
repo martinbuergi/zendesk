@@ -1,0 +1,58 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-21T02:06:24.645Z",
+  "tol": 4,
+  "n": 12,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/help-center-closed/",
+  "at": "2026-11-21T02:03:06.842Z",
+  "docH": 1903
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/help-center-closed",
+  "at": "2026-11-21T02:06:24.539Z",
+  "docH": 1902
+ },
+ "results": [
+  {
+   "sel": "#plans .Cardstyle__CardRoot-sc-12jokda-2=.pr-plans:not(.addons) .pr-card",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": "#addons .Cardstyle__CardRoot-sc-12jokda-2=.pr-plans.addons .pr-card",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": "#faqs .Accordionstyle__AccordionSection-sc-1baakjb-5=.pr-faq .pr-faq-item",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  }
+ ],
+ "verdict": {
+  "units": 0,
+  "within": 0,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 3,
+  "requiredOff": 0
+ }
+}

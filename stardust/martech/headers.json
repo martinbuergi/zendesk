@@ -1,0 +1,7 @@
+{
+ "cache-control": "public, max-age=3600",
+ "content-security-policy": "default-src * wss://*.zopim.com 'unsafe-inline' 'unsafe-eval'; frame-ancestors 'self' *.zendesk.com *.zendesk.co.jp *.zendesk.co.uk *.zendesk.com.br *.zendesk.com.mx *.zendesk.de *.zendesk.es *.zendesk.fr *.zendesk.kr *.zendesk.nl *.zendesk.tw *.zendesk.hk staging500.resultsbydesign.com zendesk.ddev.site; font-src * data:; img-src * blob: data:; media-src * blob:;worker-src 'self' blob:",
+ "server": "cloudflare",
+ "strict-transport-security": "max-age=0; preload",
+ "x-content-type-options": "nosniff"
+}

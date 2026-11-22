@@ -1,0 +1,143 @@
+/* company (static archetype, gen A) — page modules on top of canon-a.css.
+   Values lifted from the live CSSOM (stardust/.work/company-tools/live.css) and measured with
+   measure.mjs / source-spec.mjs. Breakpoints are the source's: 481 / 768 / 1150 / 1600. */
+
+/* ---------- page shell: first section slides under the header (.cwMKbe --headerHeight) ---------- */
+.co-wrap { --co-hh: 65px; background: var(--za-white); }
+@media (min-width: 1150px) { .co-wrap { --co-hh: 115px; } }
+.co-wrap > section:first-of-type { margin-top: calc(-1 * var(--co-hh)); }
+.co-wrap > section:first-of-type::before { content: ""; display: block; height: var(--co-hh); width: 100%; }
+.co-rel { position: relative; }
+.co-text { display: flow-root; }
+.co-main .za-text > p { margin: 0 0 16px; }
+.co-flush { padding-top: 0; padding-bottom: 0; }
+
+/* ---------- teaser rows (.cNrHVc: center/start; <768 gap 32) ---------- */
+.co-row { align-items: center; justify-content: flex-start; }
+@media (max-width: 767.98px) { .co-row { gap: 32px; } }
+.co-txt { display: flex; flex-direction: column; align-items: stretch; order: 0; text-align: left; }
+.co-media { order: 1; }
+@media (min-width: 768px) {
+  /* .ihhIPu.dOybzF (text left 6/12, pad-right 36) + .gSmZqs (media 5/12 offset 1) */
+  .co-txt--l { flex: 0 0 50%; max-width: 50%; margin-left: 0; }
+  .co-media--r { flex: 0 0 41.6667%; max-width: 41.6667%; margin-left: 8.33333%; }
+  /* .JVUfo (media left 5/12) + .ciRKqy.vAcTu (text 6/12 offset 1, pad-left 36) */
+  .co-media--l { flex: 0 0 41.6667%; max-width: 41.6667%; margin-left: 0; order: 0; }
+  .co-txt--r { flex: 0 0 50%; max-width: 50%; margin-left: 8.33333%; order: 1; }
+}
+@media (min-width: 768px) and (max-width: 1599.98px) {
+  .co-txt--l { padding-right: 36px; }
+  .co-txt--r { padding-left: 36px; }
+}
+
+/* intrinsic image (.bGqUCY radius 40 / .frWMUj): transparent sizer + image share one box */
+.co-ii { position: relative; display: block; line-height: 0; border-radius: 40px; overflow: hidden; }
+.co-ii__sizer { display: block; width: 100%; height: auto; max-width: 100%; }
+.co-ii > img:not(.co-ii__sizer) { position: absolute; left: 0; top: 0; width: 100%; height: 100%; max-width: none; object-fit: cover; }
+.co-ii--card { border-radius: 0; overflow: visible; width: 100%; }
+
+/* link group (.eCTgYG / .jRgiMW centred) */
+.co-links { display: flex; flex-flow: column wrap; align-items: center; width: 100%; gap: 12px; }
+.za-text + .co-links, h2 + .co-links { padding-top: 8px; }
+.co-links--c { justify-content: center; }
+@media (min-width: 768px) { .co-links { flex-direction: row; align-items: baseline; width: auto; align-self: inherit; } }
+.co-links .za-btn { transition: color 600ms var(--za-ease); }
+.co-links .za-btn:hover, .co-links .za-btn:focus-visible { color: rgba(17, 17, 13, 0.7); }
+.co-links .za-btn:hover > span, .co-links .za-btn:focus-visible > span { color: var(--za-ink); }
+
+/* ---------- hero glow (.gOFDgw) ---------- */
+.co-hero__glow {
+  position: absolute; left: 0; top: 0; width: 100%; height: 100%; display: block;
+  background: radial-gradient(150% 140% at 22% 0%, transparent 65%, rgba(209, 244, 112, 0.6) 80%, rgba(209, 244, 112, 0.8) 100%);
+}
+
+/* ---------- centred head (.kPWOqp row + .iQsVyi 8/12 col, .euZksK) ---------- */
+.co-head { justify-content: center; align-items: center; }
+.co-head__col { display: flex; flex-direction: column; align-items: center; text-align: center; }
+@media (min-width: 768px) { .co-head__col { flex: 0 0 66.6667%; max-width: 66.6667%; } }
+
+/* ---------- locations carousel (slick .gffFwE: slidesToShow 4 / 1.33, track gap 16/24/32) ---------- */
+.co-car { position: relative; }
+.co-car__list { position: relative; overflow: visible; }
+.co-car__track { --co-gap: 16px; --co-show: 1.33; display: flex; gap: var(--co-gap); transform: translateX(0); transition: transform 500ms var(--za-ease); }
+@media (min-width: 768px) { .co-car__track { --co-gap: 24px; --co-show: 2.33; } }
+@media (min-width: 1150px) { .co-car__track { --co-show: 4; } }
+@media (min-width: 1600px) { .co-car__track { --co-gap: 32px; } }
+/* slick sets each slide to ceil(list / show) px; the flex gap then shrinks all 22 slides evenly */
+.co-car__slide { flex: 0 0 calc(round(up, 100% / var(--co-show), 1px) - var(--co-gap) * 21 / 22); min-width: 0; }
+.co-car__slick[hidden] { display: none !important; }
+.co-card {
+  position: relative; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; height: 100%; width: 100%;
+  border: 1px solid transparent; border-radius: 16px; overflow: hidden; background: var(--za-cream); color: var(--za-ink);
+  font-family: var(--za-font); font-weight: 500; cursor: pointer; transition: 300ms var(--za-ease);
+}
+.co-card img { transition: 300ms var(--za-ease); }
+.co-card .co-ii > img:not(.co-ii__sizer) { position: static; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; }
+.co-card .co-ii__sizer { position: absolute; left: 0; top: 0; height: 100%; object-fit: cover; }
+.co-card__content { display: flex; flex-direction: column; flex-grow: 1; width: 100%; padding: 32px 20px; background: var(--za-cream); transition: 300ms var(--za-ease); }
+@media (min-width: 768px) { .co-card__content { padding: 32px 24px; } }
+.co-card__kind {
+  display: inline-flex; align-items: center; gap: 8px; margin: 0 0 8px; color: var(--za-ink); font-stretch: condensed;
+  font-weight: 700; font-size: 12px; line-height: 1.3; text-transform: uppercase; letter-spacing: 0.75px;
+}
+.co-card__title { margin: 0 0 8px; color: var(--za-ink); font-weight: 600; font-size: 15px; line-height: 1.45; }
+@media (min-width: 1150px) { .co-card__title { font-size: 16px; } }
+@media (min-width: 1600px) { .co-card__title { font-size: 20px; } }
+.co-card:hover, .co-card:focus-visible, .co-card:hover .co-card__content, .co-card:focus-visible .co-card__content { background: rgba(17, 17, 13, 0.05); }
+.co-card:hover img, .co-card:focus-visible img { filter: brightness(0.9); }
+.co-card:active, .co-card:active .co-card__content { background: rgba(17, 17, 13, 0.11); transition: 100ms linear; }
+.co-card:active img { filter: brightness(0.85); }
+.co-car__nav { display: flex; align-items: center; justify-content: center; gap: 24px; margin: 32px 0 0; white-space: nowrap; }
+
+/* round icon button (.eAlObx: 56px, ::before tint) */
+.co-round {
+  position: relative; display: block; flex-shrink: 0; padding: 16px; border: none; border-radius: 100%;
+  background: transparent; color: var(--za-ink); cursor: pointer; line-height: 0; transition: color 600ms var(--za-ease);
+}
+.co-round::before {
+  content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 100%; display: block; border-radius: 100%;
+  background-color: rgba(17, 17, 13, 0.05); transform-origin: center center;
+  transition: background-color 100ms linear, border 100ms linear, transform 100ms linear;
+}
+.co-round > span { position: relative; display: block; }
+.co-round svg { display: block; width: 24px; height: 24px; }
+.co-round:not(:disabled):hover { color: rgba(17, 17, 13, 0.7); }
+.co-round:not(:disabled):hover::before { background-color: rgba(17, 17, 13, 0.11); }
+.co-round:not(:disabled):active::before { background-color: rgba(17, 17, 13, 0.18); }
+@media (min-width: 768px) { .co-round:not(:disabled):hover::before { transform: scale(1.1); } }
+.co-round:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* ---------- body promo (.fvooCG forest card, radius 40; .fjBmsB children mb 8, last 0) ---------- */
+.co-promo {
+  display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 32px;
+  padding: 2rem 1.5rem; border-radius: 40px; background-color: var(--za-forest); text-align: center;
+}
+@media (min-width: 768px) { .co-promo { padding: 64px; text-align: inherit; flex-wrap: nowrap; } }
+@media (min-width: 1150px) { .co-promo { padding: 64px 96px; } }
+.co-promo__body { flex: 1 1 100%; }
+.co-promo__body > * { margin-bottom: 8px !important; }
+.co-promo__body > :last-child { margin-bottom: 0 !important; }
+.co-promo__title { color: var(--za-cream); margin: 0 0 24px; font-size: 22px; line-height: 1.25; font-weight: 500; }
+@media (min-width: 768px) { .co-promo__title { font-size: 23px; } }
+@media (min-width: 1150px) { .co-promo__title { font-size: 26px; } }
+@media (min-width: 1600px) { .co-promo__title { font-size: 33px; } }
+.co-promo__cta { padding-top: 0; }
+.co-promo .za-btn:hover, .co-promo .za-btn:focus-visible { color: rgba(255, 255, 255, 0.7); }
+
+/* ---------- logos CTA (.gWxblo ink + moss glow .hBsfsS) ---------- */
+.co-cta { background-color: var(--za-ink); }
+.co-cta__glow {
+  position: absolute; left: 0; top: 0; width: 100%; height: 100%; display: block;
+  background: radial-gradient(115% 115% at 50% 100%, rgb(53, 94, 52) 10%, transparent 100%);
+}
+.co-cta__h { color: var(--za-cream); }
+.co-cta .za-btn:hover, .co-cta .za-btn:focus-visible { color: rgba(255, 255, 255, 0.7); }
+
+/* ---------- chrome (page-local until canon-requests #5/#7 land) ---------- */
+/* live mobile View demo is .kFGqoW.bSzcRF without .gNBZYc: 16px (canon 15px <1150) */
+.za-hdr--mobile .za-hdr__ctas .za-btn { font-size: 16px; }
+
+/* ---------- interaction parity (motion-observe: card hover colour, LinkText sweep on the CTA buttons) ---------- */
+.co-card:hover, .co-card:focus-visible { color: rgba(17, 17, 13, 0.7); }
+.co-links .za-btn > span { background-position: 100% 100%; transition: background-position 600ms var(--za-ease); }
+.co-links .za-btn:hover > span, .co-links .za-btn:focus-visible > span { background-position: 0% 100%; }

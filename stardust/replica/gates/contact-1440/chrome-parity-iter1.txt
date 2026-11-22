@@ -1,0 +1,15 @@
+chrome-parity: --live-cache stardust/replica/gates/contact-1440/chrome-live.json was probed for a different url/width/regions/overlay state — re-probing live
+[live-session] waiting to pace live navigations to www.zendesk.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 824 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.zendesk.com/contact/
+  build: http://localhost:8791/contact-proposed.html
+
+■ header: ✓ parity — 2 paired of 2/2 texts, 1/1 icons
+  region live:  div#header-2034679258.sc-93bde466-5.cPJLpn — auto-detected (no usable <header> landmark), box 0,0 1440×91; selector #__next > div > div:nth-of-type(2)
+  region build: div#za-hdr-d.za-hdr.za-hdr--desktop — auto-detected (no usable <header> landmark), box 0,0 1440×91; selector #za-hdr-d
+
+■ footer: ✓ parity — 6 paired of 6/6 texts, 1/1 icons
+  region live:  footer#footer-689004117.sc-512deb61-0.bRykKL — outermost <footer>, box 0,2834 1440×68; selector #footer-689004117
+  region build: footer#footer.ct-ftr — outermost <footer>, box 0,2834 1440×68; selector #footer
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

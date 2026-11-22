@@ -1,0 +1,112 @@
+{
+  "round": "iter1",
+  "width": 360,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/pricing-360/diff-iter1.png",
+    "json": "stardust/replica/gates/pricing-360/pixel-iter1.json",
+    "pct": 1.76,
+    "alignedPct": 1.2,
+    "alignedUsed": true,
+    "totalShift": 25,
+    "steps": [
+      {
+        "y": 1889,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 2153,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 2646,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 4080,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 4125,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 4827,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 5636,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 5682,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 6333,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 6401,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 6443,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 6503,
+        "shift": 1,
+        "cumulative": 0
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 76,
+    "noiseFloor": 0.08,
+    "reason": "offsets: 25 step(s), 25px total — −1px at y=1889, +1px at y=2153, +1px at y=2646, −1px at y=4080, +1px at y=4125, −1px at y=4827, … 19 more (bound 8px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-20T10:59:05.388Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": "5332:76"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/pricing-360/content-diff-iter1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/pricing-360/visual-diff-iter1.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/pricing-360/chrome-parity-iter1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/pricing-360/clip-iter1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/pricing-360/units-iter1.txt"
+    }
+  },
+  "structural": 1,
+  "nothingLost": 2,
+  "at": "2026-11-20T11:00:42.582Z"
+}

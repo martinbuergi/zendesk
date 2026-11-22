@@ -1,0 +1,47 @@
+{
+  "type": "unique",
+  "slug": "pricing",
+  "liveUrl": "https://www.zendesk.com/pricing/",
+  "generation": "A (Vanilla Sans; _computed-styles fontFamily 75/75 \"Vanilla Sans\")",
+  "prototype": "stardust/prototypes/pricing-proposed.html",
+  "css": ["stardust/prototypes/fonts.css", "stardust/prototypes/canon-a.css", "stardust/prototypes/pricing.css"],
+  "js": ["stardust/prototypes/canon-a.js", "stardust/prototypes/pricing.js"],
+  "contentRoot": "main",
+  "build": "pricing-proposed.html is assembled by stardust/.work/pricing/tools/build.py from authored parts (stardust/.work/pricing/parts/*), the canon-a chrome markup (service prototype) and the hidden SSR modal/FAQ-panel content re-authored as clean semantic markup by tools/hidden.py (text verbatim, classes/ids dropped)",
+  "sourceSpec": {
+    "1440": "0 sections with a height delta, page 6525 = 6525; residual: 3 tab pills +6px wide (text width), 3 MISSING [img] = live next/image placeholder imgs, logo marquee positions (spec taken mid-animation), OneTrust footer link text",
+    "360": "0 sections with a height delta, all section nodes Δy 0; same pairing artefacts"
+  },
+  "gates": {
+    "1440": {"rounds": 4, "counted": 2, "pixel": 0.25, "dh": 0, "contentDiff": "0 red / 0 nothing-lost / 309 advisory", "clipped": 0, "overflow": false, "units": "19 compared, 0 off (gen-a-plan-card x4, gen-a-addon-card x3, gen-a-pricing-faq-row x12)", "chromeCrops": "header 100.00%, footer 100.00%", "capProbe": "PASS (2560, 0 of 11 rows failed)", "verdict": "PASS"},
+    "360": {"rounds": 5, "counted": 3, "pixel": 0.16, "dh": 0, "contentDiff": "0 red / 0 nothing-lost / 633 advisory", "clipped": 0, "overflow": false, "units": "19 compared, 0 off", "chromeCrops": "header 100.00%, footer 100.00%", "capProbe": "PASS (run once at 2560)", "verdict": "PASS"}
+  },
+  "chromeParity": "quiet at 1440 and 360 (header 10/10 texts, footer 75/75). Live has no header landmark and no promo strip: header=#__next>div>div:nth-of-type(2)|#za-hdr-d (1440), #__next>div>div:nth-of-type(1)|#za-hdr-m (360) via GATE_CHROME_REGION. Page-side: secondary-row LinkText span (blog canon request 1), mobile CTA 16px (contact request 5), CTAs Try for free / Contact Sales",
+  "residuals": [
+    "Monthly/Annual cadence toggle (#pricing-cadence-toggle, '20% off annual') is display:none on the live page as served; carried hidden, no toggle behaviour implemented (never fires)",
+    "Hidden SSR modal content (24 feature modals, pricing-table comparison, contact-sales form, Copilot/WEM/Contact Center add-on modals) carried hidden in main; the 360 live DOM serves a narrower pricing-table variant (content-diff advisories only)",
+    "Tab pills 6px wider than live at 1440 (text width; Δx -10..+3), below the pixel bar",
+    "Logo row is a continuous marquee on live (14 imgs = 7 + 7 clones); build marquee 40s linear translateX(-50%), clones alt=\"\" aria-hidden; gate captures freeze both at t=0",
+    "Modal visual chrome (backdrop tint, dialog radius/size) not measured on live — interim styling; keyframes named as live (lbWRkT backdrop, inDLdD modal)",
+    "Mobile tab 'Previous tab'/'Next tab' scroll buttons carried (labels verbatim); scroll behaviour not observed, not implemented",
+    "Footer 'Do Not Sell or Share My Personal Information' = OneTrust-rewritten 'Cookie settings' (as on index/contact)",
+    "Contact-sales demo form (8-field, inside the hidden contact-sales modal): UI only, no backend — interim tier per dynamic-features.md D2"
+  ],
+  "motion": {
+    "observed": [
+      "FAQ accordion: single-open (opening item 2 collapses item 1), grid-template-rows + padding-bottom transitions, chevron rotate",
+      "feature buttons / 'Compare all plan features' open a modal (backdrop animation lbWRkT + modal entrance inDLdD) with the SSR modal content",
+      "a third modal 'Take Zendesk for a spin' fired during the run — not SSR page content (marketing/exit modal), not implemented",
+      "header stuck state (kOPZoh/hIDnGq) — canon-a.js",
+      "section 'active' class on enter (no style change)",
+      "hover probes on tabs, CTAs, feature buttons, Learn more, accordion headers, cards: no measured change"
+    ],
+    "implemented": ["FAQ single-open accordion (pricing.js + CSS transitions)", "modal open/close for [data-modal] buttons and #modal.* links, Esc/backdrop close, lbWRkT/inDLdD keyframes", "header stuck state via canon-a.js"],
+    "dead": ["all hover probes (no diff on live)", "cadence toggle (display:none)", "'Take Zendesk for a spin' promo modal (not page content)"]
+  },
+  "captureState": [
+    {"what": "Logo marquee frozen at t=0 by the gate capture", "restoreAtDelivery": "continuous marquee, linear, 7 logos + 7 presentational clones (live speed not measured — build 40s per loop)"},
+    {"what": "FAQ first item open at rest", "restoreAtDelivery": "as served (item 1 expanded), single-open accordion"}
+  ],
+  "passed": true
+}

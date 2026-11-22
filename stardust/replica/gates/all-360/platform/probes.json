@@ -1,0 +1,79 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-21T13:56:20.513Z",
+ "content": {
+  "totals": {
+   "missingHeadings": 0,
+   "hiddenHeadings": 0,
+   "extraHeadings": 0,
+   "missingLinks": 0,
+   "hiddenLinks": 0,
+   "movedLinks": 0,
+   "extraLinks": 0,
+   "missingButtons": 1,
+   "hiddenButtons": 0,
+   "controlState": 12,
+   "countDeltas": 0,
+   "findings": 49,
+   "structural": 0,
+   "missing": 0,
+   "hidden": 0
+  },
+  "variable": [],
+  "reason": null,
+  "tier": "chrome"
+ },
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 7,
+   "textNodes": 107,
+   "controls": 74,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.sv-carousel.block",
+    "path": "div.sv-res-list > div.sv-res-track > div.sv-res-slide > a.sv-res-card",
+    "text": "guidevisit the zendesk developer help center",
+    "cutMin": 139,
+    "cutMax": 139
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "a.sv-res-card",
+    "path": "a.sv-res-card > div.sv-res-content > div.sv-res-title > p",
+    "text": "visit the zendesk developer help center",
+    "cutMin": 78,
+    "cutMax": 78
+   }
+  ],
+  "origin": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 6,
+   "textNodes": 106,
+   "controls": 76,
+   "total": 0
+  },
+  "source": "content-presence"
+ }
+}

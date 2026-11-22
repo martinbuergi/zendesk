@@ -1,0 +1,115 @@
+{
+  "slug": "intro-tour",
+  "type": "unique",
+  "renderBranch": "A'",
+  "template": "pricing",
+  "modules": [
+    "pr-bar",
+    "pr-embed"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "za-section",
+    "za-section"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": "645151d94578",
+    "css": "6522953e4893"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Take a quick tour",
+    "description": "The best way to learn about Zendesk is to experience it like a customer. See for yourself how Zendesk makes customer experience easy.",
+    "canonical": "https://www.zendesk.com/intro-tour/",
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Take a quick tour",
+    "description": "The best way to learn about Zendesk is to experience it like a customer. See for yourself how Zendesk makes customer experience easy.",
+    "url": "https://www.zendesk.com/intro-tour/"
+  },
+  "migratedAt": "2026-11-20T17:01:09Z",
+  "designMdSha": "84a4a03d7364",
+  "designJsonSha": "28069f8740fe",
+  "sourceCurrentSha": "479f4006162b",
+  "sourceProposedSha": "3ee5a311e355",
+  "fidelityTier": "sibling",
+  "archetypeSource": "pricing",
+  "archetypeSha": "026208a619ab",
+  "variants": [
+    "pr-legacy",
+    "pr-embed",
+    "pr-bare-hdr",
+    "pr-ftr--legal"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "stardust/.work/render/unique/variance.json (sibling-variance.mjs pricing vs 3 siblings, 1440, exit 2: every probe varies — unique pages share no layout; deltas carried as variant classes, see variants[])",
+    "content-count": "stardust/.work/render/unique/counts.jsonl (count.py: capture regions vs migrated main sections — drops none, words missing 0)",
+    "content-fidelity": "verbatim from stardust/current/pages/intro-tour.html via stardust/rollout/encoders/sibling-unique/build.py; every non-archetype module declared in contentDeviations[]"
+  },
+  "contentDeviations": [
+    {
+      "kind": "module",
+      "source": "top bar without a heading (1 logo, 2 link/CTA item(s))",
+      "target": "section.pr-bar (logo + link group, verbatim)",
+      "reason": "no archetype (pricing) module for a page-own top bar; closest is the canon header bar — carried as a deviation module (delivery: default content row or a page nav fragment)"
+    },
+    {
+      "kind": "module",
+      "source": "iframe embed https://app.getreprise.com/launch/E63ba4y/ (title \"Intro Tour\")",
+      "target": "section.pr-embed > iframe (src/title verbatim)",
+      "reason": "no embed module in the archetype (pricing); carried as a deviation module — the archetype encoder does not emit it (delivery: embed block)"
+    },
+    {
+      "kind": "dynamic-dependency",
+      "source": "third-party embed https://app.getreprise.com/launch/E63ba4y/",
+      "target": "iframe passthrough",
+      "reason": "stardust/dynamic-features.md rows 106/107 (app.getreprise.com / static.reprise.com): embed-passthrough, decision needs-business-decision — the live tour renders \"This Account's Published Demos are Deactivated\" (captured state); markup kept verbatim [disposition=embed-passthrough; row=t-unknown-third-party-host-app-getreprise-com; endpoint=https://app.getreprise.com/launch/E63ba4y/]"
+    },
+    {
+      "kind": "chrome",
+      "source": "global site header (present in the DOM, not displayed on the live page — the tour bar is the page header)",
+      "target": "render without canon header",
+      "reason": "verbatim: the live page shows only its own tour bar (delivery: nav metadata off / empty nav)"
+    },
+    {
+      "kind": "chrome",
+      "source": "live footer: legal row only (Terms of Use / Privacy Notice / Cookie Notice / Do Not Sell or Share My Personal Information / Trust Center / ©Zendesk 2023)",
+      "target": "archetype footer reduced to its legal row, labels/hrefs from the capture",
+      "reason": "verbatim chrome (delivery: footer=/footer-legal or a page footer variant)"
+    }
+  ],
+  "assetsBundled": 16,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/company/agreements-and-terms/terms-of-use/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/cookie-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "intro-tour/index.html",
+  "outputPathDefault": null,
+  "sidecar": "intro-tour/_meta.json",
+  "driverVersion": "1"
+}

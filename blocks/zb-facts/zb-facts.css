@@ -1,0 +1,92 @@
+/* zb-facts — gen-B fact cards (canon-b .zb-facts / .zb-fact) */
+
+/* soft section ground (canon .zb-section--soft); after a quote pair the gap is the canon facts margin-top */
+main > .section.zb-facts-container {
+  padding: 32px 0;
+  background: var(--zb-grey-100);
+}
+
+.zb-quotes-wrapper + .zb-facts-wrapper { margin-top: 32px; }
+
+.zb-facts {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.zb-facts .zb-facts-row { background: var(--zb-white); }
+
+/* live grid col: flex 1 1 0 with min-width auto — items share the row and wrap on min-content (narrow viewports) */
+.zb-facts .zb-facts-col {
+  flex: 1 1 0;
+  max-width: 100%;
+  padding: 0 8px;
+}
+
+.zb-facts .zb-facts-fact {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin: 0 0 24px;
+  padding: 24px;
+  text-align: center;
+}
+
+.zb-facts .zb-facts-label :is(h2, h3, h4, p) {
+  margin: 0;
+  color: var(--zb-teal-900);
+  font-family: var(--zb-font-head);
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.zb-facts .zb-facts-value {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  color: var(--zb-teal-800);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.zb-facts .zb-facts-value p {
+  flex: 1 0 auto;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+@media (width >= 768px) {
+  main > .section.zb-facts-container { padding: 64px 0; }
+  .zb-quotes-wrapper + .zb-facts-wrapper { margin-top: 64px; }
+
+  .zb-facts .zb-facts-col {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  /* variants from the render: live col = 12 / fact count (default 4-up above) */
+  .zb-facts.three-up .zb-facts-col {
+    flex-basis: 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .zb-facts.two-up .zb-facts-col {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .zb-facts.one-up .zb-facts-col {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .zb-facts .zb-facts-fact {
+    height: 100%;
+    margin: 0;
+  }
+}

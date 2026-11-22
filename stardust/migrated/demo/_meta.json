@@ -1,0 +1,140 @@
+{
+  "slug": "demo",
+  "type": "form",
+  "renderBranch": "A'",
+  "template": "contact",
+  "modules": [
+    "form-choice-tiles",
+    "fm-form",
+    "fm-hero",
+    "fm-embed"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "ct-wrap"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": "eb12288bdf84",
+    "css": "6522953e4893"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "encoder-gap",
+      "encoder": "stardust/rollout/encoders/archetype-form/encode.py",
+      "scratch": "stardust/.work/render/form/enc/demo.html",
+      "exit": 0,
+      "blocks": [
+        "fm-form",
+        "fm-form hidden",
+        "fm-hero"
+      ],
+      "wordsNotCarried": 11,
+      "wordsTotal": 1160,
+      "gap": "Customize your free Zendesk demo Consumers Businesses Employees Select Select Select",
+      "iframesDropped": 1,
+      "imgsDropped": 0
+    }
+  ],
+  "metadata": {
+    "title": "Zendesk Demo | Watch a Quick Help Desk Software Demo",
+    "description": "It's easy. It's flexible. It's efficient. Watch a free Zendesk demo and learn why 145,000 organizations love using Zendesk for customer service.",
+    "canonical": "https://www.zendesk.com/demo/",
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Zendesk Demo | Watch a Quick Help Desk Software Demo",
+    "description": "It's easy. It's flexible. It's efficient. Watch a free Zendesk demo and learn why 145,000 organizations love using Zendesk for customer service.",
+    "url": "https://www.zendesk.com/demo/"
+  },
+  "migratedAt": "2026-11-20T16:48:23Z",
+  "designMdSha": "84a4a03d7364",
+  "designJsonSha": "28069f8740fe",
+  "sourceCurrentSha": "085421d29520",
+  "sourceProposedSha": "946bcb31c011",
+  "fidelityTier": "sibling",
+  "archetypeSource": "contact",
+  "archetypeSha": "616e2bf4d511",
+  "variants": [
+    "ct-compact ct-form--mid ct-embed ct-hero--modal ct-lead--lifted ct-dupform ct-hero--stack nav-ctas"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "media-reconcile"
+  ],
+  "gateEvidence": {
+    "variance-probe": "stardust/.work/render/form/variance.json (12 siblings vs /contact/, exit 2): \"main section:first-of-type\" matches 1 on the archetype, 0 on the sibling; rect{w 539 → 620, h 556 → 395}; color rgb(0, 0, 0) → rgb(17, 17, 13); font vanilla sans 16px/16px 400 → vanilla sans 16px/20px 400; heading null → h1 vanilla sans 26px/32.5px 500 rgb(17, 17, 13); 5 → 3 matches; 2 → 1 distinct style families among matches (a second visual family = a variant class); rect{w 539 → 1, h 48 → 1}; backgroundColor rgba(17, 17, 13, 0.05) → rgba(0, 0, 0, 0); color rgb(17, 17, 13) → rgb(0, 0, 0); padding 12px 12px 12px 12px → 0px 0px 0px 0px; font vanilla sans 15px/21px 400 → arial 13.3333px/norma -> variants ct-compact, ct-form--mid, ct-embed, ct-hero--modal, ct-lead--lifted, ct-dupform, ct-hero--stack, nav-ctas",
+    "content-count": "count.py: source {'headings': 2, 'body': 3, 'ctas': 4, 'hrefs': 1, 'images': 0, 'words': 1160} vs render {'headings': 2, 'body': 5, 'ctas': 4, 'hrefs': 1, 'images': 0, 'words': 1160}; drops none; words missing 0 (stardust/.work/render/form/counts.jsonl)",
+    "content-fidelity": "sibling-form/build.py: headings, text (block-level boundaries), CTA labels+hrefs, form schema (names/types/labels/options/placeholders/tooltips/validation text) verbatim from the hydrated capture; word multiset diff 0; deviations declared",
+    "pixel-gate-1440": "gate-all published origin main--3055ed88--aemcoder.aem.page @1440: pixel 0.08 [1.43]%, Δh 0px, clipped 0, MISSING 0 / HIDDEN 0 → PASS (cf1-g3.log; 2026-11-21T01-04-30-357Z-login.json)",
+    "pixel-gate-360": "gate-all published origin main--3055ed88--aemcoder.aem.page @360: pixel 0.48 [2.71]%, Δh 0px, clipped 0, MISSING 0 / HIDDEN 0 → PASS (cf1-g360b.log; 2026-11-21T00-55-39-557Z-login.json)",
+    "media-reconcile": "media-reconcile content/demo.html --deploy-host main--3055ed88--aemcoder.aem.live: 0 media (no editorial images)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "layout",
+      "source": "lead form in a modal dialog (role=dialog, outside main, open on load)",
+      "target": "hero section after the page content, variant ct-hero--modal",
+      "reason": "the archetype has no dialog; the form keeps its fields/text verbatim, presented inline"
+    },
+    {
+      "kind": "module",
+      "source": "iframe embed(s): https://zendesk.storylane.io/hub/mainhub-b2c-b2b-en-us",
+      "target": "section.ct-embed > iframe (src/title verbatim)",
+      "reason": "no embed module in the archetype (contact); carried as a variant section — the archetype encoder does not emit it (delivery: embed block)"
+    },
+    {
+      "kind": "chrome",
+      "source": "header CTAs Watch video demos (/demo/ondemand/) / Start a free trial (/register/)",
+      "target": "archetype slim header with the page's own CTA labels and hrefs",
+      "reason": "the page's live slim header carries different CTAs than /nav-slim (delivery: nav variant document)"
+    }
+  ],
+  "assetsBundled": 16,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/demo/ondemand/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/demo/ondemand/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/privacy-policy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/privacy-policy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/terms-of-use/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/agreements-and-terms/cookie-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/company/legal/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "demo/index.html",
+  "outputPathDefault": null,
+  "sidecar": "demo/_meta.json",
+  "driverVersion": "1"
+}

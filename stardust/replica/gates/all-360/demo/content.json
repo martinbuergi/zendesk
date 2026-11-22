@@ -1,0 +1,720 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-21T13:36:08.700Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.zendesk.com/demo/",
+  "at": "2026-11-21T13:35:50.946Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 906,
+  "root": "body",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.sc-93bde466-2.bFWlPl > div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0",
+    "x": 16,
+    "y": 0,
+    "w": 90,
+    "h": 60,
+    "text": "zendesk home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-93bde466-0.iLuIxD > div.sc-d3ef341b-6.gqqjgm > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0",
+    "x": 123,
+    "y": 9,
+    "w": 179,
+    "h": 43,
+    "text": "watch video demos",
+    "href": "/demo/ondemand/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.sc-93bde466-2.bFWlPl > div.Containerstyle__ContainerRoot-sc-j7wtnc-0.hHhIKw > button.sc-d3ef341b-0.emeCAG",
+    "x": 308,
+    "y": 8,
+    "w": 44,
+    "h": 44,
+    "text": "toggle mobile menu"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.StyledCol-sc-inuw62-0.diwjFN > nav.sc-512deb61-2.bTczeR > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0",
+    "x": 38,
+    "y": 804,
+    "w": 83,
+    "h": 18,
+    "text": "terms of use",
+    "href": "/company/agreements-and-terms/terms-of-use/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.StyledCol-sc-inuw62-0.diwjFN > nav.sc-512deb61-2.bTczeR > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0",
+    "x": 133,
+    "y": 804,
+    "w": 90,
+    "h": 18,
+    "text": "privacy notice",
+    "href": "/company/agreements-and-terms/privacy-notice/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.StyledCol-sc-inuw62-0.diwjFN > nav.sc-512deb61-2.bTczeR > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0",
+    "x": 235,
+    "y": 804,
+    "w": 87,
+    "h": 18,
+    "text": "cookie notice",
+    "href": "/company/agreements-and-terms/cookie-notice/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.StyledCol-sc-inuw62-0.diwjFN > nav.sc-512deb61-2.bTczeR > a#onetrust-show-cookie-settings",
+    "x": 38,
+    "y": 834,
+    "w": 283,
+    "h": 18,
+    "text": "do not sell or share my personal information",
+    "href": "/demo/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.StyledCol-sc-inuw62-0.diwjFN > nav.sc-512deb61-2.bTczeR > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0",
+    "x": 68,
+    "y": 864,
+    "w": 79,
+    "h": 18,
+    "text": "trust center",
+    "href": "/trust-center/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.StyledCol-sc-inuw62-0.diwjFN > nav.sc-512deb61-2.bTczeR > a.StyledButton-sc-qe3ace-0.StyledAnchor-sc-xshgmo-0",
+    "x": 160,
+    "y": 864,
+    "w": 132,
+    "h": 18,
+    "text": "© 2026 zendesk, inc.",
+    "href": "/company/legal/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-d0574c0f-1.dGKSxT > form#formpreset-1968429394 > h1#title-12d8220a87",
+    "x": 32,
+    "y": 232,
+    "w": 296,
+    "h": 55,
+    "level": 1,
+    "text": "customize your free zendesk demo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sc-9709aa77-0.hTAHlP > fieldset.StyledField-sc-12gzfsu-0.StyledFieldset-sc-1vr4mxv-0 > legend.StyledLabel-sc-2utmsz-0.StyledLegend-sc-6s0zwq-0",
+    "x": 32,
+    "y": 351,
+    "w": 296,
+    "h": 38,
+    "text": "Who will you help most often with Zendesk?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Tilesstyle__TilesRoot-sc-8b5xaa-0.bpJlEN > label.StyledTile-sc-1jjvmxs-0.jywBGP > span.StyledTileLabel-sc-1mypv27-0.eUseiA",
+    "x": 92,
+    "y": 420,
+    "w": 87,
+    "h": 24,
+    "text": "Consumers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Tilesstyle__TilesRoot-sc-8b5xaa-0.bpJlEN > label.StyledTile-sc-1jjvmxs-0.jywBGP > span.StyledTileLabel-sc-1mypv27-0.eUseiA",
+    "x": 92,
+    "y": 488,
+    "w": 86,
+    "h": 24,
+    "text": "Businesses"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Tilesstyle__TilesRoot-sc-8b5xaa-0.bpJlEN > label.StyledTile-sc-1jjvmxs-0.jywBGP > span.StyledTileLabel-sc-1mypv27-0.eUseiA",
+    "x": 92,
+    "y": 556,
+    "w": 82,
+    "h": 24,
+    "text": "Employees"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form#formpreset-1968429394 > div.LinkGroupstyle__LinkGroupRoot-sc-1rsp4bh-0.cKJYvn > button.Linkstyle__LinkRoot-sc-1n8u9ej-6.gOoWDr",
+    "x": 32,
+    "y": 620,
+    "w": 296,
+    "h": 48,
+    "text": "get started"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 13,
+    "controls": 10,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--3055ed88--aemcoder.aem.page/demo",
+  "at": "2026-11-21T13:36:08.570Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 906,
+  "root": "body.appear",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.za-container.za-hdr-nav > div.za-hdr-bar > a.za-logo",
+    "x": 16,
+    "y": 0,
+    "w": 90,
+    "h": 60,
+    "text": "zendesk home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.za-hdr-bar > div.za-hdr-ctas > a.za-btn.za-btn-sm",
+    "x": 165,
+    "y": 9,
+    "w": 179,
+    "h": 43,
+    "text": "watch video demos",
+    "href": "/demo/ondemand/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.fm-dialog > div.fm-dialog-body > h1#customize-your-free-zendesk-demo",
+    "x": 32,
+    "y": 232,
+    "w": 296,
+    "h": 55,
+    "level": 1,
+    "text": "customize your free zendesk demo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.fm-field.fm-field-full > fieldset.fm-fieldset > legend.fm-label",
+    "x": 32,
+    "y": 351,
+    "w": 296,
+    "h": 38,
+    "text": "Who will you help most often with Zendesk?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.fm-tiles > label.fm-tile.fm-tile-has-icon > span.fm-tile-label",
+    "x": 92,
+    "y": 420,
+    "w": 85,
+    "h": 24,
+    "text": "Consumers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.fm-tiles > label.fm-tile.fm-tile-has-icon > span.fm-tile-label",
+    "x": 92,
+    "y": 488,
+    "w": 83,
+    "h": 24,
+    "text": "Businesses"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.fm-tiles > label.fm-tile.fm-tile-has-icon > span.fm-tile-label",
+    "x": 92,
+    "y": 556,
+    "w": 79,
+    "h": 24,
+    "text": "Employees"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "form#contact-us-form > div.fm-actions > button.za-btn.za-btn-primary",
+    "x": 32,
+    "y": 620,
+    "w": 296,
+    "h": 48,
+    "text": "get started"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.za-col.za-ftr-slim-navcol > nav.za-ftr-slim-nav > a.za-ftr-slim-a",
+    "x": 38,
+    "y": 804,
+    "w": 83,
+    "h": 18,
+    "text": "terms of use",
+    "href": "/company/agreements-and-terms/terms-of-use/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.za-col.za-ftr-slim-navcol > nav.za-ftr-slim-nav > a.za-ftr-slim-a",
+    "x": 133,
+    "y": 804,
+    "w": 90,
+    "h": 18,
+    "text": "privacy notice",
+    "href": "/company/agreements-and-terms/privacy-notice/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.za-col.za-ftr-slim-navcol > nav.za-ftr-slim-nav > a.za-ftr-slim-a",
+    "x": 235,
+    "y": 804,
+    "w": 87,
+    "h": 18,
+    "text": "cookie notice",
+    "href": "/company/agreements-and-terms/cookie-notice/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.za-col.za-ftr-slim-navcol > nav.za-ftr-slim-nav > a#onetrust-show-cookie-settings",
+    "x": 38,
+    "y": 834,
+    "w": 283,
+    "h": 18,
+    "text": "do not sell or share my personal information",
+    "href": "/demo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.za-col.za-ftr-slim-navcol > nav.za-ftr-slim-nav > a.za-ftr-slim-a",
+    "x": 68,
+    "y": 864,
+    "w": 79,
+    "h": 18,
+    "text": "trust center",
+    "href": "/trust-center/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.za-col.za-ftr-slim-navcol > nav.za-ftr-slim-nav > a.za-ftr-slim-a",
+    "x": 160,
+    "y": 864,
+    "w": 132,
+    "h": 18,
+    "text": "© 2026 zendesk, inc.",
+    "href": "/company/legal/"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 1,
+    "textNodes": 14,
+    "controls": 10,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MISSING BUTTON"
+   ]
+  },
+  {
+   "index": 1,
+   "heading": "customize your free zendesk demo",
+   "variable": false,
+   "origin": {
+    "link": 6,
+    "button": 1,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"toggle mobile menu\" in band \"(top)\" (origin y 8) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "toggle mobile menu"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 1,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 139,
+    "y": 20,
+    "w": 147,
+    "h": 21
+   },
+   {
+    "x": 38,
+    "y": 804,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 133,
+    "y": 804,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 235,
+    "y": 804,
+    "w": 87,
+    "h": 18
+   },
+   {
+    "x": 38,
+    "y": 834,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 68,
+    "y": 864,
+    "w": 79,
+    "h": 18
+   },
+   {
+    "x": 160,
+    "y": 864,
+    "w": 132,
+    "h": 18
+   },
+   {
+    "x": 32,
+    "y": 231,
+    "w": 295,
+    "h": 28
+   },
+   {
+    "x": 32,
+    "y": 258,
+    "w": 59,
+    "h": 28
+   },
+   {
+    "x": 32,
+    "y": 350,
+    "w": 232,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 369,
+    "w": 67,
+    "h": 19
+   },
+   {
+    "x": 92,
+    "y": 421,
+    "w": 87,
+    "h": 21
+   },
+   {
+    "x": 92,
+    "y": 489,
+    "w": 86,
+    "h": 21
+   },
+   {
+    "x": 92,
+    "y": 557,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 132,
+    "y": 632,
+    "w": 95,
+    "h": 23
+   }
+  ],
+  "eds": [
+   {
+    "x": 181,
+    "y": 20,
+    "w": 147,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 231,
+    "w": 295,
+    "h": 28
+   },
+   {
+    "x": 32,
+    "y": 258,
+    "w": 59,
+    "h": 28
+   },
+   {
+    "x": 32,
+    "y": 350,
+    "w": 232,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 369,
+    "w": 67,
+    "h": 19
+   },
+   {
+    "x": 92,
+    "y": 421,
+    "w": 85,
+    "h": 21
+   },
+   {
+    "x": 92,
+    "y": 489,
+    "w": 83,
+    "h": 21
+   },
+   {
+    "x": 92,
+    "y": 557,
+    "w": 79,
+    "h": 21
+   },
+   {
+    "x": 132,
+    "y": 632,
+    "w": 95,
+    "h": 23
+   },
+   {
+    "x": 38,
+    "y": 804,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 133,
+    "y": 804,
+    "w": 90,
+    "h": 18
+   },
+   {
+    "x": 235,
+    "y": 804,
+    "w": 87,
+    "h": 18
+   },
+   {
+    "x": 38,
+    "y": 834,
+    "w": 283,
+    "h": 18
+   },
+   {
+    "x": 68,
+    "y": 864,
+    "w": 79,
+    "h": 18
+   },
+   {
+    "x": 160,
+    "y": 864,
+    "w": 132,
+    "h": 18
+   }
+  ]
+ }
+}

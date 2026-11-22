@@ -1,0 +1,24 @@
+
+Content diff @ 1440px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 58 text nodes — 11 headings, 0 eyebrows, 2 CTAs, 45 body; 2 img
+  build: 58 text nodes — 11 headings, 0 eyebrows, 2 CTAs, 45 body; 2 img
+  editable texts (outermost h*/p/ul/ol): source 55 / build 55
+  attributes (placeholder/aria-label/title): source 1 / build 1; icons: source 7 / build 7
+root "header"
+  source: 63 text nodes — 0 headings, 0 eyebrows, 19 CTAs, 44 body; 0 img
+  build: 62 text nodes — 0 headings, 0 eyebrows, 18 CTAs, 44 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 5 / build 5
+  attributes (placeholder/aria-label/title): source 13 / build 12; icons: source 10 / build 9
+root "footer"
+  source: 71 text nodes — 7 headings, 0 eyebrows, 61 CTAs, 3 body; 0 img
+  build: 71 text nodes — 7 headings, 0 eyebrows, 61 CTAs, 3 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 13 / build 13
+  attributes (placeholder/aria-label/title): source 20 / build 19; icons: source 17 / build 17
+
+Findings: 4 (3 structural 🔴)
+Tiers: looks-same 🔴 3 · nothing-lost 🟡 1 · accepted 🟢 0 (owner 0, auto 0) · advisory 0
+  🔴 MISSING CTA [header]: source cta "Zendesk Help center" → https://support.zendesk.com/hc/en-us/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING ICON [header]: source inline svg (opens in a new tab) (0×0) at "zendesk help center" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING PLACEHOLDER [footer]: source <input> placeholder="What's your email?" has no build <input> with that placeholder. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [header]: source <svg> aria-label="(opens in a new tab)" has no build <svg> with that aria-label (build <svg> aria-labels: "(opens in a new tab)", "(opens in a new tab)", "(opens in a new tab)"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.

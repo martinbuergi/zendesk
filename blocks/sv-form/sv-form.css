@@ -1,0 +1,125 @@
+/* sv-form — lead form; `modal` = the hidden Contact Sales dialog */
+.sv-form .sv-modal-form {
+  width: 100%;
+  max-width: 680px;
+  max-height: 100%;
+  overflow: auto;
+  padding: 40px;
+  border-radius: 20px;
+  background: var(--za-white);
+}
+
+.sv-form.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: rgb(17 17 13 / 60%);
+}
+
+.sv-form.modal[hidden] { display: none; }
+
+.sv-form .sv-modal-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px 24px;
+  margin-bottom: 24px;
+}
+
+.sv-form .sv-field:nth-child(-n+2) { grid-column: 1 / 3; }
+
+.sv-form .sv-field-label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--za-ink);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.sv-form .sv-input {
+  display: block;
+  width: 100%;
+  min-height: 48px;
+  margin: 0;
+  padding: 12px;
+  appearance: none;
+  border: none;
+  border-radius: 12px;
+  background: rgb(17 17 13 / 5%);
+  box-shadow: rgb(17 17 13 / 47%) 0 0 0 1px inset;
+  color: var(--za-ink);
+  font-family: var(--za-font);
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.sv-form .sv-input:focus {
+  outline: none;
+  box-shadow: rgb(17 17 13) 0 0 0 2px inset;
+}
+
+.sv-form textarea.sv-input {
+  min-height: 96px;
+  resize: vertical;
+}
+
+.sv-form .sv-tip { display: none; }
+
+.sv-form .sv-small {
+  color: var(--za-ink);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.sv-form .sv-small p {
+  margin: 0 0 16px;
+  font: inherit;
+}
+
+.sv-form .sv-small a {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.sv-form .sv-ext { display: none; }
+
+.sv-form .sv-form-status {
+  margin: 16px 0 0;
+  color: var(--za-ink);
+  font-size: 15px;
+}
+
+.sv-form .sv-form-status:empty { display: none; }
+
+@media (width >= 768px) {
+  .sv-form .sv-input { font-size: 15px; }
+}
+
+@media (width >= 1150px) {
+  .sv-form .sv-small { font-size: 14px; }
+}
+
+.sv-form .sv-field-check {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 8px;
+  grid-column: 1 / 3;
+}
+
+.sv-form .sv-field-check .sv-field-label {
+  margin: 0;
+  font-weight: 400;
+}
+
+.sv-form .sv-check {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  margin: 2px 0 0;
+}

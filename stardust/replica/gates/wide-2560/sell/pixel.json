@@ -1,0 +1,245 @@
+{
+  "a": "stardust/replica/gates/wide-2560/sell/origin.png",
+  "b": "stardust/replica/gates/wide-2560/sell/eds.png",
+  "compared": {
+    "width": 2560,
+    "height": 7803,
+    "mode": "overlap"
+  },
+  "heightDelta": -58,
+  "differingPixels": 707950,
+  "pct": 3.54,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/wide-2560/sell/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 3.9
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 5.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 1.8
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 1.8
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 3
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 2
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 2.3
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 3.8
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 4.1
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 12.7
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 7.7
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 1.6
+    },
+    {
+      "y0": 7500,
+      "y1": 7803,
+      "pct": 3.3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 3.26,
+    "differingPixels": 656014,
+    "compared": {
+      "width": 2560,
+      "height": 7872,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 4820,
+        "shift": 27,
+        "cumulative": 27
+      },
+      {
+        "y": 5043,
+        "shift": 8,
+        "cumulative": 35
+      },
+      {
+        "y": 5438,
+        "shift": 34,
+        "cumulative": 69
+      },
+      {
+        "y": 6292,
+        "shift": -11,
+        "cumulative": 58
+      }
+    ],
+    "maxOffset": 69,
+    "totalShift": 80,
+    "insertedRows": 69,
+    "deletedRows": 11,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 3.9,
+        "unaligned": 3.9
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 5.2,
+        "unaligned": 5.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 2.1,
+        "unaligned": 2.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 1,
+        "unaligned": 1
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1.8,
+        "unaligned": 1.8
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 1.8,
+        "unaligned": 1.8
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 3,
+        "unaligned": 3
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 2,
+        "unaligned": 2
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 7,
+        "unaligned": 2.3
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 9.8,
+        "unaligned": 3.8
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 1.5,
+        "unaligned": 4.1
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 4.4,
+        "unaligned": 12.7
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 6.2,
+        "unaligned": 7.7
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0,
+        "unaligned": 1.6
+      },
+      {
+        "y0": 7500,
+        "y1": 7803,
+        "pct": 0,
+        "unaligned": 3.3
+      }
+    ],
+    "diff": "stardust/replica/gates/wide-2560/sell/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 78,
+    "totalShift": 80,
+    "pass": false
+  },
+  "reason": "offsets: 4 step(s), 80px total — +27px at y=4820, +8px at y=5043, +34px at y=5438, −11px at y=6292 (bound 78px)"
+}

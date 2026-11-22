@@ -1,0 +1,182 @@
+[live-session] waiting to pace live navigations to www.zendesk.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 360px, tol 4px — https://www.zendesk.com/contact/ vs http://localhost:8791/contact-proposed.html
+unit 1 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,1520 344×115 vs served 4,1520 352×115 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 89,-1 32×24 | 93,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "global hq - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "181 fremont st. san francisco, ca 94" | 8,34 328×65 | 12,34 328×65 | +4 | 0 | 0 | 0 | ✓ |
+| link "zendesk.com" | 8,76 93×24 | 12,76 93×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 2 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,1635 344×153 vs served 4,1635 352×153 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 82,-1 32×24 | 86,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "australia - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "level13, 550 bourke street, melbourn" | 8,34 328×65 | 12,34 328×65 | +4 | 0 | 0 | 0 | ✓ |
+| link "zendesk.com/au" | 8,114 116×24 | 12,114 116×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 3 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,1788 344×175 vs served 4,1788 352×175 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 58,-1 32×24 | 62,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "brazil - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "av. dr. chucri zaidan, 920 - 14th fl" | 8,34 328×87 | 12,34 328×87 | +4 | 0 | 0 | 0 | ✓ |
+| link "zendesk.com.br" | 8,136 112×24 | 12,136 112×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 4 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,1962 344×153 vs served 4,1962 352×153 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 84,-1 32×24 | 88,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "denmark - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "njalsgade 72c, 2 2300 københavn s de" | 8,34 328×65 | 12,34 328×65 | +4 | 0 | 0 | 0 | ✓ |
+| link "zendesk.com/dk" | 8,114 116×24 | 12,114 116×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 5 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,2163 344×159 vs served 4,2163 352×159 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 67,-1 32×24 | 71,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "france - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "morning trocadero 7 rue de magdebour" | 8,34 328×109 | 12,34 328×109 | +4 | 0 | 0 | 0 | ✓ |
+| link "zendesk.fr" | 8,120 74×24 | 12,120 74×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 6 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,2321 344×137 vs served 4,2321 352×137 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 84,-1 32×24 | 88,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "germany - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "paul-lincke-ufer 39/40 | hof 4 aufga" | 8,34 328×87 | 12,34 328×87 | +4 | 0 | 0 | 0 | ✓ |
+| link "zendesk.de" | 8,98 80×24 | 12,98 80×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 7 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,2458 344×159 vs served 4,2458 352×159 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 133,-1 32×24 | 137,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "india, bangalore - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "43, residency rd shanthala nagar, as" | 8,34 328×109 | 12,34 328×109 | +4 | 0 | 0 | 0 | ✓ |
+| link "zendesk.com/in" | 8,120 112×24 | 12,120 112×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 8 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,2617 344×175 vs served 4,2617 352×175 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 97,-1 32×24 | 101,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "india, pune - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "zendesk technologies private limited" | 8,34 328×87 | 12,34 328×87 | +4 | 0 | 0 | 0 | ✓ |
+| link "zendesk.com/in" | 8,136 112×24 | 12,136 112×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 9 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,2839 344×115 vs served 4,2839 352×115 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 68,-1 32×24 | 72,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "ireland - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "55 charlemont pl saint kevin's, dubl" | 8,34 328×65 | 12,34 328×65 | +4 | 0 | 0 | 0 | ✓ |
+unit 10 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,2954 344×137 vs served 4,2954 352×137 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 49,-1 32×24 | 53,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "italy - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "via san marco 21 20121 - milano ital" | 8,34 328×87 | 12,34 328×87 | +4 | 0 | 0 | 0 | ✓ |
+| link "zendesk.com/it" | 8,98 109×24 | 12,98 109×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 11 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,3091 344×137 vs served 4,3091 352×137 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 61,-1 32×24 | 65,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "japan - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "〒104-0031 東京都中央区京橋 2-2-1 京橋エドグラン" | 8,34 328×87 | 12,34 328×87 | +4 | 0 | 0 | 0 | ✓ |
+| link "zendesk.co.jp" | 8,98 95×24 | 12,98 95×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 12 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,3228 344×115 vs served 4,3228 352×115 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 141,-1 32×24 | 145,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "republic of korea - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "373 gangnam-daero, seocho-dong, seoc" | 8,34 328×65 | 12,34 328×65 | +4 | 0 | 0 | 0 | ✓ |
+| link "zendesk.kr" | 8,76 77×24 | 12,76 77×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 13 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,3391 344×115 vs served 4,3391 352×115 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 106,-1 32×24 | 110,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "netherlands - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "strawinskylaan 4117 4th floor 1077 z" | 8,34 328×65 | 12,34 328×65 | +4 | 0 | 0 | 0 | ✓ |
+| link "zendesk.nl" | 8,76 75×24 | 12,76 75×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 14 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,3506 344×93 vs served 4,3506 352×93 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 97,-1 32×24 | 101,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "philippines - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "5th ave, taguig, metro manila, phili" | 8,34 328×44 | 12,34 328×44 | +4 | 0 | 0 | 0 | ✓ |
+| link "ask.philippines@zendesk.com" | 8,54 214×24 | 12,54 214×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 15 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,3599 344×72 vs served 4,3599 352×72 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 68,-1 32×24 | 72,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "poland - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "marii konopnickiej 29, 30-302 kraków" | 8,34 328×22 | 12,34 328×22 | +4 | 0 | 0 | 0 | ✓ |
+unit 16 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,3670 344×137 vs served 4,3670 352×137 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 133,-1 32×24 | 137,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "united kingdom - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "30 eastbourne terrace paddington, lo" | 8,34 328×87 | 12,34 328×87 | +4 | 0 | 0 | 0 | ✓ |
+| link "zendesk.co.uk" | 8,98 99×24 | 12,98 99×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 17 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,3855 344×137 vs served 4,3855 352×137 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 92,-1 32×24 | 96,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "singapore - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "9 straits view marina one west tower" | 8,34 328×87 | 12,34 328×87 | +4 | 0 | 0 | 0 | ✓ |
+| link "zendesk.com/sg" | 8,98 116×24 | 12,98 116×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 18 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,3992 344×72 vs served 4,3992 352×72 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "spain" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| link "zendesk.es" | 8,33 78×24 | 12,33 78×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 19 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,4063 344×72 vs served 4,4063 352×72 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "sweden" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| link "zendesk.com/se" | 8,33 115×24 | 12,33 115×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 20 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,4135 344×93 vs served 4,4135 352×93 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 116,-1 32×24 | 120,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "usa, madison - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "25 w main st madison, wi 53703" | 8,34 328×44 | 12,34 328×44 | +4 | 0 | 0 | 0 | ✓ |
+unit 21 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,4276 344×72 vs served 4,4276 352×72 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "thailand" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| link "ask.thailand@zendesk.com" | 8,33 194×24 | 12,33 194×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 22 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,4348 344×72 vs served 4,4348 352×72 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "indonesia" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| link "ask.indonesia@zendesk.com" | 8,33 205×24 | 12,33 205×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 23 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,4419 344×72 vs served 4,4419 352×72 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "malaysia" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| link "ask.malaysia@zendesk.com" | 8,33 200×24 | 12,33 200×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 24 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,4491 344×115 vs served 4,4491 352×115 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "greater china region sales support" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| link "zendesk.tw" | 8,33 79×24 | 12,33 79×24 | +4 | 0 | 0 | 0 | ✓ |
+| link "zendesk.hk" | 8,54 80×24 | 12,54 80×24 | +4 | 0 | 0 | 0 | ✓ |
+| link "ask.gcr@zendesk.com" | 8,76 160×24 | 12,76 160×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 25 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,4654 344×72 vs served 4,4654 352×72 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "vietnam" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| link "contact sales" | 8,33 97×24 | 12,33 97×24 | +4 | 0 | 0 | 0 | ✓ |
+unit 26 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,4725 344×115 vs served 4,4725 352×115 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 134,-1 32×24 | 138,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "portugal, lisbon - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "wework, r. alexandre herculano 50 6t" | 8,34 328×65 | 12,34 328×65 | +4 | 0 | 0 | 0 | ✓ |
+unit 27 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,4840 344×72 vs served 4,4840 352×72 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 124,-1 32×24 | 128,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "estonia, tallinn - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "vana-lõuna tn 39-1, 10134" | 8,34 328×22 | 12,34 328×22 | +4 | 0 | 0 | 0 | ✓ |
+unit 28 of gen-a-office-cell (required) #grid-16572934 [data-garden-id="grid.col"]=.ct-office: origin 8,4912 344×93 vs served 4,4912 352×93 → Δx -4 Δy 0 Δw +8 Δh 0  ✗ unit size; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "map" | 138,-1 32×24 | 142,-1 32×24 | +4 | 0 | 0 | 0 | ✓ |
+| heading "us, austin, texas - map" | 8,0 328×22 | 12,0 328×22 | +4 | 0 | 0 | 0 | ✓ |
+| text "405 comal st., floor 6 austin, tx 78" | 8,34 328×44 | 12,34 328×44 | +4 | 0 | 0 | 0 | ✓ |
+Units: 28 compared; elements within 94, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/contact-360/units-iter2.json
