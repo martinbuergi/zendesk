@@ -1,0 +1,244 @@
+{
+  "templates": [
+    {
+      "name": "service-2",
+      "urls": [
+        "https://www.zendesk.com/service/ai/",
+        "https://www.zendesk.com/service/ai/ai-agents/any-platform/",
+        "https://www.zendesk.com/service/ai/ai-agents/zendesk-bridge/",
+        "https://www.zendesk.com/service/analytics/",
+        "https://www.zendesk.com/service/messaging/",
+        "https://www.zendesk.com/service/ticketing-system/",
+        "https://www.zendesk.com/employee-service/itsm/",
+        "https://www.zendesk.com/service/knowledge/",
+        "https://www.zendesk.com/service/voice/",
+        "https://www.zendesk.com/business/startups/",
+        "https://www.zendesk.com/industries/retail/",
+        "https://www.zendesk.com/industries/financial-services/",
+        "https://www.zendesk.com/industries/technology/",
+        "https://www.zendesk.com/industries/media/",
+        "https://www.zendesk.com/business/enterprise/",
+        "https://www.zendesk.com/business/smb/",
+        "https://www.zendesk.com/industries/transportation/",
+        "https://www.zendesk.com/industries/education/",
+        "https://www.zendesk.com/industries/government/",
+        "https://www.zendesk.com/industries/manufacturing/",
+        "https://www.zendesk.com/industries/healthcare/",
+        "https://www.zendesk.com/industries/telecommunications/",
+        "https://www.zendesk.com/industries/igaming-and-betting/",
+        "https://www.zendesk.com/service/contact-center/",
+        "https://www.zendesk.com/service/ai/ai-agents/",
+        "https://www.zendesk.com/service/ai/copilot/",
+        "https://www.zendesk.com/service/quality-assurance/",
+        "https://www.zendesk.com/service/workforce-management/"
+      ],
+      "representativeUrl": "https://www.zendesk.com/service/ai/",
+      "description": "Zendesk AI product sub-pages (AI, AI agents, Bridge, analytics): hero, media splits, cards, stories, resources carousel, FAQ and closing CTA, built from the sv-* blocks.",
+      "blocks": [
+        {
+          "name": "sv-hero",
+          "instances": [
+            "#main-content > div > section.sc-f23d7fd5-11:has(h1)"
+          ]
+        },
+        {
+          "name": "sv-cards",
+          "instances": [
+            "#main-content > div > section.sc-f23d7fd5-11 > div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div[id^=\"grid-\"]:has(.Cardstyle__CardRoot-sc-12jokda-2)"
+          ]
+        },
+        {
+          "name": "sv-columns",
+          "instances": [
+            "#main-content > div > section.sc-f23d7fd5-11:not(:has(h1)) > div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div.sc-f23d7fd5-8:has(> div span.sc-fdfb305c-0)",
+            "#main-content > div > section.sc-f23d7fd5-11 div.sc-c5fa0909-1"
+          ]
+        },
+        {
+          "name": "sv-stories",
+          "instances": [
+            "#main-content > div > section.sc-f23d7fd5-11 div.sc-612b179e-0",
+            "#main-content > div > section.sc-f23d7fd5-11 div:has(> div.sc-8c256214-0):not(:has(.slick-slide))"
+          ]
+        },
+        {
+          "name": "sv-carousel",
+          "instances": [
+            "#main-content > div > section.sc-f23d7fd5-11 div:has(> .Carouselstyle__CarouselSlider-sc-1mnw5o8-3)"
+          ]
+        },
+        {
+          "name": "sv-accordion",
+          "instances": [
+            "#main-content > div > section.sc-f23d7fd5-11 > div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > section.sc-ceec712a-1",
+            "#main-content > div > section.sc-f23d7fd5-11 > div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div[id^=\"grid-\"] .Accordionstyle__AccordionRoot-sc-1baakjb-1"
+          ]
+        },
+        {
+          "name": "sv-cta",
+          "instances": [
+            "#main-content > div > section.sc-f23d7fd5-11:has(> div.sc-f23d7fd5-9):not(:has(h1))"
+          ]
+        },
+        {
+          "name": "sv-form",
+          "instances": [
+            "#main-content > div > div:has(> div.sc-d0574c0f-1 > form)"
+          ]
+        }
+      ],
+      "urlPattern": "/service/*",
+      "sections": [
+        {
+          "id": "rc2",
+          "name": "Hero",
+          "selector": [
+            "#main-content > div > section.sc-f23d7fd5-11:has(h1)"
+          ],
+          "style": null,
+          "blocks": [
+            "sv-hero"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc3",
+          "name": "AI solutions icon row",
+          "selector": [
+            "#main-content > div > section.sc-f23d7fd5-11:has(.Cardstyle__CardRoot-sc-12jokda-2)"
+          ],
+          "style": null,
+          "blocks": [
+            "sv-cards"
+          ],
+          "defaultContent": [
+            "#main-content > div > section.sc-f23d7fd5-11:has(.Cardstyle__CardRoot-sc-12jokda-2) > div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div.sc-f23d7fd5-8 p.Headingstyle__HeadingRoot-sc-6ks3it-0",
+            "#main-content > div > section.sc-f23d7fd5-11:has(.Cardstyle__CardRoot-sc-12jokda-2) > div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div.sc-f23d7fd5-8 h2.Headingstyle__HeadingRoot-sc-6ks3it-0"
+          ]
+        },
+        {
+          "id": "rc4",
+          "name": "Knowledge split",
+          "selector": [
+            "#main-content > div > section.sc-f23d7fd5-11:not(:has(h1)):is(:has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div.sc-f23d7fd5-8 > div span.sc-fdfb305c-0), :has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > section.sc-ceec712a-1))"
+          ],
+          "style": null,
+          "blocks": [
+            "sv-columns",
+            "sv-accordion"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc5",
+          "name": "AI agents split (image left)",
+          "selector": [
+            "#main-content > div > section.sc-f23d7fd5-11:not(:has(h1)):is(:has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div.sc-f23d7fd5-8 > div span.sc-fdfb305c-0), :has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > section.sc-ceec712a-1)) ~ section.sc-f23d7fd5-11:not(:has(h1)):is(:has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div.sc-f23d7fd5-8 > div span.sc-fdfb305c-0), :has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > section.sc-ceec712a-1))"
+          ],
+          "style": null,
+          "blocks": [
+            "sv-columns",
+            "sv-accordion"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc6",
+          "name": "Copilot split",
+          "selector": [
+            "#main-content > div > section.sc-f23d7fd5-11:not(:has(h1)):is(:has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div.sc-f23d7fd5-8 > div span.sc-fdfb305c-0), :has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > section.sc-ceec712a-1)) ~ section.sc-f23d7fd5-11:not(:has(h1)):is(:has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div.sc-f23d7fd5-8 > div span.sc-fdfb305c-0), :has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > section.sc-ceec712a-1)) ~ section.sc-f23d7fd5-11:not(:has(h1)):is(:has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div.sc-f23d7fd5-8 > div span.sc-fdfb305c-0), :has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > section.sc-ceec712a-1))"
+          ],
+          "style": null,
+          "blocks": [
+            "sv-columns",
+            "sv-accordion"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc7",
+          "name": "Quality assurance split (image left)",
+          "selector": [
+            "#main-content > div > section.sc-f23d7fd5-11:not(:has(h1)):is(:has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div.sc-f23d7fd5-8 > div span.sc-fdfb305c-0), :has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > section.sc-ceec712a-1)) ~ section.sc-f23d7fd5-11:not(:has(h1)):is(:has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div.sc-f23d7fd5-8 > div span.sc-fdfb305c-0), :has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > section.sc-ceec712a-1)) ~ section.sc-f23d7fd5-11:not(:has(h1)):is(:has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div.sc-f23d7fd5-8 > div span.sc-fdfb305c-0), :has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > section.sc-ceec712a-1)) ~ section.sc-f23d7fd5-11:not(:has(h1)):is(:has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div.sc-f23d7fd5-8 > div span.sc-fdfb305c-0), :has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > section.sc-ceec712a-1))"
+          ],
+          "style": null,
+          "blocks": [
+            "sv-columns",
+            "sv-accordion"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc8",
+          "name": "Customer stories",
+          "selector": [
+            "#main-content > div > section.sc-f23d7fd5-11:has(div.sc-612b179e-0)"
+          ],
+          "style": "cream",
+          "blocks": [
+            "sv-stories"
+          ],
+          "defaultContent": [
+            "#main-content > div > section.sc-f23d7fd5-11:has(div.sc-612b179e-0) > div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div.sc-f23d7fd5-8 p.Headingstyle__HeadingRoot-sc-6ks3it-0"
+          ]
+        },
+        {
+          "id": "rc9",
+          "name": "ROI report banner",
+          "selector": [
+            "#main-content > div > section.sc-f23d7fd5-11:has(div.sc-c5fa0909-1)"
+          ],
+          "style": null,
+          "blocks": [
+            "sv-columns"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc10",
+          "name": "Additional resources",
+          "selector": [
+            "#main-content > div > section.sc-f23d7fd5-11:has(.Carouselstyle__CarouselSlider-sc-1mnw5o8-3)"
+          ],
+          "style": null,
+          "blocks": [
+            "sv-carousel"
+          ],
+          "defaultContent": [
+            "#main-content > div > section.sc-f23d7fd5-11:has(.Carouselstyle__CarouselSlider-sc-1mnw5o8-3) h2.Headingstyle__HeadingRoot-sc-6ks3it-0"
+          ]
+        },
+        {
+          "id": "rc11",
+          "name": "FAQ",
+          "selector": [
+            "#main-content > div > section.sc-f23d7fd5-11:has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div[id^=\"grid-\"] .Accordionstyle__AccordionRoot-sc-1baakjb-1)"
+          ],
+          "style": null,
+          "blocks": [
+            "sv-accordion"
+          ],
+          "defaultContent": [
+            "#main-content > div > section.sc-f23d7fd5-11:has(> div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div[id^=\"grid-\"] .Accordionstyle__AccordionRoot-sc-1baakjb-1) > div.sc-f23d7fd5-7 > div.sc-f23d7fd5-2 > div[id^=\"grid-\"] h2.Headingstyle__HeadingRoot-sc-6ks3it-0"
+          ]
+        },
+        {
+          "id": "rc12",
+          "name": "Closing CTA",
+          "selector": [
+            "#main-content > div > section.sc-f23d7fd5-11:has(> div.sc-f23d7fd5-9):not(:has(h1))"
+          ],
+          "style": null,
+          "blocks": [
+            "sv-cta",
+            "sv-form"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "projectType": "da"
+  }
+}
