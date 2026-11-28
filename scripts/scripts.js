@@ -10,7 +10,18 @@ import {
   loadSections,
   loadCSS,
   buildBlock,
+  getMetadata,
+  sampleRUM,
 } from './aem.js';
+import { runExperimentation, runExperimentationLazy } from './experiment-loader.js';
+import cohortRules from './cohort-rules.js';
+import { runCohorts, rememberVisit, watchSignIn } from './cohorts.js';
+import { previewForce, listenForPicks } from './cohort-preview.js';
+
+const experimentationConfig = {
+  prodHost: 'www.zendesk.com',
+  audiences: {},
+};
 
 if (window.trustedTypes && window.trustedTypes.createPolicy) {
   const innerTT = window.trustedTypes.createPolicy('tt-inner', {
@@ -163,9 +174,15 @@ async function loadEager(doc) {
   import('./martech.js').then((m) => m.loadConsent());
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
+  // the plugin picks the arm and, for the challenger, swaps in the cohort page's <main>
+  await runExperimentation(doc, experimentationConfig);
   const main = doc.querySelector('main');
   if (main) {
     decorateMain(main);
+    // after decoration (sections carry their metadata), before the first section shows
+    const force = previewForce();
+    const cohort = runCohorts(main, cohortRules, { sampleRUM, getMetadata, force });
+    if (cohort) listenForPicks(force?.id || 'default');
     document.body.classList.add('appear');
     await loadSection(main.querySelector('.section'), waitForFirstImage);
   }
@@ -198,6 +215,11 @@ async function loadLazy(doc) {
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   loadFonts();
+
+  // on-device memory on every page: visits, interests, signed in
+  rememberVisit(cohortRules);
+  watchSignIn(cohortRules);
+  await runExperimentationLazy(doc, experimentationConfig);
 }
 
 /**
@@ -207,6 +229,10 @@ async function loadLazy(doc) {
 function loadDelayed() {
   import('./consent-check.js');
   // load anything that can be postponed to the latest here
+  if (new URLSearchParams(window.location.search).has('demo')) {
+    loadCSS(`${window.hlx.codeBasePath}/styles/cohort-panel.css`);
+    import('./cohort-panel.js').then((m) => m.default(cohortRules));
+  }
 }
 
 async function loadPage() {
